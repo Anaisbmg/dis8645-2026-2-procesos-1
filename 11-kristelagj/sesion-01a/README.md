@@ -14,6 +14,12 @@ Leer 1 libro por semestre.
 
 Sociedad especulativa
 
+Solo ocupar minusculas
+
+Mayúscula y minúscula es distinto
+
+- Khipu
+
 parestesis: función o acción
 
 Sin paréntesis : dato
