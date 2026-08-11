@@ -11,3 +11,8 @@ hacker code
 se me ocurrió otra cosa
 
 
+## apuntes sesión
+
+## encargos
+
+## lectura
