@@ -16,8 +16,27 @@ Con esta maravillosa introducción de Heidi, (a parte de que es maravillosamente
 
 Ella trabaja mucho con hongos, y “desechos marinos”, como las ostras, conchas, entre otros. Sus resultados son prueba y error, no es un camino lineal.
 
+## encargos  
+### Descripción y análisis de 2 sistemas diferentes de botones de dos ascensores/elevadores.
 
+#### Ascensor 1:
+La primera parte con la que el usuario interactúa (imagen del lado izquierdo) antes de entrar al elevador para bajar del piso 6, es el botón de llamada para solo bajar (ya que es el último piso en este edificio), el llama al elevador para que te baje a tu destino. En este también podemos observar una pantalla digital, la cual nos indica la ubicación del ascensor para poder tener precisión de dónde está, y la dirección en la que se dirige.
 
-## encargos
+En este elevador tenemos dos pantallas porque hay 2 elevadores, pero un solo botón que los llama.
+
+Por dentro del elevador, cuenta con 10 botones con los que el usuario puede interactuar:   
+En la parte inferior del panel de botones del elevador tenemos:
+
+- Botón izquierdo de la imagen: Para abrir la puerta del elevador <>
+- Botón derecho de la imagen: Para cerrar la puerta del elevador ><
+  
+Luego, están los números que indican los niveles a los cuales las personas pueden ir en/desde el elevador, y están estructurados de la siguiente manera; 3 en la izquierda *(1,2 y 3),* y 3 en la derecha los cuales comienzan paralelo desde el número 2 del lado izquierdo *(4,5 y 6).*
+
+Y por último, están 2 botones demasiado importantes en caso de alguna emergencia:  
+- Botón izquierdo de la imagen: Alarma, que al presionarlo, emite un sonido acústico fuerte en el edificio para alertar a las personas que estén dentro y fuera del recinto o lugar donde está el elevador.  
+- Botón derecho de la imagen: Es el botón de ayuda telefónica, al mantenerlo presionado por unos segundos, activa una línea de comunicación directa con el personal de conserjería o personal del edificio. 
+
+También he de resaltar que sobre la superficie de estos botones tenemos un sistema táctil de lectura y escritura para personas con discapacidad visual, llamado **Braille.**
+
 
 ## lectura
