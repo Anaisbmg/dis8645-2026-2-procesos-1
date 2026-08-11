@@ -9,6 +9,8 @@ El día de hoy, esta bitácora se dividirá en 2 partes:
 ### 1. Reunión de bienvenida al nuevo taller dirigido por Heidi Jalikh, y a nuestro inicio de clases.
 “Heidi Jalkh es diseñadora experimental, investigadora y educadora nacida en Medellín y radicada en Buenos Aires. Con formación en diseño industrial y una maestría en investigación interdisciplinaria, recibió en 2022 el Premio Humboldt a la Innovación.
 
+![ascensor 1](./imagenes/heidi.jpg)
+
 Su práctica explora la creación de materiales bioinspirados y procesos artesanales, conectando diseño, biología e ingeniería. Desde 2018 dirige el grupo de investigación Sistemas Materiales, donde desarrolla proyectos que integran forma, comportamiento y materialidad”. 
 [cumulo.com](https://cumulo.com.ar/portfolio/heidi-jalkh/)
 
