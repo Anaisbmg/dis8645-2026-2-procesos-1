@@ -121,7 +121,7 @@ cuando entré al ascensor, por un momento creí que estaba en un escenario de te
 
 ![esto está horrible ayuda señor Unimarc](./imagenes/la-peor-interfaz-de-usuario-ayuda.jpg)
 
-honestamente no entiendo por qué no han cambiado esta interfaz, la cual ni siquiera tiene una versión en braille o con relieves para que personas con discapacidad visual puedan utilizarla.
+honestamente no entiendo por qué no han cambiado esta interfaz, la cual ni siquiera tiene una versión de números en braille o con relieves para que personas con discapacidad visual puedan utilizarla.
 
 ### botoneras
 
