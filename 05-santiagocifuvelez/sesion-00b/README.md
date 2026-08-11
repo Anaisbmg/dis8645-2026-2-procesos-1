@@ -38,5 +38,25 @@ Y por último, están 2 botones demasiado importantes en caso de alguna emergenc
 
 También he de resaltar que sobre la superficie de estos botones tenemos un sistema táctil de lectura y escritura para personas con discapacidad visual, llamado **Braille.**
 
+### Ascensor 2: 
+La primera parte con la que el usuario interactúa (imagen del lado izquierdo) antes de entrar al elevador para subir desde el piso 1 a su destino (cualquiera en un rango de 1 a 13), es el botón de llamada para solo subir, pues no hay nivel 0 para bajar y que en su panel este este indicativo (Botón hacia arriba y botón hacia abajo), él llama al elevador para que te suba a tu destino. En este también podemos observar una pantalla digital, la cual nos indica la ubicación del ascensor para poder tener precisión de dónde está, y la dirección en la que se dirige.
+
+En este elevador tenemos dos pantallas porque hay 2 elevadores, pero un solo botón que los llama.
+
+Este cuenta con 17 botones y un cuadro LED a la derecha que la verdad no se que función cumple por ahora.
+
+En la parte inferior del panel de botones del elevador tenemos:  
+- Botón izquierdo de la imagen: Para abrir la puerta del elevador <>
+- Botón derecho de la imagen: Para cerrar la puerta del elevador ><
+  
+Luego, están los números que indican los niveles a los cuales las personas pueden ir en/desde el elevador, y están estructurados en zigzag desde el 1 hasta el 14, y en el panel donde se encuentran estos botones, están organizados de grupos de 3: 
+
+*1-2-3*  
+*4-5-6*  
+*7-8-9*  
+*10-11-12*  
+*13 y 14*  
+
+Y por último, a diferencia del elevador anterior, solo tenemos un botón de Alarma, que al presionarlo, emite un sonido acústico fuerte en el edificio para alertar a las personas que estén dentro y fuera del recinto o lugar donde está el elevador. Este no cuenta con botón de llamada como el anterior.
 
 ## lectura
