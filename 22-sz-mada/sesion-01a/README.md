@@ -6,7 +6,7 @@
 
 ### Bloque 9:00 - 10:30
 
-Aarón nos hizo elegir un libro para leer a lo largo del semestre, elegí **Chromatic Algorithms de Carolyn L. Kane**
+Aarón nos hizo elegir un libro para leer a lo largo del semestre, elegí **Chromatic Algorithms de Carolyn L. Kane**. Lo ideal es leer mínimo 100 páginas a lo largo del semestre. Cada martes, como encargo, hay que destacar dos citas y/o dar una descripción/resumen de las páginas leídas.
 
 ![Libro Chromatic Algorithms de Carolyn L. Kane](./imagenes/chromatic_algorithm.jpg)
 
@@ -26,9 +26,9 @@ When it comes to what an elevator can actually do, funciona en base a variables 
 
 Aarón habló del comando *sudo rm -rf* (what does it do? no idea honestly, spaced out and wasn't paying attention when the topic started). Solo entendí que es un NO lo uses, it **WILL** brick tu pc.
 
-(self task: breakdown said command to understand it properly)
+**(self task: breakdown said command to understand it properly)**
 
-Follow-up al self task: *su* es super-user (admin privilege) and *do* es do lol. Da permiso para modificar cualquier archivo en el computador. *rm* es el comando "remover". *-r* es un comando recursivo que le dice al computador que aplique el comando previo (en este caso, rm) a una carpeta específica con sus contenidos y todas sus subcarpetas. Finalmente *f* es forzar; self-explanatory.
+Follow-up al self task: *su* es super-user (admin privilege basically) and *do* es do lol; da permiso para modificar cualquier archivo en el computador. *rm* es el comando "remover". *-r* es un comando recursivo que le dice al computador que aplique el comando previo (en este caso, rm) a una carpeta específica con sus contenidos y todas sus subcarpetas. Finalmente *f* es forzar; self-explanatory.
 
 ## encargos
 
