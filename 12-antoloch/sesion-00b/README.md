@@ -11,9 +11,9 @@ Al tomar este curso, me llamo mucho la atención, de aprender cosas nuevas.
 ## encargos
 ![ascensor1](./imagenes/ascensor1.jpg)
 
-![ascensor2](./imagenes/ascensor2.jpg)
+![ascensor2](./imagenes/ascensor2.JPG)
 
-![ascensor3](./imagenes/ascensor3.jpg)
+![ascensor3](./imagenes/ascensor3.JPG)
 
 
 ![ascensor4](./imagenes/ascensor4.jpg)
