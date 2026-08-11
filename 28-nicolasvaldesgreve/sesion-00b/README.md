@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-esta clase fue introductoria, por lo que nos Aarón explicó un poco de lo que trataría este semestre y nos presentamos entre todos!!
+esta clase fue introductoria, por lo que Aarón nos explicó un poco de lo que trataría este semestre y nos presentamos entre todos!!
 
 ---
 
