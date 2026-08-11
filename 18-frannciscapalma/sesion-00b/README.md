@@ -2,6 +2,12 @@
 
 ## apuntes sesión
 
+### Charla
+
+Materia Situada Heidi Jalkh
+
+### Clase
+
 En esta sesión Aarón hizo una introducción al ramo, se presentaron los profesores y alumnos.
 
 ## encargos
