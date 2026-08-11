@@ -24,9 +24,11 @@ When it comes to what an elevator can actually do, funciona en base a variables 
 
 **! En este semestre trabajaremos variables, funciones y pov !**
 
-Aarón habló del código? *sudo rm rf* (what does it do? no idea honestly, spaced out and wasn't paying attention when the topic started). Solo entendí que es un NO lo uses, it **WILL** brick tu pc.
+Aarón habló del comando *sudo rm -rf* (what does it do? no idea honestly, spaced out and wasn't paying attention when the topic started). Solo entendí que es un NO lo uses, it **WILL** brick tu pc.
 
-(self task: breakdown said code string to understand it properly)
+(self task: breakdown said command to understand it properly)
+
+Follow-up al self task: *su* es super-user (admin privilege) and *do* es do lol. Da permiso para modificar cualquier archivo en el computador. *rm* es el comando "remover". *-r* es un comando recursivo que le dice al computador que aplique el comando previo (en este caso, rm) a una carpeta específica con sus contenidos y todas sus subcarpetas. Finalmente *f* es forzar; self-explanatory.
 
 ## encargos
 
