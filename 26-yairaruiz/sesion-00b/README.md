@@ -2,6 +2,10 @@
 
 ## apuntes sesión
 
+sacar fotos de botones de ascensores
+
 ## encargos
+
+
 
 ## lectura
