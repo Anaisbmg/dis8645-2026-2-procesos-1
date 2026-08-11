@@ -34,9 +34,12 @@ Luego, están los números que indican los niveles a los cuales las personas pue
 
 Y por último, están 2 botones demasiado importantes en caso de alguna emergencia:  
 - Botón izquierdo de la imagen: Alarma, que al presionarlo, emite un sonido acústico fuerte en el edificio para alertar a las personas que estén dentro y fuera del recinto o lugar donde está el elevador.  
-- Botón derecho de la imagen: Es el botón de ayuda telefónica, al mantenerlo presionado por unos segundos, activa una línea de comunicación directa con el personal de conserjería o personal del edificio. 
-
+- Botón derecho de la imagen: Es el botón de ayuda telefónica, al mantenerlo presionado por unos segundos, activa una línea de comunicación directa con el personal de conserjería o personal del edificio.
+  
 También he de resaltar que sobre la superficie de estos botones tenemos un sistema táctil de lectura y escritura para personas con discapacidad visual, llamado **Braille.**
+
+![ascensor 1](./imagenes/img1.jpeg)
+![ascensor 1.1](./imagenes/img2.jpeg)
 
 ### Ascensor 2: 
 La primera parte con la que el usuario interactúa (imagen del lado izquierdo) antes de entrar al elevador para subir desde el piso 1 a su destino (cualquiera en un rango de 1 a 13), es el botón de llamada para solo subir, pues no hay nivel 0 para bajar y que en su panel este este indicativo (Botón hacia arriba y botón hacia abajo), él llama al elevador para que te suba a tu destino. En este también podemos observar una pantalla digital, la cual nos indica la ubicación del ascensor para poder tener precisión de dónde está, y la dirección en la que se dirige.
@@ -58,5 +61,8 @@ Luego, están los números que indican los niveles a los cuales las personas pue
 *13 y 14*  
 
 Y por último, a diferencia del elevador anterior, solo tenemos un botón de Alarma, que al presionarlo, emite un sonido acústico fuerte en el edificio para alertar a las personas que estén dentro y fuera del recinto o lugar donde está el elevador. Este no cuenta con botón de llamada como el anterior.
+
+![ascensor 2](./imagenes/img3.jpeg)
+![ascensor 2.2](./imagenes/img4.jpeg)
 
 ## lectura
