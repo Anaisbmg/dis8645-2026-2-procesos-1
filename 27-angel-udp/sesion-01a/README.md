@@ -6,7 +6,7 @@
 
 Me llevé este libro
 
-![imagen de la portada del libro la guía oficial de Raspberry Pi para principiantes](./libro-raspberry.jpg)
+![imagen de la portada del libro la guía oficial de Raspberry Pi para principiantes](./imagenes/libro-raspberry.jpg)
 
 Tarea: subir imágenes con texto de los ascensores al repositorio
 
