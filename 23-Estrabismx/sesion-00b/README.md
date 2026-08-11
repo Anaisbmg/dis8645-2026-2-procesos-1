@@ -2,9 +2,23 @@
 
 ## apuntes sesión
 
-## encargos
+La clase inicio con una presentación de [Heidi Jalkh](https://www.instagram.com/heidijalkh/), la cual tenía como nombre _Materia situada_. Esto es por su enfoque en la integración orgánica de la biodiversidad en el ámbito material
 
- ### 01
+Su colectivo interdisciplinar _sistemas materiales_, se realizaron la pregunta de ¿Porque primero definir la forma para luego elegir un material? Por lo que empezaron a desarrollar desde el material las formas acordes a lo que necesitaban. Dentro de este trabajo se plantearon 3 conceptos claves para el trabajo
+
+1. Bio-inspirado: Observan elementos morfológicos para buscar reproducirlos.
+
+2. Bio-fabricados: Forzar el crecimiento de un elemento biológico en base a lo que necesites
+
+3. Bio-basado: Utilizar elementaos naturales para la creación de un material
+
+   --- 
+
+Luego de esto se nos presentó un caso que fue el que más me llamo la atención, donde a partir de la planta de hielo se generó un patrón que responde de manera inversa a la tensión del material.
+
+Esto se denomina Comportamientos pasivos y funcionan en base a las fibras de los materiales. 
+
+## encargos
 
 Para el siguiente encargo debemos analizar las botoneras de los ascensores
 
