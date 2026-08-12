@@ -12,6 +12,9 @@
 * un ascensor cuenta con variables de altura, en la cual se puede seleccionar su altura mediante los botones los cuales estan configurados parar subir/bajar y posicionar el ascensor en cada planta del edificio. a su vez tiene un mecanismo el cual permite jalar el ascensor o dejarlo caer para que este se pueda mover en Z en un cierto tiempo.
 * los paneles de botones del exterior normalmente traen 2 botones cuando es el ultimo o inicio es solo un boton.
 * los paneles de botones del interior contienen enumeracion para cada piso, tambien tienen botones en caso de emergencia, boton para cerrarr y abrir puertas (para vivier en una sociedad mejor lo ideal seria eliiminar el boton paar cerrar las puertas
+
 ## encargos
+1. autorretrato: describir variables y funciones de ustedes.
+
 
 ## lectura
