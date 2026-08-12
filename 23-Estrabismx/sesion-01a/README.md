@@ -12,8 +12,6 @@ Además, se nos mencionó la importancia de responder todo correo con la opción
 
 Dentro del semestre se nos entregó un libro, el cual debemos desglosar 2 citas semanalmente. En mi caso elegí: _the computers that made the world_
 
-## encargos
-
 ### Definición de Ascensor
 
 Lo primero es entender que elementos componen un ascensor, es decir, cuáles son las **constantes**
@@ -51,6 +49,18 @@ Luego estas **variables** hacen operar acciones o **funciones**
 3. (cerrarPuerta)
 
 4. (MantenerAscensor)
+
+   <br>
+
+## encargos
+
+1. Autorretrato:
+
+Variables: 
+
+- 
+autorretrato: describir variables y funciones de ustedes.
+investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 ## lectura - the computers that made the world
 
