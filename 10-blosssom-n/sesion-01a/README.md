@@ -1,11 +1,15 @@
 # sesion-01a
 
 ## apuntes sesión
-GitHub / branch
+GitHub / branch?
+
 Update the branch when I’m behind (I will be behind most of the time, Aaron said he would put me behind when im ahead asap).
+
 Use page that says “forked from:” and it should say my user.
 The idea is to understand the logic of GitHub more than just memorize buttons: there is an original repository, I have my own fork and inside it I work on my branch. If the original repository advances and my version stays behind, I have to update it to work with the most recent changes.
+
 ![alt text](./)
+
 ![book cover prehistoric digital poetry]() (formulas)
 Acá la lógica es poner una descripción de la imagen entre [que sería texto alterno] y después indicar dónde está el archivo entre (). ?
 
@@ -19,32 +23,56 @@ La máquina está todo el tiempo recibiendo datos. El botón es solamente la par
 Group act. about elevators
 
 DATOS
+
 puertas (1 panel, 1 par de paneles o dos par de paneles)
-botones 
+
+botones:
+
 números enteros positivos y negativos
+
 abrir puertas
+
 cerrar puertas
+
 emergencia
+
 eje (z) 
+
 contrapeso
+
 carril
+
 espejos (opcional)
+
 pantallas
+
 cantidad de pisos
+
 electricidad
 
+
 DATOS INTERNOS
+
 piso actual
+
 dirección (subir/bajar)
 
+
 DATOS CONSTANTES GENERALES
+
 botón de emergencia llamativo
+
 número de pisos positivos y negativos (subterráneos)
+
 puertas
 
+
 Datos variables:
+
 botón de accesibilidad (permite que el ascensor baje inmediatamente al piso de destino.)
+
 Panel exterior conectado a 2-4 ascensores, laa cabinas no tienen panel para seleccionar destino
+
 Panel exterior con botones específicos para solo subir, o solo bajar.
 
 
