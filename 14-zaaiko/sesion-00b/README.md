@@ -12,9 +12,13 @@ bueno, este primer ascensor no sé si es muy bueno, se divide en pares e impares
 
 ### Ascensor 2
 
-<img src="./imagenes/ascensor2a.jpg" width="300">  <img src="./imagenes/ascensor2b.jpg" width="300">
+<img src="./imagenes/ascensor2a.jpg" width="250">  <img src="./imagenes/ascensor2b.jpg" width="250">
 
 el segundo ascensor es bastante común la verdad, cuenta con indicador de pisos en cada uno, y el panel interior contiene todos los números y botones de emergencia, bastante bien diferenciados, no solo par o impar, en el tablero del interior los números van ascendiendo por hileras horizontales y bastante asimétricas, lo que me incomoda en cierto punto, pero funciona bastante bien, este igual cuenta con piso uno bien indicado e incluso es de un color distinto, a diferencia del primero, este para llamarlo tiene un botón de subida y otro de bajada.
+
+<img src="./imagenes/ascensor3a.jpg" width="250">  <img src="./imagenes/ascensor3b.jpg" width="250">
+
+finalmente, este último era el más moderno, contaba con una buena pantalla para mostrar los pisos, los botones se ven bien organizados y simétricos, cuenta con botones de emergencia igualmente, tiene en los botones exteriores para elegir entre subir y otro para bajar, me llamó la atención que, a diferencia de los demás, tenía un sticker de no fumar, cumple bien con lo básico de los ascensores.
 
 
 ## lectura
