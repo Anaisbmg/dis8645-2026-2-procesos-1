@@ -16,5 +16,9 @@
 ## encargos
 1. autorretrato: describir variables y funciones de ustedes.
 
+const nombre = "Tomas Catrileo"
+let edad = 22
+const ojos = #432918 
+let orejas =
 
 ## lectura
