@@ -7,15 +7,18 @@ las instrucciones para un comptador siempre son desde cero y precisas, no entien
 
 ## encargos
 ASCENSORESSS
+
 1
 ![ascensor sede udp huechuraba](./imagenes/ascensor1-udp-huechuraba.jpeg)
 Ascensor sede udp de Huechuraba
 12 botones de pisos, organizados en dos columnas,. Los números impares están a la izquierda y los pares a la derecha, mientras que los subterráneos están al revés.
 Los botones seleccionados se iluminan en rojo, mostrando de inmediato que la instrucción fue registrada. También se nota bastante desgaste en algunos números y símbolos, por el uso seguramente. Los botones de emergencia están separados de los pisos. Hay dos botones con diseño diferente, quizá fueron agregados después o los renovaron. todos tienen braile además de que todos los simbolos tienen relieve
+
 2
 ![ascensor sede udp huechuraba](./imagenes/ascensor2-metro.jpeg)
 Ascensor metro
 2 botones de pisos, organizados de forma vertical, más simple porque solo conecta con dos niveles subterráneos. Debajo están agrupados los botones de funcionamiento. Todos los botones incluyen braille, incluso los que no corresponden a pisos. El botón de emergencia esté reforzado con un sticker externo, haciéndolo mucho más visible. Abajo aparece además una llave de control, separada de los botones normales y pensada seguramente el personal. 
+
 3
 ![ascensor sede udp huechuraba](./imagenes/ascensor3-mall.jpeg)
 Ascensor mall
