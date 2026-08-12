@@ -67,15 +67,15 @@ Ejemplos de fotos y contextos:
 
 - Reloj de mano digital personal y de uso común que venden en la feria, con varias funciones en las que aparecen letras y símbolos, pero principalmente, en cuanto a lo esencial, son los números de la hora que los indica en el centro del reloj mismo.
 
-![imágen reloj](./imagenes/libro-raspberry.jpg)
+![imágen reloj](./imagenes/imagen-reloj.jpeg)
 
 - Calculadora de estudio se encuentra con estudiantes de escuelas, universitarios, escritorios y oficinas de trabajo principalmente. En mi caso está en mi casa y permite mostrar números, una cantidad limitada de letras como: E, F, L, C o H que pueden formarse con ciertas combinaciones de segmentos y símbolos de operaciones.
 
-![imágen calculadora](./imagenes/libro-raspberry.jpg)
+![imágen calculadora](./imagenes/imagen-calculadora.jpeg)
 
 - Timer de cocina, muestra principalmente números positivos que van retrocediendo hasta llegar a cero para que apenas llegue a cero suene inmediatamente, tiene solo 3 botones azules y en ellos está escrito MIN: de minutos, SEG: de segundos y en el último está escrito INICIAR/PARAR, que indica si iniciar la cuenta regresiva o detener la cuenta regresiva, para colocar todo en cero o "apagar" hay que apretar el botón de MIN junto al de SEG a la vez por medio segundo de tiempo.
 
-![imágen timer de cocina](./imagenes/libro-raspberry.jpg)
+![imágen timer de cocina](./imagenes/imagen-timer.jpeg)
 
 **Comparativa**
 
