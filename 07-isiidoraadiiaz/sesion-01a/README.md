@@ -44,4 +44,4 @@ DATOS
 ## encargos
 
 ## lectura
-![portada libro](./imagenes/portada libro.jpg/)
+![portada libro](./imagenes/portada libro.jpg)
