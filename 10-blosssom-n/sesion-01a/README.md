@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 GitHub / branch
-Update the branch when I’m behind (I will be behind most of the time, Aaron said he would put me behind asap).
+Update the branch when I’m behind (I will be behind most of the time, Aaron said he would put me behind when im ahead asap).
 Use page that says “forked from:” and it should say my user.
 The idea is to understand the logic of GitHub more than just memorize buttons: there is an original repository, I have my own fork and inside it I work on my branch. If the original repository advances and my version stays behind, I have to update it to work with the most recent changes.
 ![alt text](./)
