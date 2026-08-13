@@ -2,7 +2,9 @@
 
 ## apuntes sesión
 
-### pre-clase (teloneo Aaron)
+# Clase 110826
+
+### pre-clase (teloneo Aaron) y clase 
 
 Idiomas en suiza: son varios, lo que están el alemán y el inglés.
 
@@ -14,7 +16,7 @@ Leer 1 libro por semestre.
 
 Sociedad especulativa
 
-Solo ocupar minusculas
+Solo ocupar minúsculas
 
 Mayúscula y minúscula es distinto
 
@@ -28,7 +30,33 @@ Variable,  funciones y punto de vista
 
 sudo rm -rf 
 
-
 ## encargos
+
+### post-clase
+
+Esta es la estructura que hay que seguir para hacer las variables 
+
+tipo-de-variable nombre-de-variable[=valor] (si queremos declarar más variables, podemos separarlas entre , ); Una variable puede tener cualquier nombre conformado por letras y/o números, que no incluya espacios, símbolos especiales.
+
+Nota que después de declarar una serie de variables de un mismo tipo hay que poner un ;
+
+int: Para valores tipo números enteros
+
+float: números decimales y/o no enteros. 
+
+bool: . Un booleano es un tipo de dato que solo puede tener dos valores opuestos: verdadero (true) o falso (false).
+
+
+string nombre=kristel;
+string 
+int edad=21;
+int fechadenacimiento=2003
+float altura=1.65;
+bool estudiodiseno=verdadero;
+bool trabajo=verdadero;
+
+
+https://www.include-poetry.com/Code/C++/Introduccion/Variables/
+
 
 ## lectura
