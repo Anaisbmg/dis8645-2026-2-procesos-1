@@ -21,6 +21,6 @@ A3 En este ascensor se puede ver que en la parte de afuera existe únicamente un
 
 Al ingresar al ascensor, los botones están distribuidos en dos columnas y tres filas. Cuenta con un total de 6 botones, donde solo 2 son números, 1 y -1. Los demás botones indican las funciones de abrir y cerrar las puertas, un botón de emergencia y uno de asistencia. También cuenta con una pantalla para visualizar el piso al que se quiere ir.
 
-![texto](./imagenes/ascensores.jpg)
+![foto ascensores](./imagenes/ascensores-a1-a2-a3.png)
 
 ## lectura
