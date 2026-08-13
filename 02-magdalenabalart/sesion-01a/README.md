@@ -45,7 +45,7 @@ La tabla representa una base general del sistema. Estos elementos pueden variar 
 - autorretrato de variables
 - pantalla de segmentos
 
-## Variables (autorretrato de variables)
+## Variables 
 
 Una variable es un espacio que utiliza el computador para **guardar un dato** mientras se ejecuta un programa. A ese espacio se le asigna un nombre para poder identificar la información y utilizarla cuando sea necesario. Por ejemplo, si hacemos un programa que suma dos números, podemos tener una variable numero1 para guardar el primer valor, otra llamada numero2 para guardar el segundo y una variable resultado para guardar la suma de ambos. Así, las variables permiten almacenar, identificar, reutilizar y modificar los datos con los que trabaja un programa.
 
@@ -160,11 +160,176 @@ Por ejemplo:
 comidasFavoritas[0] // "Sushi"
 comidasFavoritas[1] // "Pasta"
 
+## Funciones (esto todavía me cuesta un poco más que las variables)
 
+Las funciones son bloques de código que realizan una tarea específica dentro de un programa. Muchas veces trabajan con variables, ya que estas contienen los datos que la función necesita para realizar una acción o cálculo. Una función puede recibir variables como entrada, procesarlas y luego devolver un resultado. Por ejemplo, una función que suma dos números puede recibir una variable para cada número y guardar el resultado en otra variable. En resumen, las variables almacenan la información y las funciones utilizan esa información para realizar procesos o acciones.
 
-## Autorretrato en variables 
+una función puede:
+
+- Recibir datos.
+- Trabajar con esos datos.
+- Realizar una acción.
+- Reutilizarse varias veces dentro del programa.
+- realizar una acción sin devolver ningún dato;
+- devolver un resultado;
+- mostrar información en pantalla;
+- hacer cálculos;
+- evaluar condiciones;
+- transformar datos.
+
+es importante separar dos cosas:
+
+1. **El tipo de retorno de la función**
+2. **Las instrucciones que la función ejecuta dentro**
+
+## 1. Tipo de retorno de una función
+
+El tipo que aparece antes del nombre de una función indica **qué tipo de dato devuelve esa función al terminar**.
+
+| Tipo de retorno | Qué significa |
+|---|---|
+| `void` | La función no devuelve ningún dato |
+| `bool` | Devuelve `true` o `false` |
+| `int` | Devuelve un número entero |
+| `float` | Devuelve un número decimal |
+| `double` | Devuelve un número decimal con mayor precisión |
+| `string` | Devuelve texto |
+| `char` | Devuelve un solo carácter |
+
+La estructura general es:
 
 ```cpp
+tipoRetorno nombreFuncion(parametros) {
+    // instrucciones
+}
+```
+## 2. Funciones `void`
+
+`void` significa que la función **realiza una acción, pero no devuelve un dato al programa**.
+
+Su estructura puede ser:
+
+```cpp
+void nombreFuncion(parametros) {
+    // instrucciones
+}
+```
+
+Una función `void` puede, por ejemplo, mostrar información en pantalla, modificar algo o ejecutar una acción.
+
+No necesita devolver un valor mediante `return`.
+
+## 3. Funciones que devuelven un dato
+
+Cuando una función comienza con `bool`, `int`, `float`, `string`, etc., significa que **debe entregar un resultado compatible con ese tipo de dato**.
+
+Estas funciones normalmente utilizan `return`.
+
+La estructura es:
+
+```cpp
+tipoRetorno nombreFuncion(parametros) {
+    // instrucciones
+    return resultado;
+}
+```
+
+Según el tipo de retorno:
+
+```text
+bool   → devuelve true o false
+int    → devuelve un número entero
+float  → devuelve un número decimal
+string → devuelve texto
+char   → devuelve un carácter
+```
+
+## 4. `return`
+
+`return` sirve para **entregar el resultado de una función de vuelta al programa**.
+
+No muestra el resultado en pantalla.
+
+Su función es devolver un dato para que pueda ser guardado, utilizado por otra variable o usado en otra parte del programa.
+
+```cpp
+return resultado;
+```
+
+Por lo tanto:
+
+> `return` entrega un dato al programa.
+
+## 5. `cout`
+
+`cout` sirve para **mostrar información en la consola o pantalla**.
+
+```cpp
+cout << informacion;
+```
+
+`cout` no devuelve un dato. Simplemente lo muestra.
+
+Por lo tanto:
+
+> `cout` muestra información al usuario.
+
+
+(Gracias chatgpt por intentar ayudarme a entender, pero todavía necesitaré explicación humana)
+
+
+Las funciones existen en muchos lenguajes y cumplen el mismo propósito general, pero su forma de declararlas y utilizarlas depende de cada lenguaje de programación. (al igual que las variables) 
+
+c++
+
+tipoRetorno nombreFuncion(parametros) {
+    // instrucciones
+    return resultado;
+}
+
+| Sintaxis | Qué significa | Ejemplo |
+|---|---|---|
+| `cout` | Se utiliza para mostrar información en la consola | `cout << "Hola";` |
+| `<<` | Operador de inserción. Envía información hacia `cout` | `cout << nombre;` |
+| `endl` | Termina la línea actual y continúa en una nueva línea | `cout << "Hola" << endl;` |
+| `return` | Devuelve un valor desde una función al lugar donde fue llamada | `return resultado;` |
+| `()` | Se utilizan en las funciones para indicar o recibir parámetros | `sumar(int a, int b)` |
+| `{ }` | Delimitan el bloque de instrucciones de una función | `int main() { ... }` |
+| `;` | Indica el final de una instrucción | `int edad = 25;` |
+| `=` | Asigna un valor a una variable | `edad = 25;` |
+| `//` | Permite escribir un comentario de una sola línea | `// Este es un comentario` |
+| `/* */` | Permite escribir comentarios de varias líneas | `/* comentario */` |
+
+Los " " son espacios que se agregan entre los datos para que no queden pegados.
+
+
+
+## Autorretrato en variables y funciones 
+
+```cpp
+
+// FUNCIONES
+
+void mostrarNombreCompleto(string nombre, string apellidoPaterno, string apellidoMaterno) {
+    cout << nombre << " " << apellidoPaterno << " " << apellidoMaterno << endl;
+}
+
+string crearRutCompleto(string rut, char dv) {
+    return rut + "-" + dv;
+}
+
+void mostrarNetflixFavoritos(string peliculaFavorita, string animeFavorito) {
+    cout << peliculaFavorita << " " << animeFavorito << endl;
+}
+
+void saludar(string saludo) {
+    cout << saludo << endl;
+}
+
+int main() {
+
+// VARIABLES
+
 // Datos de nombre
 string nombre = "Magdalena";
 string apellidoPaterno = "Balart";
@@ -193,13 +358,13 @@ int horasEstudioMin = 2;
 int horasEstudioMax = 4;
 
 // Mis favoritos
-string peliculaFavorita: "Perfect Days";
+string peliculaFavorita = "Perfect Days";
 string ciudadFavorita = "Antofagasta";
 string artistaFavorito = "Mara Faundez";
 string animeFavorito = "Frieren";
 string obraFavorita = "La Bailarina";
 string coloresFavoritos[2] = {"Rojo", "Azul"};
-string comidaFavorita = {"Hamburguesas", "Pizza", "Pastas", "Sushi"};
+string comidaFavorita[4] = {"Hamburguesas", "Pizza", "Pastas", "Sushi"};
 char numeroFavorito = '5';
 
 // lo falso y lo cierto
@@ -207,6 +372,16 @@ bool sabeConducir = false;
 bool sabeCocinar = true;
 bool haceDeporte = false; 
 bool leGustaViajar = true;
+
+ // LLAMAR A LAS FUNCIONES
+
+saludar("Holis");
+
+mostrarNombreCompleto(nombre, apellidoPaterno, apellidoMaterno);
+
+string rutCompleto = crearRutCompleto(rut, dv);
+
+mostrarNetflixFavoritos(peliculaFavorita, animeFavorito);
 ```
 
 
