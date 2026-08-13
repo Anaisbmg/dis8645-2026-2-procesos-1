@@ -48,11 +48,17 @@ bool: . Un booleano es un tipo de dato que solo puede tener dos valores opuestos
 
 
 string nombre=kristel;
-string 
+
+string colorfavorito=azul;
+
 int edad=21;
+
 int fechadenacimiento=2003
+
 float altura=1.65;
+
 bool estudiodiseno=verdadero;
+
 bool trabajo=verdadero;
 
 
