@@ -58,9 +58,9 @@ int fechadenacimiento=2003
 
 float altura=1.65;
 
-bool estudiodiseno=verdadero;
+bool estudiodiseno=true;
 
-bool trabajo=verdadero;
+bool trabajo=true;
 
 
 https://www.include-poetry.com/Code/C++/Introduccion/Variables/
