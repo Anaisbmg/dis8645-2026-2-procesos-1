@@ -119,8 +119,6 @@ Material: Goma eva con una estructura geométrica auxética.
 
 <img width="1946" height="3258" alt="Davila3" src="https://github.com/user-attachments/assets/48409880-2ea6-4511-a390-92d65f2466a4" />
 
-<img width="369" height="497" alt="Davila4" src="https://github.com/user-attachments/assets/bbd5256f-b667-44ed-86e6-95095297362d" />
-
 Imágenes sacadas por mi :)
 
 
