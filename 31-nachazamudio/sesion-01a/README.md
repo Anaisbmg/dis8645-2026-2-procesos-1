@@ -7,6 +7,15 @@ elegí el libro computational drawing
 
 ## apuntes sesión
 
+características de un ascensor:
+
+tiene puertas
+
+sube y baja(eje z)
+
+tiene botones, poleas, contrapeso, motor
+
+
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
 datos internos:
