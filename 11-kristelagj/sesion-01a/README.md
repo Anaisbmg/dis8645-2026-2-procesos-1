@@ -34,6 +34,8 @@ sudo rm -rf
 
 ### post-clase
 
+*Encargo 1:*
+
 Esta es la estructura que hay que seguir para hacer las variables 
 
 tipo-de-variable nombre-de-variable[=valor] (si queremos declarar más variables, podemos separarlas entre , ); Una variable puede tener cualquier nombre conformado por letras y/o números, que no incluya espacios, símbolos especiales.
