@@ -2,7 +2,7 @@
 
 ## Apuntes sesión
 
-Holaa! 
+¡Holaa! 
 
 Empezamos el semestre con una charla inaugural de Hedi Jalkh. A continuación, les comparto un mini resumen con las ideas clave, y luego pasaremos a revisar en detalle lo que fue la clase y los encargos.
 
@@ -18,7 +18,7 @@ En conclusión, la charla propone entender los materiales como agentes activos d
 
 <img width="806" height="651" alt="Hedi1" src="https://github.com/user-attachments/assets/3416a310-4f0c-47e8-9cd6-59d0631bcd60" />
 
-Imágenes sacada de -> https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==
+Imágenes sacada de → https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==
 
 <img width="400" height="521" alt="Hedi2" src="https://github.com/user-attachments/assets/e2e6be9d-eeba-4ed2-a5eb-500ec95504ba" />
 
@@ -26,7 +26,7 @@ Imágenes sacada de -> https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHh
 <img width="400" height="527" alt="Hedi3" src="https://github.com/user-attachments/assets/80d5ac07-e339-4dee-b972-9348370ae4d4" />
 
 
-Gifs sacados de -> https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==
+Gifs sacados de → https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==
 
 Estos gifs muentran uno de sus proyectos para su tesis de maestría. La investigación combina diseño, artesanía, ciencia de materiales y biología para desarrollar materiales capaces de responder a estímulos externos, inspirándose en el comportamiento de las plantas.
 
@@ -37,7 +37,7 @@ Material: Goma eva con una estructura geométrica auxética.
 ## Encargos
 
 - Analizar y sacar fotos a 3 botoneras de ascensores (interior y exterior).
-- Hare el analisis bajo estas categorias:
+- Haré el análisis bajo estas categorías:
 
 1. Arquitectura y Jerarquía.
 2. Lógica de Interacción.
