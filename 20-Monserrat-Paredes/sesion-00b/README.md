@@ -114,6 +114,227 @@ Material: Goma eva con una estructura geométrica auxética.
 
 
 
+FOTOOOOOS
+
+
+
+# Análisis Ascensor 2 — Centro Médico Integramédica
+
+**Ubicación:** Espacio Urbano Plaza Maipú.
+
+---
+
+## 1. Arquitectura y Jerarquía
+
+### Botonera exterior
+- Panel compacto **KONE** con dos botones mecánicos circulares.
+- Disposición vertical integrada en un marco de **acero inoxidable**.
+
+### Botonera interior
+- Columna vertical ordenada por niveles: **7 → 6 → 5 → 4 → 3 → 2**.
+- Incluye **estacionamiento -1** y controles de cabina en la parte inferior.
+- **Anomalía:** botón del **Piso 1 bloqueado** con cinta y papel.
+- El bloqueo responde a que el centro médico funciona principalmente en el **Piso 2**, mientras que el nivel 1 conecta con otros locales del centro comercial.
+- La botonera coincide directamente con el **plano de señalética institucional** ubicado a su derecha.
+
+---
+
+## 2. Lógica de Interacción
+
+### Exterior
+- Dos pulsadores verticales con indicadores LED **rojos**.
+- La iluminación confirma visualmente que la llamada fue registrada.
+
+### Interior
+- Botones seleccionados → **anillo blanco retroiluminado** como confirmación.
+- Botones de apertura, cierre y alarma → ubicados en la zona inferior siguiendo **convenciones universales**.
+- **Problema:** cinta y papel del Piso 1 interrumpen la lectura visual y pueden transmitir una sensación de reparación o falla.
+
+---
+
+## 3. Ergonomía y Accesibilidad
+
+- **Braille y caracteres en relieve** en cada nivel → facilitan el uso por personas con discapacidad visual.
+- Botones metálicos **cóncavos** → guían naturalmente el dedo hacia el centro.
+- Señalética junto a la botonera → permite relacionar rápidamente los **servicios médicos con cada piso**.
+- Altura de la botonera → adecuada para usuarios de pie.
+- Controles inferiores con llave → requieren mayor flexión para acceder.
+
+---
+
+## 4. Propuestas de Mejora
+
+### Bloqueo del Piso 1
+- Reemplazar cinta y papel por una **placa de acero inoxidable**.
+- Indicar formalmente: **“Sin acceso a centro médico”**.
+
+### Mantención visual
+- Eliminar restos de adhesivo alrededor del panel.
+- Mantener una apariencia más **limpia y profesional**.
+
+### Señalética de destino
+- Incorporar micro-leyendas o etiquetas de **alto contraste** junto a los botones principales.
+- Asociar directamente los pisos con sus destinos, por ejemplo:
+  - **Piso 2 → Acceso / Recepción**
+  - **Pisos 3–7 → Servicios clínicos**
+
+ FOTOOOS
+
+
+ # Análisis Ascensor 3 — Edificio Santa Ana
+
+**Ubicación:** Av. San Martín 841, Santiago Centro.
+
+---
+
+## 1. Arquitectura y Jerarquía
+
+### Botonera exterior
+- Panel vertical compacto de tono oscuro.
+- Pantalla digital superior con **matriz de puntos roja**.
+- Dos botones mecánicos de llamada: **subir / bajar**.
+
+### Botonera interior
+- Disposición matricial de **5 columnas**.
+- Agrupa pisos residenciales y subterráneos en formato tipo teclado.
+- **Subterráneos:** -1, -2, -3 y -4.
+- **Piso 1:** acceso principal.
+- **Azotea (A):** ubicada en el extremo superior derecho, rompiendo la secuencia numérica.
+- Controles de **abrir, cerrar y alarma** separados en la parte inferior.
+- Botón de alarma → **anillo amarillo** para destacar su función.
+
+---
+
+## 2. Lógica de Interacción
+
+### Exterior
+- Botones de subida y bajada → permiten indicar la **dirección de desplazamiento**.
+- Pantalla → muestra el piso actual del ascensor.
+
+### Interior
+- Distribución en matriz → los pisos no siguen una secuencia lineal.
+- Ejemplo: **3 → 8 → 13 → 18** en una misma columna.
+- Esto aumenta el **esfuerzo cognitivo** al buscar un destino.
+- Botones seleccionados → **iluminan el número** como confirmación.
+- Botón de alarma amarillo → facilita su **identificación rápida** en emergencias.
+
+---
+
+## 3. Ergonomía y Accesibilidad
+
+- **Braille y relieve** presentes junto a los números.
+- Alta cantidad de pisos (**-4 a 21 + Azotea**) → elevada densidad de botones.
+- Botones pequeños y próximos → mayor riesgo de **pulsaciones erróneas**.
+- Botones superiores, como **21 y A**, pueden ser difíciles de alcanzar para:
+  - Niños.
+  - Adultos mayores.
+  - Personas en silla de ruedas.
+- Fondo oscuro + grabado metálico → puede dificultar la lectura con **poca iluminación o reflejos**.
+
+---
+
+## 4. Propuestas de Mejora
+
+### Organización de la botonera
+- Separar visualmente los niveles por categorías:
+  - **Subterráneos**
+  - **Pisos residenciales**
+  - **Azotea**
+- Utilizar espacios, marcos o agrupaciones para reducir la **carga cognitiva**.
+
+### Sistema de selección
+- Organizar los botones por **rangos de pisos**.
+- Como alternativa, implementar una **interfaz digital o selector numérico** para edificios de gran altura.
+
+### Iluminación
+- Incorporar **retroiluminación permanente** en los números.
+- Mejorar la legibilidad en condiciones de baja iluminación.
+
+### Señalética complementaria
+- Incorporar etiquetas para niveles especiales:
+  - **A → Azotea / Quincho / Lavandería**
+  - **1 → Acceso / Conserjería**
+- Facilitar la orientación de **visitantes y nuevos residentes**.
+
+
+FOTOOOS
+
+
+# Análisis Ascensor 4 — Facultad de Psicología UDP
+
+**Ubicación:** Vergara 275, 8370076 Santiago.
+
+---
+
+## 1. Arquitectura y Jerarquía
+
+### Botonera exterior
+- Panel vertical compacto de **acero inoxidable**, empotrado en muro de piedra pizarra.
+- Dos botones circulares con flechas de **subir / bajar**.
+
+### Botonera interior
+- Columna vertical y lineal con orden ascendente:
+  - **-2**
+  - **-1**
+  - **1**
+  - **2**
+  - **3**
+- Controles de **apertura, cierre y alarma** ubicados en la parte inferior.
+- Botón de alarma → **color amarillo** para destacar su función.
+- Cerraduras o llaves de servicio → restringen ciertos controles cuando es necesario.
+
+---
+
+## 2. Lógica de Interacción
+
+### Exterior
+- Botones con **iluminación LED roja perimetral**.
+- La iluminación confirma que la llamada fue registrada.
+
+### Interior
+- Botón seleccionado → **anillo verde retroiluminado** como confirmación.
+- Orden lineal de los pisos → facilita el **mapeo mental**.
+- Edificio de baja altura → pocos niveles y navegación sencilla.
+- Adhesivos normativos visibles, como **“No apoyarse en las puertas”**.
+
+---
+
+## 3. Ergonomía y Accesibilidad
+
+- **Braille y números en relieve** en cada botón.
+- Altura de botonera → permite un alcance cómodo para:
+  - Personas de pie.
+  - Niños.
+  - Usuarios en silla de ruedas.
+- Números blancos sobre botones metálicos → **buen contraste visual**.
+- Display superior Orona → muestra el piso actual mediante **números verdes de gran tamaño**.
+- Botones cóncavos → guían el dedo hacia el centro y reducen pulsaciones accidentales.
+
+---
+
+## 4. Propuestas de Mejora
+
+### Organización de niveles
+- Incorporar una **separación visual** entre:
+  - Subterráneos: **-2 / -1**
+  - Pisos superiores: **1 / 2 / 3**
+
+### Señalética
+- Retirar o reemplazar adhesivos desgastados o mal adheridos.
+- Mantener una estética más **limpia y coherente con el entorno universitario**.
+
+### Destinos
+- Incorporar pequeñas etiquetas junto a los pisos principales.
+- Ejemplo:
+  - **1 → Acceso / Recepción**
+- Facilitar la orientación de **estudiantes nuevos y visitantes**.
+
+
+FOTOOOOS
+
+
+
+
 
 ## Lectura
 
