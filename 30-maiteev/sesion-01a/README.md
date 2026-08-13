@@ -13,7 +13,7 @@ manera de agregar fotos
 datos internos y constantes de un ascensor, trabajo en grupos de a 5 
 
 
-datos internos:
+-datos internos:
 
 distancia entre pisos (cuánto tiene que viajar)
 cantidad de pisos
@@ -27,7 +27,7 @@ tiempo de espera que tienen las puertas para mantenerse abiertas
 
 
 
-datos constantes:
+-datos constantes:
 
 sabe en donde se encuentran los pisos y la cantidad de estos (20 pisos)
 
