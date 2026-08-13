@@ -12,7 +12,12 @@ actividad en clases grupal: responder datos internos y constantes que manejan lo
 datos internos:
 distancia entre pisos(cuanto viajará)
 
+
 datos constantes:
+distancia entre cada piso y la cantidad de estos
+capacidad máxima (kg)
+velocidad de movimiento
+
 
 ## encargos
 
