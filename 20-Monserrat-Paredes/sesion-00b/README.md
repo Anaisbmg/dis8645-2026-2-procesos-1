@@ -113,11 +113,24 @@ Material: Goma eva con una estructura geométrica auxética.
 - Aumentar el contraste para mejorar la legibilidad y accesibilidad.
 
 
-<img width="2596" height="2999" alt="Davila1" src="https://github.com/user-attachments/assets/f2ab0b13-1d7c-4fab-9507-82c290dd2d81" />
+## Registro fotográfico
 
-<img width="1438" height="2405" alt="Davila2" src="https://github.com/user-attachments/assets/6d235f49-e1c8-4df2-b82c-18d64e9f6a01" />
-
-<img width="1946" height="3258" alt="Davila3" src="https://github.com/user-attachments/assets/48409880-2ea6-4511-a390-92d65f2466a4" />
+<table>
+  <tr>
+    <td align="center">
+     <img width="2596" height="2999" alt="Davila1" src="https://github.com/user-attachments/assets/f2ab0b13-1d7c-4fab-9507-82c290dd2d81" />
+      <b>Botonera exterior</b>
+    </td>
+    <td align="center">
+     <img width="1438" height="2405" alt="Davila2" src="https://github.com/user-attachments/assets/6d235f49-e1c8-4df2-b82c-18d64e9f6a01" />
+      <b>Botonera interior</b>
+    </td>
+    <td align="center">
+     <img width="1946" height="3258" alt="Davila3" src="https://github.com/user-attachments/assets/48409880-2ea6-4511-a390-92d65f2466a4" />
+      <b>Botonera interio</b>
+    </td>
+  </tr>
+</table>
 
 Imágenes sacadas por mi :)
 
