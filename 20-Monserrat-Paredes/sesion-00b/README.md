@@ -113,8 +113,7 @@ Material: Goma eva con una estructura geométrica auxética.
 - Aumentar el contraste para mejorar la legibilidad y accesibilidad.
 
 
-## Registro fotográfico
-
+<h3>Registro fotográfico</h3>
 <table>
   <tr>
     <th>Botonera exterior</th>
@@ -133,9 +132,6 @@ Material: Goma eva con una estructura geométrica auxética.
     </td>
   </tr>
 </table>
-
-
-
 
 
 Imágenes sacadas por mi :)
