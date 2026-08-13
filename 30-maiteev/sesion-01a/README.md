@@ -10,7 +10,7 @@ no espacios ni mayúsculas en los archivos de fotos
 manera de agregar fotos 
 ./= aquí mismo
 
-datos internos y constantes de un ascensor
+datos internos y constantes de un ascensor, trabajo en grupos de a 5 
 
 
 datos internos:
@@ -24,6 +24,7 @@ si pasa una cantidad determinada de tiempo (5 min aprox), el ascensor baja a la 
 prioridad de llamada dependiendo del sentido en el que desean viajar los usuarios y la cercanía que tiene el ascensor
 
 tiempo de espera que tienen las puertas para mantenerse abiertas
+
 
 
 datos constantes:
