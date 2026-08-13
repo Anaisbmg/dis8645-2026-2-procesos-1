@@ -53,3 +53,5 @@ Teniendo una noción de lo que son estos conceptos, entonces mis valores y funci
 ## lectura
 
 Cómo ya mencioné anteriormente elegí "The Oxford Handbook of computer music" Por Roger T. Dean.
+
+Este es un texto que está completamente en Inglés, el idioma no se me dificulta, pero sí hay términos que iban apareciendo a lo largo de lo que he ido leyendo y no he logrado entender. Así que los he ido anotando, para buscarlos luego.
