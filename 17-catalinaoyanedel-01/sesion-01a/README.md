@@ -2,35 +2,9 @@
 martes 11 de agosto
 
 ## apuntes sesión
-trabajamos en clase y profundizamos el ejercicio de observación del funcionamiento de ascensores, trabajando y conversando con nuestro equipo llegamos a esto:
-
-"El funcionamiento de un ascensor parte desde la experiencia fuera de él, estando frente a sus puertas, donde se suele encontrar al costado botones para subir o bajar, dependiendo en qué piso uno se encuentre, por ejemplo, al estar en el último piso sólo hay botón para bajar. Al llamar al ascensor, se debe presionar el botón con la flecha de la dirección a la que uno se dirigirá. Al entrar, podemos ver distintas variables de botones, divididas en pisos, funcionamiento de las puertas y botones para casos de emergencia. Los botones de los pisos al ser apretados, hay una programación detrás que genera el movimiento del mecanismo para ser llevado a tal piso, al cerrarse las puertas, ya sea de manera automática luego de un tiempo determinado, o al apretar el botón para realizar esta acción."
-
-### conversación en clases
-
-**¿qué se necesita para un ascensor (datos)?**
-
-- puertas
-- botones pisos: números enteros positivos y negativos, no hay 0
-- botones auxiliares: abrir y cerrar puertas
-- botón de emergencia
-- movimiento en eje z
-- espejos opcionales
-- poleas
-- motores
-- contrapeso
-- carril
-- electricidad
-
-**funciones básicas**
-
-- subir
-- bajar
-- mantenerse
-- hacer sonar una alarma
-- mecanismo de falla
 
 ### sobre lenguajes y programación
+_cómo programar un ascensor_
 
 if(estoyEnUnPiso){
 
@@ -44,8 +18,6 @@ abrirPuerta();
 - para programar, las acciones son con paréntesis y si no tienen son datos
 - variables / funciones
 - entender los comportamientos de las funciones como absolutos o relativos
-
-*tomamos apuntes juntas con marcela zuñiga por lo que compartimos estos apuntes:)
 __________________________________________________________________
 
 ## encargos
