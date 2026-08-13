@@ -115,22 +115,31 @@ Material: Goma eva con una estructura geométrica auxética.
 
 ## Registro fotográfico
 
+
+<h3>Registro fotográfico</h3>
+
 <table>
   <tr>
+    <th>Botonera exterior</th>
+    <th>Botonera interior</th>
+    <th>Botonera interior</th>
+  </tr>
+  <tr>
     <td align="center">
-     <img width="2596" height="2999" alt="Davila1" src="https://github.com/user-attachments/assets/f2ab0b13-1d7c-4fab-9507-82c290dd2d81" />
-      <b>Botonera exterior</b>
+      <img width="2596" height="2999" alt="Davila1" src="https://github.com/user-attachments/assets/f2ab0b13-1d7c-4fab-9507-82c290dd2d81" />
     </td>
     <td align="center">
-     <img width="1438" height="2405" alt="Davila2" src="https://github.com/user-attachments/assets/6d235f49-e1c8-4df2-b82c-18d64e9f6a01" />
-      <b>Botonera interior</b>
+      <img width="1438" height="2405" alt="Davila2" src="https://github.com/user-attachments/assets/6d235f49-e1c8-4df2-b82c-18d64e9f6a01" />
     </td>
     <td align="center">
-     <img width="1946" height="3258" alt="Davila3" src="https://github.com/user-attachments/assets/48409880-2ea6-4511-a390-92d65f2466a4" />
-      <b>Botonera interio</b>
+      <img width="1946" height="3258" alt="Davila3" src="https://github.com/user-attachments/assets/48409880-2ea6-4511-a390-92d65f2466a4" />
     </td>
   </tr>
 </table>
+
+
+
+
 
 Imágenes sacadas por mi :)
 
