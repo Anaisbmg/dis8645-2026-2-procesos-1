@@ -100,20 +100,35 @@ esta foto la tomé cuando ya iba llegando a la última parada de la micro 323 (R
 
 esta pantalla dice cuántos °C hay dentro de la micro, ya que estas tienen aire acondicionado (super fancy) por lo que aparte de mostrar números también puede mostrar el circulito que muestra que son grados, aparte de mostrar letras como lo es la C de Celsius. esta pantalla por lo que logré ver es de 8 segmentos, al igual que la pantalla con luces rojas que se muestra al fondo, la cual va mostrando la hora.
 
-2. 
+2. pantalla radio camioneta
 
-fuentes:
+![foto tomada por mi papá dentro de su camioneta](./imagenes/radio-camioneta.jpeg)
+
+esta foto fue tomada por mi papá en su camioneta en donde se muestra la radio!! recién gracias a este encargo me dediqué a buscar su modelo, la cual es _MP3 Pioneer DEH-1300MP (serie MOSFET 50Wx4)_. al buscar la radio por su nombre propio, encontré este manual <https://www.manuales.mx/pioneer/deh-1300mp/manual?p=3>, el cual menciona partes de la radio, cómo funciona, etc. en la página 3 de este manual, hay un vector de cómo es la pantalla y se logra ver con claridad de cuántos segmentos es esta misma:
+
+![vector de radio, no me pertenece sino que se rescató del link que mencioné anteriormente](./imagenes/radio-14.png)
+
+la verdad me costó contar los segmentos, pero ahora estoy 80% seguro de que la pantalla es de 14 segmentos (creo, tal vez conté mal muchas veces). a diferencia de la pantalla de la micro, la de la radio es mejor para mostrar letras como lo es la "M" gracias a los segmentos diagonales que tiene lo cual sirve para ir viendo los modos en los que uno puede usar la radio.
+
+3- pantalla calculadora
+
+![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora del colegio jiji](./imagenes/calculadora.jpeg)
+
+estas fotos fueron tomadas por mi hermana menor en nuestra casa, en donde muestra la pantalla de su calculadora de manera frontal y se puede observar cómo hay un "0.", lo cual me hace creer que esta es una pantalla de 9 segmentos al contar el punto! otra cosa de lo que no estoy muy seguro es sobre si esta pantalla se considera una pantalla de segmentos ya que al poner la calculadora en ángulo se ve lo siguiente:
+
+![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora en ángulo.. muchas gracias Karina](./imagenes/calculadora-angulo.jpeg)
+
+al poner la calculadora en esta posición, podemos ver en dónde se pueden prender los LEDs de la pantalla, notando así que en efecto hay 9 segmentos en la mitad inferior de la pantalla pero en la parte superior hay 30 cuadrados (son rectángulos de 5x6 si no me equivoco), cosa que nos permite mostrar textos muuuucho más claros pero no sé si esto sigue siendo una pantalla de segmentos al compartir dos formas distintas de LEDs.
+
+#### fuentes:
 
 + <https://www.panoxdisplay.com/knowledge/key-features-applications-7-segment-displays.html>
 + <https://www.manuales.mx/pioneer/deh-1300mp/manual?p=3>
 + <https://en.wikipedia.org/wiki/Segment_display>
-+ <
 
-encargo 01-a:
+### autorretrato
 
 autorretrato: describir variables y funciones de ustedes.
-
-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 ---
 
