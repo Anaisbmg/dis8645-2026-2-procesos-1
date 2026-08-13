@@ -22,11 +22,11 @@ vía correo: siempre poner en asunto dis8645-resumenTema
 
 ### datos importantes
 - aprender a mandar correos (siempre mandar copia a equipo docente y responder con copia a todos)
-- listados u datos escribirlos de preferencia en orden alfabético
+- listados o datos escribirlos de preferencia en orden alfabético
 - no utilizar mayúsculas 
-- [] **corchete**
-- ( **paréntesis**
-- { **murciélago**
+- [] = **corchete**
+- ( = **paréntesis**
+- { = **murciélago**
 -  en canvas se encuentran los siguientes link:
     - notas
     - asistencia
