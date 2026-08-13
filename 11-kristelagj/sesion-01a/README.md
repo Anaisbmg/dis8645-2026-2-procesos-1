@@ -40,16 +40,15 @@ tipo-de-variable nombre-de-variable[=valor] (si queremos declarar más variables
 
 Nota que después de declarar una serie de variables de un mismo tipo hay que poner un ;
 
-int: Para valores tipo números enteros
+- int: Para valores tipo números enteros
+- float: números decimales y/o no enteros. 
+- bool: Un booleano es un tipo de dato que solo puede tener dos valores opuestos: verdadero (true) o falso (false).
+- string: cadena de texto para guardar palabras, nombres o frases las cuales deben escribirse entre comillas porque si no el lenguaje C++ piensa que puede ser el nombre de una variable.
 
-float: números decimales y/o no enteros. 
 
-bool: . Un booleano es un tipo de dato que solo puede tener dos valores opuestos: verdadero (true) o falso (false).
+string nombre="kristel";
 
-
-string nombre=kristel;
-
-string colorfavorito=azul;
+string colorfavorito="azul";
 
 int edad=21;
 
