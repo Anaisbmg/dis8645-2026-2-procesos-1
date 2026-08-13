@@ -22,7 +22,9 @@ Imágenes sacada de -> https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHh
 
 <img width="400" height="521" alt="Hedi2" src="https://github.com/user-attachments/assets/e2e6be9d-eeba-4ed2-a5eb-500ec95504ba" />
 
-<img width="400" height="581" alt="Hedi3" src="https://github.com/user-attachments/assets/2ad4475f-2816-490a-ba12-9fd10a24f39b" />
+
+<img width="400" height="527" alt="Hedi3" src="https://github.com/user-attachments/assets/80d5ac07-e339-4dee-b972-9348370ae4d4" />
+
 
 Gifs sacados de -> https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==
 
