@@ -7,6 +7,7 @@ elegí el libro computational drawing
 
 ## apuntes sesión
 
+
 características de un ascensor:
 
 tiene puertas
@@ -18,6 +19,7 @@ tiene botones, poleas, contrapeso, motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
+
 datos internos:
 
 distancia entre pisos(cuanto viajará)
@@ -27,6 +29,7 @@ se selecciona el ascensor mas cercano al piso en que se solicita por medio de la
 prioridad de llamada, el ascensor se traslada según el tiempo en que se solicita, el lugar donde se encuentra el usuario y el sentido del trayecto
 
 el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
+
 
 datos constantes:
 
