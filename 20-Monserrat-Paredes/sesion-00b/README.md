@@ -16,6 +16,12 @@ Uno de sus proyectos estudia cómo una planta cambia de forma al absorber humeda
 En conclusión, la charla propone entender los materiales como agentes activos dentro del proceso de diseño, capaces de generar nuevas posibilidades a través de la investigación, la experimentación y el trabajo interdisciplinario.
 
 FOTOS
+<img width="1018" height="1099" alt="Hedi1" src="https://github.com/user-attachments/assets/1f998551-0b53-4f15-84a4-b3790f2f7ee9" />
+
+<img width="400" height="521" alt="Hedi2" src="https://github.com/user-attachments/assets/e2e6be9d-eeba-4ed2-a5eb-500ec95504ba" />
+
+<img width="400" height="581" alt="Hedi3" src="https://github.com/user-attachments/assets/2ad4475f-2816-490a-ba12-9fd10a24f39b" />
+
 
 ## encargos
 
