@@ -10,7 +10,7 @@ no espacios ni mayúsculas en los archivos de fotos
 manera de agregar fotos 
 ./= aquí mismo
 
-datos internos y constantes de un ascensor 
+datos internos y constantes de un ascensor  
 
 datos internos:
 
