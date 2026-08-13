@@ -138,6 +138,7 @@ Imágenes sacadas por mi :)
 
 
 
+
 # Análisis Ascensor 2 — Centro Médico Integramédica
 
 **Ubicación:** Espacio Urbano Plaza Maipú.
@@ -198,13 +199,30 @@ Imágenes sacadas por mi :)
   - **Piso 2 → Acceso / Recepción**
   - **Pisos 3–7 → Servicios clínicos**
 
+
+<h3>Registro fotográfico</h3>
+<table>
+  <tr>
+    <th>Botonera exterior</th>
+    <th>Botonera interior</th>
+    <th>Botonera interior</th>
+  </tr>
+  <tr>
+    <td align="center">
  <img width="2062" height="2601" alt="Integramedica3" src="https://github.com/user-attachments/assets/12a28227-d0b6-4cbf-82c4-36f8593e2723" />
-
+    </td>
+    <td align="center">
 <img width="2526" height="3641" alt="IntegraMedica1" src="https://github.com/user-attachments/assets/8eb3808d-23d2-471f-ad9b-20a3022b91dc" />
-
+    </td>
+    <td align="center">
 <img width="1754" height="2720" alt="IntegraMedica2" src="https://github.com/user-attachments/assets/d1a29b7a-4db6-4f65-a54f-fc9ea9cc4420" />
+    </td>
+  </tr>
+</table>
+
 
 Imágenes sacadas por mi :)
+
 
 
 
@@ -284,13 +302,29 @@ Imágenes sacadas por mi :)
 - Facilitar la orientación de **visitantes y nuevos residentes**.
 
 
+<h3>Registro fotográfico</h3>
+<table>
+  <tr>
+    <th>Botonera exterior</th>
+    <th>Botonera interior</th>
+    <th>Botonera interior</th>
+  </tr>
+  <tr>
+    <td align="center">
 <img width="736" height="1051" alt="SantaAna2" src="https://github.com/user-attachments/assets/d0d1e1a0-0a9f-4151-9140-68985b421cbe" />
-
+    </td>
+    <td align="center">
 <img width="820" height="1277" alt="SantaAna1" src="https://github.com/user-attachments/assets/e29e6fde-d637-4329-b8d0-f22bd84d1c03" />
-
+    </td>
+    <td align="center">
 <img width="446" height="547" alt="SantaAna3" src="https://github.com/user-attachments/assets/8877cd11-3c5c-49cb-a6ba-ec4251164ba0" />
+    </td>
+  </tr>
+</table>
+
 
 Imágenes sacadas por mi :)
+
 
 
 
@@ -364,13 +398,30 @@ Imágenes sacadas por mi :)
 - Facilitar la orientación de **estudiantes nuevos y visitantes**.
 
 
+<h3>Registro fotográfico</h3>
+<table>
+  <tr>
+    <th>Botonera exterior</th>
+    <th>Botonera interior</th>
+    <th>Botonera interior</th>
+  </tr>
+  <tr>
+    <td align="center">
 <img width="1967" height="2579" alt="Udp1" src="https://github.com/user-attachments/assets/e115b7ab-62fa-4cfb-b483-347f7911f43e" />
-
+    </td>
+    <td align="center">
 <img width="816" height="1450" alt="Udp2" src="https://github.com/user-attachments/assets/ca7e8721-c47b-4b45-8751-05bfe7db4a53" />
-
+    </td>
+    <td align="center">
 <img width="854" height="1518" alt="Udp3" src="https://github.com/user-attachments/assets/62cf0f43-0a55-463c-adc5-69ac43d04d49" />
+    </td>
+  </tr>
+</table>
+
 
 Imágenes sacadas por mi :)
+
+
 
 
 ## Lectura
