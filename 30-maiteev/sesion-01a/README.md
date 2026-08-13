@@ -2,6 +2,7 @@
 2026-08-11
 
 elegí el libro fuentes del derecho  
+![imagen libro maite villarroel](./libro-fuentesdelderecho.jpeg)
 ## apuntes sesión
 
 no espacios ni mayúsculas en los archivos de fotos 
