@@ -94,7 +94,7 @@ como encargo, se nos pidió sacar fotos de 3 pantallas distintas, por lo que aqu
 
 1. pantalla micro RED, 323
 
-![foto tomada por mí en la micro 323 de La Florida, cuando llegué al último paradero ya que me daba vergüenza hacerlo antes LOL](./imagenes/323.jpeg)
+![foto tomada por mí en la micro 323 de La Florida, cuando llegué al último paradero ya que me daba vergüenza hacerlo antes LOL](./imagenes/pantalla-micro.jpeg)
 
 esta foto la tomé cuando ya iba llegando a la última parada de la micro 323 (Rojas Magallanes) la cual me deja cerca de mi casa LOL. me di cuenta de que esa pantalla (la que muestra la cantidad de grados Celsius que hay dentro de la micro) me servía cuando me subí en el inicio de su recorrido, esto siendo en la intermodal de Bellavista de La Florida, pero no le saqué foto en ese momento ya que habían personas arriba y me dio vergüenza así que decidí esperar a que llegase a la última parada para poder tomar la foto y bajarme de inmediato XD.
 
