@@ -115,9 +115,6 @@ Material: Goma eva con una estructura geométrica auxética.
 
 ## Registro fotográfico
 
-
-<h3>Registro fotográfico</h3>
-
 <table>
   <tr>
     <th>Botonera exterior</th>
