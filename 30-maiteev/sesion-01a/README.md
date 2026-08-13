@@ -38,5 +38,5 @@ velocidad en la que se traslada
 ## encargos
 1. autoretrato: variables y funciones 
 
-2.investigacion pantallas de segmentos 
+2.investigacion pantallas de segmentos: tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 ## lectura
