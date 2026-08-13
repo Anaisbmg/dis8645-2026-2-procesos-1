@@ -75,8 +75,6 @@ En mi camino al trabajo, las calles que debo concurrir se encuentran muchas ofic
 
 Alfabeto posible utilizado: arábico ya que nos entrega la hora (en este caso no funciona) 
 
-![Ejemplo 1](ejemplo1-segmentos.jpeg)
-
 
 
 ## lectura
