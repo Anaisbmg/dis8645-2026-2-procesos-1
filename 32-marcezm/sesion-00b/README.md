@@ -25,6 +25,57 @@ En esta sesión fuimos a la charla de Heidi Jalkh y, luego de esto, nos reunimos
 ## Encargo botoneras de ascensor
 Se nos pidió hacer registro fotográfico de 3 botoneras de ascensor (no se especifico si debían ser interiores o exteriores) luego de hacer el registro debíamos hacer un análisis de estas. 
 
+### Botonera 01
 
+<table>
+<tr>
+<td align="center">
 
-## Lectura
+![Botonera 01](imagenes/botonera-01.jpg)
+
+</td>
+</tr>
+</table>
+
+- Los botones están organizados en dos columnas, lo que facilita seguir una secuencia visual.
+- Los números y símbolos están en color rojo para facilitar su lectura.
+- Cuenta con accesibilidad, ya que incorpora Braille.
+- Hay una pantalla que indica el número del piso en que se encuentra y también si este subirá o bajará.
+
+---
+
+### Botonera 02
+
+<table>
+<tr>
+<td align="center">
+
+![Botonera 02](imagenes/botonera-02.jpg)
+
+</td>
+</tr>
+</table>
+
+- Panel rectangular integrado a la pared.
+- Botón superior.
+- Botón inferior.
+- Cuenta con accesibilidad, incorpora Braille.
+- Enciende una luz para indicar qué botón fue presionado.
+
+---
+### Botonera 03
+
+<table>
+<tr>
+<td align="center">
+
+![Botonera 03](imagenes/botonera-03.jpg)
+
+</td>
+</tr>
+</table>
+
+- Los botones están distribuidos de forma vertical y ordenada.
+- Utiliza números, flechas y símbolos universales.
+- Algunos botones se iluminan para indicar que fueron seleccionados.
+- Incorpora Braille y elementos táctiles.
