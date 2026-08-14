@@ -7,13 +7,13 @@ elegí el libro computational drawing
 
 ## apuntes sesión
 
-características de un ascensor:
+**características de un ascensor:**
 
 tiene puertas; sube y baja(eje z); tiene botones, poleas, contrapeso y motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
-datos internos:
+**datos internos:**
 
 1.distancia entre pisos(cuanto viajará)
 
@@ -24,7 +24,7 @@ datos internos:
 4.el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
 
 
-datos constantes:
+**datos constantes:**
 
 1.distancia entre cada piso y la cantidad de estos
 
