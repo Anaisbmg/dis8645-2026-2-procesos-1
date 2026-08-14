@@ -9,11 +9,7 @@ elegí el libro computational drawing
 
 características de un ascensor:
 
-tiene puertas
-
-sube y baja(eje z)
-
-tiene botones, poleas, contrapeso, motor
+tiene puertas; sube y baja(eje z); tiene botones, poleas, contrapeso y motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
