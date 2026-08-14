@@ -37,6 +37,12 @@
 -    == comparar
 -    scope va dentro de {} es contexto
 -    && para concatenar
+-    declarar palabras o conceptos en el setup
+-    para cerrar las líneas de códigos hay que colocar ; o tira error
+-    al conectar el arduino al computador aparecerá una ventanita, seleccionar para empezar a subir el archivo
+-    para resetear la placa de arduino apretar dos veces el boton dde reset
+-    siemore abrir con { y cerrar con }
+-    los errores se marcan en la línea posterior al error, no entendí si es siempre o solo en algunos casos, no pregunte, para la próxima pregunta no te quedes con la duda
 
 
 ## encargos
