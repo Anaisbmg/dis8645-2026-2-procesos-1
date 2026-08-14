@@ -51,12 +51,15 @@ notación camello: para demostrar un cambio de palabra a otra.
 int > nos da un resultado en números enteros
 void > ocurren sin dar resultado
 bool > sí o no
- 
+
 Al lado del ticket verificador tiene un botón para subir el código
 El Arduino al conectar se debe apretar 2 veces el botón de reset
 
 ## encargos
 
-Buscar códigos (hechos y documentados) para probar con Arduino y traer problemas para resolver.
+encargo01b:
+
+1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
