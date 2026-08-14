@@ -2,6 +2,7 @@
 
 ## apuntes sesión
 
+```
 void setup() {
   // aqui va setup(), ocurre una vez, al principio
 
@@ -12,7 +13,7 @@ void loop() {
   // ocurre despues de setup()
   // se repite hasta que no se pueda
 }
-
+```
 
 
 
