@@ -47,6 +47,8 @@ if(esSeguro){
     abrirPuerta();
 }
 ```
+Las acciones se escriben con paréntesis (). Si no tienen paréntesis, corresponden a datos o variables.
+
 *Apuntes compartidos en clase con Catalina Oyanedel*
 
 ## encargos
