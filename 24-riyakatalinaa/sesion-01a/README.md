@@ -83,7 +83,7 @@ encargos de todos los martes, leer libro: **la música electroacústica en chile
       - sistema óseo y muscular sostienen todos mis órganos internos y trabajan en conjunto para darle firmeza y movilidad a mi cuerpo
 
 ### **integración de todo lo anterior:** 
-la combinación coordinada de todos los microprocesos anteriores permite que mi cuerpo funcione adecuadamente como un todo, manteniéndome con vida 
+la combinación coordinada de todos estos permite que mi cuerpo funcione adecuadamente como un todo, manteniéndome con vida 
 
 **2-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display**
 
@@ -122,11 +122,11 @@ ejemplos de fotos:
 
 **ejemplo 2: refrigerador**
 
-![imagen de microondas](./imagenes/refrigerador.jpeg)
+![imagen de refrigerador](./imagenes/refrigerador.jpeg)
 
 **ejemplo 3: estufa**
 
-subir foto
+![imagen de estufa](./imagenes/estufa.jpeg)
 
 ## lectura
 
@@ -143,3 +143,29 @@ libro escogido **La Música electroacústica en Chile** de Federico Schumacher
 - se especializa en obras acusmáticas por el cual fue premiado nacional e internacionalmente
 - su área de interés es la investigación sobre la música electroacústica, cómo se percibe la música acusmática y la conservación del patrimonio sonoro tecnológico 
 - actualmente es académico en el Departamento de Sonido de la Universidad de Chile
+
+### capítulos leído del libro 
+- **(Buenos) propósitos**
+  - en este capitulo habla sobre como el autor comenzó a estudiar en Francia y se dio cuenta de lo frustrante que era que no hubiera prácticamente nada de información sobre la historia de la música electroacústica en Chile.
+  - al ser el también compositor, decidió investigar por su propia cuenta para rescatar el trabajo de sus colegas, descubriendo que la historia era mucho más valiosa de lo que creía, aunque la información estaba muy dispersa y con vació
+  - finalmente, explica que 20 años después pudo actualizar el libro para agregar lo sucedido desde 2005: el gran impacto del Festival Ai-Maako, el surgimiento de Arte Sonoro y la llegada de la enseñanza universitaria de esta disciplina el país
+ - **Advertencia al lector advertido**
+  - este capítulo el autor hace una pausa para buscar aclarar y definir los distintos términos técnicos para que nadie se confunda al leer (de ahí el titulo del capítulo)
+  - explica de manera sencilla el origen de los conceptos como la **música concreta** (hecha con ruidos y grabaciones reales) y la **música electrónica** (creada solamente mediante aparatos), mostrando cómo ambas evolucionaron con el tiempo hacia nombres como **música acusmática, Tape Music** o **música mixta**
+  - finalmente, concluye que usará música electroacústica como el termino general para reunir todas estas formas de crear sonidos con tecnología a lo largo del libro
+
+### citas del libro
+
+**cita 1**: página 12
+
+**_"Si a pesar de mis buenos propósitos, aún existe otro compositor que se ha escapado en este recuento, ruego la indulgencia debida para quien desde hace algunos años vive fuera del país..."_**
+
+esta cita me gusto, debido a la honestidad del autor al reconocer que se le pudo pasar alguien y pide disculpas
+
+**cita 2**: página 16
+
+**_"En definitiva, para este trabajo se preferirá el termino Música Electroacústica como genérico de todas las variaciones del tema que venimos de revisar"_**
+
+esta cita me gusto porque el autor se deja de rodeos y toma una decisión practica
+
+
