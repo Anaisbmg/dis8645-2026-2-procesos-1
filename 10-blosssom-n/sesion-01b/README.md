@@ -50,6 +50,36 @@ void loop() {
 //se repite hasta que no se pueda
 }
 ````
+bool: variable extremista si o no 0/1 true/false
+
+```
+//
+bool nataliaEstudianteUDP = true;
+bool nataliaChilena = true;
+//integers
+int nataliaEdad = 22;
+int nataliaNacimientoAnho = 2003;
+// enero es 1, diciembre es 12
+int nataliaNacimientoMes = 10;
+// dias desde 1 hasta lo que dure el mes
+int nataliaNacimientoDia = 10;
+
+== comparar
+if (mesActual == nataliaNacimientoMes) {
+}
+if (mesActual == nataliaNacimientoMes &&
+diaActual == nataliaNacimientoDia
+
+// millones de colores serian 24 bits 2^24, 2^3 es 8 bits
+
+colores
+0101 0100  24 bits
+0010 0011
+1101 1010
+
+hex 0000ff (cada uno es 4, total 24)
+string kristelColorFavorito = "0000ff";
+```
 
 ## encargos
 
