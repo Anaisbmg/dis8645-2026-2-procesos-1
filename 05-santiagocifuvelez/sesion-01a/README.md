@@ -50,6 +50,13 @@ Con lo anteriormente visto, siempre que escribamos una variable, debemos declara
 
 
 ## encargos
+Variables:
+- string myName = santiago;
+- Int myAge = 20;
+- bool imgay = true;
+- double iEspentds = 20.00;
+
+Funciones:
 
 ## lectura
 - Libro: Code as Creative Medium - A Handbook for Computational Art and Design.
