@@ -67,8 +67,8 @@ Información sacada de → https://en.wikipedia.org/wiki/Segment_display
 
 <table>
   <tr>
-    <th>Tótem de gasolinera</th>
-    <th>Reloj digital</th>
+    <th>Tótem de gasolinera Copec</th>
+    <th>Reloj digital Casio</th>
     <th>Freidora de aire</th>
   </tr>
   <tr>
@@ -99,7 +99,7 @@ Cada una de estas pantallas demuestra que la tecnología del segmento se adapta 
 - El tótem prioriza la lectura a larga distancia bajo la luz del sol y el ahorro de energía mediante elementos mecánicos.
 
 
-## lectura
+## Lectura
 
 Cada estudiante lee un libro distinto:
 
