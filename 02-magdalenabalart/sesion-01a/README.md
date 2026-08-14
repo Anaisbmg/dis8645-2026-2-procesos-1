@@ -384,10 +384,38 @@ string rutCompleto = crearRutCompleto(rut, dv);
 mostrarNetflixFavoritos(peliculaFavorita, animeFavorito);
 ```
 
+## Pantalla segmentos
 
+![imagen de pantalla segmentos airfryer](./imagenes/airfryer_pantallasegmentos.jpg)    
+### Airfryer
+<ins> **Ubicación**:</ins>  La pantalla está ubicada en la parte frontal superior de la air fryer, integrada directamente en el panel de control. Esto hace que la información aparezca en el mismo lugar donde la persona configura el tiempo, la temperatura o enciende y apaga la maquina.    
+<ins> **Alfabeto posible**:</ins>  En este caso, la pantalla no se limita únicamente a números. En la fotografía aparece la palabra OFF, por lo que el sistema también puede construir algunas letras a partir de los segmentos.    
+<ins> **Uso:**</ins>  La pantalla comunica principalmente el estado de la air fryer y los parámetros de cocción, como si está encendida o apagada, cuánto tiempo queda o qué temperatura se ha seleccionado. 
+  
+La pantalla funciona como una forma de confirmación y acompañamiento durante la interacción. Si modifico el tiempo o la temperatura, necesito saber que la máquina recibió correctamente esa acción. Cuando aparece un nuevo valor en la pantalla, el aparato me está respondiendo.  
+También encuentro interesante que aparezca OFF. Podría simplemente quedar la pantalla apagada, pero mostrar explícitamente ese estado elimina una pequeña duda: sé que el aparato está apagado porque la propia máquina me lo está confirmando. En un electrodoméstico que trabaja con altas temperaturas, esa información también aporta una sensación de seguridad y control.   
+  
+![imagen de pantalla segmentos ascensor](./imagenes/ascensor_pantallasegmentos.jpg)   
+### Ascensor. 
+<ins> **Uso**</ins> : Su función principal es comunicar el piso actual del ascensor y la dirección de desplazamiento.  
+<ins> **Ubicación:**</ins>  La pantalla está ubicada sobre el tablero de botones que permite seleccionar el piso, dentro del ascensor. Esta posición hace que la información aparezca justo en el mismo lugar donde la persona toma la decisión de hacia dónde quiere ir. En este edificio hay 16 pisos, por lo que el display debe ser capaz de mostrar números de uno y dos dígitos.  
+<ins> **Alfabeto posible**:</ins>  el display necesita representar principalmente los números del 0 al 9, combinándolos cuando es necesario para mostrar pisos de dos cifras, como 10, 11 o 16 (siendo el piso más alto. También debe ser capaz de postrar números negativos siendo el -2 el más bajo.   
+ 
+En el caso del ascensor, la pantalla de segmentos no solo cumple una función informativa, sino que también puede tener un valor más humano relacionado con la percepción de control y seguridad. A mí, por ejemplo, me generan miedo los ascensores, y creo que parte de ese miedo tiene que ver con el desconocimiento de lo que está ocurriendo en un espacio cerrado donde no puedo observar directamente mi desplazamiento. Mientras estoy dentro, no veo físicamente cómo subo o bajo ni tengo referencias claras del exterior, por lo que pierdo parte de la orientación que normalmente utilizo para entender dónde estoy.  
+En ese contexto, el número que aparece en la pantalla funciona como una forma de ubicarme dentro de un espacio que no puedo observar directamente. Saber que estoy en el piso 4, que voy subiendo o que me estoy acercando a mi destino transforma un movimiento invisible en información concreta. Esa información no necesariamente elimina el miedo, pero sí disminuye parte de la incertidumbre porque me permite entender qué está haciendo la máquina y en qué punto del recorrido me encuentro. Ver cómo los números cambian de 2 a 3 y luego a 4 me permite onfirma que existe un recorrido, que el ascensor está avanzando y que su comportamiento sigue una secuencia que puedo comprender y anticipar.
+Esto se puede relacionar directamente con la Human-Computer Interaction (HCI), ya que la pantalla funciona como un mecanismo de feedback entre la persona y el sistema. El ascensor realiza procesos que el usuario no puede observar directamente, mientras que la interfaz traduce esos procesos internos en señales simples y comprensibles. El número del piso y la flecha de dirección permiten conocer el estado actual del sistema y saber que este está respondiendo a la interacción. 
+ 
+![imagen de pantalla segmentos calculadora](./imagenes/calculadora_pantallasegmentos.jpg)    
+### calculadora  
+<ins> **Ubicación:** </ins> La pantalla está ubicada en la parte superior de la calculadora, justo sobre el teclado. Esta posición genera una relación muy directa entre la acción y la respuesta: ingreso un número o selecciono una operación con los botones y puedo comprobar en la pantalla qué información recibió la máquina.  
+<ins> **Alfabeto posible**:</ins>  En este caso, la pantalla necesita representar principalmente los números del 0 al 9, pero su repertorio es más amplio que el de una pantalla utilizada únicamente para indicar pisos. También debe poder mostrar signos matemáticos, puntos decimales, resultados negativos y distintos indicadores asociados a las funciones de la calculadora.   
+<ins> **Uso:**</ins>  Su función principal es comunicar tanto lo que estoy ingresando como el resultado de las operaciones que realiza la calculadora. Para mí, lo interesante es que la pantalla no funciona únicamente como un lugar donde aparece una respuesta final, sino como una forma de comprobar constantemente que existe correspondencia entre lo que quiero hacer y lo que la máquina está entendiendo.
+  
+Si presiono un número, necesito verlo aparecer para saber que lo ingresé correctamente. Si realizo una operación, necesito comprobar el resultado. De esta manera, la pantalla funciona casi como una memoria externa: me permite dejar parte de la información fuera de mi cabeza y concentrarme en el proceso que estoy realizando.
 
-
-
+Al comparar las tres pantallas, empiezo a entenderlas no solo como objetos que muestran números o letras, sino como formas en que las máquinas intentan comunicarse con nosotros. Detrás de cada display hay un sistema realizando procesos que muchas veces no podemos ver: es entonces que laa pantalla aparece como una pequeña ventana entre el mundo interno de la máquina y nuestra necesidad de comprender qué está ocurriendo.
+Desde esta mirada, la pantalla de segmentos podría entenderse como una especie de lenguaje mínimo entre lo humano y lo computacional. Con muy pocos trazos, números, símbolos y palabras breves, la máquina intenta decirnos: estoy funcionando, entendí lo que me pediste, estás aquí, falta esto, este es el resultado. No necesitamos conocer todos los procesos electrónicos que existen detrás; necesitamos que la máquina traduzca esa complejidad a algo que podamos reconocer y recordar en base a nuestro propio lenguaje cultursl. 
+ 
 ## lectura
 
 me llevé este libro
