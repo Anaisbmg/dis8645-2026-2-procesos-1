@@ -21,18 +21,20 @@ En tu autorretrato, son los datos estáticos o dinámicos que me definen.
 
 | Variable | Tipo o Rango | Descripción |
 | :--- | :--- | :--- |
-| **Ritmo de Energía** | Nocturno / Matutino | Rindo y me activo mucho más durante la noche; en las mañanas me cuesta más arrancar. |
-| **Necesidad de Sueño** | Estricto (Binario) | Necesito dormir bien obligatoriamente; si descanso mal, amanezco de mal humor. |
-| **Rutina de Mañana** | Hábito fijo | Empiezo el día tomando agua y té verde, haciendo ayuno (y a veces comiendo huevos). |
-| **Almuerzo y Vitaminas** | Hábito fijo | Tomo mis vitaminas a la hora de almuerzo. Los estimulantes como el café o las energéticas no me hacen efecto. |
+| **Ritmo de Energía** | Nocturno | Rindo y me activo mucho más durante la noche; en las mañanas me cuesta más hacer las cosas. |
+| **Necesidad de Sueño** | Estricto | Necesito dormir bien obligatoriamente; si descanso mal, amanezco de mal humor. |
+| **Rutina de Mañana** | Hábito fijo | Empiezo el día tomando agua y té verde, haciendo ayuno. |
+| **Preparación Nocturna** | Hábito fijo | Cada noche dejo todo listo para el día siguiente (ropa, maquillaje, mochila y cosas de la universidad) para optimizar las mañanas según el contexto. |
+| **Almuerzo y Vitaminas** | Hábito fijo | Tomo mis vitaminas a la hora de almuerzo. |
 | **Consumo de Música** | Constante | Necesito escuchar música como compañía para casi todo: leer, escribir, caminar o analizar. |
 | **Traslado con Audífonos** | Indispensable | Uso audífonos obligatoriamente en los viajes largos para aislarme del ruido y regular mi entorno. |
 | **Anotaciones en Papel** | Físico / Analógico | Anoto todo lo importante en mi libreta para no olvidarlo y tenerlo siempre a mano. |
 | **Organización de Tareas** | Dinámico (Tachado) | Escribo mis pendientes para presionarme a terminar las cosas y sentir la satisfacción de tacharlas. |
 | **Uso del Celular** | Digital | Uso el teléfono principalmente para conectarme con mis amigos y mi familia. |
 | **Salidas a Solas** | Autonomía propia | Disfruto salir a caminar o moverme al aire libre de manera independiente. |
-| **Actividad Física** | Periódico | Ando en bicicleta una vez por semana. (El boxeo lo dejé pausado porque me quitaba mucha energía y los trayectos son muy largos). |
-| **Batería Social** | Variable con límite | Me gusta estar sola, pero también compartir con personas. Eso sí, después de un rato se me agota la energía y necesito volver a estar sola. |
+| **Actividad Física** | Hábito fijo | Ando en bicicleta una vez por semana. |
+| **Actividad Física** | Periódico | Hago boxeo dos veces por semana, lo dejé pausado porque me chocan los horarios con la universidad. |
+| **Batería Social** | Variable con límite | Me gusta estar sola, pero también compartir con amigos. Eso sí, después de un rato se me agota la energía y necesito volver a estar sola. |
 | **Enfoque Proyectual** | Conceptual / Investigativo | Al iniciar cualquier encargo (universitario o externo), mi base es investigar a fondo lo que se pide y conectar cada hallazgo con conceptos claros para guiar el diseño. |
 
 
