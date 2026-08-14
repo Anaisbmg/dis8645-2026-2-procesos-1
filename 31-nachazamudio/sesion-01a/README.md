@@ -33,8 +33,8 @@ datos constantes:
 3.velocidad de movimiento
 
 ## encargos
-pantalla n°1 medidor de temperatura
+pantalla de segmento n°1 medidor de temperatura
 ![imagen pantalla refrigerador](./pantalla-1a.jpeg)
 ![imagen pantalla refrigerador zoom](./pantalla-1b.jpeg)
-
+Pantalla ubicada en mi lugar de trabajo que entrega estado de la temperatura de un refrigerador para mantenerlo en una temperatura optima para guardar cajas de leche.
 ## lectura
