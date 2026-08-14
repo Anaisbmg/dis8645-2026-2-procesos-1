@@ -36,9 +36,9 @@ actividad en clases grupal: responder datos internos y constantes que manejan lo
 
 autorretrato: variables y funciones
 
-variables:
+variables: mi nombre es maría ignacia zamudio benoni, prefiero el apodo nacha/nachis/nachi/ entre otros, estoy trabajando en mis pronombres por lo que me refiero de ambas formas a mi mismo, aunque mas masculino. mido 1.63 metros, peso 64 kilos, tengo 22 años y nací el 30 de enero del 2004. mi pelo es café oscuro, mis ojos son grandes y también cafés, tengo tez morena, el pelo corto y al dejarlo crecer se forman algunas ondas. me han operado dos veces, del ligamento cruzado anterior y una cirugia maxilofacial. me gusta jugar videojuegos para pasar el rato con amigos, crecí jugando con la consola wii y wii u, en computador juego valorant, peak, repo y minecraft principalmente. Escucho mucha música, mi banda favorita es twenty one pilots. tengo 3 gatos, cada uno con 3 nombres.
 
-funciones:
+funciones: practico deporte, en especial basketball, y hago actividad física recurrentemente, trabajo en un starbucks con el rol de barista y barista trainer 20 horas a la semana, estudio diseño con mención industrial. practico tocar guitarra acústica como hobby. 
 
 pantalla de segmento n°1 medidor de temperatura
 ![imagen pantalla refrigerador](./pantalla-1a.jpeg)
