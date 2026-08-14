@@ -39,6 +39,6 @@ velocidad de movimiento
 ## encargos
 pantalla n°1 medidor de temperatura
 ![imagen pantalla refrigerador](./pantalla-1a.jpeg)
-![imagen pantalla refrigerador zoom](:/pantalla-1b.jpeg)
+![imagen pantalla refrigerador zoom](./pantalla-1b.jpeg)
 
 ## lectura
