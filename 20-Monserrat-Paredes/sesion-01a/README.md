@@ -2,6 +2,12 @@
 
 ## Apuntes sesión
 
+Me lleve este libro
+
+
+<img width="1212" height="1599" alt="libro" src="https://github.com/user-attachments/assets/dcfd9f4f-701e-439c-8f15-2cc4d2a8e787" />
+
+
 ## Encargos
 
 Encargo 01-a: Martes 11/08
@@ -100,5 +106,6 @@ Cada una de estas pantallas demuestra que la tecnología del segmento se adapta 
 
 ## Lectura
 
-No me han entregado el libro porque falté a la sesión :(
+Libro: A *New* Program for Graphic Design
+Autor: David Reinfurt
 
