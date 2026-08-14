@@ -39,4 +39,8 @@ velocidad en la que se traslada
 1. autoretrato: variables y funciones 
 
 2.investigacion pantallas de segmentos: tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+pantalla de segmentos 1: reloj oficina
+esta pantalla de segmentos se encuentra en la oficina de mi papa, es un reloj donde la hora donde la pantalla de segmentos es más grande comparado con los otros datos del reloj como el día, mes y temperatura. este reloj muestra varias pantallas de segmentos a la vez a diferencia de los otras fotos. 
+![reloj oficina](./imagen-segmentos1.jpg) 
 ## lectura
