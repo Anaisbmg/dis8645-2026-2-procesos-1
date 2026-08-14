@@ -56,7 +56,7 @@ Las acciones se escriben con paréntesis `()`. Si no tienen paréntesis, corresp
 ## lectura
 Escogí el libro **_El cero de las formas: Arte, tecnología e historia_**.
 
-![Fotografía del libro](foto-libro.jpg)
+![Libro](foto-libro.jpg) 
 
 ---
 
