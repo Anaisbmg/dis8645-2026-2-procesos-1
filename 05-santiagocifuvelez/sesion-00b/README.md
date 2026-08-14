@@ -66,5 +66,3 @@ Y por último, a diferencia del elevador anterior, solo tenemos un botón de Ala
 
 ![ascensor 2](./imagenes/img3.jpeg)
 ![ascensor 2.2](./imagenes/img4.jpeg)
-
-## lectura
