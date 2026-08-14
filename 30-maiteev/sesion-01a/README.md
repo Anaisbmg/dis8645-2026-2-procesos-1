@@ -41,6 +41,22 @@ velocidad en la que se traslada
 2.investigacion pantallas de segmentos: tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 pantalla de segmentos 1: reloj oficina
-esta pantalla de segmentos se encuentra en la oficina de mi papa, es un reloj donde la hora donde la pantalla de segmentos es más grande comparado con los otros datos del reloj como el día, mes y temperatura. este reloj muestra varias pantallas de segmentos a la vez a diferencia de los otras fotos. 
+esta pantalla de segmentos se encuentra en la oficina de mi papa, es un reloj donde la informacion de hora y minutos es más grande comparado con los otros datos del reloj como el día, mes y temperatura. este reloj muestra varias segmentos a la vez a diferencia de los otras fotos. 
 ![reloj oficina](./imagen-segmentos1.jpg) 
+
+pantalla de segmentos 2: maquina de peluches 
+la maquina de peluches se encuentra en el lider mas cercano de mi casa, estaba al frente de las cajas autoservicio, en esos momentos la maquina solamente marcaba intermitente er y el numero 3 cada aproximadamente 3 segundos. 
+![maquina de peluches](./imagen-segmentos2.jpg) 
+
+pantalla de segmentos 3: precios de la bencina 
+esta pantalla se encuentra afuera del lider, es la bencinera aramco donde se muestran todos los precios elevados.. 
+![precios bencinera](./imagen-segmentos3.jpg) 
+
+pantalla de segmentos 4: micro 
+tomando la micro que siempre tomo a mi casa despues de clases, la pantalla esta en la parte de al frente de la micro donde se muestra el día, la hora y la temperatura donde además tiene una pantalla de segmentos mas pequeña para poner la letra c .la información cambia cada 10 segundos.
+![pantalla micro](./imagen-segmentos4.jpg) 
+
+pantalla de segmentos 5: fila de la fiambrería 
+pantalla para organizar la fila para comprar en el lider 
+![pantalla fiambreria](./imagen-segmentos5.jpg) 
 ## lectura
