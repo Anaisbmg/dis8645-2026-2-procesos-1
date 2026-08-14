@@ -100,12 +100,5 @@ Cada una de estas pantallas demuestra que la tecnología del segmento se adapta 
 
 ## Lectura
 
-Cada estudiante lee un libro distinto:
+No me han entregado el libro porque falté a la sesión :(
 
-- estimado 1 página al día
-
-- estimado 30 páginas al mes
-
-- estimado 100 páginas al semestre
-
-Cada martes en la bitácora de taller, cada estudiante debe escribir un resumen de lo leído, y por lo menos 2 citas de cada libro, incluyendo preguntas, referentes, aseveraciones, material que podamos discutir en clases.
