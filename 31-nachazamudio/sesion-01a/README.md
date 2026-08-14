@@ -43,5 +43,11 @@ funciones:
 pantalla de segmento n°1 medidor de temperatura
 ![imagen pantalla refrigerador](./pantalla-1a.jpeg)
 ![imagen pantalla refrigerador zoom](./pantalla-1b.jpeg)
-Pantalla ubicada en mi lugar de trabajo que entrega estado de la temperatura de un refrigerador para mantenerlo en una temperatura optima para guardar cajas de leche.
+pantalla ubicada en mi lugar de trabajo que entrega estado de la temperatura de un refrigerador para mantenerlo en una temperatura óptima para guardar cajas de leche.
+
+pantalla de segmento n°2 cronometro con varias funciones
+![imagen cronómetro](./cronometro2.jpeg)
+![imagen cronómetro función de hora](./cronometro1.jpeg)
+![imagen cronómetro función de alarma](./cronometro-alarma.jpeg)
+cronómetro con varias funciones(cronometro, alarma y hora) de uso personal especialmente para el ámbito deportivo
 ## lectura
