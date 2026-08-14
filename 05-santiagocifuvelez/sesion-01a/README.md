@@ -29,7 +29,7 @@ Sin las variables, las funciones no tendrían datos sobre los cuales trabajar; y
 Antes de continuar, he de mencionar que las variables y las funciones, se escriben dependiendo con qué lenguaje se utilice; C++, o, Phyton. Son lo mismo, pero la sintaxis es diferente. En el taller, vamos a utilizar C++, o, C más más,ó, C plus plus. 
 
 ### 3. C++ Variables
-- `“In C++`, there are different types of variables (defined with different keywords), for example:
+“In C++, there are different types of variables (defined with different keywords), for example:
 - `int` - stores integers (whole numbers), without decimals, such as 123 or -123
 - `double` - stores floating point numbers, with decimals, such as 19.99 or -19.99
 - `char` - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
