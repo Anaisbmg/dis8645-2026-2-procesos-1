@@ -56,6 +56,8 @@ cronómetro con varias funciones(cronometro, alarma, fecha y hora) de uso person
 pantalla segmento n°3 pesa digital
 
 ![imagen pesa digital](./pesa-digital.jpeg)
-
 ![imagen acercamiento pesa digital](./pesa-digital2.jpeg)
+
+pesa digital de casa para mostrar el valor de masa en kilogramos y además mostrar la t° ambiente del hogar
+
 ## lectura
