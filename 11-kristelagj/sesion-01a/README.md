@@ -75,12 +75,17 @@ Alfabeto posible utilizado: arábico ya que nos entrega la hora en el occidente 
 
 ![Ejemplo 1](imagenes/ejemplo1-segmentos.jpeg)
 
-- Ejemplo dos: Microondas
+- Ejemplo dos: pesa de alimentos
+- 
+
+![Ejemplo 2](imagenes/ejemplo2-segmentos.jpeg)
+
+- Ejemplo tres: Microondas
 
 Este microondas tiene más de 10 años en mi casa, se encuentra en mi cocina. Además de calentar comida, puede descongelar diversos alimentos que consumimos como por ejemplo pollo, carnes, pan entre otros, el que más utilizamos es el de pollo. Al escoger esta opción, en la parte superior de la pantalla de segmentos cambia el decimal y se agrega un icono que simboliza el frío. 
 
 Alfabeto posible utilizado: arábico
 
-- Ejemplo tres: pesa de alimentos
+![Ejemplo 2](imagenes/ejemplo3-segmentos.jpeg)
 
 
