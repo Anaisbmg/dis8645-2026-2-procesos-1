@@ -11,7 +11,7 @@ The idea is to understand the logic of GitHub more than just memorize buttons: t
 ```
 ![alt text](./)
 
-![book cover prehistoric digital poetry]() (formulas)
+![book cover prehistoric digital poetry]()
 ```
 Acá la lógica es poner una descripción de la imagen entre [que sería texto alterno] y después indicar dónde está el archivo entre (). ?
 
