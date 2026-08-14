@@ -28,6 +28,8 @@ EJEMPLO:
 
 + python para desarrollo de inteligencia artificial o ciencia de datos
 
+las variables almacenan la información y las funciones utilizan esa información para realizar procesos o acciones.
+
 
 ## encargos
 
