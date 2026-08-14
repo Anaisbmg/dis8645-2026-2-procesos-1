@@ -9,6 +9,7 @@ Lo vuelvo a pegar porque no se me había guardado
 Autorretrato:
 
 Variables: Mi edad, mi altura, mi  nombre, si estoy cansado o no o
+
 Funciones: Despertarme, levantar una pierna, mover la mano, o si estoy cansado entonces irme a dormir.
 
 ![texto](./imagenes/despertador1.png)
