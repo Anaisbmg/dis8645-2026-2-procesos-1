@@ -81,3 +81,6 @@ Se nos pidió hacer registro fotográfico de 3 botoneras de ascensor (no se espe
 - Utiliza números, flechas y símbolos universales.
 - Algunos botones se iluminan para indicar que fueron seleccionados.
 - Incorpora Braille y elementos táctiles.
+
+### Conclusión
+Al analizar las tres botoneras de ascensor, pudimos observar que, aunque tienen diseños y distribuciones diferentes, todas buscan facilitar su uso. También se pueden encontrar elementos en común, como los números, símbolos, luces indicadoras y Braille, que ayudan a identificar los botones y saber cuándo han sido seleccionados.
