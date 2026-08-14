@@ -46,9 +46,41 @@ https://atmos.earth/ecological-wisdom/what-gives-putting-symbiosis-and-life-in-c
 ![botones de ascensor](./imagenes/ascensor.jpg)
 
 - los botones de pisos y acciones están separados
-  
+
 - **botón uno:** va a hacer sonar algo, pero parece ser muy sutil con esa campanita
 - **botón dos:** para abrir puertas, demuestra la acción a través de una separación al medio y que con las flechas se abre hacia los lados
 - **botón tres:** para cerrar puertas, bajo la misma lógica anterior, las puertas deberían realizar la acción de las flechas y juntarse
 
 _hice el encargo cómo lo había entendido, analizando la visualidad y funcionamiento de tres botones de un ascensor, pero al conversar con compañeros ví que algunos lo abordaron de distintas formas, a pesar de eso y no saber si lo abordé de manera correcta, en la siguiente clase pude reflexionar con mayor profundidad de este análisis_
+
+### revisión encargo
+
+trabajamos en clase y profundizamos el ejercicio de observación del funcionamiento de ascensores, trabajando y conversando con nuestro equipo llegamos a esto:
+
+"El funcionamiento de un ascensor parte desde la experiencia fuera de él, estando frente a sus puertas, donde se suele encontrar al costado botones para subir o bajar, dependiendo en qué piso uno se encuentre, por ejemplo, al estar en el último piso sólo hay botón para bajar. Al llamar al ascensor, se debe presionar el botón con la flecha de la dirección a la que uno se dirigirá. Al entrar, podemos ver distintas variables de botones, divididas en pisos, funcionamiento de las puertas y botones para casos de emergencia. Los botones de los pisos al ser apretados, hay una programación detrás que genera el movimiento del mecanismo para ser llevado a tal piso, al cerrarse las puertas, ya sea de manera automática luego de un tiempo determinado, o al apretar el botón para realizar esta acción."
+
+### conversación en clases
+
+**¿qué se necesita para un ascensor (datos)?**
+
+- puertas
+- botones pisos: números enteros positivos y negativos, no hay 0
+- botones auxiliares: abrir y cerrar puertas
+- botón de emergencia
+- movimiento en eje z
+- espejos opcionales
+- poleas
+- motores
+- contrapeso
+- carril
+- electricidad
+
+**funciones básicas**
+
+- subir
+- bajar
+- mantenerse
+- hacer sonar una alarma
+- mecanismo de falla
+
+_estos apuntes los tomamos juntas con marcela zuñiga :)_
