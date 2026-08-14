@@ -92,6 +92,8 @@ libro que tengo que leer:
 
 - un resumen de lo leído, dos citas 
 
+La sociedad del espectáculo se publicó por primera vez en la editorial Buhet-Chastel de París en 1967.
+
 
 
 
