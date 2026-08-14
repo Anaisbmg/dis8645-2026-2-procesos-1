@@ -75,6 +75,8 @@ Se nos pidió hacer registro fotográfico de 3 botoneras de ascensor (no se espe
 </tr>
 </table>
 
+*esta imagen fue sacada de internet para cumplir con las 3 imágenes*
+
 - Los botones están distribuidos de forma vertical y ordenada.
 - Utiliza números, flechas y símbolos universales.
 - Algunos botones se iluminan para indicar que fueron seleccionados.
