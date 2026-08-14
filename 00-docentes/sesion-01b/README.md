@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-ejemplo de esqueleto
+### ejemplo de esqueleto
 
 ```cpp
 void setup() {
@@ -17,7 +17,7 @@ void loop() {
 }
 ```
 
-ejemploKristel
+### ejemploKristel
 
 ```cpp
 
@@ -90,11 +90,9 @@ void cumplirAnhosKristel() {
   // kristelEdad += 1;
   // kristelEdad++;
 }
-
 ```
 
-apuntes sobre colores y sistemas decimal, binario y hexadecimal
-
+### apuntes sobre colores y sistemas decimal, binario y hexadecimal
 
 ```cpp
 // 10 millones de colores
@@ -134,6 +132,53 @@ apuntes sobre colores y sistemas decimal, binario y hexadecimal
 // 15     F
 ```
 
+### ejemplo de declaración de funciones
+
+```cpp
+int valorPancito = 2000;
+int valorCafecito = 3000;
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+
+  int valorDesayuno = sumarEnteros(valorPancito, valorCafecito);
+
+  if (valorDesayuno < 5000) {
+    // oh no 
+  } else {
+
+    // oh si
+  }
+
+}
+
+// sumar numeros enteros
+// es tipo int porque nos va a dar un resultado
+// las void ocurren sin emitir un resultado
+int sumarEnteros(int x, int y) {
+  // declarar un resultado
+  int resultado = 0;
+  // es una abreviacion de dos pasos
+  // declarar       int resultado;
+  // asignar valor  resultado = 0;
+
+  // hacer la suma de x e y
+  // y reemplazar valor resultado
+  // por ese valor
+  resultado = x + y;
+
+  // emitir resultado al exterior de la funcion
+  return resultado;
+
+  // declarar solo lo puedo hacer una vez
+}
+
+```
 
 ## encargos
 
