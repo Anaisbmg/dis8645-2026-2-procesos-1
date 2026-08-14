@@ -39,7 +39,7 @@ es un medio de transporte que nos permite subir y bajar (personas o cosas) entre
 
 **ascensor 1** : edificio República 180 UDP
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-republica.jpeg)
 
 a primera vista: existe una botonera con botones de manera ovalada y organizados en 2 columnas, su contenido posee:
 
@@ -52,7 +52,7 @@ a primera vista: existe una botonera con botones de manera ovalada y organizados
 
 **ascensor 2** : Metro República 
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-metro.jpeg)
 
 a primera vista: existe una botonera no tan grande, solo justo para moverse en la estación, su contenido posee:
 
@@ -64,7 +64,7 @@ a primera vista: existe una botonera no tan grande, solo justo para moverse en l
 
 **ascensor 3** : edificio Velamar, Iquique, Tarapacá
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-departamento.jpeg)
 
 fotografía tomada por Karen Araya
 
