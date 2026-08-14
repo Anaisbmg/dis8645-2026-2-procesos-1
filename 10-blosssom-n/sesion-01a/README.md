@@ -80,9 +80,22 @@ Panel exterior con botones específicos para solo subir, o solo bajar.
 ## encargos
 to do: 
 
-autorretrato: describir variables y funciones de ustedes.
+1. Autorretrato: describir variables y funciones de ustedes.
 
-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+Variables
+
+Nombre: Natalia. Apellido Gutierrez. Edad: 22. 
+
+Constante fecha de nacicimiento: 2026-10-10
+
+
+Funciones
+
+Ver, Dormir, Leer
+
+
+2. Investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 ## lectura
 ME tocó leer Prehistoric digital poetry de C. T. Funkhouser
