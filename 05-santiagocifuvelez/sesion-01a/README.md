@@ -42,7 +42,7 @@ Antes de continuar, he de mencionar que las variables y las funciones, se escrib
 Con lo anteriormente visto, siempre que escribamos una variable, debemos declarar, así; El tipo de variable según su necesidad (escribir números enteros, decimales, etc) y debemos asignarle un nombre a esa variable para identificarle:
 
 #### Estructura: 
-'int' (type of variable) + 'nombre de la variable' + 'dato;' (el punto y coma son vitales, sin ellos, un hada muere)
+`int` (type of variable) + `nombre de la variable` + `dato;` (el punto y coma son vitales, sin ellos, un hada muere)
 
 **Ejemplo:**
 - string myName = santiago;
