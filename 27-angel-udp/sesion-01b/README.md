@@ -217,6 +217,11 @@ void cumplirAnhosAngel() {
 
 Otro ejemplo:
 
+Void loop89 {
+  // put your main code here, to run repeatedly:
+
+  int valorDesayuno = sumarEnteros(valorPancito, ValorCafecito);
+
 // sumar numeros
 // es tipo int porque nos va a dar un resultado
 // las void ocurren sin emitir un resultado
@@ -225,7 +230,16 @@ int sumarEnteros(int x, int y) {
   int resultado = 0;
   // es una abreviación de dos pasos
   // declarar           int resultado;
-  // asignar valor     re
+  // asignar valor      resultado = 0;
+
+  // hacer la suma de x e y
+  // y reemplazar valor resultado
+  //
+  resultado = x + y;
+
+  return resultado;
+
+// declarar solo lo puedo hacer una vez
 
 
 
