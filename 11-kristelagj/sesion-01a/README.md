@@ -71,12 +71,15 @@ https://www.include-poetry.com/Code/C++/Introduccion/Variables/
 
 En mi camino al trabajo, las calles que debo concurrir se encuentran muchas oficinas y colegios, entonces puedo encontrar diversas instalaciones, sobre todo acercándome a la comuna de Vitacura. Este tipo de estructuras son comunes en estas comunas. La instalación se encuentra en mi comuna, pero es una calle muy concurrida llamada Príncipe de Gales, exactamente cerca de Av. Americo Vespucio. 
 
-Alfabeto posible utilizado: arábico ya que nos entrega la hora en el occidente (en este caso no funciona el visualizador) 
+Sistema numérico posible: arábico  ya que nos entrega la hora en el occidente (en este caso no funciona el visualizador) 
 
 ![Ejemplo 1](imagenes/ejemplo1-segmentos.jpeg)
 
 - Ejemplo dos: pesa de alimentos
-- 
+
+Este es el ejemplo que encuentro más interesante de los otros. Primero mencionar que esta pesa fue traída hace también aproximadamente 10 años de Estados Unidos, la cual viene completamente en inglés, pero eso no fue un impedimento de utilizarla. Retomando lo primero dicho, encuentro interesante este ejemplo porque sube de nivel el no tan solo presentarnos números, sino, gracias a su tipografía modular, nos entrega letras realizadas con los módulos, esto se deja ver cuando se le coloca un elemento muy pesado o hacemos una combinación a partir de los dos botones que padece que no reconoce. 
+
+Alfabeto posible utilizado: arábico + alfabeto. 
 
 ![Ejemplo 2](imagenes/ejemplo2-segmentos.jpeg)
 
@@ -84,7 +87,7 @@ Alfabeto posible utilizado: arábico ya que nos entrega la hora en el occidente 
 
 Este microondas tiene más de 10 años en mi casa, se encuentra en mi cocina. Además de calentar comida, puede descongelar diversos alimentos que consumimos como por ejemplo pollo, carnes, pan entre otros, el que más utilizamos es el de pollo. Al escoger esta opción, en la parte superior de la pantalla de segmentos cambia el decimal y se agrega un icono que simboliza el frío. 
 
-Alfabeto posible utilizado: arábico
+Sistema numérico posible: arábico 
 
 ![Ejemplo 2](imagenes/ejemplo3-segmentos.jpeg)
 
