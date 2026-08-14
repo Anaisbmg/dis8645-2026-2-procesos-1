@@ -87,4 +87,45 @@ la combinación coordinada de todos los microprocesos anteriores permite que mi 
 
 **2-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display**
 
+**¿Qué son pantallas de segmentos?**
+- son dispositivos electrónicos que representan caracteres numéricos y alfabéticas
+- funciona mediante la iluminación o desactivación de un grupo de trazos fijos
+- los trazos son fabricados habitualmente con diodos LED o tecnología de cristal líquido (LCD),
+- actúan como componentes individuales que componen el mensaje visual
+
+**tipos principales**
+- 7 segmentos
+   - su diseño posee solo líneas horizontales y verticales con la forma tradicional de un número **8**
+   - su función principal es mostrar números del 0 al 9 y una cantidad muy reducida de letras simples
+   - su uso y complejidad es más económica, requiere un circuito sencillo y consume poca energía (ideal para relojes o básculas)
+- 14 y 16 segmentos:
+   - su diseño posee una suma de líneas diagonales e el centro y trazos divididos que forman una especie de asteriscos.
+   - su función principal es mostrar el alfabeto completo de la **A** a la **Z**, números y símbolos matemáticos o especiales tales como ** +, *, ? **
+   - su sistema es más versátil para mostrar texto completo, pero exige circuitos de control más avanzados
+
+**¿Dónde se pueden encontrar?**
+- microondas
+- lavadoras
+- secadoras
+- relojes
+- calculadoras
+- básculas
+- refrigeradores
+- turneros de bancos y farmacias
+- entre otros
+
+ejemplos de fotos:
+
+**ejemplo 1: microondas**
+
+subir foto
+
+**ejemplo 2: refrigerador**
+
+subir foto
+
+**ejemplo 3: estufa**
+
+subir foto
+
 ## lectura
