@@ -12,7 +12,20 @@ segundo bloque: se hizo una actividad grupal relacionada con el encargo de la cl
 
 #### variables:
 
+- nombre: Carlo Martínez
+- edad: 24
+- color favorito: rojo
+- hobby: jugar y salir
+- música favorita: r&b
+- juego favorito: resident evil 4 remake
+
 #### funciones:
+
+-jugar
+-escuchar musica
+-ver anime
+- salir con amigos
+- leer
 
 ### investigación pantalla de segmentos 
 
