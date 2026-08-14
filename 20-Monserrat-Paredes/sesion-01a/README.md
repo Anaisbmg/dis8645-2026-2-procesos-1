@@ -10,13 +10,10 @@ Autorretrato: describir variables y funciones de ustedes.
 investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display.
 
 
-### Autorretrato: escribir variables y funciones de ustedes.
+### Autorretrato: escribir variables y funciones mias.
 
 En programación o sistemas, una variable es un contenedor que almacena información que puede cambiar o mantenerse constante. 
 En tu autorretrato, son los datos estáticos o dinámicos que me definen.
-
-
-## Autorretrato del Sistema: Perfil de Diseño
 
 
 | Variable | Tipo o Rango | Descripción |
