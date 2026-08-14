@@ -108,7 +108,126 @@ acá está prohibido escribir una linea de código si no estácomentada con lo q
 
 Backtick = `
 
-Luego para colocar códigos y que sepa la incica ```
+If condicional : una estructura de control en programación que evalúa si una condición es verdadera para ejecutar código, o las oraciones condicionales con "if" en inglés que expresan situaciones y sus resultados.
+
+Luego para colocar códigos y que se sepa el enguaje ej: `, y luego cerramos con los mosmos peor iniciamos así para C++ ```cpp
+
+### Este código en Arduino IDE (ejemplo Angel)
+
+```cpp
+// Angel es estudiante udp
+//bools
+bool AngelEstudianteUDP = true;
+bool AngelColombiano = true;
+bool AngelCoreano = false;
+bool AngelDientes = true;
+
+// integers
+int AngelEdad = 23;
+
+int AngelNacimientoAnho = 2003;
+// enero es 1, diciembre 12 
+int AngelNacimientoMes = 06;
+// dias desde 1 hasta que termine el mes
+int AngelNacimientoDia = 13;
+
+// negro
+string AngelColorFavorito = "000000";
+
+// 10 millones de colores
+// 24 bits tengo mas de 10 millones de valores posibles
+// 3 receptores rojizo, verdoso, azuloso
+// desmosle 8 bits a cada canal de color
+// entonces rojo tiene 8 bits
+// G de verde tb, B de azul tb
+// entonces 0 es apagado, 255 es prendido al maximo
+// 8 bits se llaman 1 byte
+// disco duro 2 MB mega bites, pero de 2 Mb y esos son 2 mega bit
+
+// 1 byte tiene 2 nibbles, 2 pedacitos
+
+
+
+// en 1 nibble, o 4 bits tengo 2 elevado a 4 valores posibles
+// del 0 al 15
+
+
+// sistema decimal   luego colocaron el sistema hexadecimal
+// 00                      0
+// 01                      1
+// 02                      2
+// 03                      3
+// 04                      4
+// 05                      5
+// 06                      6
+// 07                      7
+// 08                      8
+// 09                      9
+// 10                      A
+// 11                      B
+// 12                      C
+// 13                      D
+// 14                      E
+// 15                      F
+
+// estoy en el dia de nacimiento
+// de Angel
+// le deseo feliz cumpleanhos
+
+// scope esta dentro de {}
+// scope es un contexto
+
+//if (mesActual == AngelNAcimientoMes)  {
+// estoy en el mes interesado
+
+// if (diaActual == AngelNacimientoDia) {
+
+  // decirle feliz cumple
+  // que se tome el dia libre
+  // traer cositas pa picar
+//}
+
+if (mesActual == AngelNAcimientoMes &&
+diaActual == AngelNacimientoDia)
+
+
+
+// }
+}
+
+
+
+En Arduino tien un editor para reglas y estandares como auto formatear, también finalizar o algo que esto termina acá (importantes comentarios o punto y coma) Hay señales como que las funciones están pegadas al borde, La "v" hace void
+
+- las funciones tienen parentesis
+- las funciones tienen nombre
+- Primero se resuelve el valor de la derecha se inserta al valor de la isquierda
+
+// la vamos a correr cuando
+// sea el cumple de Angel
+void cumplirAnhosAngel() {
+ // actuializar la edad de Angel
+ // edad es la que es mas uno
+ AngelEdad = 23 + 1;
+ // manera abreviada
+ // AngelEdad += 1; (esta no la vamos a usar pero existe)
+ // AngelEdad++; (esta no la vamos a usar pero existe)
+}
+```
+
+Otro ejemplo:
+
+// sumar numeros
+// es tipo int porque nos va a dar un resultado
+// las void ocurren sin emitir un resultado
+int sumarEnteros(int x, int y) {
+  // declarar un resultado
+  int resultado = 0;
+  // es una abreviación de dos pasos
+  // declarar           int resultado;
+  // asignar valor     re
+
+
 
 ## encargos
 
