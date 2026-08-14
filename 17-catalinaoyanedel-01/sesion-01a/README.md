@@ -75,11 +75,49 @@ mis "máquinas" que transforman inputs en outputs
 - `músculos faciales`: al recibir cualquier tipo de información, ya sea genere felicidad, enojo, tristeza, disgusto, sorpresa o confusión, hacer una expresión inmediatamente, sin importar si es apropiado o no. _esta función debe mejorarse._
 
 ### partes dos encargo
+**pantallas de segmentos**
+
+tipos: 
+- siete segmentos: para números
+- pantallas alfanuméricas de catorce y dieciséis segmentos: números y letras del alfabeto.
+
+#### 01. pantalla de siete segmentos
+es el dispositivo de visualización más común utilizado en aparatos como relojes, hornos, microondas, estufas.
+
+**funcionamiento:** constan de siete segmentos de leds dispuestos en forma de ocho, e incluso algunas llegan a tener ocho segmentos, utilizando uno de ellos como punto para mostrar números no enteros.
+
+![ejemplo](./imagenes/sietesegmentos.jpg)
+
+el circuito está diseñado para que se le pueda aplicar voltaje a diferentes pines de manera simultanea para obtener las distintas combinaciones que generan los números de 0 a 9. si bien puede mostrar algunas letras que suelen ser de a la A a la G, hay otras que van más allá de la capacidad del sistema como la K, X, M, N, R, etc.
+
+![reloj](./imagenes/relojdigital.jpg)
+
+deben estar controladas por microcontroladores, y generalmente estas pantallas incluyen varios dígitos para poder representar números mayores, y para esa posible gran cantidad de cables, se utilizan algunos trucos para reducir el número de pines.
+
+existen dos tipos de conexión de pines: cátodo común (CC) y ánodo común (CA). como su nombre indica, un display CC tiene todos los cátodos de los 7 LEDs conectados, mientras que un display CA tiene todos los ánodos de los 7 segmentos conectados.
+
+_descripciones de vista de ia:_
+
+**ánodo común (CA)**
+
+-  se conecta al polo positivo de la energía (VCC o 5V).
+-  encendido: cada segmento (A-G) prende al mandar una señal negativa (0 lógico o GND) a su pin individual mediante una resistencia.
+-  control: se usa con placas como Arduino u otros circuitos digitales para crear relojes y contadores
+
+**cátodo común (CC)**
+
+- pin común: se conecta al polo negativo de la fuente (tierra, GND o 0V).
+- encendido: cada segmento (A-G) se ilumina al recibir una señal positiva (1 lógico o 5V) en su pin individual.
+- resistencias: requiere una resistencia en cada pin de segmento para no quemar los LEDs.
+
+**fuentes:**
+- https://digilent.com/blog/what-is-a-7-segment-display-and-how-does-it-work/
+- https://docs.sunfounder.com/projects/vincent-kit/es/latest/components/component_7_segment.html
 
 ## lectura
 elegí llevarme el libro Conversations de Ai Weiwei porque me llamó la atención que sean conversaciones sobre arte principalmente, sin conocer al artista, por lo que hoy investigué más de él y su obra, y leí las primeras páginas donde pude entender la importancia del artista por lo reconocido que es y también su relación con el activismo político.
 
-**citas:**
+**citas sobre él y el libro:**
 
 "Nombrado la persona más influyente del mundo del arte en 2011 por la revista ArtReview, Ai Weiwei es uno de los artistas contemporáneos chinos más importantes, una figura única de la escena internacional y claro disidente del régimen comunista de su país. [...] Mediante su trabajo ha explorado los temas de opresión y desplazamiento. Autodenominándose ‘refugiado’, ha desarrollado una empatía por los refugiados y migrantes, convirtiéndolo en el contenido central de su obra."
 
