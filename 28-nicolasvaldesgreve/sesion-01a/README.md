@@ -116,11 +116,11 @@ la verdad me costó contar los segmentos, pero ahora estoy 80% seguro de que la 
 
 ![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora del colegio jiji](./imagenes/calculadora.jpeg)
 
-estas fotos fueron tomadas por mi hermana menor en nuestra casa, en donde muestra la pantalla de su calculadora de manera frontal y se puede observar cómo hay un "0.", lo cual me hace creer que esta es una pantalla de 9 segmentos al contar el punto! otra cosa de lo que no estoy muy seguro es sobre si esta pantalla se considera una pantalla de segmentos ya que al poner la calculadora en ángulo se ve lo siguiente:
+estas fotos fueron tomadas por mi hermana menor en nuestra casa, en donde muestra la pantalla de su calculadora de manera frontal y se puede observar cómo hay un "0.", lo cual me hace creer que esta es una pantalla de 8 segmentos al contar el punto! otra cosa de lo que no estoy muy seguro es sobre si esta pantalla se considera una pantalla de segmentos ya que al poner la calculadora en ángulo se ve lo siguiente:
 
 ![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora en ángulo... muchas gracias Karina](./imagenes/calculadora-angulo.jpeg)
 
-al poner la calculadora en esta posición, podemos ver en dónde se pueden prender los LEDs de la pantalla, notando así que en efecto hay 9 segmentos en la mitad inferior de la pantalla, pero en la parte superior hay 30 cuadrados (son rectángulos de 5x6 si no me equivoco), cosa que nos permite mostrar textos muuuucho más claros, pero no sé si esto sigue siendo una pantalla de segmentos al tener dos formas distintas para mostrar texto (segmentos y los cuadrados).
+al poner la calculadora en esta posición, podemos ver en dónde se pueden prender los LEDs de la pantalla, notando así que en efecto hay 8 segmentos en la mitad inferior de la pantalla, pero en la parte superior hay 30 cuadrados (son rectángulos de 5x6 si no me equivoco), cosa que nos permite mostrar textos muuuucho más claros, pero no sé si esto sigue siendo una pantalla de segmentos al tener dos formas distintas para mostrar texto (segmentos y los cuadrados).
 
 #### fuentes:
 
