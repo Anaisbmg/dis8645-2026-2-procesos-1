@@ -67,18 +67,18 @@ https://www.include-poetry.com/Code/C++/Introduccion/Variables/
 
 *Encargo 2*
 
-Ejemplo uno: reloj + cartel 
+- Ejemplo uno: reloj + cartel 
 
 En mi camino al trabajo, las calles que debo concurrir se encuentran muchas oficinas y colegios, entonces puedo encontrar diversas instalaciones, sobre todo acercándome a la comuna de Vitacura. Este tipo de estructuras son comunes en estas comunas. La instalación se encuentra en mi comuna, pero es una calle muy concurrida llamada Príncipe de Gales, exactamente cerca de Av. Americo Vespucio. 
 
 Alfabeto posible utilizado: arábico ya que nos entrega la hora en el occidente (en este caso no funciona el visualizador) 
 
-Ejemplo dos: Microondas
+- Ejemplo dos: Microondas
 
 Este microondas tiene más de 10 años en mi casa, se encuentra en mi cocina. Además de calentar comida, puede descongelar diversos alimentos que consumimos como por ejemplo pollo, carnes, pan entre otros, el que más utilizamos es el de pollo. Al escoger esta opción, en la parte superior de la pantalla de segmentos cambia el decimal y se agrega un icono que simboliza el frío. 
 
 Alfabeto posible utilizado: arábico
 
-Ejemplo tres: pesa de alimentos
+- Ejemplo tres: pesa de alimentos
 
 
