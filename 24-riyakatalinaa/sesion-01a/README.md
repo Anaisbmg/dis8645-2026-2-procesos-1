@@ -130,4 +130,16 @@ subir foto
 
 ## lectura
 
+nos dejaron elegir un libro para leer durante el semestre en el cual debemos dejar 2 citas por clase y leer mínimo 100 paginas durante el semestre
+
 ![imagen de microondas](./imagenes/libro.jpeg)
+
+libro escogido **La Música electroacústica en Chile** de Federico Schumacher
+
+¿Quién es Federico Schumacher?
+- Federico nació en Santiago de Chile en 1963
+- es compositor e investigador
+- se graduó en la Universidad de Chile y Doctor de Música por la Universidad Federal de Minas Gerais en Brasil
+- se especializa en obras acusmáticas por el cual fue premiado nacional e internacionalmente
+- su área de interés es la investigación sobre la música electroacústica, cómo se percibe la música acusmática y la conservación del patrimonio sonoro tecnológico 
+- actualmente es académico en el Departamento de Sonido de la Universidad de Chile
