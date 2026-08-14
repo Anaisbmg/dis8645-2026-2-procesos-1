@@ -55,7 +55,7 @@ cronómetro con varias funciones(cronometro, alarma, fecha y hora) de uso person
 
 pantalla segmento n°3 pesa digital
 
-![imagen pesa digital](:/pesa-digital.jpeg)
+![imagen pesa digital](./pesa-digital.jpeg)
 
-![imagen acercamiento pesa digital](:/pesa-digital2.jpeg)
+![imagen acercamiento pesa digital](./pesa-digital2.jpeg)
 ## lectura
