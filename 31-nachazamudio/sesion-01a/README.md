@@ -51,5 +51,5 @@ pantalla de segmento n°2 cronometro con varias funciones
 ![imagen cronómetro función de hora](./cronometro1.jpeg)
 ![imagen cronómetro función de alarma](./cronometro-alarma.jpeg)
 
-cronómetro con varias funciones(cronometro, alarma y hora) de uso personal especialmente para el ámbito deportivo
+cronómetro con varias funciones(cronometro, alarma, fecha y hora) de uso personal especialmente para el ámbito deportivo
 ## lectura
