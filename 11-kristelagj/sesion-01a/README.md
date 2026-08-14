@@ -73,6 +73,8 @@ En mi camino al trabajo, las calles que debo concurrir se encuentran muchas ofic
 
 Alfabeto posible utilizado: arábico ya que nos entrega la hora en el occidente (en este caso no funciona el visualizador) 
 
+![Ejemplo 1](imagenes/ejemplo1-segmentos.jpeg)
+
 - Ejemplo dos: Microondas
 
 Este microondas tiene más de 10 años en mi casa, se encuentra en mi cocina. Además de calentar comida, puede descongelar diversos alimentos que consumimos como por ejemplo pollo, carnes, pan entre otros, el que más utilizamos es el de pollo. Al escoger esta opción, en la parte superior de la pantalla de segmentos cambia el decimal y se agrega un icono que simboliza el frío. 
