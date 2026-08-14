@@ -141,6 +141,67 @@ Entonces:
 
 ## encargos
 
+Autoretrato 
+
+// Variables
+
+string nombre = "Isidora";
+string apellido = "Diaz";
+int edad = 22;
+float altura = 1.57;
+string rut = "21472104-K";
+string nacionalidad = "Chilena";
+string apodo = "Isi";
+
+string colorFavorito = "Rosa";
+string serieFavorita = "Friends";
+string comidaFavorita = "Comida china";
+char inicial = 'I';
+string universidad = "UDP";
+string carrera = "Diseño";
+
+string musicaFavorita = "Pop";
+string estacionFavorita = "Verano";
+string hobbyFavorito = "Leer";
+string animalFavorito = "Perrito";
+
+bool peloCastano = true;
+bool ojosCafe = true;
+bool trabaja = true;
+bool fanDisney = true;
+bool leGustaViajar = true;
+bool leGustaLeer = true;
+bool haceEjercicio = false;
+bool usaLentes = true;
+
+
+// Funciones
+
+void trabajar() {
+}
+
+void verSeries() {
+}
+
+void dormir() {
+}
+
+void leer() {
+}
+
+void estudiar() {
+}
+
+
+void escucharMusica() {
+}
+
+void cocinar() {
+}
+
+void disenar() {
+}
+
 
 ## lectura
 ![portada libro](./imagenes/portadalibro.jpg)
