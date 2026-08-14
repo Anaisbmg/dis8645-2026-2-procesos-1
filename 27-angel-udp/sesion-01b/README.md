@@ -215,7 +215,7 @@ void cumplirAnhosAngel() {
 }
 ```
 
-Otro ejemplo:
+Otro ejemplo que escribí:
 
 Void loop89 {
   // put your main code here, to run repeatedly:
