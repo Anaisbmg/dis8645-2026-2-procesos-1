@@ -423,7 +423,14 @@ Imágenes sacadas por mi :)
 
 
 
-
 ## Lectura
 
-No me han entregado el libro porque falté a esta sesión. 
+Cada estudiante lee un libro distinto:
+
+- estimado 1 página al día
+
+- estimado 30 páginas al mes
+
+- estimado 100 páginas al semestre
+
+Cada martes en la bitácora de taller, cada estudiante debe escribir un resumen de lo leído, y por lo menos 2 citas de cada libro, incluyendo preguntas, referentes, aseveraciones, material que podamos discutir en clases.
