@@ -48,4 +48,12 @@ También considerar: (bajo el ejemplo de los ascensores)
 
 ## encargos
 
+**Encargo 01:** Describir nuestras propias variables y funciones (autorretrato).
+
+**Encargo 02:** Investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos.
+
 ## lectura
+
+La lectura que yo escogí es "**Grokking Algorithms**" de Aditya Y. Bhargava.
+
+![Portada del libro Grokking Algorithms de Aditya Y. Bhargava](./imagenes/grokking_algorithms.jpg)
