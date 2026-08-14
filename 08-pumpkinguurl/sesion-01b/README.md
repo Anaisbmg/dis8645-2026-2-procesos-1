@@ -45,4 +45,4 @@
 
 Recién escogí libro 
 
-![imagen de texto escogido](digital-art-jpeg)
+![imagen de texto escogido](digital-art.jpeg)
