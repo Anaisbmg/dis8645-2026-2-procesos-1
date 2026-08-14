@@ -51,7 +51,108 @@ Las acciones se escriben con paréntesis `()`. Si no tienen paréntesis, corresp
 
 *Apuntes compartidos en clase con Catalina Oyanedel*
 
+--- 
+
 ## encargos
+
+### ¿Qué es una variable?
+Una variable es un espacio que permite guardar información o un dato. Su contenido puede cambiar dependiendo de la situación.
+
+Por ejemplo:
+```
+edad = 35
+color_favorito = "morado"
+estado_animo = "feliz"
+```
+Una variable puede representar diferentes aspectos de una persona, como sus características, gustos, emociones o situaciones.
+
+Por ejemplo:
+```
+nombre
+edad
+estado_animo
+color_favorito
+```
+Algunas variables cambian con el tiempo, como:
+```
+estado_animo = "cansada"
+```
+Luego podría cambiar a:
+```
+estado_animo = "motivada"
+```
+Por lo tanto, una variable permite representar información que puede modificarse.
+
+### ¿Qué es una función?
+
+Una función representa una acción o tarea que se puede realizar.
+
+A diferencia de una variable, que representa un dato, una función representa algo que hacemos.
+
+Las funciones se escriben utilizando paréntesis `()`.
+
+```
+estudiar()
+caminar()
+escuchar_musica()
+crear()
+descansar()
+```
+Los paréntesis permiten reconocer que se trata de una acción o función.
+
+Una función también puede producir un resultado:
+```
+estudiar() → aumenta_conocimiento
+descansar() → recupera_energia
+crear() → genera_una_idea
+```
+### Diferencias entre variables y funciones
+| Variables | Funciones |
+| --- | --- |
+| Representan datos | Representan acciones |
+| Guardan información | Realizan una acción |
+| No llevan `()` | Llevan `()` |
+
+Ejemplo:
+
+| Variables | Funciones |
+| --- | --- |
+| `edad` | `estudiar()` |
+| `color_favorito` | `crear()` |
+| `estado_animo` | `descansar()` |
+
+### Autoretrato
+
+```
+nombre = "marcela"
+apellido = "zuñiga"
+edad = 21
+color_favorito = "morado"
+comida_favorita = "lasaña"
+pelicula_favorita = "enredados"
+estado_animo = "cansada"
+hobby = "ver_peliculas"
+personalidad = "extrovertida"
+lugar_favorito = "playa"
+```
+
+### Mis funciones
+Las funciones representan algunas de las acciones que forman parte de mi vida cotidiana:
+
+```
+estudiar()
+aprender()
+escuchar_musica()
+descansar()
+compartir()
+```
+
+### Reflexión
+Las variables muestran diferentes características que forman parte de nuestra identidad, mientras que las funciones representan las cosas que hacemos diariamente.
+
+Además, algunas acciones pueden generar cambios en nuestras variables. Por eso, mi autorretrato no es completamente estático, sino que puede cambiar según mis experiencias, decisiones y contexto.
+
+--- 
 
 ## lectura
 Escogí el libro **_El cero de las formas: Arte, tecnología e historia_**.
