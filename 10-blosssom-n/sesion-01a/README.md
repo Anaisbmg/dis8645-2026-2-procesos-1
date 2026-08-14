@@ -78,16 +78,17 @@ Panel exterior con botones específicos para solo subir, o solo bajar.
 
 
 ## encargos
-to do: 
 
 1. Autorretrato: describir variables y funciones de ustedes.
 
 
 Variables
 
-Nombre: Natalia. Apellido Gutierrez. Edad: 22. 
+Nombre: Natalia. Apellido: Gutierrez. Edad: 22. 
 
-Constante fecha de nacicimiento: 2026-10-10
+Constantes
+
+Fecha de nacicimiento: 2026-10-10
 
 
 Funciones
