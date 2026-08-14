@@ -128,7 +128,7 @@ al poner la calculadora en esta posición, podemos ver en dónde se pueden prend
 + <https://www.manuales.mx/pioneer/deh-1300mp/manual?p=3>
 + <https://en.wikipedia.org/wiki/Segment_display>
 
-### autorretrato
+---
 
 #### variables
 
@@ -138,7 +138,7 @@ las variables es en donde se almacenan los datos. dependiendo de la información
 + ``double`` -> números decimales, ej: 10.1 o -10.1
 + ``char`` -> caracteres individuales que se deben encerrar entre comillas simples, ej: 'a' o 'A'
 + ``bool`` -> verdadero o falso
-+ ``string`` -> texto entre comillas dobles, ej: "when haces tus momos en c++"
++ ``string`` -> texto entre comillas dobles, ej: "when haces tus momos en C++"
 
 para poder crear una variable tenemos que especificar qué tipo de variable es y asignarle un valor siguiendo el siguiente formato: ``tipo nombreVariable = valor``.
 
@@ -166,21 +166,67 @@ string nombre = "mailo";
 int edad = 4;
 double altura = 32.7;
 
-cout << nombre << " tiene " << edad << " años y mide " << altura;
+cout << nombre << " tiene " << edad << " años y creo que mide " << altura << " cm ";
 ```
 
-nombre-de-la-función(datos transmitidos a la función)
+#### funciones
 
-void la función no regresa nada
+según <https://disenoudp.github.io/apuntes-maquinas/>, las funciones son bloques de código que realizan una tarea, tienen un comportamiento flexible gracias al uso de parámetros.
 
-int la función regresa algo que puede ser una variable (float), letra (chart)
+en el lenguaje de C++, todo programa parte en la función ``main``, la cual es una entrada que coordina el cómo se ejecuta el resto de funciones. para poder declarar una función, se debe especificar el nombre de esta seguido de un paréntesis, como por ej:
 
-autorretrato: describir variables y funciones de ustedes.
+```cpp
+void miFunción() {
+// aquí va el código que queremos correr lol
+}
+```
+
+en este ejemplo, _miFunción()_ es el nombre de la función mientras que _void_ significa que la función no regresa nada (no tiene valor de retorno).
+
+para llamar a la función hay que escribir su nombre (luego de haberla declarado anteriormetne) junto a dos paréntesis ``()`` y un ``;``. aquí un ejemplo de <https://www.w3schools.com/cpp/cpp_functions.asp> en donde se llama a la función dentro de ``main``
+
+```cpp
+void miFunción() {
+	cout << "hola estoy corriendo";
+}
+
+int main() {
+	miFunción(); // aquí la función puede ser repetida, solo hay que mencionarla más veces lol
+	return 0;
+}
+```
+
+### encargo autorretrato
+
+> esto está hecho a base de pura confianza y cero revisiones de alguien que no sea yo, por lo que es obvio que está mal hecho pero por lo menos lo intenté LOLOLOLOL
+
+```cpp
+string misNombres = "Nicolás Elías";
+string misApellidos = "Valdés Greve";
+int miEdad = 20;
+bool peloTeñido = true;
+string coloresPelo = "negro y un azul que se está destiñendo a verde lol";
+bool piercings = true;
+int cantidadPiercings = 3;
+bool lentesÓpticos = true;
+string colorLentes = "café oscuro"
+
+void presentarmeLol() {
+	cout << "hola lol me llamo " << misNombres << "-" << misApellidos << ", tengo" << miEdad << " años.";
+}
+
+void describirFísicamente() {
+	cout << "tengo " << cantidadPiercings << " piercings en mi cara, dos de ellos abajo de los labios y otro en la nariz. hace poco me teñí el pelo, por lo que ahora está de color " << coloresPelo <<". También tengo lentes ópticos de color " << colorLentes << " ya que tengo miopía y astigmatismo LOL";
+}
+```
+mientras hacía esto me di cuenta que no sé cómo aplicar el ``bool`` ni cómo hacer una función ``main``#YOLO
 
 #### fuentes:
 
 + <https://www.w3schools.com/cpp/cpp_variables.asp>
-+ <
++ <https://www.w3schools.com/cpp/cpp_functions.asp>
++ <https://disenoudp.github.io/apuntes-maquinas/>
++ <https://www.superprof.cl/blog/funciones-cplusplus/>
 
 ---
 
