@@ -39,7 +39,7 @@ es un medio de transporte que nos permite subir y bajar (personas o cosas) entre
 
 **ascensor 1** : edificio República 180 UDP
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-republica.jpeg)
 
 a primera vista: existe una botonera con botones de manera ovalada y organizados en 2 columnas, su contenido posee:
 
@@ -52,7 +52,7 @@ a primera vista: existe una botonera con botones de manera ovalada y organizados
 
 **ascensor 2** : Metro República 
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-metro.jpeg)
 
 a primera vista: existe una botonera no tan grande, solo justo para moverse en la estación, su contenido posee:
 
@@ -64,7 +64,7 @@ a primera vista: existe una botonera no tan grande, solo justo para moverse en l
 
 **ascensor 3** : edificio Velamar, Iquique, Tarapacá
 
-**recordar subir foto de ascensor**
+![imagen de microondas](./imagenes/ascensor-departamento.jpeg)
 
 fotografía tomada por Karen Araya
 
@@ -83,16 +83,4 @@ a diferencia de los otros 2 ascensores anteriores, este está programado de tal 
 
 ## lectura
 
-día martes 11-08 nos dejaron elegir un libro para leer durante el semestre en el cual debemos dejar 2 citas por clase.
-
-libro escogido **La Música electroacústica en Chile** de Federico Schumacher
-
-¿Quién es Federico Schumacher?
-- Federico nació en Santiago de Chile en 1963
-- es compositor e investigador
-- se graduó en la Universidad de Chile y Doctor de Música por la Universidad Federal de Minas Gerais en Brasil
-- se especializa en obras acusmáticas por el cual fue premiado nacional e internacionalmente
-- su área de interés es la investigación sobre la música electroacústica, cómo se percibe la música acusmática y la conservación del patrimonio sonoro tecnológico 
-- actualmente es académico en el Departamento de Sonido de la Universidad de Chile
-
-  
+la lectura comenzó el día martes 11-08
