@@ -60,13 +60,13 @@ Funciones: Van a preguntar variables y, según la variable, se va a operar.
 
 variables: 
 
+nombre: bianka 
+
+apellido: vilchez
+
 Edad: 22
 
 Altura: 1.53
-
-Color de pelo: negro
-
-Color de ojos: negro
 
 Estado de ánimo: tranquilo, cansado, feliz, estresado
 
@@ -82,10 +82,12 @@ Intereses: diseño, fotografía, moda, arte, etc
 
 Tiempo dedicado al diseño: cambia según el día
 
-Cantidad de café: 1 tasa
+Cantidad de café: depende del dia
 
 
 funciones:
+
+
 
 ## pantalla de segmento
 
