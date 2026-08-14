@@ -24,7 +24,7 @@ los que analizamos nosotras.
 
 ![ascensores](./imagenes/ascensores.png)
 
-nuestro texto con antonia loch e isidora pérez:
+nuestro texto con Antonia Loch e isidora pérez:
 
 el ascensor cuenta con una puerta, en donde se llama a este al presionar el botón del exterior. generalmente, cuentan con similitudes de materialidad (los más actuales), como acero inoxidable y hierro. los botones indican el número de pisos, y cuentan con una luz que se obtiene al presionar el botón e indica el piso al que se dirige. algunos de estos incluyen el uso del sistema braille en los botones para personas con discapacidad visual.
 
@@ -114,7 +114,7 @@ en general, los tres indican números para entregar una información. hay variac
 
 ### reading writing interfaces: from the digital to the bookbound
 
-**por lori emerson**
+**por Lori Emerson**
 
 citas del texto 
 
