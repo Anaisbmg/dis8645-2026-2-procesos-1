@@ -58,7 +58,9 @@ variables:
 funciones:
 
 1.pantallas de segmentos:
+
 2.pantallas de segmentos:
+
 3.pantallas de segmentos:
 
 ## lectura
