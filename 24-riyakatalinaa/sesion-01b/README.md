@@ -6,7 +6,7 @@ viernes 2026-08-14
 
 08:30 am charla
 
-partimos hablando de algunos libros subimos por Matías
+partimos hablando de algunos libros subidos por Matías
 - su portada
 - colores
 - editorial (algo que realmente nunca investigamos o tomamos en cuenta)
@@ -39,5 +39,7 @@ primer logo de joi ito
 
 
 ## encargos
+
+
 
 ## lectura
