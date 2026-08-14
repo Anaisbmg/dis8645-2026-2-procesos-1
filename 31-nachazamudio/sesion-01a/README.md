@@ -9,23 +9,24 @@ elegí el libro computational drawing
 
 características de un ascensor:
 
-tiene puertas
+1.tiene puertas
 
-sube y baja(eje z)
+2.sube y baja(eje z)
 
-tiene botones, poleas, contrapeso, motor
+3.tiene botones, poleas, contrapeso, motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
 datos internos:
 
-distancia entre pisos(cuanto viajará)
+1.distancia entre pisos(cuanto viajará)
 
-se selecciona el ascensor mas cercano al piso en que se solicita por medio de la botonera de llamada
+2.se selecciona el ascensor mas cercano al piso en que se solicita por medio de la botonera de llamada
 
-prioridad de llamada, el ascensor se traslada según el tiempo en que se solicita, el lugar donde se encuentra el usuario y el sentido del trayecto
+3.prioridad de llamada, el ascensor se traslada según el tiempo en que se solicita, el lugar donde se encuentra el usuario y el sentido del trayecto
 
-el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
+4.el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
+
 
 datos constantes:
 
