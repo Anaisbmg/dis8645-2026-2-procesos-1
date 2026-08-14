@@ -33,6 +33,13 @@ datos constantes:
 3.velocidad de movimiento
 
 ## encargos
+
+autorretrato: variables y funciones
+
+variables:
+
+funciones:
+
 pantalla de segmento n°1 medidor de temperatura
 ![imagen pantalla refrigerador](./pantalla-1a.jpeg)
 ![imagen pantalla refrigerador zoom](./pantalla-1b.jpeg)
