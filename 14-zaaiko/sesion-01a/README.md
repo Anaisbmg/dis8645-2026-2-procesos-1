@@ -31,7 +31,11 @@ segundo bloque: se hizo una actividad grupal relacionada con el encargo de la cl
 
 #### pantalla 1:
 
+<img src="./imagenes/pantalla1.jpg" width="275">  
+
 #### pantalla 2:
+
+<img src="./imagenes/pantalla2.jpg" width="275"> 
 
 #### pantalla 3:
 
