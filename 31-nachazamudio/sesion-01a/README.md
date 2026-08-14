@@ -9,11 +9,11 @@ elegí el libro computational drawing
 
 características de un ascensor:
 
-1.tiene puertas
+tiene puertas
 
-2.sube y baja(eje z)
+sube y baja(eje z)
 
-3.tiene botones, poleas, contrapeso, motor
+tiene botones, poleas, contrapeso, motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
@@ -30,11 +30,11 @@ datos internos:
 
 datos constantes:
 
-distancia entre cada piso y la cantidad de estos
+1.distancia entre cada piso y la cantidad de estos
 
-capacidad máxima (kg)
+2.capacidad máxima (kg)
 
-velocidad de movimiento
+3.velocidad de movimiento
 
 ## encargos
 pantalla n°1 medidor de temperatura
