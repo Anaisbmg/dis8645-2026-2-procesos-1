@@ -52,4 +52,4 @@ No ocupar NUNCA "sudo rm rf"
 ## encargos
 
 ## lectura
-![Una formula = una imagen](./imagenes/lectura-talller.png)
+![texto](./imagenes/lectura-talller.png)
