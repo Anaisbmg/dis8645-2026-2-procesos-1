@@ -41,9 +41,7 @@ está prohibido escribir una linea de codigo sin antes escribir lo que va hacer
 ```cpp
 
 Void setup() {
-
 //aqui va setup(), ocurre una vez, al principio
-
 }
 
 void loop() {
@@ -51,6 +49,7 @@ void loop() {
 //ocurre despues de setup
 //se repite hasta que no se pueda
 }
+````
 
 ## encargos
 
