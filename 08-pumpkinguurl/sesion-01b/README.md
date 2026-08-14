@@ -28,7 +28,7 @@
 10 }
 
 - para llevar el código a GitHub
-  ctrl c - ctrl a - en la línea anterior ` ` `cpp - en la línea posterior para cerrar ` ` ` (van juntos, están separado para que se vea)
+  ctrl c - ctrl a - en la línea anterior `cpp - en la línea posterior para cerrar ` (`son 3 de esos cosos juntos pero si los coloco no se ven asi que se describe)
 
 - bool: variable extremista 1 0
 - int: números enteros
