@@ -157,7 +157,7 @@ Además, algunas acciones pueden generar cambios en nuestras variables. Por eso,
 ## lectura
 Escogí el libro **_El cero de las formas: Arte, tecnología e historia_**.
 
-![Libro](foto-libro.jpg) 
+![Libro](./imagenes/foto-libro.jpg) 
 
 ---
 
