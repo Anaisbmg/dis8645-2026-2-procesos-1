@@ -20,6 +20,11 @@ Primero empezamos a recopilar qué es lo que conforma un ascensor:
 - contrapeso 
 - espejos (aesthetic)
 
+  **Variable y funciones**
+
+- paréntesis: función o acción
+- Sin paréntesis : dato
+
 ## encargos
 
 encargo 01-a:
@@ -27,6 +32,17 @@ encargo 01-a:
 autorretrato: describir variables y funciones de ustedes. investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
 
 - Variables son datos, funciones son acciones.
+(para estudiar: <https://thecodingtrain.com/tracks/code-programming-with-p5-js>)
+
+*para recordar : los lenguajes de programación tienen variables, con distinta sintaxis, p5.js 
+- en nuestro taller usaremos C++, también llamado Cpp, o C más 
+- <https://www.w3schools.com/cpp/cpp_variables.asp>
+
+  *Variable:* En programación, una variable está formada por un espacio en el sistema de almacenaje (memoria principal de un ordenador) y un nombre simbólico (un identificador) que está asociado a dicho espacio. Ese espacio contiene una cantidad de información conocida o desconocida, es decir un valor. El nombre de la variable es la forma usual de referirse al valor almacenado: esta separación entre nombre y contenido permite que el nombre sea usado independientemente de la información exacta que representa.
+
+  - En computación una variable puede ser utilizada en un proceso repetitivo: puede asignársele un valor en un sitio, ser luego utilizada en otro, y más adelante reasignársele un nuevo valor para más tarde utilizarla de la misma manera. (wikipedia)
+
+  
 
 ### Variables = cosas que pueden describir
 
