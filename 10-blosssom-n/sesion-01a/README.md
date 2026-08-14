@@ -8,9 +8,11 @@ Update the branch when I’m behind (I will be behind most of the time, Aaron sa
 Use page that says “forked from:” and it should say my user.
 The idea is to understand the logic of GitHub more than just memorize buttons: there is an original repository, I have my own fork and inside it I work on my branch. If the original repository advances and my version stays behind, I have to update it to work with the most recent changes.
 
+```
 ![alt text](./)
 
-![book cover prehistoric digital poetry]() (formulas)
+![book cover prehistoric digital poetry]()
+```
 Acá la lógica es poner una descripción de la imagen entre [que sería texto alterno] y después indicar dónde está el archivo entre (). ?
 
 Vimos los datos y funciones que maneja un ascensor, incluyendo varias cosas que parecen demasiado obvias como para considerarlas data, pero en realidad son necesarias para que sea un ascensor.
@@ -78,11 +80,25 @@ Panel exterior con botones específicos para solo subir, o solo bajar.
 
 
 ## encargos
-to do: 
 
-autorretrato: describir variables y funciones de ustedes.
+1. Autorretrato: describir variables y funciones de ustedes.
 
-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+Variables
+
+Nombre: Natalia. Apellido: Gutierrez. Edad: 22. 
+
+Constantes
+
+Fecha de nacicimiento: 2026-10-10
+
+
+Funciones
+
+Ver, Dormir, Leer
+
+
+2. Investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 ## lectura
 ME tocó leer Prehistoric digital poetry de C. T. Funkhouser
