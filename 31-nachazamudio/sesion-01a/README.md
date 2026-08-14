@@ -52,4 +52,10 @@ pantalla de segmento n°2 cronometro con varias funciones
 ![imagen cronómetro función de alarma](./cronometro-alarma.jpeg)
 
 cronómetro con varias funciones(cronometro, alarma, fecha y hora) de uso personal especialmente para el ámbito deportivo
+
+pantalla segmento n°3 pesa digital
+
+![imagen pesa digital](:/pesa-digital.jpeg)
+
+![imagen acercamiento pesa digital](:/pesa-digital2.jpeg)
 ## lectura
