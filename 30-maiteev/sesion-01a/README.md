@@ -57,10 +57,11 @@ esta pantalla se encuentra afuera del lider, es la bencinera aramco donde se mue
 
 pantalla de segmentos 4: micro 
 
-tomando la micro que siempre tomo a mi casa despues de clases, la pantalla esta en la parte de al frente de la micro donde se muestra el día, la hora y la temperatura donde además tiene una pantalla de segmentos mas pequeña para poner la letra c .la información cambia cada 10 segundos.
+tomando la micro que siempre tomo a mi casa despues de clases, la pantalla esta en la parte de al frente de la micro donde se muestra el día, la hora y la temperatura, donde además tiene una pantalla de segmentos mas pequeña para poner la letra c .la información cambia cada 10 segundos.
 ![pantalla micro](./imagen-segmentos4.jpg) 
 
 pantalla de segmentos 5: fila de la fiambrería 
-pantalla para organizar la fila para comprar en el lider, donde esta pantalla cambia constantemente dependiento del trabajador y hacer avanzar la fila. 
+
+pantalla para organizar la fila para comprar fiambre en el lider, donde esta pantalla cambia constantemente dependiendo  del trabajador y la necesidad de hacer avanzar la fila. 
 ![pantalla fiambreria](./imagen-segmentos5.jpg) 
 ## lectura
