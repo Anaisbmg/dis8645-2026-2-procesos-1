@@ -36,7 +36,7 @@ Antes de continuar, he de mencionar que las variables y las funciones, se escrib
 - string - stores text, such as "Hello World". String values are surrounded by double quotes
 - bool - stores values with two states: true or false”
 
-[Enlace](https://www.w3schools.com/cpp/cpp_variables.asp)
+[w3school](https://www.w3schools.com/cpp/cpp_variables.asp)
 
 ### 4. Sintaxis y manera de escritura:
 Con lo anteriormente visto, siempre que escribamos una variable, debemos declarar, así; El tipo de variable según su necesidad (escribir números enteros, decimales, etc) y debemos asignarle un nombre a esa variable para identificarle:
