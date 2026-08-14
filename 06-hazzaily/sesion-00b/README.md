@@ -2,7 +2,17 @@
 
 ## apuntes sesión
 
-Muy buena charla, me encantó.
+Muy buena charla, me encantó
+
+## Información sobre ascensores
+
+Existen distintos tipos de input, desde botones hasta tarjetas. Vimos ascensores que sólo tienen un botón para subir y bajar, otros que poseen los dos y que colapsan al presionar “bajar” y seleccionar una planta superior. También existen tarjetas que sólo dan acceso a un piso base inicial y uno de destino, sin elección ni paso a equivocarse. 
+
+Dentro de los datos internos que maneja el ascensor, tenemos: la cantidad de pisos, pisos que pueden estar prohibidos/deshabilitados, para qué sirve cada botón y qué debe hacer en caso de que cada uno de ellos sea presionado.
+
+ - **Datos:** Botones (numéricos positivos y/o negativos, además de botones auxiliares ya sean de emergencia, abrir y/o cerrar puertas), puertas (1 o 2), poleas, motores,  contrapesos, carril, eje.
+
+ - **Funciones:** Subir, bajar, mantenerse; saber a qué lugar va; abre la puerta, cierra la puerta; sonar una alarma
 
 ## encargos
 
@@ -10,7 +20,7 @@ Muy buena charla, me encantó.
 
  - Botonera 1: **Estación metro República con dirección San Pablo**
 
-Podemos notar que para pedirlo existen 4 botones, de los cuales sólo uno tiene una flecha y funciona. Ya dentro del ascensor podemos ver 4 botones en total, 2 de planta (-1 y -1), además de 2 auxiliares, siendo 1 de ellos de emergencia, y el otro no lo sé, debido a que a que es sólo una flecha que apunta hacia la derecha, y no especifica si es para abrir o cerrar la puerta, o sí tiene alguna otra función. 
+Podemos notar que para pedirlo existen 4 botones, de los cuales sólo uno tiene una flecha y funciona. Ya dentro del ascensor podemos ver 4 botones en total, 2 de planta (-1 y -2), además de 2 auxiliares, siendo 1 de ellos de emergencia, y el otro no lo sé, debido a que a que es sólo una flecha que apunta hacia la derecha, y no especifica si es para abrir o cerrar la puerta, o sí tiene alguna otra función. 
 
 Otra acotación es que tiene citófono, algo que no vi en los otros ejemplos, y además no tiene una pantalla que especifique en qué piso se encuentra. 
 
