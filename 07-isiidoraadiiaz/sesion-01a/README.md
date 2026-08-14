@@ -223,6 +223,53 @@ void cocinar() {
 void disenar() {
 }
 
+![pantalla 1](./imagenes/E1.jpg)
+
+Ascensor
+
+Contexto: Pantalla ubicada en el panel exterior de un ascensor, junto a los botones para llamar la cabina.
+
+Lugar: Edificio 25, calle Nueva York.
+
+Ubicación: La pantalla se encuentra sobre los botones de llamada del ascensor, integrada en el panel metálico exterior.
+
+Uso: Indica el piso en el que se encuentra el ascensor, permitiendo saber su posición antes de que llegue.
+
+Alfabeto posible: Principalmente números del 0 al 9. 
+
+En la foto: Se muestra el número 1 mediante segmentos iluminados en rojo.
+
+![pantalla 2](./imagenes/E2.jpg)
+
+Micro
+
+Contexto: Pantalla ubicada en la parte frontal de una micro del sistema RED, visible desde el exterior.
+
+Lugar: Maipú (vía pública), Santiago.
+
+Ubicación: La pantalla está en la parte superior frontal de la micro.
+
+Uso: Sirve para mostrar el recorrido y el destino de la micro, para que las personas puedan identificar rápidamente si les sirve.
+
+Alfabeto posible: Puede mostrar números, letras y algunas abreviaciones, por lo que tiene un alfabeto mucho más amplio que el del ascensor.
+
+En la foto: Se alcanza a leer el recorrido I08 junto con el destino SAN ALBERTO HURTADO.
+
+![pantalla 3](./imagenes/E3.jpg)
+
+Pesa digital 
+
+Contexto: Pantalla ubicada en una pesa digital utilizada para pesar productos y calcular su precio.
+
+Lugar: Maipú/almacén.
+
+Ubicación: La pantalla está en la parte frontal de la pesa, a la altura de la vista.
+
+Uso: Muestra el peso del producto, el precio por kilo y el precio total.
+
+Alfabeto posible: Principalmente números del 0 al 9 y punto decimal. No necesita un alfabeto amplio porque trabaja casi solamente con datos numéricos.
+
+En la foto: Se muestran tres datos distintos al mismo tiempo: peso 0.305 kg, precio unitario $6000 y precio total $1830.
 
 ## lectura
 ![portada libro](./imagenes/portadalibro.jpg)
