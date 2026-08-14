@@ -41,8 +41,6 @@ Formato para subir un archivo en github
  - No usar mayúsculas.
  - Usar palabras con guion.
 
-### Comandos
-
 No ocupar NUNCA "sudo rm rf"
 
 - do en inglés es hacer.
