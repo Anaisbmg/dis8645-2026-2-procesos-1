@@ -118,14 +118,16 @@ ejemplos de fotos:
 
 **ejemplo 1: microondas**
 
-
+![imagen de microondas](./imagenes/microondas.jpeg)
 
 **ejemplo 2: refrigerador**
 
-subir foto
+![imagen de microondas](./imagenes/refrigerador.jpeg)
 
 **ejemplo 3: estufa**
 
 subir foto
 
 ## lectura
+
+![imagen de microondas](./imagenes/libro.jpeg)
