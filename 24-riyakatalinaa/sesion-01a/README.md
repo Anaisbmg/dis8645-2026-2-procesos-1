@@ -118,7 +118,7 @@ ejemplos de fotos:
 
 **ejemplo 1: microondas**
 
-subir foto
+
 
 **ejemplo 2: refrigerador**
 
