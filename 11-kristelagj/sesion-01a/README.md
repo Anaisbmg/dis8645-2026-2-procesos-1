@@ -94,3 +94,8 @@ Sistema numérico posible: arábico
 ![Ejemplo 2](imagenes/ejemplo3-segmentos.jpeg)
 
 
+Comparación:
+
+Entre los 3 objetos estudiados podemos observar que todos tienen formas, tamaños, ocupaciones distintas, pero que todos tienen el propósito de entregarnos una información numérica hasta alfabética visto en el caso número 2. 
+
+
