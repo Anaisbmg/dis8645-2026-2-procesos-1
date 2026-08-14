@@ -159,9 +159,11 @@ Existe un aspecto técnico de estos displays que es importante tener en cuenta, 
 
 ##### Otros idiomas 
 
-Existen displays adaptados a diferentes alfabetos, por ejemplo en la siguiente imagen se ve uno adaptado a japones 
+Existen displays adaptados a diferentes alfabetos, por ejemplo en la siguiente imagen se ve uno adaptado a japones, cirílico, griego, entre otros
 
 ![Ref](./imagenes/ps_12.jpg)
+
+![Ref](./imagenes/ps_11.jpg)
 
 <br>
 
@@ -171,13 +173,13 @@ Existen displays adaptados a diferentes alfabetos, por ejemplo en la siguiente i
 
 Este dispositivo contaba con una pantalla donde no solo se iluminaban los segmentos, ya que cuenta con retroiluminación. Esto significa que detrás de la pantalla existe una fuente lumínica que acentúa el display.
 
-Es necesario mencionar que esta pantalla además cuenta con íconos que complementan la interfaz con el usuario, además de poseer 16 segmentos que permiten la visualización alfanumérica. Todo esto es necesario, ya que al tener cerca de 16 botones, distintos menús y ajustes se debe tener una experiencia con el usuario lo más cómoda posible y para ello se le debe mostrar la información de manera adecuada, algo dificil de lograr con una pantalla menos compleja 
+Es necesario mencionar que esta pantalla además cuenta con íconos que complementan la interfaz con el usuario, además de poseer 16 segmentos que permiten la visualización alfanumérica. Todo esto es necesario, ya que, al tener cerca de 16 botones, distintos menús y ajustes se debe tener una experiencia con el usuario lo más cómoda posible y para ello se le debe mostrar la información de manera adecuada, algo difícil de lograr con una pantalla menos compleja 
 
 > Se debe tener en cuenta que este modelo es cercano a los años 2000
 
-<img src="./imagenes/ps_13.jpg" width="400" />
+<img src="./imagenes/ps_13.jpeg" width="400" />
 
-<img src="./imagenes/ps_14.jpg" width="400" />
+<img src="./imagenes/ps_14.jpeg" width="400" />
 
 <br>
 
@@ -185,7 +187,7 @@ Es necesario mencionar que esta pantalla además cuenta con íconos que compleme
 
 Ubicado en el comedor de Republica 180, este display a diferencia del anterior posee 7 segmentos, cuenta con menos símbolos y sin retroiluminación. Esta elección de elementos está considerando que un microondas no excede de los 2 minutos aproximados de uso en promedio
 
-<img src="./imagenes/ps_15.jpg" width="400" />
+<img src="./imagenes/ps_15.jpeg" width="400" />
 
 <br>
 
@@ -193,7 +195,7 @@ Ubicado en el comedor de Republica 180, este display a diferencia del anterior p
 
 A pocos metros del microondas encontramos un indicador de piso en el ascensor, el cual contaba con una pantalla de 7 segmentos. La más sencilla de las demás, ya que su uso no pasa de los pocos segundos y no hay necesidad de añadir tantos elementos, sumado a la poca información que se debe presentar.
 
-<img src="./imagenes/ps_16.jpg" width="400" />
+<img src="./imagenes/ps_16.jpeg" width="400" />
 
 <br>
   
