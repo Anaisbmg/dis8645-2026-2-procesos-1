@@ -82,6 +82,7 @@ No tuve mucho tiempo durante la semana porque estoy agarrando ritmo a la univers
 
 “La típica pantalla digital que usa segmentos para formar números o letras. Dependiendo de qué segmentos se enciendan, puedes construir distintos números.”
 
+![IMG](./imagenes/pantalla-de-segmentos.png)
 
 ## lectura
 
