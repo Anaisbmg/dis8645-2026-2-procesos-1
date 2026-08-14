@@ -20,6 +20,20 @@ hay que descargar arduino IDE, yo no lo descargo porque ya lo tengo.
 
 arduino r4, tiene usb C que viene categorias, minima y wifi
 
+Setup es una secuencia de instruciones para que ocurran cosas
+
+La palabra void es un tipo de funcion, esta funcion ocurre nomas no expulsa un valor por eso se llama vacio 👀
+
+los corchetes signifca darle inicio y fin 
+
+parentesis = a que es una funcion
+
+// = es para realizar comentarios sin necesidad de programar
+
+loop es para que se repita mucho
+
+  
+
 ## encargos
 
 ## lectura
