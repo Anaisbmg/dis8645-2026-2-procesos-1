@@ -116,17 +116,31 @@ la combinación coordinada de todos estos permite que mi cuerpo funcione adecuad
 
 ejemplos de fotos:
 
+
 **ejemplo 1: microondas**
+
+microondas con una pantalla de 7 segmentos con luz roja que muestra la cuenta regresiva
 
 ![imagen de microondas](./imagenes/microondas.jpeg)
 
 **ejemplo 2: refrigerador**
 
+refrigerador con una pantalla de 7 segmentos con números de color azul
+
 ![imagen de refrigerador](./imagenes/refrigerador.jpeg)
 
 **ejemplo 3: estufa**
 
+estufa eléctrica con una pantalla de 7 segmentos en color rojo 
+
 ![imagen de estufa](./imagenes/estufa.jpeg)
+
+**observación:** 
+- me di cuenta al subir las imágenes que solo tome fotos de pantallas de 7 segmentos pero con distintas funciones
+   - **microondas** muestra el tiempo en cuenta regresiva para distintos procesos, como la cocción, la descongelación o el calentamiento de alimentos
+   - **refrigerador** visualiza la temperatura en grados Celsius, valores positivos para la refrigeración y negativos para el congelador
+   - **estufa eléctrica** indica las horas de encendido programado
+- además de lo ya visible, como son los colores y el diseño, el refrigerador utiliza un **LED azul**, mientras que el microondas y la estufa utilizan un **LED rojo**
 
 ## lectura
 
