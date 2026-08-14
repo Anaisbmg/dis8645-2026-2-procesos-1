@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+ejemplo de esqueleto
+
 ```cpp
 void setup() {
   // aqui va setup(), ocurre una vez, al principio
@@ -38,43 +40,6 @@ int kristelNacimientoDia = 5;
 
 // azul
 string kristelColorFavorito = "0000ff";
-
-// 10 millones de colores
-// 24 bits tengo mas de 10 millones de valores posibles
-// 3 receptores rojizo, verdoso, azuloso
-// demosle 8 bits a cada canal de color
-// entonces R de rojo tiene 8 bits
-// G de verde tb, B de azul tb
-// entonces 0 es apagado, 255 es prendido
-// 8 bits se llaman 1 byte
-// disco duro 2 MB, pero de 2Mb y esos son 2 mega bit
-
-// 1 byte tiene 2 nibbles, 2 pedacitos
-
-// 0010 1100 0101 0101 1011 1010
-
-// en 1 nibble, o 4  bits tengo 2^4 valores posibles
-// del 0 al 15
-
-
-// dec    hex
-// 00     0
-// 01     1
-// 02     2
-// 03     3
-// 04     4
-// 05     5
-// 06     6
-// 07     7
-// 08     8
-// 09     9
-// 10     A
-// 11     B
-// 12     C
-// 13     D
-// 14     E
-// 15     F
-
 
 void setup() {
   // aqui va setup(), ocurre una vez, al principio
@@ -128,8 +93,53 @@ void cumplirAnhosKristel() {
 
 ```
 
+apuntes sobre colores y sistemas decimal, binario y hexadecimal
+
+
+```cpp
+// 10 millones de colores
+// 24 bits tengo mas de 10 millones de valores posibles
+// 3 receptores rojizo, verdoso, azuloso
+// demosle 8 bits a cada canal de color
+// entonces R de rojo tiene 8 bits
+// G de verde tb, B de azul tb
+// entonces 0 es apagado, 255 es prendido
+// 8 bits se llaman 1 byte
+// disco duro 2 MB, pero de 2Mb y esos son 2 mega bit
+
+// 1 byte tiene 2 nibbles, 2 pedacitos
+
+// 0010 1100 0101 0101 1011 1010
+
+// en 1 nibble, o 4  bits tengo 2^4 valores posibles
+// del 0 al 15
+
+
+// dec    hex
+// 00     0
+// 01     1
+// 02     2
+// 03     3
+// 04     4
+// 05     5
+// 06     6
+// 07     7
+// 08     8
+// 09     9
+// 10     A
+// 11     B
+// 12     C
+// 13     D
+// 14     E
+// 15     F
+```
 
 
 ## encargos
+
+encargo01b:
+
+1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
