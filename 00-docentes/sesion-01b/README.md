@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-```
+```cpp
 void setup() {
   // aqui va setup(), ocurre una vez, al principio
 
