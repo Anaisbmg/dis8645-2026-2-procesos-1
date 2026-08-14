@@ -53,5 +53,13 @@ No ocupar NUNCA "sudo rm rf"
 autorretrato: describir variables y funciones de ustedes.
 investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
+variables: 
+
+funciones:
+
+1.pantallas de segmentos:
+2.pantallas de segmentos:
+3.pantallas de segmentos:
+
 ## lectura
 ![texto](./imagenes/lectura-taller.png)
