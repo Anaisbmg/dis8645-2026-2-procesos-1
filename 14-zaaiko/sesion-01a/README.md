@@ -21,9 +21,9 @@ segundo bloque: se hizo una actividad grupal relacionada con el encargo de la cl
 
 #### funciones:
 
--jugar
--escuchar musica
--ver anime
+- jugar
+- escuchar musica
+- ver anime
 - salir con amigos
 - leer
 
