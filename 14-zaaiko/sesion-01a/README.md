@@ -8,4 +8,18 @@ segundo bloque: se hizo una actividad grupal relacionada con el encargo de la cl
 
 ## encargos
 
+### autorretrato
+
+#### variables:
+
+#### funciones:
+
+### investigación pantalla de segmentos 
+
+#### pantalla 1:
+
+#### pantalla 2:
+
+#### pantalla 3:
+
 ## lectura
