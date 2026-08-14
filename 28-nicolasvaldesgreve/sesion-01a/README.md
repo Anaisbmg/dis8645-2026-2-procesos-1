@@ -130,6 +130,45 @@ al poner la calculadora en esta posición, podemos ver en dónde se pueden prend
 
 ### autorretrato
 
+#### variables
+
+las variables es en donde se almacenan los datos. dependiendo de la información que almacenaremos, se usa un tipo distinto de variable:
+
++ ``int`` -> números enteros, ej: 100 o -100
++ ``double`` -> números decimales, ej: 10.1 o -10.1
++ ``char`` -> caracteres individuales que se deben encerrar entre comillas simples, ej: 'a' o 'A'
++ ``bool`` -> verdadero o falso
++ ``string`` -> texto entre comillas dobles, ej: "when haces tus momos en c++"
+
+para poder crear una variable tenemos que especificar qué tipo de variable es y asignarle un valor siguiendo el siguiente formato: ``tipo nombreVariable = valor``.
+
+en donde dice _tipo_, va una de las variables que se mencionaron anteriormente, como por ejemplo ``int``. en donde dice _nombreVariable_, va el nombre de la variable el cual puede ser cualquier nombre que desees. el signo _=_ se usa para poder asignarle valor a la variable.
+
+en <https://www.w3schools.com/cpp/cpp_variables.asp> se muestra un ejemplo para entender cómo crear una variable y asignarle un valor, en donde la variable es llamada "myNum", el tipo de variable a ``int`` debido a que el valor es un número entero, el cual será "15".
+
+```cpp
+int myNum = 15;
+cout << myNum;
+```
+
+también se puede declarar una variable sin asignar el valor de inmediato, lo cual queda así:
+
+```cpp
+int myNum;
+myNum = 15;
+cout << myNum;
+```
+
+``cout`` se utiliza junto a ``<<`` para poder mostrar variables!! si se desea combinar texto y variable, se separan mediante ``<<``, por ej:
+
+```cpp
+string nombre = "mailo";
+int edad = 4;
+double altura = 32.7;
+
+cout << nombre << " tiene " << edad << " años y mide " << altura;
+```
+
 nombre-de-la-función(datos transmitidos a la función)
 
 void la función no regresa nada
@@ -137,6 +176,11 @@ void la función no regresa nada
 int la función regresa algo que puede ser una variable (float), letra (chart)
 
 autorretrato: describir variables y funciones de ustedes.
+
+#### fuentes:
+
++ <https://www.w3schools.com/cpp/cpp_variables.asp>
++ <
 
 ---
 
