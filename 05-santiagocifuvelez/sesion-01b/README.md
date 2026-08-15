@@ -24,6 +24,13 @@ El día de hoy en clase:
 ![bug](imagenes/bug.jpeg/.)
   
 ## 2. Introducción a Arduino / Instalación del software / Placa de Arduino R4 wifi
+
+1.  Arduino. vamos a instalar Arduino IDE
+
+   ![]()
+
+   
+
 ## 3. The untold History of Arduino.
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
 ## 5. Markdown para agregar código en Github. 
