@@ -32,17 +32,6 @@ Primero esto me hizo pensar en cuántos ascensores ocupó al día y cuando refle
 
 _Ascensor 1_
 
-El primer ascensor que analice es el del metro de santiago, específicamente el de línea 3, estación terminal Fernando Castillo Velasco.
-
-En este me subí de abajo para poder subir al piso -1 y el primer error que encuentro es que me indica que puedo bajar y no se encuentran más pisos con ese ascensor, es solo subir 1 piso o bajarlo. Cuando entro encuentro muchos pisos, -1,-2 y -3, además del de abrir y cerrar puertas, emergencia y llamar. 
-
-Se subió una persona conmigo en esta instancia y ambas esperamos que subiera el ascensor por si solo, pero debimos apretar el botón -1 para que este recién subiera, eso quiere decir que ambas personas asumieron que como es un solo piso el que sube y baja, este subiría con solo la acción de sentir el peso de las personas que ya subieron. 
-
-Pero aquí está lo más extraño, que en el piso superior, el botón que se encuentra es solo para bajar, cayendo en una inconsistencia de diseño. 
-
-
-_Ascensor 2_
-
 Este ascensor se encuentra en metro moneda, exactamente en la calle Lord Cochrane en un departamento de 19 pisos. 
 
 Yo subí desde el piso que da a la calle y encontramos un sistema que nos indica en que piso va el ascensor, en este caso en el -1 además de dos botones que no indican nada, solo uno está arriba y el otro abajo, con el mismo color, pero como el ser humano es un experto en asumir cosas, el que está arriba lo asumimos que subiremos y el que está abajo de este es para bajar ¿pero como te explico que ambos botones hacen lo mismo? de hecho, es más, el que está en la parte inferior no sirve. 
@@ -50,6 +39,28 @@ Yo subí desde el piso que da a la calle y encontramos un sistema que nos indica
 Al entrar al ascensor encontramos todos los botones desde el piso -1 (que asumimos que es el último piso del edificio) y el 19 que asumimos es el último porque el que le sigue no dice nada; este tiene en el lado izquierdo escrito en braille. En la parte inferior encontramos abrir y cerrar puertas, además el de emergencias; otro sin que nosotros sepamos que es. 
 
 Al llegar al piso que debía llegar, afuera solo tenía un solo botón que ayuda a abrir simplemente la puerta para uno después elegir qué piso deseas ir. 
+
+![ascensor1-arriba](imagenes/ascensor1-arriba.jpeg)
+
+![ascensor1-adentro](imagenes/ascensor1-adentro.jpeg)
+
+![ascensor1-abajo](imagenes/ascensor1-abajo.jpeg)
+
+_Ascensor 2_
+
+El segundo ascensor que analice es el del metro de santiago, específicamente el de línea 3, estación terminal Fernando Castillo Velasco.
+
+En este me subí de abajo para poder subir al piso -1 y el primer error que encuentro es que me indica que puedo bajar y no se encuentran más pisos con ese ascensor, es solo subir 1 piso o bajarlo. Cuando entro encuentro muchos pisos, -1,-2 y -3, además del de abrir y cerrar puertas, emergencia y llamar. 
+
+Se subió una persona conmigo en esta instancia y ambas esperamos que subiera el ascensor por si solo, pero debimos apretar el botón -1 para que este recién subiera, eso quiere decir que ambas personas asumieron que como es un solo piso el que sube y baja, este subiría con solo la acción de sentir el peso de las personas que ya subieron. 
+
+Pero aquí está lo más extraño, que en el piso superior, el botón que se encuentra es solo para bajar, cayendo en una inconsistencia de diseño. 
+
+![ascensor2-arriba](imagenes/ascensor2-arriba.jpeg)
+
+![ascensor2-adentro](imagenes/ascensor2-adentro.jpeg)
+
+![ascensor2-abajo](imagenes/ascensor2-abajo.jpeg)
 
 _Conclusión_
 
