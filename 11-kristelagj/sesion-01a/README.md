@@ -14,9 +14,11 @@ La palabra atao será muy vista en el taller.
 
 Leer 1 libro por semestre.
 
-![libro-prestado](imagenes/libro-prestado.jpeg)
+<div align="center">
+  <img src="imagenes/libro-prestado.jpeg" width="50%">
+</div>
 
-+ libro Sociedad especulativa
+ libro Sociedad especulativa
 
 Solo ocupar minúsculas
 
