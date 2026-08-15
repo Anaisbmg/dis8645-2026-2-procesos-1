@@ -77,7 +77,9 @@ En mi camino al trabajo, las calles que debo concurrir se encuentran muchas ofic
 
 Sistema numérico posible: arábico  ya que nos entrega la hora en el occidente (en este caso no funciona el visualizador) 
 
-![Ejemplo 1](imagenes/ejemplo1-segmentos.jpeg)
+<div align="center">
+  <img src="imagenes/ejemplo1-segmentos.jpeg" width="50%">
+</div>
 
 - Ejemplo dos: pesa de alimentos
 
@@ -85,7 +87,9 @@ Este es el ejemplo que encuentro más interesante de los otros. Primero menciona
 
 Alfabeto posible utilizado: arábico + alfabeto. 
 
-![Ejemplo 2](imagenes/ejemplo2-segmentos.jpeg)
+<div align="center">
+  <img src="imagenes/ejemplo2-segmentos.jpeg" width="50%">
+</div>
 
 - Ejemplo tres: Microondas
 
@@ -93,7 +97,9 @@ Este microondas tiene más de 10 años en mi casa, se encuentra en mi cocina. Ad
 
 Sistema numérico posible: arábico 
 
-![Ejemplo 2](imagenes/ejemplo3-segmentos.jpeg)
+<div align="center">
+  <img src="imagenes/ejemplo3-segmentos.jpeg" width="50%">
+</div>
 
 
 Comparación:
