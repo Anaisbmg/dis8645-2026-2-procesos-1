@@ -56,7 +56,7 @@ Se subió una persona conmigo en esta instancia y ambas esperamos que subiera el
 
 Pero aquí está lo más extraño, que en el piso superior, el botón que se encuentra es solo para bajar, cayendo en una inconsistencia de diseño. 
 
-![ascensor2-arriba](imagenes/ascensor2-arriba.jpeg)
+![ascensor2-arriba](imagenes/ascensor2-aariba.jpeg)
 
 ![ascensor2-adentro](imagenes/ascensor2-adentro.jpeg)
 
