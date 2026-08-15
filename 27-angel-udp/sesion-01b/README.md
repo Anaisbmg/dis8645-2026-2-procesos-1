@@ -4,21 +4,21 @@
 
 ## apuntes sesión
 
-Hoy vamos a leer nuestras descripciones propias y las vamos a pasar a codigo.
+Hoy vamos a leer nuestras descripciones propias y las vamos a pasar a código.
 
-- Tipo: es que tipo de dato puedo tener
+- Tipo: es qué tipo de dato puedo tener.
 
-- Variables: pueden ser extremas y pueden valer SI o NO
+- Variables: pueden ser extremas y pueden valer SÍ o NO.
 
-Variable boolean
+Variable booleana
 
 ---
 
-**Fire Fox y hay atajos para buscar en la web no con Google EJEMPLO:**
+Firefox y hay atajos para buscar en la web, no con Google. EJEMPLO:
 
 - !g: Google
 - !w: Wikipedia
-- !yt: Youtube
+- !yt: YouTube
 
 ---
 
@@ -34,7 +34,7 @@ A + 1 = 1
 
 A + A = A
 
-A + (opuesto de)A = 1
+A + (opuesto de) A = 1
 
 ### AND
 
@@ -44,15 +44,15 @@ A * 1 = A
 
 A * A = A
 
-A * (opuesto de)A = 0
+A * (opuesto de) A = 0
 
-Entonces vamos a describirnos con valores ej: si es verdaderovale 1 y si es falso vale 0
+Entonces vamos a describirnos con valores. Ej.: si es verdadero vale 1 y si es falso vale 0.
 
 Un bicho = un Bug, gracias a que una polilla no dejó cerrar una compuerta.
 
-Nesecidad de formas "variables" y "constantes" en rangos distintos
+Necesidad de formas "variables" y "constantes" en rangos distintos.
 
-los datos no caben en un computador así que se aproxian para la retención humana
+Los datos no caben en un computador, así que se aproximan para la retención humana.
 
 Ejemplo
 
@@ -60,59 +60,59 @@ Variable: Rut
 
 Funciones: Ver, moverse, hablar
 
-hay niveles de abstracción dependiendo de que nesecitemos programar
+Hay niveles de abstracción dependiendo de qué necesitemos programar.
 
-**String** = es una cadena (tiene un núcleo y una espiral pon encima envuelta como en cuerdas de guitarra)
+**String** = es una cadena (tiene un núcleo y una espiral por encima envuelta como en cuerdas de guitarra).
 
 C++ Variables: https://www.w3schools.com/cpp/cpp_variables.asp
 
-**EN COMPUTACIÓN PARTIMOS CONTANDO DESDE EL CERO** 
+**EN COMPUTACIÓN PARTIMOS CONTANDO DESDE EL CERO.**
 
-Enteros de ej: 8 bits (2 elevado a 8) = 256 posibles valores / -127, 126 y como estoy midiendo siempre en valor positivo
+Enteros de ej.: 8 bits (2 elevado a 8) = 256 posibles valores / -127, 126 y como estoy midiendo siempre en valor positivo.
 
 - int8_t = 8, con signo
 - uint8_t = 8, sin signo (La "U" es sin signo)
 - int16_t = 16, con signo
 - uint16_t = 16, sin signo
 
-Vamos a instalar 2 programas que nos acompañaran en este periodo del semestre
+Vamos a instalar 2 programas que nos acompañarán en este periodo del semestre.
 
-Arduino IDE (entorno de desarrollo integrado)
+Arduino IDE (entorno de desarrollo integrado).
 
-Para conversar con el arduino, las que están en el lab es la "UNO r4" Tiene USB C
+Para conversar con el Arduino, las que están en el lab es la "UNO R4". Tiene USB C.
 
 Historia de Arduino: https://arduinohistory.github.io/
 
-Cursos Gratis usabilidad y etc: https://github.com/ITPNYU/physcomp
+Cursos Gratis, usabilidad y etc.: https://github.com/ITPNYU/physcomp
 
 https://itp.nyu.edu/physcomp/
 
-Cuando inyectamos un software Es el programa de aurdino
+Cuando inyectamos un software. Es el programa de Arduino.
 
-- Void = Vacio "es un tipo", No responde con nada despues de pasar algo
+- Void = Vacío "es un tipo", no responde con nada después de pasar algo.
 - En Arduino, setup() es la función principal de configuración que se ejecuta una sola vez al encender o reiniciar la placa.
-- el murcielago "{,}" Ej: {- esto declara la cunción Setup
+- El murciélago "{,}" Ej.: {- esto declara la función Setup.
 
-Declarar es para señalar que algo existe
+Declarar es para señalar que algo existe.
 
-Si es setup Ej: en la linea 2 que hay: // esto es un comentario que describe todo lo qu va a pasar
+Si es setup. Ej.: en la línea 2, qué hay: // esto es un comentario que describe todo lo que va a pasar.
 
-acá está prohibido escribir una linea de código si no estácomentada con lo que realiza, porque lo importante es leer lo que describe lo que se supone que hace lo que deveria pasar, por lo que estamos describiendo un pseudo código que describe lo que queremos
+Acá está prohibido escribir una línea de código si no está comentada con lo que realiza, porque lo importante es leer lo que describe lo que se supone que hace, lo que debería pasar, por lo que estamos describiendo un pseudocódigo que describe lo que queremos.
 
-() si veo parentesis hay una indicación
+() si veo paréntesis hay una indicación.
 
-**Loop()** : Ocurre repetidamente
-// aqui va loop()
-// ocurre despues de setup()
+**Loop()**: Ocurre repetidamente.
+// aquí va loop()
+// ocurre después de setup()
 // se repite hasta que no se pueda
 
 Backtick = `
 
-If condicional : una estructura de control en programación que evalúa si una condición es verdadera para ejecutar código, o las oraciones condicionales con "if" en inglés que expresan situaciones y sus resultados.
+If condicional: una estructura de control en programación que evalúa si una condición es verdadera para ejecutar código, o las oraciones condicionales con "if" en inglés que expresan situaciones y sus resultados.
 
-Luego para colocar códigos y que se sepa el enguaje ej: `, y luego cerramos con los mosmos peor iniciamos así para C++ ```cpp
+Luego, para colocar códigos y que se sepa el lenguaje, ej.: `, y luego cerramos con los mismos, pero iniciamos así para C++ ```cpp
 
-### Este código en Arduino IDE (ejemplo Angel)
+### Este código en Arduino IDE (ejemplo Angel, lo escribí mientras se impartía la clase) 
 
 ```cpp
 // Angel es estudiante udp
@@ -215,32 +215,52 @@ void cumplirAnhosAngel() {
 }
 ```
 
-Otro ejemplo que escribí:
+### Otro ejemplo:
 
-Void loop89 {
+```cpp
+int valorPancito = 2000;
+int valorCafecito = 3000;
+
+void setup() {
+  // put your setup code here, to run once:
+
+}
+
+void loop() {
   // put your main code here, to run repeatedly:
 
-  int valorDesayuno = sumarEnteros(valorPancito, ValorCafecito);
+  int valorDesayuno = sumarEnteros(valorPancito, valorCafecito);
 
-// sumar numeros
+  if (valorDesayuno < 5000) {
+    // oh no 
+  } else {
+
+    // oh si
+  }
+
+}
+
+// sumar numeros enteros
 // es tipo int porque nos va a dar un resultado
 // las void ocurren sin emitir un resultado
 int sumarEnteros(int x, int y) {
   // declarar un resultado
   int resultado = 0;
-  // es una abreviación de dos pasos
-  // declarar           int resultado;
-  // asignar valor      resultado = 0;
+  // es una abreviacion de dos pasos
+  // declarar       int resultado;
+  // asignar valor  resultado = 0;
 
   // hacer la suma de x e y
   // y reemplazar valor resultado
-  //
+  // por ese valor
   resultado = x + y;
 
+  // emitir resultado al exterior de la funcion
   return resultado;
 
-// declarar solo lo puedo hacer una vez
-
+  // declarar solo lo puedo hacer una vez
+}
+```
 
 
 ## encargos
