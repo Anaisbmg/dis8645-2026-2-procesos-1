@@ -66,4 +66,32 @@ _Conclusión_
 
 A partir de analizar esto, me sorprende que se repita dos veces la tónica de que en el piso de abajo exista el subir y bajar, pero cuando subes no, además de en la parte interna tener botones que no sirven. Supondré porque son diseñados de tal forma por “default” y el usuario que instala el producto decide que cosas funcionaran o no, a pesar de ello, como por ejemplo en el metro de santiago, deberían estar diseñados para, bueno, en cualquier parte. 
 
+_Analisis en grupo_
+
+El trabajo fue realizado junto a: Camila, Bianka, Santiago y Daya!
+
+Similitudes (constantes):
+
+- Fuera de la cabina:   
+1. Existe al menos un botón para llamar al ascensor
+
+- Dentro de la cabina:  
+1. Botón de **abrir \<\>**, Botón de **cerrar \>\<**  
+2. El botón del piso inferior siempre está en el extremo inferior izquierdo.  
+3. Los números de los botones, siempre comienzan de inferior a mayor.  
+4. Se agrupan en columnas  
+5. Poseen un número o símbolo identificador  
+6. Todos contienen el botón de emergencia y es amarillo  
+7. Dirección de movimiento vertical: Arriba y abajo.  
+8. Tiene un hueco/carril por el cual transitar. 
+
+Diferencias (variables) :
+
+- Primer piso (El número menor)  
+- Último piso (El número mayor)  
+- Cantidad de columnas   
+- Orden de lectura  
+- Botones auxiliares (aquellos que no indican un piso)  
+- Límite o máximo de personas (peso)
+
 ## lectura
