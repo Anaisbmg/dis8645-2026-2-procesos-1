@@ -4,10 +4,6 @@
 
 ## clase 070826
 
-### pre-clase 
-
-Hoy comenzó mi primera clase del semestre la cual no comenzamos en la sala directamente, si no que fuimos a la charla/iniciación de curso de
-
 ### clase
 
 - Aaron y video de misaa
@@ -20,9 +16,7 @@ Una cosa que deseo recalcar de todo lo que mencionaron algunos de nuestros compa
 
 En este primer mes Misaa (nos mando un videito muy tierno) no estará con nosotros en el aula ya que él está fuera del país, espero que esté cumpliendo un sueño, pero nos acompañarán seba y santi, otras dos personas que se nota que le gusta y apasiona este mundo. 
 
-
 ## encargos
-
 
 ### post-clase
 
@@ -40,11 +34,13 @@ Al entrar al ascensor encontramos todos los botones desde el piso -1 (que asumim
 
 Al llegar al piso que debía llegar, afuera solo tenía un solo botón que ayuda a abrir simplemente la puerta para uno después elegir qué piso deseas ir. 
 
-![ascensor1-arriba](imagenes/ascensor1-arriba.jpeg)
-
-![ascensor1-adentro](imagenes/ascensor1-adentro.jpeg)
-
-![ascensor1-abajo](imagenes/ascensor1-abajo.jpeg)
+<table>
+  <tr>
+    <td><img src="imagenes/ascensor1-arriba.jpeg" width="100%"></td>
+    <td><img src="imagenes/ascensor1-adentro.jpeg" width="100%"></td>
+    <td><img src="imagenes/ascensor1-abajo.jpeg" width="100%"></td>
+  </tr>
+</table>
 
 _Ascensor 2_
 
@@ -56,11 +52,13 @@ Se subió una persona conmigo en esta instancia y ambas esperamos que subiera el
 
 Pero aquí está lo más extraño, que en el piso superior, el botón que se encuentra es solo para bajar, cayendo en una inconsistencia de diseño. 
 
-![ascensor2-arriba](imagenes/ascensor2-aariba.jpeg)
-
-![ascensor2-adentro](imagenes/ascensor2-adentro.jpeg)
-
-![ascensor2-abajo](imagenes/ascensor2-abajo.jpeg)
+<table>
+  <tr>
+    <td><img src="imagenes/ascensor2-aariba.jpeg" width="100%"></td>
+    <td><img src="imagenes/ascensor2-adentro.jpeg" width="100%"></td>
+    <td><img src="imagenes/ascensor2-abajo.jpeg" width="100%"></td>
+  </tr>
+</table>
 
 _Conclusión_
 
