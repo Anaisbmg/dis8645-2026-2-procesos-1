@@ -14,6 +14,15 @@ El día de hoy en clase:
 ## apuntes sesión
 
 ## 1. La historia del dicho: se me “Bugueo” el compu.
+9 de septiembre de 1947 – El Primer "Bug" de la Historia
+
+**- Incidente:** Falla en la computadora Harvard Mark II (Relé 70, Panel F).  
+**- Causa:** Una polilla real se metió en los componentes mecánicos y atascó el sistema.  
+**- Solución:** El equipo de la científica Grace Hopper removió el insecto y lo pegó en la bitácora oficial.  
+**- Registro histórico:** Escribieron junto a la polilla: "First actual case of bug being found" (Primer caso real de un bicho encontrado), popularizando el término "bug" y "debugging" en la informática.
+
+![bug](imagenes/bug.jpeg/.)
+  
 ## 2. Introducción a Arduino / Instalación del software / Placa de Arduino R4 wifi
 ## 3. The untold History of Arduino.
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
