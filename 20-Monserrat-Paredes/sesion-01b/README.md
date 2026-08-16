@@ -136,10 +136,19 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
   }
 }
 ```
+
+
 ### Link enviados en clase
 
+- https://www.w3schools.com/cpp/cpp_variables.asp
 
+- https://arduino.cl/products/arduino-uno-r4-wifi?srsltid=AfmBOoqlJSHtZKl0w6h-kiJIo28N6S1SOkGJQ_FIpxp-Jf6ZdUc_OuuJ
 
+- https://arduinohistory.github.io
+
+- https://github.com/ITPNYU/physcomp
+
+- https://itp.nyu.edu/physcomp/
 
 
 ### Bibliografía
@@ -152,6 +161,10 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
   
 - https://aprendiendoarduino.wordpress.com/2017/06/20/estructuras-de-control-3/
 
+- https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+- https://raspberrypi.cl/products/raspberry-pi-pico-2
+
 
 ## encargos
 
@@ -159,6 +172,23 @@ encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+
+### código en el microcontrolador
+
+Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
+
+
+<img width="612" height="452" alt="raspberry" src="https://github.com/user-attachments/assets/e507fc99-8374-490f-b2c9-c38851b84381" />
+
+Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+
+<img width="991" height="643" alt="raspArqui" src="https://github.com/user-attachments/assets/cd136725-9903-433b-ba0b-9ef8ea9658a0" />
+
+Imagen sacada de → https://raspberrypi.cl/products/raspberry-pi-pico-2
+
+
 
 ## lectura
 
