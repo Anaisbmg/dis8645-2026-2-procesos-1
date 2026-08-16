@@ -22,6 +22,9 @@ encargo01b:
 
 - a modo de referente, y para primer acercamiento a iniciar el encargo, se visita la pagina oficial de arduino para aprender el funcionamiento de los leds (recomendacion de seba al final de la clase) https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/
 - no entendi mucho solo viendo la web, asi que me estoy guiando mediante un tutorial de youtube usando la led matrix https://www.youtube.com/watch?v=vro4zqYeLWc
+- a continuación agrego un pantallazo de la primera verificación en arduino ide:
+  <img src="./imagenes/primeraverificacion.jpg" width="500">  
+
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
