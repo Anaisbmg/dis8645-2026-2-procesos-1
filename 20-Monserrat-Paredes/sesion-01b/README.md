@@ -1,6 +1,6 @@
 # sesion-01b
 
-## apuntes sesión
+## Apuntes sesión
 
 ### 1. Tipos de Datos y Variables en C++
 
@@ -166,7 +166,7 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 - https://raspberrypi.cl/products/raspberry-pi-pico-2
 
 
-## encargos
+## Encargos
 
 encargo01b:
 
@@ -174,7 +174,7 @@ encargo01b:
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 
-### código en el microcontrolador
+### 1. código en el microcontrolador
 
 Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
 
