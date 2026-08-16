@@ -59,6 +59,9 @@ Es la etapa de preparación. Todo lo que se escriba dentro de las llaves { } de 
 
 }
 ```
+
+- void loop() - Una vez que setup() termina, Arduino pasa a loop() y empieza a ejecutar las instrucciones en orden, de arriba a abajo. Wow, se hace un loop :)
+
 ```cpp
 void loop() {
   // aqui va loop()
