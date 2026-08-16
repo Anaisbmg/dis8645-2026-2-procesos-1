@@ -163,6 +163,8 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 
 - https://raspberrypi.cl/products/raspberry-pi-pico-2
 
+- 
+
 
 ## Encargos
 
@@ -182,9 +184,12 @@ Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo 
 Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 
 
-<img width="991" height="643" alt="raspArqui" src="./imagenes/rasparqui.png" />
+### Descripción de los pines
 
-Imagen sacada de → https://raspberrypi.cl/products/raspberry-pi-pico-2
+<img width="953" height="639" alt="pines" src="https://github.com/user-attachments/assets/aa412fe4-39ee-4221-b656-9704af00ff92" />
+
+
+Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pinout-raspberry-pi-pico-y-variante-w-con-wifi/?srsltid=AfmBOopCyzbNBJG0WhAkgeqxowWhNpjsMwi8srIBDL6kDMQINhzE_ObP 
 
 
 
