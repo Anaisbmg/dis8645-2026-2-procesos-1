@@ -22,7 +22,7 @@ encargo01b:
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
-### hice la función jugarEnComputadora, que trata de replicar algo que me pasa a mí en el día a día: saber si en este momento puedo ponerme a jugar en el pc, tomando en cuenta si tengo encargos pendientes, cuánto tiempo libre tengo y qué tan cansado estoy. si esas tres cosas van bien, la función calcula y muestra cuántos minutos voy a jugar.
+hice la función jugarEnComputadora, que trata de replicar algo que me pasa a mí en el día a día: saber si en este momento puedo ponerme a jugar en el pc, tomando en cuenta si tengo encargos pendientes, cuánto tiempo libre tengo y qué tan cansado estoy. si esas tres cosas van bien, la función calcula y muestra cuántos minutos voy a jugar.
 
 ```cpp
 #include <iostream>
@@ -65,5 +65,5 @@ int main()
     jugarEnComputadora(30, 0, 70);
     return 0;
 }
-
+```
 ## lectura
