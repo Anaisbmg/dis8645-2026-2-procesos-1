@@ -33,7 +33,7 @@ una variable es un elemento que almacena un dato cuyo valor puede modificarse, p
 
 **si yo me convirtiera en un sistema:**
 
-*variables:*
+*variables: los segmentos que me componen.*
 
 + curiosidad
 + motivación
@@ -43,7 +43,7 @@ una variable es un elemento que almacena un dato cuyo valor puede modificarse, p
 + sensibilidad
 + introspección
 
-*funciones de mi sistema:*
+*funciones de mi sistema: las combinaciones que esos segmentos activan para mostrar quien soy.*
 
 + insistir
 + olvidar
