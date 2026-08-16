@@ -95,6 +95,10 @@ Luego, a lo largo de su vida junto a Tega participaron en foros educacionales pa
 Entonces, este libro recopila 30 años de experiencia, para los lectores que tengan la oportunidad de leerlo, puedan aprender de primera mano y a su vez, de una manera muy amistosa.
 
 ### Introducción.
+- El aprendizaje antes de la creación de este libro en el rubro de la programación, se centraban en **como** programar, en vez de **qué hacer** cuando se aprende codigo y **por qué.**
+
+- Leah Buechley, ha dicho que: Hay estudiantes que aprenden mejor con experiencias concretas, no con principios abstractos. Hay quienes prefieren trabajar de manera improvisada, en vez de seguir formulas. Y hay quienes prefieren crear cosas expresivas en vez de utilitarias. 
+- 
 - Creative coders  
 - German word: Gestaltern (creators of form).  
 
