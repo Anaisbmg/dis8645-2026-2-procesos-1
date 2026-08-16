@@ -86,7 +86,7 @@ void loop() {
 ```
 En el primer punto, el de `setup`, se le indica a la placa que se va a enviar voltaje y el pin 13 va a ser la salida. Y luego tenemos el funcionamiento del `loop`, que hará que la luz se encienda por un tiempo, y luego se apagué. Así, en un loop.
 
-![ejemplo en la placa lgbt](imagenes/ej-luz.gif/.)
+![ejemplo en la placa lgbt](./imagenes/ej-luz.gif)
 
 ## 5. Markdown para agregar código en Github. 
 
