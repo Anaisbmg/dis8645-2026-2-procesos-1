@@ -48,6 +48,19 @@ As a way of summary, it was stolen by som else.
 [Aquí puedes encontrar la historia completa](https://arduinohistory.github.io/)
 
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
+1. Arduino tiene una estructurara que viene por predeterminado, y es la que hace que las cosas funcionen dentro del código, y se divide en 2 partes:
+
+```cpp
+   void setup() {
+  // aqui va setup(), ocurre una vez, al principio
+
+}
+
+void loop() {
+  // aqui va loop()
+  // ocurre despues de setup()
+  // se repite hasta que no se pueda
+} 
 ## 5. Markdown para agregar código en Github. 
 
 **Backticks:** ( `` ) se usan cuando se quiere poner código en github, se deben poner 3 backticks así:  
