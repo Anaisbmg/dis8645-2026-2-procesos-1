@@ -24,6 +24,7 @@ El día de hoy en clase:
 ![bug](imagenes/bug.jpeg/.)
   
 ## 2. Introducción a Arduino / Instalación del software / Placa de Arduino R4 wifi
+**`Vamos a usar: Arduino uno R4 wifi`**
 
 1.  Arduino. vamos a instalar Arduino IDE
 
