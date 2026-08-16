@@ -49,13 +49,17 @@ As a way of summary, it was stolen by som else.
 
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
 1. Arduino tiene una estructurara que viene por predeterminado, y es la que hace que las cosas funcionen dentro del código, y se divide en 2 partes:
+   
+- void setup() — La Configuración Inicial
+Es la etapa de preparación. Todo lo que se escriba dentro de las llaves { } de setup() se ejecuta una sola vez, justo al encender o reiniciar la placa del Arduino.
 
 ```cpp
    void setup() {
   // aqui va setup(), ocurre una vez, al principio
 
 }
-
+```
+```cpp
 void loop() {
   // aqui va loop()
   // ocurre despues de setup()
