@@ -86,4 +86,3 @@ Pero también tengo las acciones que ocurren: subir, bajar, abrir, cerrar y sele
 
 Por eso, dependiendo de cómo lo observe, puedo encontrar diferentes variables, funciones y constantes.
 
-## lectura
