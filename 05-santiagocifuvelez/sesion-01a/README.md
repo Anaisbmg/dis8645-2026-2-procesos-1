@@ -77,6 +77,15 @@ En este apartado de la lectura, que considero yo que es crucial para entender un
 El contenido del prefacio narra la manera en la que Golan descubrió en su proceso educacional que lo que él tenía en mente y en su corazón, lo podía hacer real por medio del lenguaje del código. 
 
 Junto a Tega, crearon este maravilloso libro en su paso por el MIT, específicamente en el grupo de ACG (Aesthethics + Computation Group), en el MIT Media Lab en 1999.
+Que de hecho, el profesor Aarón, estuvo allí.
+
+Este libro nació de la falta de recursos que tuvo Golan para aprender a programar con un enfoque en artes visuales, pues anteriormente en su clase, solo le ponían ejercicios de matemáticas y texto muy cuadriculado; por ejemplo, una calculadora de sumas y restas, pero para él poder lograr su objetivo de diseñar con la programación, debía desarrollar nuevas habilidades para llegar a ello.
+
+Fuera de clases, el solía investigar y practicar para poder hacer visuales por medio del código. Luego, Golan se unió a John Maeda´s Aesthetics + Computation Group en el MIT Media Lab, el cual era un pequeño grupo de investigadores el cual integraba; Artistas, Diseñadores, y Programadores, para explorar un nuevo tipo de síntesis entre esas áreas de dominio.  Luego a lo largo de su paso por el ACG, descubrió maneras de enseñanza para que los estudiantes aprendieran código y lo pudieran implementar a sus áreas de interés. 
+
+Luego, a lo largo de su vida junto a Tega participaron en foros educacionales para compartir y a su vez aprender nuevas herramientas de código creativo, y como hacer esta información más digerible para la persona que quisiera aprender. También, resaltan la importancia de registrar los procesos, pues ellos mencionan algo muy clave, y es que: "Los buenos trabajos, siempre serán recordados. Pero no el esfuerzo o el proceso humilde de un artista".
+
+Entonces, este libro recopila 30 años de experiencia, para los lectores que tengan la oportunidad de leerlo, puedan aprender de primera mano y a su vez, de una manera muy amistosa.
 
 ### Introducción.
 - Creative coders  
