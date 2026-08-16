@@ -19,8 +19,10 @@
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+### hice la función jugarEnComputadora, que trata de replicar algo que me pasa a mí en el día a día: saber si en este momento puedo ponerme a jugar en el pc, tomando en cuenta si tengo encargos pendientes, cuánto tiempo libre tengo y qué tan cansado estoy. si esas tres cosas van bien, la función calcula y muestra cuántos minutos voy a jugar.
 
 ```cpp
 #include <iostream>
