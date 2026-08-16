@@ -42,6 +42,7 @@ El día de hoy en clase:
   ![img](imagenes/para-pasar-codigo.jpeg/.)
 
 ## 3. The untold History of Arduino.
+`Hernando Barragán`
 
 As a way of summary, it was stolen by som else.
 [Aquí puedes encontrar la historia completa](https://arduinohistory.github.io/)
