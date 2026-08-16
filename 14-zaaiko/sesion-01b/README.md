@@ -26,7 +26,46 @@ encargo01b:
   <img src="./imagenes/primeraverificacion.jpg" width="500">
 - ahora agrego imagen de la primera prueba subida a la placa, sinceramente no me convence como me quedo el emoji, pero esta bien como primer intento
 
-  <img src="./imagenes/primeraprueba.jpg" width="400">
+  <img src="./imagenes/primeraprueba.jpg" width="300">
+
+- para finalizar agrego el código final que utilice y una imagen del resultado final
+
+```cpp
+  #include "Arduino_LED_Matrix.h"
+
+// acá se crea un objeto para controlar la matriz de leds
+ArduinoLEDMatrix matrix;
+
+// aqui creo el dibujo del emoji usando una matriz de 8 filas y 12 columnas
+
+byte miEmoji[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0 }
+};
+
+// aqui se inicia la matriz de leds
+void setup() {
+  matrix.begin();
+
+  // con esta funcion se renderiza el dibujo en la matriz
+  matrix.renderBitmap(miEmoji, 8, 12);
+}
+
+// esto es basicamente para que se repita constantemente
+void loop() {
+}
+```
+
+  <img src="./imagenes/resultadofinal.jpg" width="300">
+
+
+  
 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
