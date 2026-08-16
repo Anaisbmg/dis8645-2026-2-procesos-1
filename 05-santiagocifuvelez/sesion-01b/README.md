@@ -34,7 +34,11 @@ El día de hoy en clase:
 
    ![img](imagenes/img1.jpeg/.)
 
-3. 
+3. Con un cable tipo C, lo conectamos al compu
+   
+   ![img](imagenes/arduino-conectado.jpeg/.)
+
+4. 
    
 
 ## 3. The untold History of Arduino.
