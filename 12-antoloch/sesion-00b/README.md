@@ -13,11 +13,11 @@ Al tomar este curso, me llamo mucho la atención, de aprender cosas nuevas.
 ## Ascensores!
 ![ascensor1](./imagenes/ascensor1.jpg)
 
-![ascensor2](./imagenes/ascensor2.JPG)
+![ascensor2](./imagenes/ascensor2.jpg)
 
-![ascensor3](./imagenes/ascensor3.JPG)
+![ascensor3](./imagenes/ascensor3.jpg)
 
-![ascensor4](./imagenes/ascensor4.JPG)
+![ascensor4](./imagenes/ascensor4.jpg)
  # Existencia de variables en un ascensor
 
 Cuando observo los ascensores existen variables, funciones y punto de vista. Variables absolutas o relativas, cosas que son constantes y otras que van cambiando. Todo esto depende también de cómo yo decida observar y describir cómo yo veo el ascensor.
