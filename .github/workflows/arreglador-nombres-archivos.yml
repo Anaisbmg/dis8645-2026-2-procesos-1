@@ -1,0 +1,33 @@
+name: arreglar nombres de archivos
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  nombres:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Ejecutar action
+        id: nombres
+        uses: piruetasxyz/arreglador-nombres-archivos@v0.2.0
+        with:
+          arreglar: true
+
+      - name: Commit y push de los cambios
+        if: steps.nombres.outputs.hay_cambios == 'true'
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git diff --staged --quiet || git commit -m "chore: normalizar nombres de archivos"
+          git push origin HEAD:${{ github.ref_name }}
