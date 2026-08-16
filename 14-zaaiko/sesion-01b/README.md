@@ -71,6 +71,7 @@ aciertos y dramas
 - al principio no entendia bien dónde iban las llaves { } de cada if, las tenía metidas una dentro de otra por error, y el código nunca llegaba a revisar el tiempo ni la energía.
 - lo más estresante de todo el proceso fue instalar el compilador (MinGW con MSYS2) y dejarlo en el PATH de Windows, mucho más complicado que escribir el código en sí, ya que instale visual studio code por recomendación de unos amigos informaticos.
 - una vez que entendí cómo funcionaba un if, los otros dos me costaron mucho menos porque seguían el mismo orden.
+- al final tuve un atado ya que la parte de lectura quedaba dentro del código y no sabia el por que, consegui arreglarlo agregando los tres backticks al final del codigo
 
 <img src="./imagenes/screenshotvs.png" width="500">  
 
