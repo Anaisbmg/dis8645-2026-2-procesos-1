@@ -42,6 +42,10 @@ El día de hoy en clase:
   ![img](imagenes/para-pasar-codigo.jpeg/.)
 
 ## 3. The untold History of Arduino.
+
+As a way of summary, it was stolen by som else.
+[Aquí puedes encontrar la historia completa](https://arduinohistory.github.io/)
+
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
 ## 5. Markdown para agregar código en Github. 
 
