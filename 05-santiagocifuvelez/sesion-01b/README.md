@@ -28,7 +28,11 @@ El día de hoy en clase:
 
 1.  Arduino. vamos a instalar Arduino IDE
 
-   ![]()
+   ![img](imagenes/arduino/.)
+
+2. Una vez instalado, vamos a instalar e
+
+   ![img](imagenes/img1/.)
 
    
 
