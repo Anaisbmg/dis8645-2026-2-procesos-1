@@ -30,7 +30,7 @@ El día de hoy en clase:
 
    ![img](imagenes/arduino-ide.jpeg/.)
 
-2. Una vez instalado, vamos a buscar: uno r4 e instalamos este “pluggin”.
+2. Una vez instalado, vamos a buscar: `uno r4` e instalamos este “pluggin”.
 
    ![img](imagenes/img1.jpeg/.)
 
