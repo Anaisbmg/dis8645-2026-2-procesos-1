@@ -38,8 +38,8 @@ El día de hoy en clase:
    
    ![img](imagenes/arduino-conectado.jpeg/.)
 
-4. 
-   
+4. Y luego, hacemos este cambio para que el código pueda afectar el arduino. 
+  ![img](imagenes/para-pasar-codigo.jpeg/.)
 
 ## 3. The untold History of Arduino.
 ## 4. Ejemplos de construcción de variables y funciones en C++ arduino.
