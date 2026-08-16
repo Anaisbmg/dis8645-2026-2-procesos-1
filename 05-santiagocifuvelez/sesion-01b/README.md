@@ -26,14 +26,15 @@ El día de hoy en clase:
 ## 2. Introducción a Arduino / Instalación del software / Placa de Arduino R4 wifi
 **`Vamos a usar: Arduino uno R4 wifi`**
 
-1.  Arduino. vamos a instalar Arduino IDE
+1.  Arduino. vamos a instalar Arduino IDE.
 
-   ![img](imagenes/arduino/.)
+   ![img](imagenes/arduino-ide.jpeg/.)
 
-2. Una vez instalado, vamos a instalar e
+2. Una vez instalado, vamos a buscar: uno r4 e instalamos este “pluggin”.
 
-   ![img](imagenes/img1/.)
+   ![img](imagenes/img1.jpeg/.)
 
+3. 
    
 
 ## 3. The untold History of Arduino.
