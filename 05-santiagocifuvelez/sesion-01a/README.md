@@ -113,5 +113,5 @@ Entonces, este libro recopila 30 años de experiencia, para los lectores que ten
   
 - Las tareas asignadas en este libro fueron seleccionadas teniendo en cuenta estos criterios en mente ofreciendo oportunidades para personalizar, explorar, debatir, y cuestionar la computación.
   
-- 
+- Democratizar la imaginación para el futuro.
 
