@@ -65,7 +65,8 @@ void loop() {
 ## 5. Markdown para agregar código en Github. 
 
 **Backticks:** ( `` ) se usan cuando se quiere poner código en github, se deben poner 3 backticks así:  
-"```cpp"   (el cpp) es para poner color a los textos y se puedan diferenciar mejor. 
+"```cpp"   (el cpp) es para poner color a los textos y se puedan diferenciar mejor. Y al cerrar el texto, se vuelven a poner "```", los 3 backticks.   
+Esto, para que no afecte el resto de texto que quieras escribir que no sea código. 
 
 ## encargos
 
