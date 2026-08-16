@@ -109,5 +109,9 @@ Entonces, este libro recopila 30 años de experiencia, para los lectores que ten
   
 - A medida que los softwares continúan impregnando nuestras vidas, necesitamos fomentar culturalmente, maneras de contextualizarle, cuestionarle, modificarle, y desarrollar entendimientos compartidos para trabar con él. Pues así mismo como todxs deberían aprender a programar, todxs también deberían estar equipados con herramientas intelectuales de las artes. 
 
-
+- Golan y Tegan, siguen el trabajo de pioneros como: Idit Harel,Seymour Papert, Sherry Turkle y Mitchel Resnick.
+  
+- Las tareas asignadas en este libro fueron seleccionadas teniendo en cuenta estos criterios en mente ofreciendo oportunidades para personalizar, explorar, debatir, y cuestionar la computación.
+  
+- 
 
