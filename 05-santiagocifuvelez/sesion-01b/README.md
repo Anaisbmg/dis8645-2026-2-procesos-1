@@ -21,25 +21,25 @@ El día de hoy en clase:
 **- Solución:** El equipo de la científica Grace Hopper removió el insecto y lo pegó en la bitácora oficial.  
 **- Registro histórico:** Escribieron junto a la polilla: "First actual case of bug being found" (Primer caso real de un bicho encontrado), popularizando el término "bug" y "debugging" en la informática.
 
-![bug](imagenes/bug.jpeg/.)
+![bug](./imagenes/bug.jpeg)
   
 ## 2. Introducción a Arduino / Instalación del software / Placa de Arduino R4 wifi
 **`Vamos a usar: Arduino uno R4 wifi`**
 
 1.  Arduino. vamos a instalar Arduino IDE.
 
-   ![img](imagenes/arduino-ide.jpeg/.)
+   ![img](./imagenes/arduino-ide.jpeg)
 
 2. Una vez instalado, vamos a buscar: `uno r4` e instalamos este “pluggin”.
 
-   ![img](imagenes/img1.jpeg/.)
+   ![img](./imagenes/img1.jpeg)
 
 3. Con un cable tipo C, lo conectamos al compu
    
-   ![img](imagenes/arduino-conectado.jpeg/.)
+   ![img](./imagenes/arduino-conectado.jpeg)
 
 4. Y luego, hacemos este cambio para que el código pueda afectar el arduino. 
-  ![img](imagenes/para-pasar-codigo.jpeg/.)
+  ![img](./imagenes/para-pasar-codigo.jpeg)
 
 ## 3. The untold History of Arduino.
 `Hernando Barragán`
