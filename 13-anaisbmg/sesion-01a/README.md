@@ -50,7 +50,10 @@ En las variables soy resolutiva, autodidacta y autoexigente, lo que me lleva a f
 
 parte de mi autorretrato es destacar que uno esta en un constante proceso de cambio y aprendizaje
 
-1. falta
+2. Pantalla de segmentos
+Las pantallas de segmentos son segmentos rectangulares que se prenden o se apagan en distintas posiciones para lograr vizualizar algún número o letra, en este caso lo vi reflejado en mi batería portátil, microondas y mi refrigerador.
+
+Me percate que en los casos recolectados, tiene un pequeño indicador para acompañar a la pantalla de segmento, por ejemplo para numero de batería existe un %, lo que se entiende que es la cantidad de batería que tiene, y en el refrigerador esta acompañado de un - y c que nos ayuda a posicionarnos en un contexto
 
 ![bateriaportatil](./imagenes/bateriaportatil.jpeg)
 ![microondas](./imagenes/microondas.jpeg)
