@@ -50,6 +50,10 @@ Con lo anteriormente visto, siempre que escribamos una variable, debemos declara
 
 
 ## encargos
+1. autorretrato: describir variables y funciones de ustedes.
+2. investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+### 1. autorretrato: describir variables y funciones de ustedes.
 Variables:
 - string myName = santiago;
 - Int myAge = 20;
@@ -57,6 +61,8 @@ Variables:
 - double iEspentds = 20.00;
 
 Funciones:
+## Pantallas de segmentos
+![]()
 
 ## lectura
 - Libro: Code as Creative Medium - A Handbook for Computational Art and Design.
