@@ -124,7 +124,7 @@ void A(){
   frame[5][10] = 1;
 
 }
-//Aquí indicamos que se repita constante mente que se encienda la letra H.
+//Aquí indicamos que se repita constante mente que se encienda la letra H y A.
 void loop(){
 
 H();
@@ -138,4 +138,7 @@ A();
 
 }
 ```cpp
+
+Estas son las referencias usadas:
+https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/
 ## lectura
