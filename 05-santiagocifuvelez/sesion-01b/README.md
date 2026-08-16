@@ -69,6 +69,23 @@ void loop() {
   // se repite hasta que no se pueda
 }
 ```
+**Ejemplo:**
+```cpp
+void setup() {
+  // Configura el pin 13 como SALIDA de corriente
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(13, HIGH);   // Envía energía (5V) al pin 13 para ENCENDER el LED
+  delay(1000);              // Espera 1000 milisegundos (1 segundo)
+
+  digitalWrite(13, LOW);    // Corta la energía (0V) para APAGAR el LED
+  delay(1000);              // Espera otro segundo
+}
+```
+En el primer punto, el de `setup`, se le indica a la placa que se va a enviar voltaje y el pin 13 va a ser la salida. Y luego tenemos el funcionamiento del `loop`, que hará que la luz se encienda por un tiempo, y luego se apagué. Así, en un loop.
+
 ## 5. Markdown para agregar código en Github. 
 
 **Backticks:** ( `` ) se usan cuando se quiere poner código en github, se deben poner 3 backticks así:  
