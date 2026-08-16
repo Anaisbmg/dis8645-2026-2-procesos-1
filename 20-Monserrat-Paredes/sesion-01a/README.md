@@ -5,7 +5,7 @@
 Me lleve este libro
 
 
-<img width="1212" height="1599" alt="libro" src="https://github.com/user-attachments/assets/dcfd9f4f-701e-439c-8f15-2cc4d2a8e787" />
+<img width="1212" height="1599" alt="libro" src="./imagenes/libro.jpeg" />
 
 
 ## Encargos
@@ -78,15 +78,15 @@ Información sacada de → https://en.wikipedia.org/wiki/Segment_display
   </tr>
   <tr>
     <td align="center">
-<img width="313" height="510" alt="copec" src="https://github.com/user-attachments/assets/54f71a29-fd81-4b75-8058-4b7ac36abc3f" />
+<img width="313" height="510" alt="copec" src="./imagenes/copec.png" />
       <b>Imagen sacada de: https://es.wikipedia.org/wiki/Copec
     </td>
     <td align="center">
-<img width="337" height="547" alt="reloj" src="https://github.com/user-attachments/assets/96b2a65f-6c8b-4728-888f-7f056b4584b8" />
+<img width="337" height="547" alt="reloj" src="./imagenes/reloj.png" />
         <b>Imagen sacada de: https://www.sgintention.com/?h=11306747001860
     </td>
     <td align="center">
-<img width="424" height="478" alt="freidora" src="https://github.com/user-attachments/assets/2c9aa94e-e74f-422c-9803-fce879c44d38" />
+<img width="424" height="478" alt="freidora" src="./imagenes/freidora.png" />
         <b>Imagen sacada de: https://www.paris.cl/freidora-de-aire-family-edition-7l-kitchen-it-MKMQZ2L4OR.html
     </td>
   </tr>
