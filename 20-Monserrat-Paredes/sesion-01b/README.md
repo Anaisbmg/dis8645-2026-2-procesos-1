@@ -1,6 +1,6 @@
 # sesion-01b
 
-## apuntes sesión
+## Apuntes sesión
 
 ### 1. Tipos de Datos y Variables en C++
 
@@ -70,51 +70,49 @@ En Arduino, la estructura de un programa se divide principalmente en dos bloques
 
 // Variables booleanas (estados de dos opciones: true/false)
 bool necesidadSueño = true;           
-// Si descansa mal, amanece de mal humor
+// si descanso mal, amanezco de mal humor
 bool preparacionNocturna = true;       
-// Todo listo la noche anterior (ropa, maquillaje, mochila)
+// dejo todo listo la noche anterior para el dia siguiente (ropa, maquillaje, mochila)
 bool ayunoEnLaManhana = true;          
-// Agua y té verde en ayuno matutino
+// en las mañanas lo primero que hago es tomarme un té verde en ayuno
 bool vitaminasAlmuerzo = true;        
-// Tomo vitaminas fijas a la hora de almorzar
-bool monseCasada = false;              // Mi estado civil es soltera
+// tomo vitaminas fijas a la hora de almorzar
+bool monseCasada = false;
+// mi estado civil es soltera
 bool ritmoNocturno = true;             
-// Mayor activación y rendimiento nocturno
+// tengo mayor rendimiento en la noche que en la manhana
 bool consumoMusicaConstante = true;     
-// Música obligatoria para leer, escribir, caminar, analizar
+// necesito musica obligatoria para leer, escribir, caminar, analizar, para mayor concentracion 
 bool audifonosEnTrayecto = true;       
-// Indispensable en viajes largos para regular el entorno
+// indispensable en viajes largos para regular el entorno
 bool libretaFisicaActiva = true;       
-// Anoto casi todo en papel para fijar información
+// anoto todo lo importante en mi libreta para no olvidarlo y tenerlo siempre a mano
 bool organizacionPorTachado = true;    
-// Presión por metas y satisfacción al tachar pendientes
+// escribo mis pendientes para presionarme a terminar las cosas y sentir la satisfacción de tacharlas
 bool celularSocialActivo = true;       
-// Interfaz digital para amistades y familia
+// ocupo el teléfono principalmente para conectarme con mis amigos y mi familia
 bool autonomiaSolitaria = true;        
-// Preferencia por caminatas y movilidad independiente
+// disfruto salir a caminar o moverme al aire libre de manera independiente
 bool boxeoPausado = true;              
-// Pausado por tiempo y horarios
+// lamentablemente lo deje pausado porque me choca con los horarios de la u y de la practica
 bool estudianteDisenho = true;
 
 // Variables de números enteros (int) para datos exactos
 int frecuenciaBicicletaSemanal = 1;    
-// Se realiza 1 vez por semana
+// Ando en bicicleta una vez por semana
 int frecuenciaBoxeoSemanal = 0;        
 // En 0 debido a pausa temporal por choque de horarios
 int bateriaSocial = 50;                
-// Límite antes de requerir aislamiento/recarga
+// me gusta salir con amigos pero tengo un limite social y ya necesito mi soledad
 int edadActual = 23;
 int diaNacimiento = 27;                
-// Corregido el nombre de la variable
 int mesNacimiento = 9;                 
-// Corregido a minúscula para mantener orden
 int anhoNacimiento = 2002;
 int DiasUniversidad = 3;               
 // Voy 3 veces a la semana a la universidad
 
 void setup() {
   // Aquí va setup(), ocurre una vez al principio
-  // Serial.begin(9600);
 }
 
 void loop() {
@@ -124,22 +122,31 @@ void loop() {
 int diaActual = 27; 
 int mesActual = 9;
 
-// Ejemplo de loop para decir feliz cumpleaños si la fecha coincide
+// ejemplo de loop para decir feliz cumpleaños si la fecha coincide
 if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 // Acción repetitiva del loop cada 27 de septiembre: enviar mensaje de cumpleaños
-    // Serial.println("¡Feliz cumpleaños, Monserrat! Hoy es 27 de septiembre.");
+// Serial.println("¡Feliz cumpleaños, Monserrat! Hoy es 27 de septiembre.");
     
-    // Ejemplo de actualización de edad (se ejecutaría al cumplirse la condición)
-    // edadActual = edadActual + 1;
-    // edadActual += 1;
-    // edadActual++;
+// Ejemplo de actualización de edad (se ejecutaría al cumplirse la condición)
+// edadActual = edadActual + 1;
+// edadActual += 1;
+// edadActual++;
   }
 }
 ```
+
+
 ### Link enviados en clase
 
+- https://www.w3schools.com/cpp/cpp_variables.asp
 
+- https://arduino.cl/products/arduino-uno-r4-wifi?srsltid=AfmBOoqlJSHtZKl0w6h-kiJIo28N6S1SOkGJQ_FIpxp-Jf6ZdUc_OuuJ
 
+- https://arduinohistory.github.io
+
+- https://github.com/ITPNYU/physcomp
+
+- https://itp.nyu.edu/physcomp/
 
 
 ### Bibliografía
@@ -152,13 +159,34 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
   
 - https://aprendiendoarduino.wordpress.com/2017/06/20/estructuras-de-control-3/
 
+- https://circuitpython.org/board/raspberry_pi_pico2_w/
 
-## encargos
+- https://raspberrypi.cl/products/raspberry-pi-pico-2
+
+
+## Encargos
 
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+
+### 1. código en el microcontrolador
+
+Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
+
+
+<img width="612" height="452" alt="raspberry" src="https://github.com/user-attachments/assets/e507fc99-8374-490f-b2c9-c38851b84381" />
+
+Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+
+<img width="991" height="643" alt="raspArqui" src="https://github.com/user-attachments/assets/cd136725-9903-433b-ba0b-9ef8ea9658a0" />
+
+Imagen sacada de → https://raspberrypi.cl/products/raspberry-pi-pico-2
+
+
 
 ## lectura
 
