@@ -117,4 +117,10 @@ Leonos Olmos es oriunda de Coquimbo, estudió una carrera convencional en la cua
 
 Leí la reseña del libro y no entendí nada, entonces comencé a leer la primera parte del poema y tampoco logré comprender, entonces comenzaré un paso atrás entendiendo párrafo por párrafo para poder así comprender a la autora. Por lo poco que lei de reseñas de sus otros libros, ella es una persona que piensa mucho en el ser humano y lo que le rodea, por ejemplo el habla ¿qué pasaría si nos quedáramos sin palabras? es una muy buena pregunta, algo que encontramos tan obvio y cotidiano, se nos desvanece a tal punto de no tenerlo más entre nosotros.
 
+Primero, quiero hacer un glosario de palabras que no comprendí de lo que leí en la reseña antes de comenzar a analizar y adentrarme: 
+
+1. Mesianidad: condición o cualidad de ser un Mesías o salvador. Tener una actitud, discurso o ideología basada en la figura de un mesías o salvador, alguien que se cree o se presenta como el único capaz de rescatar a un grupo de una crisis total y guiarlos hacia un futuro ideal.  
+2. Blockchain (cadena de bloques): base de datos digital compartida y descentralizada. Almacena información en bloques enlazados mediante criptografía, lo que crea un registro cronológico e inalterable que no depende de un banco o autoridad central.  
+3. Baumaniana: conjunto de ideas, conceptos y estilo de análisis del sociólogo y filósofo Zygmunt Bauman. Su pensamiento se centra en la modernidad líquida, una época donde las relaciones, la identidad y la sociedad cambian sin pausa y nada es fijo o duradero  
+4. Opositivo: trastorno de oposición desafiante (un patrón de conducta hostil y desobediente hacia la autoridad)
 
