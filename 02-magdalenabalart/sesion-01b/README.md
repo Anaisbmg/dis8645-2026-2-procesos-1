@@ -629,4 +629,50 @@ encargo01b:
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+Intento 01 función: 
+
+Nombre: comidaBuenaOnda
+Tipo: void
+Argumentos: diaDeLaSemana, estoyConEri, hayChoritos
+Uso: decidir si una comida cumple las condiciones para que mi corazón esté contento.
+
+Estoy en un día de comida
+        ↓
+¿Es domingo Y estoy con Eri?
+        ↓
+       SÍ
+        ↓
+¿Hay choritos con mayo y limón?
+      ↙       ↘
+    SÍ         NO
+    ↓           ↓
+corazón      buscar otra
+contento       comida
+
+```text
+FUNCIÓN comidaBuenaOnda(díaDeLaSemana, estoyConEri, hayChoritos)
+
+    SI es domingo Y estoy con Eri
+        ENTONCES
+
+        SI hay choritos con mayo y limón
+            ENTONCES
+            corazón contento
+
+FIN 
+```
+```cpp
+void comidaBuenaOnda(string diaDeLaSemana, bool estoyConEri, bool hayChoritos) {
+
+    if (diaDeLaSemana == "Domingo" && estoyConEri == true) {
+
+        if (hayChoritos == true) {
+            corazonContento();
+        }
+    }
+}
+
+comidaBuenaOnda("Domingo", true, true);
+```
+
 ## lectura
