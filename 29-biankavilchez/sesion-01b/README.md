@@ -18,3 +18,17 @@ https://www.mariomarkus.com/
 
 en el siguiente link pueden encontrar más información sobre Mario Markus, incluyendo notas de prensa, información sobre su trayectoria y fotografías del autor en su vida personal.
 
+esta fue la lectura de esta semana paginas enumeradas según el libro de 1-14 capitulo 1-2-3 parte del 4
+
+
+capítulo 1 "lo útil y lo bello"
+
+nos habla un poco de la introducción a la creación de imagen con matemática y nos muestra cómo tenemos que mirar las imágenes del libro desde lo que está analizando. nos muestra la creación de imágenes a través de únicas fórmulas matemáticas. nos describe dos tipos de fórmula:
+
+fórmula con una utilidad científica: como estudios de casos reales, física, química y biología, que a mi parecer describe lo que seria lo útil.
+
+fórmulas cuyo objetivo es estético: al momento de determinar valores y variación de este, se pueden producir imágenes estéticas, y en este caso describe como seria lo bello.
+
+nos habla sobre coordenadas y parámetros: el autor nos habla de cómo x e y son parámetros de un sistema.
+
+es decir, imagen = f(x,y). si se cambia el valor de alguna de las dos coordenadas, puede producir que la imagen sea completamente diferente.
