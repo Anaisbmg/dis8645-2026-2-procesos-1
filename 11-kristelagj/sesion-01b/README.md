@@ -9,7 +9,7 @@ encargo01b:
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
-# Encargo 1
+### Encargo 1
 Con Santi nos juntamos en la universidad a realizar la tarea la cual ambos comenzamos de 0 porque no entendíamos del todo lo que estábamos haciendo, pero para eso somos grupo, para aprender. 
 
 Primero cada uno por su parte investigo un poco para no partir de 0. 
@@ -188,3 +188,4 @@ https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
 
 https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
 
+### Encargo 2
