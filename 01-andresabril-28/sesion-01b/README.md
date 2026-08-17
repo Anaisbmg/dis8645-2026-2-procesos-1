@@ -94,9 +94,13 @@ A();
 
 }
 ```
-
+Primera Letra
 <img width="1536" height="2048" alt="Taller" src="https://github.com/user-attachments/assets/8c2f9a76-98f1-4743-9d12-89166fa778b1" />
+
+Boceto de segunda letra
 <img width="1200" height="1600" alt="Taller parte 2" src="https://github.com/user-attachments/assets/c3493561-3fae-4001-b4be-dba8cf03dcb5" />
+
+Ambas Letras que son nuestras iniciales
 <img width="1152" height="2048" alt="Taller parte 3" src="https://github.com/user-attachments/assets/55ba3ee7-cf25-4b5d-9021-35403df10631" />
 
 
