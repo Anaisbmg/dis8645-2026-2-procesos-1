@@ -73,7 +73,7 @@ partimos hablando de algunos libros subidos por Matías
 - es un placa microcontroladora (pequeña tarjeta electrónica inteligente) que sirve para controlar inventos y proyectos escolares o caseros.
 - a diferencia de una computadora normal, no tiene pantalla ni ejecuta programas grandes, sino que se usa para **dar órdenes a luces, motores, botones y sensores.**
 
-### proceso encargo
+### proceso encargo: código 1
 
 **para este trabajo no pudimos reunirnos de manera presencial, pero trabajamos online mediante meet**
 
@@ -173,7 +173,28 @@ digitalWrite(LED_BUILTIN, LOW);
 
 ```
 
-**IMPORTANTE:** nos dimos cuenta de que al querer cambiar el **delay** (los milisegundos) descubrimos que debíamos reiniciar la placa a través del botón **BOOTSEL**; si no hacíamos este paso, nos daba un error al intentar poner en marcha las modificaciones, **esto es relevante para realizar cualquier cambio en el código original**
+**IMPORTANTE:**
+- nos dimos cuenta de que al querer cambiar el **delay** (los milisegundos) descubrimos que debíamos reiniciar la placa a través del botón **BOOTSEL**; si no hacíamos este paso, nos daba un error al intentar poner en marcha las modificaciones, **esto es relevante para realizar cualquier cambio en el código original**
+- inicialmente pensábamos que no se podían utilizar números menor que 1000 en **"delay();"**, en cuanto a eso, comprobamos que si se podía y que producía distintos ritmos en la velocidad en que se prendía el LED.
+
+
+### proceso encargo: código 2
+
+también decidimos realizar otro código en el cual el LED se encendiera gracias a un botón y la pregunta que nos hicimos fue: **¿Cómo prender, a través de un botón, el LED que tiene incluido la Raspberry Pi Pico H?**
+
+- también con ayuda de **chatGPT**, pero en este caso era para entender de mejor manera lo que estábamos haciendo, en este intento le preguntamos:
+
+**ya que pude prender el led, qué más puedo hacer?**
+
+- a lo que nos dio una variación de opciones como:
+   - **Dominar el LED**, o sea, cambiar los tiempos (que ya lo hicimos y fue muy bacán).
+   - **Hacer un patrón**, o sea, lograr distintos ritmos con respecto a qué tan rápido o lento se apagan y se vuelve a encender el LED.
+   - **Agregar un botón**, y que nos permita prender y apagar el LED por el tiempo que queramos (el caso de ahora).
+   - **Agregar un potenciómetro** para regular la intensidad del LED.
+   - **Agregar un LDR** para lograr que reaccione a la luz que haya alrededor.
+
+- como nuestra intención era encender el LED gracias a un botón elegimos **"Agregar un botón, y que nos permita prender y apagar el LED por el tiempo que queramos (el caso de ahora)**
+
 
 ``` C++
 
@@ -236,6 +257,11 @@ void loop() {
 }
 
 ```
+
+
+**IMPORTANTE:**
+- también algo que se nos hizo fundamental para ambos códigos fue siempre revisar el **Datasheet** de cada componente antes de hacer cualquier cambio, esta lectura nos da un mejor entendimiento de las capacidades y limitaciones de la placa, y nos permite identificar los nombres correctos para programarla correctamente.
+
 
 2-proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
