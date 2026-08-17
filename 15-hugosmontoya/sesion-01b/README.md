@@ -170,5 +170,7 @@ PonerPolloenSarten();
 
 }
 
+![Arduino](./imagenes/arduino.png)
+
 
 ## lectura
