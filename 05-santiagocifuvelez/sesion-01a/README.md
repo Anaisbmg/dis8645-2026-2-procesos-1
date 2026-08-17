@@ -97,9 +97,10 @@ Entonces, este libro recopila 30 años de experiencia, para los lectores que ten
 ### Introducción.
 
 El libro se divide en 3 partes:
-**1. Asiggments.
-2. Ejercicios.
-3. Entrevistas.**
+
+**1. Asiggments.  
+2. Ejercicios.  
+3. Entrevistas.**  
    
 - El aprendizaje antes de la creación de este libro en el rubro de la programación, se centraban en **como** programar, en vez de **qué hacer** cuando se aprende codigo y **por qué.**
 
