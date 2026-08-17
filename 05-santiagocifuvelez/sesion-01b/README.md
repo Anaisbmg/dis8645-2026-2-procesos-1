@@ -106,3 +106,8 @@ Me reúno con kriss el lunes.
 ## lectura
 
 ### Cap 1. Iterative Pattern; Generating a texture or textile design. 
+
+#### Brief
+#### Learning Objectives
+#### Variations 
+#### Making It Meaningful
