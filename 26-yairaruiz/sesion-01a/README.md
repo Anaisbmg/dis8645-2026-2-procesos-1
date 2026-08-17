@@ -7,7 +7,7 @@ apunte clase martes 11/08:
 
 En esta clase empezamos con una introducción de GitHub, luego una actividad en clase de conversar y analizar las fotografías que pudimos sacar de los ascensores. También tuvimos una explicación sobre el funcionamiento de ellos. 
 
-Con mis compañeras, analizamos los distintos botones, el orden de los pisos, incluso que algunos contaban con aire acondicionado, 
+Con mis compañeras, analizamos los distintos botones, el orden de los pisos, incluso que algunos contaban con aire acondicionado, etc.
 
 Primero empezamos a recopilar qué es lo que conforma un ascensor: 
 
@@ -29,7 +29,7 @@ Primero empezamos a recopilar qué es lo que conforma un ascensor:
 
 encargo 01-a:
 
-autorretrato: describir variables y funciones de ustedes. investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
+autorretrato: describir variables y funciones de ustedes. 
 
 - Variables son datos, funciones son acciones.
 (para estudiar: <https://thecodingtrain.com/tracks/code-programming-with-p5-js>)
@@ -54,10 +54,31 @@ autorretrato: describir variables y funciones de ustedes. investigar pantallas d
 - Música que escuchas: pop
 - Lugares que frecuentas: universidad 
 
+ejemplo en C++
 
+    string nombre = "Yaira";
+    int edad = 21;
+    string carrera = "Diseño Gráfico";
 
+    string color_favorito = "rosado";
 
-Pantalla de segmentos 
+    string lugares_que_frecuentas[] = {"universidad", "metro", "casa" }
+
+*Funciones:* Una función es una acción o conjunto de acciones que se puede ejecutar para realizar una tarea específica. 
+
+ejemplo en C++ 
+
+    FUNCIONES = acciones que realizo
+
+      void imaginar() {
+      // crear nuevas ideas
+      }
+
+## ítem 2 
+
+investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
+
+### Pantalla de segmentos 
 
 - Una pantalla de segmentos es un dispositivo electrónico de visualización formado por varios elementos independientes llamados segmentos (generalmente diodos LED o cristal   líquido) que se encienden o apagan en diferentes combinaciones para representar números y caracteres alfanuméricos (Wikipedia).
 
