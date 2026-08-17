@@ -66,3 +66,9 @@ Funciones:
 Cómo ya mencioné anteriormente elegí "The Oxford Handbook of computer music" Por Roger T. Dean.
 
 Este es un texto que está completamente en Inglés, el idioma no se me dificulta, pero sí hay términos que iban apareciendo a lo largo de lo que he ido leyendo y no he logrado entender. Así que los he ido anotando, para buscarlos luego.
+
+1. Acousmatic Sound: es un fenómeno físico y perceptual de escuchar cualquier sonido sin ver el origen de este. No es tan complejo como suena, es más, se hace a diario como escuchar los sonidos de los pájaros en la mañana o el sonido cuando corre el viento.
+   
+3. Soundspotting: Es un conjunto de varios conceptos distintos en tecnología musical, como proceso de creación músical.
+
+Por lo que he ido entendiendo de las primeras paginas es que el libro no es un manual para entender o aprender técnicas musicales computacionales, mas bien abarca la historia de la musical computacional a lo largo de los años.

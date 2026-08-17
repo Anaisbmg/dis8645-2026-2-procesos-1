@@ -1,0 +1,12 @@
+name: arreglador-imagenes-locales
+
+on: [push, pull_request]
+
+jobs:
+  arreglador-imagenes-locales:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: piruetasxyz/arreglador-imagenes-locales@v0.1.0
+        with:
+          fallar: true

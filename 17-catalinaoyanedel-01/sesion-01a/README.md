@@ -129,3 +129,30 @@ me interesó harto por lo que leí así que tengo muchas ganas de seguir leyendo
 - https://corpartes.cl/blog/ai-weiwei-artista-activista/
 - https://artstatementmagazine.com/ai-weiwei-cinco-libros-para-entender-su-universo/
 
+## revisión encargo
+
+- las variables pueden ser extremas, pueden valer sí o no. es un idea completamente computacional de que las cosas son o no son.
+- variable boolean: george boole, aritmética booleana, compuertas AND y OR.
+- La aritmética y el álgebra booleana es un sistema matemático que usa solo dos valores: 0 (falso) y 1 (verdadero). Se usa en computadoras y circuitos electrónicos para tomar decisiones lógicas. Funciona con tres operaciones básicas: suma (OR), multiplicación (AND) y negación (NOT).
+- hay variables constantes y otras que puedan cambiar, ej: rut: constante.
+- en la programación se aproximan los datos.
+- char: variable que adjunta una sola palabra, string: una serie de caracteres
+- bool: variable verdadero o falso
+- tipo de sintaxis
+- ` bool desayuno=true; `
+- en computación se parte contando desde 0
+- con 3 bits se llegan a 8 combinaciones ¿ no entendí mucho, ampliaremos...
+- u, no considera el signo. ejemplo: con la edad se usaría un uint, ya que va de 0 a un número entero.
+
+https://www.w3schools.com/cpp/cpp_variables.asp
+
+- **int** - stores integers (whole numbers), without decimals, such as 123 or -123
+- **double** - stores floating point numbers, with decimals, such as 19.99 or -19.99
+- **char** - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+- **string** - stores text, such as "Hello World". String values are surrounded by double quotes
+- **bool** - stores values with two states: true or false
+
+https://www.allaboutcircuits.com/textbook/digital/chpt-7/boolean-arithmetic/
+
+  
+
