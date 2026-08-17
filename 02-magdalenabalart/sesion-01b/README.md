@@ -674,5 +674,98 @@ void comidaBuenaOnda(string diaDeLaSemana, bool estoyConEri, bool hayChoritos) {
 
 comidaBuenaOnda("Domingo", true, true);
 ```
+intento 02 función: 
 
+# Intento 02 función:
+
+**Nombre:** `deberiaSalir`  
+**Tipo:** `void`  
+**Argumentos:** `diaDeLaSemana`, `tengoPlata`, `tengoGanas`, `eriDisponible`  
+**Uso:** decidir si salir o qué hacer dependiendo del día y de las condiciones que tenga.
+
+Quiero salir
+      ↓
+¿Es viernes?
+      ↓
+    SÍ
+      ↓
+¿Tengo plata Y tengo ganas?
+   ↙              ↘
+ SÍ                NO
+ ↓                  ↓
+salir          quedarme en casa
+
+
+Quiero salir
+      ↓
+¿Es sábado?
+      ↓
+    SÍ
+      ↓
+¿Eri está disponible?
+   ↙              ↘
+ SÍ                NO
+ ↓                  ↓
+salir          ver una película
+
+
+Si no corresponde a ninguna de esas situaciones
+              ↓
+        quedarme en casa
+
+```text
+FUNCIÓN deberiaSalir(diaDeLaSemana, tengoPlata, tengoGanas, eriDisponible)
+
+    SI es viernes
+        ENTONCES
+
+        SI tengo plata Y tengo ganas
+            ENTONCES
+            salir
+        SI NO
+            quedarme en casa
+
+    SI NO, SI es sábado
+        ENTONCES
+
+        SI Eri está disponible
+            ENTONCES
+            salir
+        SI NO
+            ver una película
+
+    SI NO
+        quedarme en casa
+
+FIN
+```
+
+```cpp
+void deberiaSalir(string diaDeLaSemana, bool tengoPlata, bool tengoGanas, bool eriDisponible) {
+
+    if (diaDeLaSemana == "Viernes") {
+
+        if (tengoPlata && tengoGanas) {
+            salir();
+        }
+        else {
+            quedarmeEnCasa();
+        }
+    }
+
+    else if (diaDeLaSemana == "Sabado") {
+
+        if (eriDisponible) {
+            salir();
+        }
+        else {
+            verUnaPelicula();
+        }
+    }
+
+    else {
+        quedarmeEnCasa();
+    }
+}
+```
 ## lectura
