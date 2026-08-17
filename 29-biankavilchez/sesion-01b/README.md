@@ -32,3 +32,29 @@ fórmulas cuyo objetivo es estético: al momento de determinar valores y variaci
 nos habla sobre coordenadas y parámetros: el autor nos habla de cómo x e y son parámetros de un sistema.
 
 es decir, imagen = f(x,y). si se cambia el valor de alguna de las dos coordenadas, puede producir que la imagen sea completamente diferente.
+
+capítulo 2 "el objet trouvé en matematicas"
+
+en este capítulo nos hace una relación directa entre la imagen y el arte. el autor plantea como ejemplo el urinario de duchamp y se pregunta: ¿puede ser arte un objeto que ya existe? esta es una de las primeras interrogantes que plantea para hablar sobre la creación y la intención artística.
+
+a partir de esto, lo relaciona con la creación de imágenes a través de cálculos matemáticos y plantea otra pregunta: realmente, ¿quién es el creador de la imagen? ¿el autor, la computadora o la matemática?
+
+al igual que en la fotografía, uno fotografía algo que ya existe, pero es el fotógrafo quien decide qué mostrar, desde qué perspectiva, en qué angulo y con qué intención. por lo tanto, aunque la matemática genere diferentes posibilidades y resultados, es el artista quien selecciona y decide cuáles utilizar para darle una intención a la obra.
+
+capítulo 3 "los expertimentos de mondrian"
+
+este capítulo parte con un experimento realizado por michael noll en 1966, relacionado con las pinturas de piet mondrian.
+
+en este capítulo nos lleva a una comparación: ¿podemos distinguir una obra hecha por un artista de una imagen generada por una computadora? y también, ¿se puede considerar estética una imagen hecha por una computadora y no directamente por el artista?
+
+para esto, primero nos habla de quién es mondrian. lo pone como ejemplo porque su arte es fácil de traducir a la matemática. sus imágenes están compuestas por líneas verticales y horizontales, rectángulos, cuadrados, patrones y repeticiones.
+
+luego nos empieza a hablar de michael noll, quien creó un programa que intentaba generar imágenes parecidas a las composiciones de mondrian.
+
+a partir de esto, nos presenta el concepto de algoritmo.
+
+algoritmo: un conjunto de instrucciones que le dicen a la computadora qué hacer.
+
+de esta forma, michael noll creó figuras mondrianoides. por medio de la computadora se pueden crear imágenes con una estética similar a la de mondrian, por ejemplo, definiendo dónde se quieren ubicar las líneas para luego formar cuadrados. después se puede repetir el proceso y así generar miles de imágenes con distintas variaciones, dependiendo de la ubicación y los valores de los parámetros.
+
+
