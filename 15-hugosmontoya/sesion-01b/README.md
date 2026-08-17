@@ -170,5 +170,5 @@ PonerPolloenSarten();
 
 }
 
-```cpp
+
 ## lectura
