@@ -79,6 +79,7 @@ este semestre trabajaremos con microcontroladores, en los cuales inyectaremos c�
 2. dentro de la sección ``SOFTWARE``, hacer click en donde dice ``Arduino IDE``
 
 ![screenshot de los productos que ofrece la página de Arduino](./imagenes/products.png)
+
 3. bajar hasta donde dice ``Arduino IDE 2.3.10``
 
 ![screenshot de dónde se encuentra la versión de Arduino IDE que buscamos](./imagenes/arduino-ide.png)
