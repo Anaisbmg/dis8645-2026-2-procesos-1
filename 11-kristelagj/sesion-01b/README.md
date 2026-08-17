@@ -10,7 +10,6 @@ encargo01b:
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 # Encargo 1
-
 Con Santi nos juntamos en la universidad a realizar la tarea la cual ambos comenzamos de 0 porque no entendíamos del todo lo que estábamos haciendo, pero para eso somos grupo, para aprender. 
 
 Primero cada uno por su parte investigo un poco para no partir de 0. 
@@ -103,10 +102,82 @@ void loop() {
 }
 ```
 
+Entonces despues de analizar y comprender, nos decidimos a realizar desde 0 dos codigos los cuales graficamos el glifo B y O
 
-https://www.youtube.com/watch?v=MBTPU8PwS3Y
 
-https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
+```cpp
+#include "Arduino_LED_Matrix.h" // Esto es para especificar que queremos correr el codigo en la pantallita del arduino. 
+ArduinoLEDMatrix matrix;
 
-https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
+// Creamos nuestra cuadrícula visual de 8 filas por 12 columnas:
+// 1 = LED encendido, 0 = LED apagado
+uint8_t dibujoLetraB[8][12] = {
+  {0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+  {0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0}
+};
+
+void setup (){
+  matrix.begin();
+  
+  //Renderizamos el dibujo en la pantalla usando la función de renderizado
+  matrix.renderBitmap(dibujoLetraB, 8, 12);
+}
+
+void loop (){
+  //Mostrar patron de dibujoLetraB
+}
+```
+Lo que nos complicó con este ejercicio fue el tema de declarar ya que cada cosa debe ir entre comas. 
+
+```cpp
+#include "Arduino_LED_Matrix.h" // Esto es para especificar que queremos correr el codigo en la pantallita del arduino. 
+ArduinoLEDMatrix matrix;
+
+// Creamos nuestra cuadrícula visual de 8 filas por 12 columnas:
+// 1 = LED encendido, 0 = LED apagado
+uint8_t dibujoLetraB[8][12] = {
+  {0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0},
+  {0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0}
+};
+
+uint8_t dibujoLetraO[8][12] = {
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0},
+  {0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0}
+};
+
+void setup (){
+  matrix.begin();
+  
+  //Renderizamos el dibujo en la pantalla usando la función de renderizado
+  matrix.renderBitmap(dibujoLetraB, 8, 12);
+  matrix.renderBitmap(dibujoLetraO, 8, 12);
+}
+
+void loop (){
+  //Mostrar patron de dibujoLetraB y luego el de dibujoLetraO
+  matrix.renderBitmap(dibujoLetraB, 8, 12);
+  delay (1000);
+
+  matrix.renderBitmap(dibujoLetraO, 8, 12);
+  delay (1000);
+}
+```
 
