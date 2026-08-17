@@ -149,22 +149,6 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 - https://itp.nyu.edu/physcomp/
 
 
-### Bibliografía
-
-- https://www.electrogeekshop.com/estructuras-de-control-en-arduino/?srsltid=AfmBOoohNwZMxEsydAlQfXtN4ovv21NBdHGlTOiBmzMwGmTAIy2hwtDu
-  
-- https://www.reddit.com/r/FreeCAD/comments/1l7wxb5/what_does_boolean_mean/?tl=es-419
-  
-- https://en.wikipedia.org/wiki/Boolean_data_type
-  
-- https://aprendiendoarduino.wordpress.com/2017/06/20/estructuras-de-control-3/
-
-- https://circuitpython.org/board/raspberry_pi_pico2_w/
-
-- https://raspberrypi.cl/products/raspberry-pi-pico-2
-
-- 
-
 
 ## Encargos
 
@@ -260,6 +244,7 @@ Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
 <img width="1172" height="854" alt="board" src="https://github.com/user-attachments/assets/8f56b00f-ba53-4287-8664-0b3dea74d2c9" />
 
 
+----
 
 5. Primera carga de prueba (Blink)
 
@@ -271,11 +256,25 @@ Esto es un ejemplo básico y predeterminado que viene integrado en el programa A
 
 - El IDE compilará el código en un archivo .uf2 y lo transferirá automáticamente a la memoria de la Raspberry Pi Pico 2 para iniciar su funcionamiento físico.
 
-Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automática; la Rasberry Pico 2W no tiene un LED dedicado de encendido,
+Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automática; la Rasberry Pico 2W no tiene un LED dedicado de encendido, pero esta luz solo se enciendo con un parpadeo cuando la placa recibe los datos, avisando que está ocupada procesando y grabando información. Una vez que termina esto el parpadeo se detiene.
 
 
+<table>
+  <tr>
+    <th>Ejemplo blinkc</th>
+    <th>Luz Rasberry</th>
+  </tr>
+  <tr>
+    <td align="center">
 <img width="970" height="638" alt="codigo" src="https://github.com/user-attachments/assets/a5ae3402-1b6c-4ddb-8cd5-c96b91d7b028" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="luz" src="https://github.com/user-attachments/assets/8ed4e1d6-ac1b-47f2-8885-b755d5b48b10" />
+    </td>
+  </tr>
+</table>
 
+____
 
 
 6. Materiales utilizados
@@ -337,9 +336,61 @@ void loop() {
 ```
 
 
-9. Fotos del proceso 
+9. Fotos del proceso
+
+
+<table>
+  <tr>
+    <th>Conexiones analogas</th>
+    <th>Acercamiento LED</th>
+    <th>Resultado</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="2737" height="3415" alt="foto4" src="https://github.com/user-attachments/assets/95f8c7aa-aaa5-4ed6-a892-ffa11bc7a40b" />
+    </td>
+    <td align="center">
+<img width="3024" height="4032" alt="foto1" src="https://github.com/user-attachments/assets/b8cd5021-5c77-4453-a306-5d83471a8a87" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="funciona" src="https://github.com/user-attachments/assets/ae6128d0-9807-4f01-9491-456d92752751" />
+    </td>
+  </tr>
+</table>
+
+
+
+### Bibliografía
+
+- https://www.electrogeekshop.com/estructuras-de-control-en-arduino/?srsltid=AfmBOoohNwZMxEsydAlQfXtN4ovv21NBdHGlTOiBmzMwGmTAIy2hwtDu
+  
+- https://www.reddit.com/r/FreeCAD/comments/1l7wxb5/what_does_boolean_mean/?tl=es-419
+  
+- https://en.wikipedia.org/wiki/Boolean_data_type
+  
+- https://aprendiendoarduino.wordpress.com/2017/06/20/estructuras-de-control-3/
+
+- https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+- https://raspberrypi.cl/products/raspberry-pi-pico-2
 
 
 
 ## lectura
+
+Libro: A New Program for Graphic Design
+
+Autor: David Reinfurt
+
+- La **introducción** de este libro justifica por qué el diseño gráfico es un lenguaje esencial en el siglo XXI y cómo sus principios fundamentales (tipografía, percepción y sistemas de interfaz) permiten que cualquier persona pueda aprender a "leer" y "escribir" visualmente el mundo que la rodea.
+
+- El diseño gráfico no debe entenderse como una carrera técnica cerrada (una "escuela de oficios"), sino como una disciplina de las artes liberales.
+
+- David Reinfurt relata cómo surgió la idea del libro a partir de su experiencia enseñando en la Universidad de Princeton.
+
+- El diseño como una herramienta universal.
+
+La convergencia de disciplinas → sociología, historia, política y la ciencia → dar sentido a nuestro mundo contemporáneo, que está saturado de información.
+
+- El objetivo es enseñar a "pensar" a través del diseño, enfocándose en la relación entre la forma y la comunicación, en lugar de centrarse únicamente en la creación de imágenes estéticas.
 
