@@ -104,3 +104,10 @@ Me reúno con kriss el lunes.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
+
+### Cap 1. Iterative Pattern; Generating a texture or textile design. 
+
+#### Brief
+#### Learning Objectives
+#### Variations 
+#### Making It Meaningful
