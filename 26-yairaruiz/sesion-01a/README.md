@@ -73,9 +73,6 @@ Estoy un poco confundida pero según la forma que pude entenderlo me quedó clar
 
 Pantalla de segmentos 
 
-No tuve mucho tiempo durante la semana porque estoy agarrando ritmo a la universidad + práctica por, lo que aún no tengo las fotografías pero si investigué sobre las pantallas.
-
-
 - Una pantalla de segmentos es un dispositivo electrónico de visualización formado por varios elementos independientes llamados segmentos (generalmente diodos LED o cristal   líquido) que se encienden o apagan en diferentes combinaciones para representar números y caracteres alfanuméricos (Wikipedia).
 
 “La típica pantalla digital que usa segmentos para formar números o letras. Dependiendo de qué segmentos se enciendan, puedes construir distintos números.”
