@@ -27,4 +27,48 @@ entonces lo que veremos son
 
 ## encargos
 
+### encargo 01-a:
+
+autorretrato: describir variables y funciones de ustedes.
+investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+---
+Para describir cuales son mis variables y funciones debo entender primero que significan cada uno de los conceptos.
+
+Según la información que ofrece Wikipedia: una variable, por lo menos en el contexto de programación, que no debe confundirse con el término de una variable matemática, es una ubicación de almacenamiento que contiene datos a los que se les denomina valor. Además una variable no tiene que corresponder necesariamente a una fórmula o ecuación.
+
+Entonces resumidamente se representa como un contenedor que guarda un valor.
+
+Y una función según Wikipedia: un procedimiento, método, subrutina, rutina, subprograma.
+
+-Por lo que entiendo es algo automatizado, me imagino que es algo así como un comando que tiene un bot de música de Discord. Le pedí a Gemini una comparación sobre las funciones y las variables con ejemplos de Discord porque me estaba costando entenderlo al principio. Las variables son las etiquetas, se mantienen fijas, no cambian, como "volumen" o "canción sonando", el valor es lo que SÍ cambia, literalmente el nivel del volumen o la canción que suena. Y cuando le pides al bot de música para que reproduzca o pare una canción se lo indicas con un comando como !play o !stop
+
+Teniendo una noción de lo que son estos conceptos, entonces mis variables y funciones se podrían definir en:
+
+Variables: 
+-Nombre: Dayana
+-Apellido: Pañitrur
+-Edad: 22
+-Estatura: 1.55
+-Visión: Media-baja
+
+Funciones:
+-Ver
+-Tocar
+-Oir
+-Hablar
+-Moverse
+-Pensar
+-Sobrepensar
+
 ## lectura
+
+Cómo ya mencioné anteriormente elegí "The Oxford Handbook of computer music" Por Roger T. Dean.
+
+Este es un texto que está completamente en Inglés, el idioma no se me dificulta, pero sí hay términos que iban apareciendo a lo largo de lo que he ido leyendo y no he logrado entender. Así que los he ido anotando, para buscarlos luego.
+
+1. Acousmatic Sound: es un fenómeno físico y perceptual de escuchar cualquier sonido sin ver el origen de este. No es tan complejo como suena, es más, se hace a diario como escuchar los sonidos de los pájaros en la mañana o el sonido cuando corre el viento.
+   
+3. Soundspotting: Es un conjunto de varios conceptos distintos en tecnología musical, como proceso de creación músical.
+
+Por lo que he ido entendiendo de las primeras paginas es que el libro no es un manual para entender o aprender técnicas musicales computacionales, mas bien abarca la historia de la musical computacional a lo largo de los años.

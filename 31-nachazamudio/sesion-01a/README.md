@@ -7,34 +7,57 @@ elegí el libro computational drawing
 
 ## apuntes sesión
 
-características de un ascensor:
+**características de un ascensor:**
 
-tiene puertas
-
-sube y baja(eje z)
-
-tiene botones, poleas, contrapeso, motor
+tiene puertas; sube y baja(eje z); tiene botones, poleas, contrapeso y motor
 
 actividad en clases grupal: responder datos internos y constantes que manejan los ascensores
 
-datos internos:
+**datos internos:**
 
-distancia entre pisos(cuanto viajará)
+1.distancia entre pisos(cuanto viajará)
 
-se selecciona el ascensor mas cercano al piso en que se solicita por medio de la botonera de llamada
+2.se selecciona el ascensor mas cercano al piso en que se solicita por medio de la botonera de llamada
 
-prioridad de llamada, el ascensor se traslada según el tiempo en que se solicita, el lugar donde se encuentra el usuario y el sentido del trayecto
+3.prioridad de llamada, el ascensor se traslada según el tiempo en que se solicita, el lugar donde se encuentra el usuario y el sentido del trayecto
 
-el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
+4.el ascensor se mueve al primer piso automáticamente luego de 5 min sin actividad
 
-datos constantes:
 
-distancia entre cada piso y la cantidad de estos
+**datos constantes:**
 
-capacidad máxima (kg)
+1.distancia entre cada piso y la cantidad de estos
 
-velocidad de movimiento
+2.capacidad máxima (kg)
+
+3.velocidad de movimiento
 
 ## encargos
+
+autorretrato: variables y funciones
+
+variables: mi nombre es maría ignacia zamudio benoni. mido 1.63 metros, peso 64 kilos, tengo 22 años. mi pelo es café oscuro. tengo tez morena, el pelo corto. me han operado dos veces, del ligamento cruzado anterior y una cirugia maxilofacial. tengo 3 gatos.
+
+funciones: practico deporte, en especial basketball, y hago actividad física recurrentemente, trabajo en un starbucks con el rol de barista 20 horas a la semana, estudio diseño con mención industrial. practico tocar guitarra acústica como hobby. 
+
+pantalla de segmento n°1 medidor de temperatura
+![imagen pantalla refrigerador](./pantalla-1a.jpeg)
+![imagen pantalla refrigerador zoom](./pantalla-1b.jpeg)
+
+pantalla ubicada en mi lugar de trabajo que entrega estado de la temperatura de un refrigerador para mantenerlo en una temperatura óptima para guardar cajas de leche.
+
+pantalla de segmento n°2 cronometro con varias funciones
+![imagen cronómetro](./cronometro2.jpeg)
+![imagen cronómetro función de hora](./cronometro1.jpeg)
+![imagen cronómetro función de alarma](./cronometro-alarma.jpeg)
+
+cronómetro con varias funciones(cronometro, alarma, fecha y hora) de uso personal especialmente para el ámbito deportivo
+
+pantalla segmento n°3 pesa digital
+
+![imagen pesa digital](./pesa-digital.jpeg)
+![imagen acercamiento pesa digital](./pesa-digital2.jpeg)
+
+pesa digital de casa para mostrar el valor de masa en kilogramos y además mostrar la t° ambiente del hogar
 
 ## lectura

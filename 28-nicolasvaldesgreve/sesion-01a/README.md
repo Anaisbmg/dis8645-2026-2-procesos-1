@@ -12,7 +12,9 @@ maneras de referirnos a los siguientes símbolos:
 
 ### libro para el semestre omg
 
-Aarón nos dijo que para este semestre tendremos que leer un libro por persona, por lo que nos indicó a las primeras dos filas a retirar un libro de los tantos que tenía en la mesa de en frente. la verdad no conocía ninguno, pero me llamó la atención el libro llamado "_Program Or Be Programmed: Ten Commands for a Digital Age_", escrito por Douglas Rushkoff ya que me dio risa el título el cual asumí que era una referencia al "ser o no ser" de Hamlet.
+Aarón nos dijo que para este semestre tendremos que leer un libro por persona, por lo que nos indicó a las primeras dos filas a retirar un libro de los tantos que tenía en la mesa de en frente. la verdad no conocía ninguno, pero me llamó la atención el libro llamado "_Program Or Be Programmed: Ten Commands for a Digital Age_", escrito por Douglas Rushkoff ya que me dio risa el título el cual asumí que era una referencia al "ser o no ser" de Hamlet (puede que no sea pero igual me causa gracia lol).
+
+![foto sacada por mi para mandar por Discord qué libro saqué](./imagenes/libro.jpg)
 
 cuando ya escogimos los libros, Aarón nos explicó que estos serán parte de los encargos en los cuales cada martes debemos escribir un resumen de lo que leímos incluyendo dos citas del libro, siendo una página el mínimo de lectura por día para así leer un mínimo de 100 páginas al semestre (idealmente terminar el libro, pero eso ya es decisión de cada uno).
 
@@ -106,7 +108,7 @@ esta pantalla dice cuántos °C hay dentro de la micro, ya que estas tienen aire
 
 esta foto fue tomada por mi papá en su camioneta en donde se muestra la radio!! recién gracias a este encargo me dediqué a buscar su modelo, la cual es _MP3 Pioneer DEH-1300MP (serie MOSFET 50Wx4)_. al buscar la radio por su nombre propio, encontré este manual <https://www.manuales.mx/pioneer/deh-1300mp/manual?p=3>, el cual menciona partes de la radio, cómo funciona, etc. en la página 3 de este manual, hay un vector de cómo es la pantalla y se logra ver con claridad de cuántos segmentos es esta misma:
 
-![vector de radio, no me pertenece sino que se rescató del link que mencioné anteriormente](./imagenes/radio-14.png)
+![vector de radio, no me pertenece, sino que se rescató del link que mencioné anteriormente](./imagenes/radio-14.png)
 
 la verdad me costó contar los segmentos, pero ahora estoy 80% seguro de que la pantalla es de 14 segmentos (creo, tal vez conté mal muchas veces). a diferencia de la pantalla de la micro, la de la radio es mejor para mostrar letras como lo es la "M" gracias a los segmentos diagonales que tiene lo cual sirve para ir viendo los modos en los que uno puede usar la radio.
 
@@ -114,11 +116,11 @@ la verdad me costó contar los segmentos, pero ahora estoy 80% seguro de que la 
 
 ![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora del colegio jiji](./imagenes/calculadora.jpeg)
 
-estas fotos fueron tomadas por mi hermana menor en nuestra casa, en donde muestra la pantalla de su calculadora de manera frontal y se puede observar cómo hay un "0.", lo cual me hace creer que esta es una pantalla de 9 segmentos al contar el punto! otra cosa de lo que no estoy muy seguro es sobre si esta pantalla se considera una pantalla de segmentos ya que al poner la calculadora en ángulo se ve lo siguiente:
+estas fotos fueron tomadas por mi hermana menor en nuestra casa, en donde muestra la pantalla de su calculadora de manera frontal y se puede observar cómo hay un "0.", lo cual me hace creer que esta es una pantalla de 8 segmentos al contar el punto! otra cosa de lo que no estoy muy seguro es sobre si esta pantalla se considera una pantalla de segmentos ya que al poner la calculadora en ángulo se ve lo siguiente:
 
-![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora en ángulo.. muchas gracias Karina](./imagenes/calculadora-angulo.jpeg)
+![foto tomada por mi hermana menor, Karina, en donde muestra su calculadora en ángulo... muchas gracias Karina](./imagenes/calculadora-angulo.jpeg)
 
-al poner la calculadora en esta posición, podemos ver en dónde se pueden prender los LEDs de la pantalla, notando así que en efecto hay 9 segmentos en la mitad inferior de la pantalla pero en la parte superior hay 30 cuadrados (son rectángulos de 5x6 si no me equivoco), cosa que nos permite mostrar textos muuuucho más claros pero no sé si esto sigue siendo una pantalla de segmentos al compartir dos formas distintas de LEDs.
+al poner la calculadora en esta posición, podemos ver en dónde se pueden prender los LEDs de la pantalla, notando así que en efecto hay 8 segmentos en la mitad inferior de la pantalla, pero en la parte superior hay 30 cuadrados (son rectángulos de 5x6 si no me equivoco), cosa que nos permite mostrar textos muuuucho más claros, pero no sé si esto sigue siendo una pantalla de segmentos al tener dos formas distintas para mostrar texto (segmentos y los cuadrados).
 
 #### fuentes:
 
@@ -126,11 +128,118 @@ al poner la calculadora en esta posición, podemos ver en dónde se pueden prend
 + <https://www.manuales.mx/pioneer/deh-1300mp/manual?p=3>
 + <https://en.wikipedia.org/wiki/Segment_display>
 
-### autorretrato
+---
 
-autorretrato: describir variables y funciones de ustedes.
+#### variables
+
+las variables es en donde se almacenan los datos. dependiendo de la información que almacenaremos, se usa un tipo distinto de variable:
+
++ ``int`` -> números enteros, ej: 100 o -100
++ ``double`` -> números decimales, ej: 10.1 o -10.1
++ ``char`` -> caracteres individuales que se deben encerrar entre comillas simples, ej: 'a' o 'A'
++ ``bool`` -> verdadero o falso
++ ``string`` -> texto entre comillas dobles, ej: "when haces tus momos en C++"
+
+para poder crear una variable tenemos que especificar qué tipo de variable es y asignarle un valor siguiendo el siguiente formato: ``tipo nombreVariable = valor``.
+
+en donde dice _tipo_, va una de las variables que se mencionaron anteriormente, como por ejemplo ``int``. en donde dice _nombreVariable_, va el nombre de la variable el cual puede ser cualquier nombre que desees. el signo _=_ se usa para poder asignarle valor a la variable.
+
+en <https://www.w3schools.com/cpp/cpp_variables.asp> se muestra un ejemplo para entender cómo crear una variable y asignarle un valor, en donde la variable es llamada "myNum", el tipo de variable a ``int`` debido a que el valor es un número entero, el cual será "15".
+
+```cpp
+int myNum = 15;
+cout << myNum;
+```
+
+también se puede declarar una variable sin asignar el valor de inmediato, lo cual queda así:
+
+```cpp
+int myNum;
+myNum = 15;
+cout << myNum;
+```
+
+``cout`` se utiliza junto a ``<<`` para poder mostrar variables!! si se desea combinar texto y variable, se separan mediante ``<<``, por ej:
+
+```cpp
+string nombre = "mailo";
+int edad = 4;
+double altura = 32.7;
+
+cout << nombre << " tiene " << edad << " años y creo que mide " << altura << " cm ";
+```
+
+#### funciones
+
+según <https://disenoudp.github.io/apuntes-maquinas/>, las funciones son bloques de código que realizan una tarea, tienen un comportamiento flexible gracias al uso de parámetros.
+
+en el lenguaje de C++, todo programa parte en la función ``main``, la cual es una entrada que coordina el cómo se ejecuta el resto de funciones. para poder declarar una función, se debe especificar el nombre de esta seguido de un paréntesis, como por ej:
+
+```cpp
+void miFunción() {
+// aquí va el código que queremos correr lol
+}
+```
+
+en este ejemplo, _miFunción()_ es el nombre de la función mientras que _void_ significa que la función no regresa nada (no tiene valor de retorno).
+
+para llamar a la función hay que escribir su nombre (luego de haberla declarado anteriormetne) junto a dos paréntesis ``()`` y un ``;``. aquí un ejemplo de <https://www.w3schools.com/cpp/cpp_functions.asp> en donde se llama a la función dentro de ``main``
+
+```cpp
+void miFunción() {
+	cout << "hola estoy corriendo";
+}
+
+int main() {
+	miFunción(); // aquí la función puede ser repetida, solo hay que mencionarla más veces lol
+	return 0;
+}
+```
+
+### encargo autorretrato
+
+> esto está hecho a base de pura confianza y cero revisiones de alguien que no sea yo, por lo que es obvio que está mal hecho pero por lo menos lo intenté LOLOLOLOL
+
+```cpp
+string misNombres = "Nicolás Elías";
+string misApellidos = "Valdés Greve";
+int miEdad = 20;
+bool peloTeñido = true;
+string coloresPelo = "negro y un azul que se está destiñendo a verde lol";
+bool piercings = true;
+int cantidadPiercings = 3;
+bool lentesÓpticos = true;
+string colorLentes = "café oscuro"
+
+void presentarmeLol() {
+	cout << "hola lol me llamo " << misNombres << "-" << misApellidos << ", tengo" << miEdad << " años.";
+}
+
+void describirFísicamente() {
+	cout << "tengo " << cantidadPiercings << " piercings en mi cara, dos de ellos abajo de los labios y otro en la nariz. hace poco me teñí el pelo, por lo que ahora está de color " << coloresPelo <<". También tengo lentes ópticos de color " << colorLentes << " ya que tengo miopía y astigmatismo LOL";
+}
+```
+mientras hacía esto me di cuenta que no sé cómo aplicar el ``bool`` ni cómo hacer una función ``main``#YOLO
+
+#### fuentes:
+
++ <https://www.w3schools.com/cpp/cpp_variables.asp>
++ <https://www.w3schools.com/cpp/cpp_functions.asp>
++ <https://disenoudp.github.io/apuntes-maquinas/>
++ <https://www.superprof.cl/blog/funciones-cplusplus/>
 
 ---
 
-## lectura
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
 
+> todo el libro está en inglés, pero la verdad de momento no se me ha dificultado la lectura! siento que tiene un lenguaje bastante simple y amigable:) esta semana me leí desde el "preface" hasta la introducción (pág. 13).
+
+en las primeras 13 páginas, Douglas habla de la importancia de saber programar o, por lo menos, entender qué es la programación para poder entender qué es lo que estás usando y cómo funciona dándolo a entender de manera sarcástica lo cual me dio risa XD aquí dejo la primera cita textual para que entiendan a lo que me refiero:
+
+- "You may not know what's going on, you may not have much of an impact on the future of our species, and you may begin to feel like technology knows more about you than you know about it-but no, you don't have to learn to program" (pág. 8)
+
+para poder explicar la importancia de saber programar o entender lo que es la programación, Douglas da como ejemplo una situación cotidiana como lo es el usar un auto, ya que uno de los argumentos que le han dicho para justificar que "no es necesario aprender programación" es el compararlo con un auto y decir que "uno puede saber manejarlo sin necesidad de ser mecánico", lo cual es una comparación errónea ya que en esta situación uno no tiene que comparar entre ser conductor y mecánico, sino que sería entre el conductor y el pasajero. en el ejemplo que da Douglas, nos dice que para ser pasajero tienes que confiar en el conductor y creer que te lleva por los lugares correctos, sin mentir sobre lo que hay en el camino por lo que generas una dependencia en él, lo cual el conductor puede explotar para su propio beneficio sin que tú lo sepas.
+
+debido a lo anterior, Douglas explica que la razón por la que escribió el libro es porque quiere que las personas sepan algo sobre la programación y la importancia que tiene esta en nuestro presente y en el futuro de nuestras vidas, diciéndolo de la siguiente forma:
+
+- "I do want people to know something about programming, but more than that, I want them to consider putting their own hands back on the steering wheel of our civilization. It may just keep us from driving off a cliff. And besides, it's fun to be in the driver's seat." (pág. 11)
