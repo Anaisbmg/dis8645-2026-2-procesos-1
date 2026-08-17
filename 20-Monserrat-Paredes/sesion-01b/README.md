@@ -327,7 +327,7 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
 
 
 
-7. Pines utilizados y conexión fisica
+7. Pines utilizados y conexión fÍsica
 
 | Elemento | Pin físico | Función |
 | :--- | :--- | :--- |
