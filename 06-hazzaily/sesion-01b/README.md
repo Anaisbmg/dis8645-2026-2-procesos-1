@@ -287,6 +287,7 @@ void loop() {
 
 Proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+tomarCafe
 
 
 ## lectura
