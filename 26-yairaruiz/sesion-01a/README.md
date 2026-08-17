@@ -74,6 +74,8 @@ ejemplo en C++
       // crear nuevas ideas
       }
 
+*(aún no entiendo bien las funciones por lo que preferí ir de a poco)*
+ 
 ## ítem 2 
 
 investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
@@ -92,13 +94,13 @@ investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubic
 
 La pantalla se encuentra en la parte frontal y arriba del menú de botones, indicando el tiempo para calentar, también puede mostrar distintos modos de función potencia, reloj, ajuste de peso, cocción multi-etapas, descongelado rápido, auto descongelado, preseteo, pauta/cancelar, además una perilla de menú / tiempo. Las pantallas de microondas suelen utilizar pantallas de cuatro dígitos de 7 segmentos para mostrar los tiempos. Su función es reconocer rápidamente una cantidad de tiempo.
 
-Lavadora: electrodoméstico para aseo
+### Lavadora: electrodoméstico para aseo
 
 ![IMG](./imagenes/lavadora.png)
 
 Se encuentra en la parte frontal en el menú de opciones y puede indicar tiempo restante, programa, temperatura, velocidad de centrifugado o estados del ciclo, dependiendo del modelo. Mayormente es para indicar tiempo de lavado pero también puede representar textos como por ejemplo: programas de lavado eco, rápido, etc.  temperatura, centrifugado o símbolos. 
 
-Parlante: dispositivo electrónico para reproducir sonido.
+### Parlante: dispositivo electrónico para reproducir sonido.
 
 ![IMG](./imagenes/parlante.png)
 
