@@ -141,4 +141,34 @@ A();
 
 Estas son las referencias usadas:
 https://docs.arduino.cc/tutorials/uno-r4-wifi/led-matrix/
+https://copilot.microsoft.com/shares/aKGLnQpftu12JvMAQ3TbX
+
+```cpp
+
+PARTE 2 ENCARGO
+//Cocinar pollo a la plancha
+//Primero es conseguir los materiales e ingredientes
+int sartén
+int cocina
+int pollo
+int aceite
+
+void setup(preparativos)
+//Luego pongo los materiales e ingredientes en la mesa.
+PrepararMateriales(sartén,cocina)
+PrepararIngredientes(pollo,aceite)
+
+if
+pollo = congelado
+Descongelarpollo();
+}
+
+void cocinar(){
+EncenderGas();
+PonerAceite();
+PonerPolloenSarten();
+
+}
+
+```cpp
 ## lectura
