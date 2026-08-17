@@ -1,0 +1,8 @@
+### 🔧 Archivos renombrados
+
+- `27-angel-udp/sesion-01b/imagenes/cambiodedisco.PNG` → `27-angel-udp/sesion-01b/imagenes/cambiodedisco.png`
+- `27-angel-udp/sesion-01b/imagenes/ejemplo_blink.png` → `27-angel-udp/sesion-01b/imagenes/ejemplo-blink.png`
+- `27-angel-udp/sesion-01b/imagenes/error1_raspy.PNG` → `27-angel-udp/sesion-01b/imagenes/error1-raspy.png`
+- `27-angel-udp/sesion-01b/imagenes/funciono_raspberry.PNG` → `27-angel-udp/sesion-01b/imagenes/funciono-raspberry.png`
+- `27-angel-udp/sesion-01b/imagenes/paquete_para_raspberry.PNG` → `27-angel-udp/sesion-01b/imagenes/paquete-para-raspberry.png`
+- `27-angel-udp/sesion-01b/imagenes/referencia_pines.PNG` → `27-angel-udp/sesion-01b/imagenes/referencia-pines.png`
