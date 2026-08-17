@@ -93,12 +93,16 @@ void loop(){
 ```
 - 
 
-> ![IMPORTANT]
-> HOLA
-
-1. https://www.youtube.com/watch?v=J9twJ3PbdLQ
-
-2. https://www.youtube.com/watch?v=81M-2NQkQME&t=106s
+> [!IMPORTANT]
+> Ideas que me gustaría experimentar en un futuro cercano
+>
+> > https://www.youtube.com/watch?v=J9twJ3PbdLQ
+> >
+> > > Sintetizador hecho con un Arduino UNO R4
+> >
+> > https://www.youtube.com/watch?v=81M-2NQkQME&t=106s
+> >
+> > > Sintetizador de 3 pasos hecho con Arduino UNO R4
 
 encargo01b:
 
