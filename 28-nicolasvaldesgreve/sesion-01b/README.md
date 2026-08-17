@@ -122,7 +122,7 @@ en hexadecimal se cuentan los números en una casilla de 0 a F, lo cual es equiv
 | E | 14 |
 | F | 15 | 
 
-> dato: ``Ctrl + T`` organiza el archivo de Arduino IDE
++ dato: ``Ctrl + T`` organiza el archivo de Arduino IDE
 
 ---
 
@@ -159,6 +159,17 @@ encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+### Raspberry Pi Pico 2W
+
+como parte del encargo tenemos que tratar de correr un código en un microcontrolador, los cuales se entregaron primero a las personas que nunca habían usado un microcontrolador anteriormente, los cuales usarán Arduino UNO R4 WiFi o Arduino UNO R4 Minima. luego de que se les entregaran y formaran duplas, a las personas que ya habíamos utilizado microcontrolador anteriormente nos entregaron Raspberry Pi (en mi caso fue la Pi Pico 2W, no sé si había otra opción) y nos dijeron que íbamos a trabajar de manera individual.
+
+al conectar el microcontrolador Raspberry Pi Pico 2W a mi computador mediante un cable USB-Micro USB, me di cuenta de que mi pc no reconocía que el microcontrolador estaba conectado a mi computador (ni siquiera lo reconoce como algo extraño), por lo cual busqué soluciones como lo es en ésta página <https://cursos.mcielectronics.cl/2025/09/22/programar-raspberry-pi-pico-2-y-2-w-con-arduino-ide/>, en donde menciona que si el microcontrolador no es detectado de manera automática debo entrar al modo Bootloader, cosa que aún no he probado en caso de que el problema sea otro, por lo tanto, antes de hacer esto, decidí probar cambiar el cable por otras dos opciones que tengo en mi casa, pero sucedió el mismo problema. para volver a intentar probar si el problema no es el microcontrolador y es otra cosa, conecté el cable en las distintas entradas USB que tiene mi pc, pero tampoco lo reconoció.
+
+de momento prefiero esperar a ver qué opinan Emi y Aarón al respecto, por lo que envié un mensaje al canal de nuestro taller diciendo lo siguiente:
+
+![screenshot de mensaje que mandé lololol ayuda jaja:'V](./imagenes/ayuda-profes.png)
+
 
 ---
 

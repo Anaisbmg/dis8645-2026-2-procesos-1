@@ -36,9 +36,7 @@ Está prohibido escribir una línea de código sin decir qué va a hacer (coment
 
 **loop** = estructura de control que repite un bloque de código varias veces hasta que una condición deja de cumplirse.
 
-## Programas a descargar
-
-1. **ARDUINO IDE 2.3.10**:
+## Placas a revisar
 
 Arduino UNO R4
 
@@ -52,10 +50,12 @@ Raspberry Pi Pico H
 
 Tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 
+**Intento 1: ¿Cómo prender, de manera intermitente, el LED que tiene incluido la Raspberry Pi Pico H?**
+
 Para este primer acercamiento quisimos irnos a lo más básico sin saber nada de programación, y al no encontrar mucho que nos ayudara en google (no es que no haya contenido, es que aún nos cuesta encontrar lo que estamos buscando) decidimos acudir a chatGPT, en el que el prompt fue el siguiente:
 
 ```
-*"holaaa, sabes qué puedo hacer con una placa raspberry pi pico h?"*
+"holaaa, sabes qué puedo hacer con una placa raspberry pi pico h?"
 ```
 
 A lo que nos respondió diversas opciones, como que la raspi puede controlar cosas como: 
@@ -77,12 +77,14 @@ A lo que nos respondió diversas opciones, como que la raspi puede controlar cos
 Ya con esa información base preguntamos otra cosa:
 
 ```
-*y cómo la puedo programar con arduino?*
+y cómo la puedo programar con arduino?
 ```
 
-En base a esto nos explicó cómo instalar el core de [Arduino-Pico — GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de sofware estadounidens), el cual es el core de Arduino para los microcontroladores RP2040/RP2350, que son los chips que utilizan las Pico.
+En base a esto nos explicó cómo instalar el core de [Arduino-Pico - GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de sofware estadounidens), el cual es el core de Arduino para los microcontroladores RP2040/RP2350, que son los chips que utilizan las Pico.
 
-Gracias a esto es que podemos utilizar códico como los que veremos en el ejemplo de más adelante:
+ - **Microcontroladores RP2040/RP2350:** Son microcontroladores de alto rendimiento creados por Raspberry Pi.
+
+Gracias a esto es que podemos utilizar código como los que veremos en el ejemplo de más adelante:
 
 ```C++
 pinMode();
@@ -90,7 +92,7 @@ digitalWrite();
 delay();
 ```
 
-Y ya con esto avanzado, pudimos partir con lo que sería el primer ejemplo: **¿Cómo prender el LED que tiene incluido la Raspberry Pi Pico H?**
+Y ya con esto avanzado, pudimos partir con lo que sería el primer intento.
 
 Además considerar información sacada del [DataSheet - Raspberry Pi Pico H](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-2-pico-datasheet.pdf) , en donde pudimos ver cómo funciona el componente y descubrimos que para hacer cualquier cambio en el código debemos reiniciar la placa, que es a través del botón **BOOTSEL**, y que sin este paso nos daba un error al intentar poner en marcha lo que habíamos cambiado.
 
@@ -140,7 +142,7 @@ void loop() {
 
 
 digitalWrite(LED_BUILTIN, HIGH);
-  delay(1000);
+  delay(3000);
 
 digitalWrite(LED_BUILTIN, LOW);
   delay(1000);
@@ -153,6 +155,18 @@ digitalWrite(LED_BUILTIN, LOW);
 }
 
 ```
+
+SUBIR!!
+
+![Vídeo LED intermitente en la placa](./imagenes/video-led-intermitente.mp4)
+
+**Aprendizajes:**
+
+- Antes de poner "upload" luego de cualquier cambio, debemos reiniciar la placa. Esto se logra desconectando la placa del computador (en nuestro caso), y luego debemos mantener presionado el botón "**BOOTSEL**" mientras la volvemos a conectar. Ya con eso podemos iniciar otra vez.
+
+- Otra cosa importante es que antes de cambiar cualquier cosa debemos revisar el DataSheet de lo que vayamos a usar, porque esto nos permite tener cierta consideración y compresión de distintas cosas que se pueden o no hacer con la placa. También saber los nombres correctos para poder programarlas.
+
+- Algo que pensamos que no se podía era poner números menor que 1000 en "delay();", en cuanto a eso, comprobamos que si se podía y que producía distintos ritmos en la velocidad en que se prendía el LED.
 
 ## encargo01b - 2
 
