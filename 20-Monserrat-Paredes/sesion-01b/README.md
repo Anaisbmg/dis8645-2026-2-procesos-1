@@ -1,6 +1,6 @@
 # sesion-01b
 
-## Apuntes sesión
+## Apuntes sesión → 14/08/26
 
 ### 1. Tipos de Datos y Variables en C++
 
@@ -329,12 +329,14 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
 
 7. Pines utilizados y conexión fÍsica
 
-| Elemento | Pin físico | Función |
-| :--- | :--- | :--- |
-| GND de la Pico -> riel negativo de la protoboard | Pin 38 | GND |
-| 3V3 -> riel positivo de la protoboard | Pin 36 | 3V3 (OUT) |
-| Botón | Pin 27 | GP21 |
-| LED (a través de resistencia) | Pin 26 | GP20 |
+| Elemento | Pin físico | Función | Color cable |
+| :--- | :--- | :--- | :--- |
+| GND de Raspberry → riel negativo de la protoboard | Pin 38 | GND | Negro |
+| 3V3 → riel positivo de la protoboard | Pin 36 | 3V3 (OUT) | Rojo |
+| Botón (Señal) | Pin 27 | GP21 | Amarillo |
+| LED (Señal a través de resistencia) | Pin 26 | GP20 | Verde |
+| GND del Botón → riel negativo | — | GND Botón | Morado |
+| GND del LED → riel negativo | — | GND LED | Blanco |
 
 
 
