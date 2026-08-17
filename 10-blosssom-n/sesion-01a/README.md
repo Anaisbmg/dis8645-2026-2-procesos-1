@@ -101,9 +101,10 @@ Ver, Dormir, Leer
 2. Investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
 
-<img src="./imagenes/pantalla1-torno.jpeg" alt="Pantalla del torno parte 1" width="300">
-<img src="./imagenes/pantalla1-torno2.jpeg" alt="Pantalla del torno parte 2" width="300">
+
 1. Torno / drill
+   
+<img src="./imagenes/pantalla1-torno.jpeg" alt="Pantalla del torno parte 1" width="300"> <img src="./imagenes/pantalla1-torno2.jpeg" alt="Pantalla del torno parte 2" width="300">
 
 La primera pantalla es la de mi torno que uso para trabajar. Está ubicada en la parte superior de la máquina, justo donde quedan también los botones principales. Es una pantalla de tres dígitos formada por segmentos rojos, parecida a las típicas pantallas de siete segmentos, donde cada número o letra aparece prendiendo distintas partes del mismo carácter. 
 
@@ -113,6 +114,8 @@ Su alfabeto entonces no es solamente del 0 al 9. También aprovecha algunas letr
 
 
 2. Pesa de feria
+
+<img src="./imagenes/pantalla2-pesa.jpg" alt="Pantalla de pesa" width="300">
 
 La segunda pantalla es de una pesa que mi hermana estaba usando en la feria. En la foto estaba pesando un pimentón. Tiene una pantalla de vista hacia los clientes y otra para quien la está usando, entonces se puede ir viendo el resultado mientras se atiende.
 
@@ -124,6 +127,8 @@ También cambia bastante el uso respecto al torno. En el torno yo miro la pantal
 
 
 3. Horno de mi cocina
+
+<img src="./imagenes/pantalla3-horno.jpeg" alt="Pantalla de horno" width="300">
 
 La tercera pantalla es la del horno de mi cocina. Está ubicada en el frente, sobre los controles, así que toda la información queda visible mientras se cocina. Acá la pantalla es mucho más grande y mezcla distintos tipos de información.
 
