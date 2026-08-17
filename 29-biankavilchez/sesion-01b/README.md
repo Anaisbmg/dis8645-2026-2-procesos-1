@@ -18,6 +18,8 @@ https://www.mariomarkus.com/
 
 en el siguiente link pueden encontrar más información sobre Mario Markus, incluyendo notas de prensa, información sobre su trayectoria y fotografías del autor en su vida personal.
 
+![archivo-mariomarkus](./imagenes/private-photos-mario-markus.png) 
+
 esta fue la lectura de esta semana paginas enumeradas según el libro de 1-14 capitulo 1-2-3 parte del 4
 
 
