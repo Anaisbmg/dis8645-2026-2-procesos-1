@@ -55,3 +55,10 @@ luego nos empieza a hablar de michael noll, quien creó un programa que intentab
 a partir de esto, nos presenta el concepto de algoritmo.
 
 algoritmo: un conjunto de instrucciones que le dicen a la computadora qué hacer.
+
+de esta forma, Michael Noll creó figuras mondrianoides. Por medio de la computadora se pueden crear imágenes siguiendo una lógica similar a la de Mondrian, como, por ejemplo, determinar dónde se quieren ubicar las líneas para luego formar cuadrados, repetir el proceso y así poder formar miles de imágenes con distintas variaciones, dependiendo de la ubicación de los parámetros.
+
+capitulo 4 "memorias anecdoticas sobre el caos" 
+en este capítulo nos empieza a contar algunas experiencias personales, tratando de explicarnos los sistemas caóticos, la ciencia del caos, el pluralismo horizontal y termina el capítulo hablando del concepto del azar controlado. En general, este capítulo trata de mostrar cómo el caos, aunque pueda parecer desordenado o impredecible, sigue teniendo reglas matemáticas detrás. Y justamente estas reglas pueden ser utilizadas por la computadora para generar comportamientos complejos y, posteriormente, transformarlos en imágenes.
+
+eue un capítulo muy difícil de entender, ya que presenta varios conceptos nuevos y relaciona diferentes áreas. Como tarea personal, es releer el capítulo para poder sacar un concepto más claro de cada término y ver mejor las relaciones. 
