@@ -53,22 +53,8 @@ autorretrato: describir variables y funciones de ustedes. investigar pantallas d
 - Cantidad de horas que duermes: muchas
 - Música que escuchas: pop
 - Lugares que frecuentas: universidad 
-- Estado de ánimo: nerviosa
-- Energía: 60% de 100%
-- creatividad: constante
-- paciencia: poca
 
-### Funciones: cosas que haces
 
-- pensar
-- comer
-- aprender
-- conocer
-
-Estoy un poco confundida pero según la forma que pude entenderlo me quedó claro de esta forma: 
-
-- Variables:  quién soy / qué datos tengo.
-- Funciones:  qué hago / cómo funciono.
 
 
 Pantalla de segmentos 
@@ -77,7 +63,25 @@ Pantalla de segmentos
 
 “La típica pantalla digital que usa segmentos para formar números o letras. Dependiendo de qué segmentos se enciendan, puedes construir distintos números.”
 
-![IMG](./imagenes/pantalla-de-segmentos.png)
+![IMG](./imagenes/pantalla-de-segmentos.png) 
+
+### Microondas : electrodoméstico de cocina.
+
+![IMG](./imagenes/microondas.png)
+
+La pantalla se encuentra en la parte frontal y arriba del menú de botones, indicando el tiempo para calentar, también puede mostrar distintos modos de función potencia, reloj, ajuste de peso, cocción multi-etapas, descongelado rápido, auto descongelado, preseteo, pauta/cancelar, además una perilla de menú / tiempo. Las pantallas de microondas suelen utilizar pantallas de cuatro dígitos de 7 segmentos para mostrar los tiempos. Su función es reconocer rápidamente una cantidad de tiempo.
+
+Lavadora: electrodoméstico para aseo
+
+![IMG](./imagenes/lavadora.png)
+
+Se encuentra en la parte frontal en el menú de opciones y puede indicar tiempo restante, programa, temperatura, velocidad de centrifugado o estados del ciclo, dependiendo del modelo. Mayormente es para indicar tiempo de lavado pero también puede representar textos como por ejemplo: programas de lavado eco, rápido, etc.  temperatura, centrifugado o símbolos. 
+
+Parlante: dispositivo electrónico para reproducir sonido.
+
+![IMG](./imagenes/parlante.png)
+
+En este parlante se encuentra en la parte frontal cerca de los botones y de las perillas de volumen, para comunicar información relacionada con la reproducción como radio bluetooth y volumen. Puede utilizar números y algunas letras o abreviaciones. Funciona como una interfaz entre el dispositivo y el usuario, sobre lo que está haciendo el parlante.
 
 ## lectura
 
