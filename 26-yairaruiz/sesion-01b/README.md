@@ -596,14 +596,6 @@ Dejo el vaso en la mesa.*
 
 Pseudocódigo = escribir las instrucciones como si fueran código, pero sin preocuparte de que realmente funcione.
 
-## lectura
 
-Para el autor el "espectáculo" va directamente relacionado con la economía y sistema de producción de la sociedad moderna. menciona que las imágenes y apariencias influyen en los deseos y gcomportamientos de las personas, haciendo que la representación parece más real de lo que son las cosas. Algo que me llamo la atención es que el espectáculo ayuda a mantener el orden social y las desigualdades existentes, porque son discursos unilaterales. 
-
-“El espectáculo es la principal producción de la sociedad actual”
-
-"El espectáculo es el discurso ininterrumpido que el orden presente mantiene consigo mismo, su monólogo elogioso. Es el autorretrato del poder en la época de su gestión totalitaria de las condiciones de existencia"
-
-pág 28/31
 
 
