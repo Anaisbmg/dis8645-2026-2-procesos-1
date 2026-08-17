@@ -150,6 +150,10 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 
 
 
+----
+
+
+
 ## Encargos
 
 encargo01b:
@@ -158,7 +162,7 @@ encargo01b:
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 
-### 1. código en el microcontrolador
+## 1. código en el microcontrolador
 
 Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
 
@@ -168,6 +172,11 @@ Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo 
 
 
 Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+
+
+----
+
 
 
 ### Descripción de los pines
@@ -180,7 +189,13 @@ Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pinout-raspberry-pi-pico-y-variante-w-con-wifi/?srsltid=AfmBOopCyzbNBJG0WhAkgeqxowWhNpjsMwi8srIBDL6kDMQINhzE_ObP 
 
 
+
+----
+
+
+
 ### Paso a paso de como conectar y configurar la Raspberry Pi Pico 2 en el Arduino IDE
+
 
 1. Instalación del paquete de placas
 
@@ -209,9 +224,17 @@ Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE s
 
 
 
+----
+
+
+
 2. Selección de la placa correcta
   
 - Despliega la categoría Raspberry Pi Pico/RP2040/RP2350 y selecciona Raspberry Pi Pico 2 (o la variante específica de tu modelo).
+
+
+
+----
 
 
 
@@ -230,6 +253,10 @@ Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE s
 
 
 
+----
+
+
+
 4. Selección del puerto de transferencia
 
 - En el IDE de Arduino, ve a Herramientas (Tools) > Puerto (Port).
@@ -244,7 +271,10 @@ Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
 <img width="1172" height="854" alt="board" src="https://github.com/user-attachments/assets/8f56b00f-ba53-4287-8664-0b3dea74d2c9" />
 
 
+
 ----
+
+
 
 5. Primera carga de prueba (Blink)
 
@@ -261,7 +291,7 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
 
 <table>
   <tr>
-    <th>Ejemplo blinkc</th>
+    <th>Ejemplo Blinkc</th>
     <th>Luz Rasberry</th>
   </tr>
   <tr>
@@ -274,7 +304,10 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
   </tr>
 </table>
 
-____
+
+
+----
+
 
 
 6. Materiales utilizados
@@ -290,6 +323,10 @@ ____
 
 
 
+----
+
+
+
 7. Pines utilizados y conexión fisica
 
 | Elemento | Pin físico | Función |
@@ -298,6 +335,10 @@ ____
 | 3V3 -> riel positivo de la protoboard | Pin 36 | 3V3 (OUT) |
 | Botón | Pin 27 | GP21 |
 | LED (a través de resistencia) | Pin 26 | GP20 |
+
+
+
+----
 
 
 
@@ -336,6 +377,10 @@ void loop() {
 ```
 
 
+----
+
+
+
 9. Fotos del proceso
 
 
@@ -360,6 +405,110 @@ void loop() {
 
 
 
+----
+
+
+
+
+## 2. proponer una función
+
+Propuesta de función: salir andar en bicicleta
+Nombre de la función: salirEnBicicleta
+
+Tipo de dato de retorno: bool (devuelve true si la salida se realiza con éxito o false si las condiciones impiden salir).
+
+Argumentos:
+
+bool climaApto (Verdadero si no llueve y el clima acompaña).
+
+int bateriaPersonal (Nivel de energía disponible de 0 a 100).
+
+Si al momento de planificar una salida en bicicleta, evaluo si cuento con la energía suficiente y si las condiciones del clima acompañan para realizar la salida.
+
+
+**Pseudocódigo**
+
+```cpp
+// estos serian los pasos para realizar la funcion
+bool salirEnBicicleta(bool climaApto, int bateriaPersonal) {
+    
+    // paso 1: ver si  mi batería social/personal y el clima estan bien para salir
+    // el if sirve para ejecuta si la respuesta es si
+    if (climaApto == true && bateriaPersonal >= 40) {
+        
+        // Paso 2: preparación del sistema (equivalente a mi hábito de dejar todo listo para el dia siguiente)
+        // Preparar mochila, audífonos y ver si la bicicleta esta bien para usarla
+        
+        // Paso 3: Ejecucion del traslado
+        // salir de mi casa a la ruta o camino al aire libre
+        
+        // Paso 4: retornar estado exitoso
+        return true; 
+        
+    } else {
+        // else sirve si la respuesta es no
+        // si no hay energía o el clima no acompaña, se pausa la actividad
+        // quedarse descansando en la casa (equivalente a tus pausas necesarias para no tener mal humor)
+        return false;
+    }
+}
+```
+
+
+Propuesta de función: Preparación Nocturna
+Nombre de la función: prepararRutinaNocturna
+
+Esta función es mi hábito fijo de dejar organizado todo la noche anterior para optimizar mis mañanas y no olvidar nada.
+
+Tipo de dato de retorno: bool (devuelve true si todo quedó organizado con éxito para el día siguiente).
+
+Argumentos:
+
+int diaSiguiente (Indica qué día de la semana es el siguiente, ej. de 1 a 7).
+
+bool tieneUniversidad (Verdadero si al día siguiente toca asistir a la UDP).
+
+Veo las condiciones del día posterior para seleccionar y preparar la ropa, el maquillaje y la mochila adecuada según el contexto para ver si llevo computador o no.
+
+
+**Pseudocódigo**
+
+```cpp
+
+// estos serian los pasos para realizar la funcion
+bool prepararRutinaNocturna(int diaSiguiente, bool tieneUniversidad) {
+
+    // Paso 1: limpiar superficie de trabajo y revisar agenda en libreta fisica
+    
+    // Paso 2: evaluar si el contexto del dia siguiente incluye clases en la universidad
+    if (tieneUniversidad == true) {
+        // el if sirve para ejecuta si la respuesta es si
+        // alistar mochila con materiales, computador y libretas
+        // seleccionar outfit segun el clima
+    } else {
+        // else sirve si la respuesta es no
+        // alistar rutina para otras salidas
+        // despierto enferma o tuve un problema antes de salir
+    }
+
+    // Paso 3: confirmar que todo este en su lugar y no falte guardar nada antes de ir a dormir
+    bool todoListo = true;
+
+    // Paso 4: resultado
+    if (todoListo == true) {
+        return true; // mañana optimizada con exito
+    } else {
+        return false;
+    }
+}
+```
+
+
+
+----
+
+
+
 ### Bibliografía
 
 - https://www.electrogeekshop.com/estructuras-de-control-en-arduino/?srsltid=AfmBOoohNwZMxEsydAlQfXtN4ovv21NBdHGlTOiBmzMwGmTAIy2hwtDu
@@ -376,7 +525,11 @@ void loop() {
 
 
 
-## lectura
+----
+
+
+
+## Lectura
 
 Libro: A New Program for Graphic Design
 
