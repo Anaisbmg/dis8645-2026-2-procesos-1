@@ -87,6 +87,9 @@ En clases con ayuda, Mai y Santi me ayudaron a descargar Arduino IDE para poder 
 
 El código funcionó y el corazón apareció correctamente en la matriz LED integrada del Arduino.
 
+![IMG](./imagenes/arduino.png/)
+
+
 ### Código
 
     #include "Arduino_LED_Matrix.h"
