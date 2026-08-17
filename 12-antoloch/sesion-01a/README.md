@@ -7,8 +7,75 @@
 encargo 01-a:
 
 autorretrato: describir variables y funciones de ustedes.
-investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
-![fotospantallas](./imagenes/fotospanatllas.png)
+
+-Variables
+Nombre: Antonia Loch 
+
+Edad: 22
+
+Estatura: 1.60
+
+Color de ojos: cafes
+
+Color de pelo: cafe
+
+Lugar de residencia: santiago
+
+Sociabilidad: media
+
+Comida favorita: sushi
+
+Estado de ánimo actual: ni bien ni mal
+
+Animal favorito: Rana
+
+
+-Mis funciones corresponden a las acciones que realizo día a día. Están: vestirme, comer, estudiar, prestar atención, aprender, trabajar, socializar con amigos, descansar y dormir.
+Dentro de estas funciones existen otras más pequeñas, como lavarme los dientes, bañarme, peinarme, preparar comida y ordenar mis cosas.
+También existen funciones sociales (conversar, salir, compartir), funciones de autocuidado (hacer ejercicio, dormir bien, relajarme), y funciones creativas (diseñar, dibujar, escribir, explorar hobbies).
+
+
+2.investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
+
+![fotospantallas.](./imagenes/fotospantallas.png)
+#  Pantallas de segmentos
+
+
+
+## 1. Reloj digital Casio
+- **Lugar:** uso personal.  
+- **Tipo:** LCD de **7 segmentos** con símbolos adicionales (modo, alarma, PM/AM).  
+- **Alfabeto:** números del 0 al 9, letras simples como “A”, “P”, “M”.  
+- **Uso:** mostrar hora y fecha.  
+-  diseño retro y cotidiano.
+
+
+
+## 2. Panel de emergencia
+- **Lugar:** edificio, ascensor.  
+- **Tipo:** LED verde con segmentos visibles tras acrílico oscuro.  
+- **Alfabeto:** números o líneas simples.  
+- **Uso:** señalización .  
+- **Comentario:** uso frecuente.
+
+
+
+## 3. Balanza digital SF-400
+- **Lugar:** cocina  
+- **Tipo:** LCD de **7 segmentos**.  
+- **Alfabeto:** números del 0 al 9, unidades “g” y “oz”.  
+- **Uso:** medir peso con precisión.  
+
+##  Comparación general
+
+| Tipo de pantalla | Tecnología | Color | Uso principal | Expresividad |
+|------------------|-------------|--------|----------------|---------------|
+| Reloj Casio | LCD | Gris | Tiempo | Media |
+| Panel emergencia | LED | Verde | Señalización | Baja |
+| Balanza        | LCD | Negro | Medición | Baja |
+
+
+Cada pantalla tiene su propio lenguaje visual. Aunque todas usan segmentos, cambian mucho según el contexto.
 
 ## lectura
 ![caseyreas](./imagenes/caseyreasmakingpictureswithgenerativeadversarialnetworks.png)
