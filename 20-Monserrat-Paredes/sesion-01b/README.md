@@ -186,7 +186,9 @@ Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 
 ### Descripción de los pines
 
-<img width="953" height="639" alt="pines" src="https://github.com/user-attachments/assets/aa412fe4-39ee-4221-b656-9704af00ff92" />
+
+<img width="953" height="639" alt="pinesrasp" src="https://github.com/user-attachments/assets/66ca4878-7485-4efc-a2eb-12a417b6a1e1" />
+
 
 
 Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pinout-raspberry-pi-pico-y-variante-w-con-wifi/?srsltid=AfmBOopCyzbNBJG0WhAkgeqxowWhNpjsMwi8srIBDL6kDMQINhzE_ObP 
