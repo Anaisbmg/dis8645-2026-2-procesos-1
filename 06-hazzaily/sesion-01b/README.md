@@ -87,9 +87,9 @@ En base a esto nos explicó cómo instalar el core de [Arduino-Pico - GitHub](ht
 Gracias a esto es que podemos utilizar código como los que veremos en el ejemplo de más adelante:
 
 ```C++
-pinMode();
-digitalWrite();
-delay();
+pinMode(); = función que configura un pin.
+digitalWrite(); = función que escribe o cambia lo que hace un pin.
+delay(); = función que mantiene el LED apagado o encendido por cierto período de tiempo.
 ```
 
 Y ya con esto avanzado, pudimos partir con lo que sería el primer intento.
@@ -109,7 +109,6 @@ void setup() {
   // si tuviera mas de un LED deberia ser llamado LED 25
   // o sea
   // (LED_25, OUTPUT)
-
 
   // output es para saber que la señal
   // debe salir por ese LED
@@ -168,8 +167,122 @@ SUBIR!!
 
 - Algo que pensamos que no se podía era poner números menor que 1000 en "delay();", en cuanto a eso, comprobamos que si se podía y que producía distintos ritmos en la velocidad en que se prendía el LED.
 
+**Intento 2: ¿Cómo prender, a través de un botón, el LED que tiene incluido la Raspberry Pi Pico H?**
+
+Para este segundo intento también recurrimos a la ayuda de chatGPT, más que nada para poder entender de mejor manera lo que estamos haciendo.
+
+En este intento le preguntamos:
+
+```
+ya que pude prender el led, qué más puedo hacer?
+```
+
+Y fue aquí que nos dio diversas opciones como:
+
+ 1. Dominar el LED, o sea, cambiar los tiempos (que ya lo hicimos y fue muy bacán).
+
+ 2. Hacer un patrón, o sea, lograr distintos ritmos con respecto a qué tan rápido o lento se apagan y se vuelve a encender el LED.
+
+ 3. Agregar un botón, y que nos permita prender y apagar el LED por el tiempo que queramos (el caso de ahora).
+
+ 4. Agregar un potenciómetro para regular la intensidad del LED.
+
+ 5. Agregar un LDR para lograr que reaccione a la luz que haya alrededor.
+
+En nuestro caso elegimos el 3 porque teníamos un botón y cables caimán para poder probarlo en casa.
+
+SUBIR!!!
+
+![Foto conexión de la placa con el botón](./imagenes/conexion-placa-boton.jpg)
+
+En este ejemplo descubrimos otras funciones, variables y condicionales:
+
+```
+digitalRead(); = función para leer un pin de manera digital
+estadoBoton = variable que guarda el estado del botón
+if = condicional que indica: sí esto hace esto, haz esto otro.
+else = condicional que indica: sino, haz esto.
+```
+
+Ya con esto pudimos utilizarlo en arduino y funcionó, no a la primera, pero funcionó. También en el proceso revisamos el DataSheet para identificar que los pin que íbamos a usar estaban bien para lo que estábamos haciendo.
+
+Por esto elegimos el GP15, aunque también podríamos haber utilizado: GP0, GP1, GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, GP16, GP17, GP18, GP19, GP20, GP21, GP22, GP26, GP27 y GP28. Pero elegimos el 15. más que nada, porque está en  una esquina y es más fácil de identificar.
+
+En cuanto a GND, podemos usar el GP3, GP8, GP13, GP18, GP23, GP33 y GP38. Para este caso utilizamos el GP28.
+ 
+```C++
+ // segunda prueba con codigo de inteligencia artificial
+ // chatgpt para ser mas precisas
+
+ // en esta ocasion intentaremos que el LED se encienda gracias a un boton
+ // y que al mantener el boton presionado el LED se mantenga encendido
+ // y que cuando lo soltemos se apague
+
+void setup() {
+
+  // primero debemos selccionar que LED vamos a utilizar
+  // en este caso es el mismo que el del ejemplo anterior (LED_BUILTIN)
+  // ademas debemos definir que hace la señal con ese LED 
+  // en este caso sale 
+  // por eso es (OUTPUT)
+
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  // luego debemos seleccionar que pin utilizaremos para que entre la señal (INPUT)
+  // desde un boton
+  // en este caso utilizaremos el GP15
+  // y (PULLUP) es para generar que el boton 
+  // al ser presionado
+  // deje pasar esta señal y como resultado se prenda el LED
+
+  pinMode(15, INPUT_PULLUP);
+
+}
+
+void loop() {
+
+  // añadimos un int = numeros enteros, sin decimales
+  // que se utiliza con (digitalRead = lee que es lo que le esta pasando al pin)
+
+  int estadoBoton = digitalRead(15);
+
+  // si el boton (estadoBoton) esta presionado (LOW)
+  // si el boton no esta presionado es (HIGH)
+
+  if (estadoBoton == LOW) {
+
+    // vamos a encender el LED
+    // que es lo mismo que utilizamos en el ejemplo anterior
+    
+    digitalWrite(LED_BUILTIN, HIGH);
+
+  } 
+  else {
+
+    // si el boton no está presionado
+    // se apaga el LED
+
+    digitalWrite(LED_BUILTIN, LOW);
+
+  }
+
+}
+```
+
+![Vídeo del LED siendo prendido por el botón](./imagenes/video-led-boton.mp4)
+
+**Aprendizajes:**
+
+ - En este no tuvimos tantos errores, más que nada por el intento previo.
+
+ - Que al usar el botón, cuando está presionado = LOW y que cuando no = HIGH. Aunque nosotras pensamos que era al revés.
+
+ - Que existen condicionales que pueden cambiar toda una operación.
+
 ## encargo01b - 2
 
 Proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+
 
 ## lectura
