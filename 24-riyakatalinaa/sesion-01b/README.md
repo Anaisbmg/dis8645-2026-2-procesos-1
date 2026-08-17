@@ -22,10 +22,6 @@ partimos hablando de algunos libros subidos por Matías
 - fue presidente del MIT media lab
 - curiosamente no termino la universidad
 
-primer logo de joi ito
-
-**subir foto**
-
 **Jeffrey Epstein:** 
 - dio inversión a MIT media lab
 
@@ -179,6 +175,69 @@ digitalWrite(LED_BUILTIN, LOW);
 
 **IMPORTANTE:** nos dimos cuenta de que al querer cambiar el **delay** (los milisegundos) descubrimos que debíamos reiniciar la placa a través del botón **BOOTSEL**; si no hacíamos este paso, nos daba un error al intentar poner en marcha las modificaciones, **esto es relevante para realizar cualquier cambio en el código original**
 
+``` C++
+
+// segunda prueba con codigo de inteligencia artificial
+ // chatgpt para ser mas precisas
+
+ // en esta ocasion intentaremos que el LED se encienda gracias a un boton
+ // y que al mantener el boton presionado el LED se mantenga encendido
+ // y que cuando lo soltemos se apague
+
+void setup() {
+  
+  
+  // primero debemos selccionar que LED vamos a utilizar
+  // en este caso es el mismo que el del ejemplo anterior (LED_BUILTIN)
+  // ademas debemos definir que hace la señal con ese LED 
+  // en este caso sale 
+  // por eso es (OUTPUT)
+
+  pinMode(LED_BUILTIN, OUTPUT);
+
+  // luego debemos seleccionar que pin utilizaremos para que entre la señal (INPUT)
+  // desde un boton
+  // en este caso utilizaremos el GP15
+  // y (PULLUP) es para generar que el boton 
+  // al ser presionado
+  // deje pasar esta señal y como resultado se prenda el LED
+
+  pinMode(15, INPUT_PULLUP);
+
+}
+
+void loop() {
+
+  // añadimos un int = numeros enteros, sin decimales
+  // que se utiliza con (digitalRead = lee que es lo que le esta pasando al pin)
+
+  int estadoBoton = digitalRead(15);
+
+  // si el boton (estadoBoton) esta presionado (LOW)
+  // si el boton no esta presionado es (HIGH)
+
+  if (estadoBoton == LOW) {
+
+    // vamos a encender el LED
+    // que es lo mismo que utilizamos en el ejemplo anterior
+    
+    digitalWrite(LED_BUILTIN, HIGH);
+
+  } 
+  else {
+
+    // si el boton no está presionado
+    // se apaga el LED
+
+    digitalWrite(LED_BUILTIN, LOW);
+
+  }
+
+}
+
+```
+
 2-proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
 
 ## lectura
