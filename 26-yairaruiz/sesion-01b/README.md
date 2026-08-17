@@ -111,6 +111,51 @@ El código funcionó y el corazón apareció correctamente en la matriz LED inte
 
     void loop() {
     }
+### Explicación del código (según lo que entiendo) 
+
++ #include "Arduino_LED_Matrix.h"
+  
+Incluye la biblioteca que permite controlar la matriz de LEDs del Arduino UNO R4 WiFi. Es como darle al programa las herramientas necesarias para poder trabajar con la pantalla LED.
+
++      byte corazon[8][12] = {
+           {0,0,1,1,0,0,0,1,1,0,0,0},
+           {0,1,1,1,1,0,1,1,1,1,0,0},
+           {1,1,1,1,1,1,1,1,1,1,1,0},
+           {1,1,1,1,1,1,1,1,1,1,1,0},
+           {0,1,1,1,1,1,1,1,1,1,0,0},
+           {0,0,1,1,1,1,1,1,1,0,0,0},
+           {0,0,0,1,1,1,1,1,0,0,0,0},
+           {0,0,0,0,1,1,1,0,0,0,0,0}
+         };
+
+Aquí se crea la imagen del corazón mediante una matriz de 8 × 12.
+8 = cantidad de filas.
+12 = cantidad de columnas.
+1 = LED encendido.
+0 = LED apagado.
+Por eso, los números funcionan como si fueran píxeles. 
+
++ void setup() {
+  matrix.begin();
+  matrix.renderBitmap(corazon, 8, 12);
+}
+
+setup() contiene las instrucciones que se ejecutan una vez al iniciar el Arduino.
+
++ matrix.begin();
+  
+Inicia la matriz LED para que pueda ser utilizada.
+
++ matrix.renderBitmap(corazon, 8, 12);
+  
+Le indica al Arduino que debe mostrar la imagen guardada en corazon, utilizando sus 8 filas y 12 columnas.
+
++ void loop() {
+}
+
+las instrucciones que normalmente se repetirán continuamente. En este caso está vacío porque solo queremos mostrar el corazón y dejarlo fijo, sin animación.
+
+*(le pedí ayuda a Claude para entender la función detallada del código)* 
 
 
 Pt. 2
