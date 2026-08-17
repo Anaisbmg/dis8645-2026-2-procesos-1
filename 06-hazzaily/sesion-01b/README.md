@@ -42,11 +42,11 @@ Está prohibido escribir una línea de código sin decir qué va a hacer (coment
 
 Arduino UNO R4
 
-![Fotografías de la placa Arduino UNO R4](./imagenes/fotos_arduino_unoR4.jpg)
+![Fotografías de la placa Arduino UNO R4](./imagenes/fotos-arduino-unoR4.jpg)
 
 Raspberry Pi Pico H
 
-![Fotografías de la placa Raspberry Pi Pico H](./imagenes/fotos_raspberry_pi.jpg)
+![Fotografías de la placa Raspberry Pi Pico H](./imagenes/fotos-raspberry-pi.jpg)
 
 ## encargos
 
