@@ -12,7 +12,7 @@ Finalmente, un ascensor:
 - Tiene puertas
 - Se mueve en el eje z
 - Tiene motores, poleas, botones...
-- 
+
 Sus datos internos son:
 - La distancia entre pisos
 - La selección del ascensor más cercano al piso de llamada
