@@ -11,7 +11,7 @@ investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubic
 
 
 ## lectura
-
+![caseyreas](./imagenes/caseyreasmakingpictureswithgenerativeadversarialnetworks.jpg)
 El libro Making Pictures with Generative Adversarial Networks de Casey Reas trata sobre cómo usar inteligencia artificial para crear imágenes. No es para nada untexto técnico, sino más bien una reflexión sobre cómo el arte cambia con las nuevas  tecnologías. 
 
 En la parte del texto que se ve en la foto, hay una frase que me gustó:
