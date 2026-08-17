@@ -178,7 +178,10 @@ encargo01b:
 
 Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
 
-fotooo
+
+<img width="820" height="647" alt="rasp1" src="https://github.com/user-attachments/assets/a1b6f309-1ffb-4051-9f5d-0c2d1abf7831" />
+
+
 
 Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 
@@ -207,6 +210,10 @@ Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pin
 
 Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE solo viene preparado para placas oficiales de Arduino y ayuda a traducir el código de C++ al lenguaje que entiende ese microcontrolador.
 
+
+<img width="801" height="633" alt="url" src="https://github.com/user-attachments/assets/2167abb6-9758-4c2d-91ad-29c7d7f75e34" />
+
+
 - En el menú lateral izquierdo, haz clic en el icono de Gestor de Tarjetas (Boards Manager, representado con libros).
 
 - Escribe Raspberry en la barra de búsqueda superior.
@@ -214,9 +221,14 @@ Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE s
 - Localiza el paquete "Raspberry Pi Pico/RP2040/RP2350..." (compatible con los chips RP2350 de la Pico 2) y haz clic en INSTALL.
 
 
+<img width="298" height="409" alt="paso1" src="https://github.com/user-attachments/assets/ea0ae212-57b7-4c62-8b17-838b97c7bcec" />
+
+
+
 2. Selección de la placa correcta
   
 - Despliega la categoría Raspberry Pi Pico/RP2040/RP2350 y selecciona Raspberry Pi Pico 2 (o la variante específica de tu modelo).
+
 
 
 3. Preparación de la placa (Modo Bootloader)
@@ -230,13 +242,23 @@ Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE s
 - Suelta el botón BOOTSEL después de un par de segundos. Esto forzará a la placa a montarse como una unidad de almacenamiento externa en tu sistema (NO NAME o RPI-RP2).
 
 
+<img width="263" height="183" alt="finder" src="https://github.com/user-attachments/assets/f3374aed-b9e2-4306-a746-da63aae1aa2c" />
+
+
+
 4. Selección del puerto de transferencia
 
 - En el IDE de Arduino, ve a Herramientas (Tools) > Puerto (Port).
 
+<img width="781" height="702" alt="port" src="https://github.com/user-attachments/assets/077b7d42-a42f-4b50-9cea-112f6ca6402e" />
+
+
 - Selecciona la opción UF2 Board (o el puerto serie USB correspondiente). Esto le indicará al entorno de desarrollo dónde volcar el archivo compilado.
 
-  Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
+Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
+
+<img width="1172" height="854" alt="board" src="https://github.com/user-attachments/assets/8f56b00f-ba53-4287-8664-0b3dea74d2c9" />
+
 
 
 5. Primera carga de prueba (Blink)
@@ -252,6 +274,10 @@ Esto es un ejemplo básico y predeterminado que viene integrado en el programa A
 Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automática; la Rasberry Pico 2W no tiene un LED dedicado de encendido,
 
 
+<img width="970" height="638" alt="codigo" src="https://github.com/user-attachments/assets/a5ae3402-1b6c-4ddb-8cd5-c96b91d7b028" />
+
+
+
 6. Materiales utilizados
 
 - Raspberry Pi Pico 2W1.
@@ -264,6 +290,7 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
 - Cables jumper macho-macho.
 
 
+
 7. Pines utilizados y conexión fisica
 
 | Elemento | Pin físico | Función |
@@ -274,10 +301,39 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
 | LED (a través de resistencia) | Pin 26 | GP20 |
 
 
+
 8. Código en Arduino
 
 ```cpp
-juju
+// se definen las constantes para los pines que utilizare
+const int ledPin = 20;    
+// el LED esta conectado al GP20 (Pin 26 de la Raspberry)
+const int buttonPin = 21; 
+// el boton está conectado al GP21 (Pin 27 de la Raspberry)
+
+void setup() {
+// hay que configurar el pin del LED como una salida digital para poder enviar corriente y encenderlo/apagarlo
+  pinMode(ledPin, OUTPUT);
+  
+// se configura el pin del botón como entrada y activa la resistencia "pull-up" interna de la placa
+// esto mantiene el pin en estado HIGH por defecto y evita que la lectura fluctue
+  pinMode(buttonPin, INPUT_PULLUP);
+}
+
+void loop() {
+// se puede leer continuamente el estado actual del boton (puede ser HIGH si está suelto o LOW si está presionado)
+  int estadoBoton = digitalRead(buttonPin);
+
+// se evalua si el boton ha sido presionado
+// como el boton conecta el pin a GND al presionarse hace que su valor cambia a LOW
+  if (estadoBoton == LOW) {
+    digitalWrite(ledPin, HIGH); 
+// se enciende el LED enviando voltaje (HIGH) al pin 20
+  } else {
+    digitalWrite(ledPin, LOW);
+// se mantiene el LED apagado cortando el voltaje (LOW)
+  }
+}
 ```
 
 
