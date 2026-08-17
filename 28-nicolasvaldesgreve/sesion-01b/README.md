@@ -162,6 +162,16 @@ encargo01b:
 
 ---
 
-## lectura
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
 
+> en estos días leí de la página 13 hasta la 22:) no he tenido ningún problema de momento con el idioma, así que creo que tuve suerte de elegir un libro con lenguaje simple muejejeje.
 
+en las pocas páginas que leí, Doulas vuelve a hacer énfasis en la importancia de saber programar, en donde nombra lo siguiente (primera cita omg):
+
+“It’s really simple: Program, or be programmed. Choose the former, and you gain access to the control panel of civilization. Choose the latter, and it could be the last real choice you get to make.” (pág. 14)
+
+en la mayoría de estas páginas, Douglas nos menciona de distintas maneras que si no elegimos el saber programar, terminaremos siendo programados sin darnos cuenta. para hacernos dar cuenta de la gravedad de la situación, Douglas dice que las personas están siendo reducidas a ser un sistema nervioso externo bastante fácil de configurar mientras que las computadoras son libres de viajar y pensar en una manera mucho más avanzada que nosotros no podremos lograr alcanzar. como consecuencia de no saber controlar la tecnología como lo son los computadores ni tener el interés de comprenderla o de cómo ésta impacta en nuestras vidas, terminamos siendo nosotros los que nos adaptamos a la tecnología más que aprovechar el potencial que tiene ésta para nuestro futuro, tal como dice la siguiente frase:
+
+“As a result, instead of optimizing our machines for humanity-or even the benefit of some particular group-we are optimizing humans for machinery.” (pág 21)
+
+la verdad esta parte del texto me recordaba en cada momento a cómo estamos reaccionando las personas con la inteligencia artificial, ya que he visto casos cercanos en donde en vez de sacar provecho de esta herramienta tecnológica, las personas lo usan para tener conversaciones sin sentido o lo usan de manera extraña al formar una conexión emocional con la misma IA (?) me da un poco de miedo la verdad.
