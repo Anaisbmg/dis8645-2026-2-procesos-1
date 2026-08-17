@@ -57,7 +57,56 @@ void loop() {
 ```
 Declaramos primero que hara nuestra pantalla con 0 y 1 que en este caso es un corazón, iniciamos la matriz LED y después en loop hicimos que nunca terminara, pero encontramos que es innecesaria esa sección, ya que con lo anterior debería aparecer y estar constante. 
 
+Con este segundo ejemplo, que hay dos formas escribir código para reflejar en la pantalla 
+
+Una es: Hexadecimal, y la otra es indicar literalmente que led de la "pantallita" queremos que se encienda
+
+```cpp
+#include "Arduino_LED_Matrix.h" // Incluimos la librería oficial de la matriz
+
+ArduinoLEDMatrix matrix; // Creamos el objeto para controlar la pantalla
+
+// 1. VARIABLES: Creamos los marcos (dibujos de 12x8 LEDs)
+// 1 = LED encendido, 0 = LED apagado
+
+// Cara feliz
+const uint32_t caritaFeliz[] = {
+  0x19785,
+  0x80000001,
+  0x81800000
+};
+
+// Cara seria
+const uint32_t caritaSeria[] = {
+  0x19819,
+  0x0,
+  0x1f800000
+};
+
+// Variable para controlar la velocidad del cambio
+int velocidadAnimacion = 5000; // 1 segundo en milisegundos
+
+// 2. FUNCIÓN SETUP: Inicializamos la matriz
+void setup() {
+  matrix.begin(); // Enciende el controlador interno de la matriz LED
+}
+
+// 3. FUNCIÓN LOOP: Alternamos entre los dos dibujos
+void loop() {
+  // Mostramos la cara feliz
+  matrix.loadFrame(caritaFeliz);
+  delay(velocidadAnimacion);
+
+  // Mostramos la cara seria
+  matrix.loadFrame(caritaSeria);
+  delay(velocidadAnimacion);
+}
+```
+
+
 https://www.youtube.com/watch?v=MBTPU8PwS3Y
+
 https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
+
 https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
 
