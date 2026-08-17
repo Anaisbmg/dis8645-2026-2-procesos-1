@@ -10,6 +10,7 @@ No estuve en esa clase
 El primer ascensor es de un supermercado, es un ascensor corto donde al interior de el tiene los botones de los cinco pisos y los correspondientes a abrir y cerrar puertas. No se presenta ningún botón de emergencia o llamado para el exterior.
 
 Por el exterior tiene los 2 botones de subir o bajar con la pantalla indicador de los pisos. 
+
 ![ascensorsupermercado](./ascensor-2.jpg)
 ![ascensorsupermercado](./ascensor-1.jpg)
 
@@ -28,6 +29,8 @@ El ultimo ascensor es de un hospital, tiene los 4 botones respectivo a los pisos
 
 En el exterior están los botones de subir y bajar y la pantalla de en que piso se encuentra el ascensor no esta con los botones.
 
+![ascensorhospital](./ascensor-5.jpg)
+![ascensorhospital](./ascensor-6.jpg)
 
 
 
