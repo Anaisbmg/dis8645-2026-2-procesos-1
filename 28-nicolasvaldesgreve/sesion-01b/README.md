@@ -29,40 +29,7 @@ no!! en programación, el signo _=_ no se utiliza para decir que algo es igual a
 
 #### fuente:
 
-+ <https://www.lenovo.com/gb/en/glossary/equal/?orgRef=https%253A%252F%252Fwww.google.com%252F> (en realidad esto fue para recordar, pero esta info la dijo Aarón en clases lol)
-
----
-
-en hexadecimal se cuentan los números en una casilla de 0 a F = 0 al 15
-0-1-2-3-4-5-6-7-8-9-A-B-C-D-E-F - > hexadecimal 
-
-ctrl + T organiza el archivo de arduino
-
----
-
-### ejemplo sumar
-
-//sumar enteros
-//es tipo int porque nos tiene que dar un resultado
-//void no entrega nada, solo ocurre sin emitir resultado
-
-int sumarEnteros(int x, int y) {
-//voy a declarar un resultado
-	int resultado = 0;
-	// int resultado y declarar
-	// int vale 0
-
-// hacer la suma de x e y
-// y reemplazar valor resultado por ese valor
-resultado = x + y;
-
-return resultado;
-}
-
-
-
-isitchristmas.com (página hecha con if)
-
++ <https://www.lenovo.com/gb/en/glossary/equal/> (en realidad esto fue para recordar, pero esta info la dijo Aarón en clases lol)
 
 ---
 
@@ -92,18 +59,20 @@ este semestre trabajaremos con microcontroladores, en los cuales inyectaremos c�
 
 ![screenshot de boards manager en Arduino IDE](./imagenes/boards-manager.png)
 
-arduino es un fork de wiring, ya que el advisor de su tesis le robó la idea lol
+cada vez que hagamos entregas, tenemos que subir la carpeta completa del código que hemos hecho en Arduino IDE, la cual contiene dentro el archivo ``.ide`` el cual se llama igual que la carpeta que lo contiene, demostrando así que es el archivo correcto.
 
-para la entrega, al subir el archivo del código hay que subir la carpeta completa junto con el archivo .ide que se llama igual a la carpeta para poder mostrar cuál es el archivo correcto.
+---
 
-setup = configuración (coreografía 
-setup() = secuencia de instrucciones para que sucedan cosas, o coreografía
-las funciones también tienen que tener un tipo
+### lenguaje de programación
 
-funcion tipo int = el resultado es un numero entero
-funcion tipo void = no expulsa como respuesta un valor
+el _setup_ es una configuración, o también se puede ver como una coreografía por lo tanto ``setup()`` es la secuencia de instrucciones para que sucedan las cosas, es decir que indica la coreografía
 
-para que algo exista hay que declararlo. para declarar la función setup se hace de la siguiente forma:
+tipos de funciones:
+
++ función tipo ``int`` = el resultado es un número entero
++ función tipo ``void`` = no expulsa como respuesta un valor, solo sucede
+
+para que algo exista *hay que declararlo*. para declarar la función setup() se hace de la siguiente forma:
 
 ```cpp
 void setup() {
@@ -112,19 +81,77 @@ void setup() {
 }
 ```
 
-+ está prohibido hacer una línea de código sin comentar qué es lo que esa línea va a hacer, razón por la que trabajaremos con pseudocódigo.
+> está prohibido hacer una línea de código sin comentar qué es lo que esa línea va a hacer, razón por la que trabajaremos con pseudocódigo.
 
 luego va el loop, el cual ocurre después de setup() y se repite hasta que ya no pueda repetirse más.
 
 ```cpp
 void loop() {
-
-
+// aquí va loop()
+// ocurre despues de setup()
+// se repite hasta que no se pueda
 }
 ```
 
+los murciélagos indican desde dónde y hasta dónde suceden las cosas, es decir:
+
 { = desde acá
+
 } = hasta acá
+
+#### sistema hexadecimal
+
+en hexadecimal se cuentan los números en una casilla de 0 a F, lo cual es equivalente a contar del 0 al 15 de la siguiente forma:
+
+| hexa | decimal |
+| :---: | :---: |
+| 0 | 0 |
+| 1 | 1 |
+| 2 | 2 |
+| 3 | 3 |
+| 4 | 4 |
+| 5 | 5 |
+| 6 | 6 |
+| 7 | 7 |
+| 8 | 8 |
+| 9 | 9 |
+| A | 10 |
+| B | 11 |
+| C | 12 |
+| D | 13 |
+| E | 14 |
+| F | 15 | 
+
+> dato: ``Ctrl + T`` organiza el archivo de Arduino IDE
+
+---
+
+## ejemplos de código
+
+### ejemplo sumar
+
+```cpp
+//sumar enteros
+//es tipo int porque nos tiene que dar un resultado
+//void no entrega nada, solo ocurre sin emitir resultado
+
+int sumarEnteros(int x, int y) {
+//voy a declarar un resultado
+	int resultado = 0;
+	// int resultado y declarar
+	// int vale 0
+
+// hacer la suma de x e y
+// y reemplazar valor resultado por ese valor
+resultado = x + y;
+
+return resultado;
+}
+```
+
++ isitchristmas.com (página hecha con ``if``)
+
+---
 
 ## encargos
 
@@ -133,6 +160,18 @@ encargo01b:
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+---
 
-## lectura
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
 
+> en estos días leí de la página 13 hasta la 22:) no he tenido ningún problema de momento con el idioma, así que creo que tuve suerte de elegir un libro con lenguaje simple muejejeje.
+
+en las pocas páginas que leí, Doulas vuelve a hacer énfasis en la importancia de saber programar, en donde nombra lo siguiente (primera cita omg):
+
+“It’s really simple: Program, or be programmed. Choose the former, and you gain access to the control panel of civilization. Choose the latter, and it could be the last real choice you get to make.” (pág. 14)
+
+en la mayoría de estas páginas, Douglas nos menciona de distintas maneras que si no elegimos el saber programar, terminaremos siendo programados sin darnos cuenta. para hacernos dar cuenta de la gravedad de la situación, Douglas dice que las personas están siendo reducidas a ser un sistema nervioso externo bastante fácil de configurar mientras que las computadoras son libres de viajar y pensar en una manera mucho más avanzada que nosotros no podremos lograr alcanzar. como consecuencia de no saber controlar la tecnología como lo son los computadores ni tener el interés de comprenderla o de cómo ésta impacta en nuestras vidas, terminamos siendo nosotros los que nos adaptamos a la tecnología más que aprovechar el potencial que tiene ésta para nuestro futuro, tal como dice la siguiente frase:
+
+“As a result, instead of optimizing our machines for humanity-or even the benefit of some particular group-we are optimizing humans for machinery.” (pág 21)
+
+la verdad esta parte del texto me recordaba en cada momento a cómo estamos reaccionando las personas con la inteligencia artificial, ya que he visto casos cercanos en donde en vez de sacar provecho de esta herramienta tecnológica, las personas lo usan para tener conversaciones sin sentido o lo usan de manera extraña al formar una conexión emocional con la misma IA (?) me da un poco de miedo la verdad.
