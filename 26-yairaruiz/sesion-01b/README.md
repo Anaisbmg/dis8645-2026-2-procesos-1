@@ -20,6 +20,17 @@ las variables almacenan la información y las funciones utilizan esa informació
 
 gracias a Magdalena balart por su tabla, me sirve mucho para reforzar las variables <3
 
+     int edad =21 ; 
+     
+*significa: creo algo llamado edad y le guardo el número 21*
+
++ int : que tipo de variable vamos a guardar (un número entero)
++ edad : es el nombre que elegimos
++ = : guarda esto dentro de 
++ 21 : es el valor
++ ; : significa terminé esta instrucción
+
+
 ## usaremos C++: es un lenguaje de programación
 
 EJEMPLOS:  
@@ -29,6 +40,30 @@ EJEMPLOS:
 - javascript: para páginas web y apps como Netflix 
 
 - python para desarrollo de inteligencia artificial o ciencia de datos
+
+*¿Qué es sintaxis?*
+
+Por lo que yo entiendo son las reglas de como escribir código (por ejemplo; las reglas gramaticales del español)
+
+ejemplos: 
+
+    #include <iostream> 
+
+    intmain () { 
+
+       std: cout <<"Hola mundo"; 
+
+       return 0;
+
++ #include <iostream>  : incluye una biblioteca
++ int main () : define la función principal
++ {} : delimitan un bloque de código
++ std:cout : sirve para mostrar información
++ << : envía el contenido hacía el cout
++ "hola mundo" : es un texto
++ ; : indica el final de una instrucción
++ return 0; : termina main,  indicando que finalizó correctamente
+  
 
 
 ## encargos
