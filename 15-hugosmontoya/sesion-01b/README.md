@@ -170,5 +170,18 @@ PonerPolloenSarten();
 
 }
 
-```cpp
+![Arduino](./imagenes/arduino.png)
+
+
 ## lectura
+   Coding democracy: capítulo 1:
+De pequeños pensamos que hay dos tipos de personas, los buenos y los malos pero luego cuando creemos nos damos cuenta que en realidad
+hay también dos tipos de personas, los que creen que hay malos y buenos y los que creen que las personas no son buenas o malas si no que
+actuan dependiendo de las circunstancias y que las personas son una mezcla de virtudes y "malas características".
+
+"tech had become a dominant political force in the world"
+Las aplicaciones de hoy en dia que conectan personas como redes sociales, son experimentos para juntar a las personas que buscan mejorar aquellas conductas que a los creadores o controladores les parecen bien e intentar frenar esas que les parecen mal.
+Muchas veces la respuesta a preguntas que hacen los activistas tecnológicos sobre incoherencias técnicas como: "¿Por qué no hacen un algoritmo en redes sociales para quitar el odio?" es: "eso no es posible" cuando en realidad esos problemas se pueden solucionar con esfuerzo.
+
+"Hacker politics are anti-authoritarian because hackers know that authorities are just as damaged as they are."
+Mientras se escribía este libro salió a la luz que Ito que era el fundador de MIT Media Lab, aceptó dinero por parte de Jeffey Epstein para uso personal a cambió de borrar los registros que tenía Jeffrey Epstein de acusaciones. Los estudiantes se manifestaron al saber esto y muchas personas involucradas tuvieron que dimitir, también Julian Assange que publicó cosas confidenciales de los gobiernos de Estados Unidos y Reino Unido estaba en prisión preventiva y lo iban a juzgar por abuso sexual. Estuvo escondido durante mucho tiempo en la embajada de Ecuador en Reino Unido.
