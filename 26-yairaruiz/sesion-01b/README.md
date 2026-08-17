@@ -69,7 +69,6 @@ ejemplos:
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 *DESARROLLO*
 
@@ -161,7 +160,7 @@ las instrucciones que normalmente se repetirán continuamente. En este caso est�
 *(le pedí ayuda a Claude para entender la función detallada del código)* 
 
 
-Pt. 2
+### *segundo ejemplo*
 
 Con ayuda de mi compañera Cata, logró instalar una librería <ArduinoGraphics.h> pero no Arduino_LED_Matrix.h, desde el link que se encontraba en ese código revisó un tutorial que venía con un ejemplo listo y que funcionó.
 
@@ -552,5 +551,49 @@ También me interesa saber cómo se puede modificar el código para que el coraz
 
 **Aciertos:**  En este caso no tuvimos grandes problemas durante la prueba. El proceso fue relativamente directo: conectar, copiar el código, cargarlo y comprobar el resultado. 
 
+
+## ÍTEM II
+
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+TOMAR AWITA
+
++ Quiero tomar agua
++ Busco un vaso
++ Lo lleno con agua
++ Si tengo sed, tomo agua
++ Después dejo el vaso
+
+```cpp
+void tomarAgua(vaso, cantidad) {
+    buscar(vaso);
+    llenar(vaso, agua);
+
+    if (vaso == lleno) {
+        tomar(vaso);
+    }
+    else {
+        llenar(vaso, agua);
+    }
+
+    dejar(vaso, mesa);
+}
+```
+
+EXPLICACIÓN: 
+
++ Nombre: tomarAgua
++ Tipo: void
++ Argumentos: vaso, cantidad
++ Uso: tomar agua cuando tengo sed.
+
+*Proceso :
+Busco un vaso.
+Lo lleno con agua.
+Si el vaso está lleno, tomo agua.
+Si no, lo vuelvo a llenar.
+Dejo el vaso en la mesa.*
+
+Pseudocódigo = escribir las instrucciones como si fueran código, pero sin preocuparte de que realmente funcione.
 
 ## lectura
