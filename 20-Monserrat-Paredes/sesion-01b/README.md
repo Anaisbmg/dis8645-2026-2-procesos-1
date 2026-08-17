@@ -187,7 +187,7 @@ Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 ### Descripción de los pines
 
 
-<img width="953" height="639" alt="pinesrasp" src="https://github.com/user-attachments/assets/66ca4878-7485-4efc-a2eb-12a417b6a1e1" />
+<img width="953" height="639" alt="pinesrasp" src="https://github.com/user-attachments/assets/4a95733e-27cc-45b6-befc-2f1302e1ae1d" />
 
 
 
