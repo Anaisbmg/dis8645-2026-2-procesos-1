@@ -54,7 +54,7 @@ void loop() {
   delay(1000);
 }
 ```
-Declaramos primero que hara nuestra pantalla con 0 y 1 que en este caso es un corazón, iniciamos la matriz LED y después en loop hicimos que nunca terminara, pero encontramos que es innecesaria esa sección, ya que con lo anterior debería aparecer y estar constante. 
+Declaramos primero que hara nuestra pantalla con 0 y 1 que en este caso es un corazón, iniciamos la matriz LED y después en loop hicimos que nunca terminara.
 
 Con este segundo ejemplo, que hay dos formas escribir código para reflejar en la pantalla 
 
@@ -180,4 +180,11 @@ void loop (){
   delay (1000);
 }
 ```
+Pero ahora mi pregunta es como no siempre hay que declarar setup y loop, en los ejercicios que no existe esta acción ¿es necesario declararla? no creo, porque básicamente no está haciendo nada.
+
+https://www.youtube.com/watch?v=MBTPU8PwS3Y
+
+https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
+
+https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
 
