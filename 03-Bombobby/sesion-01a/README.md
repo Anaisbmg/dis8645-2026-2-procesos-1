@@ -5,7 +5,7 @@
 En esta sesión nos pidieron elegir un libro, el profe trajo distintos libros; algunos en inglés y otros en español. Yo elegí uno en inglés.
 Elegí el libro "NOTES ON THE SYNTHESYS OF FORM"
 
-![Foto de libro escogido](./libro-synthesys.jpeg)
+![Foto de libro escogido](./libro-synthesys.jpg)
 
 La parte más interesante de la clase fue empezar a intentar describir qué es un ascensor. 
 Finalmente, un ascensor:
