@@ -46,7 +46,11 @@ en este capítulo nos lleva a una comparación: ¿podemos distinguir una obra he
 
 para esto, primero nos habla de quién es mondrian. lo pone como ejemplo porque su arte es fácil de traducir a la matemática. sus imágenes están compuestas por líneas verticales y horizontales, rectángulos, cuadrados, patrones y repeticiones.
 
+![obra de piet mondrian](./imagenes/piet-mondrian.png) 
+
 luego nos empieza a hablar de michael noll, quien creó un programa que intentaba generar imágenes parecidas a las composiciones de mondrian.
+
+![experimento michael noll](./imagenes/michael-noll.png) 
 
 a partir de esto, nos presenta el concepto de algoritmo.
 
