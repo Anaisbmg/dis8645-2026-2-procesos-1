@@ -112,7 +112,7 @@ delay();
 ```
 
 -  también recolectamos información de [DataSheet - Raspberry Pi Pico H](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-2-pico-datasheet.pdf) ,
--  en este salía información de **cómo funciona el componente** y descubrimos que para hacer cualquier cambio en el código debemos reiniciar la placa, que es a través del botón **BOOTSEL**, y que sin este paso nos daba un error al intentar poner en marcha lo que habíamos cambiado.
+-  en este salía información de **cómo funciona el componente**
 -  ya con estos datos, pudimos partir con lo que sería el primer ejemplo:
 
 **¿Cómo prender el LED que tiene incluido la Raspberry Pi Pico H?**
