@@ -80,6 +80,10 @@ Ya con esa información base preguntamos otra cosa:
 y cómo la puedo programar con arduino?
 ```
 
+SUBIR!!!
+
+![Foto Raspberry Pi Pico H conectada a computador](./imagenes/foto-raspi-computador.jpg)
+
 En base a esto nos explicó cómo instalar el core de [Arduino-Pico - GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de sofware estadounidens), el cual es el core de Arduino para los microcontroladores RP2040/RP2350, que son los chips que utilizan las Pico.
 
  - **Microcontroladores RP2040/RP2350:** Son microcontroladores de alto rendimiento creados por Raspberry Pi.
@@ -195,9 +199,9 @@ SUBIR!!!
 
 ![Foto conexión de la placa con el botón](./imagenes/conexion-placa-boton.jpg)
 
-En este ejemplo descubrimos otras funciones, variables y condicionales:
+En este intento descubrimos otras funciones, variables y condicionales:
 
-```
+```C++
 digitalRead(); = función para leer un pin de manera digital
 estadoBoton = variable que guarda el estado del botón
 if = condicional que indica: sí esto hace esto, haz esto otro.
