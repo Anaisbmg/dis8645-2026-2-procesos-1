@@ -15,7 +15,10 @@
 // con extension oficial "raspberry pi pico"
 // crear "new project" -> elegir board pico o pico 2
 // activar "console over usb"
-// agregar biblioteca "hardware_adc"
+// el asistente no tiene casillero para adc
+// asi que hay que agregarla a mano:
+// abrir el CMakeLists.txt que genera el asistente
+// y agregar hardware_adc a target_link_libraries(...)
 // reemplazar el contenido de main.c generado
 // por el contenido de este archivo
 
