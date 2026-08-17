@@ -1,2 +1,9 @@
 # Apple
 .DS_Store
+
+# Raspberry Pi Pico (vscode extension project files)
+build/
+.vscode/
+CMakeLists.txt
+CMakeLists.user.txt
+pico_sdk_import.cmake
