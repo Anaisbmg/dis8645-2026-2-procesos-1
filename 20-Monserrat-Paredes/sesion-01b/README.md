@@ -192,6 +192,97 @@ Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
 Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pinout-raspberry-pi-pico-y-variante-w-con-wifi/?srsltid=AfmBOopCyzbNBJG0WhAkgeqxowWhNpjsMwi8srIBDL6kDMQINhzE_ObP 
 
 
+### Paso a paso de como conectar y configurar la Raspberry Pi Pico 2 en el Arduino IDE
+
+1. Instalación del paquete de placas
+
+- Instalar y abrir Arduino IDE.
+
+- Agregar URL del gestor de tarjetas:
+  
+  File/Archivo o logo arduino > Preferences/Preferencias, se agrega la siguiente URL en Additional Boards Manager URLs / URLs Adicionales de Gestor de Tarjetas.
+  
+  URL: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+
+Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE solo viene preparado para placas oficiales de Arduino y ayuda a traducir el código de C++ al lenguaje que entiende ese microcontrolador.
+
+- En el menú lateral izquierdo, haz clic en el icono de Gestor de Tarjetas (Boards Manager, representado con libros).
+
+- Escribe Raspberry en la barra de búsqueda superior.
+
+- Localiza el paquete "Raspberry Pi Pico/RP2040/RP2350..." (compatible con los chips RP2350 de la Pico 2) y haz clic en INSTALL.
+
+
+2. Selección de la placa correcta
+  
+- Despliega la categoría Raspberry Pi Pico/RP2040/RP2350 y selecciona Raspberry Pi Pico 2 (o la variante específica de tu modelo).
+
+
+3. Preparación de la placa (Modo Bootloader)
+   
+- Desconecta el cable USB de tu Raspberry Pi Pico 2.
+
+- Mantén presionado el botón blanco BOOTSEL ubicado sobre la placa.
+
+- Sin soltar el botón, conecta el cable USB a la computadora.
+
+- Suelta el botón BOOTSEL después de un par de segundos. Esto forzará a la placa a montarse como una unidad de almacenamiento externa en tu sistema (NO NAME o RPI-RP2).
+
+
+4. Selección del puerto de transferencia
+
+- En el IDE de Arduino, ve a Herramientas (Tools) > Puerto (Port).
+
+- Selecciona la opción UF2 Board (o el puerto serie USB correspondiente). Esto le indicará al entorno de desarrollo dónde volcar el archivo compilado.
+
+  Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
+
+
+5. Primera carga de prueba (Blink)
+
+Esto es un ejemplo básico y predeterminado que viene integrado en el programa Arduino. Su única función es hacer que un LED encienda y se apague de manera intermitente, tambien ayuda a saber si el cable es para datos y no solo cargar, que el microcontrolador se comunica correctamente y que el proceso de compilación y subida del archivo no tenga errores.
+
+- Para verificar que toda la configuración es correcta, se cargó el ejemplo estándar "Blink" (File/Archivo > Examples/Ejemplos > 01.Basics > Blink).
+  
+- Haz clic en el botón de Cargar (la flecha hacia la derecha ubicada en la esquina superior izquierda).
+
+- El IDE compilará el código en un archivo .uf2 y lo transferirá automáticamente a la memoria de la Raspberry Pi Pico 2 para iniciar su funcionamiento físico.
+
+Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automática; la Rasberry Pico 2W no tiene un LED dedicado de encendido,
+
+
+6. Materiales utilizados
+
+- Raspberry Pi Pico 2W1.
+- cable USB con transmisión de datos (no solo de carga).
+- computador con el programa Arduino IDE instalado.
+- protoboard.
+- 1 LED.
+- 1 resistencia.
+- 1 botón pulsador (4 patas).
+- Cables jumper macho-macho.
+
+
+7. Pines utilizados y conexión fisica
+
+| Elemento | Pin físico | Función |
+| :--- | :--- | :--- |
+| GND de la Pico -> riel negativo de la protoboard | Pin 38 | GND |
+| 3V3 -> riel positivo de la protoboard | Pin 36 | 3V3 (OUT) |
+| Botón | Pin 27 | GP21 |
+| LED (a través de resistencia) | Pin 26 | GP20 |
+
+
+8. Código en Arduino
+
+```cpp
+juju
+```
+
+
+9. Fotos del proceso 
+
+
 
 ## lectura
 
