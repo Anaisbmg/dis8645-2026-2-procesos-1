@@ -25,6 +25,16 @@ Primero empezamos a recopilar qué es lo que conforma un ascensor:
 - paréntesis: función o acción
 - Sin paréntesis : dato
 
+ ### ¿Qué es un Arduino?
+
+  Es una placa electrónica programable. Recibe instrucciones mediante código para controlar sensores, luces, motores y otros dispositivos electrónicos.
+
+  ¿Cómo funciona? 
+  
+Cargándole un código desde el computador y el Arduino lo ejecuta, para activar o leer componentes electrónicos, como sensores, LEDs o motores.
+
+
+
 ## encargos
 
 encargo 01-a:
