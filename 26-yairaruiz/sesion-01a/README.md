@@ -33,7 +33,7 @@ Primero empezamos a recopilar qué es lo que conforma un ascensor:
   
 Cargándole un código desde el computador y el Arduino lo ejecuta, para activar o leer componentes electrónicos, como sensores, LEDs o motores.
 
-
+![IMG](./imagenes/arduino.jpg) 
 
 ## encargos
 
