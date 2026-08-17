@@ -37,4 +37,46 @@ void loop() {
   delay(1000);
 }
 ```
+
+```cpp
+#include "Arduino_LED_Matrix.h" // Incluimos la librería oficial de la matriz
+
+ArduinoLEDMatrix matrix; // Creamos el objeto para controlar la pantalla
+
+// 1. VARIABLES: Creamos los marcos (dibujos de 12x8 LEDs)
+// 1 = LED encendido, 0 = LED apagado
+
+// Cara feliz
+const uint32_t caritaFeliz[] = {
+  0x19785,
+  0x80000001,
+  0x81800000
+};
+
+// Cara seria
+const uint32_t caritaSeria[] = {
+  0x19819,
+  0x0,
+  0x1f800000
+};
+
+// Variable para controlar la velocidad del cambio
+int velocidadAnimacion = 5000; // 1 segundo en milisegundos
+
+// 2. FUNCIÓN SETUP: Inicializamos la matriz
+void setup() {
+  matrix.begin(); // Enciende el controlador interno de la matriz LED
+}
+
+// 3. FUNCIÓN LOOP: Alternamos entre los dos dibujos
+void loop() {
+  // Mostramos la cara feliz
+  matrix.loadFrame(caritaFeliz);
+  delay(velocidadAnimacion);
+
+  // Mostramos la cara seria
+  matrix.loadFrame(caritaSeria);
+  delay(velocidadAnimacion);
+}
+```
 ## lectura
