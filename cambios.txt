@@ -1,3 +1,4 @@
 ### 🔧 Archivos renombrados
 
-- `27-angel-udp/sesion-01b/imagenes/tirardado_ejemplo1.png` → `27-angel-udp/sesion-01b/imagenes/tirardado-ejemplo1.png`
+- `27-angel-udp/sesion-01b/imagenes/codigo_dado.jpeg` → `27-angel-udp/sesion-01b/imagenes/codigo-dado.jpeg`
+- `27-angel-udp/sesion-01b/imagenes/dado_digital.jpeg` → `27-angel-udp/sesion-01b/imagenes/dado-digital.jpeg`
