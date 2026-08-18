@@ -45,12 +45,17 @@ He aquí las pruebas:
 Lo que se logró posteriormente, fue prender completamente la matriz de LEDs.
 Había que empezar el 
 
+```cpp
+
  void setup () {
  pantalla.begin ();
  }
- 
- siendo ".begin" lo que llama a la pantalla para prenderse.
+```
 
+ siendo ".begin" lo que llama a la pantalla para prenderse.
+Para saber cómo se prende la pantalla, necesitábamos saber cómo escribirla en código, ahí llega el bitmap que funciona con 0 y 1, que como anteriormente mencioné; cada 1 representa un encendido y cada 0 un apagado (en este caso los LEDs)
+
+```
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
