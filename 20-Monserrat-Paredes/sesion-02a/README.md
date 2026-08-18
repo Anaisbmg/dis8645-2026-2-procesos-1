@@ -2,7 +2,38 @@
 
 ## Apuntes sesión
 
+Primer proyecto
 
+potenciometro (resistor variable) → regula la potencia → voltaje (energia) + corriente tiempo).
+
+- Permite cambiar la cantidad de corriente o voltaje en un circuito de forma manual al girar una perilla o mover un deslizador.
+
+- la corriente es un flijo de electrones
+
+- potenciometro A: AUDIO
+- potenciometro B: LINEALES 
+
+botones pulsadores (pushbuttons)
+
+- elementos temporales  → no guardan nada en la memoria
+
+- resistor (pull down)  →  permite que la lectura sea siempre 0 hasta que al presionarlo es 1
+
+  boton presionado: 1
+
+  boton no presionado: 0
+
+-resistor (pull up)  → 
+
+presencia: 0
+
+no presencia: 1
+
+se eligen según cómo quiero que se comporte el circuito en reposo.
+
+GND  → tierra  → 0 voltaje
+
+Vcc  → 3v3  → 5v 
 
 
 ## Encargos
