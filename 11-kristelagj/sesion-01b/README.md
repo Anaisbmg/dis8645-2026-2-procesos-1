@@ -315,7 +315,6 @@ bool encuadernar(bool proceso, bool sabado) {
 
 ```
 
-
 ## lectura
 
 Es un libro bastante complejo ya que además de contener poemas, ocupa un lenguaje el cual no estoy acostumbrado a leer en formato y habla de una retrospectiva humana difícil de entender. Creo que más que leer 1 página por día, es leer la sinopsis y que entiendo al pasar de los días. 
