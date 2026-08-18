@@ -107,6 +107,9 @@ Me reúno con kriss el lunes.
 ![ejercicio 1](./imagenes/ej1-loop.gif)
 
 ![ejercicio 2](./imagenes/ej2.gif)
+
+**Referentes**
+- [referente1](https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s)
   
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
