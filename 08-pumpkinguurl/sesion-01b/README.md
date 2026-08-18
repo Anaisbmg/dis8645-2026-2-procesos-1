@@ -103,7 +103,7 @@ Entonces,
 
 ArduinoLEDMatrix Pantalla;  //Instancia objeto
 
-byte corazon [8][12] = {
+byte estrella [8][12] = {
     {0,0,0,0,0,1,0,0,0,0,0,0},
     {0,0,0,0,0,1,0,0,0,0,0,0},
     {0,0,1,1,1,1,1,1,1,0,0,0},
@@ -118,7 +118,7 @@ void setup() {
 
   Pantalla.begin();  //Inicializa
 
-  Pantalla.renderBitmap (corazon, 8,12);  //Muestra bitmap
+  Pantalla.renderBitmap (estrella, 8,12);  //Muestra bitmap
 
 }
 
