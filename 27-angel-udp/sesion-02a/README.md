@@ -94,7 +94,54 @@ void loop() {
  Serial.println(valorLectura);
 }
 ```
+while es = mientras que 
+
+! = significa lo contrario
+
+print = imprime y no se salta la linea
+
+printLn = imprime y luego se salta la linea
+
+filtrarConDivision 
 
 ## encargos
 
+1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
+
+Está listo 
+
+2. conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+
+
+
 ## lectura
+
+La lectura que escribí en la sesión 01b es la página hasta el día que leí por día hasta hoy, que sería la número 17. La voy a voler a pegar en este lugar nuevamente:
+
+Resumen:
+
+Estas páginas presentan una introducción al hardware de la Raspberry Pi, revisando sus principales puertos y conectores.
+
+Se explican conexiones como Ethernet, micro USB, USB 2.0 y 3.0, además de conectores utilizados para cámaras y pantallas táctiles.
+
+También describen el puerto AV, que permite enviar audio y vídeo compuesto a televisores, proyectores u otras pantallas mediante un adaptador TRRS.
+
+2 Citas:
+
+“televisores, proyectores y otras pantallas que admitan una señal de vídeo compuesto”
+
+“un adaptador TRRS (las iniciales inglesas de punta-anillo-anillo-cuerpo)”
+
+Pregunta:
+
+¿Qué función específica cumple cada uno de los conectores de la Raspberry Pi y qué tipo de dispositivos puedo conectar en ellos?
+
+Referente:
+
+Como referente puedo considerar otras placas y dispositivos electrónicos, ya que muchos utilizan conexiones USB, Ethernet y conectores especializados para comunicarse con periféricos tal como una compu de mesa.
+
+Esto permite relacionar la Raspberry Pi con dispositivos que ya conozco, como computadores y smartphones.
+
+Aseveración:
+
+La Raspberry Pi no funciona únicamente como una placa para programar, sino que cuenta con diferentes puertos y conectores que permiten conectarla con otros dispositivos, como redes, cámaras, pantallas, proyectores, televisores, sistemas de audio y periféricos USB.
