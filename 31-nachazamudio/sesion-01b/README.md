@@ -44,6 +44,10 @@ idea de código: ocupar la matriz del microcontrolador para hacer animaciones.
 
 https://docs.52pi.com/md/kz-0073/arduino/p3/ muy buena pagina explicando el paso a paso de como generar los codigos. 
 
+Para familiarizarnos con el trabajo copiamos un código de ejemplo que encontramos para saber como es el proceso de enviarlo al microprocesador. 
+
+
+
 Dentro de está página encontramos información de como funciona la matriz y como ocuparla. En primer lugar entendimos que cada LED del panel funcionan como un pixel que podemos controlar de forma individual, enviandole señales a través de Arduino para prenderlos y apagarlos. 
 
 Para iniciar esta funcion debemos escribir el siguiente código al inicio del boceto:
@@ -72,6 +76,10 @@ byte frame[8][12] = {
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
 };
 ```
+Luego se añade la matriz de esta manera para tener todos los espacios y ocupar los 0 y 1 como apagado y encendido respectivamente en filas que formen los pixeles de 8 x 12.
+
+En esta parte ya pudimos hacer figuras y definirlos como frames para luego pasar a usar comandos de loop que los muestren en secuencias. 
+
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
