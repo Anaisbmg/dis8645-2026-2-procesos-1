@@ -94,7 +94,7 @@ aquí el pixel de esa ubicación estaría prendido ya que el frame es = 1, este 
 Encontramos más información de otras formas de escribir estas figuras pero no entendimos como funcionaba, por lo que nos limitamos a estas dos por ahora. 
 
 ![imagen numero 1](./numero1.png)
-![imagen numero 2](:/numero2.png)
+![imagen numero 2](./numero2.png)
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
