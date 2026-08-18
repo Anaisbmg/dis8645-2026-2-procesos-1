@@ -71,7 +71,7 @@ También existen funciones sociales (conversar, salir, compartir), funciones de 
 | Tipo de pantalla | Tecnología | Color | Uso principal | Expresividad |
 |------------------|-------------|--------|----------------|---------------|
 | Reloj Casio | LCD | Gris | Tiempo | Media |
-| Panel emergencia | LED | Verde | Señalización | Baja |
+| Panel ascensor | LED | Verde | Señalización | Baja |
 | Balanza        | LCD | Negro | Medición | Baja |
 
 
@@ -92,4 +92,4 @@ Habla de cómo lo antiguo y lo nuevo pueden convivir, y eso me parece bonito. Ta
 Ahí muestra que aunque la inteligencia artificial y la fotografía son distintas, ambas sirven para crear imágenes y mirar el mundo de otra forma.
 En general, el libro me parece una mezcla entre arte y tecnología, pero contada de manera curiosa.
 
-ENcontre una pagina del artista, esta página es reas.com/books muestra los distintos proyectos y libros de Casey Reas, que mezcla arte y programación. Este es   un archivo personal del artista, donde se mezclan sus ideas, colaboraciones y proyectos. Todo tiene una estética muy limpia
+Encontre una página del artista, esta página es reas.com/books muestra los distintos proyectos y libros de Casey Reas, que mezcla arte y programación. Este es   un archivo personal del artista, donde se mezclan sus ideas, colaboraciones y proyectos. Todo tiene una estética muy limpia
