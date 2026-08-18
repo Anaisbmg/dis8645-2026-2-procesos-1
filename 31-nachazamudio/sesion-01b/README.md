@@ -148,6 +148,48 @@ se puede ver como primero definimos ambos números y luego los colocamos en una 
 ![número 6](./six.jpeg)
 ![número 7](./seven.jpeg)
 
+Luego hicimos otras pruebas haciendo que un punto parezca trasladarse por los pixeles, pero al prender un pixel y luego el que está a su lado, teníamos que apagar el que habíamos prendido en primero lugar, por lo que era un ejercicio mucha mas extenso:
+
+```cpp
+void punto1(){
+  //inicio de bala
+  frame[5][1] = 1;
+}
+
+void punto2 (){
+  frame[5][1] = 0;
+  frame[5][2] = 1;
+}
+
+void punto3(){
+  frame[5][1] = 0;
+  frame[5][2] = 0;
+  frame[5][3] = 1;
+```
+Pensábamos que el segundo frame tenía que apagar la luz del primero, y el tercer frame el del primero y el segundo, así se van sumando más casillas a cada frame. Pero no era necesario, puesto que el segundo ya está apagando al anterior y no se vuelve a encender, por lo que solo hay que apagar el frame anterior de cada uno. 
+
+```cpp
+void punto1(){
+  //inicio de bala
+  frame[5][1] = 1;
+}
+
+void punto2 (){
+  frame[5][1] = 0;
+  frame[5][2] = 1;
+}
+
+void punto3(){
+  frame[5][2] = 0;
+  frame[5][3] = 1;
+}
+void punto4(){
+  frame[5][3] = 0;
+  frame[5][4] = 1;
+}
+```
+Aquí se observa mejor como el frame 2(punto2) apaga al frame 1(punto1), y luego el frame 3(punto 3) tiene que apagar solamente el frame 2, ya que el 1 se encuentra inactivo.
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ```cpp
