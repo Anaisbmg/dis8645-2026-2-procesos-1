@@ -20,6 +20,9 @@ vamos a hacer circuitos (por donde transitan electrones),
 
   + pushbutton 
 
+![IMG](./imagenes/circuit.png/)
+
+
 ## encargos
 
 ## lectura
