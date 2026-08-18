@@ -224,6 +224,8 @@ t = tipo
 
 Tiempo el cual decidimos dejar en 700 para que cada letra se lograra leer
 
+[compilando...ideas video](https://www.youtube.com/shorts/YBul3QpaSB4)
+
 2.
 ```cpp
 // esta es una receta de como hacer panqueques de platano
