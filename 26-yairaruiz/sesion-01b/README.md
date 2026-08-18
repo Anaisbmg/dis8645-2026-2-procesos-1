@@ -596,4 +596,6 @@ Dejo el vaso en la mesa.*
 
 Pseudocódigo = escribir las instrucciones como si fueran código, pero sin preocuparte de que realmente funcione.
 
-## lectura
+
+
+

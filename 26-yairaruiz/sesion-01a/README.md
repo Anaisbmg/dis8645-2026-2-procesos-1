@@ -126,7 +126,15 @@ libro que tengo que leer:
 
 La sociedad del espectáculo se publicó por primera vez en la editorial Buhet-Chastel de París en 1967.
 
+Es una crítica a una sociedad donde el poder controla la realidad mediante imágenes, información y consumo. El “espectáculo” que se refiere es que las personas aceptan una realidad construida por otros.
+
+El libro parte dando el punto de vista del autor, sobre que las personas viven su realidad a través de las imágenes, representaciones o aparentar y a eso le llama "espectáculo". Se refiere a como las personas se relacionan, piensan y desean, son influenciadas por "las imágenes" que menciona. Menciona que para la sociedad aparentar es más importante que lo que realmente se vive.
+
+citas*
+
++ "Todo lo que era vivido directamente se aparta en una representación "
+
++ " El espectáculo no es un conjunto de imágenes, sino una relación social entre personas mediatizada por imágenes "
 
 
-
-
+*pág 24-27*
