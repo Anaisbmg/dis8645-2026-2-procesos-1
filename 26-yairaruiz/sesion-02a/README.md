@@ -18,11 +18,14 @@ vamos a hacer circuitos (por donde transitan electrones),
 
   **Botones** (pulsadores) 
 
-  + pushbutton 
+  + pushbutton
+ 
+ 
+https://docs.arduino.cc/built-in-examples/digital/Button/
 
 ![IMG](./imagenes/circuit.png/)
 
-https://docs.arduino.cc/built-in-examples/digital/Button/
+*resistencia pull down : permite llegar a tierra con calma*
 
 ## encargos
 
