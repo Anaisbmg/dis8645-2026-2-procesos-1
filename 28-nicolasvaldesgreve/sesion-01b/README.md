@@ -201,6 +201,87 @@ para poder meter código a la Raspberry Pi Pico 2W mediante Arduino IDE debemos 
 
 ![no me sale nada lol ayuda](./imagenes/no-me-aparece.png)
 
+en mi caso no me aparece ya que los cables que tengo para poder conectar la Raspi a mi pc es muy probable que sean solo de carga, y que no sean capaces de transferir datos por lo que no me ayudan a poder identificar el microcontrolador ni comunicarse entre éste y mi pc.
+
+una vez ya tengas conectada tu Raspberry Pi Pico 2W de manera correcta, podemos cargar el código de ejemplo _"Blink"_, el cual hace parpadear un LED con la placa:
+
+```cpp
+/*
+  Blink
+
+  Turns an LED on for one second, then off for one second, repeatedly.
+
+  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO
+  it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to
+  the correct LED pin independent of which board is used.
+  If you want to know what pin the on-board LED is connected to on your Arduino
+  model, check the Technical Specs of your board at:
+  https://docs.arduino.cc/hardware/
+
+  modified 8 May 2014
+  by Scott Fitzgerald
+  modified 2 Sep 2016
+  by Arturo Guadalupi
+  modified 8 Sep 2016
+  by Colby Newman
+
+  This example code is in the public domain.
+
+  https://docs.arduino.cc/built-in-examples/basics/Blink/
+*/
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);  // change state of the LED by setting the pin to the HIGH voltage level
+  delay(1000);                      // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);   // change state of the LED by setting the pin to the LOW voltage level
+  delay(1000);                      // wait for a second
+}
+```
+
+o también podemos usar el código de ejemplo que nos enseñan en <https://randomnerdtutorials.com/raspberry-pi-pico-2-w-arduino-ide/>, el cual es el siguiente:
+
+```cpp
+/*
+  Blink -  Turns an LED on for one second, then off for one second, repeatedly.
+  Most Arduinos have an on-board LED you can control. On the UNO, MEGA and ZERO it is attached to digital pin 13, on MKR1000 on pin 6. LED_BUILTIN is set to the correct LED pin independent of which board is used.
+  If you want to know what pin the on-board LED is connected to on your Arduino model, check the Technical Specs of your board at: https://www.arduino.cc/en/Main/Products
+  modified 8 May 2014 by Scott Fitzgerald modified 2 Sep 2016 by Arturo Guadalupi modified 8 Sep 2016 by Colby Newman  This example code is in the public domain. https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
+  
+  Programming Raspberry Pi Pico with Arduino IDE: https://RandomNerdTutorials.com/programming-raspberry-pi-pico-w-arduino-ide/
+*/
+
+// the setup function runs once when you press reset or power the board
+void setup() {
+  // initialize digital pin LED_BUILTIN as an output.
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+// the loop function runs over and over again forever
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
+  delay(1000);                       // wait for a second
+  digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+  delay(1000);                       // wait for a second
+}
+```
+
+#### ¿qué hago si al conectar mi Raspberry Pi Pico 2W mi pc no la reconoce?
+
+no caigamos en pánico, esto es lo que me sucedió y el problema puede ser uno de los siguientes:
+
+1. cable que solo transfiere energía: no todos los cables son para transferir datos, sino que algunos son exclusivamente para transferir solo energía por lo que no nos sirve utilizar uno de estos al momento de conectar nuestro microcontrolador a nuestro pc. cámbialo.
+
+2. entrada USB dañada: siempre dudar de todo! prueba conectando el cable a distintas entradas USB de tu pc, puede que una de ellas esté fallando.
+
+3. Raspberry Pi Pico 2W con MicroPython firmware: es probable que tu Raspi esté corriendo actualmente con MicroPython firmware, por lo que es necesario ponerla de manera manual en el modo bootloader, lo cual se hace de la siguiente manera: desconecta el microcontrolador de tu pc y mantén apretado su botón _"BOOTSEL"_, luego, mientras lo mantienes presionado, conectar el microcontrolador a tu pc. esperar un momento hasta que te aparezca una nueva ventana de dispositivo de almacenamiento en tu pc, una vez aparezca ya puedes soltar el botón.
+	
 
 ### ejercicio de función: sacar a pasear al Mailo (mi hermano chico que es un perro)
 
