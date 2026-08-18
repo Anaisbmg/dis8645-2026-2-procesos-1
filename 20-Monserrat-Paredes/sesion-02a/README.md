@@ -61,8 +61,76 @@ izquierda → voltaje/ tierra
 al medio → A0 → patita de lectura (int) → entero
 
 
-## codigo visto en clases:
+## codigo visto en clases para arduino R4 wifi:
 
+```cpp
+
+const int patitaLectura = A0;
+// numero de enteros
+// arduino lee el A0 como si lo fuera
+// const es algo que no se puede cambiar porque es constante 
+
+
+int valorLectura = ;
+// numero de enteros
+// declarar valor
+
+void septum () {
+// solo 1 vez
+// nada que configurar porwue es entrada
+
+Serial.begin(9600);
+// prohibido ponerlo en loop
+// Serial es una clase por eso esta en mayuscula 
+// Serial = un mensaje, uno a la vez en orden
+// funciona en velocidad 9600 (mensajes por segundo)
+// este numero es moderado, no es rapido ni lento
+// al abrir este puerto significa que puedo escribir mensajes 
+}
+void loop (){
+  Serial.println("holaa");
+valorLectura = anologRead (patitaLectura);
+//monitor serial, muestra lo que mandaste al codigo
+// solo mostrara el "holaa"
+}
+
+```
+
+## codigo enviado para hacer funcionar el potenciometro
+
+```cpp
+
+const int patitaLectura = A0;
+
+int valorLectura = -1;
+
+void setup() {
+
+  Serial.begin(9600);
+
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura); 
+ Serial.println(valorLectura);
+}
+
+```
+minimo: 0
+maximo: 1023
+
+
+while  →  mientras que 
+
+si el no puede recibir mensajes, se perderan los que mandaste 
+tratar de no usar porque es complejo, usar cuando sea necesario 
+
+
+0, 1, 2, 3 →  vale 0
+
+4, 5, 6, 7 →  vale 1
+
+- a la hora de programar se empieza de lo mas macro a lo mas micro
 
 
 
