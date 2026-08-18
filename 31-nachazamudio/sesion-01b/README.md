@@ -143,7 +143,10 @@ void loop() {
   delay(500);
 }
 ```
-se puede ver como primero definimos ambos números y luego los colocamos en una funcion. En este caso en un loop donde cambia constantemente uno al otro. 
+se puede ver como primero definimos ambos números y luego los colocamos en una funcion. En este caso en un loop donde cambia constantemente uno al otro. Creando el icónico sixseven. 
+
+![número 6](./six.jpeg)
+![número 7](./seven.jpeg)
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
