@@ -224,10 +224,28 @@ int main() {
 
 ```
 
-Aquí me ensayo la diferencia de la función void y todas las otras, es que básicamente con la primera no recibir nada a cambio al correr el código (esto no lo estaba comprendiendo sola), pero con por ejemplo int si, como por ejemplo lo que es Hola mundo, Kelly 25 y 30.  
+Aquí me ensayo la diferencia de la función void y todas las otras, es que básicamente con la primera no recibir nada a cambio al correr el código (esto no lo estaba comprendiendo sola), pero con por ejemplo int si, como por ejemplo lo que es Hola mundo, Kelly 25 y 30\.  
 
 También, en la zona donde recibo números, primero debo colocar la función int para recibir el número 25, pero después no es necesario colocarlo. 
 
 Siempre es necesario colocar los murciélagos {} para desarrollar algo ya que así el computador lee que “esto comienza aquí y termina aquí)
 
 Pueden existir varias funciones dentro de otra función. 
+
+No hay que basarse en los colores que cada página o software tiene porque no todos tienen los mismos, lo cual para mi me complejiza la experiencia de usuario y el lenguaje universal. 
+
+- Funciones: Recibe información (Realiza acciones y necesita cosas para hacerlas)   
+- Variables: donde guardas tus datos  
+- Void (vacío): No devolverá nada, ocurrirá una sola vez cuando lo coloque  
+- /n: salto de línea  
+- Main: función  
+- Tipo: Lo que va a retornar  
+- Parámetros: lo que necesito para hacer algo (después de la función)  
+- Else: mo ocurrirá ninguna de las otras 2 cosas así que sucederá esta (es una condición)  
+- Printear: mostrar lo que corri en el código  
+- If: Colocar siempre algo dentro de ()  
+- return: colocar siempre al final para recibir algo  
+  
+
+
+tipo de dato \+ variable: lo que vale esa variable  
