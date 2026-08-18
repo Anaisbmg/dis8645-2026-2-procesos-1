@@ -113,6 +113,9 @@ El pin del medio se conecta al A0 para ser leído.
 Un pin de un extremo va a GND
 Y el otro pin del otro extremo va a los 5V
 
+Serial.print > imprime
+Serial.printlm  > iprime y salta una linea
+
 ## encargos
 
 ## lectura
