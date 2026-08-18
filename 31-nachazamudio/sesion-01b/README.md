@@ -84,7 +84,7 @@ byte frame[8][12] = {
 ```
 
 En esta parte ya pudimos hacer figuras y definirlos como frames para luego pasar a usar comandos de loop que los muestren en secuencias. podemos dibujar nuestra figura de esa forma o tratarlo individualmente usando el panel y los espacios con coordenadas, contando de iqz a derecha desde el 0 al 11 y de arriba a abajo desde el 0 al 7.
-```
+```cpp
 frame[2][1] = 1;
 
 matrix.renderBitmap(frame, 8, 12);
