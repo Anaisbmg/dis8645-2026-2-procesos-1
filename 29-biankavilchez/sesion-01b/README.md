@@ -2,6 +2,403 @@
 
 ## apuntes sesión
 
+# variables, booleanos, funciones y arduino
+
+## referentes
+
+susan kare, diseñadora de los primeros computadores y de sus iconos.
+
+neri oxman, diseñadora que trabaja entre diseño, ciencia, tecnología y naturaleza.
+
+neil gershenfeld, relacionado con fabricación digital, computación y fab labs.
+
+martin bravo.
+
+wiring.
+
+tom igoe, uno de los 5 co-creadores de arduino.
+
+## variables
+
+dato más extremo: variable si o no.
+
+variable boolean = son o no son.
+
+las cosas son en un contexto.
+
+una variable tiene:
+
+**tipo / nombre / valor**
+
+por ejemplo:
+
+```cpp
+int biankaedad = 22;
+```
+
+`int` → tipo
+
+`biankaedad` → nombre
+
+`22` → valor
+
+### constante
+
+constante = "algo fijo"
+
+```cpp
+const int edad = 22;
+```
+
+## algebra booleana
+
+trabajamos con valores de:
+
+`0` y `1`
+
+`0` = falso / no
+
+`1` = verdadero / si
+
+### or
+
+or siempre da 0, a no ser que alguna de las variables valga 1.
+
+```text
+a + 0 = a
+a + 1 = 1
+a + a = a
+```
+
+si alguna de las dos variables es 1, el resultado es 1.
+
+### and
+
+and se escribe como multiplicación.
+
+siempre da 0 a no ser que los 2 sean 1.
+
+```text
+a · 0 = 0
+a · 1 = a
+a · a = a
+```
+
+### compuertas
+
+compuerta and → tienen que cumplirse las dos condiciones.
+
+compuerta or → basta que una condición sea verdadera.
+
+## tipos de variables
+
+`string` → pueden tener palabras.
+
+`bool` → si o no. variable extrema.
+
+`int` → número entero.
+
+`char` → un carácter.
+
+`int8_t`
+
+`uint8_t` → sirve para guardar valores de 0 a 255.
+
+8 bits = 1 byte.
+
+## arduino
+
+arduino uno r4
+
+* minima
+* wifi
+
+arduino ide
+
+processing
+
+wiring
+
+## setup
+
+setup = configuración, coreografía, configurar para que empiece el inicio de las cosas.
+
+para que el primer microcontrolador funcione.
+
+```cpp
+void setup() {
+
+}
+```
+
+`setup()` es una función.
+
+una función = secuencia de instrucciones para que ocurran cosas.
+
+la función también tiene que tener un tipo.
+
+`void` = vacío, no entrega como respuesta un valor.
+
+`int` = el resultado es un número entero.
+
+en este caso setup solo necesita aparecer.
+
+```text
+void → tipo
+setup → nombre de la función
+() → parámetros
+{} → lo que ocurre dentro
+```
+
+la función se llama `setup` y es de tipo `void`.
+
+es una función que existe, por ende está declarada.
+
+para usarla primero tiene que existir.
+
+## {}
+
+`{}` = scope / contexto.
+
+lo que está dentro de las llaves ocurre dentro de ese contexto.
+
+por ejemplo:
+
+```cpp
+if (condicion) {
+
+}
+```
+
+solo ocurre lo que está dentro si la respuesta es si.
+
+## variables en c++
+
+```cpp
+bool biankaEstudianteUDP = true;
+bool biankaChilena = false;
+
+int biankaedad = 22;
+int biankanacimiento = 2003;
+int biankanacimientomes = 12;
+int biankanacimientodia = 1;
+```
+
+`bool` → verdadero o falso.
+
+`int` → número entero.
+
+## = y ==
+
+el `=` no es simétrico.
+
+`=` → asignación de valores.
+
+por ejemplo:
+
+```cpp
+edad = 22;
+```
+
+estoy diciendo que edad ahora vale 22.
+
+`==` → comparar.
+
+```cpp
+edad == 22
+```
+
+pregunta si edad es igual a 22.
+
+## if / condicionales
+
+`if` sirve para poner una condición.
+
+```cpp
+if (condicion) {
+
+}
+```
+
+por ejemplo:
+
+```cpp
+if (mesActual == biankanacimientomes) {
+
+}
+```
+
+// estoy en el mes de interés
+
+```cpp
+if (diaActual == biankanacimientodia) {
+
+}
+```
+
+// estoy en el dia de interés
+
+también puedo juntar las dos condiciones:
+
+```cpp
+if (mesActual == biankanacimientomes && diaActual == biankanacimientodia) {
+
+}
+```
+
+// si estoy en el mes de nacimiento y además estoy en el día de nacimiento le deseo feliz cumpleaños
+
+`&&` = and.
+
+las dos condiciones tienen que cumplirse.
+
+## colores y bits
+
+tenemos 3 receptores:
+
+* rojo
+* verde
+* azul
+
+r = rojo
+
+g = verde
+
+b = azul
+
+démosle 8 bits a cada canal de color.
+
+entonces:
+
+```text
+r = 8 bits
+g = 8 bits
+b = 8 bits
+```
+
+8 bits se llaman 1 byte.
+
+0 es apagado.
+
+255 es prendido / máximo.
+
+tenemos:
+
+```text
+8 + 8 + 8 = 24 bits
+```
+
+con 24 bits tenemos más de 10 millones de valores posibles.
+
+en realidad son aproximadamente 16,7 millones de colores posibles.
+
+## funciones
+
+una función es una secuencia de instrucciones para que ocurran cosas.
+
+por ejemplo:
+
+```cpp
+void cumplirAnhos() {
+
+}
+```
+
+las `void` ocurren sin emitir un resultado.
+
+si queremos sumar números enteros:
+
+```cpp
+int sumarEnteros(int x, int y) {
+
+}
+```
+
+es tipo `int` porque nos va a dar un resultado entero.
+
+podemos declarar un resultado:
+
+```cpp
+int resultado = 0;
+```
+
+esto es una abreviación de dos pasos:
+
+```cpp
+int resultado;
+resultado = 0;
+```
+
+primero declaramos.
+
+después asignamos el valor.
+
+la función puede quedar:
+
+```cpp
+int sumarEnteros(int x, int y) {
+
+    int resultado = 0;
+
+    resultado = x + y;
+
+    return resultado;
+}
+```
+
+`return` entrega el resultado de la función.
+
+## comentarios / seudocódigo
+
+los comentarios sirven para describir las ideas.
+
+```cpp
+// esto es un comentario
+```
+
+toda línea de código puede estar acompañada de un comentario para explicar qué queremos que ocurra.
+
+el seudocódigo sirve para pensar primero la idea y después pasarla a código.
+
+por ejemplo:
+
+```cpp
+// si estoy en el mes de nacimiento
+// y además estoy en el día de nacimiento
+// entonces le deseo feliz cumpleaños
+```
+
+## matrices led
+
+matrices led = varios leds organizados en filas y columnas.
+
+se pueden utilizar para mostrar:
+
+* números
+* letras
+* formas
+* imágenes
+* animaciones
+
+## idea general
+
+las variables sirven para describir cosas dentro de un contexto.
+
+las variables pueden cambiar.
+
+las constantes son cosas fijas.
+
+los booleanos permiten trabajar con si o no.
+
+las compuertas and y or permiten combinar condiciones.
+
+las funciones son secuencias de instrucciones para que ocurran cosas.
+
+el `if` permite que algo ocurra solamente si se cumple una condición.
+
+todo esto lo podemos llevar a arduino mediante c++ y el arduino ide.
+
+
 ## encargos
 
 encargo01b:
@@ -10,53 +407,3 @@ encargo01b:
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
-mario markus es un físico y artista chileno-alemán nacido en Santiago en 1944. Se formó como físico en Alemania y desarrolló una importante trayectoria científica, pero en los años 80 comenzó a explorar el arte a través de la computadora, utilizándola como un “pincel” para transformar fórmulas, datos y conceptos matemáticos en imágenes.
-
-su trabajo busca mostrar cómo la ciencia y el arte pueden relacionarse, convirtiendo elementos que normalmente son abstractos, como las matemáticas y las fórmulas, en representaciones visuales. Una de sus obras más destacadas es Charts for Prediction and Chance, posteriormente traducida al español como Una Fórmula = Una Imagen, donde se puede ver principalmente esta relación entre fórmula, imagen y creatividad.
-
-https://www.mariomarkus.com/
-
-en el siguiente link pueden encontrar más información sobre Mario Markus, incluyendo notas de prensa, información sobre su trayectoria y fotografías del autor en su vida personal.
-
-![archivo-mariomarkus](./imagenes/private-photos-mario-markus.png) 
-
-esta fue la lectura de esta semana paginas enumeradas según el libro de 1-14 capitulo 1-2-3 parte del 4
-
-
-capítulo 1 "lo útil y lo bello"
-
-nos habla un poco de la introducción a la creación de imagen con matemática y nos muestra cómo tenemos que mirar las imágenes del libro desde lo que está analizando. nos muestra la creación de imágenes a través de únicas fórmulas matemáticas. nos describe dos tipos de fórmula:
-
-fórmula con una utilidad científica: como estudios de casos reales, física, química y biología, que a mi parecer describe lo que seria lo útil.
-
-fórmulas cuyo objetivo es estético: al momento de determinar valores y variación de este, se pueden producir imágenes estéticas, y en este caso describe como seria lo bello.
-
-nos habla sobre coordenadas y parámetros: el autor nos habla de cómo x e y son parámetros de un sistema.
-
-es decir, imagen = f(x,y). si se cambia el valor de alguna de las dos coordenadas, puede producir que la imagen sea completamente diferente.
-
-capítulo 2 "el objet trouvé en matematicas"
-
-en este capítulo nos hace una relación directa entre la imagen y el arte. el autor plantea como ejemplo el urinario de duchamp y se pregunta: ¿puede ser arte un objeto que ya existe? esta es una de las primeras interrogantes que plantea para hablar sobre la creación y la intención artística.
-
-a partir de esto, lo relaciona con la creación de imágenes a través de cálculos matemáticos y plantea otra pregunta: realmente, ¿quién es el creador de la imagen? ¿el autor, la computadora o la matemática?
-
-al igual que en la fotografía, uno fotografía algo que ya existe, pero es el fotógrafo quien decide qué mostrar, desde qué perspectiva, en qué angulo y con qué intención. por lo tanto, aunque la matemática genere diferentes posibilidades y resultados, es el artista quien selecciona y decide cuáles utilizar para darle una intención a la obra.
-
-capítulo 3 "los expertimentos de mondrian"
-
-este capítulo parte con un experimento realizado por michael noll en 1966, relacionado con las pinturas de piet mondrian.
-
-en este capítulo nos lleva a una comparación: ¿podemos distinguir una obra hecha por un artista de una imagen generada por una computadora? y también, ¿se puede considerar estética una imagen hecha por una computadora y no directamente por el artista?
-
-para esto, primero nos habla de quién es mondrian. lo pone como ejemplo porque su arte es fácil de traducir a la matemática. sus imágenes están compuestas por líneas verticales y horizontales, rectángulos, cuadrados, patrones y repeticiones.
-
-luego nos empieza a hablar de michael noll, quien creó un programa que intentaba generar imágenes parecidas a las composiciones de mondrian.
-
-a partir de esto, nos presenta el concepto de algoritmo.
-
-algoritmo: un conjunto de instrucciones que le dicen a la computadora qué hacer.
-
-de esta forma, michael noll creó figuras mondrianoides. por medio de la computadora se pueden crear imágenes con una estética similar a la de mondrian, por ejemplo, definiendo dónde se quieren ubicar las líneas para luego formar cuadrados. después se puede repetir el proceso y así generar miles de imágenes con distintas variaciones, dependiendo de la ubicación y los valores de los parámetros.
-
-
