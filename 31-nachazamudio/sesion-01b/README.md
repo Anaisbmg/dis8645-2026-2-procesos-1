@@ -44,11 +44,11 @@ idea de código: ocupar la matriz del microcontrolador para hacer animaciones.
 
 https://docs.52pi.com/md/kz-0073/arduino/p3/ muy buena pagina explicando el paso a paso de como generar los codigos. 
 
-Para familiarizarnos con el trabajo copiamos un código de ejemplo que encontramos para saber como es el proceso de enviarlo al microprocesador. 
+Para familiarizarnos con el trabajo copiamos un código de ejemplo que encontramos para saber como es el proceso de enviarlo al microprocesador. Conectamos el Arduino 1 r4 wifi al computador y enviamos la función. 
 
 ![Prueba de carita feliz](./carita-feliz.jpeg)
 
-![carita editada](./carita-feliz2.jpeg)
+![carita editada](./carita-feliz-2.jpeg)
 
 editamos el código para variar la forma de la carita feliz
 
