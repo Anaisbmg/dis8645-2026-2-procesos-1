@@ -127,9 +127,58 @@ void loop() {
 }
 ```
 
-![personita](./prueba-dos.jpeg)
+![intento de estrella](./prueba-dos.jpeg)
 
 Entiendo la idea pero no entiendo como aplicarla. 
+
+Mi compañera intento hacer otra forma de hacer una estrella
+
+```cpp
+/* 
+ Dibujar una estrella en la matriz de LEDs del Arduino UNO R4 WIFI
+ */
+
+
+ // Incluir la libreria oficial
+ #include "Arduino_LED_Matrix.h"
+ 
+// Crear el objeto de la matrix
+ArduinoLEDMatrix matrix;
+
+// Definir el mapa de bits en forma de estrella
+// Esto en un arreglo de 12 filas (para las 12 columnas) y 8 bits (para las 8 filas de alto) 
+// El prefijo 0b indica que el número que sigue es binario.
+const uint32_t estrella_bits[] = {
+  0b00000100, // Columna 0 (fila 0-7)
+    0b00001110, // Columna 1
+    0b00011111, // Columna 2
+    0b01111110, // Columna 3
+    0b11111110, // Columna 4 (cuerpo central)
+    0b00001111, // Columna 5
+    0b11111110, // Columna 6 (cuerpo central)
+    0b01111110, // Columna 7
+    0b00011111, // Columna 8
+    0b00001110, // Columna 9
+    0b00000100, // Columna 10
+    0b00000000  // Columna 11 (vacía)
+};
+
+void setup() {
+  // inicializar la matriz de leds
+  matrix.begin();
+
+}
+
+void loop() {
+  // cargar y mostrar la figura de estrella
+  matrix.loadFrame(estrella_bits);
+  delay(1000) // mantenerla encendida por un segundo
+}
+```
+
+Pero no funcionó
+
+
 
 
 
