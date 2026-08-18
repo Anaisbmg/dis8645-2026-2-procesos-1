@@ -50,6 +50,22 @@ protoboard  →  todas las filas son el mismo lugar
 - https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
 
 
+## conexiones potenciometro
+
+3 patitas del potenciometro
+
+derecha → voltaje/tierra
+
+izquierda → voltaje/ tierra
+
+al medio → A0 → patita de lectura (int) → entero
+
+
+## codigo visto en clases:
+
+
+
+
 
 ## Encargos
 
