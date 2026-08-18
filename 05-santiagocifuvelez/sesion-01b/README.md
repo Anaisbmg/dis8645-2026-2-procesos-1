@@ -102,6 +102,8 @@ Me reúno con kriss el lunes.
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 
+Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y visualizar en la matriz de LED´S que conforman una mini pantallita en la misma placa.
+
 ![ejercicio 1](./imagenes/ej1.jpeg)
 
 ![ejercicio 1](./imagenes/ej1-loop.gif)
