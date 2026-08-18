@@ -97,3 +97,36 @@ ejemplos investigados:
 ![titulo](./imagenes/balanza.jpeg)
    
 ## lectura
+
+### Mindstorms: Children, Computers and Powerful Ideas - Seymour Papert
+
+realicé la lectura del prólogo y del primer capítulo llamado "Los engranajes de mi infancia". en donde el libro en estas primeras páginas se me hace muy liviano de leer (no soy una persona que lee) y además siento que se asimila mucho a la ideología del taller y los ramos que realiza Aarón, en el sentido de que es todo muy poético y tenemos que tener pasión por lo que realizamos.
+
+```
+"At the time, there were 200.000 personal computers in the wordl, and if people wanted to use them, most had to go through some kind of basic and usually paintasking--instruction. Today, over 200.000 personal computers are manufactured in a single week. More important, personal computers play a central role in our lives and have become indispensable in the educational environment."
+
+"En ese momento, había 200.000 ordenadores personales en el mundo, y si la gente quería usarlos la mayoría tenía que pasar por algún tipo de instrucción básica, y generalmente minuciosa. Hoy en día, se fabrican más de 200.000 ordenadores personales en una sola semana. Más importante aún, las computadoras personales juegan un papel central en nuestras vidas y se han vuelto indispensables en el entorno educativo." 
+```
+- esta cita me hace pensar en cómo las tecnologías a lo largo del tiempo han ido evolucionando y también haciéndonos el trabajo más fácil o menos tedioso.
+  
+```
+"When finished, I could capture most of these and felt excitement upon realizing I could name the procedure anything I wanted and later saw the same excitement in my students when they called their shapes by their own names or by a combination of letters meaning something to only them."
+
+"Cuando terminé, pude capturar la mayoría de estos y sentí emoción al darme cuenta de que podía nombrar el procedimiento como quisiera y más tarde vi esa misma emoción en mis estudiantes cuando llamaban sus formas por sus propios nombres o por una combinación de letras que significaba algo solo para ellos."
+```
+- acá me hizo pensar en la dinámica de Aarón, en el sentido de que siempre menciona la emoción, el sentimiento de lo que hacemos o de la gente al momento de preguntar o tener interés por lo que hacemos en clases, ya que es algo en lo que no estamos obligados a estar y algo que en unos años será nuestro trabajo.
+  
+```
+"Most important of all, in many schools students were now able to use programming as an expressive medium to study other topics rather than as a skill to be learnec for the sake of learning it."
+
+"Lo más importante de todo, en muchas escuelas los estudiantes ahora podían usar la programación como un medio expresivo para poder estudiar otros temas en lugar de como una habilidad que se aprende para aprenderla."
+```
+- siento que esta cita refleja nuestra carrera, en cómo nadie nos obligó a estudiar Diseño y que estamos en un ambiente en el cual no serás cuestionado, si no que entre todos nos apoyamos. Usando como medios de expresión la programación y cómo a través de este podemos dar a conocer nuestra visión de la vida.
+  
+```
+"Slowly I began to formulate what I still consider the fundamental fact about learning: Anything is easy, if you can assimilate it ti your collection of models. If you cant, anything can be painfully difficult."
+
+"Poco a poco comencé a formular lo que todavía considero el hecho fundamental sobre el aprendizaje: cualquier cosa es fácil si puedes asimilarla a tu colección de modelos, Si no puedes, cualquier cosa puede ser dolorosamente difícil."
+```
+- lo que sentí con esta cita es el hecho de sentir pasión por lo que hacemos e interés, hace que las cosas sean un poco menos difíciles al fin y al cabo, en donde si somos capaces de tener interés y autonomía, seremos capaces de poder afrontar los obstáculos.
+

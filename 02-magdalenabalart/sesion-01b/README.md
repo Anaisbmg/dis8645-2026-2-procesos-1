@@ -629,4 +629,143 @@ encargo01b:
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+Intento 01 función: 
+
+Nombre: comidaBuenaOnda
+Tipo: void
+Argumentos: diaDeLaSemana, estoyConEri, hayChoritos
+Uso: decidir si una comida cumple las condiciones para que mi corazón esté contento.
+
+Estoy en un día de comida
+        ↓
+¿Es domingo Y estoy con Eri?
+        ↓
+       SÍ
+        ↓
+¿Hay choritos con mayo y limón?
+      ↙       ↘
+    SÍ         NO
+    ↓           ↓
+corazón      buscar otra
+contento       comida
+
+```text
+FUNCIÓN comidaBuenaOnda(díaDeLaSemana, estoyConEri, hayChoritos)
+
+    SI es domingo Y estoy con Eri
+        ENTONCES
+
+        SI hay choritos con mayo y limón
+            ENTONCES
+            corazón contento
+
+FIN 
+```
+```cpp
+void comidaBuenaOnda(string diaDeLaSemana, bool estoyConEri, bool hayChoritos) {
+
+    if (diaDeLaSemana == "Domingo" && estoyConEri == true) {
+
+        if (hayChoritos == true) {
+            corazonContento();
+        }
+    }
+}
+
+comidaBuenaOnda("Domingo", true, true);
+```
+intento 02 función: 
+
+# Intento 02 función:
+
+**Nombre:** `deberiaSalir`  
+**Tipo:** `void`  
+**Argumentos:** `diaDeLaSemana`, `tengoPlata`, `tengoGanas`, `eriDisponible`  
+**Uso:** decidir si salir o qué hacer dependiendo del día y de las condiciones que tenga.
+
+Quiero salir
+      ↓
+¿Es viernes?
+      ↓
+    SÍ
+      ↓
+¿Tengo plata Y tengo ganas?
+   ↙              ↘
+ SÍ                NO
+ ↓                  ↓
+salir          quedarme en casa
+
+
+Quiero salir
+      ↓
+¿Es sábado?
+      ↓
+    SÍ
+      ↓
+¿Eri está disponible?
+   ↙              ↘
+ SÍ                NO
+ ↓                  ↓
+salir          ver una película
+
+
+Si no corresponde a ninguna de esas situaciones
+              ↓
+        quedarme en casa
+
+```text
+FUNCIÓN deberiaSalir(diaDeLaSemana, tengoPlata, tengoGanas, eriDisponible)
+
+    SI es viernes
+        ENTONCES
+
+        SI tengo plata Y tengo ganas
+            ENTONCES
+            salir
+        SI NO
+            quedarme en casa
+
+    SI NO, SI es sábado
+        ENTONCES
+
+        SI Eri está disponible
+            ENTONCES
+            salir
+        SI NO
+            ver una película
+
+    SI NO
+        quedarme en casa
+
+FIN
+```
+
+```cpp
+void deberiaSalir(string diaDeLaSemana, bool tengoPlata, bool tengoGanas, bool eriDisponible) {
+
+    if (diaDeLaSemana == "Viernes") {
+
+        if (tengoPlata && tengoGanas) {
+            salir();
+        }
+        else {
+            quedarmeEnCasa();
+        }
+    }
+
+    else if (diaDeLaSemana == "Sabado") {
+
+        if (eriDisponible) {
+            salir();
+        }
+        else {
+            verUnaPelicula();
+        }
+    }
+
+    else {
+        quedarmeEnCasa();
+    }
+}
+```
 ## lectura
