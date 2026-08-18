@@ -114,4 +114,19 @@ Ambas Letras que son nuestras iniciales
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+```
+//hacer junta en mi casa el dia viernes, con asado dependiendo de los que confirman el jueves.
+void junta(casa, viernes) {
+  confirmar(jueves, xwhatsapp);
+  comprar(viernes, carne);
+
+//da inicio el viernes desde las 8pm hasta las 4 aprox
+  if (viernes && tiempo == 8pm) {
+    compartir(inicio);
+  }
+  else if (viernes && tiempo == 4:00am) {
+    compartir(fin);   
+  }
+```
+
 ## lectura
