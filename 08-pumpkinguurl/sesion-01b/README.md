@@ -15,18 +15,28 @@
 - murciélago { desde aquí
 - hasta aqui}
 - prohibido escribir una línea de código sin poner comentarios / descripción / pseudocódigo
-  
-1 void setuo () { 
-2 //aquí va setup () ocurre una vez al principio
-3
-4 }
-5 
-6 void loop () { 
-7 // aquí va loop
-8 //ocurre después de setup
-9 //se repite hasta que no se pueda más
-10 }
 
+```
+1 void setup () { 
+
+2 //aquí va setup () ocurre una vez al principio
+
+3
+
+4 }
+
+5 
+
+6 void loop () { 
+
+7 // aquí va loop
+
+8 //ocurre después de setup
+
+9 //se repite hasta que no se pueda más
+
+10 }
+```
 - para llevar el código a GitHub
   ctrl c - ctrl a - en la línea anterior `cpp - en la línea posterior para cerrar ` (`son 3 de esos cosos juntos pero si los coloco no se ven asi que se describe)
 
@@ -50,6 +60,14 @@
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+Primero lo primero, conectar la placa al computador
+
+
+
+
+
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
