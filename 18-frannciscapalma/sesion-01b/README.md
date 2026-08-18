@@ -119,4 +119,15 @@ FUNCIÓN irAEntrenamiento(día, hora, lugar)
 
 FIN FUNCIÓN
 
-## lectura
+## lectura being digital, Nicholas Negroponte
+
+En las primeras páginas de este libro, Negroponte habla de los átomos y bits, explicando que los átomos son todos los objetos físicos que requieren de transporte o algun costo, y los bits son mas instantáneos y económicos. Menciona que la economía de la sociedad se está volviendo cada vez más digital. La digitalización esta cambiando muchos aspectos de nuestra vida como la educación, las relaciones sociales, los medios de comunicación, etc. Y plantea que la mayor diferencia es entre quienes crecieron con tecnología y quienes se tuvieron que adaptar a esta. Luego habla de que los bits son la unidad básica de información digital porque pueden ser imagenes, sonidos, videos, etc.
+
+Cita 1: "The change from atoms to bits is irrevocable and unstoppable. Why now? Because the change is also exponential--small differences of yesterday can have suddenly shockink consequences tomorrow."
+
+La palabra irrevocable es lo que destaco de esta frase, ya que la digitalización cada vez avanza más, esto cambia significativamente nuestro estilo de vida, y una vez se implementan estos cambios, rara vez se vuelve atrás.
+
+Cita 2: "Both are being taken for granted by children uy adults don't think about air (until it is missing).
+Computing is not about computers any more. It is about living."
+
+La tecnología está tan incorporada a nuestras vidas que la damos por sentada, las nuevas generaciones están acostumbradas a esto porque no saben lo que es vivir sin la tecnología pero las generaciones mayores pueden notar el avance tecnológico que ha tenido la sociedad. Y esto habla de la brecha generacional que existe en base a quienes crecieron considerando la tecnología como parte natural de su vida.
