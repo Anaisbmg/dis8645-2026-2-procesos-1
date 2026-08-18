@@ -15,18 +15,28 @@
 - murciélago { desde aquí
 - hasta aqui}
 - prohibido escribir una línea de código sin poner comentarios / descripción / pseudocódigo
-  
-1 void setuo () { 
-2 //aquí va setup () ocurre una vez al principio
-3
-4 }
-5 
-6 void loop () { 
-7 // aquí va loop
-8 //ocurre después de setup
-9 //se repite hasta que no se pueda más
-10 }
 
+```
+1 void setup () { 
+
+2 //aquí va setup () ocurre una vez al principio
+
+3
+
+4 }
+
+5 
+
+6 void loop () { 
+
+7 // aquí va loop
+
+8 //ocurre después de setup
+
+9 //se repite hasta que no se pueda más
+
+10 }
+```
 - para llevar el código a GitHub
   ctrl c - ctrl a - en la línea anterior `cpp - en la línea posterior para cerrar ` (`son 3 de esos cosos juntos pero si los coloco no se ven asi que se describe)
 
@@ -50,6 +60,132 @@
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+Primero lo primero, conectar la placa al computador
+
+![placa conectada](./placa-conectada.jpeg)
+
+Funciona. Ahora qué hago con esto.
+
+Según la web https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/#Librerias
+
+Primero hay como que llamar a la matriz para que funcione, para eso se utiliza 
+
+```cpp
+#include "Arduino_Led_Matrix.h"
+```
+
+Luego hay como que nombrarla 
+
+```cpp
+ArduinoLedMatrix pantalla
+```
+
+Y ahora en el setup hay que decirle oye prendete
+
+```cpp
+void setup() {
+pantalla.begin();
+}
+
+Y .begin es lo que se coloca para llamarlo a prenderse
+
+Ahora para empezar con la magia hay que ponerle algo que se llama bitmap, el cual a través de 0 y 1 enciende o apaga los leds de la matriz. La matriz de la placa cuenta con 8 filas y 12 columnas. Si todas tuviesen el valor de 1, toda la matriz estaría encendida, si todos fueran 0, estaría apagada.
+
+se escribe así ej: {0,0,0,0,1,1,1,0,0,0,0,1},
+
+![placa encendida](./prueba-uno.jpeg)
+
+Entonces,
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix Pantalla;  //Instancia objeto
+
+byte corazon [8][12] = {
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,1,0,0,0,1,0,0,0,0},
+};
+
+void setup() {
+
+  Pantalla.begin();  //Inicializa
+
+  Pantalla.renderBitmap (corazon, 8,12);  //Muestra bitmap
+
+}
+
+void loop() {
+
+}
+```
+
+![intento de estrella](./prueba-dos.jpeg)
+
+Entiendo la idea pero no entiendo como aplicarla. 
+
+Mi compañera intento hacer otra forma de hacer una estrella
+
+```cpp
+/* 
+ Dibujar una estrella en la matriz de LEDs del Arduino UNO R4 WIFI
+ */
+
+
+ // Incluir la libreria oficial
+ #include "Arduino_LED_Matrix.h"
+ 
+// Crear el objeto de la matrix
+ArduinoLEDMatrix matrix;
+
+// Definir el mapa de bits en forma de estrella
+// Esto en un arreglo de 12 filas (para las 12 columnas) y 8 bits (para las 8 filas de alto) 
+// El prefijo 0b indica que el número que sigue es binario.
+const uint32_t estrella_bits[] = {
+  0b00000100, // Columna 0 (fila 0-7)
+    0b00001110, // Columna 1
+    0b00011111, // Columna 2
+    0b01111110, // Columna 3
+    0b11111110, // Columna 4 (cuerpo central)
+    0b00001111, // Columna 5
+    0b11111110, // Columna 6 (cuerpo central)
+    0b01111110, // Columna 7
+    0b00011111, // Columna 8
+    0b00001110, // Columna 9
+    0b00000100, // Columna 10
+    0b00000000  // Columna 11 (vacía)
+};
+
+void setup() {
+  // inicializar la matriz de leds
+  matrix.begin();
+
+}
+
+void loop() {
+  // cargar y mostrar la figura de estrella
+  matrix.loadFrame(estrella_bits);
+  delay(1000) // mantenerla encendida por un segundo
+}
+```
+
+Pero no funcionó
+
+![intento de estrella dos](./prueba-tres.jpeg)
+
+
+
+
+
+
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
@@ -57,3 +193,5 @@ encargo01b:
 Recién escogí libro 
 
 ![imagen de texto escogido](digital-art.jpeg)
+
+Que difícil leer en inglés
