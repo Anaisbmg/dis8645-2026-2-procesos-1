@@ -245,6 +245,113 @@ int sumarEnteros(int x, int y) {
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+**Parpadear / blink**
+
+Con mi pareja, Francisca Palma, utilizamos un ejemplo que encontramos en Arduino Docs. El ejemplo específico es Blink, que explica cómo funciona el código para hacer que un LED parpadee y especifica las conexiones necesarias para que funcione correctamente. Por lo que copiamos el mismo código que presentaban y armamos nuestro circuito en la protoboard. El resultado funcionó sin mayores dificultades, ya que seguir paso a paso lo que indicaba el ejemplo nos permitió comprobar que el microcontrolador funcionaba correctamente. Además, fuimos aprendiendo en el proceso qué significaban algunos elementos del código, como HIGH y LOW, que permiten controlar el estado del LED, y delay(), que determina el tiempo que permanece encendido y apagado.
+
+Esta experiencia nos sirvió para entender un poco más cómo funciona la escritura de un código y cómo este se relaciona con lo que ocurre físicamente en el Arduino. Fue emocionante ver cómo lo que habíamos escrito funcionaba y cómo la luz del LED comenzaba a parpadear. Fue increíble, sobre todo porque es nuestro primer acercamiento a este tipo de software.
+
+```cpp
+// parpadear
+// ejemplo de docs.arduino
+
+
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+```
+
+**Pantalla LED Matrix**
+
+También hicimos dos pruebas más. Una de ellas fue con una pantalla LED Matrix, utilizando nuevamente un ejemplo que encontramos en Arduino Docs. En este caso, nos proporcionaban el código necesario para proyectar diferentes formas en la matriz LED, como un corazón y una carita feliz.
+
+También fue muy emocionante ver cómo el código funcionaba correctamente en nuestro Arduino y cómo la pantalla se iluminaba mostrando las diferentes formas. Fue muy loco y me encantó, porque nuevamente pudimos ver cómo algo que estaba escrito en el código se transformaba en algo visible y funcionaba físicamente en nuestro circuito.
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+
+ArduinoLEDMatrix matrix;
+
+
+void setup() {
+  Serial.begin(115200);
+  matrix.begin();
+}
+
+
+const uint32_t happy[] = {
+    0x19819,
+    0x80000001,
+    0x81f8000
+};
+const uint32_t heart[] = {
+    0x3184a444,
+    0x44042081,
+    0x100a0040
+};
+
+
+void loop(){
+  matrix.loadFrame(happy);
+  delay(500);
+
+
+  matrix.loadFrame(heart);
+  delay(500);
+}
+```
+
+**Serial / Monitor Serial**
+
+Por último, también experimentamos con otro ejercicio de Serial, que encontramos en Arduino Docs. El ejemplo daba el código completo para mostrar mensajes, pero nosotros no utilizamos todo, ya que solo queríamos mostrar uno de ellos.
+
+Al cargar el código para comprobar si estaba correcto, no aparecía ningún error, pero el mensaje tampoco se veía en el Monitor Serial. Intentamos buscar por nuestra cuenta cuál podía ser el problema, pero no lo encontramos, así que recurrimos a la inteligencia artificial. Nos explicó que el código estaba funcionando, pero que debíamos agregarle un tiempo para que el mensaje se mostrara constantemente y así poder visualizarlo. Lo modificamos y finalmente funcionó correctamente.
+Este fue uno de los dramas que tuvimos, pero también nos sirvió para entender que un código puede estar correcto y aun así necesitar pequeños ajustes para que el resultado pueda visualizarse como esperamos.
+
+```cpp
+// serial.begin()
+// ejemplo encontrado en docs.arduino
+
+
+void setup() {
+  Serial.begin(9600);
+
+
+}
+void loop() {
+  Serial.println("hola");
+  delay(1000);
+}
+```
+
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+FUNCIÓN irAlSupermercado(listaDeCompras)
+    tomar bolsa
+    tomar listaDeCompras
+    salir de casa
+    caminar hasta el supermercado
+    entrar al supermercado
+    para cada producto en listaDeCompras
+        buscar producto
+        poner producto en el carro
+    fin para
+    ir a la caja
+    pagar
+    guardar productos en la bolsa
+    salir del supermercado
+    caminar hasta la casa
+FIN FUNCIÓN
+
+Utilicé esta referencia para guiarme en cómo realizar mi pseudocódigo.
+
 
 ## lectura
