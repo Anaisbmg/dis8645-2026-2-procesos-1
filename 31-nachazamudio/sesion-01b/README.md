@@ -57,8 +57,7 @@ Dentro de está página encontramos información de como funciona la matriz y co
 
 Para iniciar esta funcion debemos escribir el siguiente código al inicio del boceto:
 
-```
-#include "Arduino_LED_Matrix.h"
+``` #include "Arduino_LED_Matrix.h"
 
 ArduinoLEDMatrix matrix;
 
