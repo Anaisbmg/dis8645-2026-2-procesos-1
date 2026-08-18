@@ -61,6 +61,30 @@ encargo01b:
 
 ---
 
-Con Cami nos tocó el Arduino R4 WIFI.
+1. Con Cami nos tocó el Arduino R4 WIFI.
+
+---
+
+2. Proponer una función:
+
+```javascript
+hacerMusica(conStrudel) {
+
+asignar ritmo;
+//se da un bpm para dar el ritmo
+elegir notas;
+// se toma una cantidad de notas y se eligen con su notación en inglés o en números asignados a estas notas
+crear melodía;
+// a partir de la elección de las notas se escribe una melodía
+elegir sonido;
+// se asigna un sonido a la melodía, el cuál puede ser desde el mismo strudel o cargar uno nuevo
+reproducir secuencia;
+// apretar el botón play para reproducir
+ repetir secuencia;
+// la melodía se repetirá constantemente hasta apretar el botón de stop
+    
+    }
+
+```
 
 ## lectura
