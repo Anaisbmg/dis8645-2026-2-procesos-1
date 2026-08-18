@@ -53,6 +53,8 @@ resistor/pulldown - es como el colchón gigante que ponen cuando alguien esta en
 0 no toy
 1 toy
 
+![dibujo en pizarra](piazarra-n-o.jpeg)
+
 pullup - este sería como cuando la gente se tira amarrada a un elástico? salto en Benji se llamaba
 
 Vcc _^v^v^_/ _ 0/tierra si medimos entre el resistor y botón 
@@ -63,7 +65,7 @@ Vcc _^v^v^_/ _ 0/tierra si medimos entre el resistor y botón
 
 breadboard en ingles / protoboard en español
 
-[colocar una imagen de eso] 
+![imagen de un protoboard](./protoboard.webp) 
 
 buscar la tierra y conectarlo, se contamina todo el cable, peste bubónica.
 positivo 5v
@@ -77,7 +79,7 @@ uno esta conectado al voltaje (cable rojo) y el otro lado esta conectado a un re
 
 el cable azul mide el voltaje, 0 cuando no esta presionado el botón. y cuando se presiona toma el valor del voltaje agregado.
 
-![button](./arduino-button.jpeg)
+![button](./arduino-button.png)
 
 Potenciometro
 
@@ -86,6 +88,7 @@ botón - 3 patitas - se conecta todo junto?
 las patitas de los costados van conectados a vcc y a gnd (tierra)
 y la de al medio será de lectura
 
+![potenciometro](./arduino-potenciometro.png)
 
 ARDUINO
 
