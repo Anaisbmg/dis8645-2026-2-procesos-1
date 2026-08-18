@@ -157,3 +157,9 @@ void junta(casa, viernes) {
 ```
 
 ## lectura
+
+Libro que escogí para leer:
+
+<img width="1000" height="758" alt="AMI-CoverPrototype jpg" src="https://github.com/user-attachments/assets/19526614-562f-42ff-a848-21097eb884a8" />
+
+
