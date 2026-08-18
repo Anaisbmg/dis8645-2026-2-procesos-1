@@ -46,6 +46,12 @@ Lo que se logró posteriormente, fue prender completamente la matriz de LEDs.
 Había que empezar el 
 
 ```cpp
+#include "Arduino_Led_Matrix.h"
+```
+
+La cual es una orden que le dice al programa que importe una librería específica antes de compilar el código. Seguimos con:
+
+```cpp
 
  void setup () {
  pantalla.begin ();
@@ -53,9 +59,70 @@ Había que empezar el
 ```
 
  siendo ".begin" lo que llama a la pantalla para prenderse.
-Para saber cómo se prende la pantalla, necesitábamos saber cómo escribirla en código, ahí llega el bitmap que funciona con 0 y 1, que como anteriormente mencioné; cada 1 representa un encendido y cada 0 un apagado (en este caso los LEDs)
+ 
+Para saber cómo se prende la pantalla, necesitábamos saber cómo escribirla en código, ahí llega el bitmap que funciona con 0 y 1, que como anteriormente mencioné; cada 1 representa un encendido y cada 0 un apagado (en este caso los LEDs). Nosotras queríamos hacer una estrella en esta, así que mi compañera lo escribió así.
 
+```cpp
+byte estrella [8][12] = {
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,1,0,0,0,1,0,0,0,0},
+};
 ```
+y quedó muy bien. Yo en cambio lo intenté de otra manera y me quedó horrible, no entendí que hice realmente.
+
+```cpp
+/* 
+ Dibujar una estrella en la matriz de LEDs del Arduino UNO R4 WIFI
+ */
+
+
+ // Incluir la libreria oficial
+ #include "Arduino_LED_Matrix.h"
+ 
+// Crear el objeto de la matrix
+ArduinoLEDMatrix matrix;
+
+// Definir el mapa de bits en forma de estrella
+// Esto en un arreglo de 12 filas (para las 12 columnas) y 8 bits (para las 8 filas de alto) 
+// El prefijo 0b indica que el número que sigue es binario.
+const uint32_t estrella_bits[] = {
+  0b00000100, // Columna 0 (fila 0-7)
+    0b00001110, // Columna 1
+    0b00011111, // Columna 2
+    0b01111110, // Columna 3
+    0b11111110, // Columna 4 (cuerpo central)
+    0b00001111, // Columna 5
+    0b11111110, // Columna 6 (cuerpo central)
+    0b01111110, // Columna 7
+    0b00011111, // Columna 8
+    0b00001110, // Columna 9
+    0b00000100, // Columna 10
+    0b00000000  // Columna 11 (vacía)
+};
+
+void setup() {
+  // inicializar la matriz de leds
+  matrix.begin();
+
+}
+
+void loop() {
+  // cargar y mostrar la figura de estrella
+  matrix.loadFrame(estrella_bits);
+  delay(1000) // mantenerla encendida por un segundo
+}
+```
+
+En ese momento no entendí que hice mal, ahora veo q solo compliqué más de lo necesario el código...
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+
 
 ## lectura
