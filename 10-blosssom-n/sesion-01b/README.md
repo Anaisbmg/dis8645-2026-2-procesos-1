@@ -89,6 +89,7 @@ Dupla: Isidora Díaz y Natalia Gutierrez
 
 
 Nos toco la placa Arduino UNO R4 Wifi
+
 <img src="./imagenes/arduinouno.jpeg" alt="foto de la placa que nos toco" width="300"> 
 
 Al buscar información sobre la placa encontramos que está pensada para hacer proyectos interactivos y que, a diferencia de otras Arduino más básicas, ya trae varias cosas integradas que se pueden ocupar sin conectar tantos componentes externos. Su microcontrolador principal es un Renesas RA4M1 de 32 bits y tiene un módulo ESP32-S3, que se encarga del Wi-Fi y Bluetooth.
@@ -373,7 +374,11 @@ if (minutosSemana > 600) {
 ```
 
 sabíamos que el total de minutos daría 700, asi que esperábamos una carita triste y resultoo!!
+
+
 <img src="./imagenes/arduinouno-resultado.jpeg" alt="foto de la placa con el resultado" width="300"> 
+
+
 
 CODIGO COMPLETO 
 
