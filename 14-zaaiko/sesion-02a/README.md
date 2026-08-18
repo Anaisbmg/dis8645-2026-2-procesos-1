@@ -2,6 +2,18 @@
 
 ## apuntes sesión
 
+primer bloque 0830-1030:
+- se inicia la sesión compartiendo algunas experiencias con los libros designados, conversando sobre los autores y sobre que generaron estos libros en cada persona
+- a continuación, se comienza a hablar sobre los potenciómetros y botones, para poder utilizarlos a futuro en el taller
+
+potenciómetro:
+mide la potencia mediante la variable de una resistencia, potencia = energía/tiempo
+
+botones (pulsadores):
+pushbutton, estos son temporales, no como los interruptores o switches, los cuales se mantienen en su estado, los mas comunes son los botones NO normalmente abiertos, por otro lado existen los NO normalmente conectados
+
+segundo bloque 1100-1250: 
+- se continua el segundo bloque explicando las conexiones que tiene las placas de arduino uno 
 ## encargos
 
 ## lectura
