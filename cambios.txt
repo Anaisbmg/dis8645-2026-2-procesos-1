@@ -1,0 +1,3 @@
+### 🔧 Archivos renombrados
+
+- `07-isiidoraadiiaz/sesion-01b/imagenes/PLACA.jpeg` → `07-isiidoraadiiaz/sesion-01b/imagenes/placa.jpeg`
