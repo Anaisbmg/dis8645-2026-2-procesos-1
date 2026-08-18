@@ -1,10 +1,20 @@
 # sesion-02a
 
-
+clase 18/08
 
 ## apuntes sesión
 
+Potenciómetros y botones
 
+**potenciómetro (resistor variable):  nos permite regular potencia** es un interfaz que tiene forma para encapsular dos resistencias, la patita 2 es la que mueve el valor en un constante. los potenciónmetros giran en torno a un rango.  
+
++ potencia = energía/tiempo 
+
++ en electricidad la potencia es: voltaje x corriente 
+
+vamos a hacer circuitos (por donde transitan electrones), 
+
++ la corriente es un flujo de electrones y el potenciómetro  
 
 ## encargos
 
