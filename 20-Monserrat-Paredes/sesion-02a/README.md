@@ -4,6 +4,20 @@
 
 ## Encargos
 
+primera mitad:
+
+- teoria/pizarra potenciometros y botones
+- visual studio code
+- dramas github
+
+segunda mitad:
+
+- programar potenciometros y botones
+
+
+---
+
+
 ## Lectura
 
 Libro: A New Program for Graphic Design
