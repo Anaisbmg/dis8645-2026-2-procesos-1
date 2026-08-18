@@ -2,6 +2,56 @@
 
 ## apuntes sesión
 
+variables c++ (cpp)
+
+0 - 1 son las posibles opciones
+con tres bits se pueden generar 8 números (desde el 0 al 7) 
+con cuatro se pueden generar 16 (del 0 al 15)
+con el n de bits se genera el ^2
+
+u sin signo son números positivos (0 a 255 bits) y sin u es con signo son números negativos (-128 a 127)
+
+**para descargar arduino**
+arduino - productos - arduino IDE - 2.3.10 - definir como lo quieres descargar 
+
+verificar en el check si no tengo un arduino conectado 
+carpetas es de mi computador 
+arduino 1r4, instalar
+usbc- pantalla led- wifi- bluetooth = uno r4 wifi
+son microcontroladores
+
+void = vacío, es cuando la función hace algo pero esta tiene un efecto, no en una forma que la veo 
+ej: prender la tela con el control remoto
+
+toda línea de código va a estar comentada, ya que no interesa el código, importa el comentario osea la descripción 
+
+si veo () es una función 
+
+control+a (seleccionar all), control+u (upload) para subir del arduino a gh, 
+
+**bool** true o false
+**int** números enteros positivos como negativos 
+**if** es un condicional
+**setup** se ejecuta solo una vez  
+**loop** es un bucle infinito
+**scope** lugar/contexto 
+**{}** espacio o territorio donde se encuentra la variable 
+**||** condicional o
+**&**  condicional y
+**==** para comparar
+**=** para asignar un valor
+ 
+funciones () {} 
+llamar la función = función();
+
+**notación camello** Nombre y funciones donde la primera palabra es minúscula y la siguiente con mayúscula 
+ej: encenderLuz, ubicacionActual, entre otros
+
+diseño paramétrico
+
+adafruit
+
+
 ## encargos
 
 encargo01b:
