@@ -63,6 +63,70 @@ encargo01b:
 
 Primero lo primero, conectar la placa al computador
 
+![placa conectada](./placa-conectada.jpeg)
+
+Funciona. Ahora qué hago con esto.
+
+Según la web https://www.profetolocka.com.ar/2024/07/22/tutorial-usando-la-matriz-led-del-arduino-uno-r4-parte-1/#Librerias
+
+Primero hay como que llamar a la matriz para que funcione, para eso se utiliza 
+
+```cpp
+#include "Arduino_Led_Matrix.h"
+```
+
+Luego hay como que nombrarla 
+
+```cpp
+ArduinoLedMatrix pantalla
+```
+
+Y ahora en el setup hay que decirle oye prendete
+
+```cpp
+void setup() {
+pantalla.begin();
+}
+
+Y .begin es lo que se coloca para llamarlo a prenderse
+
+Ahora para empezar con la magia hay que ponerle algo que se llama bitmap, el cual a través de 0 y 1 enciende o apaga los leds de la matriz. La matriz de la placa cuenta con 8 filas y 12 columnas. Si todas tuviesen el valor de 1, toda la matriz estaría encendida, si todos fueran 0, estaría apagada.
+
+se escribe así {0,0,0,0,1,1,1,0,0,0,0,1},
+
+Entonces,
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix Pantalla;  //Instancia objeto
+
+byte corazon [8][12] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,1,1,0,1,1,0,0,0,0},
+    {0,0,1,0,0,0,0,0,1,0,0,0},
+    {0,0,1,0,0,0,0,0,1,0,0,0},
+    {0,0,0,1,0,0,0,1,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+};
+
+void setup() {
+
+  Pantalla.begin();  //Inicializa
+
+  Pantalla.renderBitmap (corazon, 8,12);  //Muestra bitmap
+
+}
+
+void loop() {
+
+}
+```
+
+
+
 
 
 
@@ -75,3 +139,5 @@ Primero lo primero, conectar la placa al computador
 Recién escogí libro 
 
 ![imagen de texto escogido](digital-art.jpeg)
+
+Que difícil leer en inglés
