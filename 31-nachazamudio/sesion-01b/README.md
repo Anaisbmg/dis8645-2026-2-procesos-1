@@ -69,6 +69,7 @@ void setup() {
 ```
 la primera parte: #include "Arduino_LED_Matrix.h"  y ArdionoLEDMatrix Matrix crean el objeto LED en el boceto de Arduino, luego el código matrix.begin() dentro del setup para iniciarlo.
 
+Luego se añade la matriz de esta manera para tener todos los espacios y ocupar los 0 y 1 como apagado y encendido respectivamente en filas que formen los pixeles de 8 x 12:
 ```
 byte frame[8][12] = {
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -81,9 +82,17 @@ byte frame[8][12] = {
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
 };
 ```
-Luego se añade la matriz de esta manera para tener todos los espacios y ocupar los 0 y 1 como apagado y encendido respectivamente en filas que formen los pixeles de 8 x 12.
 
-En esta parte ya pudimos hacer figuras y definirlos como frames para luego pasar a usar comandos de loop que los muestren en secuencias. 
+En esta parte ya pudimos hacer figuras y definirlos como frames para luego pasar a usar comandos de loop que los muestren en secuencias. podemos dibujar nuestra figura de esa forma o tratarlo individualmente usando el panel y los espacios con coordenadas, contando de iqz a derecha desde el 0 al 11 y de arriba a abajo desde el 0 al 7.
+```
+frame[2][1] = 1;
+
+matrix.renderBitmap(frame, 8, 12);
+```
+aquí el pixel de esa ubicación estaría prendido ya que el frame es = 1, este frame va con el código inferior para que se ejecute. 
+
+Encontramos más información de otras formas de escribir estas figuras pero no entendimos como funcionaba, por lo que nos limitamos a estas dos por ahora. 
+
 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
