@@ -280,3 +280,9 @@ Traducido sería: "En efecto hay 2, pero no son la muerte ni los impuestos: esos
 
 Esta cita aparece al mencionar el origen de las primeras computadoras, que no eran más que máquinas de contar
 
+2. "the goverment said enough: no more funds"
+
+Me hace pensar mucho en la situación actual del país, donde se recortan gastos en investigación solo porque "_no genera empleo_". 
+
+En este caso a Charles Babbage se le quitaron los fondos con los que se destinaba crear la primera calculadora compleja, que llegaría a 20 dígitos. Obviamente todo funcionaba de manera mecanica y el gobierno queria que esto fuera lo más pequeño posible, algo imposible de lograr en aquellos años (1820 aproximadamente) 
+
