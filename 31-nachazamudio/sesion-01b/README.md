@@ -94,6 +94,7 @@ aquí el pixel de esa ubicación estaría prendido ya que el frame es = 1, este 
 Encontramos más información de otras formas de escribir estas figuras pero no entendimos como funcionaba, por lo que nos limitamos a estas dos por ahora. 
 
 Seguimos probando escribir números y ubicar ambos frames dentro de un loop
+
 ![imagen numero 1](./numero1.png)
 ![imagen numero 2](./numero2.png)
 
