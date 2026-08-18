@@ -261,6 +261,28 @@ No hay que basarse en los colores que cada página o software tiene porque no to
 - If: Colocar siempre algo dentro de ()  
 - return: colocar siempre al final para recibir algo  
   
-
-
 tipo de dato \+ variable: lo que vale esa variable  
+
+Mientras realizamos esto, revisamos el ejemplo que subió Aaron a discord para entender el nivel de complejidad que se buscaba y que datos entregaba y en conjunto realizamos el primer ejemplo de este encargo:
+
+```cpp
+
+void tomarMetro(conPaseEscolar) {
+  if (dinero > 250) {
+    pagar(tne, pasaje);
+  }
+  else if (no_hay_guardias) {
+    evadir();
+  }
+  else {
+    cargar(1000);
+    pagar(tne, pasaje);
+  }
+  
+  bajar_escalera();
+  esperar_metro(minutos);
+  subir_metro();
+}
+
+```
+
