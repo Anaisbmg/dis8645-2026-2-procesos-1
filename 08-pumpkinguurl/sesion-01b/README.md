@@ -180,6 +180,39 @@ Pero no funcionó
 
 ![intento de estrella dos](./prueba-tres.jpeg)
 
+Ahora el caballero habla de algo de los 32 bytes, entiendo pero a la vez no. Entiendo que con este formato la matriz se divide en 3 grupos con la misma cantidad de leds.
+
+El caballero te coloca una web que te permite activar y desactivar cuadraditos simulando la matriz led de la arduino https://www.manualdomaker.com/matrix/ y según esta página, la matriz completa encendida seria 
+
+```cpp
+0xFFFFFFFF
+0xFFFFFFFF
+0xFFFFFFFF
+```
+
+entonces yo pienso, F es encendido, ¿0 es apagado? probemo
+
+coloco este 
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix matrix;
+
+uint32_t frame[] = {
+   0xF0000000,
+   0x00000000,
+   0x00000000,
+};
+
+void setup() {
+  matrix.begin();
+  matrix.loadFrame(frame);
+}
+
+void loop() {
+}
+```
 
 
 
