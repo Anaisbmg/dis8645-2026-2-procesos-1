@@ -24,7 +24,7 @@ Podemos notar que para pedirlo existen 4 botones, de los cuales sólo uno tiene 
 
 Otra acotación es que tiene citófono, algo que no vi en los otros ejemplos, y además no tiene una pantalla que especifique en qué piso se encuentra. 
 
-![Foto de la botonera del ascensor de estación República con dirección San Pablo](./imagenes/metro_republica.jpg)
+![Foto de la botonera del ascensor de estación República con dirección San Pablo](./imagenes/metro-republica.jpg)
 
 - Botonera 2: **Estación metrotren Nos con dirección Alameda**
 
@@ -32,7 +32,7 @@ En este ejemplo podemos ver sólo un botón único para pedir el ascensor, esto 
 
 Tiene una pantalla que sirve para saber en qué piso está, aunque no se vea en la foto.
 
-![Foto de la botonera del ascensor de estación Nos con dirección San Alameda](./imagenes/metrotren_nos.jpg)
+![Foto de la botonera del ascensor de estación Nos con dirección San Alameda](./imagenes/metrotren-nos.jpg)
 
 - Botonera 3: **Universidad San Sebastián sede Huechuraba**
 
@@ -40,6 +40,6 @@ Aquí vemos otra botonera que sólo tiene un botón para llamar el ascensor de c
 
 Algo que me pareció curioso de este es que tiene dos pantallas ara indicar la planta, una que señala el número de piso y otra que marca la dirección en la que va el ascensor, además de que los botones auxiliares están demasiado alejados de los de planta.
 
-![Foto de la botonera de un ascensor de la Universidad San Sebastián sede Huechuraba](./imagenes/uss_huechuraba.jpg)
+![Foto de la botonera de un ascensor de la Universidad San Sebastián sede Huechuraba](./imagenes/uss-huechuraba.jpg)
 
 ## lectura

@@ -104,3 +104,18 @@ Me reúno con kriss el lunes.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
+Para poder leer y entender de manera correcta, ya agregue p5.js a mi Visual Studio Code, y comenzaré a estudiar haciendo los ejercicios del libro.
+
+### Cap 1. Iterative Pattern; Generating a texture or textile design. 
+
+#### Brief
+Debo crear un patrón textil teniendo en cuenta los siguientes estándares: Simetría, ritmo, color, detalle a múltiples escalas, control preciso de la silueta, y balance entre formas orgánicas y geométricas. 
+
+Debo hacer un sketch primero.
+
+#### Learning Objectives
+
+
+#### Variations 
+#### Making It Meaningful
+#### results

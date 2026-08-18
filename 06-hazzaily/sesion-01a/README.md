@@ -56,4 +56,4 @@ También considerar: (bajo el ejemplo de los ascensores)
 
 La lectura que yo escogí es "**Grokking Algorithms**" de Aditya Y. Bhargava.
 
-![Portada del libro Grokking Algorithms de Aditya Y. Bhargava](./imagenes/grokking_algorithms.jpg)
+![Portada del libro Grokking Algorithms de Aditya Y. Bhargava](./imagenes/grokking-algorithms.jpg)

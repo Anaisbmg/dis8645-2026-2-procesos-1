@@ -268,18 +268,201 @@ int sumarEnteros(int x, int y) {
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+---
+
+### Solución 1
+
+Al comenzar el trabajo, mi compañero y yo intentamos ejecutar un código utilizando Arduino IDE en la Raspberry Pi Pico 2 W que tomamos en clase. Primero tuvimos un problema con el espacio del computador, ya que el disco local C: estaba lleno sin siquiera 50 megas de espacio, por eso tuvimos que desinstalar programas que no utilizábamos, eliminar archivos innecesarios y mover parte de la configuración "por no decir que todo el programa", archivos temporales y funcionamiento de Arduino hacia el disco local D:.
+
+Fotos de proceso:
+
+| Imagen 1 | Imagen 2 |
+|:---:|:---:|
+| ![Foto proceso 1](./imagenes/cambiodedisco.png) | ![Foto proceso 2](./imagenes/error1-raspy.png) |
+
+| Imagen 3 | Imagen 4 |
+|:---:|:---:|
+| ![Foto proceso 3](./imagenes/ejemplo-blink.png) | ![Foto proceso 4](./imagenes/paquete-para-raspberry.png) |
+
+Después configuramos Arduino IDE para utilizar la Raspberry y realizamos las primeras pruebas de conexión. Un problema importante fue que el primer cable micro USB que utilicé sí encendía la Raspberry pero no la reconocía correctamente el computador, por lo que inicialmente no aparecía ningún puerto en Arduino IDE. Al cambiar el cable, finalmente apareció COM4 en la configuración porque reconoció la conexión y pudimos continuar.
+
+Como primera prueba utilizamos el ejemplo Blink, que compiló y se cargó correctamente, mostrando Done uploading.
+
+![imágen ejemplo blink](./imagenes/funciono-raspberry.png)
+
+Algunos de los primeros aciertos fue preguntarnos por qué un cable podía entregar energía a la placa pero no permitir la comunicación de datos.
+
+Después propusimos una función relacionada con nuestro proyecto: tirarDado(), de tipo int, sin argumentos y su uso es generar un número aleatorio entre 1 y 6.
+
+El pseudocódigo fue: “Generar un número aleatorio entre 1 y 6, guardar el número en resultado y devolverlo”.
+
+Durante el primer código apareció el error undefined reference to setup y undefined reference to loop; aunque esas funciones estaban escritas, solucionamos el problema creando un sketch nuevo y colocando nuevamente el código.
+
+Luego al intentar subirlo, Arduino mostró No drive to deploy y entonces tuvimos que utilizar el botón BOOTSEL de la Raspberry, en ese modo la placa apareció en el computador como RP2350, por lo que ahora si dejó que funcionara. Al volver a conectar la placa "con el cable nuevo + el bootsel y el nuevo sketch" el puerto pasó de COM4 a COM5 en el Serial Monitor, configurado a 9600 baudios, comenzaron a aparecer números entre 1 y 6, permitiendo que tirarDado() funcionara en el microcontrolador.
+
+![imágen ejemplo tirar dado](./imagenes/tirardado-ejemplo1.png)
+
+Estos problemas fueron parte de los dramas y preguntas del proceso: qué hacía BOOTSEL, por qué aparecía RP2350, por qué cambiaba el puerto COM y cómo funcionaba random(1, 7).
+
+Para finalizar mi compañero y yo realizamos el montaje físico del dado utilizando seis LEDs de 5 mm, cada uno con una resistencia de 330 Ω, conectados en línea recta a los GPIO 2, 3, 4, 5, 6 y 7 de la Raspberry, compartiendo GND.
+
+- Primero probamos un solo LED y no encendió porque habíamos olvidado conectar tierra (GND), al corregirlo funcionó correctamente.
+
+Luego conectamos los seis LEDs y comprobamos que se encendieran uno por uno y en orden, confirmando que las conexiones y los GPIO funcionaran. Hasta que finalmente integramos tirarDado() con una función mostrarDado(resultado), haciendo que si salía 1 se encendiera un LED, si salía 2 dos LEDs y así sucesivamente hasta 6, mientras el resultado también aparecía en el Serial Monitor.
+
+![imágen código dado](./imagenes/codigo-dado.jpeg)
+
+![imágen dado digital](./imagenes/dado_digital.jpeg)
+
+El principal acierto fue conseguir que el código se ejecutara en el microcontrolador y controlar físicamente los seis LEDs.
+
+Los principales atados fueron el poco espacio del disco C, el cable USB que solo entregaba energía, los errores de compilación y carga, el cambio de COM4 a COM5 y la falta inicial de GND.
+
+Como reflexión personal, aprendí que trabajar con un microcontrolador no consiste solamente en escribir código, sino también en solucionar problemas de almacenamiento, comunicación, programación y conexiones eléctricas, y que los errores y preguntas que aparecieron durante el proceso fueron parte fundamental para conseguir finalmente un dado electrónico funcional.
+
+---
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+---
+
+### Solución 2
+
+### Código
+
+```cpp
+// Pines donde están conectados los 6 LEDs
+int leds[] = {2, 3, 4, 5, 6, 7};
+
+// Función que tira el dado
+int tirarDado() {
+  int resultado = random(1, 7);
+  return resultado;
+}
+
+// Función que muestra el resultado con los LEDs
+void mostrarDado(int resultado) {
+
+  // Apagar todos los LEDs
+  for (int i = 0; i < 6; i++) {
+    digitalWrite(leds[i], LOW);
+  }
+
+  // Encender la cantidad de LEDs correspondiente
+  for (int i = 0; i < resultado; i++) {
+    digitalWrite(leds[i], HIGH);
+  }
+}
+
+void setup() {
+
+  // Configurar los 6 LEDs como salidas
+  for (int i = 0; i < 6; i++) {
+    pinMode(leds[i], OUTPUT);
+  }
+
+  // Iniciar comunicación con el computador
+  Serial.begin(9600);
+
+  // Inicializar la semilla aleatoria
+  randomSeed(analogRead(0));
+}
+
+void loop() {
+
+  // Tirar el dado
+  int resultado = tirarDado();
+
+  // Mostrar el resultado con los LEDs
+  mostrarDado(resultado);
+
+  // Mostrar el resultado en Serial Monitor
+  Serial.println(resultado);
+
+  // Esperar 2 segundos
+  delay(2000);
+}
+
+```
+
+| Elemento                     | ¿Qué es / qué hace?                                                                   |
+| ---------------------------- | ------------------------------------------------------------------------------------- |
+| `int`                        | Tipo de dato para guardar **números enteros**.                                        |
+| `leds[]`                     | Arreglo que guarda los números de los **pines de los LEDs**.                          |
+| `{2, 3, 4, 5, 6, 7}`         | Valores guardados dentro del arreglo. Son los GPIO utilizados.                        |
+| `[]`                         | Indica que se está trabajando con un **arreglo**.                                     |
+| `tirarDado()`                | Nombre de nuestra función que genera el resultado del dado.                           |
+| `()`                         | Contiene los **argumentos** de una función. Vacío significa que no recibe argumentos. |
+| `void`                       | Indica que una función **no devuelve ningún valor**.                                  |
+| `resultado`                  | Variable que guarda el número obtenido.                                               |
+| `random(1, 7)`               | Genera un número aleatorio entre **1 y 6**.                                           |
+| `return`                     | **Devuelve** un valor desde una función.                                              |
+| `mostrarDado(int resultado)` | Función que recibe el resultado y controla los LEDs.                                  |
+| `for`                        | Repite un bloque de código varias veces.                                              |
+| `int i = 0`                  | Crea `i` y comienza su valor en 0.                                                    |
+| `i < 6`                      | Indica que el `for` continúa mientras `i` sea menor que 6.                            |
+| `i++`                        | Aumenta `i` en **1**.                                                                 |
+| `leds[i]`                    | Busca dentro del arreglo el LED que corresponde al número de `i`.                     |
+| `digitalWrite()`             | Enciende o apaga un pin digital.                                                      |
+| `HIGH`                       | Pone el pin en estado **encendido/alto**.                                             |
+| `LOW`                        | Pone el pin en estado **apagado/bajo**.                                               |
+| `pinMode()`                  | Define cómo funcionará un pin.                                                        |
+| `OUTPUT`                     | Indica que el pin será utilizado como **salida**.                                     |
+| `Serial.begin(9600)`         | Inicia la comunicación con el computador a **9600 baudios**.                          |
+| `Serial.println()`           | Muestra un dato en el **Serial Monitor** y baja a la siguiente línea.                 |
+| `randomSeed()`               | Inicializa la generación de números aleatorios para variar las secuencias.            |
+| `analogRead(0)`              | Lee un valor analógico del pin indicado; aquí se usa como semilla para `randomSeed`.  |
+| `delay(2000)`                | Pausa el programa durante **2000 milisegundos (2 segundos)**.                         |
+| `setup()`                    | Se ejecuta **una sola vez** al iniciar la Pico.                                       |
+| `loop()`                     | Se ejecuta **repetidamente** mientras la Pico esté funcionando.                       |
+| `{ }`                        | Indican el **inicio y final** de un bloque de código.                                 |
+| `;`                          | Indica el **final de una instrucción**.                                               |
+| `=`                          | Asigna un valor a una variable.                                                       |
+| `<`                          | Significa **“menor que”**.                                                            |
+
+En resumen, el programa hace esto:
+
+- setup(): prepara los LEDs y la comunicación.
+- Paos: loop(), tira el dado, guarda el resultado, enciende los LEDs correspondientes, muestra el número, espera 2 segundos, vuelve a tirar.
+
+**int tirarDado() {
+  int resultado = random(1, 7);
+  return resultado;
+}
+
+int = devuelve un número entero, tirarDado() = nombre de la función, random(1, 7) = genera números del 1 a 6, resultado = guarda el número, return = devuelve ese número.**
+
+- Al no entender mucho cómo iniciar, tuve indicaciones y seguí pasos con ayuda de la IA para realizar este código.
+
+---
 
 ## lectura
 
 Resumen:
 
+Estas páginas presentan una introducción al hardware de la Raspberry Pi, revisando sus principales puertos y conectores.
 
+Se explican conexiones como Ethernet, micro USB, USB 2.0 y 3.0, además de conectores utilizados para cámaras y pantallas táctiles.
+
+También describen el puerto AV, que permite enviar audio y vídeo compuesto a televisores, proyectores u otras pantallas mediante un adaptador TRRS.
 
 2 Citas:
 
+“televisores, proyectores y otras pantallas que admitan una señal de vídeo compuesto”
+
+“un adaptador TRRS (las iniciales inglesas de punta-anillo-anillo-cuerpo)”
+
 Pregunta:
+
+¿Qué función específica cumple cada uno de los conectores de la Raspberry Pi y qué tipo de dispositivos puedo conectar en ellos?
 
 Referente:
 
+Como referente puedo considerar otras placas y dispositivos electrónicos, ya que muchos utilizan conexiones USB, Ethernet y conectores especializados para comunicarse con periféricos tal como una compu de mesa.
+
+Esto permite relacionar la Raspberry Pi con dispositivos que ya conozco, como computadores y smartphones.
+
 Aseveración:
+
+La Raspberry Pi no funciona únicamente como una placa para programar, sino que cuenta con diferentes puertos y conectores que permiten conectarla con otros dispositivos, como redes, cámaras, pantallas, proyectores, televisores, sistemas de audio y periféricos USB.

@@ -95,12 +95,30 @@ Luego, a lo largo de su vida junto a Tega participaron en foros educacionales pa
 Entonces, este libro recopila 30 años de experiencia, para los lectores que tengan la oportunidad de leerlo, puedan aprender de primera mano y a su vez, de una manera muy amistosa.
 
 ### Introducción.
-- El aprendizaje antes de la creación de este libro en el rubro de la programación, se centraban en **como** programar, en vez de **qué hacer** cuando se aprende codigo y **por qué.**
 
-- Leah Buechley, ha dicho que: Hay estudiantes que aprenden mejor con experiencias concretas, no con principios abstractos. Hay quienes prefieren trabajar de manera improvisada, en vez de seguir formulas. Y hay quienes prefieren crear cosas expresivas en vez de utilitarias. 
-- 
-- Creative coders  
-- German word: Gestaltern (creators of form).  
+El libro se divide en 3 partes:
 
+**1. Asiggments.  
+2. Ejercicios.  
+3. Entrevistas.**  
+   
+- El aprendizaje antes de la creación de este libro en el rubro de la programación, se centraban en **como** programar, en vez de; **qué hacer** cuando se aprende codigo y **por qué.**
 
+- Leah Buechley, ha dicho que: Hay estudiantes que aprenden mejor con experiencias concretas, no con principios abstractos. Hay quienes prefieren trabajar de manera improvisada, en vez de seguir formulas. Y hay quienes prefieren crear cosas expresivas en vez de utilitarias.
+  
+- Toolkits openspurce y gratis: p5.js, Tracery, Max, MSP,Jitter, Arduino, Cinder, Openframeworks, y Unity.
+  
+- Creative coders, German word: Gestaltern (creators of form).
+  
+- Marshall McLuhan observó que el arte: Es un sistema de alerta a temprana distancia, que puede siempre decir a la cultura antigua que va a comenzar a sucederle". 
+
+- Este libro es un argumento a favor de los creadores con habilidades híbridas y corazones abiertos. E insiste en el valor de las alfabetizaciones artísticas dentro de los espacios de ingeniería, y las alfabetizaciones de ingeniería en las artes. Los autores creen que esto es de vital importancia en un momento en que los sistemas educativos priorizan cada vez más las agendas corporativas sobre capacidades como el pensamiento crítico, la imaginación, la empatía y la justicia.
+  
+- A medida que los softwares continúan impregnando nuestras vidas, necesitamos fomentar culturalmente, maneras de contextualizarle, cuestionarle, modificarle, y desarrollar entendimientos compartidos para trabar con él. Pues así mismo como todxs deberían aprender a programar, todxs también deberían estar equipados con herramientas intelectuales de las artes. 
+
+- Golan y Tegan, siguen el trabajo de pioneros como: Idit Harel,Seymour Papert, Sherry Turkle y Mitchel Resnick.
+  
+- Las tareas asignadas en este libro fueron seleccionadas teniendo en cuenta estos criterios en mente ofreciendo oportunidades para personalizar, explorar, debatir, y cuestionar la computación.
+  
+- Democratizar la imaginación para el futuro.
 

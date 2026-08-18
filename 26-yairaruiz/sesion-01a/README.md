@@ -7,7 +7,7 @@ apunte clase martes 11/08:
 
 En esta clase empezamos con una introducción de GitHub, luego una actividad en clase de conversar y analizar las fotografías que pudimos sacar de los ascensores. También tuvimos una explicación sobre el funcionamiento de ellos. 
 
-Con mis compañeras, analizamos los distintos botones, el orden de los pisos, incluso que algunos contaban con aire acondicionado, 
+Con mis compañeras, analizamos los distintos botones, el orden de los pisos, incluso que algunos contaban con aire acondicionado, etc.
 
 Primero empezamos a recopilar qué es lo que conforma un ascensor: 
 
@@ -25,11 +25,21 @@ Primero empezamos a recopilar qué es lo que conforma un ascensor:
 - paréntesis: función o acción
 - Sin paréntesis : dato
 
+ ### ¿Qué es un Arduino?
+
+  Es una placa electrónica programable. Recibe instrucciones mediante código para controlar sensores, luces, motores y otros dispositivos electrónicos.
+
+  ¿Cómo funciona? 
+  
+Cargándole un código desde el computador y el Arduino lo ejecuta, para activar o leer componentes electrónicos, como sensores, LEDs o motores.
+
+![IMG](./imagenes/arduino2.png) 
+
 ## encargos
 
 encargo 01-a:
 
-autorretrato: describir variables y funciones de ustedes. investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
+autorretrato: describir variables y funciones de ustedes. 
 
 - Variables son datos, funciones son acciones.
 (para estudiar: <https://thecodingtrain.com/tracks/code-programming-with-p5-js>)
@@ -53,34 +63,58 @@ autorretrato: describir variables y funciones de ustedes. investigar pantallas d
 - Cantidad de horas que duermes: muchas
 - Música que escuchas: pop
 - Lugares que frecuentas: universidad 
-- Estado de ánimo: nerviosa
-- Energía: 60% de 100%
-- creatividad: constante
-- paciencia: poca
 
-### Funciones: cosas que haces
+ejemplo en C++
 
-- pensar
-- comer
-- aprender
-- conocer
+    string nombre = "Yaira";
+    int edad = 21;
+    string carrera = "Diseño Gráfico";
 
-Estoy un poco confundida pero según la forma que pude entenderlo me quedó claro de esta forma: 
+    string color_favorito = "rosado";
 
-- Variables:  quién soy / qué datos tengo.
-- Funciones:  qué hago / cómo funciono.
+    string lugares_que_frecuentas[] = {"universidad", "metro", "casa" }
 
+*Funciones:* Una función es una acción o conjunto de acciones que se puede ejecutar para realizar una tarea específica. 
 
-Pantalla de segmentos 
+ejemplo en C++ 
 
-No tuve mucho tiempo durante la semana porque estoy agarrando ritmo a la universidad + práctica por, lo que aún no tengo las fotografías pero si investigué sobre las pantallas.
+    FUNCIONES = acciones que realizo
 
+      void imaginar() {
+      // crear nuevas ideas
+      }
+
+*(aún no entiendo bien las funciones por lo que preferí ir de a poco)*
+ 
+## ítem 2 
+
+investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. 
+
+### Pantalla de segmentos 
 
 - Una pantalla de segmentos es un dispositivo electrónico de visualización formado por varios elementos independientes llamados segmentos (generalmente diodos LED o cristal   líquido) que se encienden o apagan en diferentes combinaciones para representar números y caracteres alfanuméricos (Wikipedia).
 
 “La típica pantalla digital que usa segmentos para formar números o letras. Dependiendo de qué segmentos se enciendan, puedes construir distintos números.”
 
-![IMG](./imagenes/pantalla-de-segmentos.png)
+![IMG](./imagenes/pantalla-de-segmentos.png) 
+
+### Microondas : electrodoméstico de cocina.
+
+![IMG](./imagenes/microondas.png)
+
+La pantalla se encuentra en la parte frontal y arriba del menú de botones, indicando el tiempo para calentar, también puede mostrar distintos modos de función potencia, reloj, ajuste de peso, cocción multi-etapas, descongelado rápido, auto descongelado, preseteo, pauta/cancelar, además una perilla de menú / tiempo. Las pantallas de microondas suelen utilizar pantallas de cuatro dígitos de 7 segmentos para mostrar los tiempos. Su función es reconocer rápidamente una cantidad de tiempo.
+
+### Lavadora: electrodoméstico para aseo
+
+![IMG](./imagenes/lavadora.png)
+
+Se encuentra en la parte frontal en el menú de opciones y puede indicar tiempo restante, programa, temperatura, velocidad de centrifugado o estados del ciclo, dependiendo del modelo. Mayormente es para indicar tiempo de lavado pero también puede representar textos como por ejemplo: programas de lavado eco, rápido, etc.  temperatura, centrifugado o símbolos. 
+
+### Parlante: dispositivo electrónico para reproducir sonido.
+
+![IMG](./imagenes/parlante.png)
+
+En este parlante se encuentra en la parte frontal cerca de los botones y de las perillas de volumen, para comunicar información relacionada con la reproducción como radio bluetooth y volumen. Puede utilizar números y algunas letras o abreviaciones. Funciona como una interfaz entre el dispositivo y el usuario, sobre lo que está haciendo el parlante.
 
 ## lectura
 
@@ -92,7 +126,15 @@ libro que tengo que leer:
 
 La sociedad del espectáculo se publicó por primera vez en la editorial Buhet-Chastel de París en 1967.
 
+Es una crítica a una sociedad donde el poder controla la realidad mediante imágenes, información y consumo. El “espectáculo” que se refiere es que las personas aceptan una realidad construida por otros.
+
+El libro parte dando el punto de vista del autor, sobre que las personas viven su realidad a través de las imágenes, representaciones o aparentar y a eso le llama "espectáculo". Se refiere a como las personas se relacionan, piensan y desean, son influenciadas por "las imágenes" que menciona. Menciona que para la sociedad aparentar es más importante que lo que realmente se vive.
+
+citas*
+
++ "Todo lo que era vivido directamente se aparta en una representación "
+
++ " El espectáculo no es un conjunto de imágenes, sino una relación social entre personas mediatizada por imágenes "
 
 
-
-
+*pág 24-27*
