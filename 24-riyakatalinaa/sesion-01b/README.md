@@ -260,10 +260,111 @@ void loop() {
 
 
 **IMPORTANTE:**
+- lo que nos paso con este segundo código es que no cometimos tantos errores, debido al intento anterior
+- nos pudimos percatar que existen condiciones que puedan cambiar toda una operación
+- al usar el botón, cuando este presionado = **LOW** y cuando no = **HIGH** (algo que nosotras pensábamos que era al revés, porque intuimos que funcionaba como el LED, **HIGH** = encendido y **LOW** = apagado)
 - también algo que se nos hizo fundamental para ambos códigos fue siempre revisar el **Datasheet** de cada componente antes de hacer cualquier cambio, esta lectura nos da un mejor entendimiento de las capacidades y limitaciones de la placa, y nos permite identificar los nombres correctos para programarla correctamente.
 
 
 2-proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+**función: comprarTomarCafeTibio(conJunaeb)**
+
+``` C++
+
+// primero ponemos los bool = almacena valores
+ // con dos estados: true / false
+ // luego int = numeros enteros sin decimales
+
+ // en este caso 
+ // lo que queremos es comprar cafe
+ //  pero para hacerlo tenemos que tener en consideracion lo siguiente
+
+ bool quedaJunaeb = true;
+ bool tengoTiempo = true;
+ bool tomeDesayuno = false;
+ bool hayCapuccinoVainilla = true;
+ bool cafeCaliente = true;
+ int cuantosSomos = 2;
+
+void setup() {
+
+}
+
+void loop() {
+
+  // para comenzar tenemos que tener en consideracion lo primero
+  // si es que tenemos como pagarlo, si tenemos tiempo para pasar por un y si tomamos desayuno
+  // entonces si las 2 primeras son true y la otra es false
+  // tenemos la condicion perfecta para poder pasar por un cafe
+  // de lo contrario
+  // si alguna de estas variables cambia 
+  // no compramos cafe
+
+ if (quedaJunaeb == true && tengoTiempo == true && tomeDesayuno == false) { 
+  
+comprarCafe();
+
+  } else {
+
+noComprarCafe();
+ }
+
+  // lo segundo y que a veces no consideramos es
+  // si vamos solos o con alguien mas
+  // en este caso consideramos la idea de ser las dos
+  // si es asi tendriamos que comprar dos cafes
+  // sino seria solo uno
+
+ if  (cuantosSomos == 2){
+
+  comprarDosCafes();
+
+ } else {
+
+  comprarSoloUno();
+ }
+
+  // otra cosa que consideramos importante es el sabor del cafe
+  // y tener un backup si no esta nuestra primera opcion
+  // por ende si no hay capuccino vainilla 
+  // queremos mocaccino
+
+ if (hayCapuccinoVainilla == true) {
+
+  comprarCapuccinoVainilla();
+
+ } else {
+
+  comprarMocaccino();
+ }
+
+  // ya despues pasamos a algo que puede parecer basico
+  // pero es importante para no quemarnos la lengua
+  // y es que si el cafe esta caliente
+  // hay que soplarlo o dejarlo estar un rato
+  // sino rip papilas gustativas
+
+  // ya si el cafe no esta caliente
+  // nivel voy a morir
+  // podemos tomarlo con calma
+
+ if (cafeCaliente == true) {
+
+  soplar();
+
+ } else {
+
+  tomarConCalma();
+ }
+
+  // en resumen
+
+ if (quedaJunaeb == true && tengoTiempo == true && tomeDesayuno == false && hayCapuccinoVainilla = true && cafeTibio == true){
+   caritaFeliz();
+   }
+
+```
 
 
 ## lectura
