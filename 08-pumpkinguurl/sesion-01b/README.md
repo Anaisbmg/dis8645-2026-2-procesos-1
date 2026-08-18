@@ -92,7 +92,9 @@ Y .begin es lo que se coloca para llamarlo a prenderse
 
 Ahora para empezar con la magia hay que ponerle algo que se llama bitmap, el cual a través de 0 y 1 enciende o apaga los leds de la matriz. La matriz de la placa cuenta con 8 filas y 12 columnas. Si todas tuviesen el valor de 1, toda la matriz estaría encendida, si todos fueran 0, estaría apagada.
 
-se escribe así {0,0,0,0,1,1,1,0,0,0,0,1},
+se escribe así ej: {0,0,0,0,1,1,1,0,0,0,0,1},
+
+![placa encendida](./prueba-uno.jpeg)
 
 Entonces,
 
@@ -102,14 +104,14 @@ Entonces,
 ArduinoLEDMatrix Pantalla;  //Instancia objeto
 
 byte corazon [8][12] = {
-    {0,0,0,0,0,0,0,0,0,0,0,0},
-    {0,0,0,1,1,0,1,1,0,0,0,0},
-    {0,0,1,0,0,0,0,0,1,0,0,0},
-    {0,0,1,0,0,0,0,0,1,0,0,0},
-    {0,0,0,1,0,0,0,1,0,0,0,0},
-    {0,0,0,0,1,0,1,0,0,0,0,0},
     {0,0,0,0,0,1,0,0,0,0,0,0},
-    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,1,0,0,0,1,0,0,0,0},
 };
 
 void setup() {
@@ -125,7 +127,9 @@ void loop() {
 }
 ```
 
+![personita](./prueba-dos.jpeg)
 
+Entiendo la idea pero no entiendo como aplicarla. 
 
 
 
