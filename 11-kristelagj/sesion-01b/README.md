@@ -2,6 +2,21 @@
 
 ## apuntes sesión
 
+## clase 140806
+
+### clase
+
+- Aarón
+
+Funciones: secuencia de instrucciones para que ocurran cosas, una rutina, coreografía 
+Void: un tipo
+
+{ : desde acá
+
+Setup es una función ("¿Qué necesito preparar antes de empezar?")
+
+Setup es hacer una sola vez y loop es repetir
+
 ## encargos
 
 encargo01b:
