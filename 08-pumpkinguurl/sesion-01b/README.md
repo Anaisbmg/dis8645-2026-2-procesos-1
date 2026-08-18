@@ -214,12 +214,94 @@ void loop() {
 }
 ```
 
+![a cuanto equivale F](./prueba-cuatro.jpeg)
 
+Al parecer F significa "prendo 4 leds"
 
-
+Ahora en el lugar donde estaba la F puse una A y se prendieron los leds 1 y 3 de la primera fila. ¿Cada carácter significa algo? demás que sí, pero no lo entiendo. Igual demás que es imposible aprenderse todas esas combinaciones.
 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+Profe no le voy a mentir, en esta parte me ayudé un poco de la IA, pero onda le fui escribiendo lo que escribía y ahí me decía si iba bien o si estaba poniendo puras cabezas de pesado.
+
+la idea una clienta quiere comprar una torta de chocolate y empezamos así
+
+```cpp
+//escoger una torta de chocolate 
+//la torta no debe tener frutos secos 
+//la torta no debe tener mermeladas 
+//puede tener manjar 
+//debe ser con azucar 
+//las opciones que hay para escoger son 
+//chocolate manjar, chocolate sin azúcar, chocolate y mermelada de frambuesa 
+//chocolate nuez, cheesecake
+
+//clienta quiere comprar una torta de chocolate 
+bool ConMermelada = false; 
+bool ConManjar = true; 
+bool SinAzucar = true; 
+bool ConFrutosSecos = false; 
+bool Cheesecake = false;
+```
+
+Y aquí me corrigió que había algunas cosas que podían causar confusión, como el decir en la función que acepta ciertas cosas, pero al colocarlo en los bool los puse como condiciones que si o si deben existir y me recomendó que en vez de usar el "con(ingrediente)" utilizara el "acepta(ingrediente)"
+
+Entonces las preferencias de la clienta quedarían como 
+
+```cpp
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaSinAzucar = false;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+```
+
+Y luego de definir las preferencias de ingredientes de la clienta debemos ver las opciones de pasteles de chocolate que se ofrecen e identificar si sirven o no para la clienta. Hasta el momento iría así
+
+```cpp
+//clienta quiere comprar una torta de chocolate
+bool AceptaMermelada = false
+bool AceptaManjar = true
+bool AceptaSinAzucar = false
+bool AceptaFrutosSecos = false
+bool AceptaCheesecake = false
+//los sabores disponibles son
+//Torta chocolate manjar
+bool TieneMermelada = false
+bool TieneManjar = true bool
+TieneSinAzucar = false bool
+TieneFrutosSecos = false bool
+TieneCheesecake = false
+//Torta chocolate mermelada
+bool TieneMermelada = true
+bool TieneManjar = false bool
+TieneSinAzucar = false bool
+TieneFrutosSecos = false bool
+TieneCheesecake = false
+//Torta chocolate y frutos secos
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneSinAzucar = false
+bool TieneFrutosSecos = true
+bool TieneCheesecake = false
+//Torta de chocolate sin azucar
+bool TieneMermelada = false
+bool TieneManjar = false bool
+TieneSinAzucar = true bool
+TieneFrutosSecos = false bool
+TieneCheesecake = false
+//y Cheesecake de chocolate
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneSinAzucar = false
+bool TieneFrutosSecos = false
+bool TieneCheesecake = true
+```
+
+
+
+
 
 ## lectura
 
