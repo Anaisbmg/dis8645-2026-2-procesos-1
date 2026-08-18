@@ -1127,6 +1127,12 @@ y:
 cyw43_arch_gpio_put();
 ```
 
+CYW43  → chip inalámbrico que controla ese LED
+WL     → Wireless LAN
+GPIO   → entrada/salida digital
+LED    → estamos hablando del LED
+PIN    → identifica su conexión
+
 Referencia oficial del código Blink:
 
 https://github.com/raspberrypi/pico-examples/blob/master/blink/blink.c
@@ -1388,7 +1394,10 @@ En este código fui cambiando principalmente dos cosas:
 ```cpp
 cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
 ```
-
+cyw43_arch_gpio_put(CYW43_WL_GPIO_LED_PIN, 1);
+                     ↑                       ↑
+                  argumento 1            argumento 2
+                  qué controlar          qué hacer
 significa que el LED queda **encendido**.
 
 ```cpp
@@ -1459,7 +1468,7 @@ Esto me permitió pasar de copiar el ejemplo inicial a empezar a modificarlo seg
 
 Cada vez que modifique el código y quiera probarlo nuevamente en el Raspberry Pi Pico 2 W, debo seguir este proceso:
 
-### 1. Guardar el código
+### paso 01 Guardar el código
 
 En Visual Studio Code:
 
@@ -1469,9 +1478,7 @@ Command + S
 
 Esto guarda los cambios realizados en el archivo `.cpp`.
 
----
-
-### 2. Compilar el proyecto
+### paso 02 Compilar el proyecto
 
 Abrir la paleta de comandos de VS Code:
 
@@ -1491,9 +1498,7 @@ Compilar significa transformar el código C++ que escribí en un programa que el
 
 Si no aparecen errores, puedo continuar.
 
----
-
-### 3. Poner el Pico en modo BOOTSEL
+### paso0 3 Poner el Pico en modo BOOTSEL
 
 Para cargar el programa nuevo:
 
@@ -1517,9 +1522,8 @@ RP2350
 
 Esto significa que el Pico está listo para recibir un programa nuevo.
 
----
 
-### 4. Cargar el programa al Pico
+### paso 04 Cargar el programa al Pico
 
 Volver a VS Code y abrir nuevamente:
 
@@ -1537,9 +1541,7 @@ y ejecutarlo.
 
 VS Code cargará el programa compilado al Raspberry Pi Pico 2 W.
 
----
-
-### 5. Esperar el reinicio
+### paso 05 Esperar el reinicio
 
 Después de cargar el programa:
 
@@ -1552,8 +1554,6 @@ debería desaparecer automáticamente de Finder.
 Esto es normal.
 
 Significa que el Pico salió del modo BOOTSEL, se reinició y comenzó a ejecutar el nuevo código.
-
----
 
 ### Flujo resumido
 
@@ -1586,4 +1586,16 @@ EL PICO EJECUTA EL NUEVO CÓDIGO
 ```
 
 > Si la compilación muestra errores, primero debo corregirlos antes de intentar cargar el programa nuevamente al Pico.
+
+
+
+
+
+
+
+
+
+
+
+
 ## lectura
