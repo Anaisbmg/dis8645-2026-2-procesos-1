@@ -2,9 +2,7 @@
 
 ## apuntes sesión
 
-# variables, booleanos, funciones y arduino
-
-## referentes
+### referentes
 
 susan kare, diseñadora de los primeros computadores y de sus iconos.
 
@@ -18,7 +16,7 @@ wiring.
 
 tom igoe, uno de los 5 co-creadores de arduino.
 
-## variables
+### variables
 
 dato más extremo: variable si o no.
 
@@ -42,7 +40,7 @@ int biankaedad = 22;
 
 `22` → valor
 
-### constante
+#### constante
 
 constante = "algo fijo"
 
@@ -50,7 +48,7 @@ constante = "algo fijo"
 const int edad = 22;
 ```
 
-## algebra booleana
+### algebra booleana
 
 trabajamos con valores de:
 
@@ -90,7 +88,7 @@ compuerta and → tienen que cumplirse las dos condiciones.
 
 compuerta or → basta que una condición sea verdadera.
 
-## tipos de variables
+### tipos de variables
 
 `string` → pueden tener palabras.
 
@@ -106,7 +104,7 @@ compuerta or → basta que una condición sea verdadera.
 
 8 bits = 1 byte.
 
-## arduino
+### arduino
 
 arduino uno r4
 
@@ -119,7 +117,7 @@ processing
 
 wiring
 
-## setup
+### setup
 
 setup = configuración, coreografía, configurar para que empiece el inicio de las cosas.
 
@@ -156,7 +154,7 @@ es una función que existe, por ende está declarada.
 
 para usarla primero tiene que existir.
 
-## {}
+### {}
 
 `{}` = scope / contexto.
 
@@ -172,7 +170,7 @@ if (condicion) {
 
 solo ocurre lo que está dentro si la respuesta es si.
 
-## variables en c++
+### variables en c++
 
 ```cpp
 bool biankaEstudianteUDP = true;
@@ -188,7 +186,7 @@ int biankanacimientodia = 1;
 
 `int` → número entero.
 
-## = y ==
+### = y ==
 
 el `=` no es simétrico.
 
@@ -210,7 +208,7 @@ edad == 22
 
 pregunta si edad es igual a 22.
 
-## if / condicionales
+### if / condicionales
 
 `if` sirve para poner una condición.
 
@@ -252,7 +250,7 @@ if (mesActual == biankanacimientomes && diaActual == biankanacimientodia) {
 
 las dos condiciones tienen que cumplirse.
 
-## colores y bits
+### colores y bits
 
 tenemos 3 receptores:
 
@@ -368,7 +366,7 @@ por ejemplo:
 // entonces le deseo feliz cumpleaños
 ```
 
-## matrices led
+### matrices led
 
 matrices led = varios leds organizados en filas y columnas.
 
@@ -380,23 +378,7 @@ se pueden utilizar para mostrar:
 * imágenes
 * animaciones
 
-## idea general
 
-las variables sirven para describir cosas dentro de un contexto.
-
-las variables pueden cambiar.
-
-las constantes son cosas fijas.
-
-los booleanos permiten trabajar con si o no.
-
-las compuertas and y or permiten combinar condiciones.
-
-las funciones son secuencias de instrucciones para que ocurran cosas.
-
-el `if` permite que algo ocurra solamente si se cumple una condición.
-
-todo esto lo podemos llevar a arduino mediante c++ y el arduino ide.
 
 
 ## encargos
