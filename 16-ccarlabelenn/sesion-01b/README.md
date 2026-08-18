@@ -169,11 +169,71 @@ void loop() {
 ```
 ````
 
-## encargos
+## encargo 01b
 
-encargo01b:
+# leerEnMetro
 
-1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+la función `leerEnMetro` modela mi rutina de lectura durante el trayecto diario hacia la universidad, desde Plaza Maipú (Línea 5) hasta República, combinando en la estación San Pablo hacia Línea 1. es de tipo `void`, ya que no retorna un valor sino que ejecuta una secuencia de acciones. 
+
+## código 
+
+```c
+// Función que modela mi rutina de lectura en el trayecto Plaza Maipú - República
+// Recibe dos datos: hacia dónde voy (universidad) y si es hora punta
+void leerEnMetro(destinoUniversidad, horaPunta) {
+
+  // Subo al metro en mi estación de origen, Plaza Maipú, en Línea 5
+  subir(plazaMaipu, linea5);
+  // Busco un espacio dentro del vagón para ubicarme
+  buscar(espacio, vagon);
+  // Saco el libro físico desde la mochila
+  sacar(libro, mochila);
+
+  // Evalúo cómo sostener el libro según las condiciones del vagón
+  if (horaPunta && vagon == apretado) {
+    // Uso el equilibrio de mi cuerpo en vez de sujetarme con fuerza
+    apoyar(cuerpo, equilibrio);
+    // Sostengo el libro con una sola mano
+    sostener(libro, unaMano);
+  }
+  // Si no es esa situación, pregunto si hay asiento disponible
+  else if (asiento == disponible) {
+    sentarse();
+    sostener(libro, dosManos);
+  }
+  //
+  // Si ninguna condición especial se cumple, sigo leyendo con normalidad
+  else {
+    // Guardo el párrafo que voy leyendo en este momento
+    string parrafo = leerPagina();
+    // Avanzo a la siguiente página
+    avanzar(paginaActual);
+  }
+
+  // Evalúo si llegué a la estación donde debo combinar de línea
+  if (estacion == "San Pablo") {
+    // Marco en qué página iba, mientras el libro sigue abierto
+    marcar(paginaActual);
+    // Ahora sí, cierro el libro para hacer el cambio de línea
+    cerrar(libro);
+    // Combino desde Línea 5 hacia Línea 1
+    combinar(linea5, linea1);
+  }
+
+  // Evalúo si llegué a mi destino, República, y si hay gente bloqueando la puerta
+  if (estacion == republica && puerta == bloqueada) {
+    // Guardo el libro porque necesito las manos libres para salir
+    guardar(libro, mochila);
+    // Espero a que se genere un espacio para poder pasar
+    esperar(espacioParaSalir);
+    // Empujo suavemente para abrirme paso
+    empujar(suave, salida);
+    //
+    // Finalmente logro bajar, aunque con dificultad
+    bajar(vagon, conDificultad);
+  }
+}
+```
+recibe dos argumentos: `destinoUniversidad`, que representa mi destino final, y `horaPunta`, que indica si el trayecto ocurre en un horario de mayor congestión. internamente, la función evalúa distintas condiciones del entorno (como si el vagón está apretado, si hay asiento disponible, si llegué a la estación de combinación, o si encuentro dificultad para bajar en mi destino) para determinar qué acciones ejecutar en cada momento. esto incluye adaptaciones propias de mi forma de leer en el metro, como usar el equilibrio del cuerpo para sostener el libro cuando voy de pie y apretada, y la secuencia de pasos necesaria para lograr bajar en República cuando la puerta está bloqueada por otros pasajeros cosa que me carga.
 
 ## lectura
