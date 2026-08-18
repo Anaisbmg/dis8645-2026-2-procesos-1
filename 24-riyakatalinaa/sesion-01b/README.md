@@ -94,7 +94,11 @@ partimos hablando de algunos libros subidos por Matías
 
 **y cómo la puedo programar con Arduino?**
 
-**recordar subir foto**
+**foto de como va conectada Raspberry Pi Pico H al computador** 
+
+![Foto Raspberry Pi Pico H conectada a computador](./imagenes/foto-raspi-computador.jpg)
+
+fotografía tomada por Emilia Contreras
 
 - después de realizar esa pregunta nos explico cómo instalar el core de [Arduino-Pico — GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de software estadounidense), el cual es el core de Arduino para los microcontroladores **RP2040/RP2350**, que son los chips que utilizan placas Pico.
 
@@ -177,7 +181,9 @@ digitalWrite(LED_BUILTIN, LOW);
 
 **video de como respondió la Raspberry Pi Pico H al código**
 
-**subir video**
+![Vídeo LED intermitente en la placa](./imagenes/video-led-intermitente.mp4)
+
+video tomado por Emilia Contreras
 
 **IMPORTANTE:**
 - nos dimos cuenta de que al querer cambiar el **delay** (los milisegundos) descubrimos que debíamos reiniciar la placa a través del botón **BOOTSEL**; si no hacíamos este paso, nos daba un error al intentar poner en marcha las modificaciones, **esto es relevante para realizar cualquier cambio en el código original**
@@ -201,9 +207,11 @@ también decidimos realizar otro código en el cual el LED se encendiera gracias
 
 - como nuestra intención era encender el LED gracias a un botón elegimos **"Agregar un botón y cables caimán para poder probarlo en casa"** (que nos permita prender y apagar el LED)
 
-**foto de como van posicionados los cables caimán en Raspberry Pi Pico H?**
+**foto de como van posicionados los cables caimán en Raspberry Pi Pico H**
 
-**subir foto**
+![Foto conexión de la placa con el botón](./imagenes/conexion-placa-boton.jpg)
+
+fotografía tomada por Emilia Contreras
 
 - en este código nos percatamos que existen otras funciones, variables y condicionales, tales como:
 
@@ -283,6 +291,9 @@ void loop() {
 
 **video de como respondió la Raspberry Pi Pico H al a integración de un botón y código**
 
+![Vídeo del LED siendo prendido por el botón](./imagenes/video-led-boton.mp4)
+
+video tomado por Emilia Contreras
 
 **IMPORTANTE:**
 - lo que nos paso con este segundo código es que no cometimos tantos errores, debido al intento anterior
@@ -292,6 +303,8 @@ void loop() {
 
 
 2-proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+- con mi compañera Emilia Contreras/hazzaily decidimos realizar la acción de comprar y tomar café
 
 **función: comprarTomarCafeTibio(conJunaeb)**
 
