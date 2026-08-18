@@ -42,7 +42,13 @@ encargo01b:
 La primera parte es difícil de explicarla para mí, ya que no tenía la placa conmigo. Pero mi compañera conectó la placa a su pc para iniciar, hicimos el reset manual y la luz de la placa empezó a parpadear suavemente.
 He aquí las pruebas:
 
+![Parpadeo arduino](./arduino-luz-encendida.jpeg)
+![Parpadeo arduino 2](./arduino-luz-apagada.jpeg)
+
 Lo que se logró posteriormente, fue prender completamente la matriz de LEDs.
+
+![Pantalla encendida arduino](./arduino-pantalla-led-prendida.jpeg)
+
 Había que empezar el 
 
 ```cpp
@@ -74,6 +80,9 @@ byte estrella [8][12] = {
     {0,0,0,1,0,0,0,1,0,0,0,0},
 };
 ```
+
+![Intento 1 estrella](./arduino-estrella-martina.jpeg)
+
 y quedó muy bien. Yo en cambio lo intenté de otra manera y me quedó horrible, no entendí que hice realmente.
 
 ```cpp
@@ -118,6 +127,8 @@ void loop() {
   delay(1000) // mantenerla encendida por un segundo
 }
 ```
+
+![Intento 2 estrella](./arduino-estrella-bombobby.jpeg)
 
 En ese momento no entendí que hice mal, ahora veo que solo compliqué más de lo necesario el código...
 
