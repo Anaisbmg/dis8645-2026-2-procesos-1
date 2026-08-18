@@ -34,7 +34,7 @@ Referencia: [W3Schools - C++ Variables](https://www.w3schools.com/cpp/cpp_variab
 
 ## ¿QUÉ HICIMOS?
 Descargamos Arduino IDE
-- Este no lo instalé en clases ya que lo tengo instalado desde el curso de "Interacciones inalámbricas".
+- Este no lo instalé en clases ya que lo tengo instalado desde el curso de "Interacciones inalámbricas".  
   ![Arduino IDE instalado](./imagenes/arduino-instalado.png)
 
 - En clase se instaló la versión 2.3.10.
