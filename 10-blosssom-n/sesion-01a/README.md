@@ -100,6 +100,44 @@ Ver, Dormir, Leer
 
 2. Investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. https://en.wikipedia.org/wiki/Segment_display
 
+
+
+1. Torno / drill
+   
+<img src="./imagenes/pantalla1-torno.jpeg" alt="Pantalla del torno parte 1" width="300"> <img src="./imagenes/pantalla1-torno2.jpeg" alt="Pantalla del torno parte 2" width="300">
+
+La primera pantalla es la de mi torno que uso para trabajar. Está ubicada en la parte superior de la máquina, justo donde quedan también los botones principales. Es una pantalla de tres dígitos formada por segmentos rojos, parecida a las típicas pantallas de siete segmentos, donde cada número o letra aparece prendiendo distintas partes del mismo carácter. 
+
+Cuando estoy viendo las revoluciones aparece algo como F00 o A00, dependiendo de la dirección en que esté girando el torno, y puede llegar hasta F35 O A35. También está la información de la batería: ahí aparece una P acompañada de un número desde P00 hasta P99. Me llamó la atención que no llegue a P100, pero tiene sentido porque la pantalla tiene solo tres espacios y simplemente no cabe una letra más tres números.
+
+Su alfabeto entonces no es solamente del 0 al 9. También aprovecha algunas letras que se pueden formar de manera reconocible con los mismos segmentos, como la F, la A o la P. Justamente esa es una de las limitaciones de estas pantallas: pueden formar números súper bien, pero solo algunas letras se entienden claramente porque hay muy pocos segmentos disponibles.
+
+
+2. Pesa de feria
+
+<img src="./imagenes/pantalla2-pesa.jpg" alt="Pantalla de pesa" width="300">
+
+La segunda pantalla es de una pesa que mi hermana estaba usando en la feria. En la foto estaba pesando un pimentón. Tiene una pantalla de vista hacia los clientes y otra para quien la está usando, entonces se puede ir viendo el resultado mientras se atiende.
+
+Esta es bastante más compleja que la del torno porque no muestra solo un valor. La pantalla está dividida en tres partes: el peso del producto, el precio por unidad y el precio total. En la foto aparece un peso de aproximadamente 0.300, después el precio ingresado y finalmente el cálculo que hace la misma pesa. O sea, en una sola pantalla conviven un dato que la máquina mide, uno que ingresa la persona y otro que el sistema calcula a partir de los dos anteriores.
+
+En este caso el alfabeto es principalmente numérico, del 0 al 9, además del punto decimal, porque toda la información importante corresponde a peso y dinero. Las pantallas de siete segmentos se usan mucho justamente para mostrar valores numéricos simples, ya que son fáciles de reconocer y no necesitan una pantalla gráfica completa.
+
+También cambia bastante el uso respecto al torno. En el torno yo miro la pantalla para controlar el funcionamiento de una herramienta, mientras que acá la información tiene que poder leerse rápidamente durante una venta y entenderse prácticamente de una sola mirada.
+
+
+3. Horno de mi cocina
+
+<img src="./imagenes/pantalla3-horno.jpeg" alt="Pantalla de horno" width="300">
+
+La tercera pantalla es la del horno de mi cocina. Está ubicada en el frente, sobre los controles, así que toda la información queda visible mientras se cocina. Acá la pantalla es mucho más grande y mezcla distintos tipos de información.
+
+En el centro aparecen números segmentados para mostrar la hora o el tiempo, y al lado aparece la temperatura, por ejemplo 50 °C. Además, la pantalla muestra dibujos que indican diferentes funciones. El primero representa desde qué parte del horno viene el calor, porque existen varios modos de cocción. También aparecen símbolos para cosas como la ventilación o la luz interior.
+
+Por eso este ejemplo es distinto a los anteriores: los números siguen utilizando la lógica de segmentos, pero el horno no representa toda la información de esa manera. Para funciones más complejas utiliza símbolos gráficos, mientras que deja los segmentos para datos exactos y cambiantes, como tiempo y temperatura.
+
+En cuanto al alfabeto, los dígitos segmentados permiten representar principalmente números del 0 al 9. Algunas letras también son posibles en una pantalla de siete segmentos, pero son bastante limitadas comparadas con displays de 14 o 16 segmentos, que pueden representar muchas más letras del alfabeto.
+
 ## lectura
 ME tocó leer Prehistoric digital poetry de C. T. Funkhouser
 ![book cover prehistoric digital poetry](./imagenes/book-prehistorical-digital-poetry.jpg)
