@@ -44,7 +44,7 @@ void setup() {
   }
 
 ```
-## ejemplo kristel
+### ejemplo kristel
 
 ```cpp
 // ejemplo con kristel
@@ -111,7 +111,7 @@ void cumplirAnhosKristel() {
 }
 
 ```
-## ejemplo sumar
+### ejemplo sumar
 ```cpp
 int valorPancito = 2000;
 int valorCafecito = 5000;
@@ -163,7 +163,7 @@ int sumarEnteros(int x, int y) {
 }
 ```
 
-## cómo conectar arduino a compu
+### cómo conectar arduino a compu
 
 - asegurarse de que sea la máquina correcta seleccionada
 - en setup se escriben todo lo importante y base para los código
@@ -172,13 +172,13 @@ int sumarEnteros(int x, int y) {
 
 ## encargos
 
-
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ### realización encargo
+#### parte uno: correr código
 estamos trabajando juntas con yaira ruiz y estamos utilizando una placa arduino UNO R4 WIFI. ninguna de nosotras ha tenido una experiencia previa con este tipo de placas, por lo que le hemos estado pidiendo ayuda a nuestras compañeras magdalena balart y marcela zuñiga, quienes tomaron el curso de interacciones inalámbricas y tienen más experiencia, nos dieron de ejemplo un ejercicio que realizaron en clases con el uso de la matriz led respecto a la parte uno del encargo, para intentar correr un código.
 
 https://github.com/marcezm/dis9079-2026-1/blob/main/00-docentes/sesion-02/ejemplo01/ejemplo01.ino
@@ -188,6 +188,8 @@ intenté copiar y pegar el código, pero sólo logré instalar una librería ``<
 desde el link que se encontraba en ese código revisé un tutorial que venía con un ejemplo listo y que funcionó.
 
 https://docs.arduino.cc/tutorials/uno-r4-wifi/r4-wifi-getting-started/
+
+#### código 01
 
 ```cpp
 #include "Arduino_LED_Matrix.h"
@@ -564,27 +566,113 @@ void loop() {
   delay(1000);
 }
 ```
+
+**resultado:**
+
+https://youtube.com/shorts/QHDVUR6-lg0?feature=share
+
 ya que no inventamos este código, le pedí ayuda a claude para poder entenderlo y saber cómo nosotras podríamos crear uno y esto dijo:
 
 ```cpp
 const uint32_t frames[][4] = { ... };
 ```
-Cada fila del array es un frame (cuadro de animación) con 4 números de 32 bits:
+"Cada fila del array es un frame (cuadro de animación) con 4 números de 32 bits:
 
-- Los primeros 3 números (0xe0000000, 0x0, 0x0, etc.) son una representación en bits de la matriz de 12x8 = 96 LEDs. Cada bit "1" significa "este LED está encendido", cada "0" significa "apagado". Como 96 bits no caben en un solo uint32_t (que tiene 32 bits), se necesitan 3 enteros para cubrir toda la matriz (3 × 32 = 96 bits).
-- El cuarto número es la duración en milisegundos que ese frame se muestra antes de pasar al siguiente (la mayoría son 66, es decir, ~15 fps; el último es 0xFFFFFFFF, que indica "quedarse en este frame para siempre", es decir, fin de la animación).
+- Los primeros 3 números (0xe0000000, 0x0, 0x0, etc.) son una representación en bits de la matriz de 12x8 = 96 LEDs. Cada bit "1" significa "este LED está encendido", cada "0" significa "apagado". Como 96 bits no caben en un solo ```uint32_t``` (que tiene 32 bits), se necesitan 3 enteros para cubrir toda la matriz (3 × 32 = 96 bits).
+- El cuarto número es la duración en milisegundos que ese frame se muestra antes de pasar al siguiente (la mayoría son 66, es decir, ```~15 fps;``` el último es ```0xFFFFFFFF```, que indica "quedarse en este frame para siempre", es decir, fin de la animación).
 
 ```cpp
 matrix.loadSequence(frames);  // carga la animación completa
 matrix.begin();               // inicializa la matriz
 matrix.play(true);            // empieza a reproducir en bucle (true = loop)
 ```
-- El loop() no tiene nada que ver con la animación — solo hace parpadear el LED integrado (LED_BUILTIN) cada segundo, de forma independiente. La animación sigue corriendo sola gracias a una interrupción interna de la librería.
+- El loop() no tiene nada que ver con la animación — solo hace parpadear el LED integrado ```(LED_BUILTIN)``` cada segundo, de forma independiente. La animación sigue corriendo sola gracias a una interrupción interna de la librería.
 
-- El propio Arduino IDE trae un "LED Matrix Editor" (en algunas versiones, como parte de los ejemplos de la librería Arduino_LED_Matrix) donde dibujas con el mouse y te genera el código automáticamente.
+- El propio Arduino IDE trae un "LED Matrix Editor" (en algunas versiones, como parte de los ejemplos de la librería ```Arduino_LED_Matrix```) donde dibujas con el mouse y te genera el código automáticamente.
 - Puedes buscar en la web "Arduino UNO R4 LED matrix animation editor" — hay editores online no oficiales que hacen exactamente esto: dibujas, clic por clic, y te devuelven el array en C++.
-- Arma la fila del array: { hex1, hex2, hex3, duración_ms }.
+- Arma la fila del array: ```{ hex1, hex2, hex3, duración_ms }.```"
 
-no logro entender del todo por la terminología pero es un comienzo para adentrarnos en el programa.
+no logro entender del todo por la terminología pero me dio una idea general de cómo funcionaría hacer un código para la matriz led.
+
+_______________________________________________
+
+
+por otra parte, yai logró hacer correr un código con la ayuda de magdalena balart y santiago cifuentes, y este funcionó y mostró un corazón:
+
+![ejemplo yai](./imagenes/yai.png)
+
+#### código 2
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix matrix;
+
+byte corazon[8][12] = {
+  {0,0,1,1,0,0,0,1,1,0,0,0},
+  {0,1,1,1,1,0,1,1,1,1,0,0},
+  {1,1,1,1,1,1,1,1,1,1,1,0},
+  {1,1,1,1,1,1,1,1,1,1,1,0},
+  {0,1,1,1,1,1,1,1,1,1,0,0},
+  {0,0,1,1,1,1,1,1,1,0,0,0},
+  {0,0,0,1,1,1,1,1,0,0,0,0},
+  {0,0,0,0,1,1,1,0,0,0,0,0}
+};
+
+void setup() {
+  matrix.begin();
+  matrix.renderBitmap(corazon, 8, 12);
+}
+
+void loop() {
+}
+```
+
+**enseñanzas**
+
+a partir de este ejercicio logré entender un poco mejor cómo funciona la matriz led, y la diferencia entre su funcionamiento fijo y cómo hacerlo como una animación, con el primero el código es más corto y simple, los números representan los leds: 0 apagado; 1 prendido, y así se genera la forma. por otra parte, al querer hacer una animación, se vuelve más complejo, aún no logro entender lo de los hexadecimales pero sí que por cada frame hay una estructura de distinta de números y que estas van siempre dentro de los murciélagos {}, ya que por lo que entendí en clases, es cuando empieza y termina una acción.
+
+**aciertos**
+
+ambas logramos hacer funcionar la placa y obtener los resultados que queríamos
+
+**dudas/atados**
+
+- al estar recién familiarizándonos con el lenguaje no entendemos cómo organizar el código para la matriz led ni qué palabras usar, pero imaginamos que con el tiempo lo iremos dominando y podremos generar uno desde 0.
+- yo no supe cómo instalar una librería porque no me aparecía, y no sé si tendrá que ver con las versiones, si la librería ya no existe, o si yo estoy haciendo algo mal.
+
+### parte dos: funciones
+
+función cotidiana: leer libro
+
+ejemplo de la función:
+
+- _string nombreLibro: dato de caracteres del nombre del libro_
+- _int tiempoLibre: número entero en minutos_
+- _int nivelEnergia: número entero del 1-5_
+- _bool lugarApropiado: verdadero o falso si es que en el lugar puedo leer_
+
+```cpp
+void leerLibro(string nombreLibro, int tiempoLibre, int nivelEnergia, bool lugarApropiado) {
+  
+  // evaluar si es que hay:
+  // tiempo libre (mas de 10 min)
+  // la energía suficiente (de 1-5, suficiente desde 3)
+  // el lugar es apropiado (ej: no en clases, sí en la casa o metro)
+
+  if (tiempoLibre >= 10 && nivelEnergia >= 3 && lugarApropiado == true) {
+    
+    sacar(nombreLibro);
+    = leerPagina();
+    procesarIdea;
+    
+    guardar(nombreLibro);
+    
+  } 
+  else {
+    // si falta tiempo, energía o el lugar no corresponde
+    noLeer();
+  }
+```
 
 ## lectura

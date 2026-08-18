@@ -567,16 +567,18 @@ TOMAR AWITA
 ```cpp
 void tomarAgua(vaso, cantidad) {
     buscar(vaso);
-    llenar(vaso, agua);
 
-    if (vaso == lleno) {
-        tomar(vaso);
+    if (tengoSed) {
+        llenar(vaso, cantidad);
+        tomar(vaso, cantidad);
+        dejar(vaso, mesa);
+    } else {
+        guardar(vaso, alacena);
     }
-    else {
-        llenar(vaso, agua);
-    }
+}
 
-    dejar(vaso, mesa);
+// USO:
+tomarAgua(vasoAzul, 250);
 }
 ```
 
@@ -587,12 +589,11 @@ EXPLICACIÓN:
 + Argumentos: vaso, cantidad
 + Uso: tomar agua cuando tengo sed.
 
+
+
 *Proceso :
-Busco un vaso.
-Lo lleno con agua.
-Si el vaso está lleno, tomo agua.
-Si no, lo vuelvo a llenar.
-Dejo el vaso en la mesa.*
+
+![IMG](./imagenes/dfd.png/)
 
 Pseudocódigo = escribir las instrucciones como si fueran código, pero sin preocuparte de que realmente funcione.
 
