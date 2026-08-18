@@ -150,4 +150,39 @@ se puede ver como primero definimos ambos números y luego los colocamos en una 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+```cpp
+void VisitarFeria(){
+  //dias desde el 1 que corresponde al primer día del mes
+int DiaFeria = 23;
+
+//enero es 1, diciembre es 12
+int MesFeria = 8;
+
+// horario feria es a las 10am, optima hora para llegar
+//si quiero llegar a esa hora debo levantarme a las 8am
+int HorarioFeria = 10;
+
+//día empieza a las 0 hasta las 23
+int Horalevantarse = 8;
+
+//dinerito necesario para comprar ropita linda
+//dinero en efectivo
+int DineroParaGastar = 20000;
+
+if (DiaFeria == DiaActual && MesActual == MesFeria ){VisitarFeria();
+}
+if (DiaActual == DiaFeria -1){ColocarAlarma(a las 8);
+}
+//
+if RopaBonita < 5000 {ComprarPrenda ();
+}
+//joya encontrada
+
+else if (RopaBonita > 5000){NoComprar();
+}
+// ta muy caro, a menos que sea una real joya
+
+void ColocarAlarma (8am);
+}
+```
 ## lectura
