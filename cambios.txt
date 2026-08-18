@@ -1,0 +1,3 @@
+### 🔧 Archivos renombrados
+
+- `26-yairaruiz/sesion-01b/imagenes/DFD.png` → `26-yairaruiz/sesion-01b/imagenes/dfd.png`
