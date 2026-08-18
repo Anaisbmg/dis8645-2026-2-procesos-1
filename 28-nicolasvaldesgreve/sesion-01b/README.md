@@ -179,6 +179,28 @@ las respuestas que tuve a este mensaje fueron las siguientes:
 
 debido a esto, no he podido usar la raspi que me asignaron:( momos sad. de igual manera, aquí dejo mi investigación:
 
+para poder meter código a la Raspberry Pi Pico 2W mediante Arduino IDE debemos seguir los siguientes pasos:
+
+1. dentro de Arduino IDE, ir a ``File`` para luego hacer click en ``Preferences``.
+
+![screenshot de Arduino IDE](./imagenes/preferences.png)
+
+2. dentro de ``Preferences``, ir a "Additional boards manager URLs" y pegar la siguiente dirección: ``https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json``
+
+![screenshot preferencias IDE](./imagenes/url.png)
+
+3. luego, ir a ``Boards Manager`` el cual se puede encontrar presionando en ``Tools`` -> ``Boards``
+
+![screenshot para buscar boards manager de manera lenta lol](./imagenes/bmanager.png)
+
+4. dentro de ``Boards Manager`` buscar "pico", en donde nos saldrán tres opciones pero debemos de instalar la versión de _Earle Philhower_.
+
+![screenshot de opciones](./imagenes/raspis.png)
+
+5. una vez ya tengamos el soporte para las placas instaladas, conectamos nuestra Raspi. en el caso de que no la identifique de manera inmediata, podemos ir a _"Select Other Board and Port"_ en donde podemos ayudar a identificar el microcontrolador y el puerto USB en el que se encuentra.
+
+![no me sale nada lol ayuda](./imagenes/no-me-aparece.png)
+
 
 ### ejercicio de función: sacar a pasear al Mailo (mi hermano chico que es un perro)
 
