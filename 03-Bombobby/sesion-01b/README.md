@@ -119,10 +119,124 @@ void loop() {
 }
 ```
 
-En ese momento no entendí que hice mal, ahora veo q solo compliqué más de lo necesario el código...
+En ese momento no entendí que hice mal, ahora veo que solo compliqué más de lo necesario el código...
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+Mi compañera dio la idea de hacer una función que modele la elección de un cliente al momento de comprar torta, el cliente quiere torta de chocolate.
 
+Mi compañera había hecho una, pero sintió que era demasiado complicada:
+
+```cpp
+//escoger una torta de chocolate 
+//la torta no debe tener frutos secos 
+//la torta no debe tener mermeladas 
+//puede tener manjar 
+//debe ser con azucar 
+//las opciones que hay para escoger son 
+//chocolate manjar, chocolate sin azúcar, chocolate y mermelada de frambuesa 
+//chocolate nuez, cheesecake
+
+//clienta quiere comprar una torta de chocolate
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaAzucar = false;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+//los sabores disponibles son
+//Torta chocolate manjar
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate mermelada
+bool TieneMermelada = true
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate y frutos secos
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = true
+bool TieneCheesecake = false
+//Torta de chocolate sin azucar
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = false
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//y Cheesecake de chocolate
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = true
+```
+
+Luego le dio un valor numérico a cada torta y fue un poco confuso.
+
+Yo hice otra versión, que creo que se ve muy diferente a la suya:
+
+```cpp
+// sistema de selección de torta para cliente
+
+// preferencias para la torta del cliente
+String preferenciaBizcochoTorta = "humedo"; // opciones: "humedo" o "tradicional"
+String preferenciaCrema = "sabor chocolate"; // opciones: "sabor chocolate" "sabor vainilla" "sabor tradicional" 
+
+// aquí guardaremos el nombre de la torta elegida:
+String tortaDePuroChocolateElegida = "";
+
+void setup() {
+  // evaluamos las opciones para elegir la torta adecuada, en este caso de chocolate
+  tortaDePuroChocolateElegida = elegirTortaDePuroChocolate(preferenciaBizcochoTorta, preferenciaCrema);
+
+}
+
+void loop() {
+ //
+}
+
+String elegirTortaDePuroChocolate(String preferenciaBizcocho, String preferenciaCrema) {
+ String resultadoTorta = "";
+
+  if (bizcocho == "humedo") {
+    if (crema == "sabor chocolate")
+    resultadoTorta = "Torta Sabor Puro Chocolate Húmedo"; 
+
+}
+// sistema de selección de torta para cliente
+
+// preferencias para la torta del cliente
+String preferenciaBizcochoTorta = "humedo"; // opciones: "humedo" o "tradicional"
+String preferenciaCrema = "sabor chocolate"; // opciones: "sabor chocolate" "sabor vainilla" "sabor tradicional" 
+
+// aquí guardaremos el nombre de la torta elegida:
+String tortaDePuroChocolateElegida = "";
+
+void setup() {
+  // evaluamos las opciones para elegir la torta adecuada, en este caso de chocolate
+  tortaDePuroChocolateElegida = elegirTortaDePuroChocolate(preferenciaBizcochoTorta, preferenciaCrema);
+
+}
+
+void loop() {
+ //
+}
+
+String elegirTortaDePuroChocolate(String preferenciaBizcocho, String preferenciaCrema) {
+ String resultadoTorta = "";
+
+  if (bizcocho == "humedo") {
+    if (crema == "sabor chocolate")
+    resultadoTorta = "Torta Sabor Puro Chocolate Húmedo"; 
+ }
+}
+```
+
+pero me tiró error y aun no entiendo cuál es el error. Arreglé puntos y comas, los supuestos "was not declared in this scope". Ayuda profe
 
 ## lectura
