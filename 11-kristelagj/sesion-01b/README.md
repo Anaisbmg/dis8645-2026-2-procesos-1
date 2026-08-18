@@ -286,3 +286,32 @@ void tomarMetro(conPaseEscolar) {
 
 ```
 
+```cpp
+bool encuadernar(bool proceso, bool sabado) {
+
+    // 1. Decisión de la herramienta para plegar
+    if (plegadera) {
+        plegar_hojas();
+    }
+    else if (mano) {
+        plegar_hojas();
+    }
+    else {
+        usar_tarjeta(); // O tarjeta = true;
+        plegar_hojas();
+    }
+    
+    // 2. Procesos siguientes
+    bordar(hilo, aguja);
+    perfilar(cortacarton);
+
+    // 3. Evaluación final que retorna verdadero o falso
+    if (proceso || sabado) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+```
+
