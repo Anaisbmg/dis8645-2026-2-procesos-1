@@ -44,6 +44,8 @@ Código para conectar un potenciómetro a Arduino UNO R4 WIFI
      Serial.println(valorLectura);
     }
 
+![IMG](./imagenes/pot-arduino.png/)
+
 ## encargos
 
 ## lectura
