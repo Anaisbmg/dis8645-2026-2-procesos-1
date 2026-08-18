@@ -21,9 +21,13 @@ int8_t | 8, sin signo
 
 Arduino IDE (descargar)
 Uno R4 (instalar)
+Always comment, seudocodigo
 
-
-Random stuff I wrote:
+Random important stuff I wrote:
+Void setup (), Loop ()
+`` backtick se puede abrir y cerrar con 3, para luego poder copiar
+Scope: es un contexto
+Visit processing.org
 
 ## encargos
 
