@@ -3,32 +3,37 @@
 ## apuntes sesión
 potenciómetros y botones
 
-1.potenciometro/resistor variable: regular potencia
-cuanta energía hacen en cierto intervalo de tiempo
-para que la potencia sube, subimos la energía o bajando el tiempo
+Potenciometro/resistor variable: regular potencia
 
--en elec
+Cuanta energía hacen en cierto intervalo de tiempo
 
-potencia=volt*corriente
+Para que la potencia sube, subimos la energía o bajando el tiempo
 
-voltaje-energía
-corriente-tiempo
+-En elec
 
-resistor resiste el paso del electrón 
+Potencia=volt*corriente
 
-corriente - flujo de electrones/número de electrones
+Voltaje-energía
 
-el potenciómetro es una interfaz. una forma de encapsular dos resistencias/resistores
+Corriente-tiempo
 
-el electrón pasa por el cable y cuando pasa por los resistores la suma de ambos es siempre constante, como que se apoyan, besties.
+Resistor resiste el paso del electrón 
+
+Corriente - flujo de electrones/número de electrones
+
+El potenciómetro es una interfaz. una forma de encapsular dos resistencias/resistores
+
+El electrón pasa por el cable y cuando pasa por los resistores la suma de ambos es siempre constante, como que se apoyan, besties.
 
 ![imagen cable pizarra](./clase-cable.jpeg)
 
-potenciometros- letras
+Potenciometros- letras
+
 A de audio - curvas exponenciales
+
 B de lineal - curva lineal (usaremos de estos)
 
-al profe le gustan los botones
+Al profe le gustan los botones
 
 
 Hay botones (pulsadores)
@@ -50,7 +55,9 @@ Vcc - 3v3 - 5v_/ ^v^v^_ para conectarlo hay que colocar un resistor
 cuando esta abierto, la punto superior del resistor es aproximadamente 0, cuando se cierra/se aprieta el botón, pasa a valer el voltaje de inicio
 
 resistor/pulldown - es como el colchón gigante que ponen cuando alguien esta en la punta del edificio y cae por razones desconocidas.
+
 0 no toy
+
 1 toy
 
 ![dibujo en pizarra](piazarra-n-o.jpeg)
@@ -58,9 +65,12 @@ resistor/pulldown - es como el colchón gigante que ponen cuando alguien esta en
 pullup - este sería como cuando la gente se tira amarrada a un elástico? salto en Benji se llamaba
 
 Vcc _^v^v^_/ _ 0/tierra si medimos entre el resistor y botón 
+
 - si esta abierto vale Vcc
-- si se cierra vale 0  
+- si se cierra vale 0
+  
 1 no toy
+
 0 toy
 
 breadboard en ingles / protoboard en español
@@ -68,11 +78,15 @@ breadboard en ingles / protoboard en español
 ![imagen de un protoboard](./protoboard.webp) 
 
 buscar la tierra y conectarlo, se contamina todo el cable, peste bubónica.
+
 positivo 5v
+
 negativo a tierra
 
 botón 
+
 izq un hemisferio
+
 der otro hemisferio
 
 uno esta conectado al voltaje (cable rojo) y el otro lado esta conectado a un resistor y dsp a tierra. (cable negro)
@@ -135,24 +149,35 @@ void loop() {
 }
 ```
 conectar el Arduino al potenciómetro,
-1 a 5v
-2 a A0/Lectura
-3 a GND/tierra
+
+Patita 1 (oreja) a 5v
+
+Patita 2 (nariz) a A0/Lectura
+
+Patita 3 (oreja) a GND/tierra
 
 Conectar el Arduino al PC, meterle el código, 
+
 para ver la lectura apretar la lupita que esta en la esquina superior derecha.
+
 va a mostrar un número constantemente
+
 con el potenciómetro se puede cambiar el valor que se muestra.
 
 La entrada tiene una resolución de 3 bits 
+
 2^10 valores posibles
+
 [0,1023] 
+
 para decir nada 0, para decir todo 1023
 
 ejemplos 02a
 
 while - mientras que
+
 ! - lo contrario de 
+
 mientras el puerto serial no se abra, no hagas nada
 
 el seba le lanza potenciómetros al profe mientras este se quita la chaqueta, una vez que se quita la chaqueta, empieza a recibir los potenciómetros, todos los que le tiro antes de sacarse la chaqueta se perdieron
