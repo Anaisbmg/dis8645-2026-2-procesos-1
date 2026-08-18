@@ -57,6 +57,45 @@ adafruit
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+2.
+```cpp
+// esta es una receta de como hacer panqueques de platano
+// bool 
+bool cocina_funcional = true;
+
+// integers
+int huevo = 1 
+// unidad
+int platano = 1 
+// unidad
+int frambuesas = 1 
+// cucharada
+int avena = 3 
+// cucharada
+int sarten = 1 
+// unidad
+int bowl = 1 
+// unidad
+
+// ingredientes y utensilios 
+void setup () {
+  if ( cocina_funcional && huevo == 1 && platano == 1 && frambuesas == 1 && avena == 3 && sarten == 1 && bowl == 1 ) { puedo comenzar a cocinar }
+  
+}
+
+void () {
+  // paso 1: moler platano
+  // paso 2: juntar platano y huevo
+  // paso 3: agregar frambuesas y avena
+  // paso 4: calentar sarten
+  // paso 5: agregar mezcla
+  // paso 6: cocinar
+  // paso 7: dar vuelta la masa
+  // paso 8: cocinar
+  // panqueques listos
+  // comer panqueques
+
+}
+```
 
 ## lectura
