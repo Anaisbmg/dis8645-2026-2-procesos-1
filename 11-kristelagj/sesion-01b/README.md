@@ -319,3 +319,8 @@ bool encuadernar(bool proceso, bool sabado) {
 ## lectura
 
 Es un libro bastante complejo ya que además de contener poemas, ocupa un lenguaje el cual no estoy acostumbrado a leer en formato y habla de una retrospectiva humana difícil de entender. Creo que más que leer 1 página por día, es leer la sinopsis y que entiendo al pasar de los días. 
+
+Para mí se me ha hecho complejo leer una página diaria, es una lectura continua para entender el contexto de cada uno de los poemas que se encuentran. 
+
+Lo que logré entender de los primeros poemas que leí, fue hasta el 5, que el artista quiere volver a la realidad y que lo físico es su único cable a tierra. Además, lo frágil que puede ser eliminarte de la vida.
+
