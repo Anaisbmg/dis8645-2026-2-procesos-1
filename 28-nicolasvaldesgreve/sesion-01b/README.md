@@ -158,9 +158,10 @@ return resultado;
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
-### Raspberry Pi Pico 2W
+### 1. código en Raspberry Pi Pico 2W
 
 como parte del encargo tenemos que tratar de correr un código en un microcontrolador, los cuales se entregaron primero a las personas que nunca habían usado un microcontrolador anteriormente, los cuales usarán Arduino UNO R4 WiFi o Arduino UNO R4 Minima. luego de que se les entregaran y formaran duplas, a las personas que ya habíamos utilizado microcontrolador anteriormente nos entregaron Raspberry Pi (en mi caso fue la Pi Pico 2W, no sé si había otra opción) y nos dijeron que íbamos a trabajar de manera individual.
 
@@ -170,7 +171,53 @@ de momento prefiero esperar a ver qué opinan Emi y Aarón al respecto, por lo q
 
 ![screenshot de mensaje que mandé lololol ayuda jaja:'V](./imagenes/ayuda-profes.png)
 
+las respuestas que tuve a este mensaje fueron las siguientes:
 
+![respuestas de profes juju](./imagenes/respuestas-profes.png)
+
+![más respuestas de profes](./imagenes/respuestas-profes2.png)
+
+debido a esto, no he podido usar la raspi que me asignaron:( momos sad. de igual manera, aquí dejo mi investigación:
+
+
+### ejercicio de función: sacar a pasear al Mailo (mi hermano chico que es un perro)
+
+```cpp
+// a mi me toca pasear al Mailo los días miércoles
+// para poder sacarlo, el Mailo debe haber tomado once como su última comida
+// del día, no de la vida
+// la función sera tipo bool ya que es para indicar si se realiza el paseo(? según yo tiene sentido
+// o no
+
+bool pasearMailo(string diaSemana, string ultimaComida); // string sobre el día de la semana
+// en el que corre el codigo
+// string sobre que comio el Mailo por última vez
+
+// entonces si es miércoles, y el Mailo tomo once como última comida
+// salimos a pasear
+// si no se cumplen esas dos reglas
+// el Mailo no sale
+// castigado
+// esto es broma, si sale solo que no con tanta necesidad
+
+if (pasearMailo("miércoles", "once")) {
+	cout << "el Mailo sale a pasear" << endl;
+}
+	else { // lo que sucede si no se cumplen los requisitos (no estoy seguro de si lo escribí bien, es primera vez que uso un else)
+	cout << "el Mailo se queda en el departamento" << endl;
+}
+
+// entonces para poder saber si toca paseo
+// debemos saber si el dia es el correcto (miercoles)
+
+bool pasearMailo(string diaSemana, string ultimaComida) {
+	bool tocaPaseo = (diaSemana == "miércoles") //solo toca paseo conmigo si es miércoles
+	bool tomoOnce = (ultimaComida == "oncecita") //su ultima comida del dia es la once
+
+si (tocaPaseo y tomoOnce) entonces //si se cumplen estas dos condiciones entonces paseamos
+	imprimir("el Mailo está paseando")
+}
+```
 ---
 
 ## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
