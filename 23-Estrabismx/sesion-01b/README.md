@@ -70,11 +70,11 @@ c. _delay()_ sirve para definir tiempo de duración de una función
 
 d. _HIGH_ y _LOW_ se consideran _encendido_ y _apagado_
 
-<img src="./imagenes/ar01.jpg" width="50" />
+<img src="./imagenes/ar01.jpg" width="300" />
 
-<img src="./imagenes/ar02.gif" width="50" />
+<img src="./imagenes/ar02.gif" width="300" />
 
-> <img src="./imagenes/ar03.jpg" width="50" />
+> <img src="./imagenes/ar03.jpg" width="300" />
 >
 >> En este momento estaba midiendo el voltaje que me entregaba el _pin 13_ del R4 para entender de mejor manera como funciona
 
@@ -144,7 +144,7 @@ byte frame[8][12] = {
 
 -  Se usa _#include_ al inicio para añadir una librería
 
-<img src="./imagenes/ar04.gif" width="50" />
+<img src="./imagenes/ar04.gif" width="300" />
 
   > La verdad no quise profundizar mucho en este código, por lo que experimenté más con el siguiente  
 
@@ -214,6 +214,10 @@ Para este último intento de practica, se recreó un secuenciador. Este ya ha si
 Se tomó como referencia el ejercicio **BLINK** en su estructura general, sumado a los apuntes de clases
 
 Esto me motiva a querer profundizar en los posibles usos, ya que algo que me llegó a tomar cerca de 1 día y múltiples componentes electrónicos, ahora lo logré en tan solo 10 minutos y en el primer intento 
+
+<img src="./imagenes/ar05.jpg" width="300" />
+
+<img src="./imagenes/ar06.gif" width="300" />
 
 <br>
 
