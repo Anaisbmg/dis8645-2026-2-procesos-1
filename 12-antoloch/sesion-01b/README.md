@@ -415,7 +415,7 @@ void loop() {
 - Hay que **adaptar la estructura** al  Arduino, no solo copiar los datos.
 - El **tiempo entre frames** (`delay`) es crítico para la legibilidad: 66 ms es demasiado rápido; 700 ms permite leer cada letra con claridad
 
-
+RESULTADOOO FINAL https://youtube.com/shorts/YBul3QpaSB4?feature=share 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
