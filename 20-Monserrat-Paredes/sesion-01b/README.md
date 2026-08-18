@@ -167,8 +167,7 @@ encargo01b:
 Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
 
 
-<img width="820" height="647" alt="rasp1" src="https://github.com/user-attachments/assets/a1b6f309-1ffb-4051-9f5d-0c2d1abf7831" />
-
+![rasp1](./imagenes/rasp1.png)
 
 
 Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
