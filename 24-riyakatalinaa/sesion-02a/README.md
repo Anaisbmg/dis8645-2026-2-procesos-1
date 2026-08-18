@@ -4,6 +4,45 @@ martes 2026-08-18
 
 ## apuntes sesión
 
+08:30 am 
+
+partimos hablando que íbamos a **programar en clase** pero luego del primer proyecto
+- hacer grupos de 3 o 4 para el siguiente encargo (encargo ya subido en carpeta **00-docentes**, para el siguientes viernes)
+- todos los martes empezaremos con lectura que estemos leyendo
+- no es necesario entender lo que estamos leyendo (ejemplo: poesía)
+- **revisar que son y de donde vienen las cosas**
+- hablamos un poco sobre **Jackie Élie Derrida** y **Manuela Infante**
+
+**Jackie Élie Derrida:**  fue un filósofo francés conocido por desarrollar el análisis **semiótico denominado deconstrucción**
+  - **semiótica:** disciplina científica y filosófica que estudia los signos, los símbolos y los procesos de significación mediante los cuales los seres humanos creamos y transmitimos sentido
+
+**Manuela Infante:** es una dramaturga, directora, actriz y músico chilena (revolucionando el mundo del teatro)
+
+09:24 am apuntes clases
+
+esta clase veremos como programar:
+- **potenciómetro (perrilla)**
+   - encoders no son potenciómetros, ya que estos pueden girar siempre
+   - los potenciómetros giran entorno a un rango
+   - potenciómetro A = audio 
+   - potenciómetro B = lineales (este utilizaremos en el semestre)
+- **botones/pushbutton**
+   - botones/pulsadores/pushbutton
+   - elementos temporales (al pasar el timepo pas alago)
+   - este semestre utilizaremos **N.O = normalmente abierto**
+ 
+foto cuaderno lenguaje simbólico de PUSHBUTTON
+
+**SUBIR FOTO** 
+
+- **toggles**   
+
+
+
+
+
+
+
 ## encargos
 
 ## lectura
