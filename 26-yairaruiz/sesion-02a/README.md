@@ -22,6 +22,7 @@ vamos a hacer circuitos (por donde transitan electrones),
 
 ![IMG](./imagenes/circuit.png/)
 
+https://docs.arduino.cc/built-in-examples/digital/Button/
 
 ## encargos
 
