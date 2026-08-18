@@ -57,7 +57,8 @@ Dentro de está página encontramos información de como funciona la matriz y co
 
 Para iniciar esta funcion debemos escribir el siguiente código al inicio del boceto:
 
-``` #include "Arduino_LED_Matrix.h"
+```cpp
+ #include "Arduino_LED_Matrix.h"
 
 ArduinoLEDMatrix matrix;
 
@@ -69,7 +70,7 @@ void setup() {
 la primera parte: #include "Arduino_LED_Matrix.h"  y ArdionoLEDMatrix Matrix crean el objeto LED en el boceto de Arduino, luego el código matrix.begin() dentro del setup para iniciarlo.
 
 Luego se añade la matriz de esta manera para tener todos los espacios y ocupar los 0 y 1 como apagado y encendido respectivamente en filas que formen los pixeles de 8 x 12:
-```
+```cpp
 byte frame[8][12] = {
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
   { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
@@ -98,7 +99,8 @@ Seguimos probando escribir números y ubicar ambos frames dentro de un loop
 ![imagen numero 2](./numero2.png)
 
 Nuestro código completo quedaba de la siguiente manera:
-```
+
+```cpp
 #include "Arduino_LED_Matrix.h"
 
 ArduinoLEDMatrix matrix;
