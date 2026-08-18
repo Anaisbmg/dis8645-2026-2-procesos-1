@@ -25,7 +25,16 @@ Pulldown resistor
 
   Baudios
 
-  105200 > audio >midi 
+  105200 > audio >midi
+
+  IN 10 bits
+
+  0 > 0
+  1 > 1023
+
+  While > Mientras que > puede quedarse pegado
+
+  ! > lo contrario
 
 ## encargos
 
