@@ -240,7 +240,7 @@ la idea una clienta quiere comprar una torta de chocolate y empezamos así
 //clienta quiere comprar una torta de chocolate 
 bool ConMermelada = false; 
 bool ConManjar = true; 
-bool SinAzucar = true; 
+bool ConAzucar = true; 
 bool ConFrutosSecos = false; 
 bool Cheesecake = false;
 ```
@@ -252,7 +252,7 @@ Entonces las preferencias de la clienta quedarían como
 ```cpp
 bool AceptaMermelada = false;
 bool AceptaManjar = true;
-bool AceptaSinAzucar = false;
+bool AceptaAzucar = false;
 bool AceptaFrutosSecos = false;
 bool AceptaCheesecake = false;
 ```
@@ -263,7 +263,7 @@ Y luego de definir las preferencias de ingredientes de la clienta debemos ver la
 //clienta quiere comprar una torta de chocolate
 bool AceptaMermelada = false
 bool AceptaManjar = true
-bool AceptaSinAzucar = false
+bool AceptaAzucar = true
 bool AceptaFrutosSecos = false
 bool AceptaCheesecake = false
 //los sabores disponibles son
@@ -323,9 +323,55 @@ TieneCheesecake = [5]
 
 y así que luego el código revise las condiciones que la clienta acepta para poder entregar la respuesta de cuál es la mejor opción de torta para ella, pero no tengo ni idea como colocar eso en código jejejjejejje
 
+Es que no entiendo que seria int o string, o puedo usar ambos. Tampoco entiendo como empezar a escribirlo
 
+tenemos 
 
+```cpp
+//clienta quiere comprar torta de chocolate
 
+void setup (){
+string TortaEscogida
+}
+
+//ingredientes que al clienta acepta que tenga la torta a comprar
+
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaAzucar = true;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+
+//tipos de torta que hay disponibles
+//no se si aqui deberia ir flechita o signo igual, pongamosle signo igual pq no se poner flechita
+
+TortaDeChocolateConManjar = 1
+TortaDeChocolateConMermelada = 2
+TortaDeChocolateSinAzucar = 3
+TortaDeChocolateConFrutosSecos = 4
+CheesecakeDeChocolate con manjar = 5
+
+//luego relacionamos los ingredientes que la clienta acepta en su torta
+//con los sabores de tortas disponibles para comprar
+
+TieneMermelada = [2]
+TieneManjar = [1] [5]
+TieneAzucar = [1] [2] [4] [5]
+TieneFrutosSecos = [4]
+TieneCheesecake = [5]
+
+}
+
+//ahora viene el loop creo pero tampoco entendi bien como iba
+//el loop nos entregaba el return o no
+
+void loop(){
+return ComprarTortaDeChocolate
+
+//no se que mas va
+```
+
+Profe le juro que lo di todo de mi wipipipipi
 
 
 ## lectura
