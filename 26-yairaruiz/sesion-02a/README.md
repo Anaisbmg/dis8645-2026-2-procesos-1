@@ -27,6 +27,8 @@ https://docs.arduino.cc/built-in-examples/digital/Button/
 
 *resistencia pull down : permite llegar a tierra con calma*
 
+Código para conectar un potenciómetro a Arduino UNO R4 WIFI
+
     const int patitaLectura = "A0"; 
 
     int valorLectura = -1;
