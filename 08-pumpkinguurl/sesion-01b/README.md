@@ -15,20 +15,29 @@
 - murciélago { desde aquí
 - hasta aqui}
 - prohibido escribir una línea de código sin poner comentarios / descripción / pseudocódigo
-  
-´´´  
+
+  ```
 1 void setup () { 
+
 2 //aquí va setup () ocurre una vez al principio
+
 3
+
 4 }
+
 5 
+
 6 void loop () { 
+
 7 // aquí va loop
+
 8 //ocurre después de setup
+
 9 //se repite hasta que no se pueda más
+
 10 }
 
-´´´
+```
 - para llevar el código a GitHub
   ctrl c - ctrl a - en la línea anterior `cpp - en la línea posterior para cerrar ` (`son 3 de esos cosos juntos pero si los coloco no se ven asi que se describe)
 
