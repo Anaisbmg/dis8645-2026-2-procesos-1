@@ -178,6 +178,7 @@ void loop() {
 
 Pero no funcionó
 
+![intento de estrella dos](./prueba-tres.jpeg)
 
 
 
