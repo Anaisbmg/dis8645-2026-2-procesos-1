@@ -2,6 +2,29 @@
 
 ## apuntes sesión
 
+C++ Variables
+
+String =
+
+Bool = Yes or no
+
+Int = Whole N°
+
+Double = Point N°
+
+
+Mini tabla
+
+int8_t | 8, con signo
+int8_t | 8, sin signo
+
+
+Arduino IDE (descargar)
+Uno R4 (instalar)
+
+
+Random stuff I wrote:
+
 ## encargos
 
 encargo01b:
