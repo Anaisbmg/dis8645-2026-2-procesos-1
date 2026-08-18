@@ -56,7 +56,174 @@ adafruit
 
 encargo01b:
 
-1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+1. con antoloch queremos que pase un mensaje en la pantalla del Arduino, la carla nos menciono el delay y monitor serial el cual nos dice si hay algún error, con un baud 115200 o 9600. Utilizamos [ledmatrix](https://ledmatrix-editor.arduino.cc/), herramienta de Arduino para diseñar patrones, fuimos realizando frame por frame, decidimos plasmar la frase "compilando... ideas" ya que se ve reflejado la programación y el proceso del diseño.
+```cpp
+const uint32_t compilando ideas[][4] = {
+	{
+		0xf008,
+		0x800800,
+		0x800f0000,
+		66
+	},
+	{
+		0xf009,
+		0x900900,
+		0x900f0000,
+		66
+	},
+	{
+		0x880d,
+		0x80a80880,
+		0x88088000,
+		66
+	},
+	{
+		0xf009,
+		0x900f00,
+		0x80080000,
+		66
+	},
+	{
+		0x8008,
+		0x800800,
+		0x80080000,
+		66
+	},
+	{
+		0x8008,
+		0x800800,
+		0x800f0000,
+		66
+	},
+	{
+		0xf009,
+		0x900f00,
+		0x90090000,
+		66
+	},
+	{
+		0xd00d,
+		0xd00b00,
+		0xb00b0000,
+		66
+	},
+	{
+		0xe009,
+		0x900900,
+		0x900e0000,
+		66
+	},
+	{
+		0xf009,
+		0x900900,
+		0x900f0000,
+		66
+	},
+	{
+		0x0,
+		0x6,
+		0x600000,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0xc00c0000,
+		66
+	},
+	{
+		0x0,
+		0x0,
+		0xc00c000,
+		66
+	},
+	{
+		0x8008,
+		0x800800,
+		0x80080000,
+		66
+	},
+	{
+		0xe009,
+		0x900900,
+		0x900e0000,
+		66
+	},
+	{
+		0xf008,
+		0x800e00,
+		0x800f0000,
+		66
+	},
+	{
+		0xf009,
+		0x900f00,
+		0x90090000,
+		66
+	},
+	{
+		0xf008,
+		0x800f00,
+		0x100f0000,
+		66
+	}
+};
+```
+Nos percatamos que el tiempo de la duración del frame era muy poca, además que arduino no lograba leer este código, decidimos utilizar una ia para poder solucionar esto, el cual nos dio este código
+```cpp
+const uint32_t compilando_ideas[][4] = {
+  {0xf008, 0x800800, 0x800f0000, 700},
+  {0xf009, 0x900900, 0x900f0000, 700},
+  {0x880d, 0x80a80880, 0x88088000, 700},
+  {0xf009, 0x900f00, 0x80080000, 700},
+  {0x8008, 0x800800, 0x80080000, 700},
+  {0x8008, 0x800800, 0x800f0000, 700},
+  {0xf009, 0x900f00, 0x90090000, 700},
+  {0xd00d, 0xd00b00, 0xb00b0000, 700},
+  {0xe009, 0x900900, 0x900e0000, 700},
+  {0xf009, 0x900900, 0x900f0000, 700},
+  {0x0,    0x6,      0x600000,   700},
+  {0x0,    0x0,      0xc00c0000, 700},
+  {0x0,    0x0,      0xc00c000,  700},
+  {0x8008, 0x800800, 0x80080000, 700},
+  {0xe009, 0x900900, 0x900e0000, 700},
+  {0xf008, 0x800e00, 0x800f0000, 700},
+  {0xf009, 0x900f00, 0x90090000, 700},
+  {0xf008, 0x800f00, 0x100f0000, 700}
+};
+
+ArduinoLEDMatrix matrix;
+
+void setup() {
+  matrix.begin(); // inicializa la matriz LED
+}
+
+void loop() {
+  for (int i = 0; i < sizeof(compilando_ideas)/sizeof(compilando_ideas[0]); i++) {
+    matrix.loadFrame(compilando_ideas[i]);   // carga cada frame
+    delay(compilando_ideas[i][3]);           // espera 700 ms entre frames
+  }
+}
+```
+
+Luego de esto (aun) estamos en proceso de entender como se realiza este frame, ya que sabemos que la pantalla es de 8x12 lo que nos da 96 bits, osea 
++ 32 bits
++ 32 bits
++ 32 bits
++ Tiempo
+
+uint32_t 
+
+u = no negativos
+
+int = número entero
+
+32 = cantidad de bits
+
+t = tipo
+
+Tiempo el cual decidimos dejar en 700 para que cada letra se lograra leer
+
 2.
 ```cpp
 // esta es una receta de como hacer panqueques de platano
