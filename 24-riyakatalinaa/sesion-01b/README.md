@@ -94,6 +94,8 @@ partimos hablando de algunos libros subidos por Matías
 
 **y cómo la puedo programar con Arduino?**
 
+**recordar subir foto**
+
 - después de realizar esa pregunta nos explico cómo instalar el core de [Arduino-Pico — GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de software estadounidense), el cual es el core de Arduino para los microcontroladores **RP2040/RP2350**, que son los chips que utilizan placas Pico.
 
 **IMPORTANTE: cabe destacar que, a pesar de no estar juntas, ambas intentamos instalar el core, sin embargo, nos dimos cuenta de que solo se podía instalar en el computador que tenía conectada la Raspberry Pi Pico H (en este caso lo tenia mi compañera Emilia/hazzaily)**
@@ -102,9 +104,9 @@ partimos hablando de algunos libros subidos por Matías
 - al instalar ya el core podemos utilizar códigos, tales como los que veremos más adelante:
 
 ```C++
-pinMode();
-digitalWrite();
-delay();
+pinMode(); = función que configura un pin.
+digitalWrite(); = función que escribe o cambia lo que hace un pin.
+delay(); = función que mantiene el LED apagado o encendido por cierto período de tiempo.
 ```
 
 -  también recolectamos información de [DataSheet - Raspberry Pi Pico H](https://pip-assets.raspberrypi.com/categories/610-raspberry-pi-pico/documents/RP-008307-DS-2-pico-datasheet.pdf) ,
@@ -173,6 +175,10 @@ digitalWrite(LED_BUILTIN, LOW);
 
 ```
 
+**video de como respondió la Raspberry Pi Pico H al código**
+
+**subir video**
+
 **IMPORTANTE:**
 - nos dimos cuenta de que al querer cambiar el **delay** (los milisegundos) descubrimos que debíamos reiniciar la placa a través del botón **BOOTSEL**; si no hacíamos este paso, nos daba un error al intentar poner en marcha las modificaciones, **esto es relevante para realizar cualquier cambio en el código original**
 - inicialmente pensábamos que no se podían utilizar números menor que 1000 en **"delay();"**, en cuanto a eso, comprobamos que si se podía y que producía distintos ritmos en la velocidad en que se prendía el LED.
@@ -193,7 +199,24 @@ también decidimos realizar otro código en el cual el LED se encendiera gracias
    - **Agregar un potenciómetro** para regular la intensidad del LED.
    - **Agregar un LDR** para lograr que reaccione a la luz que haya alrededor.
 
-- como nuestra intención era encender el LED gracias a un botón elegimos **"Agregar un botón, y que nos permita prender y apagar el LED por el tiempo que queramos (el caso de ahora)**
+- como nuestra intención era encender el LED gracias a un botón elegimos **"Agregar un botón y cables caimán para poder probarlo en casa"** (que nos permita prender y apagar el LED)
+
+**foto de como van posicionados los cables caimán en Raspberry Pi Pico H?**
+
+**subir foto**
+
+- en este código nos percatamos que existen otras funciones, variables y condicionales, tales como:
+
+```C++
+digitalRead(); = función para leer un pin de manera digital
+estadoBoton = variable que guarda el estado del botón
+if = condicional que indica: sí esto hace esto, haz esto otro.
+else = condicional que indica: sino, haz esto.
+```
+
+- con esto listo, pudimos probarlo en Arduino y funcionó (no a la primera, pero funcionó), todo el proceso, fuimos revisamos el Datasheet para confirmar que los pines que íbamos a utilizar fueran los correctos para lo que estábamos haciendo
+- para la señal elegimos el **GP15**, aunque también podríamos haber utilizado: GP0, GP1, GP2, GP3, GP4, GP5, GP6, GP7, GP8, GP9, GP10, GP11, GP12, GP13, GP14, GP15, GP16, GP17, GP18, GP19, GP20, GP21, GP22, GP26, GP27 y GP28. (mas que nada utilizamos el **15** porque se encontraba en la esquina, facilitando su  identificación visual y el cableado)
+- en cuanto **GND** (tierra), la Raspberry Pi Pico cuenta con varios pines de disponibles (pines físicos 3, 8, 13, 18, 23, 28, 33 y 38), pero para nuestro caso, utilizamos el **pin 28** (GP28) para cerrar el circuito
 
 
 ``` C++
@@ -257,6 +280,8 @@ void loop() {
 }
 
 ```
+
+**video de como respondió la Raspberry Pi Pico H al a integración de un botón y código**
 
 
 **IMPORTANTE:**
