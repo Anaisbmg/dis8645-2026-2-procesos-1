@@ -27,6 +27,21 @@ https://docs.arduino.cc/built-in-examples/digital/Button/
 
 *resistencia pull down : permite llegar a tierra con calma*
 
+    const int patitaLectura = "A0"; 
+
+    int valorLectura = -1;
+
+    void setup() {
+      Serial.begin(9600);
+
+    }
+
+    void loop() {
+      Serial.println("hoolaa");
+     valorLectura = analogRead(patitaLectura);
+     Serial.println(valorLectura);
+    }
+
 ## encargos
 
 ## lectura
