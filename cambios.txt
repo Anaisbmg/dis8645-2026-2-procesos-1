@@ -1,4 +1,0 @@
-### 🔧 Archivos renombrados
-
-- `10-blosssom-n/sesion-01b/imagenes/arduinoUNO-resultado.jpeg` → `10-blosssom-n/sesion-01b/imagenes/arduinouno-resultado.jpeg`
-- `10-blosssom-n/sesion-01b/imagenes/arduinoUNO.jpeg` → `10-blosssom-n/sesion-01b/imagenes/arduinouno.jpeg`
