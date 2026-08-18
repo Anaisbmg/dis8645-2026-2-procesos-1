@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 ![apuntes02a](./imagenes/apuntes02a.jpg)
-![circuitosbotonpote](./imagenes/circuitobotonpote.jpg)
+![circuitosbotonpote](./imagenes/circuitosbotonpote.jpg)
 ![trabajoenclases](./imagenes/trabajoenclases.jpg)
 ## encargos
 
