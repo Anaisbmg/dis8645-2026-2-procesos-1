@@ -93,8 +93,55 @@ aquí el pixel de esa ubicación estaría prendido ya que el frame es = 1, este 
 
 Encontramos más información de otras formas de escribir estas figuras pero no entendimos como funcionaba, por lo que nos limitamos a estas dos por ahora. 
 
+Seguimos probando escribir números y ubicar ambos frames dentro de un loop
 ![imagen numero 1](./numero1.png)
 ![imagen numero 2](./numero2.png)
+
+Nuestro código completo quedaba de la siguiente manera:
+```
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix matrix;
+
+// frame 1, numero 6 
+uint8_t frame1[8][12] = { 
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 }
+}; 
+
+//  Frame 2, numero 7 
+uint8_t frame2[8][12] = {  
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0 }
+};
+
+void setup() {
+  matrix.begin();
+}
+
+void loop() {
+  // Muestra número 1 por 2 segundos
+  matrix.renderBitmap(frame1, 8, 12);
+  delay(500);
+  
+  // Muestra número 2 por 2 segundos 
+  matrix.renderBitmap(frame2, 8, 12);
+  delay(500);
+}
+```
+se puede ver como primero definimos ambos números y luego los colocamos en una funcion. En este caso en un loop donde cambia constantemente uno al otro. 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
