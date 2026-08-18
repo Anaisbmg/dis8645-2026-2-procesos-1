@@ -14,7 +14,11 @@ Potenciómetros y botones
 
 vamos a hacer circuitos (por donde transitan electrones), 
 
-+ la corriente es un flujo de electrones y el potenciómetro  
++ la corriente es un flujo de electrones y el potenciómetro
+
+  **Botones** (pulsadores) 
+
+  + pushbutton 
 
 ## encargos
 
