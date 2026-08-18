@@ -378,10 +378,57 @@ se pueden utilizar para mostrar:
 * imágenes
 * animaciones
 
-
-
-
 ## encargos
+
+para este ejercicio me tocó trabajar con un arduino uno r4 wifi junto con mi compañero. lo primero que quería entender era cómo hacer que el microcontrolador hiciera algo que yo le estaba pidiendo a través del código.
+
+como en la clase estuvimos hablando de variables, funciones, booleanos, condiciones y de cómo las cosas funcionan dentro de un contexto, quería llevar estos conceptos a algo físico.
+
+el arduino que estoy utilizando tiene una matriz de leds incorporada de 12 x 8, por lo que decidimos trabajar con estas luces para crear un emoji.
+
+### primer acercamiento
+
+antes de hacer los emojis, primero necesitaba entender cómo funcionaba la matriz de leds y cómo podía comunicarme con ella desde el computador.
+
+para eso conecté el arduino al computador mediante el cable usb y abrí el arduino ide.
+
+lo primero que tuve que hacer fue seleccionar la placa correspondiente:
+
+arduino uno r4 wifi
+
+también tuve que seleccionar el puerto para poder cargar el código al microcontrolador.
+
+### primera prueba con la matriz
+
+una vez que pude comunicarme con el arduino, empecé a trabajar con la matriz de leds.
+
+la matriz tiene:
+
+12 columnas
+x
+8 filas
+
+por lo que tenemos 96 luces.
+
+cada luz puede estar prendida o apagada.
+
+esto lo pude relacionar con lo que vimos en clases sobre los booleanos:
+
+true = si
+false = no
+
+en este caso puedo pensar:
+
+true = luz prendida
+false = luz apagada
+
+también puedo pensar la matriz utilizando 0 y 1:
+
+0 = apagado
+1 = prendido
+
+tambien me recordó a mi lectura del libro “una fórmula = una imagen”, ya que en una parte nos menciona que las imágenes se grafican en coordenadas, tenemos (x,y). entonces, en este caso contaríamos con 8 filas y 12 columnas, donde cada luz tendría una posición dentro de esta matriz. las coordenadas se podrían ir desplazando o cambiando para formar una imagen, similar a los ejercicios del colegio, donde se colocaban diferentes puntos según sus coordenadas y luego se unían para ver qué imagen formaban.
+
 
 encargo01b:
 
