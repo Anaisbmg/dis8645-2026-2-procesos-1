@@ -44,6 +44,8 @@ Código para conectar un potenciómetro a Arduino UNO R4 WIFI
      Serial.println(valorLectura);
     }
 
+*¿Qué es Serial? dar un mensaje en orden (el contrario de en paralelo), el puerto USB es serial y funciona a diferentes velocidades*
+
 ![IMG](./imagenes/pot-arduino.png/)
 
 ## encargos
