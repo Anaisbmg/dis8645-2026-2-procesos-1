@@ -1,6 +1,29 @@
 # sesion-02a
 
-## apuntes sesión
+2026-08-18
+
+## Potenciómetros y botones
+
+**Potenciómetro:** (POT, también perillas, o resistencia variable). Regula potencias, o sea, que puede variar una propiedad eléctrica (resistencia) que controla el flujo de electrones (e.). Es una forma de encapsular 2 resistencias. Giran en torno a un rango (lineal)
+
+Tipos de potenciómetro: A y B
+
+ - A = Audio
+ - B = Lineal
+
+Para que algo suene el doble de fuerte, debe sonar igual 10 veces.
+
+encoders: codificadores, perillas de giro infinito.
+
+Potencia = energía/tiempo
+
+En electricidad:
+
+Potencia = Voltaje * corriente
+
+**Botones:** (Pulsadores = Push Buttons, **NO** toggles)
+
+Toggles = interruptor
 
 ## encargos
 
