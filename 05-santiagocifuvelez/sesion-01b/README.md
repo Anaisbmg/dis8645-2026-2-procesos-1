@@ -102,7 +102,9 @@ Me reúno con kriss el lunes.
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 
-Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y visualizar en la matriz de LED´S que conforman una mini pantallita en la misma placa.
+Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y visualizar en la matriz de LED´S que conforman una mini pantallita en la misma placa. Entonces, los ejercicios que hicimos se centran en visualizar algo en esta pantallita. 
+
+- 1. Desciframos que hay dos maneras de hacer visualizar algo en la matriz led de la placa: Por medio de configuración 1 y 0, donde; "1" es encendido, y "0", es apagado. Y el otro método, es por medio de números hexadecimales. (personalmente se me hizo más fácil con la matriz de "1" y "0".
 
 ![ejercicio 1](./imagenes/ej1.jpeg)
 
