@@ -189,3 +189,45 @@ https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
 https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
 
 ### Encargo 2
+
+Para este encargo, me ayudaron mi hermana Rocio y su pareja Juan Manuel ya que son profesores de programación (tienen una gran portafolio con lo que respecta a esta área) entonces me hicieron una clase de c++ 
+
+Juan Manuel me presento esta pagina donde me enseño lo basico https://www.programiz.com/python-programming/online-compiler/ 
+
+```cpp
+#include <iostream>
+
+int main() {
+    // Para mostrar informacion en pantalla
+    std::cout << "Hola Mundo!\n";
+    // Mostrar Hola Mundo
+    std::cout << "Kelly!\n";
+
+    // Tipos de datos (int: entero)
+    int edad = 25;
+
+    std::cout << edad << "\n";
+
+    edad ++;
+
+    std::cout << edad << "\n";
+
+    // Tipos de datos (bool: true o false)
+
+    bool nombre = false;
+
+    std::cout << nombre;
+
+
+    return 0;
+}
+
+```
+
+Aquí me ensayo la diferencia de la función void y todas las otras, es que básicamente con la primera no recibir nada a cambio al correr el código (esto no lo estaba comprendiendo sola), pero con por ejemplo int si, como por ejemplo lo que es Hola mundo, Kelly 25 y 30.  
+
+También, en la zona donde recibo números, primero debo colocar la función int para recibir el número 25, pero después no es necesario colocarlo. 
+
+Siempre es necesario colocar los murciélagos {} para desarrollar algo ya que así el computador lee que “esto comienza aquí y termina aquí)
+
+Pueden existir varias funciones dentro de otra función. 
