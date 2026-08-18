@@ -63,19 +63,4 @@ encargo01b:
 
 Con Cami nos tocó el Arduino R4 WIFI.
 
-Revisamos este proyecto:
-
-[![DIY Arduino Synth](https://img.youtube.com/vi/81M-2NQkQME/maxresdefault.jpg)](https://www.youtube.com/watch?v=81M-2NQkQME)
-
-Es un secuenciador de tres pasos (buenas pa' los secuenciadores)
-
-Este proyecto utiliza:
-
-- Arduino UNO (puede ser Mega o Nano)
-- 4 potenciómetros (No importa que resistencia tengan)
-- Protoboards
-- Resistencias de 230 ohm
-- Jumpers
-- 3 LEDS
-
 ## lectura
