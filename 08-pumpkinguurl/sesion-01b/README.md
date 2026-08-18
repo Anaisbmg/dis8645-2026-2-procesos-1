@@ -160,7 +160,7 @@ const uint32_t estrella_bits[] = {
     0b00011111, // Columna 8
     0b00001110, // Columna 9
     0b00000100, // Columna 10
-    0b00000000  // Columna 11 (vacía)
+    0b00000000,  // Columna 11 (vacía)
 };
 
 void setup() {
@@ -172,7 +172,7 @@ void setup() {
 void loop() {
   // cargar y mostrar la figura de estrella
   matrix.loadFrame(estrella_bits);
-  delay(1000) // mantenerla encendida por un segundo
+  delay(1000); // mantenerla encendida por un segundo
 }
 ```
 
@@ -380,4 +380,13 @@ Recién escogí libro
 
 ![imagen de texto escogido](digital-art.jpeg)
 
-Que difícil leer en inglés
+Que difícil leer en inglés. 
+
+Cosas que me parecen interesante - cosas que leí hace poco y aparecen en el libro wejjeje
+
+Douglas Engelbart introdujo la idea de bitmapping.
+
+"the concept of bitmapping was groundbreaking in that stablished a connection between the electrons floatong through a computer´s processor and an image on the computer screen."
+
+"A computer processes in pulses of electricity that manifiest themselves in either an 'on' or 'off' state commonly referred to as the binaries 'zero' and 'one'."
+
