@@ -269,35 +269,60 @@ bool AceptaCheesecake = false
 //los sabores disponibles son
 //Torta chocolate manjar
 bool TieneMermelada = false
-bool TieneManjar = true bool
-TieneSinAzucar = false bool
-TieneFrutosSecos = false bool
-TieneCheesecake = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
 //Torta chocolate mermelada
 bool TieneMermelada = true
-bool TieneManjar = false bool
-TieneSinAzucar = false bool
-TieneFrutosSecos = false bool
-TieneCheesecake = false
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
 //Torta chocolate y frutos secos
 bool TieneMermelada = false
 bool TieneManjar = false
-bool TieneSinAzucar = false
+bool TieneAzucar = true
 bool TieneFrutosSecos = true
 bool TieneCheesecake = false
 //Torta de chocolate sin azucar
 bool TieneMermelada = false
-bool TieneManjar = false bool
-TieneSinAzucar = true bool
-TieneFrutosSecos = false bool
-TieneCheesecake = false
+bool TieneManjar = false
+bool TieneAzucar = false
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
 //y Cheesecake de chocolate
 bool TieneMermelada = false
 bool TieneManjar = true
-bool TieneSinAzucar = false
+bool TieneAzucar = true
 bool TieneFrutosSecos = false
 bool TieneCheesecake = true
 ```
+
+Pero el compadre me dice que no debería agregarle distintos valores a las mismas condiciones declaradas. ENTONCES, ¿qué hago? ni idea
+
+Se me ocurre asignarle un número a las tortas quizás, en ese caso
+
+```
+- Torta de chocolate con manjar = 1
+- Torta de chocolate con mermelada = 2
+- Torta de chocolate sin azúcar = 3
+- Torta de chocolate con frutos secos = 4
+- Cheesecake de chocolate con manjar = 5
+```
+
+Para luego escribir las condiciones y los valores de cada torta
+
+```
+TieneMermelada = [2]
+TieneManjar = [1] [5]
+TieneAzucar = [1] [2] [4] [5]
+TieneFrutosSecos = [4]
+TieneCheesecake = [5]
+```
+
+y así que luego el código revise las condiciones que la clienta acepta para poder entregar la respuesta de cuál es la mejor opción de torta para ella, pero no tengo ni idea como colocar eso en código jejejjejejje
+
 
 
 
