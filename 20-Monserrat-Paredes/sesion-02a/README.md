@@ -31,9 +31,24 @@ no presencia: 1
 
 se eligen según cómo quiero que se comporte el circuito en reposo.
 
-GND  → tierra  → 0 voltaje
+GND  → tierra  → 0 voltaje  →  usar cables cafe, negro  → riel negativo
 
-Vcc  → 3v3  → 5v 
+Vcc  → 3v3  → 5v  →  usar cable rojo  → riel positivo 
+
+protoboard  →  todas las filas son el mismo lugar
+
+
+---
+
+
+## Linkn vistos en clases
+
+- https://www.raspberrypi.com/documentation/microcontrollers/pico-series.html#layout_non-wireless
+
+- https://docs.arduino.cc/built-in-examples/digital/Button/
+
+- https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
+
 
 
 ## Encargos
