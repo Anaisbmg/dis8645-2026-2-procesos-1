@@ -567,16 +567,18 @@ TOMAR AWITA
 ```cpp
 void tomarAgua(vaso, cantidad) {
     buscar(vaso);
-    llenar(vaso, agua);
 
-    if (vaso == lleno) {
-        tomar(vaso);
+    if (tengoSed) {
+        llenar(vaso, cantidad);
+        tomar(vaso, cantidad);
+        dejar(vaso, mesa);
+    } else {
+        guardar(vaso, alacena);
     }
-    else {
-        llenar(vaso, agua);
-    }
+}
 
-    dejar(vaso, mesa);
+// USO:
+tomarAgua(vasoAzul, 250);
 }
 ```
 
