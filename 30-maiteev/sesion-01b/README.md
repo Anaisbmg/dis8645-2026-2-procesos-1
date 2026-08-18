@@ -57,16 +57,23 @@ encargo01b:
 "Esta opción es fácil de entender, ya que la imagen se visualiza en el patrón del array y se puede editar fácilmente durante la ejecución. Los elementos del array anterior forman un corazón, y esa es la imagen que se ve en la pantalla"
 
 "Para seleccionar un píxel individual, elige su dirección y cambia su valor; recuerda que debes empezar a contar desde 0. Por lo tanto, la siguiente línea seleccionará el tercer píxel desde la izquierda y el segundo desde arriba, y luego lo activará"
+![carafeliz](./proceso-1.jpg) 
 
+![carafeliz](./proceso-2.jpg) 
 
 -Después de probar la cara, partimos desde cero poniendo en la pantalla led un punto y tratar que se haga una línea de apoco, nos costo bastante y tuvimos investigando vario tiempo de como funciona para sacar un led y aparezca otro, no nos funcionaba. 
 
 -Después de entender los de los segundos logramos hacer una linea que aparece y desaparece de apoco y esto nos abría paso a poder poner distintas animaciones ya que entendimos el delay en loop.
 
 - Comenzamos poniendo en la pantalla el numero 1 y el numero 2 con 2 segundos de diferencia. Funciono bien y fuimos variando códigos para que duraran más segundos o menos segundos.
+  ![carafeliz](./proceso-3.jpg)
+
+  ![carafeliz](./proceso-4.jpg) 
 
 - Ocupamos el mismo código de 1 y 2, pero después lo hicimos con 6 y 7.
   
+  ![carafeliz](./proceso-5.jpg) 
+  ![carafeliz](./proceso-6.jpg) 
 
 ``` cpp #include "Arduino_LED_Matrix.h"
 
