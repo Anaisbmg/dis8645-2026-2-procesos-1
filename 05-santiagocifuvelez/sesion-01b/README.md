@@ -101,6 +101,13 @@ encargo01b:
 Me reúno con kriss el lunes.
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+![ejercicio 1](./imagenes/ej1.jpeg)
+
+![ejercicio 1](./imagenes/ej1-loop.gif)
+
+![ejercicio 2](./imagenes/ej2.gif)
+  
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
