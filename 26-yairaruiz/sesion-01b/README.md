@@ -589,12 +589,11 @@ EXPLICACIÓN:
 + Argumentos: vaso, cantidad
 + Uso: tomar agua cuando tengo sed.
 
+
+
 *Proceso :
-Busco un vaso.
-Lo lleno con agua.
-Si el vaso está lleno, tomo agua.
-Si no, lo vuelvo a llenar.
-Dejo el vaso en la mesa.*
+
+![IMG](./imagenes/dfd.png/)
 
 Pseudocódigo = escribir las instrucciones como si fueran código, pero sin preocuparte de que realmente funcione.
 
