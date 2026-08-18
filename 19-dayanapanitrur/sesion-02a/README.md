@@ -99,22 +99,29 @@ En el arduino R4
 
 -El lado digital: puede leer y controlar
 
--Hay que hacernos cargo de todo lo malo que pudiese pasar.
--Entonces el A0 que es una variable la haremos una constante.
+-Hay que hacernos cargo de todo lo malo que pudiese pasar. Entonces el A0 que es una variable la haremos una constante.
+
 -Las análogas son entradas.
+
 -El setup puede estar vacío.
+
 -Serial.begin(); significa
+
 -Lo que lee Serial.begin se llaman Baudios.
+
 -La lupita que aparece en el extremo superior derecho es el serial monitor: para revisar que es lo que hace en el puerto serial. 
+
+-Serial.print > imprime
+
+-Serial.printlm  > iprime y salta una linea
 
 Ahora conectando el potenciómetro:
 
 El pin del medio se conecta al A0 para ser leído.
-Un pin de un extremo va a GND
-Y el otro pin del otro extremo va a los 5V
 
-Serial.print > imprime
-Serial.printlm  > iprime y salta una linea
+Un pin de un extremo va a GND
+
+Y el otro pin del otro extremo va a los 5V
 
 ## encargos
 
