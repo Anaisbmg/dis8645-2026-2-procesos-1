@@ -46,6 +46,11 @@ https://docs.52pi.com/md/kz-0073/arduino/p3/ muy buena pagina explicando el paso
 
 Para familiarizarnos con el trabajo copiamos un código de ejemplo que encontramos para saber como es el proceso de enviarlo al microprocesador. 
 
+![Prueba de carita feliz](./carita-feliz.jpeg)
+
+![carita editada](./carita-feliz2.jpeg)
+
+editamos el código para variar la forma de la carita feliz
 
 
 Dentro de está página encontramos información de como funciona la matriz y como ocuparla. En primer lugar entendimos que cada LED del panel funcionan como un pixel que podemos controlar de forma individual, enviandole señales a través de Arduino para prenderlos y apagarlos. 
