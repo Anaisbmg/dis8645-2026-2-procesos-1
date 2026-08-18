@@ -35,7 +35,34 @@ foto cuaderno lenguaje simbólico de PUSHBUTTON
 
 **SUBIR FOTO** 
 
-- **toggles**   
+- **toggles**
+
+
+### ejercicio hecho en clases
+
+Arduino UNO R4
+
+
+```C++
+
+const int patitaLectura = A0;
+
+int valorLectura = -1;
+
+
+void setup() {
+
+ Serial.begin(9600);
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura); 
+  Serial.println (valorLectura);
+
+}
+
+```
+
 
 
 
