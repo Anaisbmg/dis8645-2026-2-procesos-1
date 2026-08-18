@@ -1,8 +1,72 @@
 # sesion-02a
+martes 18 de agosto
 
 ## apuntes sesión
+### potenciómetros y botones
+**potenciómetro:**
+
+- resistencia variable
+- potencia = energía/tiempo
+- en electricidad la potencia = voltaje x corriente (acá tiene que haber escondido energía y tiempo)
+- el voltaje tiene que ver con energía
+- y dentro de corriente hay tiempo
+- por lo tanto son comparables
+- los potenciómetros nos dejan regular potencias, permitiéndonos variar una propiedad eléctrica que es la resistencia.
+- el resistor lo que hace es resistir a que el electrón pase.
+- corriente = número de electrones
+- voltaje = maneras de medir energía
+- la parte variable del potenciómetro es la patita 2, lo que permite mover cualquier valor a una constante
+
+**botón:**
+
+- botones (pulsadores)
+- pushbutton: temporales
+- toggles: el impulso permanece
+- normally open (N.O): el electrón no puede transitar
+- normally connected (N.C): siempre conectados, al hacer una acción de presionar se desconecta
+- no conectar vcc directamente a gnd, poner un resistor entre ellos para no provocar cortocircuito
+- **pulldown:** VCC - BOTÓN - R - LECTURA - GND = 0: no toi, 1: toi
+- **pullup:** VCC - R - LECTURA - BOTÓN - GND = 1: no toi, 0: toi
+
+### pushbutton ejemplo
+![ejemplo arduino](./imagenes/ejemploboton.png)
+
+### recomendaciones conexiones arduino / ¿cómo conectar potenciómetros?
+- conectar a 5V
+- no usar VIN
+- lado análogo, solo permite leerlo
+- lado digital, es mutante por lo que se puede decidir
+- las salidas que tienen Ñ sirven para las salidas de audio
+- los potenciómetros se conectan al lado análogo
+- conectar 5V y GND a orejas de potenciómetros, y A0 a la nariz de este
+- la entrada tiene 10 bits: 2 elevado a 10 = rango [0, 1023]
+  
+### código para conectar a potenciómetro
+
+```cpp
+const int patitaLectura = A0;
+
+int valorLectura = -1;
+
+void setup() {
+
+  Serial.begin(9600);
+
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura);
+ Serial.println(valorLectura);
+}
+```
+
+al correr el código y mover la perilla al máximo, tuvimos un error que aparece a continuación, no entendemos por qué pasó, pero al cerrar y volver abrir el archivo, e intentarlo nuevamente, volvió a funcionar.
+
+![error](./imagenes/captura.png)
+
 
 ## encargos
+
 
 ## lectura
 he podido avanzar harto con el libro, voy en la página 62, ya que al ser conversaciones se hace ligero de leer, aunque sus temáticas sean un poco densas. son una serie de entrevistas hechas por distintas personas al artista ai weiwei, donde más allá de su obra he aprendido de las problemáticas que ha abordado principalmente en su vida y luego en su arte, sus problemas con el gobierno chino, la importancia y su lucha por lo derechos humanos y la libertad de expresión.
@@ -27,5 +91,5 @@ he tenido siempre una lejanía y una crítica a las redes por el nivel de adicci
 
 > _(respecto a una pregunta sobre redes sociales)_ este es un problema real. la gente joven suele tomar rápidamente toda la información sin darse el tiempo de digerirla. todo este conocimiento o información puede no tener ninguna emoción o experiencia ligada a ella. esta nueva generación o este nuevo ser humano ofrecerá una perspectiva profundamente diferente a la forma de pensar de la generación anterior. no sé si esto será bueno o malo, pero tendrá un nuevo carácter. si ves a los universitarios hoy en día, rara vez ves a alguien trabajando duro o escribiendo o leyendo como antes. es muy fácil para la gente obtener cualquier tipo de información que deseen sin tener que desarrollar ningún tipo de pensamientos profundos.
 
-
+**extra - recomendación de libro:** https://martingubbins.cl/wp-content/uploads/2018/06/Fuentes-del-Derecho.pdf
 
