@@ -323,3 +323,7 @@ Para mí se me ha hecho complejo leer una página diaria, es una lectura continu
 
 Lo que logré entender de los primeros poemas que leí, fue hasta el 5, que el artista quiere volver a la realidad y que lo físico es su único cable a tierra. Además, lo frágil que puede ser eliminarte de la vida.
 
+Como llegue a esta conclusión?
+
+…”y la piel es rajada, escindida/ -este era un sueño feliz: una parábola, yo bajando desde las montañas y mi piel colgando sobre mis dedos: el playlist continúa…”
+
