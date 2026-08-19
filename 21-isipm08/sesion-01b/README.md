@@ -248,6 +248,8 @@ void loop() {
 }
 ```
 
+![titulo](./imagenes/codigo1.gif)
+
 ```cpp
 #include "Arduino_LED_Matrix.h"
 
@@ -385,6 +387,10 @@ void loop() {
 }
 ```
 
+![titulo](./imagenes/codigo2.gif)
+
+- solo realicé códigos de prueba con ayuda de chat gpt para hacer correr un código en el Arduino, de igual forma en el curso de interacciones inalámbricas realizamos cosas similares, solo que quise hacer algo más simple corriendo un código por la pantalla de Arduino.
+  
 ### función
 - nombre: `deberiaIrABaile`
 - tipo: `void`
