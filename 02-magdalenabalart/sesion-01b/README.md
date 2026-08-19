@@ -1587,15 +1587,61 @@ EL PICO EJECUTA EL NUEVO CÓDIGO
 
 > Si la compilación muestra errores, primero debo corregirlos antes de intentar cargar el programa nuevamente al Pico.
 
-
-
-
-
-
-
-
-
-
-
-
 ## lectura
+
+Hacker, hoaxer, whistleblower, spy; the many faces of anonymous por Gabriela Coleman. 
+
+primer capítulo:
+
+“And Now You Have Got Our Attention” 
+
+Coleman relata cómo el 29 de julio de 2007, una identidad colectiva conocida como Anonymous comenzó a adquirir mayor visibilidad pública luego de ser presentada por Fox News como “the Internet hate machine”. Lejos de rechazar esta caracterización, Anonymous terminó apropiándose de ella y utilizándola como parte de su propia construcción identitaria.
+
+Desde la ironía, Anonymous comienza a representarse a sí mismo como una entidad oscura, amenazante y casi omnipotente, exagerando aquellos rasgos con los que los medios intentaban describirlo. De esta manera, parece confirmar la imagen planteada por Fox News, pero al mismo tiempo se burla de ella. Coleman entiende este juego como una forma de doble significado o double meaning.
+
+Este double meaning es fundamental para entender su construcción ya que, antes de 2008, “Anonymous” se relacionaba principalmente con trolls que hacían provocaciones, ataques coordinados y acciones destinadas a molestar, humillar o generar reacciones. Coleman quiere que entendamos esa cultura de origen, porque muchas de las características que después hicieron posible que Anonymous se convirtiera en un movimiento político —anonimato, acción colectiva, rechazo al liderazgo, humor irreverente— surgieron precisamente ahí.
+
+1. Los trolls no son simplemente “gente que molesta”
+
+Coleman estudia el trolling como una subcultura de Internet. No lo reduce a “personas malas escribiendo comentarios desagradables”. Los trolls desarrollan:
+
+códigos propios;
+lenguaje propio;
+formas de reconocimiento;
+bromas internas;
+reglas implícitas;
+maneras particulares de relacionarse con otros usuarios y con Internet.
+
+Además, muestra que el trolling puede adoptar formas muy distintas: desde bromas relativamente inocentes hasta hostigamiento tremendamente cruel. Por ende constantemente aparece la ambigüedad moral de estas prácticas.
+
+
+Allow me to say quite simply: you completely missed the point of who and what we are... we are everyone and we are no one"
+
+No necesitan:
+
+un líder
+una organización formal
+un nombre personal
+una jerarquía.
+
+Un dato importante para ir analizando la historia es 4chan: 
+
+4chan es un foro de imágenes y mensajes anónimo, creado en 2003, donde la gente publica en distintos tableros temáticos sin necesitar una identidad pública persistente.
+
+"4chan es parecido con Reddit pero casi sin moderación y con temas prohibidos, hay muchos temas oscuros que no encontrarías en ningún lugar de internet, mucho menos tan abiertamente (y sí, eso incluye cosas ilegales MUY malas) pero también hay cosas muy interesantes como medios perdidos. Hay episodios, fragmentos, imágenes y hasta dibujos completos que se perdieron o fueron censurados en su época de lanzamiento que están ahí. Imágenes raras y música, aún más de artistas que ya murieron, además de varias propagandas que hicieron grandes empresas en la época de la Segunda Guerra Mundial. Mucho contenido que no aparecería de ninguna manera, porque mancha la imagen de algunas empresas o simplemente tiene derechos de autor, es casi imposible rastrear a algún usuario de ahí (a menos que seas experto)." - respuesta reddit https://www.reddit.com/r/PergunteReddit/comments/18qyu1h/o_que_%C3%A9_o_4chan_e_como_funciona/?tl=es-419
+
+From trolling to the misfits of activism
+
+Coleman usa el caso de Habbo Hotel para mostrar de dónde viene Anonymous antes de convertirse en un actor político.
+
+En julio de 2006, numerosos usuarios asociados a 4chan entraron coordinadamente a Habbo Hotel utilizando avatares casi idénticos —hombres negros, con traje gris y afro— y ocuparon espacios del mundo virtual, especialmente la piscina, impidiendo el paso de otros usuarios. La acción se volvió una de las primeras raids emblemáticas asociadas a Anonymous.
+
+"los miembros del grupo formaron bloqueos humanos para obstruir los puntos de entrada de lugares de reunión populares con sus avatares vestidos con afros y trajes de negocios. El primer "raid" se lanzó en julio de 2006 después de que comenzaran a difundirse rumores en 4chan de que algunos moderadores de Habbo tenían tendencia a prohibir a los usuarios en función del color de la piel de sus avatares." https://meme.fandom.com/es/wiki/Pool%27s_Closed
+
+aprovechando un problema técnico que no permitía que los avatares se cruzaran entre sí al entrar y salir del local. Como resultado, el bloqueo humano se convirtió rápidamente en una fuente de frustración para loa recién llegados.
+
+es un caso interesante ya que se puede observar que es la representación de bases de anonymous: no es un líder ni una una organización formal
+
+Habbo funcionó casi como un “experimento” de lo que después sería Anonymous
+
+
