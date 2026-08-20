@@ -223,7 +223,7 @@ void cocinar() {
 void disenar() {
 }
 
-![pantalla 1](./imagenes/E1.jpg)
+![pantalla 1](./imagenes/e1.jpg)
 
 Ascensor
 
@@ -239,7 +239,7 @@ Alfabeto posible: Principalmente números del 0 al 9.
 
 En la foto: Se muestra el número 1 mediante segmentos iluminados en rojo.
 
-![pantalla 2](./imagenes/E2.jpg)
+![pantalla 2](./imagenes/e2.jpg)
 
 Micro
 
@@ -255,7 +255,7 @@ Alfabeto posible: Puede mostrar números, letras y algunas abreviaciones, por lo
 
 En la foto: Se alcanza a leer el recorrido I08 junto con el destino SAN ALBERTO HURTADO.
 
-![pantalla 3](./imagenes/E3.jpg)
+![pantalla 3](./imagenes/e3.jpg)
 
 Pesa digital 
 
