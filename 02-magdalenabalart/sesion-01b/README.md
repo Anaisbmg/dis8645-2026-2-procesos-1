@@ -168,11 +168,11 @@ Entonces puedo resumirlos así:
 - `AND` → sirve cuando **todas las condiciones deben cumplirse**.
 - `NOT` → sirve cuando quiero comprobar **lo contrario de una condición**.
 
-Estas operaciones son importantes porque son la base lógica que después utilizamos dentro de los `if` para indicarle al computador **cuándo debe o no debe ejecutar una acción**.
+Estas operaciones son importantes porque son la base lógica que después utilizamos dentro de los `if` para indicarle al computador **cuándo debe o no debe realizar una acción**.
 
-# `if`: decidir si ejecutar un bloque de código
+# `if`: decidir si realizar un bloque de código
 
-`if` es una **estructura condicional**. Sirve para que el computador decida si debe ejecutar o no una parte del código.
+`if` es una **estructura condicional**. Sirve para que el computador decida si debe realizar o no una parte del código.
 
 Su estructura básica es:
 
@@ -340,7 +340,7 @@ La lógica sería:
       ↓
     true
       ↓
-ejecutar vidas--
+realizar vidas--
       ↓
 3 vidas → 2 vidas
 ```
@@ -710,8 +710,8 @@ void deberiaSalir(string diaDeLaSemana, bool tengoPlata, bool tengoGanas, bool e
 
 ### ¿Qué quiero lograr?
 
-Intentar ejecutar un código en la Raspberry Pi Pico 2 W que haga que su LED integrado se encienda y se apague repetidamente.
-Elegí este ejercicio porque es una forma simple de comprobar si puedo comunicarme correctamente con el microcontrolador y ejecutar un programa en él.
+Intentar realizar un código en la Raspberry Pi Pico 2 W que haga que su LED integrado se encienda y se apague repetidamente.
+Elegí este ejercicio porque es una forma simple de comprobar si puedo comunicarme correctamente con el microcontrolador y realizar un programa en él.
 
 # Raspberry Pi Pico 2 W
 
@@ -725,7 +725,7 @@ La **Raspberry Pi Pico 2 W** es una placa pequeña que se puede programar para c
 - controlar motores;
 - conectarse a Wi-Fi.
 
-A diferencia de un computador normal, no está pensada para abrir programas, navegar por internet o usar un sistema operativo. Su función principal es recibir un código y ejecutar esas instrucciones directamente.
+A diferencia de un computador normal, no está pensada para abrir programas, navegar por internet o usar un sistema operativo. Su función principal es recibir un código y realizar esas instrucciones directamente.
 
 La parte principal de la placa es un **microcontrolador** llamado **RP2350**.
 
@@ -780,7 +780,7 @@ int main() {
 }
 ```
 
-`main()` es la **función principal del programa**. Cuando el Raspberry Pi Pico comienza a ejecutar mi código, parte desde ahí.
+`main()` es la **función principal del programa**. Cuando el Raspberry Pi Pico comienza a realizar mi código, parte desde ahí.
 
 Dentro de `main()` aparece:
 
@@ -1024,7 +1024,7 @@ https://www.raspberrypi.com/documentation/pico-sdk/index_doxygen.html
 
 Antes de enviar el programa al Raspberry Pi, tuve que **compilarlo**.
 
-Compilar significa transformar el código C++ que escribí en instrucciones que el microcontrolador pueda ejecutar.
+Compilar significa transformar el código C++ que escribí en instrucciones que el microcontrolador pueda realizar.
 
 Desde VS Code utilicé:
 
@@ -1474,7 +1474,7 @@ Con este cambio entendí que puedo generar diferentes comportamientos del LED mo
 
 Esto me permitió pasar de copiar el ejemplo inicial a empezar a modificarlo según una intención propia y entender mejor cómo una secuencia de instrucciones puede producir un comportamiento visible en el microcontrolador.
 
-## Cómo ejecutar un código nuevo en el Raspberry Pi Pico 2 W
+## Cómo realizar un código nuevo en el Raspberry Pi Pico 2 W
 
 Cada vez que modifique el código y quiera probarlo nuevamente en el Raspberry Pi Pico 2 W, debo seguir este proceso:
 
@@ -1502,9 +1502,9 @@ Buscar:
 Raspberry Pi Pico: Compile Project
 ```
 
-y ejecutarlo.
+y realizarlo.
 
-Compilar significa transformar el código C++ que escribí en un programa que el microcontrolador pueda ejecutar.
+Compilar significa transformar el código C++ que escribí en un programa que el microcontrolador pueda realizar.
 
 Si no aparecen errores, puedo continuar.
 
@@ -1547,7 +1547,7 @@ Buscar:
 Raspberry Pi Pico: Run Pico Project (USB)
 ```
 
-y ejecutarlo.
+y realizarlo.
 
 VS Code cargará el programa compilado al Raspberry Pi Pico 2 W.
 
@@ -1563,7 +1563,7 @@ debería desaparecer automáticamente de Finder.
 
 Esto es normal.
 
-Significa que el Pico salió del modo BOOTSEL, se reinició y comenzó a ejecutar el nuevo código.
+Significa que el Pico salió del modo BOOTSEL, se reinició y comenzó a realizar el nuevo código.
 
 ### Flujo resumido
 
@@ -1681,4 +1681,4 @@ trickster → rompe una regla → provoca una reacción → revela algo del sist
 Por ejemplo, en Habbo Hotel, los usuarios no “hackean” técnicamente la plataforma: usan sus propias reglas y herramientas de una manera absurda o inesperada para bloquear espacios y generar caos. Ahí funcionan como tricksters, porque subvierten el uso normal del sistema.
 
 
-
+.
