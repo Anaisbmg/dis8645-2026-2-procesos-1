@@ -231,3 +231,21 @@ Serial.println(): muestra información en el Monitor Serial.
 ## encargos
 
 ## lectura
+
+Andrew Witt Formulations pág 11- 15
+
+Hasta ahora entiendo que el libro analiza cómo la arquitectura se puede relacionar con distintas formas de diseño a través de geometrías, sistemas y fórmulas. Me da la idea de que Witt intenta mostrar que las matemáticas no están solo para calcular una construcción, sino que también pueden participar directamente en cómo se piensa y se genera una forma incluso vinculándolo con el lado artístico.
+
+Cita 1: 
+
+“I am convinced it is possible to evolve a new form of art in which the artist’s work could be founded to quite a substantial degree on a mathematical line of approach to its content.” — pág. 11
+
+Me sorprende demasiado como plantea que las matemáticas también podrían ser parte de un proceso creativo.
+
+“Mathematics is the majestic structure conceived by man to grant him comprehension of the universe. It holds both the absolute and infinite, the understandable and the forever elusive.” - pág 13
+
+Me gusta cómo expresa que las matemáticas son una forma de comprender el mundo. Aunque nunca las he entendido demasiado, igual siento que son una parte vital de cómo se forma y se organiza todo.
+
+
+
+
