@@ -38,6 +38,7 @@ Arduino GND - cable - 5V - cable - (solo concecciones sin una fuente de poder) -
 
 ![arduino](./imagenes/arduino.jpeg)
 
+```cpp
 int patitalectura = A0;
 
 const - constante
@@ -48,7 +49,6 @@ const int patitaLectura = A0;
 
 int valorLectura = -1;
 
-```cpp
 void setup() {
 
 Serial.begin (9600);
