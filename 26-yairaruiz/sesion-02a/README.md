@@ -1,10 +1,52 @@
 # sesion-02a
 
-
+clase 18/08
 
 ## apuntes sesión
 
+Potenciómetros y botones
 
+**potenciómetro (resistor variable):  nos permite regular potencia** es un interfaz que tiene forma para encapsular dos resistencias, la patita 2 es la que mueve el valor en un constante. los potenciónmetros giran en torno a un rango.  
+
++ potencia = energía/tiempo 
+
++ en electricidad la potencia es: voltaje x corriente 
+
+vamos a hacer circuitos (por donde transitan electrones), 
+
++ la corriente es un flujo de electrones y el potenciómetro
+
+  **Botones** (pulsadores) 
+
+  + pushbutton
+ 
+ 
+https://docs.arduino.cc/built-in-examples/digital/Button/
+
+![IMG](./imagenes/circuit.png/)
+
+*resistencia pull down : permite llegar a tierra con calma*
+
+Código para conectar un potenciómetro a Arduino UNO R4 WIFI
+
+    const int patitaLectura = "A0"; 
+
+    int valorLectura = -1;
+
+    void setup() {
+      Serial.begin(9600);
+
+    }
+
+    void loop() {
+      Serial.println("hoolaa");
+     valorLectura = analogRead(patitaLectura);
+     Serial.println(valorLectura);
+    }
+
+*¿Qué es Serial? dar un mensaje en orden (el contrario de en paralelo), el puerto USB es serial y funciona a diferentes velocidades*
+
+![IMG](./imagenes/pot-arduino.png/)
 
 ## encargos
 

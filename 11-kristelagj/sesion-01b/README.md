@@ -2,6 +2,21 @@
 
 ## apuntes sesión
 
+## clase 140806
+
+### clase
+
+- Aarón
+
+Funciones: secuencia de instrucciones para que ocurran cosas, una rutina, coreografía 
+Void: un tipo
+
+{ : desde acá
+
+Setup es una función ("¿Qué necesito preparar antes de empezar?")
+
+Setup es hacer una sola vez y loop es repetir
+
 ## encargos
 
 encargo01b:
@@ -189,3 +204,126 @@ https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s
 https://docs.sunfounder.com/projects/elite-explorer-kit/es/latest/new_feature_projects/04_led_matrix.html#mostrar-animaciones
 
 ### Encargo 2
+
+Para este encargo, me ayudaron mi hermana Rocio y su pareja Juan Manuel ya que son profesores de programación (tienen una gran portafolio con lo que respecta a esta área) entonces me hicieron una clase de c++ 
+
+Juan Manuel me presento esta pagina donde me enseño lo basico https://www.programiz.com/python-programming/online-compiler/ 
+
+```cpp
+#include <iostream>
+
+int main() {
+    // Para mostrar informacion en pantalla
+    std::cout << "Hola Mundo!\n";
+    // Mostrar Hola Mundo
+    std::cout << "Kelly!\n";
+
+    // Tipos de datos (int: entero)
+    int edad = 25;
+
+    std::cout << edad << "\n";
+
+    edad ++;
+
+    std::cout << edad << "\n";
+
+    // Tipos de datos (bool: true o false)
+
+    bool nombre = false;
+
+    std::cout << nombre;
+
+
+    return 0;
+}
+
+```
+
+Aquí me ensayo la diferencia de la función void y todas las otras, es que básicamente con la primera no recibir nada a cambio al correr el código (esto no lo estaba comprendiendo sola), pero con por ejemplo int si, como por ejemplo lo que es Hola mundo, Kelly 25 y 30\.  
+
+También, en la zona donde recibo números, primero debo colocar la función int para recibir el número 25, pero después no es necesario colocarlo. 
+
+Siempre es necesario colocar los murciélagos {} para desarrollar algo ya que así el computador lee que “esto comienza aquí y termina aquí)
+
+Pueden existir varias funciones dentro de otra función. 
+
+No hay que basarse en los colores que cada página o software tiene porque no todos tienen los mismos, lo cual para mi me complejiza la experiencia de usuario y el lenguaje universal. 
+
+- Funciones: Recibe información (Realiza acciones y necesita cosas para hacerlas)   
+- Variables: donde guardas tus datos  
+- Void (vacío): No devolverá nada, ocurrirá una sola vez cuando lo coloque  
+- /n: salto de línea  
+- Main: función  
+- Tipo: Lo que va a retornar  
+- Parámetros: lo que necesito para hacer algo (después de la función)  
+- Else: mo ocurrirá ninguna de las otras 2 cosas así que sucederá esta (es una condición)  
+- Printear: mostrar lo que corri en el código  
+- If: Colocar siempre algo dentro de ()  
+- return: colocar siempre al final para recibir algo  
+  
+tipo de dato \+ variable: lo que vale esa variable  
+
+Mientras realizamos esto, revisamos el ejemplo que subió Aaron a discord para entender el nivel de complejidad que se buscaba y que datos entregaba y en conjunto realizamos el primer ejemplo de este encargo:
+
+```cpp
+
+void tomarMetro(conPaseEscolar) {
+  if (dinero > 250) {
+    pagar(tne, pasaje);
+  }
+  else if (no_hay_guardias) {
+    evadir();
+  }
+  else {
+    cargar(1000);
+    pagar(tne, pasaje);
+  }
+  
+  bajar_escalera();
+  esperar_metro(minutos);
+  subir_metro();
+}
+
+```
+
+```cpp
+bool encuadernar(bool proceso, bool sabado) {
+
+    // 1. Decisión de la herramienta para plegar
+    if (plegadera) {
+        plegar_hojas();
+    }
+    else if (mano) {
+        plegar_hojas();
+    }
+    else {
+        usar_tarjeta(); // O tarjeta = true;
+        plegar_hojas();
+    }
+    
+    // 2. Procesos siguientes
+    bordar(hilo, aguja);
+    perfilar(cortacarton);
+
+    // 3. Evaluación final que retorna verdadero o falso
+    if (proceso || sabado) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+```
+
+## lectura
+
+Es un libro bastante complejo ya que además de contener poemas, ocupa un lenguaje el cual no estoy acostumbrado a leer en formato y habla de una retrospectiva humana difícil de entender. Creo que más que leer 1 página por día, es leer la sinopsis y que entiendo al pasar de los días. 
+
+Para mí se me ha hecho complejo leer una página diaria, es una lectura continua para entender el contexto de cada uno de los poemas que se encuentran. 
+
+Lo que logré entender de los primeros poemas que leí, fue hasta el 5, que el artista quiere volver a la realidad y que lo físico es su único cable a tierra. Además, lo frágil que puede ser eliminarte de la vida.
+
+Como llegue a esta conclusión?
+
+…”y la piel es rajada, escindida/ -este era un sueño feliz: una parábola, yo bajando desde las montañas y mi piel colgando sobre mis dedos: el playlist continúa…”
+

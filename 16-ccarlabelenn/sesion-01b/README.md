@@ -170,6 +170,9 @@ void loop() {
 ````
 
 ## encargo 01b
+# correr código 
+
+tuve atados 
 
 # leerEnMetro
 

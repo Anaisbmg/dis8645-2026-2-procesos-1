@@ -38,6 +38,216 @@ bit: o vale 0 (apagado) o vale 1 (encendido)
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
+La primera parte es difícil de explicarla para mí, ya que no tenía la placa conmigo. Pero mi compañera conectó la placa a su pc para iniciar, hicimos el reset manual y la luz de la placa empezó a parpadear suavemente.
+He aquí las pruebas:
+
+![Parpadeo arduino](./arduino-luz-encendida.jpeg)
+![Parpadeo arduino 2](./arduino-luz-apagada.jpeg)
+
+Lo que se logró posteriormente, fue prender completamente la matriz de LEDs.
+
+![Pantalla encendida arduino](./arduino-pantalla-led-prendida.jpeg)
+
+Había que empezar el 
+
+```cpp
+#include "Arduino_Led_Matrix.h"
+```
+
+La cual es una orden que le dice al programa que importe una librería específica antes de compilar el código. Seguimos con:
+
+```cpp
+
+ void setup () {
+ pantalla.begin ();
+ }
+```
+
+ siendo ".begin" lo que llama a la pantalla para prenderse.
+ 
+Para saber cómo se prende la pantalla, necesitábamos saber cómo escribirla en código, ahí llega el bitmap que funciona con 0 y 1, que como anteriormente mencioné; cada 1 representa un encendido y cada 0 un apagado (en este caso los LEDs). Nosotras queríamos hacer una estrella en esta, así que mi compañera lo escribió así.
+
+```cpp
+byte estrella [8][12] = {
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,1,1,1,1,1,1,1,0,0,0},
+    {0,0,0,0,1,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,0,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,0,1,0,1,0,0,0,0,0},
+    {0,0,0,1,0,0,0,1,0,0,0,0},
+};
+```
+
+![Intento 1 estrella](./arduino-estrella-martina.jpeg)
+
+y quedó muy bien. Yo en cambio lo intenté de otra manera y me quedó horrible, no entendí que hice realmente.
+
+```cpp
+/* 
+ Dibujar una estrella en la matriz de LEDs del Arduino UNO R4 WIFI
+ */
+
+
+ // Incluir la libreria oficial
+ #include "Arduino_LED_Matrix.h"
+ 
+// Crear el objeto de la matrix
+ArduinoLEDMatrix matrix;
+
+// Definir el mapa de bits en forma de estrella
+// Esto en un arreglo de 12 filas (para las 12 columnas) y 8 bits (para las 8 filas de alto) 
+// El prefijo 0b indica que el número que sigue es binario.
+const uint32_t estrella_bits[] = {
+  0b00000100, // Columna 0 (fila 0-7)
+    0b00001110, // Columna 1
+    0b00011111, // Columna 2
+    0b01111110, // Columna 3
+    0b11111110, // Columna 4 (cuerpo central)
+    0b00001111, // Columna 5
+    0b11111110, // Columna 6 (cuerpo central)
+    0b01111110, // Columna 7
+    0b00011111, // Columna 8
+    0b00001110, // Columna 9
+    0b00000100, // Columna 10
+    0b00000000  // Columna 11 (vacía)
+};
+
+void setup() {
+  // inicializar la matriz de leds
+  matrix.begin();
+
+}
+
+void loop() {
+  // cargar y mostrar la figura de estrella
+  matrix.loadFrame(estrella_bits);
+  delay(1000) // mantenerla encendida por un segundo
+}
+```
+
+![Intento 2 estrella](./arduino-estrella-bombobby.jpeg)
+
+En ese momento no entendí que hice mal, ahora veo que solo compliqué más de lo necesario el código...
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+Mi compañera dio la idea de hacer una función que modele la elección de un cliente al momento de comprar torta, el cliente quiere torta de chocolate.
+
+Mi compañera había hecho una, pero sintió que era demasiado complicada:
+
+```cpp
+//escoger una torta de chocolate 
+//la torta no debe tener frutos secos 
+//la torta no debe tener mermeladas 
+//puede tener manjar 
+//debe ser con azucar 
+//las opciones que hay para escoger son 
+//chocolate manjar, chocolate sin azúcar, chocolate y mermelada de frambuesa 
+//chocolate nuez, cheesecake
+
+//clienta quiere comprar una torta de chocolate
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaAzucar = false;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+//los sabores disponibles son
+//Torta chocolate manjar
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate mermelada
+bool TieneMermelada = true
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate y frutos secos
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = true
+bool TieneCheesecake = false
+//Torta de chocolate sin azucar
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = false
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//y Cheesecake de chocolate
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = true
+```
+
+Luego le dio un valor numérico a cada torta y fue un poco confuso.
+
+Yo hice otra versión, que creo que se ve muy diferente a la suya:
+
+```cpp
+// sistema de selección de torta para cliente
+
+// preferencias para la torta del cliente
+String preferenciaBizcochoTorta = "humedo"; // opciones: "humedo" o "tradicional"
+String preferenciaCrema = "sabor chocolate"; // opciones: "sabor chocolate" "sabor vainilla" "sabor tradicional" 
+
+// aquí guardaremos el nombre de la torta elegida:
+String tortaDePuroChocolateElegida = "";
+
+void setup() {
+  // evaluamos las opciones para elegir la torta adecuada, en este caso de chocolate
+  tortaDePuroChocolateElegida = elegirTortaDePuroChocolate(preferenciaBizcochoTorta, preferenciaCrema);
+
+}
+
+void loop() {
+ //
+}
+
+String elegirTortaDePuroChocolate(String preferenciaBizcocho, String preferenciaCrema) {
+ String resultadoTorta = "";
+
+  if (bizcocho == "humedo") {
+    if (crema == "sabor chocolate")
+    resultadoTorta = "Torta Sabor Puro Chocolate Húmedo"; 
+
+}
+// sistema de selección de torta para cliente
+
+// preferencias para la torta del cliente
+String preferenciaBizcochoTorta = "humedo"; // opciones: "humedo" o "tradicional"
+String preferenciaCrema = "sabor chocolate"; // opciones: "sabor chocolate" "sabor vainilla" "sabor tradicional" 
+
+// aquí guardaremos el nombre de la torta elegida:
+String tortaDePuroChocolateElegida = "";
+
+void setup() {
+  // evaluamos las opciones para elegir la torta adecuada, en este caso de chocolate
+  tortaDePuroChocolateElegida = elegirTortaDePuroChocolate(preferenciaBizcochoTorta, preferenciaCrema);
+
+}
+
+void loop() {
+ //
+}
+
+String elegirTortaDePuroChocolate(String preferenciaBizcocho, String preferenciaCrema) {
+ String resultadoTorta = "";
+
+  if (bizcocho == "humedo") {
+    if (crema == "sabor chocolate")
+    resultadoTorta = "Torta Sabor Puro Chocolate Húmedo"; 
+ }
+}
+```
+
+pero me tiró error y aun no entiendo cuál es el error. Arreglé puntos y comas, los supuestos "was not declared in this scope". Ayuda profe
 
 ## lectura
