@@ -432,10 +432,175 @@ también puedo pensar la matriz utilizando 0 y 1:
 tambien me recordó a mi lectura del libro “una fórmula = una imagen”, ya que en una parte nos menciona que las imágenes se grafican en coordenadas, tenemos (x,y). entonces, en este caso contaríamos con 8 filas y 12 columnas, donde cada luz tendría una posición dentro de esta matriz. las coordenadas se podrían ir desplazando o cambiando para formar una imagen, similar a los ejercicios del colegio, donde se colocaban diferentes puntos según sus coordenadas y luego se unían para ver qué imagen formaban.
 
 
+Como ya sabemos que trabajamos con ceros y unos bajo un sistema de coordenadas $(x, y)$, el siguiente paso era definir cómo traducir la imagen a la matriz. Para esto, recurrimos a Inteligencia Artificial para consultar cómo estructurar el arreglo de datos partiendo de la carita que queríamos representar: :I
+
+### creando el emoji `:I` en el arduino
+
+como ya sabemos que tenemos que trabajar con 0 y 1 en un eje de coordenadas (x, y), el siguiente paso era traducir la idea visual de nuestra carita a la matriz física.
+
+la carita que decidimos realizar es: `:I`
+
+* dos ojos abiertos e iguales `:`
+* una boca recta `I`
+
+para lograr esto en el arduino uno r4 wifi, utilizamos la librería `Arduino_LED_Matrix` y representamos la matriz de 12 columnas x 8 filas con 0 y 1:
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+// crear el objeto matriz
+ArduinoLEDMatrix matrix;
+
+// matriz de 8 filas x 12 columnas para dibujar el emoji :I
+const uint8_t emojiCara[8][12] = {
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0}, // ojo izquierdo y ojo derecho
+  {0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 0}, // ojos de 2x2 leds
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0}, // línea de la boca recta
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
+  {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0}
+};
+
+void setup() {
+  // inicializar la matriz
+  matrix.begin();
+  
+  // cargar el dibujo del emoji en la matriz de leds
+  matrix.renderBitmap(emojiCara);
+}
+
+void loop() {
+
+}
+```
+
+la primera duda que se me vino a la mente al ver el código fue entender qué significa cada función que nos dio la inteligencia artificial y para qué sirve. en concreto, no sabía qué significaba la línea #include "Arduino_LED_Matrix.h".
+
+investigando un poco, entendí lo siguiente:
+
+Arduino_LED_Matrix.h: es una librería oficial diseñada especialmente para el arduino uno r4 wifi. en programación, una librería es un paquete de código ya escrito por otras personas que nos facilita el trabajo. en vez de tener que escribir instrucciones complejas para controlar los 96 leds de la placa uno por uno, esta librería le enseña al arduino cómo interpretar nuestra matriz de 0s y 1s de forma automática.
+
+#include: es la orden que le da al programa para importar esa librería al código y poder usar sus funciones.
+
+ArduinoLEDMatrix matrix;: crea el objeto que representa la pantalla led dentro de nuestro código.
+
+matrix.begin(): es la función que inicializa y "despierta" la matriz de leds en el setup().
+
+matrix.renderBitmap(...): es la función que toma nuestro arreglo de coordenadas (ceros y unos) y lo traduce a impulsos eléctricos para encender las luces físicas en la placa.
+
+### agregando movimiento y animación
+
+el siguiente paso fue darle vida a la matriz haciendo que la carita no fuera estática, sino que tuviera una animación. para lograr esto, creamos tres funciones diferentes (`caraSeria()`, `transicion()` y `lengua()`) y utilizamos la función `delay()` para controlar la velocidad de los cambios en el `loop()`.
+
+también aplicamos el uso de una variable `estado` de tipo `int` junto con condicionales `if` para controlar la secuencia de la animación paso a paso.
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix matrix;
+
+// variable que guarda el estado
+int estado = 0;
+
+// carita seria :l
+void caraSeria() {
+
+  uint8_t frame[8][12] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,1,1,1,1,0,0,0,0},
+    {0,0,0,0,1,1,1,1,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0}
+  };
+
+  matrix.renderBitmap(frame, 8, 12);
+}
+
+// transición :|
+void transicion() {
+
+  uint8_t frame[8][12] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0}
+  };
+
+  matrix.renderBitmap(frame, 8, 12);
+}
+
+// carita sacando la lengua :=
+void lengua() {
+
+  uint8_t frame[8][12] = {
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,1,1,0,0,0,0,0,1,1,0,0},
+    {0,0,0,0,0,0,0,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0},
+    {0,0,0,0,0,1,1,0,0,0,0,0}
+  };
+
+  matrix.renderBitmap(frame, 8, 12);
+}
+
+void setup() {
+
+  // configuración inicial
+  matrix.begin();
+
+}
+
+void loop() {
+
+  // estado 0
+  estado = 0;
+
+  if (estado == 0) {
+    caraSeria();
+    delay(800);
+  }
+
+  // estado 1
+  estado = 1;
+
+  if (estado == 1) {
+    transicion();
+    delay(150);
+  }
+
+  // estado 2
+  estado = 2;
+
+  if (estado == 2) {
+    lengua();
+    delay(800);
+  }
+}
+```
+
+### lo que aprendí con este código:
+
+ **funciones independientes:** creamos tres funciones distintas (`caraSeria()`, `transicion()`, `lengua()`) que contienen cada una su propio dibujo o *frame*.
+ **control por variable:** usamos la variable `estado` para indicarle al programa qué cara le toca mostrar en cada paso.
+ **`delay()`:** sirve para pausar el programa durante un número de milisegundos (`800` ms = 0.8 segundos). esto es clave para que los ojos alcancen a ver el cambio antes de pasar a la siguiente figura.
 
 
 
+ ### con mi compañero 
 
+ 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
@@ -446,6 +611,7 @@ Tipo: void (solo ejecuta las acciones, no devuelve un número ni texto).
 Parámetros: (bool tengoEnergia, bool espacioGrande)
 
 Uso: Decidir qué tipo de pasos hacer según las ganas y el espacio disponible.
+
 
 
 ```cpp
