@@ -58,7 +58,7 @@ recordar:
 Variables: Son los datos.
 Funciones: Van a preguntar variables y, según la variable, se va a operar.
 
-variables: 
+### variables: 
 
 nombre: bianka 
 
@@ -85,7 +85,7 @@ Tiempo dedicado al diseño: cambia según el día
 Cantidad de café: depende del dia
 
 
-funciones:
+### funciones:
 
 Consultar datos personales: Junta el nombre, apellido, edad y altura para dar la presentación de la persona.
 
@@ -98,7 +98,7 @@ Organizar el tiempo de diseño: Revisa la paciencia y el tiempo disponible. Si h
 Actualizar el estado de ánimo: Revisa cuántas tazas de café tomó y cuánto descansó para cambiar el estado de ánimo (por ejemplo, pasar de estar cansada a estar feliz o tranquila).
 
 
-## pantalla de segmento
+### pantalla de segmento
 
 Una pantalla de segmentos es un dispositivo formado por varios elementos independientes que pueden encenderse o apagarse para construir números, letras o símbolos. Los segmentos suelen ser LED, cristales líquidos u otras tecnologías.
 
@@ -118,30 +118,34 @@ Son las más sencillas y populares. Tienen 7 barras con forma de número **8**.
 * **¿Qué muestran?** Números del 0 al 9 y un par de letras simples (como A, C, E, F).
 * **¿Cómo funcionan?** Cada barra es un LED con una letra (de la `a` a la `g`). Si enciendes las barras correctas, formas el número.
 * **Tipos:**
-  * **Ánodo Común:** Todos los LEDs comparten el polo positivo (+).
-  * **Cátodo Común:** Todos los LEDs comparten el polo negativo (-).
+**Ánodo Común:** Todos los LEDs comparten el polo positivo (+).
+  **Cátodo Común:** Todos los LEDs comparten el polo negativo (-).
 
 
 ### 2. Pantalla de 14 Segmentos (Alfanumérica)
 Son una versión mejorada. Tienen las 7 barras exteriores más otras **7 barras internas** (diagonales, verticales y horizontales).
 
-* **¿Qué muestran?** Todo el alfabeto completo (**A-Z**), números y símbolos (+, -, *, /).
-* **¿Por qué se usan?** Permiten escribir texto legible y mensajes completos que una pantalla de 7 segmentos no puede hacer.
+ **¿Qué muestran?** Todo el alfabeto completo (**A-Z**), números y símbolos (+, -, *, /).
+ 
+ **¿Por qué se usan?** Permiten escribir texto legible y mensajes completos que una pantalla de 7 segmentos no puede hacer.
 
 
-## 3 Ejemplos de Dispositivos Diferentes
+### 3 Ejemplos de Dispositivos Diferentes
 
 1. **Reloj Despertador Digital (Pantalla de 7 segmentos):**
-   * Usa 4 dígitos de 7 segmentos para mostrar solo la hora y los minutos (ejemplo: `12:45`).
-   * **Razón:** Solo necesita mostrar números del 0 al 9.
+    Usa 4 dígitos de 7 segmentos para mostrar solo la hora y los minutos (ejemplo: `12:45`).
+   
+    **Razón:** Solo necesita mostrar números del 0 al 9.
 
-2. **Radio o Estéreo de Auto Antiguo (Pantalla de 14 segmentos):**
-   * Usa una fila de pantallas de 14 segmentos para mostrar el nombre de la estación o la canción (ejemplo: `ROCK 101.5` o `BLUETOOTH`).
-   * **Razón:** Necesita combinar letras y números para mostrar texto entendible.
+3. **Radio o Estéreo de Auto Antiguo (Pantalla de 14 segmentos):**
+   Usa una fila de pantallas de 14 segmentos para mostrar el nombre de la estación o la canción (ejemplo: `ROCK 101.5` o `BLUETOOTH`).
+   
+     **Razón:** Necesita combinar letras y números para mostrar texto entendible.
 
-3. **Báscula o Gramera Digital de Cocina (Pantalla de 7 segmentos):**
-   * Muestra el peso exacto del ingrediente (ejemplo: `150 g`).
-   * **Razón:** Su función principal es mostrar mediciones numéricas exactas de forma clara y económica.
+4. **Báscula o Gramera Digital de Cocina (Pantalla de 7 segmentos):**
+    Muestra el peso exacto del ingrediente (ejemplo: `150 g`).
+   
+    **Razón:** Su función principal es mostrar mediciones numéricas exactas de forma clara y económica.
 
 
 
