@@ -380,6 +380,8 @@ se pueden utilizar para mostrar:
 
 ## encargos
 
+1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+
 para este ejercicio me tocó trabajar con un arduino uno r4 wifi junto con mi compañero. lo primero que quería entender era cómo hacer que el microcontrolador hiciera algo que yo le estaba pidiendo a través del código.
 
 como en la clase estuvimos hablando de variables, funciones, booleanos, condiciones y de cómo las cosas funcionan dentro de un contexto, quería llevar estos conceptos a algo físico.
@@ -430,9 +432,51 @@ también puedo pensar la matriz utilizando 0 y 1:
 tambien me recordó a mi lectura del libro “una fórmula = una imagen”, ya que en una parte nos menciona que las imágenes se grafican en coordenadas, tenemos (x,y). entonces, en este caso contaríamos con 8 filas y 12 columnas, donde cada luz tendría una posición dentro de esta matriz. las coordenadas se podrían ir desplazando o cambiando para formar una imagen, similar a los ejercicios del colegio, donde se colocaban diferentes puntos según sus coordenadas y luego se unían para ver qué imagen formaban.
 
 
-encargo01b:
 
-1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
-## lectura
+Nombre: bailar()
+
+Tipo: void (solo ejecuta las acciones, no devuelve un número ni texto).
+
+Parámetros: (bool tengoEnergia, bool espacioGrande)
+
+Uso: Decidir qué tipo de pasos hacer según las ganas y el espacio disponible.
+
+
+```cpp
+// variables
+
+bailar()
+
+bool tengoEnergia = true;
+bool espacioGrande = false;
+
+// declarar la función bailar
+// tipo void porque ejecuta acciones y no entrega resultado
+void bailar(bool energia, bool espacio) {
+
+  // si tengo energía y además el espacio es grande
+  if (energia == true && espacio == true) {
+
+    // bailar con saltos y giros
+
+  }
+  // si no se cumplen ambas condiciones
+  else {
+
+    // bailar suave en el lugar
+
+  }
+}
+
+void setup() {
+
+  // llamar a la función bailar
+  bailar(tengoEnergia, espacioGrande);
+}
+
+void loop() {
+
+}
+
