@@ -596,7 +596,7 @@ void loop() {
  **control por variable:** usamos la variable `estado` para indicarle al programa qué cara le toca mostrar en cada paso.
  **`delay()`:** sirve para pausar el programa durante un número de milisegundos (`800` ms = 0.8 segundos). esto es clave para que los ojos alcancen a ver el cambio antes de pasar a la siguiente figura.
 
-![animacion de la carita](intento-dos.gif)
+![animacion de la carita](./imagenes/intento-dos.gif)
 
  ### con mi compañero 
 
@@ -725,11 +725,9 @@ void loop() {
 
 
 
-![animacion de la carita](intento-tres.gif)
+![animacion de la carita](./imagenes/intento-tres.gif)
 
-![animacion de la carita](intento-cuatro.gif)
-
-
+![animacion de la carita](./imagenes/intento-cuatro.gif)
 
 
 
