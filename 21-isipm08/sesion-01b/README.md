@@ -120,6 +120,11 @@ está prohibido escribir una línea de código sin describir lo que tiene que pa
 - backtick: carácter para renderizar códigos + indicar lenguaje cpp. ```
 - bool: almacena dos valores (verdadero/falso).
 - string: manejar cadenas de texto.
+- while: mientras que...
+- ! lo contrario de
+- print = muestra algo en el Monitor Serial y deja el cursor en la misma línea.
+- println = muestra algo y después salta a la siguiente línea.
+
 
 ## encargos
 
