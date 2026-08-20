@@ -433,6 +433,10 @@ tambien me recordó a mi lectura del libro “una fórmula = una imagen”, ya q
 
 
 
+
+
+
+
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 Nombre: bailar()
