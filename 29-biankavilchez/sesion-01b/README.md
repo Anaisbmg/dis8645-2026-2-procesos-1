@@ -600,6 +600,132 @@ void loop() {
 
  ### con mi compañero 
 
+ ### animando cuadro por cuadro (*frame by frame*)
+
+para lograr un movimiento mucho más fluido y natural al sacar la lengua, decidimos descomponer la animación en varios fotogramas intermedios (*frames*). 
+
+en lugar de saltar directamente de la carita neutra a la carita sacando la lengua, creamos variaciones progresivas para los ojos y para la lengua asomándose.
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+// aca se crea un objeto para controlar la matriz de leds
+ArduinoLEDMatrix matrix;
+
+// aqui creo el dibujo del emoji usando una matriz de 8 filas y 12 columnas
+
+byte miEmoji[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0 }
+};
+
+// aqui esta la carita neutra :I
+byte caraNeutral[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui esta el primer frame intermedio, parpadeo
+byte frameIntermedioOjos[8][12] = {
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui esta el segundo frame intermedio
+byte frameIntermedioOjosMitad[8][12] = {
+  { 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui esta el tercer frame intermedio
+byte frameIntermedioBoca[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui esta el cuarto frame intermedio, la lengua recien asomando
+byte lenguaAsomando[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui esta el quinto frame intermedio, la lengua a la mitad
+byte lenguaMitad[8][12] = {
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+  { 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0 },
+  { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 }
+};
+
+// aqui se inicia la matriz de leds
+void setup() {
+  matrix.begin();
+}
+
+// esto es basicamente para que se repita constantemente
+void loop() {
+  matrix.renderBitmap(caraNeutral, 8, 12);
+  delay(800);
+  matrix.renderBitmap(frameIntermedioOjos, 8, 12);
+  delay(200);
+  matrix.renderBitmap(frameIntermedioOjosMitad, 8, 12);
+  delay(200);
+  matrix.renderBitmap(frameIntermedioBoca, 8, 12);
+  delay(120);
+  matrix.renderBitmap(lenguaAsomando, 8, 12);
+  delay(120);
+  matrix.renderBitmap(lenguaMitad, 8, 12);
+  delay(120);
+  matrix.renderBitmap(miEmoji, 8, 12);
+  delay(800);
+}
+```
+
+### reflexiones sobre la animación:
+
+* **cuadros de transición:** al intercalar fotogramas con variaciones mínimas (`lenguaAsomando` -> `lenguaMitad` -> `miEmoji`), la ilusión de movimiento se vuelve fluida.
+* **tiempos con `delay()`:** utilizamos tiempos de espera reducidos (`120` ms) para las transiciones rápidas y congelamos el estado final durante más tiempo (`800` ms) para que el emoji alcance a apreciarse.
+
 ![animacion de la carita](intento-tres.gif)
 
 ![animacion de la carita](intento-cuatro.gif)
