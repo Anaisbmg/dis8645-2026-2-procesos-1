@@ -723,12 +723,14 @@ void loop() {
 
 ### reflexiones sobre la animación:
 
-* **cuadros de transición:** al intercalar fotogramas con variaciones mínimas (`lenguaAsomando` -> `lenguaMitad` -> `miEmoji`), la ilusión de movimiento se vuelve fluida.
-* **tiempos con `delay()`:** utilizamos tiempos de espera reducidos (`120` ms) para las transiciones rápidas y congelamos el estado final durante más tiempo (`800` ms) para que el emoji alcance a apreciarse.
+
 
 ![animacion de la carita](intento-tres.gif)
 
 ![animacion de la carita](intento-cuatro.gif)
+
+
+
 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
