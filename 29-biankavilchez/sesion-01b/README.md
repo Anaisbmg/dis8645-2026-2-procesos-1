@@ -596,11 +596,14 @@ void loop() {
  **control por variable:** usamos la variable `estado` para indicarle al programa qué cara le toca mostrar en cada paso.
  **`delay()`:** sirve para pausar el programa durante un número de milisegundos (`800` ms = 0.8 segundos). esto es clave para que los ojos alcancen a ver el cambio antes de pasar a la siguiente figura.
 
-
+![animacion de la carita](intento-dos.gif)
 
  ### con mi compañero 
 
- 
+![animacion de la carita](intento-tres.gif)
+
+![animacion de la carita](intento-cuatro.gif)
+
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
