@@ -36,6 +36,12 @@ Toggles
 - Se pueden definir los volts.
 
 **Potenciómetro**
+
+![potenciometro](./potencimetro-ejemplo.png) 
+
+![potenciometro](./potenciometro-ejemplo2.png) 
+
+
 1: se conecta al voltaje
 
 2: lectura
@@ -60,6 +66,8 @@ Toggles
 - Siempre hacer primero en papel lo que quieres hacer.
 
 **Botón**
+
+
 Cable negro: se ocupa para tierra 
 
 Cable rojo: Volts
@@ -73,6 +81,9 @@ Contiene alerones en las orillas. Impone voltajes
 
 
 # 3. Arduino
+
+![arduino](./arduino-ejemplo.png) 
+
 
 -no usar vin
 
