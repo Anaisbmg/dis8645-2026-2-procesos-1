@@ -44,7 +44,7 @@ https://www.youtube.com/watch?v=MBTPU8PwS3Y
 
 Al intentar correr este código, logramos que funcionara de manera correcta
 
-<img width="339" height="300" alt="Screenshot 2026-08-16 at 8 10 10 PM" src="https://github.com/user-attachments/assets/79f57051-29c8-4fa0-9fde-13e993fb6f12" />
+![texto](./imagenes/foto.png)
 
 Luego decidimos intentar otras figuras con la misma base.
 
@@ -122,13 +122,13 @@ A();
 }
 ```
 Primera Letra
-<img width="1536" height="2048" alt="Taller" src="https://github.com/user-attachments/assets/8c2f9a76-98f1-4743-9d12-89166fa778b1" />
+![texto](./imagenes/taller.png)
 
 Boceto de segunda letra
-<img width="1200" height="1600" alt="Taller parte 2" src="https://github.com/user-attachments/assets/c3493561-3fae-4001-b4be-dba8cf03dcb5" />
+![texto](./imagenes/taller2.png)
 
 Ambas Letras que son nuestras iniciales
-<img width="1152" height="2048" alt="Taller parte 3" src="https://github.com/user-attachments/assets/55ba3ee7-cf25-4b5d-9021-35403df10631" />
+![texto](./imagenes/taller3.png)
 
 
 
@@ -160,6 +160,5 @@ void junta(casa, viernes) {
 
 Libro que escogí para leer:
 
-<img width="1000" height="758" alt="AMI-CoverPrototype jpg" src="https://github.com/user-attachments/assets/19526614-562f-42ff-a848-21097eb884a8" />
-
+![texto](./imagenes/libro.png)
 
