@@ -192,6 +192,34 @@ revisar actions o el correo para ver si cometiste errores
 
 en errores malos, hacer click en el reporte y revisar donde esta el problema.
 
+**Prueba de código en clases**
+
+```cpp
+
+const int patitaLectura = A0;
+// declarar 
+int valorLectura = -1;
+// darle un valor que nunca podrá ser 
+
+
+
+void setup() {
+
+ Serial.begin(9600);
+
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura);
+ Serial.println(valorLectura);
+
+}
+```
+
+![Imagen codigo](./codigo-corriendo.png)
+
+![arduino conectado](./arduino-conectado.jpeg)
+
 
 ## encargos
 
