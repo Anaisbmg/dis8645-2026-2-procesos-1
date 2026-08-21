@@ -22,9 +22,13 @@ para subir la potencia, hay que subir la energía o bajar el tiempo (o ambas al 
 
 resistencia es lo que maneja el flujo de corriente: mientras más resistencia, menor el flujo de corriente. mientras menos resistencia, mayor el flujo de corriente.
 
+![dibujo de resistencia grande en pote](./imagenes/potenciómetro.jpg)
+
 dentro de un potenciómetro hay una resistencia gigante entre la patita 1 y 3, mientras que la patita 2 es la que nos permite movernos mediante esta resistencia.
 
-### botones (push buttons)- 
+![imagen de <https://docs.arduino.cc/built-in-examples/digital/Button/>, no me pertenece](./imagenes/pote.png)
+
+### botones (push buttons)
 
 cuando hablamos de botones, usualmente nos vamos a referir a pulsadores (push buttons), los cuales son elementos temporales y mediante pasa el tiempo, pasan cosas.
 
@@ -32,7 +36,11 @@ existen dos tipos de botones:
 
 1. N.O. = Normally Open. un circuito normalmente abierto es en donde el electrón no puede transitar libremente por el circuito, ya que nadie está para presionar el botón y hacer puente entre dos puntos.
 
+![normalmente abierto en pizarra](./imagenes/nor-op.jpg)
+
 2. NC = Normalmente Conectado. siempre están conectados los dos lugares, y puedes desconectarlos al presionar el botón.
+
+![normalmente conectado en pizarra](./imagenes/nor-ce.jpg)
 
 el que se utiliza más es el N.O.
 
@@ -75,13 +83,15 @@ en el hemisferio izquierdo, entre la patita del botón y GND hay una resistencia
 a los dos extremos del potenciómetro va GND y Vcc
 en la patita 2
 
-Arduino: analog es el mundo real, aquí va el potenciómetro
+![foto de conexiones en potenciómetro lololol](./imagenes/cone-pote.jpg)
 
-botones al lado digital
+en Arduino la sección de ``analog`` es el mundo real, aquí va el potenciómetro, mientras que los botones van al lado de ``digital``.
 
-while = mientras que
+![código en Arduino IDE para leer cifras del potenciómetro](./imagenes/arduino-lee-pote.png)
 
-! = lo contrario de 
+``while`` = mientras que
+
+``!`` = lo contrario de 
 
 por lo tanto:
 
@@ -96,6 +106,28 @@ println imprime y se salta a la siguiente línea, en cambio print imprime y no s
 Serial.print("valor actual: ");
 Serial.println(poteLectura);
 ```
+
+---
+
+### solución del problema con los cables
+
+como mencioné en mi bitácora anterior, tuve problemas al momento de intentar conectar la Raspberry Pi Pico 2W con mi pc, ya que a pesar de intentar con tres cables distintos mi pc no reconocía que algo se había conectado, por lo cual pedí ayuda en el server del taller. en el server me dieron varias respuestas, pero la conclusión fue que era muy probable que el problema fueran mis cables ya que no todos los cables son para cargar y dar datos, sino que algunos solo pueden cargar.
+
+ya estando en clases le pedí a Aarón prestado un cable USB-MicroUSB para poder confirmar que el problema eran mis cables. al usarlo para conectar mi pc a la Raspi, Arduino IDE identificó de manera inmediata el microcontrolador. una vez ya terminó la clase, le devolví a Aarón el cable y pregunté si de casualidad habían de este tipo en el LID, a lo que me dijo que lo más probable es que no, por lo que ese mismo día en la tarde aproveché de pasar a comprar un cable nuevo (el cual si me sirvió lolololol).
+
+para poder saber identificar cuáles cables me sirven y cuales no, le pregunté a Aarón si había una manera de poder saber cuáles son los que cargan y dan datos, para evitar comprar uno que solo sirva para cargar, a lo que me dio los siguientes tips:
+
+1. los que son exclusivamente de carga, tienen solo dos filas dentro de la parte USB
+
+![cables de solo carga, plural.. PLURAL](./imagenes/usb-energ.jpg)
+
+2. hay unos que son solo de carga, pero por alguna razón fingen que no lo son y de igual manera tienen 4 filas dentro de la parte USB lol
+
+![cables MENTIROSOS TODOS MIENTEN HOLA??](./imagenes/usb-no-usb.jpg)
+
+esos eran los tres cables que probé en mi casa, los cuales claramente no me iban a servir LOL. aquí dejo foto del cable totalmente funcional de Aarón (muchas gracias profe):
+
+![cable USB rosado omg so cute](./imagenes/usb-pro-fr.jpg)
 
 ---
 
