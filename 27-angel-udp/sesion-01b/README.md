@@ -313,7 +313,7 @@ Luego conectamos los seis LEDs y comprobamos que se encendieran uno por uno y en
 
 ![imágen código dado](./imagenes/codigo-dado.jpeg)
 
-![imágen dado digital](./imagenes/dado_digital.jpeg)
+![imágen dado digital](./imagenes/dado-digital.jpeg)
 
 El principal acierto fue conseguir que el código se ejecutara en el microcontrolador y controlar físicamente los seis LEDs.
 

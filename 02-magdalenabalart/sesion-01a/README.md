@@ -6,7 +6,7 @@
 
 Primero, analizamos en grupo diversas fotografías de tableros de ascensores, tomadas por cada persona entre el viernes de la semana pasada y el martes de esta semana. A partir de estas imágenes, observamos similitudes, diferencias y elementos recurrentes en su funcionamiento y organización.
 
-![imagen de tablero de ascensor](./imagenes/tablero_01_botones.jpg) 
+![imagen de tablero de ascensor](./imagenes/tablero-01-botones.jpg) 
 
 ## ASCENSORES 
 
@@ -386,7 +386,7 @@ mostrarNetflixFavoritos(peliculaFavorita, animeFavorito);
 
 ## Pantalla segmentos
 
-![imagen de pantalla segmentos airfryer](./imagenes/airfryer_pantallasegmentos.jpg)    
+![imagen de pantalla segmentos airfryer](./imagenes/airfryer-pantallasegmentos.jpg)    
 ### Airfryer
 <ins> **Ubicación**:</ins>  La pantalla está ubicada en la parte frontal superior de la air fryer, integrada directamente en el panel de control. Esto hace que la información aparezca en el mismo lugar donde la persona configura el tiempo, la temperatura o enciende y apaga la maquina.    
 <ins> **Alfabeto posible**:</ins>  En este caso, la pantalla no se limita únicamente a números. En la fotografía aparece la palabra OFF, por lo que el sistema también puede construir algunas letras a partir de los segmentos.    
@@ -395,7 +395,7 @@ mostrarNetflixFavoritos(peliculaFavorita, animeFavorito);
 La pantalla funciona como una forma de confirmación y acompañamiento durante la interacción. Si modifico el tiempo o la temperatura, necesito saber que la máquina recibió correctamente esa acción. Cuando aparece un nuevo valor en la pantalla, el aparato me está respondiendo.  
 También encuentro interesante que aparezca OFF. Podría simplemente quedar la pantalla apagada, pero mostrar explícitamente ese estado elimina una pequeña duda: sé que el aparato está apagado porque la propia máquina me lo está confirmando. En un electrodoméstico que trabaja con altas temperaturas, esa información también aporta una sensación de seguridad y control.   
   
-![imagen de pantalla segmentos ascensor](./imagenes/ascensor_pantallasegmentos.jpg)   
+![imagen de pantalla segmentos ascensor](./imagenes/ascensor-pantallasegmentos.jpg)   
 ### Ascensor. 
 <ins> **Uso**</ins> : Su función principal es comunicar el piso actual del ascensor y la dirección de desplazamiento.  
 <ins> **Ubicación:**</ins>  La pantalla está ubicada sobre el tablero de botones que permite seleccionar el piso, dentro del ascensor. Esta posición hace que la información aparezca justo en el mismo lugar donde la persona toma la decisión de hacia dónde quiere ir. En este edificio hay 16 pisos, por lo que el display debe ser capaz de mostrar números de uno y dos dígitos.  
@@ -405,7 +405,7 @@ En el caso del ascensor, la pantalla de segmentos no solo cumple una función in
 En ese contexto, el número que aparece en la pantalla funciona como una forma de ubicarme dentro de un espacio que no puedo observar directamente. Saber que estoy en el piso 4, que voy subiendo o que me estoy acercando a mi destino transforma un movimiento invisible en información concreta. Esa información no necesariamente elimina el miedo, pero sí disminuye parte de la incertidumbre porque me permite entender qué está haciendo la máquina y en qué punto del recorrido me encuentro. Ver cómo los números cambian de 2 a 3 y luego a 4 me permite onfirma que existe un recorrido, que el ascensor está avanzando y que su comportamiento sigue una secuencia que puedo comprender y anticipar.
 Esto se puede relacionar directamente con la Human-Computer Interaction (HCI), ya que la pantalla funciona como un mecanismo de feedback entre la persona y el sistema. El ascensor realiza procesos que el usuario no puede observar directamente, mientras que la interfaz traduce esos procesos internos en señales simples y comprensibles. El número del piso y la flecha de dirección permiten conocer el estado actual del sistema y saber que este está respondiendo a la interacción. 
  
-![imagen de pantalla segmentos calculadora](./imagenes/calculadora_pantallasegmentos.jpg)    
+![imagen de pantalla segmentos calculadora](./imagenes/calculadora-pantallasegmentos.jpg)    
 ### calculadora  
 <ins> **Ubicación:** </ins> La pantalla está ubicada en la parte superior de la calculadora, justo sobre el teclado. Esta posición genera una relación muy directa entre la acción y la respuesta: ingreso un número o selecciono una operación con los botones y puedo comprobar en la pantalla qué información recibió la máquina.  
 <ins> **Alfabeto posible**:</ins>  En este caso, la pantalla necesita representar principalmente los números del 0 al 9, pero su repertorio es más amplio que el de una pantalla utilizada únicamente para indicar pisos. También debe poder mostrar signos matemáticos, puntos decimales, resultados negativos y distintos indicadores asociados a las funciones de la calculadora.   
