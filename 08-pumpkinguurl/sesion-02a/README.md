@@ -192,7 +192,57 @@ revisar actions o el correo para ver si cometiste errores
 
 en errores malos, hacer click en el reporte y revisar donde esta el problema.
 
+**Prueba de código en clases**
+
+```cpp
+
+const int patitaLectura = A0;
+// declarar 
+int valorLectura = -1;
+// darle un valor que nunca podrá ser 
+
+
+
+void setup() {
+
+ Serial.begin(9600);
+
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura);
+ Serial.println(valorLectura);
+
+}
+```
+
+![Imagen codigo](./codigo-corriendo.png)
+
+![arduino conectado](./arduino-conectado.jpeg)
+
 
 ## encargos
+
+encargo02a:
+
+en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
+
+![action ok](./actions.png)
+
+conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+
+Conformamos grupo: Belén Castillo, Martina Fernández, Maite Villarroel, Ignacia Zamudio.
+
+Profe creo que me mande una cagaita, conecte todo según tengo escrito en mis apuntes, y corría el código que hizo de ejemplo en clases, después pegué primer código de ejemplo **ej_arduino_pote.ino** y corría así
+
+![ejemplo pote](./ejemplo-pote.png)
+
+no estoy segura de si eso era lo que debía correr o si había que ponerle otra cosa, como que me perdí en esa parte, pero bueno. Lo que pasó es que después de como 2sg con el código corriendo y el arduino conectado sentí un olor extraño, miré y el potenciómetro tiraba humo KJDSFHK yo pienso que fue la forma ordinaria en la que tenía conectada los cables, pero así fue como dijeron que los conectáramos si no habían caimanes...... lo desconecté altiro por miedo a mandarme otra cagaita. 
+
+También pienso que puede ser porque el cable de mi mouse empezó a tirar error de que no lo reconocía, cuando lo desconecté, no reconocía la conexión del arduino, lo desconecté y volví a conectar y ahí funcionó. Revisé si es que no me había piteado los conectores usb del compu, y no, siguen funcionando, ya veía era la primera en el semestre en quemarlos pipipipi y el arduino sigue vivo
+
+![arduino](./esta-vivo-creo.jpeg)
+
+
 
 ## lectura
