@@ -25,25 +25,29 @@ Así se ven
 
 ## Encoders 
 Un encoder es un  sensor que genera señales digitales en respuesta al movimiento.
+La clasificación de un encoder depende de tres ejes distintos:
 
-**Los encoders están disponibles en dos tipos:**
-    - Uno que responde a la rotación,
-    - El otro al movimiento lineal.
+**1. Según el tipo de movimiento**
+   **- Rotatorio:** Mide ángulos y giros.
+    **- Lineal:** Mide desplazamiento en línea recta.
 
-**Los encoders están disponibles con diferentes tipos de salidas:**
-Existen varios tipos de econders:
-|#|Encoder|
--|-
-|1 |Óptico|
-|2 |Encoders magnéticos|
-|2.1  | **Los encoders incrementales**, que generan pulsos mientras se mueven, se utilizan para medir la velocidad o la trayectoria de posición.|
-|2.2 | **Los encoders absolutos** que generan multi bits digitales, que indican directamente su posición actual.|
-|3 |Encoders capacitivos
-|4 | Encoders inductivos|
+**2. Según el tipo de movimiento**
+
+    - Óptico: Usa luz y un disco/regla graduada.
+    - Magnético: Usa sensores de efecto Hall o magnetoresistivos.
+    - Capacitivo: Mide cambios en la capacitancia.
+    - Inductivo: Mide variaciones en campos magnéticos/inductivos.
+
+**3. Según la forma de indicar la posición (Modo de lectura / Salida)**
+
+    - Incremental: Genera pulsos conforme se mueve. No sabe su posición real al encenderse hasta pasar por un punto de referencia.
+    - Absoluto: Asigna un código único (bits) a cada posición. Sabe exactamente dónde está, incluso tras apagarse y encenderse.
 
 Esto permite la automatización de datos que se quieran recolectar.
 [referencia](https://www.servomotorsadjust.com/encoders/)
 [referencia](https://blog.structuralia.com/que-es-encoder-tipos/)
+
+## Pull up y Pull down
 
 ## encargos.
 
