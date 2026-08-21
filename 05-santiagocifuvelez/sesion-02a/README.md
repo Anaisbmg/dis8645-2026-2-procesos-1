@@ -21,6 +21,7 @@ Así se ven:
 #### Resistencias: 
 Las resistencias actúan como protectores y atajadores de la corriente que entra al circuito. Sin estas, el circuito no resiste y se puede quemar. Hay muchos colores, sabores, tamaños, etc..., `como los lgbtiq+ [Divesos y resistentes].`
 
-
+Así se ven
+![img2](./imagenes/img2.jpg)
 
 ## lectura
