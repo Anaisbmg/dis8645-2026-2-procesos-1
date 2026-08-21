@@ -51,7 +51,7 @@ Si me tratase a mí mismo como un programa, mis variables serían cosas como
 int edad = 25;
 float altura = 1.54;
 char inicialApellido = 'P';
-bool estudianteDiseno = true;
+bool esEstudianteDiseno = true;
 ```
 
 Las funciones serían algo que haces, una acción o un proceso que se puede describir.
@@ -65,5 +65,27 @@ dormir()
 ---
 
 2. investigar pantallas de segmentos, tomar fotos, documentar contexto, lugar, ubicación, alfabetos posibles, usos, comparar entre resultados encontrados, al menos 3 ejemplos distintos. <https://en.wikipedia.org/wiki/Segment_display>
+
+### Microondas
+
+![Segment display de microondas](./imagenes/segmentdisplay-1.jpg)
+
+Esta imagen es la pantalla de un microondas al ser encendido/enchufado. El 7-segment display es exclusivamente para mostrar números, a pesar de que en la pantalla en sí se pueden observar distintos íconos y una tipografía distinta para mostrar texto.
+
+---
+
+### Reloj alarma
+
+![Segment display de reloj alarma](./imagenes/segmentdisplay-2.jpg)
+
+La pantalla de este reloj se divide en tres secciones distintas: la hora actual, la hora de la alarma, y la temperatura actual. Al igual que con el microondas, la pantalla tiene partes? que no se rigen con el 7-segment, como lo es el ícono del termómetro y el texto de la alarma (junto a su propio ícono). Sin embargo, en la temperatura en sí, el indicador de la unidad (celsius o fahrenheit) funciona con su propio, más pequeño 7-segment. Mencionaré que me parece curioso que el separador de la hora son círculos perfectos, en lugar de algún tipo de rombo que uno se esperaría se asemejaría más al lenguaje visual de los números.
+
+---
+
+### Pantalla LCD
+
+![Segment display de pantalla LCD](./imagenes/segmentdisplay-3.jpg)
+
+Esta es la pantalla LCD de un proyecto del semestre pasado. Cada carácter está en un grid de 5x8, así que el alfabeto posible automáticamente es alfanumérico. Ya que se puede modificar cada carácter por medio de código, la pantalla también es capaz de mostrar distintos patrones, siempre y cuando se limite a los 16 carácteres en dos líneas.
 
 ## lectura
