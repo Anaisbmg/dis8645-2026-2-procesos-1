@@ -141,9 +141,36 @@ print: No se salta una línea
 
 ![](./imagenes/img5.jpeg)
 
-[Fuente de investigación, Luis Llamas](https://www.luisllamas.es/que-es-microcontrolador-arduino-esp32/)
-
 ## Investigación Microcontroladores 
+**¿Qué es un Microcontrolador?**
+Un `microcontrolador` es un sistema completo programable dentro de un único chip que integra CPU, memoria y periféricos de entrada/salida. Es la pieza que permite que un circuito cambie de comportamiento con solo modificar el **firmware.**
 
+**¿Qué es el firmware?**
+- El firmware es el programa base o "código raíz" grabado directamenteen la memoria física de un circuito o microcontrolador Controla y coordina los circuitos de hardware, funcionando como el puente esencial entre la parte física del aparato y los sistemas operativos o aplicaciones. Es como si el hardware fueran los músculos y el software las ideas, el firmware es el sistema nervioso involuntario que hace que el corazón lata y los reflejos funcionen automáticamente.
+
+**¿Comó esta conformado?**
+- Tiene un mini cerebro llamado CPU (Microprocesador), que por si solo no puede vivir. (como el de los humanos)
+- Y aquí es donde entra el termino MCU (Microcontroller Unit), que es el cuerpo el cual integra la CPU y los demás componentes para poder ser funcional, y tiene:
+
+Es un ordenador completo en un solo chip (SoC - System on Chip). Dentro de esa pequeña pastilla de plástico tienes:    
+
+  **- CPU:** El cerebro (más lento que el de un PC, pero suficiente).    
+  **- Memoria RAM:** Para guardar variables volátiles.  
+  **- Memoria flash:** memoria no volátil donde se guarda el programa.  
+  **- Periféricos:** pines y bloques dedicados para interactuar con el mundo exterior.  
+
+- CPU > MCU > Aurduino
+
+**Del hardware al firmwar**e
+Lo más importante que debes entender es el cambio de paradigma. En los módulos anteriores, si queríamos hacer una puerta AND, conectábamos transistores. El comportamiento estaba definido por la física.
+
+Ahora, conectamos un microcontrolador y el comportamiento lo define el Firmware (Software embebido).
+
+    - Podemos hacer que el Pin 1 sea una entrada ahora, y una salida dentro de 10 milisegundos.  
+    - Podemos simular miles de puertas lógicas mediante código (if, else, and, or).  
+
+El hardware se vuelve genérico; el software le da la personalidad.
+
+[Fuente de investigación, Luis Llamas](https://www.luisllamas.es/que-es-microcontrolador-arduino-esp32/)
 
 ## lectura
