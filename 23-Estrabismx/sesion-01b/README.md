@@ -2,14 +2,20 @@
 
 ## apuntes sesión
 
-[Actualizar durante el día]
+### Arduino
+
+Para iniciar a familiarizarnos con el código trabajaremos con Arduino. Es importante entender que, al hablar de Arduino, esto puede significar muchas cosas
+
+1. Empresa: Quienes distribuyen el hardware y software asociado
+
+2. Hardware: Placas de desarrollo con conjunto de microcontroladores, también conocidos como 
 
 ## encargos
 
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo, subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 
 ### 1. Código Arduino
