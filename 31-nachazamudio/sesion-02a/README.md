@@ -46,7 +46,7 @@ POTENCIÓMETRO:
 
 PINOUT que hace cada “patita” de arduino:
 
-![pinout arduino r4 wifi](./pinout-arduino)
+![pinout arduino r4 wifi](./pinout-arduino.pdf)
 
 PATITAS
 VIN: NO USAR
