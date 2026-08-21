@@ -140,6 +140,8 @@ print: No se salta una línea
 2. conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
 
 ![](./imagenes/img5.jpeg)
-   
+
+## Investigación Microcontroladores 
+
 
 ## lectura
