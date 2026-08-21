@@ -62,3 +62,7 @@ capitulo 4 "memorias anecdoticas sobre el caos"
 en este capítulo nos empieza a contar algunas experiencias personales, tratando de explicarnos los sistemas caóticos, la ciencia del caos, el pluralismo horizontal y termina el capítulo hablando del concepto del azar controlado. En general, este capítulo trata de mostrar cómo el caos, aunque pueda parecer desordenado o impredecible, sigue teniendo reglas matemáticas detrás. Y justamente estas reglas pueden ser utilizadas por la computadora para generar comportamientos complejos y, posteriormente, transformarlos en imágenes.
 
 eue un capítulo muy difícil de entender, ya que presenta varios conceptos nuevos y relaciona diferentes áreas. Como tarea personal, es releer el capítulo para poder sacar un concepto más claro de cada término y ver mejor las relaciones. 
+
+###citas###
+
+

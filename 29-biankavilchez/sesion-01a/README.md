@@ -58,7 +58,7 @@ recordar:
 Variables: Son los datos.
 Funciones: Van a preguntar variables y, según la variable, se va a operar.
 
-variables: 
+### variables: 
 
 nombre: bianka 
 
@@ -85,11 +85,20 @@ Tiempo dedicado al diseño: cambia según el día
 Cantidad de café: depende del dia
 
 
-funciones:
+### funciones:
+
+Consultar datos personales: Junta el nombre, apellido, edad y altura para dar la presentación de la persona.
+
+Calcular necesidad de café: Revisa las horas de sueño y el estado de ánimo. Si durmió poco o está cansada, decide aumentar las tazas de café del día.
+
+Medir nivel de inspiración: Revisa la energía y la creatividad. Si ambas están altas, sugiere trabajar en los intereses como el diseño o la fotografía.
+
+Organizar el tiempo de diseño: Revisa la paciencia y el tiempo disponible. Si hay mucha paciencia, asigna un proyecto difícil; si hay poca, asigna algo rápido o relajado.
+
+Actualizar el estado de ánimo: Revisa cuántas tazas de café tomó y cuánto descansó para cambiar el estado de ánimo (por ejemplo, pasar de estar cansada a estar feliz o tranquila).
 
 
-
-## pantalla de segmento
+### pantalla de segmento
 
 Una pantalla de segmentos es un dispositivo formado por varios elementos independientes que pueden encenderse o apagarse para construir números, letras o símbolos. Los segmentos suelen ser LED, cristales líquidos u otras tecnologías.
 
@@ -101,36 +110,42 @@ Las pantallas de 16 segmentos pueden mostrar números arábigos completos, letra
 
 Con distintas combinaciones se pueden representar los números del 0 al 9 y algunas letras.
 
+https://www.google.com/search?q=pantallas+de+segmentos&oq=pantallas+de+segmentos&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMgcIAxAAGO8FMgcIBBAAGO8FMgcIBRAAGO8FMgYIBhBFGD3SAQg0ODYwajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8#fpstate=ive&vld=cid:d3c945e4-733c-40cf-883b-16259e657d53_6d438ae8,vid:czvRtCYk1Gw,st:144
 
-1.pantallas de segmentos:
+### 1. Pantalla de 7 Segmentos
+Son las más sencillas y populares. Tienen 7 barras con forma de número **8**.
 
-Objeto: reloj digital
+* **¿Qué muestran?** Números del 0 al 9 y un par de letras simples (como A, C, E, F).
+* **¿Cómo funcionan?** Cada barra es un LED con una letra (de la `a` a la `g`). Si enciendes las barras correctas, formas el número.
+* **Tipos:**
+**Ánodo Común:** Todos los LEDs comparten el polo positivo (+).
+  **Cátodo Común:** Todos los LEDs comparten el polo negativo (-).
 
-Tipo: 7 segmentos
 
-contexto: dormitorio, oficina, espacios públicos, electrodomésticos
+### 2. Pantalla de 14 Segmentos (Alfanumérica)
+Son una versión mejorada. Tienen las 7 barras exteriores más otras **7 barras internas** (diagonales, verticales y horizontales).
 
-Información: principalmente horas, minutos y segundos
+ **¿Qué muestran?** Todo el alfabeto completo (**A-Z**), números y símbolos (+, -, *, /).
+ 
+ **¿Por qué se usan?** Permiten escribir texto legible y mensajes completos que una pantalla de 7 segmentos no puede hacer.
 
-2.pantallas de segmentos:
 
-Objeto: microondas
+### 3 Ejemplos de Dispositivos Diferentes
 
-Tipo: 7 segmentos
+1. **Reloj Despertador Digital (Pantalla de 7 segmentos):**
+    Usa 4 dígitos de 7 segmentos para mostrar solo la hora y los minutos (ejemplo: `12:45`).
+   
+    **Razón:** Solo necesita mostrar números del 0 al 9.
 
-contexto:
+3. **Radio o Estéreo de Auto Antiguo (Pantalla de 14 segmentos):**
+   Usa una fila de pantallas de 14 segmentos para mostrar el nombre de la estación o la canción (ejemplo: `ROCK 101.5` o `BLUETOOTH`).
+   
+     **Razón:** Necesita combinar letras y números para mostrar texto entendible.
 
-Información: 
-
-3.pantallas de segmentos:
-
-Objeto: maquina de correr
-
-Tipo: 7 segmentos
-
-contexto: 
-
-Información: 
+4. **Báscula o Gramera Digital de Cocina (Pantalla de 7 segmentos):**
+    Muestra el peso exacto del ingrediente (ejemplo: `150 g`).
+   
+    **Razón:** Su función principal es mostrar mediciones numéricas exactas de forma clara y económica.
 
 
 

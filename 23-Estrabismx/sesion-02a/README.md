@@ -38,4 +38,22 @@ Pulldown resistor
 
 ## encargos
 
-## lectura
+Se profundizó en el código para leer un potenciómetro, tal como se vio en la clase. Hice las pruebas con los ejemplos adjuntados en _00_docentes_ 
+
+>[Ejemplo 1/filtrado](../../00-docentes/sesion-02a/ej_arduino_pote_filtrado/)
+>
+>[Ejemplo 2/promedio](../../00-docentes/sesion-02a/ej_arduino_pote_promedio/) 
+
+<br>
+
+### Potenciómetro Filtrado
+
+![GIF](./imagenes/ide01.gif)
+
+![GIF](./imagenes/ide02.gif)
+
+
+## lectura / The computers that made the world - Tim Danton
+
+He tenido múltiples complejidades para lograr entender y comprender todo lo que se habla, ya que el libro está en inglés, por lo que he vuelto a leer todo del inicio y comenzaré a agregar un glosario de las palabras nuevas que voy aprendiendo
+
