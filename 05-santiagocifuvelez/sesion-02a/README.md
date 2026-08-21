@@ -93,6 +93,8 @@ Pasos:
 Luego se conecta el cable “A0” **a la patita central del potenciómetro.**
 Patita 1: 5V al comienzo patita 2: A0   Patita 3:GND
 
+Y con este código le decimos al Arduino que va a suceder y que hacer con el potenciómetro.
+
 ```cpp
 const int patitaLectura =A0;
 
@@ -121,7 +123,7 @@ valorLectura = analogRead(patitaLectura);
 Serial.println(valorLectura);
 }
 ```
-
+![](./imagenes/img8.gif)
 ## encargos.
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
 
