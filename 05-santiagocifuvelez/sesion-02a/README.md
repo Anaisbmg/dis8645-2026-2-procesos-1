@@ -40,14 +40,29 @@ La clasificación de un encoder depende de tres ejes distintos:
 
 **3. Según la forma de indicar la posición (Modo de lectura / Salida)**
 
-    - Incremental: Genera pulsos conforme se mueve. No sabe su posición real al encenderse hasta pasar por un punto de referencia.
-    - Absoluto: Asigna un código único (bits) a cada posición. Sabe exactamente dónde está, incluso tras apagarse y encenderse.
+    - Incremental: Genera pulsos conforme se mueve. No sabe su posición real al encenderse hasta pasar por un punto de referencia.  
+    - Absoluto: Asigna un código único (bits) a cada posición. Sabe exactamente dónde está, incluso tras apagarse y encenderse.  
 
 Esto permite la automatización de datos que se quieran recolectar.
 [referencia](https://www.servomotorsadjust.com/encoders/)
 [referencia](https://blog.structuralia.com/que-es-encoder-tipos/)
 
 ## Pull up y Pull down
+Son configuraciones del circuito (usando una resistencia) para asegurar que un pin digital del microcontrolador lea un 1 lógico (HIGH) o un 0 lógico (LOW) claro cuando el botón no está presionado, evitando que el pin quede "flotando".
+
+**Activado (On / Presionado):** El botón cumple su función, está encendido o la acción está seleccionada.  
+**Desactivado (Off / No presionado):** El botón está apagado, en reposo o la función no está en uso.  
+
+En el siguiente esquemático vamos a ver las diferencias del pull up y el pull down:    
+![img3](./imagenes/img3.jpeg)
+
+|Configuración|Sin presionar botón|Al presionar botón|¿Cómo se conecta?|
+--------------|-------------------|------------------|------------------
+|**Pull-up**|Pin recibe HIGH (VCC)|Pin recibe LOW (GND)|Resistencia arriba (a VCC), Botón abajo (a GND).|
+|**Pull-down**|Pin recibe LOW (GND)|Pin recibe HIGH (VCC)|Botón arriba (a VCC), Resistencia abajo (a GND).|
+
+**Pull Up:** La resistencia se encuentra desde el lado de VCC
+**Pull Down:** La resistencia se encuentra desde el lado del GND
 
 ## encargos.
 
