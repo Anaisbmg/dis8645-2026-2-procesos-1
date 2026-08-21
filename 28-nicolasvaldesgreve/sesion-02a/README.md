@@ -22,9 +22,13 @@ para subir la potencia, hay que subir la energía o bajar el tiempo (o ambas al 
 
 resistencia es lo que maneja el flujo de corriente: mientras más resistencia, menor el flujo de corriente. mientras menos resistencia, mayor el flujo de corriente.
 
+![dibujo de resistencia grande en pote](./imagenes/potenciometro.jpg)
+
 dentro de un potenciómetro hay una resistencia gigante entre la patita 1 y 3, mientras que la patita 2 es la que nos permite movernos mediante esta resistencia.
 
-### botones (push buttons)- 
+![imagen de <https://docs.arduino.cc/built-in-examples/digital/Button/>, no me pertenece](./imagenes/pote.png)
+
+### botones (push buttons)
 
 cuando hablamos de botones, usualmente nos vamos a referir a pulsadores (push buttons), los cuales son elementos temporales y mediante pasa el tiempo, pasan cosas.
 
@@ -32,7 +36,11 @@ existen dos tipos de botones:
 
 1. N.O. = Normally Open. un circuito normalmente abierto es en donde el electrón no puede transitar libremente por el circuito, ya que nadie está para presionar el botón y hacer puente entre dos puntos.
 
+![normalmente abierto en pizarra](./imagenes/nor-op.jpg)
+
 2. NC = Normalmente Conectado. siempre están conectados los dos lugares, y puedes desconectarlos al presionar el botón.
+
+![normalmente conectado en pizarra](./imagenes/nor-ce.jpg)
 
 el que se utiliza más es el N.O.
 
@@ -75,13 +83,15 @@ en el hemisferio izquierdo, entre la patita del botón y GND hay una resistencia
 a los dos extremos del potenciómetro va GND y Vcc
 en la patita 2
 
-Arduino: analog es el mundo real, aquí va el potenciómetro
+![foto de conexiones en potenciómetro lololol](./imagenes/cone-pote.jpg)
 
-botones al lado digital
+en Arduino la sección de ``analog`` es el mundo real, aquí va el potenciómetro, mientras que los botones van al lado de ``digital``.
 
-while = mientras que
+![código en Arduino IDE para leer cifras del potenciómetro](./imagenes/arduino-lee-pote.png)
 
-! = lo contrario de 
+``while`` = mientras que
+
+``!`` = lo contrario de 
 
 por lo tanto:
 
@@ -99,6 +109,28 @@ Serial.println(poteLectura);
 
 ---
 
+### solución del problema con los cables
+
+como mencioné en mi bitácora anterior, tuve problemas al momento de intentar conectar la Raspberry Pi Pico 2W con mi pc, ya que a pesar de intentar con tres cables distintos mi pc no reconocía que algo se había conectado, por lo cual pedí ayuda en el server del taller. en el server me dieron varias respuestas, pero la conclusión fue que era muy probable que el problema fueran mis cables ya que no todos los cables son para cargar y dar datos, sino que algunos solo pueden cargar.
+
+ya estando en clases le pedí a Aarón prestado un cable USB-MicroUSB para poder confirmar que el problema eran mis cables. al usarlo para conectar mi pc a la Raspi, Arduino IDE identificó de manera inmediata el microcontrolador. una vez ya terminó la clase, le devolví a Aarón el cable y pregunté si de casualidad habían de este tipo en el LID, a lo que me dijo que lo más probable es que no, por lo que ese mismo día en la tarde aproveché de pasar a comprar un cable nuevo (el cual si me sirvió lolololol).
+
+para poder saber identificar cuáles cables me sirven y cuales no, le pregunté a Aarón si había una manera de poder saber cuáles son los que cargan y dan datos, para evitar comprar uno que solo sirva para cargar, a lo que me dio los siguientes tips:
+
+1. los que son exclusivamente de carga, tienen solo dos filas dentro de la parte USB
+
+![cables de solo carga, plural.. PLURAL](./imagenes/usb-energ.jpg)
+
+2. hay unos que son solo de carga, pero por alguna razón fingen que no lo son y de igual manera tienen 4 filas dentro de la parte USB lol
+
+![cables MENTIROSOS TODOS MIENTEN HOLA??](./imagenes/usb-no-usb.jpg)
+
+esos eran los tres cables que probé en mi casa, los cuales claramente no me iban a servir LOL. aquí dejo foto del cable totalmente funcional de Aarón (muchas gracias profe):
+
+![cable USB rosado omg so cute](./imagenes/usb-pro-fr.jpg)
+
+---
+
 ## encargos
 
 encargo02a:
@@ -111,10 +143,41 @@ encargo02a:
 
 mi grupo de trabajo para el proyecto-1 está compuesto por:
 
-	1. Santiago Cifuentes [santiagocifuvelez](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/05-santiagocifuvelez>)
-	2. Francisca Palma [frannciscapalma](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/18-frannciscapalma>)
-	3. Nicolás Valdés [nicolasvaldesgreve](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/28-nicolasvaldesgreve>)
+1. Santiago Cifuentes - [santiagocifuvelez](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/05-santiagocifuvelez>)
+2. Francisca Palma - [frannciscapalma](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/18-frannciscapalma>)
+3. Nicolás Valdés - [nicolasvaldesgreve](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/28-nicolasvaldesgreve>)
 
----
+debido a nuestras diferencias de horario de clases y los trabajos que debemos hacer, decidimos que era mejor como grupo repartirnos la investigación en tres partes, encargándonos cada uno de las siguientes cosas:
 
-## lectura
++ Santi -> microcontroladores
++ Fran -> Cpp
++ Nico (yo hola) -> botones y potenciómetros
+
+#### potenciómetros
+
+los potenciómetros son un componente de resistencia variable, en el cual puedes ajustar el valor de resistencia al ir rotando la perilla que este trae. es un componente clave en los sistemas de control, regulación y medición.
+
+para poder dibujar un potenciómetro dentro de un esquemático, se utilizan los siguientes símbolos: 
+
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sim.png)
+
+dentro de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>, también nos muestran distintos tipos de potenciómetros, en qué orden se cuentan los pines de estos y cuál es el rol de cada pin.
+
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pin.png)
+
+para poder entender qué tipo de proyectos se pueden realizar con este componente, quiero hablar sobre el trabajo de Lee Seunghun, el cual se llama [engmung](<https://github.com/engmung>) en GitHub. su trabajo se llama Patternflow, el cual es un sintetizador LED open-source el cual te permite crear y modificar patrones de luces mediante perillas, las cuales son potenciómetros.
+
+![screenshot de la página de Patternflow](./imagenes/patternflow.png)
+
+puedes interactuar con este sintetizador mediante 4 potenciómetros, los cuales te permiten ir modificando los patrones y la cantidad de repeticiones que éste tiene en la pantalla de 8192 píxeles (matriz de 128 x 64), patrones que no están pre-renderizados, sino que cada fotograma se calcula en tiempo real en el mismo dispositivo!!! omg. la mejor parte de este proyecto es que es open-source, por lo que si nos dirigimos al siguiente link: <https://github.com/engmung/Patternflow>, podremos encontrar todo el material que necesitemos como lo es el firmware, hardware y las integraciones que este tiene.
+
+![screenshot de la página de GitHub de engmung](./imagenes/git-publico.png)
+
+incluso si no tienes presupuesto para poder hacer este proyecto, no te preocupes!! ya que lo primero que nos recibe en su página es una versión interactiva del dispositivo de manera digital, pudiendo así rotarlo y rotar los potenciómetros!!
+
+#### fuentes potenciómetros
+
++ <https://www.tme.com/cl/es/news/library-articles/glossary/page/69420/potenciometro-definicion/>
++ <https://www.etechnophiles.com/potentiometer-symbol-pinout/>
++ <https://github.com/engmung>
++ <https://github.com/engmung/Patternflow>
