@@ -141,6 +141,8 @@ print: No se salta una línea
 
 ![](./imagenes/img5.jpeg)
 
+[Fuente de investigación, Luis Llamas](https://www.luisllamas.es/que-es-microcontrolador-arduino-esp32/)
+
 ## Investigación Microcontroladores 
 
 
