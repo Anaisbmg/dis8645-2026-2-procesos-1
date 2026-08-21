@@ -147,6 +147,42 @@ mi grupo de trabajo para el proyecto-1 está compuesto por:
 2. Francisca Palma - [frannciscapalma](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/18-frannciscapalma>)
 3. Nicolás Valdés - [nicolasvaldesgreve](<https://github.com/nicolasvaldesgreve/dis8645-2026-2-procesos-1/tree/main/28-nicolasvaldesgreve>)
 
+debido a nuestras diferencias de horario de clases y los trabajos que debemos hacer, decidimos que era mejor como grupo repartirnos la investigación en tres partes, encargándonos cada uno de las siguientes cosas:
+
++ Santi -> microcontroladores
++ Fran -> Cpp
++ Nico (yo hola) -> botones y potenciómetros
+
+#### potenciómetros
+
+los potenciómetros son un componente de resistencia variable, en el cual puedes ajustar el valor de resistencia al ir rotando la perilla que este trae. es un componente clave en los sistemas de control, regulación y medición.
+
+para poder dibujar un potenciómetro dentro de un esquemático, se utilizan los siguientes símbolos: 
+
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sim.png)
+
+dentro de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>, también nos muestran distintos tipos de potenciómetros, en qué orden se cuentan los pines de estos y cuál es el rol de cada pin.
+
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pin.png)
+
+para poder entender qué tipo de proyectos se pueden realizar con este componente, quiero hablar sobre el trabajo de Lee Seunghun, el cual se llama [engmung](<https://github.com/engmung>) en GitHub. su trabajo se llama Patternflow, el cual es un sintetizador LED open-source el cual te permite crear y modificar patrones de luces mediante perillas, las cuales son potenciómetros.
+
+![screenshot de la página de Patternflow](./imagenes/patternflow.png)
+
+puedes interactuar con este sintetizador mediante 4 potenciómetros, los cuales te permiten ir modificando los patrones y la cantidad de repeticiones que éste tiene en la pantalla. la mejor parte de este proyecto es que es open-source, por lo que si nos dirigimos al siguiente link: <https://github.com/engmung/Patternflow>, podremos encontrar todo el material que necesitemos como lo es el firmware, hardware y las integraciones que este tiene.
+
+![screenshot de la página de GitHub de engmung](./imagenes/git-publico.png)
+
+incluso si no tienes presupuesto para poder hacer este proyecto, no te preocupes!! ya que lo primero que nos recibe en su página es una versión interactiva del dispositivo de manera digital, pudiendo así rotarlo y rotar los potenciómetros!!
+
+#### fuentes potenciómetros
+
++ <https://www.tme.com/cl/es/news/library-articles/glossary/page/69420/potenciometro-definicion/>
++ <https://www.etechnophiles.com/potentiometer-symbol-pinout/>
++ <https://github.com/engmung>
++ <https://github.com/engmung/Patternflow>
++ <
+
 ---
 
 ## lectura
