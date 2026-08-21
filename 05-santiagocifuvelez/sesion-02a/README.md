@@ -65,8 +65,9 @@ En el siguiente esquemático vamos a ver las diferencias del pull up y el pull d
 **Pull Down:** La resistencia se encuentra desde el lado del GND
 
 ## Luis Llamas
-Referente súper importante en este rubro:
-`[Luis Llamas](https://www.luisllamas.es/)`
+`Referente súper importante en este rubro:` [Luis Llamas](https://www.luisllamas.es/)
+
+## Explicación de conexión de aurdino con breadboard
 
 ## encargos.
 
