@@ -24,11 +24,11 @@ Se mencionaron dos variables que yo no conocía previamente: `int8_t` y `uint8_t
 
 Ahora comienza una introducción a Arduino IDE, instalándolo y descargando¿ un plugin para que el programa sea capaz de leer el Arduino que fue trabajado en clase (Arduino UNO R4 WiFi)
 
-![Instalación plugin](./imagenes/arduino-r4.jpg)
+![Instalación plugin](./imagenes/arduino-r4.png)
 
 Este programa funciona por medio de código C++, el cuál viene con una plantilla predeterminada para que uno comience a escribir su código.
 
-![Código predeterminado al iniciar Arduino](./imagenes/arduino-default-code.jpg)
+![Código predeterminado al iniciar Arduino](./imagenes/arduino-default-code.png)
 
 Como dice la descripción de `void setup()`, en esta sección se escribe todo lo necesario para comenzar a preparar el código (hence: setup). Este se ejecuta una sola vez al encender el Arduino.
 
