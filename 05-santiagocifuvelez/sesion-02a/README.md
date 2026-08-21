@@ -70,12 +70,13 @@ En el siguiente esquemático vamos a ver las diferencias del pull up y el pull d
 ## Explicación de conexión de aurdino con breadboard
 
 ![](./imagenes/img4.jpeg)
-Ej1: [ej1](https://docs.arduino.cc/built-in-examples/digital/Button/)
+Ej1: [Enlace al ejercicio](https://docs.arduino.cc/built-in-examples/digital/Button/)
 
 **- El cable rojo:** Positivo.  
 **- El cable Negro:** Negativo.  
 **- El cable verde/azul:** Es el puente entre la breadboard y el Arduino.   
 
+Para el siguiente ejercicio que realizamos en clase, debemos entender esto primeramente: 
 
 ## encargos.
 
