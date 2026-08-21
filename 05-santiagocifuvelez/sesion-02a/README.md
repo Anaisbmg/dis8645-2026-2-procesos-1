@@ -72,6 +72,11 @@ En el siguiente esquemático vamos a ver las diferencias del pull up y el pull d
 ![](./imagenes)img)
 Ej1: [ej1](https://docs.arduino.cc/built-in-examples/digital/Button/)
 
+**- El cable rojo:** Positivo.  
+**- El cable Negro:** Negativo.  
+**- El cable verde/azul:** Es el puente entre la breadboard y el Arduino.   
+
+
 ## encargos.
 
 ## lectura
