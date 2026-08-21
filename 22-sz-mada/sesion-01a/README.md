@@ -30,7 +30,9 @@ Aarón habló del comando *sudo rm -rf* (what does it do? no idea honestly, spac
 
 Follow-up al self task: *su* es super-user (admin privilege basically) and *do* es do lol; da permiso para modificar cualquier archivo en el computador. *rm* es el comando "remover". *-r* es un comando recursivo que le dice al computador que aplique el comando previo (en este caso, rm) a una carpeta específica con sus contenidos y todas sus subcarpetas. Finalmente *f* es forzar; self-explanatory.
 
-## encargo 01-a
+## encargos
+
+encargo01a:
 
 1. autorretrato: describir variables y funciones de ustedes.
 
