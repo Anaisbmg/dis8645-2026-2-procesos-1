@@ -123,7 +123,7 @@ valorLectura = analogRead(patitaLectura);
 Serial.println(valorLectura);
 }
 ```
->println; Imprime y sáltate a la otra línea  
+> println; Imprime y sáltate a la otra línea  
 print: No se salta una línea
 
 ![](./imagenes/img8.gif)
