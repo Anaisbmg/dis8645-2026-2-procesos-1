@@ -7,24 +7,23 @@ Hola profe Aarón, Profe Mati, Emi y Sebas!, espero que se encuentren bien cuand
 2. Encargo
 3. Lectura
 
-## apuntes sesión
-### 1. Apuntes de clase: Potenciómetros, encoders, Pull up y Pull down, referentes como Luis Llamas, explicación de conexión de aurdino con breadboard, Baudios.
-## encargos.
+# apuntes sesión
+## 1. Apuntes de clase: Potenciómetros, encoders, Pull up y Pull down, referentes como Luis Llamas, explicación de conexión de aurdino con breadboard, Baudios.
 La clase de hoy fue bastante extensa, pero muy fructífera.
 
-#### Potenciómetros: 
+## Potenciómetros: 
 Los potenciómetros nos permiten variar la potencia. Como si este fuera un grifo de agua; si le abres mucho, sale mucha agua (la potencia mucho), si le abres poco, sale poca agua (la potencia poco).  
 
 Así se ven:
 ![img1](./imagenes/img1.jpg)
 
-#### Resistencias: 
+## Resistencias: 
 Las resistencias actúan como protectores y atajadores de la corriente que entra al circuito. Sin estas, el circuito no resiste y se puede quemar. Hay muchos colores, sabores, tamaños, etc..., `como los lgbtiq+ [Divesos y resistentes].`
 
 Así se ven
 ![img2](./imagenes/img2.jpg)
 
-#### Encoders 
+## Encoders 
 Un encoder es un  sensor que genera señales digitales en respuesta al movimiento.
 
 **Los encoders están disponibles en dos tipos:**
@@ -38,5 +37,7 @@ Un encoder es un  sensor que genera señales digitales en respuesta al movimient
 
 Esto permite la automatización de datos que se quieran recolectar con los encoders.
 [referencia](https://www.servomotorsadjust.com/encoders/)
+
+## encargos.
 
 ## lectura
