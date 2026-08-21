@@ -143,7 +143,6 @@ segunda mitad:
 
 ---
 
-# Proyecto-1
 
 ## codigo enviado para hacer funcionar el potenciometro
 
