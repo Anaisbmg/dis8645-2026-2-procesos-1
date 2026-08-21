@@ -27,6 +27,15 @@ En el inicio de nuestro arduino, no puede tener valor 0,  ya que al llegarle el 
 
 En otro caso, al poner el resistor antes del botón, baja la corriente antes de abrir o cerrar el circuito. resistor PULLUP, y al cerrar el circuito(activar el botón) el circuito queda en 0V y se “desactiva la función”, 1(activar el botón): desactivado. 0(circuito abierto): activado.
 
+POTENCIÓMETRO:
+![icono de potenciometro](./potenciometro-icono.png)
+
+1.VCC
+
+2.LECTURA
+
+3.GND
+
 
 Vcc. voltaje de corriente continua
 
