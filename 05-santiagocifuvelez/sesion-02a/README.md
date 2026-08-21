@@ -93,6 +93,34 @@ Pasos:
 Luego se conecta el cable “A0” **a la patita central del potenciómetro.**
 Patita 1: 5V al comienzo patita 2: A0   Patita 3:GND
 
+```cpp
+const int patitaLectura =A0;
+
+
+// Este valor se va a remplazar constbatemente con lo que nos diga el voltaje de la nariz del potenciometro
+int valorLectura = -1;
+
+
+// las analogas son todas entradas
+void setup() {
+//valores seriales
+// se pone en setup, porque se va a prender una sola vez
+
+
+//Baudios
+Serial.begin(9600);
+}
+
+
+//
+void loop() {
+
+
+// esto es una función, porque al finalizar tiene parentesis.
+valorLectura = analogRead(patitaLectura);
+Serial.println(valorLectura);
+}
+```
 
 ## encargos.
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
