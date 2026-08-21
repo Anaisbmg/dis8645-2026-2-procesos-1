@@ -123,6 +123,9 @@ valorLectura = analogRead(patitaLectura);
 Serial.println(valorLectura);
 }
 ```
+>println; Imprime y sáltate a la otra línea  
+print: No se salta una línea
+
 ![](./imagenes/img8.gif)
 ## encargos.
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
