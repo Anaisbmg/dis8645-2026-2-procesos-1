@@ -81,6 +81,19 @@ Para el siguiente ejercicio que realizamos en clase, debemos entender esto prime
 ![](./imagenes/img7.jpg)
 
 Con lo anteriormente comentado, vamos a realizar un ejercicio con un potenciometro y una placa de Arduino Uno R4 Wifi, para hacer un Analog Read Serial.
+
+![](./imagenes/img6.jpeg)
+[Enlace ejercicio](https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/)
+
+Pasos:
+- Cable dupont a GND  
+- Cable dupont a 5V  
+- Cable a “A0”  
+
+Luego se conecta el cable “A0” **a la patita central del potenciómetro.**
+Patita 1: 5V al comienzo patita 2: A0   Patita 3:GND
+
+
 ## encargos.
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
 
