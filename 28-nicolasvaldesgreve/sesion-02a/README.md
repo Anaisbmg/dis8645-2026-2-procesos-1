@@ -22,7 +22,7 @@ para subir la potencia, hay que subir la energía o bajar el tiempo (o ambas al 
 
 resistencia es lo que maneja el flujo de corriente: mientras más resistencia, menor el flujo de corriente. mientras menos resistencia, mayor el flujo de corriente.
 
-![dibujo de resistencia grande en pote](./imagenes/potenciómetro.jpg)
+![dibujo de resistencia grande en pote](./imagenes/potenciometro.jpg)
 
 dentro de un potenciómetro hay una resistencia gigante entre la patita 1 y 3, mientras que la patita 2 es la que nos permite movernos mediante esta resistencia.
 
