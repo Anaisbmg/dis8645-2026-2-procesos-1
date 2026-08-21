@@ -27,7 +27,14 @@ En el inicio de nuestro arduino, no puede tener valor 0,  ya que al llegarle el 
 
 En otro caso, al poner el resistor antes del botón, baja la corriente antes de abrir o cerrar el circuito. resistor PULLUP, y al cerrar el circuito(activar el botón) el circuito queda en 0V y se “desactiva la función”, 1(activar el botón): desactivado. 0(circuito abierto): activado.
 
+Vcc. voltaje de corriente continua
+
+N.O: normally open, abierto y el electrón no puede circular, 
+
+Encoders: otras perillas, codificadores, de giro infinito.
+
 POTENCIÓMETRO:
+
 ![icono de potenciometro](./potenciometro-icono.png)
 
 1.VCC
@@ -37,11 +44,58 @@ POTENCIÓMETRO:
 3.GND
 
 
-Vcc. voltaje de corriente continua
+PINOUT que hace cada “patita” de arduino:
 
-N.O: normally open, abierto y el electrón no puede circular, 
+![pinout arduino r4 wifi](./pinout-arduino)
 
-Encoders: otras perillas, codificadores, de giro infinito.
+PATITAS
+VIN: NO USAR
++5V: conecta hacia el potenciómetro
+
+Analog: permite leer NO escribir, lee el potenciómetro
+
+Digital: tiene más funciones, los botones van en este lado. también sirve para audio. 
+
+ejercicio:
+conectar cable a GND, en sector POWER.
+
+A0 en arduino es un valor numérico posible
+
+CONST INT “NOMBRE” = A0, de esta manera lo convertimos en una constante.
+
+int “valor lectura” = 0; 
+int “valor lectura” = -1;  
+
+VOID LOOP(){
+valorLectura = analogRead(patitaLectura);  analog solo lee, otros casos sería digitalWrite.
+}
+
+void setup (){
+Serial.begin(9600);  
+}
+
+puerto serial comienza, se coloca en SETUP, 9600 es la velocidad más común, velocidad moderada. 
+
+void loop(){
+  Serial.println(“mensaje”); lo dice literal pq va entre comillas
+  Serial.println(valorLectura); sin comillas te da el valor de valorLectura.
+
+al iniciar la funcion, podremos llegar a valores de 0 a 1023, 1024 valores posibles. Es decir, tiene un rango de 10bits 2^10, [0, 1023]
+
+while (!serial) no comenzar, no mandar mensajes hasta que esté listo para recibir. while: mientras 
+
+!: lo contrario de 
+
+.print(“valor actual: “);       tiene que llevar ese espacio antes de cerrar las comillas.
+
+.println(poteLectura);          lee y se salta una línea.
+
+int poteFiltrado = -1 para procesar 
+
+
+
+
+
 
 
 ## encargos
