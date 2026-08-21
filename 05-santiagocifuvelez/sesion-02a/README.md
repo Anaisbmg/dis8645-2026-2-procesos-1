@@ -8,7 +8,12 @@ Hola profe Aarón, Profe Mati, Emi y Sebas!, espero que se encuentren bien cuand
 3. Lectura
 
 ## apuntes sesión
+### 1. Apuntes de clase: Potenciómetros, encoders, Pull up y Pull down, referentes como Luis Llamas, explicación de conexión de aurdino con breadboard, Baudios.
+## encargos.
+La clase de hoy fue bastante extensa, pero muy fructífera.
 
-## encargos
+#### Potenciómetros: 
+Los potenciómetros nos permiten variar la potencia. Como si este fuera un grifo de agua; si le abres mucho, sale mucha agua (la potencia mucho), si le abres poco, sale poca agua (la potencia poco).  
+
 
 ## lectura
