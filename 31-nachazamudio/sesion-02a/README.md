@@ -94,7 +94,8 @@ int poteFiltrado = -1 para procesar
 
 ## encargos
 
-![foto actions nacha](./actions-nacha.png
-)
+![foto actions nacha](./actions-nacha.png)
+
+Equipo dinamita: Belén Castillo - Martina Fernandez - Maite Villarroel - Ignacia(nacha - yo) Zamudio
 
 ## lectura
