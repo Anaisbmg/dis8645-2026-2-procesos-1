@@ -233,7 +233,11 @@ Conformamos grupo: Belén Castillo, Martina Fernández, Maite Villarroel, Ignaci
 
 Profe creo que me mande una cagaita, conecte todo según tengo escrito en mis apuntes, y corría el código que hizo de ejemplo en clases, después pegué primer código de ejemplo **ej_arduino_pote.ino** y corría así
 
+![ejemplo pote](./ejemplo-pote.png)
 
+no estoy segura de si eso era lo que debía correr o si había que ponerle otra cosa, como que me perdí en esa parte, pero bueno. Lo que pasó es que después de como 2sg con el código corriendo y el arduino conectado sentí un olor extraño, miré y el potenciómetro tiraba humo KJDSFHK yo pienso que fue la forma ordinaria en la que tenía conectada los cables, pero así fue como dijeron que los conectáramos si no habían caimanes...... lo desconecté altiro por miedo a mandarme otra cagaita. 
+
+También pienso que puede ser porque el cable de mi mouse empezó a tirar error de que no lo reconocía, cuando lo desconecté, no reconocía la conexión del arduino, lo desconecté y volví a conectar y ahí funcionó. Revisé si es que no me había piteado los conectores usb del compu, y no, siguen funcionando, ya veía era la primera en el semestre en quemarlos pipipipi
 
 
 ## lectura
