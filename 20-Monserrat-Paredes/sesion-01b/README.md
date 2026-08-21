@@ -296,10 +296,10 @@ Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automáti
   </tr>
   <tr>
     <td align="center">
-<img width="970" height="638" alt="codigo" src="https://github.com/user-attachments/assets/a5ae3402-1b6c-4ddb-8cd5-c96b91d7b028" />
+<img width="970" height="638" alt="codigo" src="./imagenes/codigo.png" />
     </td>
     <td align="center">
-<img width="400" height="711" alt="luz" src="https://github.com/user-attachments/assets/8ed4e1d6-ac1b-47f2-8885-b755d5b48b10" />
+<img width="400" height="711" alt="luz" src="./imagenes/luz.gif" />
     </td>
   </tr>
 </table>
@@ -394,13 +394,13 @@ void loop() {
   </tr>
   <tr>
     <td align="center">
-<img width="2737" height="3415" alt="foto4" src="https://github.com/user-attachments/assets/95f8c7aa-aaa5-4ed6-a892-ffa11bc7a40b" />
+<img width="2737" height="3415" alt="foto4" src="./imagenes/foto4.jpg" />
     </td>
     <td align="center">
-<img width="3024" height="4032" alt="foto1" src="https://github.com/user-attachments/assets/b8cd5021-5c77-4453-a306-5d83471a8a87" />
+<img width="3024" height="4032" alt="foto1" src="./imagenes/foto1.jpg" />
     </td>
     <td align="center">
-<img width="400" height="711" alt="funciona" src="https://github.com/user-attachments/assets/ae6128d0-9807-4f01-9491-456d92752751" />
+<img width="400" height="711" alt="funciona" src="./imagenes/funciona.gif" />
     </td>
   </tr>
 </table>
