@@ -31,12 +31,19 @@ Un encoder es un  sensor que genera señales digitales en respuesta al movimient
     - El otro al movimiento lineal.
 
 **Los encoders están disponibles con diferentes tipos de salidas:**
+Existen varios tipos de econders:
+|#|Encoder|
+-|-
+|1 |Óptico|
+|2 |Encoders magnéticos|
+|2.1  | **Los encoders incrementales**, que generan pulsos mientras se mueven, se utilizan para medir la velocidad o la trayectoria de posición.|
+|2.2 | **Los encoders absolutos** que generan multi bits digitales, que indican directamente su posición actual.|
+|3 |Encoders capacitivos
+|4 | Encoders inductivos|
 
-    - Los encoders incrementales, que generan pulsos mientras se mueven, se utilizan para medir la velocidad o la trayectoria de posición.
-    - Los encoders absolutos que generan multi bits digitales, que indican directamente su posición actual.
-
-Esto permite la automatización de datos que se quieran recolectar con los encoders.
+Esto permite la automatización de datos que se quieran recolectar.
 [referencia](https://www.servomotorsadjust.com/encoders/)
+[referencia](https://blog.structuralia.com/que-es-encoder-tipos/)
 
 ## encargos.
 
