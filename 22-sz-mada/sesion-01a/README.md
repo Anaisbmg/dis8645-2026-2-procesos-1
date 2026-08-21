@@ -42,7 +42,7 @@ Hay 6 tipos de basic data para definir estos valores, los cuales son:
 
 - int = números enteros (positivos, negativos, o cero)
 - float = números decimales
-- double = números decimales más precisos que *float*
+- double = números decimales más precisos que `float`
 - char = un (1) solo carácter
 - bool = dato binario con valores opuestos (true o false)
 - void = sin valor, vacío
