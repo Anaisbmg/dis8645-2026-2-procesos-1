@@ -131,7 +131,7 @@ print: No se salta una línea
 ## Baudios
 "La velocidad en baudios define el número de cambios de señal transmitidos por segundo en un canal de comunicación. Mide la velocidad de comunicación en términos de símbolos en lugar de bits brutos. Muchos sistemas digitales igualan la velocidad en baudios con los bits por segundo, pero esto solo es cierto cuando cada símbolo transporta un bit." 
 
-![]()
+![](./imagenes/img9.jpeg)
 [Texto y ejemplo sacado de este enlace](https://www.sbg-systems.com/es/glossary/baud-rate/)
 
 ## encargos.
