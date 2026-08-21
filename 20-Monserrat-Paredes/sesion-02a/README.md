@@ -61,6 +61,11 @@ izquierda → voltaje/ tierra
 al medio → A0 → patita de lectura (int) → entero
 
 
+
+![caimanes](./imagenes/caimanes.jpg)
+
+
+
 ## codigo visto en clases para arduino R4 wifi:
 
 ```cpp
@@ -172,6 +177,13 @@ void loop() {
 - Cables jumper macho-macho.
 
 
+## Circuito
+
+![pote](./imagenes/pote.png)
+
+Imagen sacada de → https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
+
+
 ## Paso a paso de conexión 
 
 - Arduino 5V → Patita lateral del potenciómetro → cable rojo.
@@ -184,14 +196,113 @@ void loop() {
 ## Registro conexión física
 
 
+![pote1](./imagenes/pote1.jpg)
 
 
+![pote2](./imagenes/pote2.gif)
 
 
+---
 
 
+## codigo enviado para hacer funcionar el botón pulsador
+
+```cpp
+/*
+  Button
+
+  Turns on and off a light emitting diode(LED) connected to digital pin 13,
+  when pressing a pushbutton attached to pin 2.
+
+  The circuit:
+  - LED attached from pin 13 to ground through 220 ohm resistor
+  - pushbutton attached to pin 2 from +5V
+  - 10K resistor attached to pin 2 from ground
+
+  - Note: on most Arduinos there is already an LED on the board
+    attached to pin 13.
+
+  created 2005
+  by DojoDave <http://www.0j0.org>
+  modified 30 Aug 2011
+  by Tom Igoe
+
+  This example code is in the public domain.
+
+  https://docs.arduino.cc/built-in-examples/digital/Button/
+*/
+
+// constants won't change. They're used here to set pin numbers:
+const int buttonPin = 2;  // the number of the pushbutton pin
+const int ledPin = 13;    // the number of the LED pin
+
+// variables will change:
+int buttonState = 0;  // variable for reading the pushbutton status
+
+void setup() {
+  // initialize the LED pin as an output:
+  pinMode(ledPin, OUTPUT);
+  // initialize the pushbutton pin as an input:
+  pinMode(buttonPin, INPUT);
+}
+
+void loop() {
+  // read the state of the pushbutton value:
+  buttonState = digitalRead(buttonPin);
+
+  // check if the pushbutton is pressed. If it is, the buttonState is HIGH:
+  if (buttonState == HIGH) {
+    // turn LED on:
+    digitalWrite(ledPin, HIGH);
+  } else {
+    // turn LED off:
+    digitalWrite(ledPin, LOW);
+  }
+}
+```
+
+## Materiales utilizados
+
+- Arduino R4 WIFI.
+- cable USB con transmisión de datos (no solo de carga).
+- computador con el programa Arduino IDE instalado.
+- protoboard.
+- 1 resistencia.
+- 1 botón pulsador (4 patas).
+- Cables jumper macho-macho.
 
 
+## Circuito
+
+![boton](./imagenes/boton.png)
+
+Imagen sacada de → https://docs.arduino.cc/built-in-examples/digital/Button/
+
+
+## Paso a paso de conexión
+
+- Arduino 5V → Riel + de la protoboard → cable rojp.
+
+- Arduino GND → Riel - de la protoboard → cable blanco.
+
+- Arduino Pin 2 → Una pata del botón → cable amarillo.
+
+- Riel + → Misma pata del botón donde pusiste el Pin 2.
+
+- Pata diagonal del botón → Resistencia de 10k → Riel -.
+
+- Resultado: LED encendido mientras mantienes el botón presionado; apagado al soltar.
+
+
+## Registro conexión física
+
+
+![boton1](./imagenes/boton1.jpg)
+
+![boton2](./imagenes/boton2.gif)
+
+
+---
 
 
 ## Lectura
