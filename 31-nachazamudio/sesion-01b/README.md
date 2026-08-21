@@ -228,3 +228,23 @@ void ColocarAlarma (8am);
 }
 ```
 ## lectura
+
+LIBRO COMPUTATIONAL DRAWING:
+
+Libro en inglés, más complicado y lento de leer de lo que creí. Falta práctica.
+
+Me gustó el comienzo ya que menciona que si sabes leer y escribir ya tienes las cimientos para aprender a como programar.
+El primer capítulo define los terminos de computing y drawning, explicando en que se relacionan y que les diferencia. Es complicado definir a ambos puesto que se encuentran en muchos contextos con varias definiciones formales o coloquiales.
+
+citas que me interesaron:
+
+"Drawing is an ordered collection of lines. Drawing is the pulling of an idea into material being. A drawing is an abstraction or a drawing is a neutral truth. A drawing is form."
+
+Menciona que casi todo puede ser dibujo. y desde allí llega al punto de que es y no es un dibujo. "Drawing covers more ground than that which is not drawing" 
+
+Los dibujos no pueden ser editados. Se editan pero no con "control z" o "undo", las marcas que se hicieron dejan rastro, y el borrar el dibujo es otra forma de marcar e interactuar con el mismo. Las lineas que se hacen ya no tienen vuelta atrás a diferencia del medio digital:
+
+"Most so called ´digital drawings` in design software, are in fact models of lines, not drawings at all. What we see on the screen is not the actual drawing, but a stand in that allows us to manipulate, edit, create and delete lines" 
+
+
+
