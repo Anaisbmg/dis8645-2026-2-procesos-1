@@ -96,26 +96,8 @@ valorLectura = anologRead (patitaLectura);
 
 ```
 
-## codigo enviado para hacer funcionar el potenciometro
+Potenciometro:
 
-```cpp
-
-const int patitaLectura = A0;
-
-int valorLectura = -1;
-
-void setup() {
-
-  Serial.begin(9600);
-
-}
-
-void loop() {
- valorLectura = analogRead(patitaLectura); 
- Serial.println(valorLectura);
-}
-
-```
 minimo: 0
 maximo: 1023
 
@@ -131,7 +113,6 @@ tratar de no usar porque es complejo, usar cuando sea necesario
 4, 5, 6, 7 →  vale 1
 
 - a la hora de programar se empieza de lo mas macro a lo mas micro
-
 
 
 
@@ -156,6 +137,61 @@ segunda mitad:
 
 
 ---
+
+# Proyecto-1
+
+## codigo enviado para hacer funcionar el potenciometro
+
+```cpp
+
+const int patitaLectura = A0;
+
+int valorLectura = -1;
+
+void setup() {
+
+  Serial.begin(9600);
+
+}
+
+void loop() {
+ valorLectura = analogRead(patitaLectura); 
+ Serial.println(valorLectura);
+}
+
+```
+
+## Materiales utilizados 
+
+- Arduino R4 WIFI.
+- cable USB con transmisión de datos (no solo de carga).
+- computador con el programa Arduino IDE instalado.
+- protoboard.
+- 1 resistencia.
+- 1 Potenciometro.
+- Cables jumper macho-macho.
+
+
+## Paso a paso de conexión 
+
+- Arduino 5V → Patita lateral del potenciómetro → cable rojo.
+  
+- Arduino GND → Patita lateral opuesta del potenciómetro → cable negro.
+
+- Arduino Pin A0 → Patita del medio del potenciómetro → cable amarillo.
+
+
+## Registro conexión física
+
+
+
+
+
+
+
+
+
+
 
 
 ## Lectura
