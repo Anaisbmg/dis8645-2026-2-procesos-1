@@ -159,17 +159,17 @@ los potenciómetros son un componente de resistencia variable, en el cual puedes
 
 para poder dibujar un potenciómetro dentro de un esquemático, se utilizan los siguientes símbolos: 
 
-![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sym.png)
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sim.png)
 
 dentro de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>, también nos muestran distintos tipos de potenciómetros, en qué orden se cuentan los pines de estos y cuál es el rol de cada pin.
 
-![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pines.png)
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pin.png)
 
 para poder entender qué tipo de proyectos se pueden realizar con este componente, quiero hablar sobre el trabajo de Lee Seunghun, el cual se llama [engmung](<https://github.com/engmung>) en GitHub. su trabajo se llama Patternflow, el cual es un sintetizador LED open-source el cual te permite crear y modificar patrones de luces mediante perillas, las cuales son potenciómetros.
 
 ![screenshot de la página de Patternflow](./imagenes/patternflow.png)
 
-puedes interactuar con este sintetizador mediante 4 potenciómetros, los cuales te permiten ir modificando los patrones y la cantidad de repeticiones que éste tiene en la pantalla. la mejor parte de este proyecto es que es open-source, por lo que si nos dirigimos al siguiente link: <https://github.com/engmung/Patternflow>, podremos encontrar todo el material que necesitemos como lo es el firmware, hardware y las integraciones que este tiene.
+puedes interactuar con este sintetizador mediante 4 potenciómetros, los cuales te permiten ir modificando los patrones y la cantidad de repeticiones que éste tiene en la pantalla de 8192 píxeles (matriz de 128 x 64), patrones que no están pre-renderizados, sino que cada fotograma se calcula en tiempo real en el mismo dispositivo!!! omg. la mejor parte de este proyecto es que es open-source, por lo que si nos dirigimos al siguiente link: <https://github.com/engmung/Patternflow>, podremos encontrar todo el material que necesitemos como lo es el firmware, hardware y las integraciones que este tiene.
 
 ![screenshot de la página de GitHub de engmung](./imagenes/git-publico.png)
 
@@ -181,8 +181,3 @@ incluso si no tienes presupuesto para poder hacer este proyecto, no te preocupes
 + <https://www.etechnophiles.com/potentiometer-symbol-pinout/>
 + <https://github.com/engmung>
 + <https://github.com/engmung/Patternflow>
-+ <
-
----
-
-## lectura
