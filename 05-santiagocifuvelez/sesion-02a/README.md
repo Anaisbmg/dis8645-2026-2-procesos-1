@@ -66,7 +66,7 @@ En el siguiente esquemático vamos a ver las diferencias del pull up y el pull d
 
 ## Luis Llamas
 Referente súper importante en este rubro:
-[Luis Llamas](https://www.luisllamas.es/)
+`[Luis Llamas](https://www.luisllamas.es/)`
 
 ## encargos.
 
