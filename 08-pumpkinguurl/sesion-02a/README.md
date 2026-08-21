@@ -231,6 +231,8 @@ conformar grupos de 3 a 4 personas para la realización del proyecto-1. comparti
 
 Conformamos grupo: Belén Castillo, Martina Fernández, Maite Villarroel, Ignacia Zamudio.
 
+Profe creo que me mande una cagaita, conecte todo según tengo escrito en mis apuntes, y corría el código que hizo de ejemplo en clases, después pegué primer código de ejemplo **ej_arduino_pote.ino** y corría así
+
 
 
 
