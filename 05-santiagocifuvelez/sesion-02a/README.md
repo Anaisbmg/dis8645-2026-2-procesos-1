@@ -127,6 +127,13 @@ Serial.println(valorLectura);
 print: No se salta una línea
 
 ![](./imagenes/img8.gif)
+
+## Baudios
+"La velocidad en baudios define el número de cambios de señal transmitidos por segundo en un canal de comunicación. Mide la velocidad de comunicación en términos de símbolos en lugar de bits brutos. Muchos sistemas digitales igualan la velocidad en baudios con los bits por segundo, pero esto solo es cierto cuando cada símbolo transporta un bit." 
+
+![]()
+[Texto y ejemplo sacado de este enlace](https://www.sbg-systems.com/es/glossary/baud-rate/)
+
 ## encargos.
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
 
