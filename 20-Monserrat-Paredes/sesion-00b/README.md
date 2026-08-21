@@ -16,13 +16,13 @@ Uno de sus proyectos estudia cómo una planta cambia de forma al absorber humeda
 
 En conclusión, la charla propone entender los materiales como agentes activos dentro del proceso de diseño, capaces de generar nuevas posibilidades a través de la investigación, la experimentación y el trabajo interdisciplinario.
 
-<img width="806" height="651" alt="Hedi1" src="./imagenes/hedi1.png" />
+![hedi1](./imagenes/hedi1.png)
 
 Imágenes sacada de → <https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==>
 
-<img width="400" height="521" alt="Hedi2" src="./imagenes/hedi2.gif" />
+![hedi2](./imagenes/hedi2.gif)
 
-<img width="400" height="527" alt="Hedi3" src="./imagenes/hedi3.gif" />
+![hedi3](./imagenes/hedi3.gif)
 
 Gifs sacados de → <https://www.instagram.com/heidijalkh?igsh=MXZrMHFqZWs5NHhwcQ==>
 
@@ -126,13 +126,13 @@ Material: Goma eva con una estructura geométrica auxética.
   </tr>
   <tr>
     <td align="center">
-      <img width="2596" height="2999" alt="Davila1" src="./imagenes/davila1.jpg" />
+      <img width="2596" height="2999" alt="davila1" src="./imagenes/davila1.jpg" />
     </td>
     <td align="center">
-      <img width="1438" height="2405" alt="Davila2" src="./imagenes/davila2.jpg" />
+      <img width="1438" height="2405" alt="davila2" src="./imagenes/davila2.jpg" />
     </td>
     <td align="center">
-      <img width="1946" height="3258" alt="Davila3" src="./imagenes/davila3.jpg" />
+      <img width="1946" height="3258" alt="davila3" src="./imagenes/davila3.jpg" />
     </td>
   </tr>
 </table>
@@ -215,13 +215,13 @@ Imágenes sacadas por mi :)
   </tr>
   <tr>
     <td align="center">
- <img width="2062" height="2601" alt="Integramedica3" src="./imagenes/integramedica3.jpg" />
+ <img width="2062" height="2601" alt="integramedica3" src="./imagenes/integramedica3.jpg" />
     </td>
     <td align="center">
-<img width="2526" height="3641" alt="IntegraMedica1" src="./imagenes/integramedica1.jpg" />
+<img width="2526" height="3641" alt="integraMedica1" src="./imagenes/integramedica1.jpg" />
     </td>
     <td align="center">
-<img width="1754" height="2720" alt="IntegraMedica2" src="./imagenes/integramedica2.jpg" />
+<img width="1754" height="2720" alt="integraMedica2" src="./imagenes/integramedica2.jpg" />
     </td>
   </tr>
 </table>
@@ -320,13 +320,13 @@ Imágenes sacadas por mi :)
   </tr>
   <tr>
     <td align="center">
-<img width="736" height="1051" alt="SantaAna2" src="./imagenes/santaana2.jpg" />
+<img width="736" height="1051" alt="santaana2" src="./imagenes/santaana2.jpg" />
     </td>
     <td align="center">
-<img width="820" height="1277" alt="SantaAna1" src="./imagenes/santaana1.jpg" />
+<img width="820" height="1277" alt="santaana1" src="./imagenes/santaana1.jpg" />
     </td>
     <td align="center">
-<img width="446" height="547" alt="SantaAna3" src="./imagenes/santaana3.jpg" />
+<img width="446" height="547" alt="santaana3" src="./imagenes/santaana3.jpg" />
     </td>
   </tr>
 </table>
@@ -418,13 +418,13 @@ Imágenes sacadas por mi :)
   </tr>
   <tr>
     <td align="center">
-<img width="1967" height="2579" alt="Udp1" src="./imagenes/udp1.jpg" />
+<img width="1967" height="2579" alt="udp1" src="./imagenes/udp1.jpg" />
     </td>
     <td align="center">
-<img width="816" height="1450" alt="Udp2" src="./imagenes/udp2.jpg" />
+<img width="816" height="1450" alt="udp2" src="./imagenes/udp2.jpg" />
     </td>
     <td align="center">
-<img width="854" height="1518" alt="Udp3" src="./imagenes/udp3.jpg" />
+<img width="854" height="1518" alt="udp3" src="./imagenes/udp3.jpg" />
     </td>
   </tr>
 </table>
