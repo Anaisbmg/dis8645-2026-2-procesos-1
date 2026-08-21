@@ -92,12 +92,9 @@ while (!serial) no comenzar, no mandar mensajes hasta que esté listo para recib
 
 int poteFiltrado = -1 para procesar 
 
-
-
-
-
-
-
 ## encargos
+
+![foto actions nacha](./actions-nacha.png
+)
 
 ## lectura
