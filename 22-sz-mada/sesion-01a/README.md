@@ -59,9 +59,9 @@ bool esEstudianteDiseno = true;
 Las funciones serían algo que haces, una acción o un proceso que se puede describir.
 
 ```cpp
-escucharMusica()
-verSeries()
-dormir()
+escucharMusica();
+verSeries();
+dormir();
 ```
 
 ---
