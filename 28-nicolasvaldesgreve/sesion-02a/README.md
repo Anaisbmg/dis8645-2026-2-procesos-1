@@ -159,11 +159,11 @@ los potenciómetros son un componente de resistencia variable, en el cual puedes
 
 para poder dibujar un potenciómetro dentro de un esquemático, se utilizan los siguientes símbolos: 
 
-![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sim.png)
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/sym.png)
 
 dentro de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>, también nos muestran distintos tipos de potenciómetros, en qué orden se cuentan los pines de estos y cuál es el rol de cada pin.
 
-![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pin.png)
+![esta fotografía no me pertenece, fue rescatada de <https://www.etechnophiles.com/potentiometer-symbol-pinout/>](./imagenes/pines.png)
 
 para poder entender qué tipo de proyectos se pueden realizar con este componente, quiero hablar sobre el trabajo de Lee Seunghun, el cual se llama [engmung](<https://github.com/engmung>) en GitHub. su trabajo se llama Patternflow, el cual es un sintetizador LED open-source el cual te permite crear y modificar patrones de luces mediante perillas, las cuales son potenciómetros.
 
@@ -181,3 +181,25 @@ incluso si no tienes presupuesto para poder hacer este proyecto, no te preocupes
 + <https://www.etechnophiles.com/potentiometer-symbol-pinout/>
 + <https://github.com/engmung>
 + <https://github.com/engmung/Patternflow>
+
+#### botones
+
+este componente nos permite interrumpir o conectar un circuito eléctrico, normalmente con el fin de poder controlar un dispositivo en específico como lo puede ser, por ejemplo, prender un timbre presionando un botón o prender la luz usando o un interruptor. omg, ¿botón e interruptor?, ¿esto significa que hay distintos tipos de botones? YESS lol aquí la diferencia:
+
+![imagen que muestra tipos de pulsadores. rescatada de <https://linkwellelectrics.com/es/push-button-switch-types/>, no me pertenece](./imagenes/pulsadores.jpg)
+
++ botón, push button o pulsador: los botones pulsadores (push buttons) son un actuador que al ser presionado logra cerrar o abrir los circuitos a los que está conectado. dentro de este estilo de botón, existen variedades como por ejemplo:
+	+ pulsadores momentáneos: se debe de mantener una presión continua para poder activar el mecanismo. una vez sueltas el botón, el pulsador volverá a su estado original.
+	+ pulsadores mantenidos: estos permanecen en el estado de contacto establecido hasta que se vuelva a aplicar presión, lo cual le permitirá volver a su estado original.
+
+![imagen que muestra distintos tipos de switch. rescatada de <https://es.wikipedia.org/wiki/Interruptor>, no me pertenece](./imagenes/switches.jpg)
+
++ interruptores, toggles o switch button: al igual que los pulsadores, son actuadores que sirven para interrumpir o dar paso a la corriente eléctrica solo que en este componente no se requiere de una interacción continua para que se mantenga en un estado, sino que al hacer solo una interacción ya es suficiente para que sucedan cambios dentro de él lo cual se mantendrá hasta que se realice otra interacción con el mismo componente.
+
+#### fuentes botones
+
++ <https://www.tme.com/cl/es/news/library-articles/page/59080/interruptores-y-botones-diferencias-aplicaciones-y-principio-de-funcionamiento/>
++ <https://www.promelsa.com.pe/blog/post/que-es-pulsador-electrico.html?srsltid=AfmBOoqhbeJyX2F_MSMtp2oITaVs0RlOdB85ylCaUy_m6QW3IcTnbmy7>
++ <https://www.eaton.com/cr/es-mx/products/electrical-circuit-protection/circuit-breakers/circuit-breakers-fundamentals.html>
++ <https://es.wikipedia.org/wiki/Interruptor>
++ <https://linkwellelectrics.com/es/push-button-switch-types/>
