@@ -241,7 +241,7 @@ no estoy segura de si eso era lo que debía correr o si había que ponerle otra 
 
 También pienso que puede ser porque el cable de mi mouse empezó a tirar error de que no lo reconocía, cuando lo desconecté, no reconocía la conexión del arduino, lo desconecté y volví a conectar y ahí funcionó. Revisé si es que no me había piteado los conectores usb del compu, y no, siguen funcionando, ya veía era la primera en el semestre en quemarlos pipipipi y el arduino sigue vivo
 
-![arduino](./esta-vivo-creo-.jpeg)
+
 
 
 
