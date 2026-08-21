@@ -69,6 +69,9 @@ En el siguiente esquemático vamos a ver las diferencias del pull up y el pull d
 
 ## Explicación de conexión de aurdino con breadboard
 
+![](./imagenes)img)
+Ej1: [ej1](https://docs.arduino.cc/built-in-examples/digital/Button/)
+
 ## encargos.
 
 ## lectura
