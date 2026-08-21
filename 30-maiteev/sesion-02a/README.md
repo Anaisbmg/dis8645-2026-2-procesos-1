@@ -143,16 +143,21 @@ encargo02a:
 
 1. en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
 
+ ![actions](./actions-github.png) 
+
   
-3. conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+2. conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+
+- Formamos grupo de a 4 siendo: Belén Castillo, Martina Fernández, Maite Villarroel, Ignacia Zamudio.  
+
+- Probamos los códigos entregados por el profe.
 
 ## lectura
 
-## lectura
 
 Lectura pagina 7 a la 21.
 
-- Estas 14 paginas leídas se dividen en 4 poemas (hipotesis,verdad,persona e igualdad), entonces les entrego un punteo de lo que rescate de cada poema y lo que entiendo desde mi perspectiva y con algunas citas.
+- Estas 14 paginas leídas se dividen en 4 poemas (hipótesis, verdad, persona e igualdad), entonces les entrego un punteo de lo que rescate de cada poema y lo que entiendo desde mi perspectiva y con algunas citas.
 
 
 **1. EPÍGRAFE** 
@@ -165,7 +170,7 @@ Lectura pagina 7 a la 21.
   
   
 
- **2. HIPOTESIS**
+ **2. HIPÓTESIS**
 -   Siento que se habla mucho de las realidades y del poder del dinero.
 
  "El orden se integra en el caos / El canon de la belleza es un caos / Esta opinión no es pacífica" (pag 12)
@@ -181,7 +186,7 @@ Lectura pagina 7 a la 21.
     
     "La verdad no es certeza"(pag 16)
     
-    -La busqueda de la verdad.
+    -La búsqueda de la verdad.
     - Ocurre o no ocurre.
     - Demuestran que no existe solamente una verdad entonces cuestiona de como el juez no sabe nada como sabe cual es la verdad y se explica donde la verdad solo se sabe con la certeza.
 
