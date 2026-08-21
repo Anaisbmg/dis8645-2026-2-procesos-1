@@ -5,7 +5,7 @@
 Me lleve este libro
 
 
-<img width="1212" height="1599" alt="libro" src="./imagenes/libro.jpeg" />
+![libro](./imagenes/libro.jpeg)
 
 
 ## Encargos
