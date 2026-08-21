@@ -227,6 +227,8 @@ encargo02a:
 
 en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
 
+![action ok](./actions.png)
+
 conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
 
 Conformamos grupo: Belén Castillo, Martina Fernández, Maite Villarroel, Ignacia Zamudio.
@@ -238,6 +240,7 @@ Profe creo que me mande una cagaita, conecte todo según tengo escrito en mis ap
 no estoy segura de si eso era lo que debía correr o si había que ponerle otra cosa, como que me perdí en esa parte, pero bueno. Lo que pasó es que después de como 2sg con el código corriendo y el arduino conectado sentí un olor extraño, miré y el potenciómetro tiraba humo KJDSFHK yo pienso que fue la forma ordinaria en la que tenía conectada los cables, pero así fue como dijeron que los conectáramos si no habían caimanes...... lo desconecté altiro por miedo a mandarme otra cagaita. 
 
 También pienso que puede ser porque el cable de mi mouse empezó a tirar error de que no lo reconocía, cuando lo desconecté, no reconocía la conexión del arduino, lo desconecté y volví a conectar y ahí funcionó. Revisé si es que no me había piteado los conectores usb del compu, y no, siguen funcionando, ya veía era la primera en el semestre en quemarlos pipipipi
+
 
 
 ## lectura
