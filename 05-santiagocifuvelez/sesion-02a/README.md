@@ -24,4 +24,19 @@ Las resistencias actúan como protectores y atajadores de la corriente que entra
 Así se ven
 ![img2](./imagenes/img2.jpg)
 
+#### Encoders 
+Un encoder es un  sensor que genera señales digitales en respuesta al movimiento.
+
+**Los encoders están disponibles en dos tipos:**
+    - Uno que responde a la rotación,
+    - El otro al movimiento lineal.
+
+**Los encoders están disponibles con diferentes tipos de salidas:**
+
+    - Los encoders incrementales, que generan pulsos mientras se mueven, se utilizan para medir la velocidad o la trayectoria de posición.
+    - Los encoders absolutos que generan multi bits digitales, que indican directamente su posición actual.
+
+Esto permite la automatización de datos que se quieran recolectar con los encoders.
+[referencia](https://www.servomotorsadjust.com/encoders/)
+
 ## lectura
