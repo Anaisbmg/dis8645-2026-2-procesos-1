@@ -103,7 +103,7 @@ Entonces,
 
 ArduinoLEDMatrix Pantalla;  //Instancia objeto
 
-byte corazon [8][12] = {
+byte estrella [8][12] = {
     {0,0,0,0,0,1,0,0,0,0,0,0},
     {0,0,0,0,0,1,0,0,0,0,0,0},
     {0,0,1,1,1,1,1,1,1,0,0,0},
@@ -118,7 +118,7 @@ void setup() {
 
   Pantalla.begin();  //Inicializa
 
-  Pantalla.renderBitmap (corazon, 8,12);  //Muestra bitmap
+  Pantalla.renderBitmap (estrella, 8,12);  //Muestra bitmap
 
 }
 
@@ -160,7 +160,7 @@ const uint32_t estrella_bits[] = {
     0b00011111, // Columna 8
     0b00001110, // Columna 9
     0b00000100, // Columna 10
-    0b00000000  // Columna 11 (vacía)
+    0b00000000,  // Columna 11 (vacía)
 };
 
 void setup() {
@@ -172,7 +172,7 @@ void setup() {
 void loop() {
   // cargar y mostrar la figura de estrella
   matrix.loadFrame(estrella_bits);
-  delay(1000) // mantenerla encendida por un segundo
+  delay(1000); // mantenerla encendida por un segundo
 }
 ```
 
@@ -180,13 +180,199 @@ Pero no funcionó
 
 ![intento de estrella dos](./prueba-tres.jpeg)
 
+Ahora el caballero habla de algo de los 32 bytes, entiendo pero a la vez no. Entiendo que con este formato la matriz se divide en 3 grupos con la misma cantidad de leds.
 
+El caballero te coloca una web que te permite activar y desactivar cuadraditos simulando la matriz led de la arduino https://www.manualdomaker.com/matrix/ y según esta página, la matriz completa encendida seria 
 
+```cpp
+0xFFFFFFFF
+0xFFFFFFFF
+0xFFFFFFFF
+```
 
+entonces yo pienso, F es encendido, ¿0 es apagado? probemo
 
+coloco este 
+
+```cpp
+#include "Arduino_LED_Matrix.h"
+
+ArduinoLEDMatrix matrix;
+
+uint32_t frame[] = {
+   0xF0000000,
+   0x00000000,
+   0x00000000,
+};
+
+void setup() {
+  matrix.begin();
+  matrix.loadFrame(frame);
+}
+
+void loop() {
+}
+```
+
+![a cuanto equivale F](./prueba-cuatro.jpeg)
+
+Al parecer F significa "prendo 4 leds"
+
+Ahora en el lugar donde estaba la F puse una A y se prendieron los leds 1 y 3 de la primera fila. ¿Cada carácter significa algo? demás que sí, pero no lo entiendo. Igual demás que es imposible aprenderse todas esas combinaciones.
 
 
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+Profe no le voy a mentir, en esta parte me ayudé un poco de la IA, pero onda le fui escribiendo lo que escribía y ahí me decía si iba bien o si estaba poniendo puras cabezas de pesado.
+
+la idea una clienta quiere comprar una torta de chocolate y empezamos así
+
+```cpp
+//escoger una torta de chocolate 
+//la torta no debe tener frutos secos 
+//la torta no debe tener mermeladas 
+//puede tener manjar 
+//debe ser con azucar 
+//las opciones que hay para escoger son 
+//chocolate manjar, chocolate sin azúcar, chocolate y mermelada de frambuesa 
+//chocolate nuez, cheesecake
+
+//clienta quiere comprar una torta de chocolate 
+bool ConMermelada = false; 
+bool ConManjar = true; 
+bool ConAzucar = true; 
+bool ConFrutosSecos = false; 
+bool Cheesecake = false;
+```
+
+Y aquí me corrigió que había algunas cosas que podían causar confusión, como el decir en la función que acepta ciertas cosas, pero al colocarlo en los bool los puse como condiciones que si o si deben existir y me recomendó que en vez de usar el "con(ingrediente)" utilizara el "acepta(ingrediente)"
+
+Entonces las preferencias de la clienta quedarían como 
+
+```cpp
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaAzucar = false;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+```
+
+Y luego de definir las preferencias de ingredientes de la clienta debemos ver las opciones de pasteles de chocolate que se ofrecen e identificar si sirven o no para la clienta. Hasta el momento iría así
+
+```cpp
+//clienta quiere comprar una torta de chocolate
+bool AceptaMermelada = false
+bool AceptaManjar = true
+bool AceptaAzucar = true
+bool AceptaFrutosSecos = false
+bool AceptaCheesecake = false
+//los sabores disponibles son
+//Torta chocolate manjar
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate mermelada
+bool TieneMermelada = true
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//Torta chocolate y frutos secos
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = true
+bool TieneFrutosSecos = true
+bool TieneCheesecake = false
+//Torta de chocolate sin azucar
+bool TieneMermelada = false
+bool TieneManjar = false
+bool TieneAzucar = false
+bool TieneFrutosSecos = false
+bool TieneCheesecake = false
+//y Cheesecake de chocolate
+bool TieneMermelada = false
+bool TieneManjar = true
+bool TieneAzucar = true
+bool TieneFrutosSecos = false
+bool TieneCheesecake = true
+```
+
+Pero el compadre me dice que no debería agregarle distintos valores a las mismas condiciones declaradas. ENTONCES, ¿qué hago? ni idea
+
+Se me ocurre asignarle un número a las tortas quizás, en ese caso
+
+```
+- Torta de chocolate con manjar = 1
+- Torta de chocolate con mermelada = 2
+- Torta de chocolate sin azúcar = 3
+- Torta de chocolate con frutos secos = 4
+- Cheesecake de chocolate con manjar = 5
+```
+
+Para luego escribir las condiciones y los valores de cada torta
+
+```
+TieneMermelada = [2]
+TieneManjar = [1] [5]
+TieneAzucar = [1] [2] [4] [5]
+TieneFrutosSecos = [4]
+TieneCheesecake = [5]
+```
+
+y así que luego el código revise las condiciones que la clienta acepta para poder entregar la respuesta de cuál es la mejor opción de torta para ella, pero no tengo ni idea como colocar eso en código jejejjejejje
+
+Es que no entiendo que seria int o string, o puedo usar ambos. Tampoco entiendo como empezar a escribirlo
+
+tenemos 
+
+```cpp
+//clienta quiere comprar torta de chocolate
+
+void setup (){
+string TortaEscogida
+}
+
+//ingredientes que al clienta acepta que tenga la torta a comprar
+
+bool AceptaMermelada = false;
+bool AceptaManjar = true;
+bool AceptaAzucar = true;
+bool AceptaFrutosSecos = false;
+bool AceptaCheesecake = false;
+
+//tipos de torta que hay disponibles
+//no se si aqui deberia ir flechita o signo igual, pongamosle signo igual pq no se poner flechita
+
+TortaDeChocolateConManjar = 1
+TortaDeChocolateConMermelada = 2
+TortaDeChocolateSinAzucar = 3
+TortaDeChocolateConFrutosSecos = 4
+CheesecakeDeChocolate con manjar = 5
+
+//luego relacionamos los ingredientes que la clienta acepta en su torta
+//con los sabores de tortas disponibles para comprar
+
+TieneMermelada = [2]
+TieneManjar = [1] [5]
+TieneAzucar = [1] [2] [4] [5]
+TieneFrutosSecos = [4]
+TieneCheesecake = [5]
+
+}
+
+//ahora viene el loop creo pero tampoco entendi bien como iba
+//el loop nos entregaba el return o no
+
+void loop(){
+return ComprarTortaDeChocolate
+
+//no se que mas va
+```
+
+Profe le juro que lo di todo de mi wipipipipi
+
 
 ## lectura
 
@@ -194,4 +380,13 @@ Recién escogí libro
 
 ![imagen de texto escogido](digital-art.jpeg)
 
-Que difícil leer en inglés
+Que difícil leer en inglés. 
+
+Cosas que me parecen interesante - cosas que leí hace poco y aparecen en el libro wejjeje
+
+Douglas Engelbart introdujo la idea de bitmapping.
+
+"the concept of bitmapping was groundbreaking in that stablished a connection between the electrons floatong through a computer´s processor and an image on the computer screen."
+
+"A computer processes in pulses of electricity that manifiest themselves in either an 'on' or 'off' state commonly referred to as the binaries 'zero' and 'one'."
+

@@ -103,6 +103,22 @@ Me reúno con kriss el lunes.
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
 2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
+Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y visualizar en la matriz de LED´S que conforman una mini pantallita en la misma placa. Entonces, los ejercicios que hicimos se centran en visualizar algo en esta pantallita. 
+
+- 1. Desciframos que hay dos maneras de hacer visualizar algo en la matriz led de la placa: Por medio de configuración 1 y 0, donde; "1" es encendido, y "0", es apagado. Y el otro método, es por medio de números hexadecimales. (personalmente se me hizo más fácil con la matriz de "1" y "0".
+
+![ejercicio 1](./imagenes/ej1.jpeg)
+
+![ejercicio 1](./imagenes/ej1-loop.gif)
+
+![ejercicio 2](./imagenes/ej2.gif)
+
+**Referentes**
+- [referente1](https://www.youtube.com/watch?v=nL34zDTPkcs&t=496s)
+- [referente 2](https://youtu.be/vro4zqYeLWc?si=MkBbxIaZSaIDjVPZ)
+- [referente 3](https://docs.arduino.cc/built-in-examples/basics/Blink/)
+  
+
 ## lectura
 Para poder leer y entender de manera correcta, ya agregue p5.js a mi Visual Studio Code, y comenzaré a estudiar haciendo los ejercicios del libro.
 

@@ -1,6 +1,38 @@
 # sesion-01a
 
 ## apuntes sesión
+La sesión empezó como funciona github.
+Luego analizamos ascensores:
+
+nuestro texto con vanessa garcía e isidora pérez:
+
+el ascensor cuenta con una puerta, en donde se llama a este al presionar el botón del exterior. generalmente, cuentan con similitudes de materialidad (los más actuales), como acero inoxidable y hierro. los botones indican el número de pisos, y cuentan con una luz que se obtiene al presionar el botón e indica el piso al que se dirige. algunos de estos incluyen el uso del sistema braille en los botones para personas con discapacidad visual.
+
+según nuestros ascensores analizados, encontramos ciertas similitudes, tales como: peso límite, es decir, que todos indican un peso máximo, pero varía según el tamaño del ascensor; mecanismo de cierre y apertura de puertas, el cual incluye un sensor que detecta movimiento. en su mayoría, cuentan con una pantalla digital en la cual se indica el número de piso actual.
+
+datos que fuimos recolectando en conjunto en clase para completar:
+
++ el ascensor para en los pisos que está programado para parar.
++ eje de coordenadas: eje z.
++ sistema: poleas, motores, cables.
++ uso del contrapeso.
++ electricidad (actualidad).
++ bien público: acceso a la electricidad (hace 100 años).
++ precio del ascensor.
++ trabajar en datos duros.
++ uso de los números (japón: no hay 4 :0).
++ subsuelos, estacionamientos, nivel manzana.
++ botones auxiliares: emergencia, bomberos, prender/apagar luz-aire.
++ sticker de mantención.
++ tiempo de puerta abierta.
++ subir y bajar.
++ mantenerse en el piso.
++ si no hay paréntesis, es un dato.
++ if (estoy en un piso), abrir puerta(); sonar alarma();
++ variables/funciones: entender sus funciones y cómo se hacen (absolutos y relativos).
+puntos de vista.
+
+un dato importante: los nombres que le asignemos a las cosas nos deben hacer las cosas más fáciles.
 
 
 ## encargos

@@ -80,8 +80,6 @@ Ya con esa información base preguntamos otra cosa:
 y cómo la puedo programar con arduino?
 ```
 
-SUBIR!!!
-
 ![Foto Raspberry Pi Pico H conectada a computador](./imagenes/foto-raspi-computador.jpg)
 
 En base a esto nos explicó cómo instalar el core de [Arduino-Pico - GitHub](https://github.com/earlephilhower/arduino-pico/releases) de Earle Philhower (desarrollador de sofware estadounidens), el cual es el core de Arduino para los microcontroladores RP2040/RP2350, que son los chips que utilizan las Pico.
@@ -159,8 +157,6 @@ digitalWrite(LED_BUILTIN, LOW);
 
 ```
 
-SUBIR!!
-
 ![Vídeo LED intermitente en la placa](./imagenes/video-led-intermitente.mp4)
 
 **Aprendizajes:**
@@ -194,8 +190,6 @@ Y fue aquí que nos dio diversas opciones como:
  5. Agregar un LDR para lograr que reaccione a la luz que haya alrededor.
 
 En nuestro caso elegimos el 3 porque teníamos un botón y cables caimán para poder probarlo en casa.
-
-SUBIR!!!
 
 ![Foto conexión de la placa con el botón](./imagenes/conexion-placa-boton.jpg)
 
