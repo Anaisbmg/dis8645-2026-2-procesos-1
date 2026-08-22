@@ -46,12 +46,17 @@ Rojo para los 5V (+)
 ![Imagen pinout arduino](./arduino-pinout.png)
 
 No usar VIN
+
 En analog se puede leer, no escribir. Este leerá el potenciómetro.
+
 El digital hace más cosas, pero tenemos el analog.
 
 POTENCIÓMETRO
+
 1 Vcc
+
 2 Lectura
+
 3 Tierra gnd
 
 
