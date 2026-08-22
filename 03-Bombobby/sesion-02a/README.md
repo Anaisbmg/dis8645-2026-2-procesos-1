@@ -41,8 +41,9 @@ Azul para tierra (-)
 Rojo para los 5V (+)
 
 
-Pinout Arduino UNO R4 WIFI
+![Ejemplo boton arduino](./boton-arduino.png)
 
+![Imagen pinout arduino](./arduino-pinout.png)
 
 No usar VIN
 En analog se puede leer, no escribir. Este leerá el potenciómetro.
