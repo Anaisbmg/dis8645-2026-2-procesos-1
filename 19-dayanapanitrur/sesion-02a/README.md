@@ -206,7 +206,11 @@ void loop()
 
 ## lectura
 
-### - resumen
+**Capítulo 2** "Una vista histórica de la tecnología de la música computacional" Por Douglas Keislar.
+
+Este capítulo discute principalmente la terminología de la "música de computador", que tiende a coincidir constantemente con los términos de música electrónica y música electroacústica. Uno de estos términos la define como un género o categoría musical. Otra definición es: una disciplina técnica análoga a los gráficos por computadora, que abarca distintos aspectos de los usos del computador en la música.
+
+En este capitulo también se especula que el desarrollo del computador le ha dado términos como instrumento musical, o incluso definiendo al computador como un músico en si mismo, ya sea como compositor o como intérprete en sí.
 
 ### - 2 citas
 
