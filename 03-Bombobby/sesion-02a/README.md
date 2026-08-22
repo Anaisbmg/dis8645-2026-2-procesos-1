@@ -94,4 +94,14 @@ La entrada (IN) tiene un valor de 10  bits, es decir 2^10 o 1024 valores posible
 
 ## encargos
 
+encargo02a:
+
+en tu fork, ir a actions, y aceptar que corran github worfklows. subir pantallazo con demostración de que han corrido actions exitosas en tu repo. esto es crucial, si no lo haces, no agregaremos tus apuntes al repo, y las tareas se tomarán como no entregadas. si en tu fork las actions no son exitosas, no serán tampoco agregadas al repo común ni evaluadas.
+
+conformar grupos de 3 a 4 personas para la realización del proyecto-1. compartir 2 placas de desarrollo por grupo, documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+
+Nuestro grupito: Belén Castillo, Martina Fernández, Maite Villarroel, María Ignacia Zamudio.
+
+Mientras yo estaba trabajando, mis compañeros estaban probando códigos. Tuve mi break de colación y aproveché de ir a ver que hacían. Ahí me enteré de que a la Marti casi se le explota el potenciador, o el Arduino, o el pc o quizá todo. Potente...
+
 ## lectura
