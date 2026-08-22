@@ -2,6 +2,46 @@
 
 ## apuntes sesión
 
+Potenciómetro y botones
+
+Potenciómetro: Regula la potencia
+Potencia = energía/tiempo
+
+La electricidad = voltaje x corriente. Dentro del voltaje hay energía y dentro de corriente hay tiempo, es por eso que voltaje x corriente también es potencia.
+
+Nosotros no veremos mucho sobre el tiempo, nos preocupamos más de la energía.
+
+5v ————————wwwwwww——————— 0v
+Cable      Resistor      Cable.                          
+
+El resistor se llama así porque resiste electrones, o algo así
+
+El potenciómetro le pone resistencia a los electrones durante el flujo.
+El potenciómetro es una interfaz que encapsula 2 resistores.
+
+El profe habló de logaritmos, mi peor enemigo.
+Al parecer los potenciadores de tipo A trabajaban con logaritmos y los de tipo B son lineales.
+
+Botones: Pushbuttons si, Toggles no
+Es decir, pulsadores.
+
+Los interruptores de luz son toggles, así que no me interesan ahora mismo. No sirven para guardar algo en la memoria.
+
+Un circuito N.O (Normally open) Le da una pausa y el electrón no puede pasar.
+
+Al final del circuito no podemos poner tierra (0V), pues generaría un corto circuito.
+
+Un circuito N.C (Normally connected) Está siempre conectado. (Casi no veremos este)
+
+Vcc = Voltaje de corriente continua.
+
+El cable permite que el voltaje se propague.
+
+Azul para tierra (-)
+Rojo para los 5V (+)
+
+
+
 ## encargos
 
 ## lectura
