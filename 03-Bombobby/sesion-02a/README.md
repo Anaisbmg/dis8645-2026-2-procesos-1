@@ -41,6 +41,50 @@ Azul para tierra (-)
 Rojo para los 5V (+)
 
 
+Pinout Arduino UNO R4 WIFI
+
+
+No usar VIN
+En analog se puede leer, no escribir. Este leerá el potenciómetro.
+El digital hace más cosas, pero tenemos el analog.
+
+POTENCIÓMETRO
+1 Vcc
+2 Lectura
+3 Tierra gnd
+
+
+```cpp
+const int patitaLectura = A0;
+
+
+int valorLectura = -1;
+
+
+void setup() {
+
+
+  Serial.begin(9600);
+
+
+}
+
+
+void loop() {
+  Serial.println(":3")
+  valorLectura = analogRead (patitaLectura);
+}
+
+
+
+void loop() {
+  valorLectura = analogRead (patitaLectura);
+  Serial.println(valorLectura);
+}
+```
+
+La entrada (IN) tiene un valor de 10  bits, es decir 2^10 o 1024 valores posibles (0 al 1023)
+
 
 ## encargos
 
