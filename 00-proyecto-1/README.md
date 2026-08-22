@@ -1,5 +1,16 @@
 # proyecto-1
 
+## pauta
+
+la evaluación de cada estudiantes tendrá 6 puntos, divididos en 3 grupales y 3 individuales.
+
+- crit-01: grupal, documentación textual y visual del proyecto, con énfasis en referentes y valores de diseño
+- crit-02: grupal, código del proyecto, con énfasis en proceso no en resultados
+- crit-03: grupal, documentación del código del proyecto, con énfasis en comentarios y diagramas de flujo
+- crit-04: individual, presentación oral del proyecto
+- crit-05: individual, bitácoras, incluyendo encargos y lecturas
+- crit-06: individual, bitácoras, incluyendo encargos y lecturas
+
 ## grupos
 
 hay 32 estudiantes en 10 grupos, los grupos son de 3 estudiantes, excepto los últimos dos que son de 4 estudiantes.
