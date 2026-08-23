@@ -13,6 +13,8 @@ subimos videos en canvas de hoy, son 3 videos.
 1: instalar visual studio code, cami está regrabando el video parte 1 porque tuvimos un problema ténico, les avisará por discord cuando esté listo
 2: ver los videos parte 2 y parte 3, aunque no tengan una placa raspberry pi, anotar dudas, tratar de subir código a sus placas si es que las piden.
 
+### solución encargo
+
 Revisé los videos y como anteriormente me había llevado a casa una Raspberry Pi Pico 2 W, decidí utilizar los videos como referencia y conectar el potenciómetro a la breadboard que tenía junto al microcontrolador.
 
 Descargué el programa (visual studio code) en mi computador de mesa y en el portátil, aunque al usar la misma cuenta, las rutas de guardado al crear los proyectos son diferentes.
