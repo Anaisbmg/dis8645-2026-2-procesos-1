@@ -47,19 +47,23 @@ existen dos tipos de botones:
 
 Al presionarlo o moverlo, se queda fijo en esa posición hasta que yo mismo lo cambie de nuevo; no vuelve solo a su estado anterior.(tipo interruptor de luz).
 
-
 - **Pushbuttons**: es el que estaremos ocupando en la clase.
 
 es **momentáneo**. Solo mantiene su estado mientras lo tengo presionado con el dedo; apenas lo suelto, vuelve solo a su posición de reposo (por resorte interno). Por eso son "elementos temporales": no guardan nada, reflejan únicamente el instante en que están siendo presionados.
 
 
 Dentro de los pushbuttons, hay dos configuraciones:
-- **N.O. (Normalmente Abierto)**: `5V - GND / 0V = corto circuito`.
+- **N.O. (Normalmente Abierto)**: sin presionar, no conecta nada.
+-
+- `5V - GND / 0V = corto circuito`.
+- 
 - **N.C. (Normalmente Conectado)**: siempre conectado de dos lugares, y se pueden desconectar con presión.
 
 Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circuito (el "positivo"). La lógica básica de lectura es:
 - `0`: no estoy (presionando)
 - `1`: estoy (presionando)
+
+
 
 ## encargos
 
