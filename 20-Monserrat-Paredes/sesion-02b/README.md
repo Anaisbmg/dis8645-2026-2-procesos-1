@@ -25,9 +25,50 @@ subimos videos en canvas de hoy, son 3 videos.
 2: ver los videos parte 2 y parte 3, aunque no tengan una placa raspberry pi, anotar dudas, tratar de subir código a sus placas si es que las piden.
 
 
-Raspberry Pi Pico 2W
+### apuntes videos
 
-ver videos
+Instalar Visual Studio Code 
+
+Version: 0.21.4 → actualizado hace 5 minutos
+
+Instalar extensiones:
+
+1. Raspberry Pi Pico Project
+2. C++
+3. Markdownlint
+
+Crear un New pico project:
+
+1. New pico project
+   
+2. Name proyecto  →  prueba
+   
+3. Board type  →  elegir la placa que usaremos
+
+4. RISC-V  →  no tocar
+   
+5. Ubicación  →  lugar ordenado en donde este la carpeta con todo lo del proyecto
+    
+6. Select pico SDK version  →  usar la versión mas reciente
+    
+7. Features  →  no lo usaremos de momento
+    
+   Pero muy pronto usaremos →  SPI / 12c interface
+
+8. Stdio support → Consde over USB (manda mensajes por USB)
+
+9. Code generations → generate c++ code (activar)
+
+10. Debugger → dejar por defecto (DebugProbe (CMSIS-DAP) [Defauit])
+
+11. La carpeta creada "prueba" crea una carpeta llamada → .vscode (no tocar, hace que funcione el proyecto)
+
+12. Build → resultados del código
+
+13. main.cpp → muestra el código
+
+14. ejemplo usado → ej_pico_pote
+  
 
 
 ## lectura
