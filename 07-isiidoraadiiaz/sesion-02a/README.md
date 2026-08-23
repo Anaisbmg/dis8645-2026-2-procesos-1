@@ -230,7 +230,7 @@ Serial.println(): muestra información en el Monitor Serial.
 
 ## encargos
 
-![captura de pantalla](./imagenes/c2)
+![captura de pantalla](./imagenes/c2.png)
 
 Intergrantes grupo: Isidora Díaz, Natalia Gutierrez y Carlo Martínez
 
