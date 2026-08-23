@@ -230,6 +230,22 @@ Serial.println(): muestra información en el Monitor Serial.
 
 ## encargos
 
+![captura de pantalla](./imagenes/c2)
+
+Intergrantes grupo: Isidora Díaz, Natalia Gutierrez y Carlo Martínez
+
+Como grupo estuvimos revisando C++, microcontroladores, botones y potenciómetros para entender mejor cómo funciona cada cosa y cómo se conectan entre sí cuando trabajamos con una placa.
+
+Primero vimos un poco más de C++, que es el lenguaje que usamos para escribir el código. Repasamos cosas que ya habíamos visto en clases, como las variables, int, bool, las funciones y los if y else. Entendimos que básicamente con el código le damos instrucciones al microcontrolador para que después la placa pueda leer algo o hacer alguna acción.
+
+También revisamos qué es un microcontrolador. Lo entendimos como la parte principal de la placa que se encarga de ejecutar el código y trabajar con las entradas y salidas que le conectemos. Por ejemplo, puede recibir la información de un botón y, dependiendo de lo que diga el código, hacer que ocurra otra cosa.
+
+Después vimos los botones, que son más simples de entender porque tienen dos posibilidades: está presionado o no está presionado. El microcontrolador puede leer estos estados como HIGH y LOW. También vimos los conceptos de pull-up y pull-down, que sirven para que el pin siempre tenga un estado definido y no entregue valores al azar cuando el botón no se está usando.
+
+Por último revisamos los potenciómetros. A diferencia de un botón, estos no tienen solamente dos estados, sino que el valor va cambiando dependiendo de cuánto giremos la perilla. Vimos que normalmente tienen tres patitas y que la del medio permite obtener ese valor. En Arduino esta lectura se puede hacer conectándolo a un pin analógico, por ejemplo A0, y usando analogRead() en el código.
+
+La forma más fácil que encontramos para diferenciar los dos componentes fue pensar que un botón responde “sí o no”, mientras que un potenciómetro responde “cuánto”. Eso nos ayudó a entender mejor cómo los componentes físicos entregan información al microcontrolador y cómo después podemos trabajar esa información desde el código.
+
 ## lectura
 
 Andrew Witt Formulations pág 11- 15
