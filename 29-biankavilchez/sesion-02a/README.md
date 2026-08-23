@@ -59,10 +59,18 @@ Dentro de los pushbuttons, hay dos configuraciones:
 - 
 - **N.C. (Normalmente Conectado)**: siempre conectado de dos lugares, y se pueden desconectar con presión.
 
+video que explica los N.O Y N.C https://www.tiktok.com/@siscomelectronica/video/7436118939882638647
+
 Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circuito (el "positivo"). La lógica básica de lectura es:
 - `0`: no estoy (presionando)
 - `1`: estoy (presionando)
 
+
+
+
+
+Arduino https://docs.arduino.cc/built-in-examples/digital/Button/
+potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
 
 
 ## encargos
