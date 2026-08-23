@@ -2,9 +2,6 @@
 
 ## apuntes sesión
 
-````text
-## Sesión 02a
-
 
 No estuve en esta clase, así que para ponerme al día revisé los apuntes del profe y de algunos compañeros. Esto es lo que entendí de lo que se trabajó.
 
