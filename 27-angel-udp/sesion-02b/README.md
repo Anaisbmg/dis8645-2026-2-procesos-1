@@ -35,7 +35,7 @@ Código funcionando:
 
 ![Foto proceso 2](./imagenes/codigo-pote.jpeg)
 
-mis dudas fueron:
+Mis dudas fueron:
 
 - ¿Cómo se utiliza el Serial Monitor de Visual Studio Code para visualizar los valores que envía la Pico mediante printf()?
 - ¿Cómo se identifica correctamente el puerto COM de la Raspberry Pi Pico 2 W?
