@@ -101,6 +101,7 @@ encargo01b:
 Me reúno con kriss el lunes.
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y visualizar en la matriz de LED´S que conforman una mini pantallita en la misma placa. Entonces, los ejercicios que hicimos se centran en visualizar algo en esta pantallita. 
 
@@ -117,7 +118,6 @@ Como contamos con el Arduino uno R4 Wifi, tenemos "la ventaja" de poder jugar y 
 - [referente 2](https://youtu.be/vro4zqYeLWc?si=MkBbxIaZSaIDjVPZ)
 - [referente 3](https://docs.arduino.cc/built-in-examples/basics/Blink/)
   
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 ## lectura
 Para poder leer y entender de manera correcta, ya agregue p5.js a mi Visual Studio Code, y comenzaré a estudiar haciendo los ejercicios del libro.

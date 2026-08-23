@@ -2,14 +2,157 @@
 
 ## apuntes sesión
 
-[Actualizar durante el día]
+### Arduino
+
+Para iniciar a familiarizarnos con el código trabajaremos con Arduino. Es importante entender que, al hablar de Arduino, esto puede significar muchas cosas
+
+1. Empresa: Quienes distribuyen el hardware y software asociado
+
+2. Hardware: Placas de desarrollo con conjunto de microcontroladores, donde existen modelos como: Arduino UNO R4 WIFI, Arduino 101
+
+3. Dialecto: Lenguaje de programación basado en C++
+
+4. Software: Debido al programa Arduino IDE, en el que podemos realizar las instrucciones para nuestro Hardware
+
+<br>
+
+### Arduino IDE
+
+Para lograr cualquier funcionamiento con nuestro Arduino debemos entender que consta de variables y funciones (hay más elementos, pero que ahora no se van a profundizar) 
+
+>[!IMPORTANT]
+>Para buenos modelos al definir funciones o variables utilizamos la _notación camello_
+>
+>nombreVariable
+>
+>funcionDeEjemplo
+
+<br>
+
+---
+
+Para coompartir nuestros códigos de Arduino IDE en GitHub debemos seguir la siguiente notación
+
+```
+    ```cpp
+
+// inicio de código
+
+    voidSetup() {
+    // inicia una vez y al principio
+    }
+
+
+    voidLoop() {
+    // inicia en bucle
+    }
+
+// fin del codigo
+
+    ```
+```
+
+---
+
+<br>
+
+#### Variables
+
+tipoDeVariable nombreVariable = valorVariable; 
+
+${\color{cyan}int}$ </br> Corresponde a valores numéricos enteros 
+
+> Posee variaciones como:
+>
+> > _uint_ Solo enteros positivos
+> >
+> > _int8_t_ Trabaja solo en 8 bits (1 byte)
+
+```cpp
+
+int numeroEntero = 67;
+
+```
+
+<br>
+
+${\color{cyan}float}$ </br> Se utiliza para números con decimales
+
+```cpp
+
+float numeroDecimal = 67.98;
+
+```
+<br>
+
+${\color{cyan}char}$ </br> Solo se usa con caracteres únicos 
+
+> Se deben utilizar comillas para definir la variable
+
+```cpp
+
+char letra = "A";
+
+```
+
+${\color{cyan}bool}$ </br> Tiene 2 posibles estados, verdadero o false (true/1 o false/0)
+
+```cpp
+
+bool variable = true;
+
+```
+
+
+${\color{cyan}string}$ </br> Permite texto, siempre y cuando se coloque dentro de comillas
+
+```cpp
+
+string nombreUsuario = "Estrabismx";
+
+```
+
+<br>
+
+### Funciones
+
+Para existir debe haber variables
+
+${\color{orange}setup}$( ): </br>
+
+Función que ocurre al inicio y una sola vez
+
+```cpp
+void setup() {
+    loremIpsum; // Comienza ejecutando el código desde aquí
+    loremIpsum; // linea 2
+    loremIpsum; // Aquí termina setup y pasa a correr la funcion loop
+}
+```
+<br>
+
+${\color{orange}loop}$( ): </br>
+
+Función que ocurre de manera cíclica
+
+```cpp
+void loop() {
+    loremIpsum; // Comienza ejecutando el código desde aquí
+    loremIpsum; // linea 2
+    loremIpsum; // Aquí termina loop
+}
+```
+
+<br>
+
+
 
 ## encargos
 
 encargo01b:
 
 1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo, subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
 
 
 ### 1. Código Arduino

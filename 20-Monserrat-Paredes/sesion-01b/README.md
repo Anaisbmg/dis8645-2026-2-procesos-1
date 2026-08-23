@@ -1,6 +1,6 @@
 # sesion-01b
 
-## Apuntes sesión
+## Apuntes sesión → 14/08/26
 
 ### 1. Tipos de Datos y Variables en C++
 
@@ -149,6 +149,368 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 - https://itp.nyu.edu/physcomp/
 
 
+
+----
+
+
+
+## Encargos
+
+encargo01b:
+
+1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
+2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
+
+
+## 1. código en el microcontrolador
+
+Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
+
+
+![rasp1](./imagenes/rasp1.png)
+
+
+Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
+
+
+
+----
+
+
+
+### Descripción de los pines
+
+
+![pinesrasp](./imagenes/pinesrasp.png)
+
+
+
+
+Imagen sacada de → https://www.geekfactory.mx/tutoriales-raspberry-pi-pico/pinout-raspberry-pi-pico-y-variante-w-con-wifi/?srsltid=AfmBOopCyzbNBJG0WhAkgeqxowWhNpjsMwi8srIBDL6kDMQINhzE_ObP 
+
+
+
+----
+
+
+
+### Paso a paso de como conectar y configurar la Raspberry Pi Pico 2 en el Arduino IDE
+
+
+1. Instalación del paquete de placas
+
+- Instalar y abrir Arduino IDE.
+
+- Agregar URL del gestor de tarjetas:
+  
+  File/Archivo o logo arduino > Preferences/Preferencias, se agrega la siguiente URL en Additional Boards Manager URLs / URLs Adicionales de Gestor de Tarjetas.
+  
+  URL: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+
+Es lo que la Raspberry necesita para funcionar, ya que el programa Arduino IDE solo viene preparado para placas oficiales de Arduino y ayuda a traducir el código de C++ al lenguaje que entiende ese microcontrolador.
+
+
+![url](./imagenes/url.png)
+
+
+- En el menú lateral izquierdo, haz clic en el icono de Gestor de Tarjetas (Boards Manager, representado con libros).
+
+- Escribe Raspberry en la barra de búsqueda superior.
+
+- Localiza el paquete "Raspberry Pi Pico/RP2040/RP2350..." (compatible con los chips RP2350 de la Pico 2) y haz clic en INSTALL.
+
+
+![paso1](./imagenes/paso1.png)
+
+
+----
+
+
+
+2. Selección de la placa correcta
+  
+- Despliega la categoría Raspberry Pi Pico/RP2040/RP2350 y selecciona Raspberry Pi Pico 2 (o la variante específica de tu modelo).
+
+
+
+----
+
+
+
+3. Preparación de la placa (Modo Bootloader)
+   
+- Desconecta el cable USB de tu Raspberry Pi Pico 2.
+
+- Mantén presionado el botón blanco BOOTSEL ubicado sobre la placa.
+
+- Sin soltar el botón, conecta el cable USB a la computadora.
+
+- Suelta el botón BOOTSEL después de un par de segundos. Esto forzará a la placa a montarse como una unidad de almacenamiento externa en tu sistema (NO NAME o RPI-RP2).
+
+
+![finder](./imagenes/finder.png)
+
+
+----
+
+
+
+4. Selección del puerto de transferencia
+
+- En el IDE de Arduino, ve a Herramientas (Tools) > Puerto (Port).
+
+
+![port](./imagenes/port.png)
+
+
+
+- Selecciona la opción UF2 Board (o el puerto serie USB correspondiente). Esto le indicará al entorno de desarrollo dónde volcar el archivo compilado.
+
+Tools/Herramientas > Port/Puerto > UF2 Board (mientras está en modo BOOTSEL).
+
+
+![board](./imagenes/board.png)
+
+
+----
+
+
+
+5. Primera carga de prueba (Blink)
+
+Esto es un ejemplo básico y predeterminado que viene integrado en el programa Arduino. Su única función es hacer que un LED encienda y se apague de manera intermitente, tambien ayuda a saber si el cable es para datos y no solo cargar, que el microcontrolador se comunica correctamente y que el proceso de compilación y subida del archivo no tenga errores.
+
+- Para verificar que toda la configuración es correcta, se cargó el ejemplo estándar "Blink" (File/Archivo > Examples/Ejemplos > 01.Basics > Blink).
+  
+- Haz clic en el botón de Cargar (la flecha hacia la derecha ubicada en la esquina superior izquierda).
+
+- El IDE compilará el código en un archivo .uf2 y lo transferirá automáticamente a la memoria de la Raspberry Pi Pico 2 para iniciar su funcionamiento físico.
+
+Recordar: Al conectar el cable USB no se enciende ninguna luz de forma automática; la Rasberry Pico 2W no tiene un LED dedicado de encendido, pero esta luz solo se enciendo con un parpadeo cuando la placa recibe los datos, avisando que está ocupada procesando y grabando información. Una vez que termina esto el parpadeo se detiene.
+
+
+<table>
+  <tr>
+    <th>Ejemplo Blinkc</th>
+    <th>Luz Rasberry</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="970" height="638" alt="codigo" src="./imagenes/codigo.png" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="luz" src="./imagenes/luz.gif" />
+    </td>
+  </tr>
+</table>
+
+
+
+----
+
+
+
+6. Materiales utilizados
+
+- Raspberry Pi Pico 2W1.
+- cable USB con transmisión de datos (no solo de carga).
+- computador con el programa Arduino IDE instalado.
+- protoboard.
+- 1 LED.
+- 1 resistencia.
+- 1 botón pulsador (4 patas).
+- Cables jumper macho-macho.
+
+
+
+----
+
+
+
+7. Pines utilizados y conexión fÍsica
+
+| Elemento | Pin físico | Función | Color cable |
+| :--- | :--- | :--- | :--- |
+| GND de Raspberry → riel negativo de la protoboard | Pin 38 | GND | Negro |
+| 3V3 → riel positivo de la protoboard | Pin 36 | 3V3 (OUT) | Rojo |
+| Botón (Señal) | Pin 27 | GP21 | Amarillo |
+| LED (Señal a través de resistencia) | Pin 26 | GP20 | Verde |
+| GND del Botón → riel negativo | — | GND Botón | Morado |
+| GND del LED → riel negativo | — | GND LED | Blanco |
+
+
+
+----
+
+
+
+8. Código en Arduino
+
+```cpp
+// se definen las constantes para los pines que utilizare
+const int ledPin = 20;    
+// el LED esta conectado al GP20 (Pin 26 de la Raspberry)
+const int buttonPin = 21; 
+// el boton está conectado al GP21 (Pin 27 de la Raspberry)
+
+void setup() {
+// hay que configurar el pin del LED como una salida digital para poder enviar corriente y encenderlo/apagarlo
+  pinMode(ledPin, OUTPUT);
+  
+// se configura el pin del botón como entrada y activa la resistencia "pull-up" interna de la placa
+// esto mantiene el pin en estado HIGH por defecto y evita que la lectura fluctue
+  pinMode(buttonPin, INPUT_PULLUP);
+}
+
+void loop() {
+// se puede leer continuamente el estado actual del boton (puede ser HIGH si está suelto o LOW si está presionado)
+  int estadoBoton = digitalRead(buttonPin);
+
+// se evalua si el boton ha sido presionado
+// como el boton conecta el pin a GND al presionarse hace que su valor cambia a LOW
+  if (estadoBoton == LOW) {
+    digitalWrite(ledPin, HIGH); 
+// se enciende el LED enviando voltaje (HIGH) al pin 20
+  } else {
+    digitalWrite(ledPin, LOW);
+// se mantiene el LED apagado cortando el voltaje (LOW)
+  }
+}
+```
+
+
+----
+
+
+
+9. Fotos del proceso
+
+
+<table>
+  <tr>
+    <th>Conexiones analogas</th>
+    <th>Acercamiento LED</th>
+    <th>Resultado</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="2737" height="3415" alt="foto4" src="./imagenes/foto4.jpg" />
+    </td>
+    <td align="center">
+<img width="3024" height="4032" alt="foto1" src="./imagenes/foto1.jpg" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="funciona" src="./imagenes/funciona.gif" />
+    </td>
+  </tr>
+</table>
+
+
+
+----
+
+
+
+
+## 2. proponer una función
+
+Propuesta de función: salir andar en bicicleta
+Nombre de la función: salirEnBicicleta
+
+Tipo de dato de retorno: bool (devuelve true si la salida se realiza con éxito o false si las condiciones impiden salir).
+
+Argumentos:
+
+bool climaApto (Verdadero si no llueve y el clima acompaña).
+
+int bateriaPersonal (Nivel de energía disponible de 0 a 100).
+
+Si al momento de planificar una salida en bicicleta, evaluo si cuento con la energía suficiente y si las condiciones del clima acompañan para realizar la salida.
+
+
+**Pseudocódigo**
+
+```cpp
+// estos serian los pasos para realizar la funcion
+bool salirEnBicicleta(bool climaApto, int bateriaPersonal) {
+    
+    // paso 1: ver si  mi batería social/personal y el clima estan bien para salir
+    // el if sirve para ejecuta si la respuesta es si
+    if (climaApto == true && bateriaPersonal >= 40) {
+        
+        // Paso 2: preparación del sistema (equivalente a mi hábito de dejar todo listo para el dia siguiente)
+        // Preparar mochila, audífonos y ver si la bicicleta esta bien para usarla
+        
+        // Paso 3: Ejecucion del traslado
+        // salir de mi casa a la ruta o camino al aire libre
+        
+        // Paso 4: retornar estado exitoso
+        return true; 
+        
+    } else {
+        // else sirve si la respuesta es no
+        // si no hay energía o el clima no acompaña, se pausa la actividad
+        // quedarse descansando en la casa (equivalente a tus pausas necesarias para no tener mal humor)
+        return false;
+    }
+}
+```
+
+
+Propuesta de función: Preparación Nocturna
+Nombre de la función: prepararRutinaNocturna
+
+Esta función es mi hábito fijo de dejar organizado todo la noche anterior para optimizar mis mañanas y no olvidar nada.
+
+Tipo de dato de retorno: bool (devuelve true si todo quedó organizado con éxito para el día siguiente).
+
+Argumentos:
+
+int diaSiguiente (Indica qué día de la semana es el siguiente, ej. de 1 a 7).
+
+bool tieneUniversidad (Verdadero si al día siguiente toca asistir a la UDP).
+
+Veo las condiciones del día posterior para seleccionar y preparar la ropa, el maquillaje y la mochila adecuada según el contexto para ver si llevo computador o no.
+
+
+**Pseudocódigo**
+
+```cpp
+
+// estos serian los pasos para realizar la funcion
+bool prepararRutinaNocturna(int diaSiguiente, bool tieneUniversidad) {
+
+    // Paso 1: limpiar superficie de trabajo y revisar agenda en libreta fisica
+    
+    // Paso 2: evaluar si el contexto del dia siguiente incluye clases en la universidad
+    if (tieneUniversidad == true) {
+        // el if sirve para ejecuta si la respuesta es si
+        // alistar mochila con materiales, computador y libretas
+        // seleccionar outfit segun el clima
+    } else {
+        // else sirve si la respuesta es no
+        // alistar rutina para otras salidas
+        // despierto enferma o tuve un problema antes de salir
+    }
+
+    // Paso 3: confirmar que todo este en su lugar y no falte guardar nada antes de ir a dormir
+    bool todoListo = true;
+
+    // Paso 4: resultado
+    if (todoListo == true) {
+        return true; // mañana optimizada con exito
+    } else {
+        return false;
+    }
+}
+```
+
+
+
+----
+
+
+
 ### Bibliografía
 
 - https://www.electrogeekshop.com/estructuras-de-control-en-arduino/?srsltid=AfmBOoohNwZMxEsydAlQfXtN4ovv21NBdHGlTOiBmzMwGmTAIy2hwtDu
@@ -164,29 +526,26 @@ if (diaActual == diaNacimiento && mesActual == mesNacimiento) {
 - https://raspberrypi.cl/products/raspberry-pi-pico-2
 
 
-## Encargos
 
-encargo01b:
-
-1. tratar de correr un código en el microcontrolador asignado a cada dupla, incluir referentes, citas, comentarios, imágenes, descripciones textuales, y en caso de éxito o fracaso incluir aciertos, preguntas, dramas, atados. recordatorio que estos apuntes son personales, cada persona sube su versión.
-2. proponer una función con nombre, tipo, argumentos y uso, que modele algún área de su interés, por ejemplo subirCerro(enBicicleta), tomarMetro(conPaseEscolar), etc. escribir en pseudocódigo los pasos que necesita esa función internamente para que literalmente funcione.
-
-
-### 1. código en el microcontrolador
-
-Raspberry Pi Pico 2W → es una potente placa de microcontrolador de bajo costo basada en el chip RP2350.
-
-
-<img width="612" height="452" alt="raspberry" src="./imagenes/raspberry.png" />
-
-Imagen sacada de → https://circuitpython.org/board/raspberry_pi_pico2_w/
-
-
-<img width="991" height="643" alt="raspArqui" src="./imagenes/rasparqui.png" />
-
-Imagen sacada de → https://raspberrypi.cl/products/raspberry-pi-pico-2
+----
 
 
 
-## lectura
+## Lectura
+
+Libro: A New Program for Graphic Design
+
+Autor: David Reinfurt
+
+- La **introducción** de este libro justifica por qué el diseño gráfico es un lenguaje esencial en el siglo XXI y cómo sus principios fundamentales (tipografía, percepción y sistemas de interfaz) permiten que cualquier persona pueda aprender a "leer" y "escribir" visualmente el mundo que la rodea.
+
+- El diseño gráfico no debe entenderse como una carrera técnica cerrada (una "escuela de oficios"), sino como una disciplina de las artes liberales.
+
+- David Reinfurt relata cómo surgió la idea del libro a partir de su experiencia enseñando en la Universidad de Princeton.
+
+- El diseño como una herramienta universal.
+
+La convergencia de disciplinas → sociología, historia, política y la ciencia → dar sentido a nuestro mundo contemporáneo, que está saturado de información.
+
+- El objetivo es enseñar a "pensar" a través del diseño, enfocándose en la relación entre la forma y la comunicación, en lugar de centrarse únicamente en la creación de imágenes estéticas.
 
