@@ -67,8 +67,6 @@ Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circu
 
 
 
-
-
 Arduino https://docs.arduino.cc/built-in-examples/digital/Button/
 potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
 
