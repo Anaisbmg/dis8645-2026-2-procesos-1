@@ -24,7 +24,7 @@ subimos videos en canvas de hoy, son 3 videos.
 2. **Gestión de extensiones y dependencias:** Existen múltiples versiones y estándares de C++. En caso de presentarse algún error o *bug* con la extensión de Raspberry Pi Pico, conviene probar distintas versiones de esta. Al ingresar al apartado de la extensión, el sistema solicita instalar Python, paso que omití al contar con una instalación previa en el equipo.
 
 3. **Creación del proyecto y estructura del código:** 
-   * **Configuración inicial:** Creé el proyecto bajo el nombre `prueba`, seleccionando la placa Raspberry Pi Pico 2 W. Se omitió la arquitectura RISC-V (marcada como *RISC*), ya que no se utilizará por ahora. Se habilitaron únicamente las opciones para salida de consola vía USB (STDIO USB) y la generación del código base en C++. Posteriormente, se completó la descarga e integración del SDK.
+   * **Configuración inicial:** Creé el proyecto bajo el nombre `prueba`, seleccionando la placa Raspberry Pi Pico 2 W (que nostalgia). Se omitió la arquitectura RISC-V (marcada como *RISC*), ya que no se utilizará por ahora. Se habilitaron únicamente las opciones para salida de consola vía USB (STDIO USB) y la generación del código base en C++. Posteriormente, se completó la descarga e integración del SDK.
    * **Estructura de archivos:** Dentro del directorio del proyecto se genera la carpeta `build` (donde se compilan los binarios resultantes) junto con los archivos de configuración y el archivo fuente principal: `prueba.cpp`.
    * **Análisis del código (`prueba.cpp`):**
      * `#include`: Permite importar las cabeceras y bibliotecas necesarias (similar a cuando se adaptan librerías externas o de Arduino para la Pico).
