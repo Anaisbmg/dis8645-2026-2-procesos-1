@@ -134,7 +134,7 @@ while = mientras que
 
 Foto del apartado "actions" de mi fork.
 
-![Foto del apartado actions de mi fork](./imagenes/fork-actions-hazzaily.jpg)
+![Foto del apartado actions de mi fork](./imagenes/fork-actions-hazzaily.png)
 
 ## lectura
 
