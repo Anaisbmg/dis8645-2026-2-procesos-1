@@ -12,7 +12,7 @@ Se explica cómo la “mercancía” en vez de satisfacer necesidades pasa a con
 
 
 
-También algo que me cuestiono mucho y lo menciona es que cada vez hay más producción y ventas, ¿pero por qué no dejamos de sentirnos necesitados?. ¿Por qué el consumo genera tanta producción pero nunca es suficiente y cada vez hay más necesidades y deseos? Esto se relaciona con el espectáculo, porque la publicidad hace que deseemos cosas que muchas veces no necesitamos realmente, pero ¿Qué es lo que sí necesitamos y cuál es el punto que se empieza a considerar un espectáculo? 
+También algo que me cuestiono mucho y lo menciona es que cada vez hay más producción y ventas, ¿pero por qué no dejamos de sentirnos necesitados? ¿Por qué el consumo genera tanta producción pero nunca es suficiente y cada vez hay más necesidades y deseos? Esto se relaciona con el espectáculo, porque la publicidad hace que deseemos cosas que muchas veces no necesitamos realmente, pero ¿Qué es lo que sí necesitamos y cuál es el punto que se empieza a considerar un espectáculo? 
 
 + “El espectáculo señala el momento en que la mercancía ha alcanzado la ocupación total de la vida social.”
   
