@@ -20,6 +20,8 @@ descargar extensiones:
 + C/C++
 + markdownlint
 + Raspberry Pi Pico
+
+  ![IMG](./imagenes/extensions.png)
   
 * hay que saber que micropyhton estamos usando 
 *no marcar risc-v
@@ -29,7 +31,7 @@ en Code generation options :  solo activar Generate C++ code
 
 seguí los pasos pero no me dio la opción para ver el main.cpp, solo me aparece: 
 
-
+  ![IMG](./imagenes/problema.png)
 
 
 ## lectura
