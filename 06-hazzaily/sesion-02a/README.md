@@ -2,38 +2,62 @@
 
 2026-08-18
 
-## Potenciómetros y botones
+## Potenciómetros
 
 **Potenciómetro:** (POT, perillas, o resistencia variable). Regula potencias, o sea, que puede variar una propiedad eléctrica (resistencia) que controla el flujo de electrones (e.). Es una forma de encapsular 2 resistencias. Giran en torno a un rango (lineal)
 
 Foto de mi croquera de diagrama de cómo funciona un potenciómetro.
 
-![Foto de mi croquera](./imagenes/foto-funcionamiento-pot.jpg)
+![Foto de mi croquera sobre cómo funciona un potenciómetro](./imagenes/foto-funcionamiento-pot.jpg)
 
-Tipos de potenciómetro: A y B
+Tipos de potenciómetro:
 
- - A = Audio
- - B = Lineal
+ - **A** = Audio
+ - **B** = Lineal
 
-Para que algo suene el doble de fuerte, debe sonar igual 10 veces.
+Para que algo suene el doble de fuerte, debe sonar igual 10 veces (o sea, un aumento aproximado de 10 decibelios).
 
-encoders: codificadores, perillas de giro infinito.
-
-Potencia = energía/tiempo
+**Potencia** = energía/tiempo
 
 En electricidad:
 
 Potencia = Voltaje * corriente
 
-**Botones:** (Pulsadores = Push Buttons, **NO** toggles)
+Existen los encoders (codificadores, perillas de giro infinito), que **NO** son potenciómetros.
 
-Toggles = interruptor
+## Botones
 
-! = lo contrario de
+**Botones:** (Pulsadores = Push Buttons, **NO** toggles) Pueden activar acciones, detenerlas; conectar piezas; enviar órdenes. Además, no guardan información.
 
-printlm = imprime y luego sáltate una línea
+Entonces, los botones los podemos configurar de distintas maneras, aquí veremos 2, con las cuales nos podemos asegurar de que el pin tenga siempre un estado definido cuando el botón no está siendo presionado.
+
+ 1. **PULL UP:** Sirve para mantener el pin en HIGH por defecto.
+
+ - Botón sin presionar: HIGH
+ - Botón presionado: LOW
+
+Cuando presionamos el botón conectamos el pin a GND.
+
+Foto de mi croquera del esquemático PULL UP.
+
+![Foto de mi croquera del esquemático PULL UP](./imagenes/esquematico-pull-up.jpg)
+
+ 2. **PULL DOWN:** Sirve para mantener el pin en LOW por defecto.
+
+ - Botón sin presionar: LOW
+ - Botón presionado: HIGH
+
+Cuando presionamos el botón conectamos el pin a voltaje positivo.
+
+Foto de mi croquera del esquemático PULL DOWN.
+
+![Foto de mi croquera del esquemático PULL DOWN](./imagenes/esquematico-pull-down.jpg)
+
+Toggles = interruptor. ***NO** son botones.
 
 ## Intento 1: Arduino UNO r4 minima
+
+Va desde el 0 al 1023.
 
 ```c++
   // se agrega const para bloquear la variable
@@ -78,13 +102,39 @@ Serial.println(valorLectura);
 }
 ```
 
+Importante presionar **Serial Monitor** para ver los cambios en los números que vemos en la pantalla.
+
+Dependiendo de la velocidad en que movamos la perilla del potenciómetro, es qué tan rápido va a cambiar el número que vemos en la pantalla
+
 Fotos Arduino uno r4 wifi conectado a potenciómetro con cables caimán.
 
 ![Fotos Arduino uno r4 wifi conectado a potenciómetro con cables caimán](./imagenes/fotos-arduino-wifi-pot.jpg)
 
-## Intento 2: Raspberry Pi Pico
+Vídeo de los números cambiando según la perilla del potenciómetro.
+
+![Vídeo de los números cambiando según la perilla del potenciómetro en Arduino](./imagenes/video-pot-arduino.mp4)
+
+## Arduino
+
+! = lo contrario de
+
+printlm = imprime y luego sáltate una línea
+
+while = mientras que
 
 ## encargos
+
+ 1. Hacer grupos de 3-4 personas.
+
+  - Emilia Contreras [hazzaily](https://github.com/hazzaily)
+  - Monserrat Paredes [Monserrat-Paredes](https://github.com/Monserrat-Paredes)
+  - Katalina Riquelme [riyakatalinaa](https://github.com/riyakatalinaa)
+
+ 2. Ir a mi fork, en el apartado de "actions" y aceptar que corra "GitHub workflows" y subir pantallazo.
+
+Foto del apartado "actions" de mi fork.
+
+![Foto del apartado actions de mi fork](./imagenes/fork-actions-hazzaily.jpg)
 
 ## lectura
 
