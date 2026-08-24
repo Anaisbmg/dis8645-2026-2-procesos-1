@@ -2,6 +2,28 @@
 
 ## apuntes sesión
 
+En esta sesión nos enfocamos en como poder medir el voltaje resultante al pasar por una resistencia variable, aka _potenciómetro_.
+
+![Potenciometro](./imagenes/pote.webp)
+
+<br>
+
+Es pertinente mencionar que existen 3 tipos de potenciómetros, estos se diferencian por la letra que aparece antes del valor
+
+![Potenciometro](./imagenes/pote_letra.jpg)
+
+<br>
+
+- A: Logarítmico / Aumenta en base a potencias de 19, es decir que inicialmente su crecimiento es lento, para luego aumentar de manera 
+
+- B: Lineal / No importa en que parte del recorrido se encuentre, su aumento o disminución ocurre en valores constantes
+
+- C: Logarítmico inverso
+
+![Potenciometro](./imagenes/pote-tipo.jpg)
+
+<br>
+
 encoders 
 
 pushbutton > botones / pulsadores
