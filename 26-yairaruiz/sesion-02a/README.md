@@ -4,22 +4,25 @@ clase 18/08
 
 ## apuntes sesión
 
-Potenciómetros y botones
+### Potenciómetro 
 
-**potenciómetro (resistor variable):  nos permite regular potencia** es un interfaz que tiene forma para encapsular dos resistencias, la patita 2 es la que mueve el valor en un constante. los potenciónmetros giran en torno a un rango.  
+**potenciómetro (resistor variable):  nos permite regular potencia** es un interfaz que tiene forma para encapsular dos resistencias
+
+- la patita 2 es la que mueve el valor en un constante
+
+- los potenciónmetros giran en torno a un rango.  
 
 + potencia = energía/tiempo 
 
 + en electricidad la potencia es: voltaje x corriente 
 
-vamos a hacer circuitos (por donde transitan electrones), 
++ vamos a hacer circuitos (por donde transitan electrones), 
 
 + la corriente es un flujo de electrones y el potenciómetro
 
-  **Botones** (pulsadores) 
+### **Botones** (pulsadores) 
 
   + pushbutton
- 
  
 https://docs.arduino.cc/built-in-examples/digital/Button/
 
@@ -48,9 +51,13 @@ Código para conectar un potenciómetro a Arduino UNO R4 WIFI
 
 ![IMG](./imagenes/pot-arduino.png/)
 
+acá conectamos el Arduino a un potenciómetro en clases 
+
 ## encargos
 
 ## lectura
+
+*capítulo 1*
 
 Debord explica que el espectáculo es fundamental para la  sociedad moderna y está directamente relacionado con la economía y el sistema de producción. Las personas pasan de valorar lo que son, a valorar lo que tienen y finalmente lo que parecen ser. También plantea que el espectáculo es una conversación unilateral: mantiene el orden social y las desigualdades existentes.
 
@@ -60,4 +67,3 @@ También habla de cómo la producción y la tecnología pueden provocar aislamie
 
 + " El hombre separado de su producto produce cada vez con mayor potencia todos los detalles de su mundo, y así se encuentra cada vez más separado del mismo. En la medida en que su vida es ahora producto suyo, tanto más separado está de su vida "
 
-*capítulo 1*
