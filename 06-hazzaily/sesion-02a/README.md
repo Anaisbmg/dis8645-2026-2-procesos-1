@@ -112,7 +112,9 @@ Fotos Arduino uno r4 wifi conectado a potenciómetro con cables caimán.
 
 Vídeo de los números cambiando según la perilla del potenciómetro.
 
-![Vídeo de los números cambiando según la perilla del potenciómetro en Arduino](./imagenes/video-pot-arduino.mp4)
+https://github.com/user-attachments/assets/98588523-dcb8-4bb4-b6cd-a1bee3821ffd
+
+(El vídeo se encuentra en la carpeta "imagenes" igualmente)
 
 ## Arduino
 
