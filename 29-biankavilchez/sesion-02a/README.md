@@ -2,6 +2,75 @@
 
 ## apuntes sesión
 
+### referencias mencionados en clase
+
+- **Jacques Derrida**: filósofo francés.
+- **lav.io**: proyecto de crítica social.
+- **Manuela Infante**: relacionada al Festival Teatro a Mil.
+- **Martín Gubbins**: trabaja temas de fuentes de derecho, poesía chilena y la asamblea constituyente.
+
+### potenciómetros y botones:
+
+### potencia
+
+Antes de hablar de potenciómetros, tengo que tener clara la fórmula de potencia:
+
+**Potencia = energía / tiempo**
+
+Entonces, si quiero que la potencia suba, tengo dos caminos: subir la energía, o bajar el tiempo.
+
+En electricidad, esta misma idea se traduce así:
+
+**Potencia (P) = Voltaje × Corriente**
+
+### ¿Qué es un potenciómetro?
+
+(resistor variable) Va de 0 a un valor máximo, y lo uso para regular potencia (por ejemplo, el volumen de un parlante).
+
+pot : r1 + r2= constante 
+
+algo clave: `R1 + R2 = constante`. Es decir, cuando giro la perilla, un resistor sube mientras el otro baja, pero la suma siempre da lo mismo.
+
+Las perillas de los potenciómetros pueden ser de **giro infinito** (encoders).
+
+Nota veloz sobre sonido: para que algo suene el doble de fuerte, la potencia tiene que ser **10 veces** la original, no el doble. Esto es porque la percepción del oído es logarítmica. Por eso existen dos tipos de potenciómetros:
+
+- **Tipo A**: exponencial, se usa para audio (porque coincide con cómo el oído percibe el volumen).
+  
+- **Tipo B**: lineal.
+
+### los botones que tenemos disponibles
+
+existen dos tipos de botones:
+
+- **Toggles**: este no se usa en el curso.
+
+Al presionarlo o moverlo, se queda fijo en esa posición hasta que yo mismo lo cambie de nuevo; no vuelve solo a su estado anterior.(tipo interruptor de luz).
+
+- **Pushbuttons**: es el que estaremos ocupando en la clase.
+
+es **momentáneo**. Solo mantiene su estado mientras lo tengo presionado con el dedo; apenas lo suelto, vuelve solo a su posición de reposo (por resorte interno). Por eso son "elementos temporales": no guardan nada, reflejan únicamente el instante en que están siendo presionados.
+
+
+Dentro de los pushbuttons, hay dos configuraciones:
+- **N.O. (Normalmente Abierto)**: sin presionar, no conecta nada.
+-
+- `5V - GND / 0V = corto circuito`.
+- 
+- **N.C. (Normalmente Conectado)**: siempre conectado de dos lugares, y se pueden desconectar con presión.
+
+video que explica los N.O Y N.C https://www.tiktok.com/@siscomelectronica/video/7436118939882638647
+
+Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circuito (el "positivo"). La lógica básica de lectura es:
+- `0`: no estoy (presionando)
+- `1`: estoy (presionando)
+
+
+
+Arduino https://docs.arduino.cc/built-in-examples/digital/Button/
+potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
+
+
 ## encargos
 
 ## lectura
