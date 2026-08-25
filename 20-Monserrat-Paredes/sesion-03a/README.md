@@ -652,7 +652,7 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 
 fotos clase con el SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
 
-
+video con pantalla funcionando 
 
 
 
