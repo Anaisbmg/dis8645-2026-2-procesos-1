@@ -203,3 +203,13 @@ este componente nos permite interrumpir o conectar un circuito eléctrico, norma
 + <https://www.eaton.com/cr/es-mx/products/electrical-circuit-protection/circuit-breakers/circuit-breakers-fundamentals.html>
 + <https://es.wikipedia.org/wiki/Interruptor>
 + <https://linkwellelectrics.com/es/push-button-switch-types/>
+
+---
+
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
+
+he tenido una mala semana llena de atados asi que no he podido darme el tiempo de leer como me hubiese gustado, por lo que esta vez lo estoy haciendo de manera más mediocre y un poco más tarde.
+
+ - "(..) we have too little time to consider the consequences of not knowing everything we might like to about our machines", pág 23. sé que se está refiriendo al tiempo de la existencia del ser humano (creo, ahora no sé la verdad lol), pero el pensarlo de la manera en que nosotros, dentro de nuestra vida diaria llena de rutinas agotadoras en donde apenas tenemos tiempo para nosotros mismos, nos damos cuenta de que ni siquiera tenemos tiempo para poder investigar de la manera que nos gustaría sobre las máquinas y tecnología que nos rodea, y por consecuencia tenemos mucho menos tiempo para poder considerar realmente lo que esto implica! vivimos en una sociedad...
+
+ - "We do not know how to program our computers, nor do we care. We spend much more time and energy trying to figure put how to use them to program one another instead", pág. 24 esta es la avaricia de la que se hablaba en la biblia?? (no me la he leído pero soy fan de los memes que hacen sobre estas cosas). la verdad creo que yo caigo en esta categoría de querer hacer cosas sin siquiera entenderlas al inicio, lo cual estoy cambiando poco a poco!! de igual manera siento que el querer crear algo si o si en algún momento te lleva a querer entender las cosas (aunque normalmente el orden es al revés creo, pero da lo mismo con tal de que despierte la curiosidad de las personas).
