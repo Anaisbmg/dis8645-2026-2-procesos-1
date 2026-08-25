@@ -6,7 +6,7 @@
 
 ## ¿qué es un potenciómetro?
 
-![pote](./imagenes/potenciometros.jpg)
+![pote](./imagenes/potenciometro.jpg)
 
 un potenciómetro es una resistencia eléctrica cuyo valor se puede cambiar a mano usando una perilla o un botón deslizante. sirve para controlar la cantidad de corriente o de voltaje que pasa por un circuito.
 + regular la potencia, varía una propiedad eléctrica llamada resistencia.
@@ -216,7 +216,7 @@ está prohibido escribir una línea de código sin describir lo que tiene que pa
 ```
 > palabras claves que vimos en clases de taller.
 
-![titulo](./imagenes/lenguaje.jpg)
+![titulo](./imagenes/lenguaje.jpeg)
 
 > en esta imagen tenemos algunos de las palabras claves, las cuales hay una diversidad amplia
 
@@ -284,7 +284,7 @@ resolución: es especialmente importante en los potenciómetros digitales y repr
 
 los potenciómetros se fabrican con diferentes valores de resistencia nominal, que indican la resistencia máxima entre sus dos terminales extremos. estos valores se expresan normalmente en ohmios (ω), kiloohmios (kω) o megaohmios (mω).
 
-![titulo](./imagenes/potenciometro.jpeg)
+![titulo](./imagenes/potenciometros.jpeg)
 
 ## microcontroladores
 
