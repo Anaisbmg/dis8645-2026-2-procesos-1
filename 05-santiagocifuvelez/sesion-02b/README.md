@@ -4,6 +4,7 @@ clase cancelada por cierre de udp
 
 ## apuntes sesión
 
+`\n`, es el enter, salto de linea 
 ## encargos
 
 encargo02b:
