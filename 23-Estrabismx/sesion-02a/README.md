@@ -12,7 +12,7 @@ En esta sesión nos enfocamos en como poder medir el voltaje resultante al pasar
 
 Es pertinente mencionar que existen 3 tipos de potenciómetros, estos se diferencian por la letra que aparece antes del valor
 
-![Potenciometro](./imagenes/pote_letra.jpg)
+![Potenciometro](./imagenes/pote-letra.jpg)
 
 <br>
 
@@ -34,7 +34,7 @@ Durante la clase se mencionó que las _perillas_ que pueden rotar de manera cons
 
 > A diferencia de los potenciómetros, que poseen inicio y fin en su recorrido
 
-![Encoder](./imagenes/encoder_v2.jpg)
+![Encoder](./imagenes/encoder-v2.jpg)
 
 ![Encoder](./imagenes/encoder.jpg)
 
@@ -68,7 +68,7 @@ Para que nuestro Arduino pueda detectar y leer nuestro arduino debemos conectar 
 
 Lo primero que debemos es identificar la sección _análoga_ de nuestra placa de desarrollo, para ello debemos buscar el [Pinout](https://docs.arduino.cc/resources/pinouts/ABX00087-full-pinout.pdf) correspondiente al modelo de Arduino que estemos utilizando, en este caso Arduino UNO R4 WIFI
 
-> ![Pinout](./imagenes/sc_01.png)
+> ![Pinout](./imagenes/sc-00.png)
 >
 > > ~ Cada vez que veamos ese símbolo es utilizado comúnmente como salida para **audio** 👁️
 
@@ -76,7 +76,7 @@ Lo primero que debemos es identificar la sección _análoga_ de nuestra placa de
 
 Debemos conectar el potenciómetro de la siguiente manera
 
-![Pote Arduino](./imagenes/pote_ar.png)
+![Pote Arduino](./imagenes/pote-ar.png)
 
 
 - pin 1 > VCC
@@ -87,22 +87,47 @@ Debemos conectar el potenciómetro de la siguiente manera
 
 ---
 
-  Programación defensiva > aprueba de
+Ahora si analizamos el código utilizado en [_"ej_arduino_pote"_](../../00-docentes/sesion-02a/ej_arduino_pote/) observaremos una metodología de trabajo llamada _"programación defensiva"_, esta busca ser lo más entendible posible, ya sea por la estructura del código, como sus anotaciones 
+  
+1. Observamos que se define una variable bajo el nombre _"tasa"_
 
-  Objetos >Serial
+```cpp
 
-  Baudios
+const int tasa = 9600;
 
-  105200 > audio >midi
+```
+Este significa a qué velocidad se van a transmitir los datos entre el Arduino y la computadora. Se mide en Baudios
 
-  IN 10 bits
+> 115200 es la tasa de Baudios ideal para audio y es la utilizada en el protocolo MIDI
 
-  0 > 0
-  1 > 1023
+2. Se define un valor inicial a la lectura del pote, siendo -1. Esto ocurre para poder saber si nuestro potenciómetro está siendo leído, ya que los valores que nos entrega van de 0 a 1023 (10 bits)
 
-  While > Mientras que > puede quedarse pegado
+```cpp
 
-  ! > lo contrario
+int poteLectura = -1;
+
+```
+
+3. Al definir el pin A0 se utiliza _int_, ya que Arduino IDE, sabe que corresponde a su pin correspondiente
+
+ ```cpp  
+
+const int potePatita = A0;
+
+```
+
+4. While corresponde a una condición _"Mientras que"_
+
+```cpp
+
+  // mientras puerto serial
+  // no este listo
+  // no avanzar
+  while (!Serial)
+
+```
+> !: Es utilizado como una negación
+
 
 ## encargos
 
@@ -123,5 +148,19 @@ Se profundizó en el código para leer un potenciómetro, tal como se vio en la 
 
 ## lectura / The computers that made the world - Tim Danton
 
-He tenido múltiples complejidades para lograr entender y comprender todo lo que se habla, ya que el libro está en inglés, por lo que he vuelto a leer todo del inicio y comenzaré a agregar un glosario de las palabras nuevas que voy aprendiendo
+He tenido múltiples complejidades para lograr entender y comprender todo lo que se habla, ya que el libro está en inglés, por lo que he vuelto a leer todo del inicio y comenzaré a agregar un glosario de las palabras nuevas que voy aprendiendo.
+
+1. indeed:
+2. relied
+3. attempting
+4. poverty
+5. inheritance
+6. enfant
+7. scorned
+8. rolled around
+9. steam
+10. thereabouts: aproximadamente
+11. slide rule: regla de cálculo
+12. whilst
+13. unaware
 
