@@ -54,22 +54,45 @@ es **momentáneo**. Solo mantiene su estado mientras lo tengo presionado con el 
 
 Dentro de los pushbuttons, hay dos configuraciones:
 - **N.O. (Normalmente Abierto)**: sin presionar, no conecta nada.
--
-- `5V - GND / 0V = corto circuito`.
-- 
+
+  ![archivo-mariomarkus](./imagenes/n-o.jpeg) 
+  
 - **N.C. (Normalmente Conectado)**: siempre conectado de dos lugares, y se pueden desconectar con presión.
 
+  ![archivo-mariomarkus](./imagenes/n-c.jpeg)
+  
 video que explica los N.O Y N.C https://www.tiktok.com/@siscomelectronica/video/7436118939882638647
 
 Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circuito (el "positivo"). La lógica básica de lectura es:
 - `0`: no estoy (presionando)
 - `1`: estoy (presionando)
 
+### resistor 
+
+Un resistor está hecho de un material que no deja fluir tan fácil a los electrones Cuando los electrones intentan pasar por ahí, chocan constantemente contra los átomos del material, pierden energía en esos choques (esa energía se libera como calor), y como resultado, menos electrones logran pasar por segundo en comparación con un cable normal.
+
+cable - resistor - cable
+
+
+Acá lo importante es entender qué hace cada parte:
+- El **resistor** resiste el paso de los electrones.
+- La **corriente** es justamente ese flujo de electrones.
+- Y como referencia: `5V - 0V = GND` (tierra).
+
+Si ahora pongo **dos resistores en serie**:
+
+
+cable - resistor - resistor - cable
+
+
+Entre los dos resistores, el voltaje va a quedar en algún punto entre 0 y 5V. Ese valor depende de cómo yo defina el circuito (qué resistencias uso). Los resistores tienen extremos y, dependiendo de dónde los mida, tienen un rango donde "se mueven".
 
 
 Arduino https://docs.arduino.cc/built-in-examples/digital/Button/
+
 potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
 
+### 
 
 ## encargos
 
