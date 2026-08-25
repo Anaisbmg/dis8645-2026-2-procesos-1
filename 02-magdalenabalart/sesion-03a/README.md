@@ -196,6 +196,7 @@ display.setCursor(50, 20);
 
 variables que representan posiciones
 
+https://www.youtube.com/watch?v=-i5yaTPMFDE&t=215s
 
 
 dibujar
