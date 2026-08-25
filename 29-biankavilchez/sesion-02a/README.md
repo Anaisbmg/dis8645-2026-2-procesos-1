@@ -100,13 +100,8 @@ ya formamos grupos con cami y daya
 
 00-docentes/sesion-02a/ej_arduino_pote_filtrado/ej_arduino_pote_filtrado.ino
 
-
-
 probamos el primer ejemplo que vimos en clases. 
 
- ![archivo-mariomarkus](./imagenes/ejemplo-filtrado.gif) 
-
-00-docentes/sesion-02a/ej_arduino_pote_promedio/ej_arduino_pote_promedio.ino
 
 ```javascript
 
@@ -170,8 +165,13 @@ void loop()
   Serial.println(poteLectura);
 }
 ```
+ ![archivo-mariomarkus](./imagenes/ejemplo-filtrado.gif) 
+
+
 
 y luego el segundo.
+
+00-docentes/sesion-02a/ej_arduino_pote_promedio/ej_arduino_pote_promedio.ino
 
  ![archivo-mariomarkus](./imagenes/ejemplo-promedio.gif) 
  
