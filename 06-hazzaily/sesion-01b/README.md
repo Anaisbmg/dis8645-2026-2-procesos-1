@@ -157,7 +157,9 @@ digitalWrite(LED_BUILTIN, LOW);
 
 ```
 
-![Vídeo LED intermitente en la placa](./imagenes/video-led-intermitente.mp4)
+https://github.com/user-attachments/assets/3246e095-b2ff-49c1-b945-49836f9bbb81
+
+(El vídeo se encuentra subido en la carpeta "imagenes" igualmente).
 
 **Aprendizajes:**
 
@@ -267,7 +269,9 @@ void loop() {
 }
 ```
 
-![Vídeo del LED siendo prendido por el botón](./imagenes/video-led-boton.mp4)
+https://github.com/user-attachments/assets/6f051e5d-e8a4-445e-a798-da8d5a6b0d77
+
+(El vídeo se encuentra subido en la carpeta "imagenes" igualmente).
 
 **Aprendizajes:**
 
