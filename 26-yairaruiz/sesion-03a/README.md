@@ -26,7 +26,11 @@ a5 va a sck
 
 (display es pantalla)
 
+![IMG](./imagenes/adafruit.png)
 
+![IMG](./imagenes/arduino.png)
+
+![IMG](./imagenes/file.png)
 
 *Para no olvidar: dato extra de mi amiguita Mai : - ver frieren 
 
