@@ -174,3 +174,88 @@ El hardware se vuelve genérico; el software le da la personalidad.
 [Fuente de investigación, Luis Llamas](https://www.luisllamas.es/que-es-microcontrolador-arduino-esp32/)
 
 ## lectura
+Continuando con el capitulo anterior, comencé finalmente con el primer ejercicio del libro: 
+### Cap 1. Iterative Pattern; Generating a texture or textile design. 
+
+#### Brief
+Debo crear un patrón textil teniendo en cuenta los siguientes estándares: Simetría, ritmo, color, detalle a múltiples escalas, control preciso de la silueta, y balance entre formas orgánicas y geométricas. 
+
+Espero esto no sea ilegal, pero este es el contexto: 
+![](./imagenes/imglectura.jpeg)
+
+En p5.js hay dos funciones "mágicas" que el programa llama automáticamente:
+
+`setup()` se ejecuta una sola vez, al principio. Ahí defines cosas que no cambian, como el tamaño del lienzo (canvas).
+`draw()` se ejecuta muchas veces por segundo, en bucle, todo el rato que el sketch esté corriendo.
+
+La variable aquí sería `i` de índice. 
+
+La estructura de un `for loop` en JavaScript/p5.js se ve así:
+```cpp
+for (let i = 1; i <= 5; i++) {
+  // esto se repite 5 veces, con i = 1, luego 2, luego 3, luego 4, luego 5
+}
+```
+
+Se lee como 3 partes separadas por ;:
+
+`let i` = 1 → empieza en 1  
+`i <= 5` → sigue repitiendo mientras esto sea verdad  
+`i++` → al final de cada vuelta, suma 1 a i  
+
+Entonces en este ejercicio de crear 5 círculos en el eje X, `i` es la variable `x`, y estos tienen una distancia de 80px cada uno, con 200 como segundo valor (y), y 30 de diametro.
+
+Así se vería la función de `Draw` con su respectiva variable:
+```cpp
+function draw() {
+  background(220);
+  fill(255, 0, 0);
+
+  for (let i = 1; i <= 5; i++) {
+    circle(i * 80, 200, 30);
+  }
+}
+```
+**Resultado gráfico:**
+![](./imagenes/ejercicio1.jpeg)
+
+Observaciones: Los cicrulos están horizonta, pero se cortan con la margen del background el cual es de 400x400, y recordemos que la separación de los 5 circulos era de 80*1, *2, *3, etc... y 80 * 5, es 400, justamente queda en limite con el marco. Así que ahora vamos a cambiar la función y la variable para acomodar esto.
+
+Primero vamos a hacer que `X`, comience en 50 y que los demás círculos estén separados 75 píxeles del anterior, para que los círculos queden centrados sin que el ultimo se corte con el limite del canvas.
+
+Para eso, vamos a modificar la formula del `for`:
+
+1. Comenzamos desde el 0 esta vez hasta el 4 (vamos a trabajar con 5 números igual).
+2. `x = 50` para que comience en esa posición, pero para que se separe el uno del otro respetando los 75px de distancia, tendríamos que multiplicarle; `x = 50 + 75 *0` //esto nos asegura que el circulo 1 comience en 50, y luego para que comience la distribución, se comienza a multiplicar `*1, *2, *3 y *4`
+3. La formula quedaría así:
+   
+   ```cpp
+   for (let i = 0; i <=4; i++){
+   circle(50 + 75 * i, 200, 30);
+   }
+   ```
+**Resultado gráfico:**
+![](./imagenes/ejercicio2.jpeg)
+
+Como un pequeño resumen hasta ahora:
+- `setup()` corre una vez, `draw()` corre en loop constante (60 veces/seg)  
+- Un `for (let i = inicio; condición; i++) {...}` repite código, cambiando i en cada vuelta  
+- Una fórmula tipo `offset + espaciado * i` controla dónde empieza el patrón y qué tan separados quedan los elementos  
+- El valor inicial de i `(0 vs 1)` afecta directamente dónde cae el primer elemento  
+
+Y como último ejercicio y conclusión: `i` es la variable que siempre se va a manipular y cambiar dependiendo lo que necesitemos. Entonces, vamos a hacer ahora que los círculo cambien de diámetro en cada vuelta y de manera progresiva, donde comienza con un diámetro de 20 y va subiendo de a 10: Realizaríamos la siguiente formula: 
+`diámetro = 20 + 10 * 1`, y de esta manera se integraría a la formula de código:
+
+```cpp
+function draw() {
+  background(220);
+  fill(255, 0, 0);
+
+  for (let i = 0; i <= 4; i++) {
+    circle(50 + 75 * i, 200, 20 + 10 * i);
+  }
+}
+```
+
+**Resultado gráfico:**
+![](./imagenes/ejercicio3.jpeg)
