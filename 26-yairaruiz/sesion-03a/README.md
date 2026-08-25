@@ -2,6 +2,41 @@
 
 ## apuntes sesión
 
+martes 25/08
+
+### la pantalla de 0.91 pulgadas con controlador SSD1306
+
+la pantalla tiene 4 patitas que se conectan a la protoboard, en el extremo  gnd/vcc:
+
++ sda (señal de datos)
++ sck (señal de Clock)
+
+voltaje: 3.3 V - 5 V
+
+abrir Arduino IDE*
+
+- la biblioteca son mini códigos que vamos a usar (vamos a escribir bibliotecas en segunda entrega)
+- instalar la biblioteca: Adafruit SSD1306
+
+![IMG](./imagenes/adafruit.png)
+  
+- en c++ los #include son importantes: anda a ese archivo y pégalo aqui
+- #elfe: si o en otro caso
+- ir a file, example, y seleccionar adafruit SSD1306 : adafruitssd1306_128x32_i2c
+
+  
+![IMG](./imagenes/file.png)
+
+a4 va en sda 
+a5 va a sck
+
+![IMG](./imagenes/arduino.png)
+
+(display es pantalla)
+
+
+*Para no olvidar: dato extra de mi amiguita Mai : - ver frieren 
+
 ## encargos
 
 ## lectura
