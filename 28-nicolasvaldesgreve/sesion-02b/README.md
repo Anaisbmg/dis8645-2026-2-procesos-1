@@ -61,4 +61,10 @@ para poder guardar cualquier cambio, debemos presionar las teclas ``Ctrl`` + ``S
 
 + ``\n`` = enter
 
+para probar un código en la Raspberry Pi Pico 2W utilicé el ejemplo que nos dio Aarón para aprender a usar el potenciómetro. cuando probé correr el código, no me dejaba y me decía algo relacionado a Python, por lo que decidí presionar el botón de la raspi, esperar unos segundos, conectarla a mi pc y soltar el botón. una vez ya hecho eso, si me permitió correr el código LOLOLOLOL.
+
+aquí dejo un gif del código en VS Code!!
+
+![gif del código corriendo omg mira esa velocidad](./imagenes/como-corre.png)
+
 ## lectura
