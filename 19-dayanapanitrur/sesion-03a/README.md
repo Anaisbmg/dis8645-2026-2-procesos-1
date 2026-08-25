@@ -46,7 +46,6 @@ Claustro:
 - Natassja Barbieri
 - Carolina Pino
 
-+
 - Design Systems International
 - Taller Dínamo
 - MICXVG
