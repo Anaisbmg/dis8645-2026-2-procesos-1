@@ -99,3 +99,26 @@ int poteFiltrado = -1 para procesar
 Equipo dinamita: Belén Castillo - Martina Fernandez - Maite Villarroel - Ignacia(nacha - yo) Zamudio
 
 ## lectura
+
+El libro muestra imagenes a lo largo de la lectura, hay 3 tipos según el tipo de gráfico en uso:
+
+1. Gráfico vectorial
+
+2. Gráficos de pixeles
+
+3. Gráficos hecho por computer-controlled pen plotter
+
+Algoritmo: en el libro centrado hacía el código informático, no al lenguaje de programación. 
+"The drawing and computing are at their foundations a set of actions. When coding, the actions are called functions. Functions, essentially, do something based on some imput or prompting", como estamos viendo en clases para poder lograr una acción debemos escribir y juntar muchas indicaciones para que funcione.
+
+página 35
+
+Me gustó como explica la secuencia "if then" e "if then else" que vimos algunas veces en clase o ejemplos. 
+
+página 36 
+
+página 37 
+
+ibamos bien y se puso brigido esto, ta weno igual. 
+
+MAÑANA SUBO LAS IMAGENES Q NO TENGO COMO SACAR FOTOS asjdaksdjasd
