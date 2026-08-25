@@ -21,6 +21,39 @@ Usaremos bibliotecas (no librerías) compartidas por gente confiable, para Aaró
 
 Algunas pantallas vienen con una dirección, entonces con un arduino podemos alimentar varias pantallas en paralelo.
 
+Todo un mundo donde seguir inmersos en estas cosas:
+
+- Prácticas:
+- localvariable studio
+- Sinestesia
+- Criti.ca
+
+Bitácoras en GitHub:
+- paredesvania
+- nicolasvaldesgreve
+- sofiacartes
+- bernardita-jesus
+- clifford1one
+- camila-parada
+
+Claustro:
+- Matias Serrano
+- Joaquin Gonzales
+- Poli Mujica
+- Sergio Majluf
+- Simón Gallardo
+- Felipe Roa
+- Natassja Barbieri
+- Carolina Pino
+
++
+- Design Systems International
+- Taller Dínamo
+- MICXVG
+
+1. Elegir poesía y describir las cosas que suceden
+2. Bitácoras en GitHub
+
 ## encargos
 
 ## lectura
