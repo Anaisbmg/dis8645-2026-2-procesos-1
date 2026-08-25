@@ -94,13 +94,21 @@ Esta es la pantalla LCD de un proyecto del semestre pasado. Cada carácter está
 
 Kane cita a Vilém Flusser (filósofo brasileño nacido en Chequia) y a Gilles Deleuze (filósofo francés). No conozco el origen de estas citas, y Google no da ningún resultado relevante.
 
+---
+
 En el primer párrafo de la introducción, Kane habla sobre cómo la llegada del "color digital" marcó un momento importante tanto en lo estético como en el lado computacional. Personalmente, nunca antes me había detenido a pensar en lo que significó para el mundo de la programación el poder transmitir colores en una pantalla.
 
+---
+
 Off-the-shelf: Producto estandarizado, disponible inmediatamente.
+
+---
 
 ![Oscillion #10, #18 & #41](./imagenes/oscilloscope.jpg)
 
 &uarr; Oscillion #10, #18 & #41 de Ben Laposky, 1952
+
+---
 
 Osciloscopio: Instrumento de medición electrónico que permite ver señales eléctricas en una pantalla en forma de gráfica en movimiento.
 
@@ -108,10 +116,16 @@ Osciloscopio: Instrumento de medición electrónico que permite ver señales el�
 
 &uarr; Osciloscopio Telequipment Serviscope S51E
 
+---
+
 Hermeneutics: El arte, la teoría y la disciplina científica de interpretar textos y acciones humanas para comprender su verdadero significado
+
+---
 
 ![Sección "Media Archaeology" en la Introducción](./imagenes/media-archaeology.jpg)
 
 Sinceramente, no entendí nada de este párrafo :/ Después del tercer *"a priori"* mi cerebro se desconecta.
+
+---
 
 > [...] *what* a technology is or will become is already in the works long before a physical technology appears on the scene.
