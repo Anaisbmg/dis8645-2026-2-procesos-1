@@ -1,7 +1,39 @@
 # sesion-03a
+martes 25 de agosto
 
 ## apuntes sesión
+proyecto 1:
+- crit-01: grupal, documentación textual y visual del proyecto, con énfasis en referentes y valores de diseño
+- crit-02: grupal, código del proyecto, con énfasis en proceso no en resultados
+- crit-03: grupal, documentación del código del proyecto, con énfasis en comentarios y diagramas de flujo
+- crit-04: individual, presentación oral del proyecto
+- crit-05: individual, bitácoras, incluyendo encargos y lecturas
+- crit-06: individual, bitácoras, incluyendo encargos y lecturas
 
+vamos a aprender a conectar pantallas y botones.
+
+**pantallita**
+
+patitas:
+- sda: señal de datos
+- sck: señal de clock?
+- gnd
+- vcc
+
+interfaz: I2C
+
+voltaje de operación: 3.3V - 5V
+
+controlador: SSD1306
+
+**por hacer:**
+
+- instalar biblioteca de pantalla para arduino: Adafruit SSD1306
+- buscar en github: https://github.com/adafruit/Adafruit_SSD1306 > https://github.com/adafruit/Adafruit_SSD1306/blob/master/Adafruit_SSD1306.cpp
+- #: condición
+- patas arudino: A4: SDA, A5: SCL.
+- según yo no me funcionaba el código, pero no había conectado bien el arduino, de los errores de aprende... :p
+  
 ## encargos
 
 ## lectura
