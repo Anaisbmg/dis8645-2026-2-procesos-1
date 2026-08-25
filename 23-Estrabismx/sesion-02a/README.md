@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+### Potenciómetro
+
 En esta sesión nos enfocamos en como poder medir el voltaje resultante al pasar por una resistencia variable, aka _potenciómetro_.
 
 ![Potenciometro](./imagenes/pote.webp)
@@ -24,22 +26,66 @@ Es pertinente mencionar que existen 3 tipos de potenciómetros, estos se diferen
 
 <br>
 
-encoders 
+---
 
-pushbutton > botones / pulsadores
+#### Encoder
 
-NO > Normally Close 
+Durante la clase se mencionó que las _perillas_ que pueden rotar de manera constante se llaman **encoders**
 
-Pulldown resistor
+> A diferencia de los potenciómetros, que poseen inicio y fin en su recorrido
 
-- pin 1 > vcc
+![Encoder](./imagenes/encoder_v2.jpg)
 
-- pin 2 > Lectura
+![Encoder](./imagenes/encoder.jpg)
+
+---
+
+<br>
+
+### Botones / Pushbutton / pulsadores
+
+Tenemos 2 tipos de botones
+
+1. Normally Open (NO) / Normalmente Abierto
+
+Son los más comunes, al presionar se cierra el circuito.
+
+2. Normally Close (NC) / Normalmente cerrado
+
+El circuito se mantiene cerrado hasta que se presione el botón, lo que deja el circuito abierto.
+
+<br>
+
+Para que nuestro Arduino pueda detectar y leer nuestro arduino debemos conectar una resistencia llamada _"Pulldown resistor"_ 
+
+> ![Pulldown](./imagenes/pulldown.png)
+
+[Tutorial Boton Arduino](https://docs.arduino.cc/built-in-examples/digital/Debounce/)
+
+---
+
+### Ejercicio en Clase / _lectura de pote_
+
+Lo primero que debemos es identificar la sección _análoga_ de nuestra placa de desarrollo, para ello debemos buscar el [Pinout](https://docs.arduino.cc/resources/pinouts/ABX00087-full-pinout.pdf) correspondiente al modelo de Arduino que estemos utilizando, en este caso Arduino UNO R4 WIFI
+
+> ![Pinout](./imagenes/sc_01.png)
+>
+> > ~ Cada vez que veamos ese símbolo es utilizado comúnmente como salida para **audio** 👁️
+
+<br>
+
+Debemos conectar el potenciómetro de la siguiente manera
+
+![Pote Arduino](./imagenes/pote_ar.png)
+
+
+- pin 1 > VCC
+
+- pin 2 > Lectura análoga / A0
 
 - pin 3 > GND
 
-  > ~ audio 👁️
-  
+---
 
   Programación defensiva > aprueba de
 
