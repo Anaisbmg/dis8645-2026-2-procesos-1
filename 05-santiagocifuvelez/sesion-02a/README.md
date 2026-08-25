@@ -216,7 +216,7 @@ function draw() {
   }
 }
 ```
-Resultado gráfico:
+**Resultado gráfico:**
 ![](./imagenes/ejercicio1.jpeg)
 
 Observaciones: Los cicrulos están horizonta, pero se cortan con la margen del background el cual es de 400x400, y recordemos que la separación de los 5 circulos era de 80*1, *2, *3, etc... y 80 * 5, es 400, justamente queda en limite con el marco. Así que ahora vamos a cambiar la función y la variable para acomodar esto.
@@ -234,3 +234,11 @@ Para eso, vamos a modificar la formula del `for`:
    circle(50 + 75 * 1, 200, 30);
    }
    ```
+**Resultado gráfico:**
+![](./imagenes/ejercicio2.jpeg)
+
+Como un pequeño resumen hasta ahora:
+- `setup()` corre una vez, `draw()` corre en loop constante (60 veces/seg)  
+- Un `for (let i = inicio; condición; i++) {...}` repite código, cambiando i en cada vuelta  
+- Una fórmula tipo `offset + espaciado * i` controla dónde empieza el patrón y qué tan separados quedan los elementos  
+- El valor inicial de i `(0 vs 1)` afecta directamente dónde cae el primer elemento  
