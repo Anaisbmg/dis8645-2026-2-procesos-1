@@ -13,6 +13,14 @@ biblioteco no libreria
 
 el profe dice: sda a4 amarillo y scl a5 azul
 
+Ramsey Nasser, Alisson Parrish, Nick Montfort
+
+Recomendacion de ver bitacoras: sofiacartes, bernardita jesus
+
+Sinestesia de profe joaquin gonzalez
+
+criti.ca 
+
 ## encargos
 
 ## lectura
