@@ -187,3 +187,32 @@ En p5.js hay dos funciones "mágicas" que el programa llama automáticamente:
 
 `setup()` se ejecuta una sola vez, al principio. Ahí defines cosas que no cambian, como el tamaño del lienzo (canvas).
 `draw()` se ejecuta muchas veces por segundo, en bucle, todo el rato que el sketch esté corriendo.
+
+La variable aquí sería `i` de índice. 
+
+La estructura de un `for loop` en JavaScript/p5.js se ve así:
+```cpp
+for (let i = 1; i <= 5; i++) {
+  // esto se repite 5 veces, con i = 1, luego 2, luego 3, luego 4, luego 5
+}
+```
+
+Se lee como 3 partes separadas por ;:
+
+`let i` = 1 → empieza en 1  
+`i <= 5` → sigue repitiendo mientras esto sea verdad  
+`i++` → al final de cada vuelta, suma 1 a i  
+
+Entonces en este ejercicio de crear 5 círculos en el eje X, `i` es la variable `x`, y estos tienen una distancia de 80px cada uno, con 200 como segundo valor (y), y 30 de diametro.
+
+Así se vería la función de `Draw` con su respectiva variable:
+```cpp
+function draw() {
+  background(220);
+  fill(255, 0, 0);
+
+  for (let i = 1; i <= 5; i++) {
+    circle(i * 80, 200, 30);
+  }
+}
+```
