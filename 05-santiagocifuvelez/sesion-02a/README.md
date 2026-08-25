@@ -217,7 +217,7 @@ function draw() {
 }
 ```
 Resultado gráfico:
-![](./imagenes/ejer1.jpeg)
+![](./imagenes/ejercicio1.jpeg)
 
 Observaciones: Los cicrulos están horizonta, pero se cortan con la margen del background el cual es de 400x400, y recordemos que la separación de los 5 circulos era de 80*1, *2, *3, etc... y 80 * 5, es 400, justamente queda en limite con el marco. Así que ahora vamos a cambiar la función y la variable para acomodar esto.
 
