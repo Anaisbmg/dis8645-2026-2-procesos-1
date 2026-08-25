@@ -216,3 +216,21 @@ function draw() {
   }
 }
 ```
+Resultado gráfico:
+![](./imagenes/ejer1.jpeg)
+
+Observaciones: Los cicrulos están horizonta, pero se cortan con la margen del background el cual es de 400x400, y recordemos que la separación de los 5 circulos era de 80*1, *2, *3, etc... y 80 * 5, es 400, justamente queda en limite con el marco. Así que ahora vamos a cambiar la función y la variable para acomodar esto.
+
+Primero vamos a hacer que `X`, comience en 50 y que los demás círculos estén separados 75 píxeles del anterior, para que los círculos queden centrados sin que el ultimo se corte con el limite del canvas.
+
+Para eso, vamos a modificar la formula del `for`:
+
+1. Comenzamos desde el 0 esta vez hasta el 4 (vamos a trabajar con 5 números igual).
+2. `x = 50` para que comience en esa posición, pero para que se separe el uno del otro respetando los 75px de distancia, tendríamos que multiplicarle; `x = 50 + 75 *0` //esto nos asegura que el circulo 1 comience en 50, y luego para que comience la distribución, se comienza a multiplicar `*1, *2, *3 y *4`
+3. La formula quedaría así:
+   
+   ```cpp
+   for (let i = 0; i <=4; i++){
+   circle(50 + 75 * 1, 200, 30);
+   }
+   ```
