@@ -85,7 +85,7 @@ encargo02a:
 **grupo:** 
 - Emilia Contreras (hazzaily)
 - Katalina Riquelme (riyakatalinaa)
-- falta uno :(
+- Monserrat Paredes (Monserrat-Paredes)
 
 ## lectura
 
