@@ -50,6 +50,8 @@ Claustro:
 - Taller Dínamo
 - MICXVG
 
+Cosas por hacer:
+
 1. Elegir poesía y describir las cosas que suceden
 2. Bitácoras en GitHub
 
