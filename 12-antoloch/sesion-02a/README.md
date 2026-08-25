@@ -175,3 +175,4 @@ encargo02a:
 ## lectura
 ![lecturaaaa](./imagenes/lecturaaaa.jpeg)
 ![lecturaaaaa](./imagenes/lecturaaaaa.jpeg)
+![lectura1011](./imagenes/lectura1011.jpg)
