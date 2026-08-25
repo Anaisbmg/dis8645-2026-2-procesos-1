@@ -150,17 +150,31 @@ Se profundizó en el código para leer un potenciómetro, tal como se vio en la 
 
 He tenido múltiples complejidades para lograr entender y comprender todo lo que se habla, ya que el libro está en inglés, por lo que he vuelto a leer todo del inicio y comenzaré a agregar un glosario de las palabras nuevas que voy aprendiendo.
 
-1. indeed:
-2. relied
-3. attempting
-4. poverty
-5. inheritance
-6. enfant
-7. scorned
-8. rolled around
-9. steam
-10. thereabouts: aproximadamente
-11. slide rule: regla de cálculo
-12. whilst
-13. unaware
+**1. indeed**: en efecto
+
+**2. relied**: dependió
+
+**3. attempting**: intentando
+
+**4. poverty**: pobreza
+
+**5. inheritance**: inheritance 
+
+**6. enfant**: niño/a
+
+**7. scorned**: despreciado/a
+
+**8. rolled around**: llegó el momento
+
+**9. steam**: vapor / Science, Technology, Engineering, Arts, Mathematics 
+
+**10. thereabouts**: aproximadamente
+
+**11. slide rule**: regla de cálculo
+
+**12. whilst**: mientras que 
+
+**13. unaware**: inconsciente 
+
+<br>
 
