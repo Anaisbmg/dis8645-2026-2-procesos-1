@@ -4,6 +4,12 @@ martes 2026-08-25
 
 ## apuntes sesión
 
+8:30 am
+
+hoy se trabajara en grupo
+
+proyecto 1 : entrega en septiembre
+
 ## encargos
 
 ## lectura
