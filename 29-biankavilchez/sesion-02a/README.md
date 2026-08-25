@@ -101,7 +101,9 @@ ya formamos grupos con cami y daya
 ### instalacion
 
 potenciometro: b5k
+
 a0 se conecta en el centro 
+
 gnd-5v a los extremos
 
  ![archivo-mariomarkus](./imagenes/conexion-poten.jpeg) 
@@ -175,8 +177,6 @@ void loop()
 }
 ```
  ![archivo-mariomarkus](./imagenes/ejemplo-filtrado.gif) 
-
-
 
 y luego el segundo.
 
