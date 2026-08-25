@@ -14,7 +14,9 @@ Aarón nos entregó protoboards de 400 puntos, una por cada integrante del grupo
 
 ![Botones táctiles](./imagenes/botones.jpg)
 
-![Cables](./imagenes/cables.jpg)
+![Cables](./imagenes/cables-h.jpg)
+
+![Cables](./imagenes/cables-m.jpg)
 
 ![Lector MicroSD](./imagenes/lector-microsd.jpg)
 
