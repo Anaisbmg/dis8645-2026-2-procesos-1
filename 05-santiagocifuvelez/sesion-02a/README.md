@@ -174,3 +174,11 @@ El hardware se vuelve genérico; el software le da la personalidad.
 [Fuente de investigación, Luis Llamas](https://www.luisllamas.es/que-es-microcontrolador-arduino-esp32/)
 
 ## lectura
+Continuando con el capitulo anterior, comencé finalmente con el primer ejercicio del libro: 
+### Cap 1. Iterative Pattern; Generating a texture or textile design. 
+
+#### Brief
+Debo crear un patrón textil teniendo en cuenta los siguientes estándares: Simetría, ritmo, color, detalle a múltiples escalas, control preciso de la silueta, y balance entre formas orgánicas y geométricas. 
+
+Espero esto no sea ilegal, pero este es el contexto: 
+
