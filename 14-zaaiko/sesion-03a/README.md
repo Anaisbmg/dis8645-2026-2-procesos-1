@@ -3,7 +3,7 @@
 ## apuntes sesión
 
 primer bloque 0830-1030:
-- en este primer bloque se hace entrega de algunos componentes que se compraron la semanaoasada (protoboard, caimanes-cables, pantalla oled, lector micro-sd
+- en este primer bloque se hace entrega de algunos componentes que se compraron la semana pasada (protoboard, caimanes-cables, pantalla oled, lector micro-sd
 - usar la biblioteca de adafruit para el controlador SSD1306 en arduinoide
 - revisar adafruit.com
 - posteriormente se hacen las conexiones a la protoboard de la pantalla oled y el arduino uno r4 wifi
