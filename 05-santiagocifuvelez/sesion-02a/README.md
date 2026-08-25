@@ -182,3 +182,8 @@ Debo crear un patrón textil teniendo en cuenta los siguientes estándares: Sime
 
 Espero esto no sea ilegal, pero este es el contexto: 
 ![](./imagenes/imglectura.jpeg)
+
+En p5.js hay dos funciones "mágicas" que el programa llama automáticamente:
+
+`setup()` se ejecuta una sola vez, al principio. Ahí defines cosas que no cambian, como el tamaño del lienzo (canvas).
+`draw()` se ejecuta muchas veces por segundo, en bucle, todo el rato que el sketch esté corriendo.
