@@ -14,7 +14,7 @@ Elegí esta porque no sabía  que era la "Big O notation", y ahora, además de e
 
 También lo podemos entender como una forma de medir cómo funciona el trabajo que necesita un programa cuando aumenta la cantidad de datos, por ejemplo pasar de 128 números a 256.
 
- 2. "You have a salesperson". (pág. 18).
+ 2. "You have a salesperson". (pág. 17).
 
 El motivo de este es netamente porque me encanto el personaje. Adjunto foto abajo.
 
