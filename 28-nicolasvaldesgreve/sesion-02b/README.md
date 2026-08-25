@@ -65,6 +65,6 @@ para probar un código en la Raspberry Pi Pico 2W utilicé el ejemplo que nos di
 
 aquí dejo un gif del código en VS Code!!
 
-![gif del código corriendo omg mira esa velocidad](./imagenes/como-corre.png)
+![gif del código corriendo omg mira esa velocidad](./imagenes/como-corre.gif)
 
 ## lectura
