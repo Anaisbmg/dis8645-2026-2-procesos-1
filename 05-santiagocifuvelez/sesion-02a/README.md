@@ -231,7 +231,7 @@ Para eso, vamos a modificar la formula del `for`:
    
    ```cpp
    for (let i = 0; i <=4; i++){
-   circle(50 + 75 * 1, 200, 30);
+   circle(50 + 75 * i, 200, 30);
    }
    ```
 **Resultado gráfico:**
@@ -242,3 +242,17 @@ Como un pequeño resumen hasta ahora:
 - Un `for (let i = inicio; condición; i++) {...}` repite código, cambiando i en cada vuelta  
 - Una fórmula tipo `offset + espaciado * i` controla dónde empieza el patrón y qué tan separados quedan los elementos  
 - El valor inicial de i `(0 vs 1)` afecta directamente dónde cae el primer elemento  
+
+Y como último ejercicio y conclusión: `i` es la variable que siempre se va a manipular y cambiar dependiendo lo que necesitemos. Entonces, vamos a hacer ahora que los círculo cambien de diámetro en cada vuelta y de manera progresiva, donde comienza con un diámetro de 20 y va subiendo de a 10: Realizaríamos la siguiente formula: 
+`diámetro = 20 + 10 * 1`, y de esta manera se integraría a la formula de código:
+
+```cpp
+function draw() {
+  background(220);
+  fill(255, 0, 0);
+
+  for (let i = 0; i <= 4; i++) {
+    circle(50 + 75 * i, 200, 20 + 10 * i);
+  }
+}
+```
