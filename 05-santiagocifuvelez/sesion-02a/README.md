@@ -256,3 +256,6 @@ function draw() {
   }
 }
 ```
+
+**Resultado gráfico:**
+![](./imagenes/ejercicio3.jpeg)
