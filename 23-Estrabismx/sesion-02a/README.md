@@ -143,6 +143,10 @@ Se profundizó en el código para leer un potenciómetro, tal como se vio en la 
 
 ![GIF](./imagenes/ide01.gif)
 
+<br>
+
+### Potenciómetro Promedio
+
 ![GIF](./imagenes/ide02.gif)
 
 
@@ -178,3 +182,20 @@ He tenido múltiples complejidades para lograr entender y comprender todo lo que
 
 <br>
 
+### ABC (Atanasoff-Berry Computer)
+
+En este capítulo se nos narra la historia de la primera computadora que funcionaba en sistema binario, a diferencia de los modelos ENIAC y Mark I. Además de no utilizar sistemas mecánicos, priorizando el uso de tubos de vacío (predecesores de los transistores). Lamentablemente no pudo seguir su desarrollo, ya que la 1era guerra mundial llegó y muchos ingenieros debieron dedicarse a la industria bélica, obviamente sus desarrolladores no fueron la excepción, John Atanasoff y Clifford Berry
+
+Antes de llegar al prototipo de computadora, Atanasoff estuvo durante variaos años escribiendo a IBM sobre sus ideas. En este lugar circulaba un memo donde se informaba (Aléjenlo de la tabuladora [máquina desarrollada por IBM como calculadora electromecánica]).
+
+<br>
+
+_"I called this ´memory´"_ 
+
+>  Quien diría que en aquellos años (30´s) el concepto de la memoria RAM fue creado, algo que a dia de hoy es la base fundamental de toda la computación (y de los centros IA, quienes generaron un desabastecimiento de este componente, haciendo más difícil su acceso)
+
+<br>
+
+"_that war intervened before they could find a permanent solution to the out problem_"
+
+> No importa de que año estemos hablando, la guerra siempre ha frenado las investigaciones, ya sea de manera directa o indirecta. Hoy en día en nuestro país, a pesar de no estar en guerra, se han reducido los presupuestos a las ciencias y la investigación, todo por querer priorizar los fondos a las instituciones armadas, total ¿_que empleo genera un libro bonito de 500 millones_?
