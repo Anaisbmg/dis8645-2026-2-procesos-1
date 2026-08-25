@@ -102,13 +102,13 @@ ya formamos grupos con cami y daya
 
 probamos el primer ejemplo que vimos en clases. 
 
- ![archivo-mariomarkus](./imagenes/n-o.jpeg) 
+ ![archivo-mariomarkus](./imagenes/ejemplo-filtrado.gif) 
 
 00-docentes/sesion-02a/ej_arduino_pote_promedio/ej_arduino_pote_promedio.ino
 
 y luego el segundo.
 
- ![archivo-mariomarkus](./imagenes/n-o.jpeg) 
+ ![archivo-mariomarkus](./imagenes/ejemplo-promedio.gif) 
  
 ## lectura
 mario markus es un físico y artista chileno-alemán nacido en Santiago en 1944. Se formó como físico en Alemania y desarrolló una importante trayectoria científica, pero en los años 80 comenzó a explorar el arte a través de la computadora, utilizándola como un “pincel” para transformar fórmulas, datos y conceptos matemáticos en imágenes.
