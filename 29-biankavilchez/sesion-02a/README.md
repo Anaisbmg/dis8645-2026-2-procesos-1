@@ -245,5 +245,8 @@ eue un capítulo muy difícil de entender, ya que presenta varios conceptos nuev
 
 ###citas###
 
+"las imágenes en este libro se pueden comparar con mapas geográficos. Para un punto dado en tales mapas, nos dicen los colores dónde hay mar y qué profundidad tiene, o dónde hay tierra y cuál es su altura. En las imágenes de este libro, la longitud y la latitud de un mapa corresponden a cualidades (parámetros) que describen un sistema y que no cambian en el tiempo"
+
+"La situación es semejante a la de un fotógrafo que, por ejemplo, gana un premio de arte con el retrato de una mujer de Ouagadougou. El fotógrafo no creó esa mujer, tal como el lector o yo no creamos las fórmulas. Sin embargo, el fotógrafo hizo una selección entre infinitas posibilidades, eligiendo el lugar, la mujer, el instante, el ángulo, el enfoque… hasta que algo sucedió en él, algo en su mundo subjetivo y, asombrosamente, en las emociones de muchos observadores del retrato."
 
 
