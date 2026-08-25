@@ -98,6 +98,15 @@ potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial
 
 ya formamos grupos con cami y daya 
 
+### instalacion
+
+potenciometro: b5k
+a0 se conecta en el centro 
+gnd-5v a los extremos
+
+ ![archivo-mariomarkus](./imagenes/conexion-poten.jpeg) 
+
+ 
 00-docentes/sesion-02a/ej_arduino_pote_filtrado/ej_arduino_pote_filtrado.ino
 
 probamos el primer ejemplo que vimos en clases. 
