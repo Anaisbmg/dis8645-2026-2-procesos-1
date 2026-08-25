@@ -22,6 +22,6 @@ Foto del personaje "salesperson" en cuestión.
 
 ![Foto del personaje "Salesperson" del libro Grokking Algorithms de Aditya Y. Bhargava](./imagenes/salesperson.jpg)
 
-Actualmente voy en la página 18.
+Actualmente voy en la página 19.
 
 PD: El libro sigue en inglés.
