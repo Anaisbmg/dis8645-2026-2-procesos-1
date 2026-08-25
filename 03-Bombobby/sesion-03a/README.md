@@ -31,9 +31,10 @@ A4(SDA) utilizará el color azul y el A5(SCL) utilizará el color amarillo.
 Se agrega:
 
 ```cpp
-Adafruit_SSD1306 display (SCREEN WIDHT, SCREEN HEIGHT, &Wire, -1)
+Adafruit_SSD1306 display (SCREEN WIDHT, SCREEN HEIGHT, &Wire, OLED_RESET)
 ```
-
+Display es el nombre del objeto que le damos a la pantalla, entonces cada vez que queramos hacer algo con la pantalla empezamos con "display"
+En reset es -1 porque nuestra pantalla Oled no tiene un pin dedicado a este
 
 ## encargos
 
