@@ -284,7 +284,7 @@ resolución: es especialmente importante en los potenciómetros digitales y repr
 
 los potenciómetros se fabrican con diferentes valores de resistencia nominal, que indican la resistencia máxima entre sus dos terminales extremos. estos valores se expresan normalmente en ohmios (ω), kiloohmios (kω) o megaohmios (mω).
 
-![titulo](./imagenes/potenciometros.jpeg)
+![titulo](./imagenes/potenciometros.jpg)
 
 ## microcontroladores
 
