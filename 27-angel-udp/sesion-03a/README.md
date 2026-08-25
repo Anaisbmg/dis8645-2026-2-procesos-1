@@ -4,23 +4,22 @@
 
 ## apuntes sesión
 
-0,91 pulgadas en diagonal (es la pantalla que usaremos) las pantallas se miden en diagonal, es lo que importa.
+0,91 pulgadas en diagonal (es la pantalla que usaremos). Las pantallas se miden en diagonal, es lo que importa.
 
-*equidistante en el medio colocar la pantalla en la protoboard para que no se entrelacen los cables*
+Equidistante, en el medio, colocar la pantalla en la protoboard para que no se entrelacen los cables.
 
-se conecta GND y vcc
+Se conecta GND y VCC.
 
-- SDA: señal de datos
+- SDA: señal de datos.
+- SCK: señal de clock o "reloj".
 
-- SCK: señal de clock "reloj"
+En Arduino: BIBLIOTECA, no librería.
 
-En arduino: BIBLIOTECA no libreria
+Usaremos Adafruit SSD1306, versión 2.5.17.
 
-Usaremos Adafruit ssd1306 versión: 2.5.17
+Controlador: SSD1306.
 
-Controlador: ssd1306
-
-Para borrar es importante no dejar un murcielago flotando para borrar y no destruir el codigo
+Para borrar, es importante no dejar un murciélago flotando para borrar y no destruir el código.
 
 ## encargos
 
