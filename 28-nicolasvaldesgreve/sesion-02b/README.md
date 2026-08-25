@@ -49,9 +49,16 @@ en la parte que dice "Location", debemos seleccionar el lugar en donde se guarda
 
 dentro de la sección "Code generation options" seleccionaremos la casilla que dice "Generate C++ code", mientras que en "Debugger" seleccionaremos la opción por Default.
 
-una vez ya tengamos todo listo, podemos presionar en donde dice "Create"!!
+una vez ya tengamos todo listo, podemos presionar en donde dice "Create"!! cuando presionamos el botón de crear se empieza a generar el archivo para nuestro proyecto, por lo que si es nuestra primera vez haciendo uno esto podría tardar unos minutos... es un momento incómodo que tenemos que superar.
 
+![generando proyecto... ermmm... hola...](./imagenes/incomodo.png)
 
-\n = enter
+cuando ya termine su proceso, tendremos que ir a ``CMakeLists.txt`` y luego de la línea 48 agregaremos la siguiente línea: ``hardware_adc``, lo cual debería quedar así:
+
+![agregar parte a cmakelists](./imagenes/cmakelists.png)
+
+para poder guardar cualquier cambio, debemos presionar las teclas ``Ctrl`` + ``S``!! no olvidar...
+
++ ``\n`` = enter
 
 ## lectura
