@@ -24,6 +24,15 @@ En la biblioteca de Arduino debemos buscar ssd1306 (ssd1306_128x32_i2c), este es
 
 ... (significa depende)
 
+Arduino R4 sigue compartiendo el estándar de Arduino R3, es decir que A4(SDA) y A5(SCL)
+
+A4(SDA) utilizará el color azul y el A5(SCL) utilizará el color amarillo.
+
+Se agrega:
+
+```cpp
+Adafruit_SSD1306 display (SCREEN WIDHT, SCREEN HEIGHT, &Wire, -1)
+```
 
 
 ## encargos
