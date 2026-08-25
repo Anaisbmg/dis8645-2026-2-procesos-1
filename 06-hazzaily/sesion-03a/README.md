@@ -1,6 +1,36 @@
 # sesion-03a
 
-## apuntes sesión
+2026-08-25
+
+## Componentes entregados
+
+Protoboard
+
+Botones
+
+Lector de micro SD card
+
+Pantalla LCD Oled 0.91"
+
+Controlador SSD1306
+
+**SCK/SCL** = Clock
+
+**SDA** = 
+
+Cable Dupont - caimán
+
+## Arduino
+
+Cuando el # está antes de una línea de código 
+
+**#include** = toma este archivo y colócalo aquí
+
+**#else** = 
+
+Biblioteca a utilizar [Adafruit SSD1306](https://github.com/adafruit/adafruit_ssd1306) .
+
+
 
 ## encargos
 
