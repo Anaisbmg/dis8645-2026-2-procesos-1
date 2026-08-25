@@ -141,6 +141,8 @@ a Cami le prestaron un arduino distinto para que investigue, así que con Bianka
 
 ya revisamos el primer ejemplo de código con potenciómetro:
 
+Este es el que trabajamos en clase
+
 ```javascript
 
 // lectura de potenciometro
@@ -203,6 +205,238 @@ void loop()
   Serial.println(poteLectura);
 }
 ```
+
+Los siguientes 2 códigos se dejaron como encargo revisarlos
+
+pote filtrado
+
+```javascript
+
+// lectura de potenciometro
+// y filtrado por division
+// en arduino uno r4 minima
+
+// por montoyamoraga
+// para dis8645-2026-2
+
+// materiales
+// arduino uno r4 minima
+// potenciometro b20k
+// cualquier otro b (lineal) ok
+
+// conexiones
+// orejas de potenciometro a VCC y GND
+// nariz de potenciometro a entrada A0
+
+// constante entera para tasa
+// de comunicacion serial
+// 9600 baudios
+const int tasa = 9600;
+
+// variables y constantes
+// para lectura potenciometro
+const int potePatita = A0;
+int poteLectura = -1;
+int poteFiltrado = -1;
+
+void setup()
+{
+
+  // iniciar comunicacion serial
+  Serial.begin(tasa);
+
+  // mientras puerto serial
+  // no este listo
+  // no avanzar
+  while (!Serial)
+  {
+  }
+
+  // imprimir saludo
+  Serial.println("hola!");
+}
+
+void loop()
+{
+  // leer valor analogo en potePatita
+  // asignar valor a poteLectura
+  // poteLectura va de 0 a 1023
+  poteLectura = analogRead(potePatita);
+
+  // filtrado con division entera por 4
+  // poteFiltrado va entre 0 y 255
+  poteFiltrado = filtrarConDivision(poteLectura, 4);
+
+  // imprimir poteFiltrado en serial
+  Serial.print("valor filtrado: ");
+  Serial.println(poteFiltrado);
+}
+
+// funcion entera
+// para tomar una variable entera original
+// y dividirla por otro entero para perder resolucion
+int filtrarConDivision(int valor, int divisor) {
+  int resultado = valor / divisor;
+  return resultado;
+}
+```
+
+pote promedio
+
+```javascript
+
+// lectura de potenciometro
+// y promediado
+// en arduino uno r4 minima
+
+// por montoyamoraga
+// para dis8645-2026-2
+
+// materiales
+// arduino uno r4 minima
+// potenciometro b20k
+// cualquier otro b (lineal) ok
+
+// conexiones
+// orejas de potenciometro a VCC y GND
+// nariz de potenciometro a entrada A0
+
+// constante entera para tasa
+// de comunicacion serial
+// 9600 baudios
+const int tasa = 9600;
+
+// variables y constantes
+// para lectura potenciometro
+const int potePatita = A0;
+int poteLectura = -1;
+
+// variables y arreglos
+// para promediado potenciometro
+const int numeroLecturas = 15;
+int poteHistoria[numeroLecturas];
+int potePromediado = -1;
+
+void setup() {
+
+  // iniciar comunicacion serial
+  Serial.begin(tasa);
+
+  // mientras puerto serial
+  // no este listo
+  // no avanzar
+  while (!Serial) {
+  }
+
+  // primera lectura
+  poteLectura = analogRead(potePatita);
+
+  // iniciar el arreglo con primera lectura
+  for (int i = 0; i < numeroLecturas; i++) {
+    poteHistoria[i] = poteLectura;
+  }
+
+  // imprimir saludo
+  Serial.println("hola!");
+}
+
+void loop() {
+  // leer valor analogo en potePatita
+  // asignar valor a poteLectura
+  // poteLectura va de 0 a 1023
+  poteLectura = analogRead(potePatita);
+
+  // dividir por 4 para menor resolucion
+  poteLectura = poteLectura / 4;
+
+  // actualizar historia
+  actualizarHistoria();
+
+  // calcular promedio de historia
+  potePromediado = promediarHistoria();
+
+  // imprimir potePromediado
+  Serial.print("valor promediado: ");
+  Serial.println(potePromediado);
+  delay(10);
+}
+
+
+void actualizarHistoria() {
+  // recorrer toda la historia de (largo - 1) a (1)
+  // shift hacia derecha
+  for (int i = 1; i < numeroLecturas; i++) {
+    // valor i-1 es grabado en posicion i
+    poteHistoria[i] = poteHistoria[i - 1];
+  }
+  // actualizar valor 0 con valor actual
+  poteHistoria[0] = poteLectura;
+}
+
+int promediarHistoria() {
+  // inicializar resultado
+  int promedio = 0;
+
+  // sumarle a promedio cada valor
+  for (int i = 0; i < numeroLecturas; i++) {
+    promedio = promedio + poteHistoria[i];
+  }
+
+  // despues de sumar todos los valores
+  // dividir por el numero de lecturas
+  promedio = promedio / numeroLecturas;
+
+  // retornar promedio
+  return promedio;
+}
+```
+
+Ambos códigos por lo que me explicó Seba, es que estabilizaban más los números al momento de regularlos con el potenciómetro, es decir, con la versión de pote promedio se tomaban 4 valores constantes y estos se promedian, si no me equivoco.
+
+Y en la versión del pote filtrado se toma una cantidad de los últimos números dados y se asigna un valor.
+
+- Otro código que utilizamos fuera de los que subió Aaron, pero solo con la intención de probar más cosas con el arduino, fue uno para regular la intensidad de un LED con un pote.
+  
+  Alteraciones que hicimos:
+- Pote b5k en vez de 10k
+- La entrada analógica inicial era A1, en el código colocamos A0 porque ahí teníamos conectado el lector del potenciómetro.
+
+```javascript
+
+- // código que hicimos de prueba para controlar un led con un potenciómetro.
+
+/* InputMakers 
+Programa para el control del brillo o intensidad de luz que
+emite un led mediante un potenciómetro.*/
+
+int led10 = 10;    // Variable asociada a el led. (pin pwm 10)
+int brillo;    // Variables donde guardamos la intensidad de brillo.
+int pot = 0;    // Variable donde guardamos la lectura del potenciómetro.
+int potpin = A0; // Pin del potenciómetro conectado a la entrada analógica A0.
+
+void setup() {
+  pinMode (led10, OUTPUT);   // Definimos el pin que va conectado al led como salida.
+}
+
+void loop() {
+  
+  pot = analogRead(potpin);   // Lectura del valor del potenciómetro con analogRead.
+  
+/* A continuación escalamos los valores del potenciómetro (que van de 0 a 1023 para la entrada analógica) al led (que van de 0 a 255 para la salida PWM).*/
+  brillo = map (pot, 0, 1023, 0, 255); // Escalar valores del potenciómetro (entrada analógica) al led (salida digital).
+
+/* Por último asignamos el valor de la variable de brillo al led con analogWrite.*/ 
+  analogWrite (led10, brillo);
+   
+}
+
+```
+
+[![led-regulado-x-pote](imagenes/miniatura.png)](https://img.youtube.com/vi/BasltcPW82U/hqdefault.jpg)](https://youtube.com/shorts/BasltcPW82U)
+
+El código lo sacamos de aquí:
+
+https://inputmakers.com/componentes/como-controlar-la-intensidad-de-luz-brillo-de-un-led-con-arduino/
 
 ## lectura
 

@@ -1,6 +1,10 @@
 # sesion-03a
 
 ## apuntes sesión
+Lo que permite que las patitas estén en la protoboard conectadas verticalmente hace que estén en paralelo, es decir que cada una de las patitas está separada.
+SDA señal de datos.
+SDK Señal de clock.
+
 
 ## encargos
 
