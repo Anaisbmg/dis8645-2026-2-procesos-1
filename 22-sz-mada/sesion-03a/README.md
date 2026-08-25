@@ -24,13 +24,17 @@ Aarón nos entregó protoboards de 400 puntos, una por cada integrante del grupo
 
 SDA = señal de datos
 
-SCK = señal de clock
+SCK/SCL = señal de clock
 
 ---
 
 En Arduino IDE instalamos la biblioteca de SSD1306 de Adafruit
 
 ![Adafruit SSD1306](./imagenes/arduino-ssd1306.png)
+
+```#define``` sirve para poner un término en palabras seguido por un valor numérico, el cual será automáticamente "traducido" a lo largo del código; meaning si dice ```#define SCREEN_WIDTH 128```, puedo escribir SCREEN_WIDTH múltiples veces a lo largo del código, e internamente siempre se va a "traducir" a 128
+
+SCL bigger #, SDA smaller one duh.
 
 ## encargos
 
