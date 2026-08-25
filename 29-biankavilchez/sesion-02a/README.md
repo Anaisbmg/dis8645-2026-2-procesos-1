@@ -54,25 +54,136 @@ es **momentáneo**. Solo mantiene su estado mientras lo tengo presionado con el 
 
 Dentro de los pushbuttons, hay dos configuraciones:
 - **N.O. (Normalmente Abierto)**: sin presionar, no conecta nada.
--
-- `5V - GND / 0V = corto circuito`.
-- 
+
+  ![archivo-mariomarkus](./imagenes/n-o.jpeg) 
+  
 - **N.C. (Normalmente Conectado)**: siempre conectado de dos lugares, y se pueden desconectar con presión.
 
+  ![archivo-mariomarkus](./imagenes/n-c.jpeg)
+  
 video que explica los N.O Y N.C https://www.tiktok.com/@siscomelectronica/video/7436118939882638647
 
 Y **VCC** es simplemente el nombre que le damos a la fuente de voltaje del circuito (el "positivo"). La lógica básica de lectura es:
 - `0`: no estoy (presionando)
 - `1`: estoy (presionando)
 
+### resistor 
+
+Un resistor está hecho de un material que no deja fluir tan fácil a los electrones Cuando los electrones intentan pasar por ahí, chocan constantemente contra los átomos del material, pierden energía en esos choques (esa energía se libera como calor), y como resultado, menos electrones logran pasar por segundo en comparación con un cable normal.
+
+cable - resistor - cable
+
+
+Acá lo importante es entender qué hace cada parte:
+- El **resistor** resiste el paso de los electrones.
+- La **corriente** es justamente ese flujo de electrones.
+- Y como referencia: `5V - 0V = GND` (tierra).
+
+Si ahora pongo **dos resistores en serie**:
+
+
+cable - resistor - resistor - cable
+
+
+Entre los dos resistores, el voltaje va a quedar en algún punto entre 0 y 5V. Ese valor depende de cómo yo defina el circuito (qué resistencias uso). Los resistores tienen extremos y, dependiendo de dónde los mida, tienen un rango donde "se mueven".
 
 
 Arduino https://docs.arduino.cc/built-in-examples/digital/Button/
+
 potenciómetro https://docs.arduino.cc/built-in-examples/basics/AnalogReadSerial/
 
+### 
 
 ## encargos
 
+ya formamos grupos con cami y daya 
+
+### instalacion
+
+potenciometro: b5k
+
+a0 se conecta en el centro 
+
+gnd-5v a los extremos
+
+ ![archivo-mariomarkus](./imagenes/conexion-poten.jpeg) 
+
+ 
+00-docentes/sesion-02a/ej_arduino_pote_filtrado/ej_arduino_pote_filtrado.ino
+
+probamos el primer ejemplo que vimos en clases. 
+
+
+```javascript
+
+// lectura de potenciometro
+// en arduino uno r4 minima
+
+// por montoyamoraga
+// para dis8645-2026-2
+
+// materiales
+// arduino uno r4 minima
+// potenciometro b20k
+// cualquier otro b (lineal) ok
+
+// conexiones
+// orejas de potenciometro a VCC y GND
+// nariz de potenciometro a entrada A0
+
+// constante entera para tasa
+// de comunicacion serial
+// 9600 baudios
+const int tasa = 9600;
+
+// variable entera
+// para almacenar lectura
+// de potenciometro
+int poteLectura = -1;
+
+// constante entera para lectura
+// de potenciometro
+// conectado a entrada analoga A0
+// A0 es reemplazado por compilador
+// en un numero entero
+const int potePatita = A0;
+
+void setup()
+{
+
+  // iniciar comunicacion serial
+  Serial.begin(tasa);
+
+  // mientras puerto serial
+  // no este listo
+  // no avanzar
+  while (!Serial)
+  {
+  }
+
+  // imprimir saludo
+  Serial.println("hola!");
+}
+
+void loop()
+{
+  // leer valor analogo en potePatita
+  // asignar valor a poteLectura
+  poteLectura = analogRead(potePatita);
+
+  // imprimir poteLectura en serial
+  Serial.print("valor actual: ");
+  Serial.println(poteLectura);
+}
+```
+ ![archivo-mariomarkus](./imagenes/ejemplo-filtrado.gif) 
+
+y luego el segundo.
+
+00-docentes/sesion-02a/ej_arduino_pote_promedio/ej_arduino_pote_promedio.ino
+
+ ![archivo-mariomarkus](./imagenes/ejemplo-promedio.gif) 
+ 
 ## lectura
 mario markus es un físico y artista chileno-alemán nacido en Santiago en 1944. Se formó como físico en Alemania y desarrolló una importante trayectoria científica, pero en los años 80 comenzó a explorar el arte a través de la computadora, utilizándola como un “pincel” para transformar fórmulas, datos y conceptos matemáticos en imágenes.
 
@@ -133,5 +244,9 @@ en este capítulo nos empieza a contar algunas experiencias personales, tratando
 eue un capítulo muy difícil de entender, ya que presenta varios conceptos nuevos y relaciona diferentes áreas. Como tarea personal, es releer el capítulo para poder sacar un concepto más claro de cada término y ver mejor las relaciones. 
 
 ###citas###
+
+"las imágenes en este libro se pueden comparar con mapas geográficos. Para un punto dado en tales mapas, nos dicen los colores dónde hay mar y qué profundidad tiene, o dónde hay tierra y cuál es su altura. En las imágenes de este libro, la longitud y la latitud de un mapa corresponden a cualidades (parámetros) que describen un sistema y que no cambian en el tiempo"
+
+"La situación es semejante a la de un fotógrafo que, por ejemplo, gana un premio de arte con el retrato de una mujer de Ouagadougou. El fotógrafo no creó esa mujer, tal como el lector o yo no creamos las fórmulas. Sin embargo, el fotógrafo hizo una selección entre infinitas posibilidades, eligiendo el lugar, la mujer, el instante, el ángulo, el enfoque… hasta que algo sucedió en él, algo en su mundo subjetivo y, asombrosamente, en las emociones de muchos observadores del retrato."
 
 

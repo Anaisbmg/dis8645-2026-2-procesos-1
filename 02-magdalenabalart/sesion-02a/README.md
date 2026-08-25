@@ -292,15 +292,15 @@ LOW
 ```
 Para solucionar esto se utilizan resistencias pull-down o pull-up.
 
-### **<ins>Protoboard</ins>**
+### **<ins>Breadboard</ins>**
 
-La protoboard es una placa que permite construir y probar circuitos sin soldar.
+La Breadboard es una placa que permite construir y probar circuitos sin soldar.
 
 Sus orificios no son independientes: debajo de la superficie existen conexiones metálicas que unen determinados grupos.
 
 **Zona central**
 
-En una protoboard común, cada grupo de cinco orificios suele estar conectado internamente:
+En un Breadboard común, cada grupo de cinco orificios suele estar conectado internamente:
 
 **a ─ b ─ c ─ d ─ e**
 
