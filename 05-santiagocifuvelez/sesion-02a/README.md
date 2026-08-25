@@ -181,4 +181,4 @@ Continuando con el capitulo anterior, comencé finalmente con el primer ejercici
 Debo crear un patrón textil teniendo en cuenta los siguientes estándares: Simetría, ritmo, color, detalle a múltiples escalas, control preciso de la silueta, y balance entre formas orgánicas y geométricas. 
 
 Espero esto no sea ilegal, pero este es el contexto: 
-
+![](./imagenes/imglectura.jpeg)
