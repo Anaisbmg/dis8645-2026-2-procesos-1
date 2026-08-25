@@ -176,3 +176,34 @@ encargo02a:
 ![lecturaaaa](./imagenes/lecturaaaa.jpeg)
 ![lecturaaaaa](./imagenes/lecturaaaaa.jpeg)
 ![lectura1011](./imagenes/lectura1011.jpg)
+
+# Cómo funcionan las GANs (Generative Adversarial Networks)????????
+
+## ¿Cómo pueden utilizarse para crear imágenes??????????
+
+Se menciona la comparación del funcionamiento de una GAN con la fotografía tradicional. También cómo la cámara tiene distintos elementos que permiten controlar la imagen.
+
+## Estructura del trabajo con GANs
+
+El trabajo con GANs se divide en dos pasos:
+
+1. Entrenar el modelo utilizando una gran cantidad de imágenes de referencia.
+2. Generar nuevas imágenes utilizando aquello que el modelo aprendió durante el entrenamiento (miles de fotografías).
+
+*There are two discrete steps to working with GANs. The first is to train a model, and the second is to generate images with the model.*
+
+- Resume la estructura fundamental del proceso de la creación mediante GANs.
+- Entrenar el modelo para que genere imágenes.
+
+## Los valores numéricos
+
+El texto menciona que las imágenes generadas dependen de una serie de números. Al cambiar estos valores, la imagen de resultado cambia.
+
+Si los valores son similares, las imágenes producidas también tienden a ser similares. Si son muy diferentes, las imágenes serán más diferentes.
+
+En las GANs no hay copias exactas de las imágenes existentes (las de referencia).
+
+*The model generates pictures by inputting a list of one hundred numbers between -1 and 1.*
+
+- Las imágenes generadas por una GAN están relacionadas con valores numéricos. Estos números funcionan como una especie de espacio de control, en donde se puede modificar, y al modificar las imagen producida también cambia.
+- Pequeños cambios, cambian la imagen producida.
