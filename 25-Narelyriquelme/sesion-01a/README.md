@@ -118,6 +118,7 @@ En general, las cuatro pantallas usan segmentos para mostrar principalmente núm
 ## lectura
 
 ### Libro del semestre
+![libro](./imagenes/anarchy.jpg)
 
 El profe entregó a cada estudiante un libro de una colección, para leer como mínimo 1 página al día durante el semestre (idealmente terminarlo). Cada martes hay que escribir un resumen de lo leído con citas del libro.
 
