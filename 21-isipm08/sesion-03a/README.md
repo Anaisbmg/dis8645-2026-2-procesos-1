@@ -21,6 +21,9 @@ Ramsey Nasser
 Allison Parrish
 Nick Montfort
 
+![titulo](./imagenes/arduino.webp)
+> conexiones de arduino que vimos durante la clase
+
 utilizamos dos ejemplos para utilizar en la pantalla LCD, el cual los subimos desde Arduino IDE 
 
 ### ejemplo principal pantalla 
