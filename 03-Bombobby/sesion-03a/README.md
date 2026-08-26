@@ -37,6 +37,40 @@ Display es el nombre del objeto que le damos a la pantalla, entonces cada vez qu
 
 En reset es -1 porque nuestra pantalla Oled no tiene un pin dedicado a este
 
+Necesito recordar que 
+
+```cpp
+void setup() {
+  Serial.begin(9600);
+
+// inicia e inicializa el la comunicación serie entre la placa de arduino y el computador a una velocidad de 9600 bits por segundo.
+
+void loop() {
+}
+
+void testdrawchar(void) {
+  display.clearDisplay();
+
+  display.setTextSize(1);      // Normal 1:1 pixel scale
+  display.setTextColor(SSD1306_WHITE); // Draw white text
+  display.setCursor(0, 0);     // Start at top-left corner
+  display.cp437(true);         // Use full 256 char 'Code Page 437' font
+
+// Imprime en pantalla la tabla completa de caracteres para probar como los dibuja la biblioteca
+// .clearDisplay borra todo el contenido anterior de la pantalla para empezar desde cero
+// .setTextSize(1) establece el tamaño de texto a escala 1:1 (cada caracter ocupa aprox 6x8 pixeles
+// .setTextColor (SSD1306_WHITE) Define que los pixeles del texto se encenderán
+// .setCursor (0, 0) Coloca el cursor gráfico en la esquina superior izquierda
+// .cp437(true) Activa la fuente "Code Page 437, lo que permite mostrar símbolos especiales, letras acentuadas y caracteres de dibujo.
+// .display Envía todo el buffer de memoria creado con el bucle hacia la pantalla física Oled
+// delay(2000) Pausa la ejecución del microcontrolador duranto 2000 milisegundos para que pueda observar todos los caracteres en pantalla
+  }
+
+  display.display();
+  delay(2000);
+}
+```
+
 ## encargos
 
 ## lectura

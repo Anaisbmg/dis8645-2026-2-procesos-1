@@ -655,10 +655,19 @@ fotos clase con el SDA Y SCL conectados → visualizar pantalla con codigo de ej
 video con pantalla funcionando 
 
 
-
-
-
 ## encargos
+
+- elegir poema (Alfonsina Storni)
+
+- describir en texto lo que queremos hacer
+  
+- describir como queremos hacerlo
+
+- Dubujar (diagrama de flujo)
+  
+- programar en c++
+
+  
 
 ## lectura
 
