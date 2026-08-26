@@ -40,7 +40,45 @@ GND → tierra
 VCC → voltaje 
 
 
-Fotos claseee primeras fotos 
+### Arduino UNO R4 Minima Pinout
+
+![pinesmini](./imagenes/pinesmini.png)
+
+
+Imagen sacada de → https://lastminuteengineers.com/arduino-uno-r4-minima-pinout/
+
+
+
+### Ejemplo de Arduino
+
+![example](./imagenes/example.png)
+
+
+
+### Fotos del proceso en clases
+
+SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
+
+
+<table>
+  <tr>
+    <th>Conexiones analogas</th>
+    <th>Conexiones GND y VCC</th>
+    <th>Todas las conexiones</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="2737" height="3415" alt="prueba1" src="./imagenes/prueba1.jpg" />
+    </td>
+    <td align="center">
+<img width="3024" height="4032" alt="prueba2" src="./imagenes/prueba2.jpg" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="prueba3" src="./imagenes/prueba3.jpg" />
+    </td>
+  </tr>
+</table>
+
 
 
 código de ejemplo arduino
@@ -470,7 +508,8 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
   }
 }
 ```
-codigo arduino arreglado 
+
+Código arduino arreglado 
 
 ```cpp
 #include <SPI.h>
@@ -650,12 +689,13 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 }
 ```
 
-fotos clase con el SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
 
-video con pantalla funcionando 
+### Video con pantalla funcionando 
+
+![pantalla](./imagenes/pantalla.gif)
 
 
-## encargos
+## Encargos
 
 - elegir poema (Alfonsina Storni)
 
