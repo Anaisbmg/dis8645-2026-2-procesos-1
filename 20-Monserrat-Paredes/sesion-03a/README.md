@@ -61,27 +61,30 @@ SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
 
 
 <table>
+  <!-- Fila 1: Las primeras dos imágenes -->
   <tr>
-    <th>Conexiones analogas</th>
-    <th>Conexiones GND y VCC</th>
-    <th>Todas las conexiones</th>
+    <td align="center">
+      <b>Conexiones analógicas</b><br><br>
+      <img src="img/prueba1.jpg" width="300" alt="Conexiones analógicas">
+    </td>
+    <td align="center">
+      <b>Conexiones GND y VCC</b><br><br>
+      <img src="img/prueba2.jpg" width="300" alt="Conexiones GND y VCC">
+    </td>
   </tr>
+  
+  <!-- Fila 2: La tercera imagen centrada y abajo -->
   <tr>
-    <td align="center">
-<img width="2737" height="3415" alt="prueba1" src="./imagenes/prueba1.jpg" />
-    </td>
-    <td align="center">
-<img width="3024" height="4032" alt="prueba2" src="./imagenes/prueba2.jpg" />
-    </td>
-    <td align="center">
-<img width="400" height="711" alt="prueba3" src="./imagenes/prueba3.jpg" />
+    <td align="center" colspan="2">
+      <b>Todas las conexiones</b><br><br>
+      <img src="img/prueba3.jpg" width="620" alt="Todas las conexiones">
     </td>
   </tr>
 </table>
 
 
 
-código de ejemplo arduino
+### Código de ejemplo arduino
 
 ```cpp
 /**************************************************************************
@@ -509,7 +512,7 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 }
 ```
 
-Código arduino arreglado 
+### Código arduino arreglado 
 
 ```cpp
 #include <SPI.h>
@@ -697,7 +700,41 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 
 ## Encargos
 
-- elegir poema (Alfonsina Storni)
+- elegir poema
+
+¿Qué diría? → Alfonsina Storni
+
+¿Qué diría la gente, recortada y vacía,
+Si en un día fortuito, por ultrafantasía,
+Me tiñera el cabello de plateado y violeta,
+Usara peplo griego, cambiara la peineta
+Por cintillo de flores: miosotis o jazmines,
+Cantara por las calles al compás de violines,
+O dijera mis versos recorriendo las plazas,
+Libertado mi gusto de vulgares mordazas?
+¿Irían a mirarme cubriendo las aceras?
+¿Me quemarían como quemaron hechiceras?
+¿Campanas tocarían para llamar a misa?
+En verdad que pensarlo me da un poco de risa.
+
+
+Queja
+
+Señor, mi queja es ésta,
+Tú me comprenderás;
+De amor me estoy muriendo,
+Pero no puedo amar.
+Persigo lo perfecto
+En mí y en los demás,
+Persigo lo perfecto
+Para poder amar.
+Me consumo en mi fuego,
+¡Señor, piedad, piedad!
+De amor me estoy muriendo,
+¡Pero no puedo amar.
+
+Poemas sacados de  →  https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
+
 
 - describir en texto lo que queremos hacer
   
