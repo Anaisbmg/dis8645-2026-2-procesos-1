@@ -65,11 +65,11 @@ SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
   <tr>
     <td align="center">
       <b>Conexiones analógicas</b><br><br>
-      <img src="img/prueba1.jpg" width="300" alt="Conexiones analógicas">
+      <img src="img/prueba1.jpg" width="300" alt="prueba1.jpg">
     </td>
     <td align="center">
       <b>Conexiones GND y VCC</b><br><br>
-      <img src="img/prueba2.jpg" width="300" alt="Conexiones GND y VCC">
+      <img src="img/prueba2.jpg" width="300" alt="prueba2.jpg">
     </td>
   </tr>
   
@@ -77,7 +77,7 @@ SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
   <tr>
     <td align="center" colspan="2">
       <b>Todas las conexiones</b><br><br>
-      <img src="img/prueba3.jpg" width="620" alt="Todas las conexiones">
+      <img src="img/prueba3.jpg" width="620" alt="prueba3.jpg">
     </td>
   </tr>
 </table>
