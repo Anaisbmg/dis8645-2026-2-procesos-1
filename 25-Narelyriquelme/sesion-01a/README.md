@@ -124,6 +124,6 @@ El profe entregó a cada estudiante un libro de una colección, para leer como m
 
 ### John Cage — *Anarchy* (1988), p. v
 
-- **Qué entendí:** En esta página, Cage cuenta cómo llegó a admirar las ideas de Buckminster Fuller sobre organizar el mundo según las necesidades humanas y no según fronteras políticas. Usa el ejemplo de una isla en Hawái, donde un túnel unió a dos tribus que antes estaban en guerra, para defender la idea de que no necesitamos gobiernos, solo garantizar servicios básicos a todos.
-- **Cita interesante:** "That government is best which governs not at all" (Thoreau, citado por Cage, p. v).
+- **Qué entendí:** En la primera página, Cage cuenta cómo llegó a admirar las ideas de Buckminster Fuller sobre organizar el mundo según las necesidades humanas y no según fronteras políticas. Usa el ejemplo de una isla en Hawái, donde un túnel unió a dos tribus que antes estaban en guerra, para defender la idea de que no necesitamos gobiernos, solo garantizar servicios básicos a todos.
+- **Cita interesante:** "That government is best which governs not at all"
 - **Reflexión personal:** Me pareció fuerte la idea de que el problema no es la falta de recursos, sino cómo los repartimos y protegemos con "fronteras imaginarias". Es una lectura densa por el inglés, pero el ejemplo de la isla lo hace bien concreto y fácil de visualizar.
