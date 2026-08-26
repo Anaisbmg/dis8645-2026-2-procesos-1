@@ -40,10 +40,43 @@ GND → tierra
 VCC → voltaje 
 
 
-Fotos claseee primeras fotos 
+### Arduino UNO R4 Minima Pinout
+
+![pinesmini](./imagenes/pinesmini.png)
 
 
-código de ejemplo arduino
+Imagen sacada de → https://lastminuteengineers.com/arduino-uno-r4-minima-pinout/
+
+
+
+### Ejemplo de Arduino
+
+![example](./imagenes/example.png)
+
+
+
+### Fotos del proceso en clases
+
+SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
+
+
+<table>
+  <tr>
+    <th>Conexiones analógicas</th>
+    <th>Conexiones GND y VCC</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="970" height="638" alt="prueba1.jpg" src="./imagenes/prueba1.jpg" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="prueba2.jpg" src="./imagenes/prueba2.jpg" />
+    </td>
+  </tr>
+</table>
+
+
+### Código de ejemplo arduino
 
 ```cpp
 /**************************************************************************
@@ -470,7 +503,8 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
   }
 }
 ```
-codigo arduino arreglado 
+
+### Código arduino arreglado 
 
 ```cpp
 #include <SPI.h>
@@ -650,14 +684,49 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 }
 ```
 
-fotos clase con el SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
 
-video con pantalla funcionando 
+### Video con pantalla funcionando 
+
+![pantalla](./imagenes/pantalla.gif)
 
 
-## encargos
+## Encargos
 
-- elegir poema (Alfonsina Storni)
+- elegir poema
+
+¿Qué diría? → Alfonsina Storni
+
+¿Qué diría la gente, recortada y vacía,
+Si en un día fortuito, por ultrafantasía,
+Me tiñera el cabello de plateado y violeta,
+Usara peplo griego, cambiara la peineta
+Por cintillo de flores: miosotis o jazmines,
+Cantara por las calles al compás de violines,
+O dijera mis versos recorriendo las plazas,
+Libertado mi gusto de vulgares mordazas?
+¿Irían a mirarme cubriendo las aceras?
+¿Me quemarían como quemaron hechiceras?
+¿Campanas tocarían para llamar a misa?
+En verdad que pensarlo me da un poco de risa.
+
+
+Queja
+
+Señor, mi queja es ésta,
+Tú me comprenderás;
+De amor me estoy muriendo,
+Pero no puedo amar.
+Persigo lo perfecto
+En mí y en los demás,
+Persigo lo perfecto
+Para poder amar.
+Me consumo en mi fuego,
+¡Señor, piedad, piedad!
+De amor me estoy muriendo,
+¡Pero no puedo amar.
+
+Poemas sacados de  →  https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
+
 
 - describir en texto lo que queremos hacer
   
