@@ -14,6 +14,12 @@ pantalla LCD Oled 0.91" I2C
 - sda -- señal de datos
 - BIBLIOTECA no librería
 - instalar bibliotecas SSD1306/ Adafruit SSD1306
+- borrar de una forma no destructiva -- comentar
+
+poesía + computación
+Ramsey Nasser
+Allison Parrish
+Nick Montfort
 
 utilizamos dos ejemplos para utilizar en la pantalla LCD, el cual los subimos desde Arduino IDE 
 
