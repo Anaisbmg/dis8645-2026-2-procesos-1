@@ -172,4 +172,4 @@ fin función
 
 ## lectura
 
-_(Pendiente: agregar las páginas leídas de "Anarchy" de John Cage durante esta semana)_
+Pendiente: agregar las páginas leídas de "Anarchy" de John Cage durante esta semana
