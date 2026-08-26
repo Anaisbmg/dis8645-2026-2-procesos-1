@@ -61,27 +61,19 @@ SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
 
 
 <table>
-  <!-- Fila 1: Las primeras dos imágenes -->
   <tr>
-    <td align="center">
-      <b>Conexiones analógicas</b><br><br>
-      <img src="img/prueba1.jpg" width="300" alt="prueba1.jpg">
-    </td>
-    <td align="center">
-      <b>Conexiones GND y VCC</b><br><br>
-      <img src="img/prueba2.jpg" width="300" alt="prueba2.jpg">
-    </td>
+    <th>Conexiones analógicas</th>
+    <th>Conexiones GND y VCC</th>
   </tr>
-  
-  <!-- Fila 2: La tercera imagen centrada y abajo -->
   <tr>
-    <td align="center" colspan="2">
-      <b>Todas las conexiones</b><br><br>
-      <img src="img/prueba3.jpg" width="620" alt="prueba3.jpg">
+    <td align="center">
+<img width="970" height="638" alt="prueba1.jpg" src="./imagenes/prueba1.jpg" />
+    </td>
+    <td align="center">
+<img width="400" height="711" alt="prueba2.jpg" src="./imagenes/prueba2.jpg" />
     </td>
   </tr>
 </table>
-
 
 
 ### Código de ejemplo arduino
