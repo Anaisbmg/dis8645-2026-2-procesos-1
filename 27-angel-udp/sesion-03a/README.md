@@ -21,7 +21,32 @@ Controlador: SSD1306.
 
 Para borrar, es importante no dejar un murciélago flotando para borrar y no destruir el código.
 
+![Foto proceso](./imagenes/proceso-en-clase.jpeg)
+
 ## encargos
+
+y aunque no hubo encargo este fue el aporte que hice para el grupo en cuanto a la distribución del poema que queremos implementar para el encargo:
+
+este poema nada puede resolver
+adentro del poema la muerte se consume
+// disolver este extracto por palabras y que cada vez sea menos visible
+
+ya, dilo de nuevo, el porcentaje de pureza mezclado con un poco de sol,
+con un poco de hambre
+// que aparezcan letras o palabras que luego vayan desapareciendo en el orden que salieron ej: 1,2,3 luego se van: ,2,3 y luego , ,3 hasta quedar en nada: , , y aparezcan las otras palabras
+
+todo acaba aquí y de pronto no,
+// puede aparecer un espacio grande con letra “size 1” donde haya un espacio gigante entre (todo acaba aquí) y (y de pronto no,)
+
+un nuevo servidor, un poema electrónico, un mesías
+// que aparezca pequeña letra por letra y la palabra “electrónico” sea más grande y un MESÍAS aparezca con contraste de letras negras y fondo blanco
+
+poema bajando desde el cielo
+// que vaya de arriba a abajo en sentido inverso para que se lea en orden
+
+sólo los elegidos contemplan su propia destrucción
+no, en serio, este poema nada puede resolver
+// aparece todo el párrafo y se van yendo las palabras hacia arriba una por una hasta que solo queda en la pantalla: “este poema nada puede resolver”
 
 ## lectura
 
