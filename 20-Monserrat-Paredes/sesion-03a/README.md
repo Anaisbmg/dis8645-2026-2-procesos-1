@@ -690,49 +690,125 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 ![pantalla](./imagenes/pantalla.gif)
 
 
+### Recordar (pensados en el poema)
+
+const → arriba de todo, en las constantes (pines, tamaños, tiempos).
+
+int → en las variables de números enteros (posiciones, cantidad de versos).
+
+float → en posicionHorizontal y velocidad, donde se necesitan decimales.
+
+char → en modoActual, que guarda 'V' o 'H'.
+
+String → en los versos y el poema completo.
+
+AND (&&) → en la validación del botón (debe estar presionado y haber pasado el tiempo de rebote).
+
+OR (||) → al decidir cuándo redibujar (cambió el modo o ya toca mover el texto).
+
+NOT (!) → al invertir el modo (!esHorizontal) y al revisar si la pantalla no encendió.
+
+loop() → tiene su propio comentario arriba explicando que se repite sin parar mientras el Arduino tenga energía.
+
+
 ## Encargos
 
 - elegir poema
 
 ¿Qué diría? → Alfonsina Storni
 
-¿Qué diría la gente, recortada y vacía,
+¿Qué diría la gente, recortada y vacía, 
+
 Si en un día fortuito, por ultrafantasía,
+
 Me tiñera el cabello de plateado y violeta,
+
 Usara peplo griego, cambiara la peineta
+
 Por cintillo de flores: miosotis o jazmines,
+
 Cantara por las calles al compás de violines,
+
 O dijera mis versos recorriendo las plazas,
+
 Libertado mi gusto de vulgares mordazas?
+
 ¿Irían a mirarme cubriendo las aceras?
+
 ¿Me quemarían como quemaron hechiceras?
+
 ¿Campanas tocarían para llamar a misa?
+
 En verdad que pensarlo me da un poco de risa.
 
 
 Queja
 
 Señor, mi queja es ésta,
+
 Tú me comprenderás;
+
 De amor me estoy muriendo,
+
 Pero no puedo amar.
+
 Persigo lo perfecto
+
 En mí y en los demás,
+
 Persigo lo perfecto
+
 Para poder amar.
+
 Me consumo en mi fuego,
+
 ¡Señor, piedad, piedad!
+
 De amor me estoy muriendo,
+
 ¡Pero no puedo amar.
 
 Poemas sacados de  →  https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
 
 
+Análisis:
+
+"¿Qué diría?" → habla de romper el molde, del miedo al juicio ajeno, de la libertad de expresarse aunque "se rían" o "la quemen como hechicera". Es un poema de movimiento, riesgo, exposición.
+
+"Queja" → habla de perfeccionismo que impide amar, de consumirse en el propio fuego por exigir perfección. Es un poema de contención, control, tensión interna.
+
+
 - describir en texto lo que queremos hacer
+
+¿Qué queremos que pase?
+
+Lo que queremos es que lo que se proyecte en la pantalla represente el poema, por ende, puede ser que solo se proyecten ciertas palabras y no todo el texto.
+
+1. Que la velocidad del texto cambie según la perilla del potenciómetro.
+
+2. A través de un botón, tener la posibilidad de detenerlo y/o cambiar la dirección del poema.
+
+3. Que a ciertas palabras del poema se les pueda bajar o subir la opacidad con el potenciómetro.
+
   
 - describir como queremos hacerlo
 
+perfeccionismo = control = pausar/reanudar (botón)
+
+cambio = velocidad de reproducción (potenciómetro)
+
+cambio = dirección del texto (botón)
+
+dirección inicial del texto: arriba hacia abajo
+
+cambio de dirección 1: de izquierda a derecha
+
+cambio de dirección 2: de derecha a izquierda
+
+
 - Dubujar (diagrama de flujo)
+
+
   
 - programar en c++
 
@@ -752,6 +828,57 @@ II. G-E-S-T-A-L-T
 
 III. I-N-T-E-R-F-A-C-E
 
+
 Bloque 1: Introducción (páginas 15-17) 
 
 El autor plantea las bases de lo que significa enseñar diseño gráfico hoy. Introduce la idea de que el diseño no se trata de "estilo" o decoración, sino de sistemas, reglas y tecnología aplicadas a la comunicación.
+
+
+1. Tema central
+
+Reinfurt explica que el libro es la transcripción de tres días de clases dictadas en Princeton (Typography, Gestalt, Interface). Aclara que no es un manual de reglas, sino una colección personal de modelos y referencias. Cuenta el origen del curso y defiende el diseño gráfico como "liberal art", no como simple oficio técnico.
+
+
+2. Análisis
+
+El libro no fue escrito primero, fue hablado (clase → video → transcripción → libro). El conocimiento de diseño acá no nace como texto fijo, sino como proceso oral en vivo. Es diseño de contenido pensado como flujo, no como objeto terminado.
+Reinfurt prefiere "modelar" antes que "instruir". No da reglas fijas, da ejemplos para que el estudiante arme su propio sistema. Es la misma lógica que después aplica a tipografía e interfaces: no hay una solución correcta, hay restricciones dentro de las cuales cada uno construye su lógica.
+
+El diseño gráfico "no tiene materia propia", siempre trabaja sobre contenido ajeno (texto, imágenes, datos de otros). Esto lo convierte en un método o protocolo, no en una disciplina con objeto propio como la pintura. Es diseño como capa intermedia entre sistemas de conocimiento, no como fin en sí mismo.
+
+La estructura de los tres cursos no es azarosa: va de lo simple a lo complejo (letra → forma visual → sistema computacional). Es una arquitectura curricular en capas, como un software que escala de lo atómico a lo modular.
+
+
+3. Glosario
+
+| Término (Inglés) | Traducción (Español) | Explicación |
+| :--- | :--- | :--- |
+| Liberal art | Arte liberal | Disciplina de estudio libre, no atada a un oficio. |
+| Subject matter | Materia de estudio | Contenido propio de una disciplina. |
+| Unmoored | Desanclado | Libre, sin objeto fijo que lo ate. |
+| Slide lecture | Clase con diapositivas | Clase expositiva con proyección de imágenes. |
+| Ballast | Lastre | Estabilidad interna frente a presiones externas. |
+| Idiosyncratic | Idiosincrático | Particular de una visión individual. |
+| Ad hoc | Ad hoc | Hecho para una ocasión específica. |
+| Discursive ramble | Divagación discursiva | Texto libre, sin estructura rígida. |
+
+
+4.  Citas
+   
+Cita 1 (p. 15)
+
+Inglés: "This is an experiment—that's the first thing to know. And everybody here is part of it. It's maybe a harebrained idea to perform a book rather than write one, but here it is."
+
+Español: "Esto es un experimento —eso es lo primero que hay que saber. Y todos aquí forman parte de él. Quizás sea una idea disparatada actuar un libro en vez de escribirlo, pero aquí está."
+
+Análisis: Reinfurt no oculta el proceso de producción del libro, lo expone. El texto conserva las marcas de su origen oral. Es transparencia de método, no autoridad de texto terminado.
+
+Cita 2 (pp. 15-16)
+
+Inglés: "Instead, graphic design can be treated as a liberal art, by which I mean a subject to study, a body of knowledge that, when mastered, informs everything else you think about. Perhaps it's the most liberal of arts—it has no real subject matter of its own, and graphic design is always working with outside content."
+
+Español: "En cambio, el diseño gráfico puede tratarse como un arte liberal, con lo que quiero decir un objeto de estudio, un cuerpo de conocimiento que, al dominarse, informa todo lo demás que pensás. Quizás sea el más liberal de los artes —no tiene una materia propia real, y siempre está trabajando con contenido ajeno."
+
+Análisis: Define el diseño gráfico como sistema que procesa contenido externo, no contenido propio. Es la misma lógica de una interfaz: no genera datos, los organiza.
+
+
