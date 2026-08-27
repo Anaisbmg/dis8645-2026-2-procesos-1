@@ -6,8 +6,26 @@
 
 1. Funciones y su función (lol)
 
-   |Función|Lo que hace |
-   ---------|------
+## Funciones utilizadas
+
+| Función | Qué hace |
+|---|-----|
+| `Wire.h` | Habilita la comunicación **I2C** (necesaria porque la pantalla usa I2C, no SPI) |
+| `Adafruit_SSD1306 display(...)` | Crea el objeto `display`, vinculado a la resolución de la pantalla |
+| `display.begin(...)` | Inicializa la pantalla y la conexión I2C — debe tener éxito o nada funciona |
+| `display.clearDisplay()` | Borra el buffer interno de dibujo (en RAM), **no** la pantalla física todavía |
+| `display.setTextSize(n)` | Escala el tamaño de la letra multiplicando por un número entero |
+| `display.setTextColor(...)` | Define el color del píxel (casi siempre `SSD1306_WHITE` en OLEDs monocromáticas) |
+| `display.setCursor(x, y)` | Define dónde empieza el próximo texto o dibujo |
+| `display.println(...)` / `display.print(...)` | Escribe texto en el buffer |
+| `display.getTextBounds(...)` | Calcula el ancho/alto en píxeles de un texto antes de dibujarlo (útil para centrar o alinear) |
+| `display.display()` | Envía el buffer a la pantalla física — nada se muestra sin esto |
+| `display.invertDisplay(true/false)` | Invierte los colores de la pantalla (blanco↔negro) como efecto visual |
+| `Serial.begin(9600)` | Inicia la comunicación serial con la computadora, a 9600 baudios, para depuración (debug) |
+| `F("texto")` | Guarda el texto en memoria Flash en vez de RAM, para ahorrar memoria RAM (muy limitada en microcontroladores) |
+| `display.cp437(true)` | Activa el set extendido de caracteres "Code Page 437" (símbolos adicionales, no solo ASCII básico) |
+| `display.write(i)` | Escribe un solo carácter (por su código numérico) en el buffer |
+| `for(;;);` | Bucle infinito vacío — congela el programa ahí (se usa cuando algo falla y no se debe continuar) |
 
 
 ```cpp
