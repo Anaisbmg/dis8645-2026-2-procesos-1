@@ -690,32 +690,12 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 ![pantalla](./imagenes/pantalla.gif)
 
 
-### Recordar (pensados en el poema)
-
-const → arriba de todo, en las constantes (pines, tamaños, tiempos).
-
-int → en las variables de números enteros (posiciones, cantidad de versos).
-
-float → en posicionHorizontal y velocidad, donde se necesitan decimales.
-
-char → en modoActual, que guarda 'V' o 'H'.
-
-String → en los versos y el poema completo.
-
-AND (&&) → en la validación del botón (debe estar presionado y haber pasado el tiempo de rebote).
-
-OR (||) → al decidir cuándo redibujar (cambió el modo o ya toca mover el texto).
-
-NOT (!) → al invertir el modo (!esHorizontal) y al revisar si la pantalla no encendió.
-
-loop() → tiene su propio comentario arriba explicando que se repite sin parar mientras el Arduino tenga energía.
-
-
 ## Encargos
 
-- elegir poema
+- elegir poema → Alfonsina Storni
 
-¿Qué diría? → Alfonsina Storni
+
+**¿Qué diría?** 
 
 ¿Qué diría la gente, recortada y vacía, 
 
@@ -742,7 +722,7 @@ Libertado mi gusto de vulgares mordazas?
 En verdad que pensarlo me da un poco de risa.
 
 
-Queja
+**Queja**
 
 Señor, mi queja es ésta,
 
