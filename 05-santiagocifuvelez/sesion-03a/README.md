@@ -2,10 +2,7 @@
 
 ## apuntes sesión
 
-## Ejercicio con mi equipo <3
-
-1. Funciones y su función (lol)
-
+# Ejercicio con mi equipo <3
 ## Funciones utilizadas
 
 | Función | Qué hace |
