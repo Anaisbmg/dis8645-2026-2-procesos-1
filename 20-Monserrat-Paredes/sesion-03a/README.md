@@ -67,10 +67,10 @@ SDA Y SCL conectados → visualizar pantalla con codigo de ejemplo
   </tr>
   <tr>
     <td align="center">
-<img width="970" height="638" alt="prueba1.jpg" src="./imagenes/prueba1.jpg" />
+<img width="970" height="700" alt="prueba1.jpg" src="./imagenes/prueba1.jpg" />
     </td>
     <td align="center">
-<img width="400" height="711" alt="prueba2.jpg" src="./imagenes/prueba2.jpg" />
+<img width="970" height="700" alt="prueba2.jpg" src="./imagenes/prueba2.jpg" />
     </td>
   </tr>
 </table>
