@@ -118,17 +118,17 @@ Estas pantallas fueron la norma por muchos años, debido a su facilidad de uso g
 
 | Cantidad de segmentos | Imagen de ref. |
 | --------------------- | -------------- |
-| 7                     | <img src="./imagenes/ps_06.jpg" width="100" /> |
-| 8                     | <img src="./imagenes/ps_05.webp" width="100" /> |
-| 9                     | <img src="./imagenes/ps_07.gif" width="100" /> |
-| 14                    | <img src="./imagenes/ps_08.webp" width="100" /> |
-| 16                    | <img src="./imagenes/ps_09.jpg" width="100" /> |
+| 7                     | <img src="./imagenes/ps-06.jpg" width="100" /> |
+| 8                     | <img src="./imagenes/ps-05.webp" width="100" /> |
+| 9                     | <img src="./imagenes/ps-07.gif" width="100" /> |
+| 14                    | <img src="./imagenes/ps-08.webp" width="100" /> |
+| 16                    | <img src="./imagenes/ps-09.jpg" width="100" /> |
 
 ##### Tabla de verdad
 
 Lo más común es utilizar pantallas de 7 segmentos (según mi observación) y para poder activarlos se utiliza la siguiente tabla de referencia
 
-![Ref](./imagenes/ps_03.webp)
+![Ref](./imagenes/ps-03.webp)
 
 | N° | a | b | c | d | e | f | g |
 | -- | - | - | - | - | - | - | - |
@@ -149,21 +149,21 @@ Lo más común es utilizar pantallas de 7 segmentos (según mi observación) y p
 
 Adjunto una prueba de circuito en el que hacer funcionar el display
 
-![Ref](./imagenes/ps_02.png)
+![Ref](./imagenes/ps-02.png)
 
 ##### Cátodo común / Ánodo Común
 
 Existe un aspecto técnico de estos displays que es importante tener en cuenta, como se configuran sus _positivos_ y _negativos_. En el de cátodo común, todos los negativos van unidos a un pin _negativo_ (GND) y se encienden con voltaje positivo y en el de ánodo común, todos los positivos van unidos a _positivo_ (VCC) y se encienden enviando tierra
 
-![Ref](./imagenes/ps_10.jpg)
+![Ref](./imagenes/ps-10.jpg)
 
 ##### Otros idiomas 
 
 Existen displays adaptados a diferentes alfabetos, por ejemplo en la siguiente imagen se ve uno adaptado a japones, cirílico, griego, entre otros
 
-![Ref](./imagenes/ps_12.jpg)
+![Ref](./imagenes/ps-12.jpg)
 
-![Ref](./imagenes/ps_11.jpg)
+![Ref](./imagenes/ps-11.jpg)
 
 <br>
 
@@ -177,9 +177,9 @@ Es necesario mencionar que esta pantalla además cuenta con íconos que compleme
 
 > Se debe tener en cuenta que este modelo es cercano a los años 2000
 
-<img src="./imagenes/ps_13.jpeg" width="400" />
+<img src="./imagenes/ps-13.jpeg" width="400" />
 
-<img src="./imagenes/ps_14.jpeg" width="400" />
+<img src="./imagenes/ps-14.jpeg" width="400" />
 
 <br>
 
@@ -187,7 +187,7 @@ Es necesario mencionar que esta pantalla además cuenta con íconos que compleme
 
 Ubicado en el comedor de Republica 180, este display a diferencia del anterior posee 7 segmentos, cuenta con menos símbolos y sin retroiluminación. Esta elección de elementos está considerando que un microondas no excede de los 2 minutos aproximados de uso en promedio
 
-<img src="./imagenes/ps_15.jpeg" width="400" />
+<img src="./imagenes/ps-15.jpeg" width="400" />
 
 <br>
 
@@ -195,7 +195,7 @@ Ubicado en el comedor de Republica 180, este display a diferencia del anterior p
 
 A pocos metros del microondas encontramos un indicador de piso en el ascensor, el cual contaba con una pantalla de 7 segmentos. La más sencilla de las demás, ya que su uso no pasa de los pocos segundos y no hay necesidad de añadir tantos elementos, sumado a la poca información que se debe presentar.
 
-<img src="./imagenes/ps_16.jpeg" width="400" />
+<img src="./imagenes/ps-16.jpeg" width="400" />
 
 <br>
   
