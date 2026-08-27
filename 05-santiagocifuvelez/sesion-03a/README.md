@@ -101,7 +101,7 @@ void setup() {
       display.setTextSize(2); //tamaño de la letra
       display.setTextColor(SSD1306_WHITE);
       display.setCursor(1, 4); //esta es la posición en x,y
-      display.println(F("que rica tu agua"));
+      display.println(F("que rica tu agua")); //recordad que la "F", siempre va igual para que no se nos tueste la RAM del Arduino.
       display.display();  // muestra el texto en pantalla
       delay(2000);
     }
