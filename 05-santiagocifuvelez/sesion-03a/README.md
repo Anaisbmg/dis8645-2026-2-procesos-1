@@ -3,6 +3,13 @@
 ## apuntes sesión
 
 ## Ejercicio con mi equipo <3
+
+1. Funciones y su función (lol)
+
+   |Función|Lo que hace |
+   ---------|------
+
+
 ```cpp
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
