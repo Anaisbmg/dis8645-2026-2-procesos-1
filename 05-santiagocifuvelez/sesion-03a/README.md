@@ -50,8 +50,6 @@ void setup() {
   display.clearDisplay();
 
 
-
-
   testdrawstyles(); // llama a la función (ya definida más abajo)
 
 //si no quieres poner lo de la animación de cambiar de color que está en el
