@@ -2,6 +2,33 @@
 
 ## apuntes sesión
 
+25.08.26
+Entrega de materiales por grupo.
+Elegir un poeta para el viernes porque lo vamos a tributar (menos Pablo Neruda).
+I2C para conectar 4 patitas a la pantalla.
+Pantalla OLED monocromática de 0.91 pulgadas con controlador SSD1306: conectar las patitas en distintas filas. Primero conectar a tierra (GND) (SCK y SDA) señal de datos y señal clock
+
+En arduino ide en la biblioteca buscamos adafruit SSD1306 y lo instalamos. 
+A vuelta de vacaciones aprenderemos a escribir archivos .h y .cpp 
+
+
+
+#deffine variable para escribir en palabras humanas y un valor que se pone 
+
+SDA A4 pasan los datos *cable amarillo
+SCL A5 reloj clock *cable azul
+
+
+
+(videos de prueba con el código modificado del profe)
+
+
+0) describir en texto (parrafos)
+describir en coreografias 
+dibujar
+programar en c++
+
+
 # Ejercicio con mi equipo <3
 ## Funciones utilizadas
 
