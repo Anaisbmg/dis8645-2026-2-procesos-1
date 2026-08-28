@@ -13,6 +13,7 @@
 //pantalla LCD Oled 0,91" I2C
 //resistencia de 10k
 //cable usb/C
+//cable dupont
 
 // conexiones
 //potenciometro
