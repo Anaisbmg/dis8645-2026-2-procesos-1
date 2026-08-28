@@ -51,6 +51,13 @@ Lo malo: Consume y fragmenta mucha memoria RAM. Si lo usas mal o cambias el text
 
 - String (con mayúscula): Es un objeto avanzado de C++. Te da superpoderes para modificar, unir y buscar texto fácilmente, pero gasta y fragmenta mucha memoria RAM, por lo que puede hacer que placas pequeñas colapsen si se usa mal.
 
+Se agregran las comillas → ¿Se usa una comilla (') o dos (")?
+
+Dos comillas (" ") Para textos (Cadenas / Strings): Se usan siempre que quieras escribir una palabra, una frase o un texto completo (aunque sea una sola letra).
+
+Para un solo carácter (char): Se usan únicamente cuando estás guardando una sola letra o símbolo suelto dentro de una variable de tipo char.
+
+
 
 ejmplo 1 visto en clases (arduino)
 
@@ -152,13 +159,22 @@ for (int i = 0; i < 5; i++)
 
 i++ → lo que sea que valga i ahora vale 1 mas
 
+Seguir avanzando para el proyecto 1 → tenemos 2 opciones 
+
+Nos quedaremos con el poema 2
+
+Poema 2 "Queja" (perfeccionismo = control)
+
+
+
+
+
+
+
+
 
 ## encargos
  
-
-
-
-
 links vistos en clase:
 
 https://docs.arduino.cc/language-reference/en/variables/data-types/stringObject/
