@@ -644,7 +644,9 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 
 ### video de pantalla funcionando 
 
-**subir video**
+**subir video** pantalla-funcionando.mp4
+
+![pantalla funcionando](./imagenes/pantalla-funcionando.mp4)
 
 registro realizado por integrante de mi grupo Emilia Contreras/hazzaily
 
