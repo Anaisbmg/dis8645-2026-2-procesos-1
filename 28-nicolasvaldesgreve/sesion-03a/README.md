@@ -2,7 +2,42 @@
 
 ## apuntes sesión
 
+> demorarse menos y hacerlo mejor
+
+elegir un poeta antes del viernes al cual atributar. prohibido neruda por razones obvias...
+
+pantalla oled monocromatica 0.91 pulgadas controlador ssd1306
+
+
+conexiones siempre hacerlas sin alimentación! solo dar alimentación 
+
+SDA = señal de datos
+
+SCK = señal de clock
+
+.h son promesas de campaña
+.cpp son archivos con responsabilidad computacional y emocional
+
+Ramsey nasser
+
+Allison parrish
+
+Nick Montfort
+
+criti.ca (mateo the goat hizo la práctica)
+
+design system internationals
+
+taller dínamo
+
+MiCXV
+
+
+Aprendí de la vida a quererte de igual modo, a amar este equilibrio nuestro, la igualdad de latido, a confiar sin atender al tiempo que tarda uno en encontrar la calma, a buscar lo urgente sin ninguna prisa, y a llegar a casa, y que mi casa sea mi casa porque tú me esperas, y que tu casa sea tu casa porque siempre vuelvo.
+
+
 # Ejercicio con mi equipo <3
+
 ## Funciones utilizadas
 
 | Función | Qué hace |
