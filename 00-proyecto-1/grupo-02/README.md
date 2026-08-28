@@ -123,37 +123,42 @@ const int potePatita = A0; //Aquí el Arduino reconoce el potenciómetro por la 
 int poteLectura = -1; //El valor que se va a recibir en caso tal de que este mal conectado. Sí es que esta mal conectado, sale un -1 en el monitor serial. Pero si esta conectado, sale un numero desde el 0 hasta el 1024. 
 int poteFiltrado = -1; //Estabiliza y que no hayan cambios tan súbitos cuando no se está movimiento el potenciómetro. 
 
-const char poem[] =  //La palabra string, no la vamos a usar, porque “string”, es propio de Arduino.
-                     //Vamos a usar “char", la cual se puede usar en Raspberiii o cualquier otro lugarcito. 
-"Aprendi de la vida\n"
-"a quererte\n"
-"de igual modo,\n"
+
+//La palabra string, no la vamos a usar, porque “string”, es propio de Arduino.
+//Vamos a usar “char", la cual se puede usar en Raspberiii o cualquier otro lugarcito. 
+//ponemos const para convertir una variable en un valor fijo de solo lectura que no puede cambiar mientras el programa corre.
+
+char *elviraVesos[] = { 
+"Aprendi de la vida"
+"a quererte"
+"de igual modo,"
 "\n"
-"a amar este\n"
-"equilibrio nuestro,\n"
+"a amar este"
+"equilibrio nuestro,"
 "\n"
-"la igualdad\n"
-"de latido,\n"
+"la igualdad"
+"de latido,"
 "\n"
-"a confiar\n"
-"sin atender el tiempo\n"
+"a confiar"
+"sin atender el tiempo"
 "\n"
-"que tarda uno\n"
-"en encontrar\n"
-"la calma,\n"
+"que tarda uno"
+"en encontrar"
+"la calma,"
 "\n"
-"a buscar lo urgente\n"
-"sin ninguna prisa,\n"
+"a buscar lo urgente"
+"sin ninguna prisa,"
 "\n"
-"y a llegar a casa,\n"
+"y a llegar a casa,"
 "\n"
-"y que mi casa\n"
-"sea mi casa\n"
-"porque tu me esperas\n"
+"y que mi casa"
+"sea mi casa"
+"porque tu me esperas"
 "\n"
-"y que tu casa\n"
-"sea tu casa\n"
-"porque siempre vuelvo";
+"y que tu casa"
+"sea tu casa"
+"porque siempre vuelvo"
+};
 
 int totalLines = 30; //no son las lineas de este código,
 int lineHeight = 8;  //sino que son la cantidad de líneas que se muestran en la pantalla (contando los \n)
