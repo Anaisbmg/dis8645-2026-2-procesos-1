@@ -10,6 +10,8 @@ que se muestre un verso cada 2 segundos en pantalla, de derecha a izq.
    se muestra el tercer verso con la palabra CANCIÓN en testdrawstyles con otra tipografía;
   cuarto verso y se muestra la palabra JAMÁS en mayusculas
 
-1.colocar include y definir los parametros de la pantalla, cantidad de letras que caben, blablabla
-2.necesitamos iniciar de la pantalla 
+1. colocar include y definir los parametros de la pantalla, cantidad de letras que caben.
+
+2. necesitamos iniciar de la pantalla 
+
 3. definir la aparición de cada verso con su tiempo en pantalla
