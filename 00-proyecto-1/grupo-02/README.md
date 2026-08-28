@@ -118,10 +118,10 @@ const unsigned char* epd_bitmap_allArray[1] = {
 //Aquí.
 
 
-const int tasa = 9600; //se establecen los baudios
+const int tasa = 9600; //se establecen los baudios en esta "resolución" para la velocidad de lectura del arduino a los demás componentes.
 const int potePatita = A0; //Aquí el Arduino reconoce el potenciómetro por la entrada análoga A0
-int poteLectura = -1; //pendiente ver para que era esto, creo que era más estabilidad, pero hay que investigar bien.
-int poteFiltrado = -1; //pendiente ver para que era esto, creo que era más estabilidad, pero hay que investigar bien.
+int poteLectura = -1; //El valor que se va a recibir en caso tal de que este mal conectado. Sí es que esta mal conectado, sale un -1 en el monitor serial. Pero si esta conectado, sale un numero desde el 0 hasta el 1024. 
+int poteFiltrado = -1; //Estabiliza y que no hayan cambios tan súbitos cuando no se está movimiento el potenciómetro. 
 
 const char poem[] =  // hay que investigar arrays y strings
 "Aprendi de la vida\n"
