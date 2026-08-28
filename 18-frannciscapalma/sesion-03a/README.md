@@ -8,17 +8,23 @@ Elegir un poeta para el viernes porque lo vamos a tributar (menos Pablo Neruda).
 I2C para conectar 4 patitas a la pantalla.
 Pantalla OLED monocromática de 0.91 pulgadas con controlador SSD1306: conectar las patitas en distintas filas. Primero conectar a tierra (GND) (SCK y SDA) señal de datos y señal clock
 
+![pantalla conectada](./imagenes/pantalla-conectada.png)
+
 En arduino ide en la biblioteca buscamos adafruit SSD1306 y lo instalamos. 
 A vuelta de vacaciones aprenderemos a escribir archivos .h y .cpp 
 
+Selección de ssd1306_128x32_i2c
 
+![ssd1306_128x32_i2c](./imagenes/seleccion-ssd.png)
 
 #deffine variable para escribir en palabras humanas y un valor que se pone 
+
+![deffine](./imagenes/deffine.png)
 
 SDA A4 pasan los datos *cable amarillo
 SCL A5 reloj clock *cable azul
 
-
+![conexion de los cables](./imagenes/cables-conexion.png)
 
 (videos de prueba con el código modificado del profe)
 
