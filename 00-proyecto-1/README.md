@@ -11,6 +11,14 @@ la evaluación de cada estudiantes tendrá 6 puntos, divididos en 3 grupales y 3
 - crit-05: individual, bitácoras, incluyendo encargos y lecturas
 - crit-06: individual, bitácoras, incluyendo encargos y lecturas
 
+## condiciones ineludibles
+
+- carcasa de cartón
+- licencias explícitas del corpus usado
+- proceso constante en bitácoras personales
+- 3 versiones distintas mínimo dentro de carpeta código
+- revisar como referencia el proyecto-1 del 2025 <https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01>
+
 ## grupos
 
 hay 32 estudiantes en 10 grupos, los grupos son de 3 estudiantes, excepto los últimos dos que son de 4 estudiantes.
