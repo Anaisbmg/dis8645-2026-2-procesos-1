@@ -1,3 +1,4 @@
+```cpp
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
 //de aquí:
@@ -227,3 +228,4 @@ void setup() {
   int resultado = valor / divisor;
   return resultado;
 }
+```
