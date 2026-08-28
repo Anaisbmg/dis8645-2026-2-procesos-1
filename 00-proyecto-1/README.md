@@ -16,7 +16,7 @@ la evaluación de cada estudiantes tendrá 6 puntos, divididos en 3 grupales y 3
 - carcasa de cartón
 - licencias explícitas del corpus usado
 - proceso constante en bitácoras personales
-- 3 versiones distintas mínimo dentro de carpeta código
+- 3 versiones distintas mínimo dentro de carpeta codigos/
 - revisar como referencia el proyecto-1 del 2025 <https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01>
 
 ## grupos
