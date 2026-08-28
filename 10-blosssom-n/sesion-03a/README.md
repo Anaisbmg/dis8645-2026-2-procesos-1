@@ -2,6 +2,71 @@
 
 ## apuntes sesión
 
+
+Partimos viendo breadboard, tarjeta SD, botones y caimanes.
+
+Elegir poeta como grupo para el viernes 03b. No Neruda.
+
+
+Pantallas:
+
+
+las patitas tienen que ir perpendiculares a la mitad del breadboard.
+
+SCL = signal clock
+SDA = signal data
+
+esas dos son las más difíciles de ubicar/conectar.
+
+Nuestra pantalla: 128 x 32, I2C, Adafruit SSD1306.
+
+
+Libraries / bibliotecas:
+
+
+instalar Adafruit SSD1306 2.5.17.
+
+usar la de Adafruit porque tiene más probabilidad de funcionar bien. +1000 estrellas, +200 forks.
+
+#include = traer otro archivo/código para poder usarlo acá.
+
+#else = opción contraria al if. if si, else es si no basically
+
+
+Proyecto:
+
+
+documentar palabras + visual.
+
+investigar referentes.
+
+Para la pantalla pensamos que el poema podría partir más tranquilo y después ir subiendo en intensidad.
+
+
+
+Ideas generales:
+
+
+aparición lenta / rápida
+
+texto grande / pequeño
+
+izquierda a derecha / derecha a izquierda
+
+zoom en algunas palabras
+
+acumulación de texto
+
+pantalla vacía en pausas
+
+algún dibujo simple en píxeles
+
+No hacer una animación distinta para cada línea porque sería demasiado. Mejor repetir algunos movimientos según el tono.
+
+También pensamos que algunas frases podrían moverse según la acción que dicen, por ejemplo algo que gira, algo que aparece de golpe o una palabra que quede sola y grande.
+
+Falta ver qué de todo eso realmente podemos hacer sin complicarnos demasiado.
+
 ## encargos
 
 ## lectura pag 1-15
