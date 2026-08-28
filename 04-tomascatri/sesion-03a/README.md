@@ -181,5 +181,5 @@ Investigando alternativas para realizar las animaciones, descubrimos que la mejo
   Efecto de explosión de píxeles enfocado en la palabra **"elegidos"**.
 
 ## encargos
-
+PROBANDO IGNORAR
 ## lectura
