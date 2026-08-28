@@ -117,6 +117,7 @@ void setup() {
 void loop() {
   Serial.println(misVersos[0]);
 }
+```
 
 Importante: sólo se repite la primera línea
 
@@ -140,8 +141,6 @@ void loop() {
 Entre corchetes = [qué tan grande es el arreglo (array)] 
 
 ¿Cómo hacer strings en C++?
-
- - 
 
 ## encargos
 
