@@ -52,7 +52,7 @@ int edades[36] = {20, 21, 22, 23, 24}
 
 Otro ejemplo de las edades:
 
-```cpp
+```c++
 // declaracion de arreglo de enteros
 // que se llama edades
 int edades[3] = { 37, 22, 24 };
@@ -89,7 +89,7 @@ void loop() {
 ```
 Importante: 
 
-```
+```c++
 // un poemario
 // es un arreglo de paginas
 // una pagina es un arreglo de lineas
@@ -98,7 +98,7 @@ Importante:
 
 (*) = (pointer). Permiten hacer un arreglo de arreglos, para no preocuparnos por cuánto mide.
 
-```
+```c++
 char *misVersos[] = {
   "Mami, no te haga' de rogar",
   "No me gustaría perder el tiempo",
@@ -117,12 +117,13 @@ void setup() {
 void loop() {
   Serial.println(misVersos[0]);
 }
+```
 
 Importante: sólo se repite la primera línea
 
 En cambio, aquí se repiten las 5 líneas que componen un verso.
 
-```
+```c++
 void loop() {
 
   // recorrer el arreglo
@@ -140,8 +141,6 @@ void loop() {
 Entre corchetes = [qué tan grande es el arreglo (array)] 
 
 ¿Cómo hacer strings en C++?
-
- - 
 
 ## encargos
 
