@@ -43,6 +43,7 @@
 //push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0
 
 
+//citar a Elvira y poner que licencias de protección tienen sus obras.
 
 
 //Punto 2
