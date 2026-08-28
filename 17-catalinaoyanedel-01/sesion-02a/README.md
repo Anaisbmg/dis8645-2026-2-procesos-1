@@ -64,10 +64,109 @@ al correr el código y mover la perilla al máximo, tuvimos un error que aparece
 
 ![error](./imagenes/captura.png)
 
+__________________________________________________________________________________________________
 
 ## encargos
+- documentar estudio conjunto de C++, microcontroladores, botones, potenciómetros.
+
+### C++
+- "C++ es un lenguaje de programación diseñado en 1979 por bjarne stroustrup.
+- la intención de su creación fue extender al lenguaje de programación C y **añadir mecanismos que permiten la manipulación de objetos.**
+- desde el punto de vista de los lenguajes orientados a objetos, C++ es un lenguaje híbrido."
+- permite la agrupación de instrucciones.
+
+#### tipos de datos
+- caracteres: `char` (también es un entero), `wchar_t`
+- enteros: `short`, `int`, `long`, `long long`
+- números con coma: `float`, `double`, `long double`
+- booleanos (sí / no): `bool`
+- vacío: `void`
+
+#### tipado estático y multiparadigma
+- tipado estático significa que cada variable tiene un tipo conocido en tiempo de compilación, y el compilador comprueba tus tipos antes de que el programa siquiera se ejecute:
+- `count` es un `int` durante toda su vida; intentar almacenar `"hello"` en él no compilaría. esto detecta toda una clase de errores de forma temprana, a costa de tener que escribir más al principio.
+
+#### C y C++
+- C++ surgió de C en los años 80 como "C con clases", y sigue siendo en su mayoría un superconjunto: mucho código C válido compila como C++. pero el lenguaje ha crecido enormemente desde entonces.
+- C++ añade programación orientada a objetos, plantillas para código genérico, referencias, excepciones y una rica biblioteca estándar llena de herramientas listas para usar. **un error común de principiante es escribir C++ al estilo de C (memoria manual, arreglos crudos por todas partes) cuando la biblioteca estándar ya resuelve el problema por ti.**
+
+#### arduino framework
+- "serie de funciones, clases, estructuras, variables y constantes que simplifican el proceso de darle instrucciones al microcontrolador"
+
+### microcontroladores
+se pueden definir según su capacidad de bits o familia
+
+_definiciones de vista de ia:_
+#### capacidad de bits
+- **8 bits:**
+son los modelos más sencillos y de bajo costo, ideales para tareas básicas, control de electrodomésticos simples. (ej: ATmega328 en  Arduino)
+
+- 1**6 bits:**
+ofrecen mayor velocidad y precisión, usados en control industrial avanzado y sistemas de audio.
+
+- **32 bits:**
+son los más potentes, capaces de ejecutar tareas complejas como el procesamiento de señales, conectividad inalámbrica avanzada y gráficos (ej. ESP32 o STM32)
+
+#### según arquitectura y familia
+- **PIC (microchip):**
+populares por su facilidad de uso en sistemas embebidos básicos _(dispositivo de computación especializado que se diseña para realizar una función muy específica dentro de un sistema más grande)_ y analógicos.
+
+- **AVR (Atmel/Microchip):**
+arquitectura RISC de gran rendimiento, famosa por estar en las placas tradicionales de arduino.
+
+- **ARM:**
+diseños de alta eficiencia energética utilizados desde dispositivos vestibles hasta teléfonos inteligentes. (ej: RP2040 en rasperry pi pico)
+
+- **ESP (Espessif):**
+destacados por incluir wi-fi y bluetooth integrados para proyectos de IoT (internet de las cosas)
+
+#### ¿qué es un microcontrolador?
+"es un circuito integrado que funciona con un procesador también llamado CPU y unidades de memoria ROM y RAM. todas estas partes están interconectadas y trabajan entre sí dentro del microcontrolador. son especialmente útiles en aplicaciones que requieren automatización, control y monitorio, como electrodomésticos, sistema de control de motores, sistemas embebidos, dispositivos médicos, sistemas de seguridad, juguetes electrónicos y una amplia gama de productos electrónicos.
+
+#### elementos de un microcontrolador
+1. **procesador (CPU):** es el cerebro del microcontrolador, encargado de ejecutar instrucciones y realizar cálculos.
+2. **memoria:** incluye memoria de solo lectura (ROM) para almacenar el programa y memoria de acceso aleatorio (RAM) para datos temporales
+3. **periféricos de entrada/salida:** permite que el microcontrolador interactúe con otros componentes, como sensores y actuadores.
+4. **temporizadores y contadores:** ayudan a realizar tareas en intervalos de tiempo específicos.
+5. **convertidores A/D y D/A:** permiten convertir señales analógicas a digitales y viceversa.
+
+#### proceso básico de funcionamiento
+1. **programación:** se escribe un programa en un lenguaje de programación y se carga en la memoria ROM del microcontrolador.
+2. **ejecución:** la CPU lee las instrucciones del programa y realiza las tareas especificadas.
+3. **interacción:** utiliza los periféricos de I/O para comunicarse con el mundo exterior, recibiendo datos de sensores y enviando señales a actuadores.
+
+#### herramientas de desarrollo
+1. **IDE (entorno de desarrollo integrado):** software que proporciona todas las herramientas necesarias para escribir, compilar y cargar programas en el microcontrolador. ejemplos: arduino IDE, MPLAB X para microcontroladores PIC y atmel studio para AVR.
+
+### botones 
+#### diferencia entre botón e interruptor
+"los interruptores, como su nombre indica, cambian entre un estado de funcionamiento y otro. al mover permanentemente los contactos, encienden el dispositivo, que se apaga solo cuando se presiona nuevamente el interruptor. sin embargo, si hablamos de botones, la señal de control llega al receptor sólo cuando se pulsa el botón. cuando se suelta, la señal de control se interrumpe y el dispositivo vuelve a su estado inicial."
+
+#### push button
+un pulsador es un actuador eléctrico en forma de botón que, al ser presionado, puede cerrar o abrir los circuitos eléctricos a los que está conectado. 
+
+#### tipos
+1. **pulsadores momentáneos:** se debe mantener una presión continua para activar el mecanismo. tras soltar el botón, el pulsador volverá a su estado original.
+2. **pulsadores mantenidos:** permanecerán en su estado de contacto establecido hasta que se vuelva a aplicar presión, lo que los hará regresar a su estado original.
+3. **pulsadores normalmente abiertos (NA):** en su estado por defecto, no deja pasar la corriente. para que la electricidad circule por el circuito, es necesario presionar el botón. luego, cuando se vuelve a presionar, el resorte regresa a su posición inicial y el circuito se interrumpe nuevamente.
+4. **pulsadores normalmente cerrados (NC):** funciona de forma opuesta que el anterior. la electricidad puede fluir por el circuito cuando no se ejerce presión sobre el botón, es decir, en su estado inicial. el flujo se interrumpirá una vez que se presione el pulsador.
+
+### potenciómetro
+es un dispositivo electrónico que funciona como una resistencia variable. el usuario al manipularlo obtiene entre el terminal central (cursor) y uno de los extremos una fracción de la diferencia de potencia total, se comporta como un divisor de tensión o divisor de voltaje.
+
+### fuentes
+- https://es.wikipedia.org/wiki/C%2B%2B
+- https://coddy.tech/docs/es/cpp/what-is-cpp
+- https://www.youtube.com/watch?v=itkYnIbpUec&t=3s
+- https://www.redeweb.com/actualidad/que-es-un-microcontrolador/
+- https://www.ibm.com/mx-es/think/topics/microcontroller
+- https://www.wonderfulpcb.com/es/blog/comparing-microcontroller-types-solutions/
+- https://www.tme.com/cl/es/news/library-articles/page/59080/interruptores-y-botones-diferencias-aplicaciones-y-principio-de-funcionamiento/
+- https://www.promelsa.com.pe/blog/post/que-es-pulsador-electrico.html
+- https://es.wikipedia.org/wiki/Potenciómetro
 
 
+__________________________________________________________________________________________________
 ## lectura
 he podido avanzar harto con el libro, voy en la página 62, ya que al ser conversaciones se hace ligero de leer, aunque sus temáticas sean un poco densas. son una serie de entrevistas hechas por distintas personas al artista ai weiwei, donde más allá de su obra he aprendido de las problemáticas que ha abordado principalmente en su vida y luego en su arte, sus problemas con el gobierno chino, la importancia y su lucha por lo derechos humanos y la libertad de expresión.
 
