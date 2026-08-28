@@ -11,14 +11,16 @@ la evaluación de cada estudiantes tendrá 6 puntos, divididos en 3 grupales y 3
 - crit-05: individual, bitácoras, incluyendo encargos y lecturas
 - crit-06: individual, bitácoras, incluyendo encargos y lecturas
 
-## condiciones ineludibles
+## condiciones mínimas
 
-- carcasa de cartón
-- licencias explícitas del corpus usado
-- proceso constante en bitácoras personales
-- 3 versiones distintas mínimo dentro de carpeta codigos/
-- revisar como referencia el proyecto-1 del 2025 <https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01>
-- pagar cuota de materiales de agosto
+1. carcasa de cartón
+2. licencias explícitas del corpus usado
+3. proceso constante en bitácoras personales
+4. 3x versiones distintas mínimo dentro de carpeta codigos/
+5. revisar como referencia el proyecto-1 del 2025 <https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01>
+6. pagar cuota de materiales de agosto, o enviar correo a todo el equipo docente siguiendo reglas publicadas en canvas
+
+descuento de 2 puntos en nota del proyecto por cada uno de estos puntos no realizados.
 
 ## grupos
 
