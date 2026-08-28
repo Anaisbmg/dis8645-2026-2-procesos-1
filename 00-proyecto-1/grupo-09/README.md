@@ -38,6 +38,19 @@ anunciando una y otra vez
 tu lugar entre todo lo que existe."
 
 - estamos probando mantener los primeros versos para dejarlo más cortos, viendo las posibilidades del código.
+- se termino seleccionando los primero 5 versos de el poema:
+
+  "No tienes que ser buena.
+
+No tienes que recorrer el desierto de rodillas, arrepintiéndote.
+
+Sólo deja que el suave animal de tu cuerpo ame lo que ama.
+
+Háblame del dolor, del tuyo, yo te hablaré del mío.
+
+Mientras tanto, el mundo sigue."
+
+la decisión de que se seleccionara solo un trozo de el poema es porque el poema esta bajo la licencia de copyright, pero se puede utilizar bajo el concepto legal del uso legítimo, ya que es sin fines de lucro y con propósitos educativos.
 
 **ajustes del código:**
 
