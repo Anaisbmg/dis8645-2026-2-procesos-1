@@ -17,6 +17,7 @@ Le tenemos que decir cuanto va a medir ese string, el 13 es el número de carác
 Los String tienen funciones como por ejemplo charAt() o setCharAt() para decir, este caracter ahora es otro caracter.
 
 "Es mejor no forzar a que las cosas se parezcan a otras cosas que ya existen, porque son diferentes, un array no tiene nada que ver con excel."
+Programar no es solo escribir el código también es importante describir o explicar que va a hacer el código como lo va a hacer y en que orden, esto se puede hacer de varias maneras como por ejemplo con diagramas. (mirar proyectos del año pasado.)
 
 
 
