@@ -128,7 +128,7 @@ int poteFiltrado = -1; //Estabiliza y que no hayan cambios tan súbitos cuando n
 //Vamos a usar “char", la cual se puede usar en Raspberiii o cualquier otro lugarcito. 
 //ponemos const para convertir una variable en un valor fijo de solo lectura que no puede cambiar mientras el programa corre.
 
-char *elviraVesos[] = { 
+char *elviraVesos[] = { //Esta es la función que aprendimos hoy en clases para tener menos código pero que cumpla su función de poder mostrar textos largos
 "Aprendi de la vida"
 "a quererte"
 "de igual modo,"
@@ -252,6 +252,12 @@ void setup() {
     // pin 2 del potenciómetro a un pin Analog del Arduino
     // en nuestro caso fue al pin A0
     // pin 3 del potenciómetro a GND del Arduino
+
+
+
+
+
+
 
   void loop() {
 
