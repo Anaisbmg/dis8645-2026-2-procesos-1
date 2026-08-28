@@ -123,7 +123,8 @@ const int potePatita = A0; //Aquí el Arduino reconoce el potenciómetro por la 
 int poteLectura = -1; //El valor que se va a recibir en caso tal de que este mal conectado. Sí es que esta mal conectado, sale un -1 en el monitor serial. Pero si esta conectado, sale un numero desde el 0 hasta el 1024. 
 int poteFiltrado = -1; //Estabiliza y que no hayan cambios tan súbitos cuando no se está movimiento el potenciómetro. 
 
-const char poem[] =  // hay que investigar arrays y strings
+const char poem[] =  //La palabra string, no la vamos a usar, porque “string”, es propio de Arduino.
+                     //Vamos a usar “char", la cual se puede usar en Raspberiii o cualquier otro lugarcito. 
 "Aprendi de la vida\n"
 "a quererte\n"
 "de igual modo,\n"
