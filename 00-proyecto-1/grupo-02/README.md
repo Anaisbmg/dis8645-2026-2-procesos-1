@@ -24,8 +24,10 @@
 //potenciómetro: el poema saltará de línea a medida que se cambia la resistencia de este.
 // La primera línea del texto será 0k y la última línea será del texto será 100k. Vamos a movernos dentro del rango de 0 y 100 para avanzar o retroceder en líneas y leer.
 //push boton: al oprimir el botón, se cambia de poema.
-
 //push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0
+
+
+
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
 //de aquí:
