@@ -18,3 +18,7 @@ Nuestro grupo eligió ;p0ema de Leonor Olmos. Es el extracto del poema 4, págin
 Lo primero que desarrollamos como grupo fue proponer el cómo representar visualmente el poema, además de buscar personas que ocuparan este tipo de pantallas, usos, etc. 
 
 Destacamos que revisamos los ejemplos del año pasado y preguntándonos como por ejemplo, el uso de los potenciómetros, lo cual nos ayudo en el futuro a poder avanzar el poema, en este caso utilizamos el ejemplo que se hizo en clases de un estracto de akriila
+
+https://www.youtube.com/shorts/XyG0R0R_QLA
+
+https://youtube.com/shorts/wRhWjAYHneg?si=3jWqMo152J_n11eG
