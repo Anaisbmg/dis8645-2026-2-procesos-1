@@ -1,3 +1,5 @@
+Este es nuestro código funcional, sin comentarios donde se explicita como en la versión de: [El viernes en clase](https://github.com/santiagocifuvelez/dis8645-2026-2-procesos-1/tree/main/00-proyecto-1/grupo-02/codigos/2026-08-28)
+
 ```cpp
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
