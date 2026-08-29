@@ -233,6 +233,8 @@ void setup() {
 
 Aquí intentamos hacer unas modificaciones con el loop que aprendimos en clase. Lo intentamos pensando que haciendo esta formula `for (int i = 0; i < 7; i++)`, nos ibamos a ahorrar texto de código, pero esa función, es hacer loop. No nos sirve para nuestro proyecto y la intención que tenemos.  
 
+También intentamos cambiar de posición el cactus; de vertical a horiozontal, pero no funcionó. Aún.
+
 ```cpp
 //Indice:
 //1 ¿Qué se va a hacer?, ¿Con qué elementos?, ¿Cómo funciona?
