@@ -10,11 +10,11 @@ Emi/hazzaily me mando fotos de las cajitas que estaban entregando para guardar l
 
 **subir foto**
 
-- el poema que elegimos entre todas fue el poema 2 **"Queja" (perfeccionismo = control)**
+- el poema que elegimos entre todas fue el poema 2 **"Queja" (perfeccionismo = control)** de la poeta **Alfonsina Storni**
 
 **subir foto del poema**
 
-como no estuve gran parte en la clase (llegue 12:00 pm ), mis compañeras me explicaron lo siguiente 
+como no estuve gran parte en la clase (llegue 12:00 pm) mis compañeras me explicaron lo siguiente 
 
 - **String:** el problema principal con String (con mayúscula) en Arduino es la fragmentación de memoria, es decir, es una herramienta que facilita manejar texto (unir palabras, cambiar letras, etc.), pero tiene un defecto **modifica la memoria constantemente mientras el programa avanza** y en placas con poca memoria como Arduino, esto hace que el programa falle o se reinicie
 - **string o char[]:** es una lista de letras guardada en un espacio fijo de la memoria y como no cambia de tamaño, es muy segura y no da problemas (arreglo de caracteres)
@@ -43,7 +43,7 @@ int edades[36] = {20, 21, 22, 23, 24}
 
 ### ejemplos vistos en clase
 
-me dijeron que estos eran unos de los ejemplos que vieron en clases, ambos en Arduino (información sacada de sus bitacoras)
+me dijeron que estos eran unos de los ejemplos que vieron en clases, todos en Arduino (información sacada de sus bitacoras)
 
 - ejemplo 1:
 
