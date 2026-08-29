@@ -3,7 +3,7 @@
 # part 1 en clase
 En este día, nos fueron entregados los materiales con los que vamos a trabajar. 
 1. Proto Board
-2. Pantalla LCD
+2. pantalla LCD Oled 0,91
 3. Cables
 4. etc..., poner que más. 
 
@@ -37,3 +37,7 @@ Luego, cuando se nos fue explicado el ejercicio en clase, el cual escalo a ser e
 //push boton: al oprimir el botón, se cambia de poema.
 //push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0.
 ```
+## poemas escogidos
+Los poemas que fueron seleccionados en el comienzo, fueron fragmentos de la poeta, autora y escritora Elvira Sastre: 
+1. "A los perros buenos no les pasan cosas malas"
+2. "Mamá tu no cumples años, tu cumples sueños"
