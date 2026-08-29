@@ -17,7 +17,9 @@ Nuestro grupo eligió ;p0ema de Leonor Olmos. Es el extracto del poema 4, págin
 
 Este poema, como lo menciona en su página legal: “ninguna parte de esta publicación puede ser reproducida o transmitida mediante cualquier soporte sin la expresa autorización de la editorial” entonces, para poder utilizar este extracto, nos contactamos con la editorial.
 
-![autorizacion](./imagenes/autorizacion-editorial.png)
+<div align="center">
+  <img src="./imagenes/autorizacion-editorial.png" width="50%">
+</div>
 
 Lo primero que desarrollamos como grupo fue proponer el cómo representar visualmente el poema, además de buscar personas que ocuparan este tipo de pantallas, usos, etc. 
 
