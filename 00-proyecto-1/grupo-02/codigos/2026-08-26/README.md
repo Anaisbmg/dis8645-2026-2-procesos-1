@@ -1,7 +1,15 @@
-#Research 2
+# Research 2
+
 Aquí descompusimos el código por bloques, para entender de que se trataba cada uno..., tomando el ejemplo que habíamos hecho en clase, eliminando y dejando lo que para nosotres es esencial.
 
+Anteriormente, habíamos tenido un error grande, el cual era que teníamos 2 variables, pero una no existía en el Void Loop, por ende el código no tenía a quien llamar, y no lo dejaba correr. (Poner ese código.) 
 
+## Código primero que tenía errores.
+
+
+
+
+## Código Bueno oficial, luego de descubrir el error.
 ```cpp
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
