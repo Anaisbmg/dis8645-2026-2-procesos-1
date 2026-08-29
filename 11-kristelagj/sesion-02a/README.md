@@ -16,6 +16,10 @@ Nos dedicamos a probar todo esto que aprendimos.
 
 ## encargos
 
+<div align="center">
+  <img src="./imagenes/evidencia.png" width="50%">
+</div>
+
 En este caso seré equipo junto a Angel y tomas! Somos el grupo 3!
 
 ## lectura
