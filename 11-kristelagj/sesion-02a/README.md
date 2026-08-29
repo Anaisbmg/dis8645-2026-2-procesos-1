@@ -10,7 +10,9 @@
 
 Vimos potenciómetros y botones. 
 
-Siendo muy sincera no tome demasiado apuntes de esta clase ya que estaba muy dispersa, pero investigaré más a fondo
+Siendo muy sincera no tome demasiado apuntes de esta clase ya que estaba muy dispersa, pero investigaré más a fondo.
+
+Nos dedicamos a probar todo esto que aprendimos. 
 
 ## encargos
 
