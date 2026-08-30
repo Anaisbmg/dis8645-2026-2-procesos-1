@@ -13,6 +13,8 @@
   + sck: señal de clock.
   + sda: señal de datos.
 
+![alt](./imagenes/pantalla.jpg)
+
 > 💡 **dato:** es "biblioteca", no "librería".
 
 en la biblioteca hay minicódigos que vamos a utilizar.
@@ -41,6 +43,8 @@ ejemplo de adafruit:
 `ssd1306_128x32_i2c`
 
 **ejemplo reducido**
+
+![alt](./imagenes/adafruit.gif)
 
 ```cpp
 #define LOGO_HEIGHT   16
@@ -134,6 +138,8 @@ void testdrawstyles(void) {
 ### definir qué hacer - proyecto-01
 
 definimos a nuestro poeta, que será federico garcía lorca. investigamos cuáles son sus libros y, en conjunto, elegimos el libro *romancero gitano* y, específicamente, el poema **"romance de luna, luna"**.
+
+![alt](./imagenes/poeta.jpg)
 
 revisamos si podíamos utilizar libremente sus poemas en nuestro trabajo y, efectivamente, pueden utilizarse de forma gratuita, sin necesidad de permisos ni pagos.
 
