@@ -41,7 +41,7 @@ investigar y buscar referentes
 
 scroll, swipe, fade, zoom, tabs, reveal
 
-[ejercicio](./imagenes/ejercicio.gif)
+![ejercicio](./imagenes/ejercicio.gif)
 
 ## encargos
 
