@@ -24,6 +24,20 @@ wiring.org.co
 
 Arduino es medio turbio, pero relativamente fácil de usar.
 
+## Vuelta del break
+
+el sistema hexadecimal es una manera en la que se puede contar de 0 a 15.
+
+Aarón hizo un pseudocódigo del color favorito de Kristel y cómo aumenta su edad cuando ocurre su cumpleaños.
+
+es super criminal borrar alguno de los murciélagos de las funciones porque un computador no es capaz de comprender qué es lo que se le está entregando.
+
+con las teclas Control + T se puede hacer un autoformateo.
+
+tenemos que tener responsabilidad computacional, si es que algo no funciona por falta de algún carácter como el importante ";" con el cual se declara que se terminó de escribir una línea.
+
+una función tiene características muy importantes como: nombre, paréntesis (), murciélagos {} y el tipo, como puede ser "void".
+
 ## encargos
 
 encargo 01-a:
