@@ -25,7 +25,7 @@ Un átomo contiene:
 Los protones y neutrones se encuentran en el núcleo. Los electrones se encuentran alrededor del núcleo.
 
 
-![átomos](imagenes/.jpg)
+![átomos](imagenes/atomo.jpg)
 
 
 **<ins>Carga eléctrica</ins>**
@@ -48,7 +48,7 @@ Las cargas opuestas se atraen y las cargas iguales se repelen.
 
 Un átomo neutro tiene la misma cantidad de protones y electrones. Un ion posee un desequilibrio entre ambos.
 
-![iones](imagenes/.jpg)
+![iones](imagenes/iones.jpg)
 
 ### **<ins>Energía</ins>**
 
@@ -72,11 +72,9 @@ Conjunto de fenómenos producidos por la presencia y el movimiento de cargas el�
 
 En un cable metálico, lo que se desplaza principalmente son los electrones, no los átomos completos.
 
-Por eso, es más correcto decir:
-
 **La corriente eléctrica es un flujo de cargas eléctricas.**
  
-No es exactamente un flujo de átomos ni un flujo de energía. Las cargas se mueven y mediante ese movimiento, se transfiere energía.
+No es un flujo de átomos ni un flujo de energía. Las cargas se mueven y mediante ese movimiento, se transfiere energía.
 
 Comparación con el agua
 
@@ -121,7 +119,7 @@ El amplificador del EEG registra la señal
 ```
 
 
-![experimento eri](imagenes/.jpg)
+![experimento eri](imagenes/exp-eri.jpg)
 
 para comprender mejor, el eri me esta explicando cada concepto desde la lógica de su experimento
 
@@ -203,8 +201,8 @@ https://sites.google.com/cbtis119.edu.mx/energiasolartermica/unidad-1/introducci
 https://www.youtube.com/watch?v=YjbH_HnUMx4 
 
 
-
-
+![circuito eléctrico](imagenes/circuito-electrico.jpg)
+![circuito eléctrico](imagenes/realidaddcircuito.jpg)
 
 ### **<ins>Potenciómetro</ins>**
 
@@ -222,6 +220,9 @@ Extremo 1  → 5 V o 3,3 V
 Centro     → entrada analógica
 Extremo 2  → GND
 ```
+
+![trabajo en clases](imagenes/avanceclases.jpg)
+
 **Potenciómetro como divisor de voltaje**
 
 El cursor divide internamente la pista resistiva en dos resistencias:
@@ -243,14 +244,6 @@ Cambia la proporción entre ambas resistencias.
 Cambia el voltaje obtenido en la pata central.
 
 > Encoder: también puede girar, pero no funciona igual que un potenciómetro. Registra cambios de posición o pasos mediante señales digitales.
-
-**Potenciómetros A y B**
-
-Las letras A y B pueden utilizarse para indicar el tipo de curva de respuesta del potenciómetro, aunque la convención puede variar entre fabricantes:
-
-Lineal: el cambio físico produce un cambio proporcional de resistencia.
-Logarítmico: la resistencia cambia siguiendo una curva, algo habitual en controles de audio.
-
 
 ### **<ins>Raspberry Pi Pico 2 W y voltajes</ins>**
 
@@ -295,8 +288,9 @@ Para solucionar esto se utilizan resistencias pull-down o pull-up.
 ### **<ins>Breadboard</ins>**
 
 La Breadboard es una placa que permite construir y probar circuitos sin soldar.
-
 Sus orificios no son independientes: debajo de la superficie existen conexiones metálicas que unen determinados grupos.
+
+![bread board](imagenes/breadboard.jpg) 
 
 **Zona central**
 
@@ -304,7 +298,7 @@ En un Breadboard común, cada grupo de cinco orificios suele estar conectado int
 
 **a ─ b ─ c ─ d ─ e**
 
-El canal central separa ambos lados. Se utiliza, entre otras cosas, para colocar circuitos integrados con patas a cada lado.
+El canal central separa ambos lados. Se utiliza para colocar circuitos integrados con patas a cada lado.
 
 **Rieles de alimentación**
 
@@ -362,9 +356,7 @@ Un botón se conecta normalmente a un pin digital porque representa dos estados:
 **Analog In**
 
 Las entradas Analog In, identificadas como A0, A1, etc., permiten leer voltajes variables.
-
 Un potenciómetro se conecta a una entrada analógica porque puede entregar muchos niveles de voltaje entre el mínimo y el máximo.
-
 La entrada analógica permite que la computadora lea una parte del mundo físico que no se limita únicamente a encendido o apagado.
 
 ## Montaje del potenciómetro con Arduino
@@ -448,11 +440,6 @@ La función `setup()` se ejecuta una sola vez cuando comienza el programa.
 ```cpp
 Serial.begin(9600);
 ```
-
-Esta instrucción inicia la comunicación serial entre Arduino y el computador a una velocidad de `9600` bits por segundo.
-
-Esta velocidad se conoce como *baud rate* en este contexto = (o velocidad en baudios) es el número de cambios de señal o símbolos que se transmiten por segundo en un canal de comunicación.
-
 El monitor serial del computador debe configurarse con la misma velocidad. Si las velocidades no coinciden, la información puede aparecer ilegible.
 
 ## 6. `loop()` y lectura analógica
@@ -587,13 +574,13 @@ void loop() {
 
 ## 11. Resumen del funcionamiento
 
-1. Arduino entrega alimentación al potenciómetro.
-2. Al girarlo, cambia el voltaje de su pata central.
-3. La pata central transmite ese voltaje a `A0`.
-4. `analogRead()` convierte el voltaje en un número.
-5. El número se guarda en `valorLectura`.
-6. `Serial.println()` envía el resultado al computador.
-7. `loop()` repite continuamente todo el proceso.
+1. Arduino entrega alimentación al potenciómetro.  
+2. Al girarlo, cambia el voltaje de su pata central.  
+3. La pata central transmite ese voltaje a `A0`.  
+4. `analogRead()` convierte el voltaje en un número.  
+5. El número se guarda en `valorLectura`.  
+6. `Serial.println()` envía el resultado al computador.  
+7. `loop()` repite continuamente todo el proceso.  
 
 ```text
 Girar el potenciómetro
@@ -611,10 +598,10 @@ Trabajar “fungi”
 
 Los hongos forman redes de micelio que se extienden por diferentes lugares. De forma parecida, un proyecto administrado con Git puede existir en diferentes nodos:
 
-En el computador de una persona.
-En los computadores de otros integrantes.
-En un repositorio remoto, como GitHub.
-En diferentes ramas o versiones.
+En el computador de una persona.  
+En los computadores de otros integrantes.  
+En un repositorio remoto, como GitHub.  
+En diferentes ramas o versiones.  
 
 Si un computador falla, el código puede continuar existiendo en los otros puntos de la red.
 
@@ -650,15 +637,15 @@ Distribuir alimentación mediante la protoboard.
 
 Finalmente, transformamos una señal física en información:
 
-Girar potenciómetro
-        ↓
+Girar potenciómetro   
+        ↓ 
 Cambiar voltaje
-        ↓
-Arduino lee A0
-        ↓
-analogRead() lo convierte en un número
-        ↓
-Serial.println() lo muestra en el computador
+        ↓. 
+Arduino lee A0  
+        ↓ 
+analogRead() lo convierte en un número 
+        ↓ 
+Serial.println() lo muestra en el computador 
 
 
 honestamente siento que mientras más aprendo menos estoy segura si entiendo? pero tendré fé en el proceso y revisar todos los apuntes 
