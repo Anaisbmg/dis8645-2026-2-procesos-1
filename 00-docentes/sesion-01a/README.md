@@ -24,7 +24,7 @@ wiring.org.co
 
 Arduino es medio turbio, pero relativamente fácil de usar.
 
-## Vuelta del break
+### Vuelta del break
 
 el sistema hexadecimal es una manera en la que se puede contar de 0 a 15.
 
