@@ -54,7 +54,7 @@ De amor me estoy muriendo,
 
 ¡Pero no puedo amar.
 
-Poemas sacados de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
+Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
 
 
 ### Análisis:
