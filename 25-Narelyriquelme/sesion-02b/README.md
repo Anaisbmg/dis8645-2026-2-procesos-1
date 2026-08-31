@@ -5,7 +5,7 @@
 ---
 
 ## Apuntes sesión
-
+ 
 ### Contexto de los videos
 
 Se subieron 3 videos en Canvas:
