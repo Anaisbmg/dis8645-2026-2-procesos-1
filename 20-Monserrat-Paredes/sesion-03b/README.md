@@ -260,7 +260,6 @@ void loop() {
 
 Video de registro 
 
-![videopoema](./imagenes/videopoema.gif)
 
 
 
