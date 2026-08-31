@@ -99,10 +99,13 @@ void loop() {
 }
 ```
 
+
+```cpp
 // un poemario
 // es un arreglo de paginas
 // una pagina es un arreglo de lineas
 // una linea es un arreglo de caracteres
+```
 
 
 ejmplo 3 visto en clases (arduino)
@@ -231,24 +234,65 @@ links vistos en clase:
 
 
 
-
-
 ## encargos
- 
-
-
-
-
-encargo-03b:
 
 1. apuntes personales de String, string, array, con bibliografia y con pantallazos de resultados, y dudas textuales.
 2. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
 3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
 
+
+Codigo 0 → visualiza el poema en el serial monitor en loop
+
 ```cpp
-// codigo aqui
-// por ejemplo
+// poema "queja"
+// de allfonsina storni
+
+// Señor, mi queja es ésta,
+// Tú me comprenderás;
+// De amor me estoy muriendo,
+// Pero no puedo amar.
+// Persigo lo perfecto
+// En mí y en los demás,
+// Persigo lo perfecto
+// Para poder amar.
+// Me consumo en mi fuego,
+// ¡Señor, piedad, piedad!
+// De amor me estoy muriendo,
+// ¡Pero no puedo amar.
+
+char *misVersos[] = {
+  "Señor, mi queja es ésta,",
+  "Tú me comprenderás",
+  "De amor me estoy muriendo,",
+  "Pero no puedo amar.",
+  "Persigo lo perfecto",
+  "En mí y en los demás,",
+  "Persigo lo perfecto",
+  "Para poder amar.",
+  "Me consumo en mi fuego,",
+  "¡Señor, piedad, piedad!",
+  "De amor me estoy muriendo,",
+  "¡Pero no puedo amar!"
+};
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  // recorrer el arreglo
+  // for es para recorrer conjuntos
+  // adentro tiene 3 mini lineas
+  // inicio de los tiempos
+  // oye pero cuando paro
+  // que hago despues de cada iteracion
+  for (int i = 0; i < 5; i++) {
+    Serial.println(misVersos[i]);
+  }
+}
 ```
 
 ## lectura
