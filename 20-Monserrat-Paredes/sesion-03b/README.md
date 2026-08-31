@@ -11,7 +11,7 @@ Poema 1 "¿Qué diría?" (cambio, riesgo, juicio ajeno)
 Poema 2 "Queja" (perfeccionismo = control)
 
 
-**Alfonsina Storni **
+**Alfonsina Storni**
 
 Esta poeta argentina nacida en 1892 en Suiza es uno de los íconos de la literatura posmodernista. Con una infancia difícil y con carencias y luego una vida con recurrentes enfermedades, su poesía está impregnada de lucha, audacia, amor y una reivindicación del género femenino. Algunos de sus poemas a resaltar son: ¡Adiós!, Alma desnuda, La caricia perdida, Razones y paisajes de amor, Queja, Tu dulzura, Dolor y Frente al mar.
 
@@ -22,7 +22,8 @@ Su muerte, continúa la huella de su transgresora personalidad. Su trágico suic
 Información sacada de → https://www.poemas-del-alma.com/alfonsina-storni.htm#block-bio
 
 
-PASAR AL LIMPIO APUNTES
+---
+
 
 código → no confiar en string 
 
@@ -34,13 +35,15 @@ clase → String class → "S" mayuscula es porque es una clase
 
 
 1. char (El método tradicional)
+
 Qué es: Una simple "caja" de tamaño fijo con letras ordenadas.
 
 Lo bueno: No consume memoria extra y es muy seguro para las placas pequeñas.
 
 Lo malo: Es más rígido y difícil de modificar o manipular.
 
-2. String (El objeto moderno)
+2. String
+
 Qué es: Una herramienta avanzada que te permite unir textos, buscar palabras y cambiar tamaños fácilmente con funciones automáticas.
 
 Lo bueno: Es comodísimo de usar (igual que en otros lenguajes de programación).
@@ -51,12 +54,45 @@ Lo malo: Consume y fragmenta mucha memoria RAM. Si lo usas mal o cambias el text
 
 - String (con mayúscula): Es un objeto avanzado de C++. Te da superpoderes para modificar, unir y buscar texto fácilmente, pero gasta y fragmenta mucha memoria RAM, por lo que puede hacer que placas pequeñas colapsen si se usa mal.
 
-Se agregran las comillas → ¿Se usa una comilla (') o dos (")?
+Regla de las comillas → ¿Se usa una comilla (') o dos (")?
 
 Dos comillas (" ") Para textos (Cadenas / Strings): Se usan siempre que quieras escribir una palabra, una frase o un texto completo (aunque sea una sola letra).
 
 Para un solo carácter (char): Se usan únicamente cuando estás guardando una sola letra o símbolo suelto dentro de una variable de tipo char.
 
+
+**Estructruras: ejemplos**
+
+- Cadenas estilo C (string con minúscula)
+
+Son matrices tradicionales de caracteres heredadas de C. Son muy eficientes porque no consumen recursos ocultos, pero debes cuidar el espacio reservado.
+
+```cpp
+char mensaje[] = "Hola"; // Ocupa 5 bytes en memoria (4 letras + el terminador nulo '\0')
+```
+
+
+- String (String con mayúscula)
+
+Es una clase avanzada de C++ para Arduino que te permite manipular textos fácilmente usando funciones integradas (como .concat(), .substring(), etc.).
+
+```cpp
+String texto = "Arduino";
+texto += " IDE"; // Concatenación automática y dinámica
+```
+
+
+- Arreglos (Arrays)
+
+Estructuras para agrupar múltiples datos ordenados en posiciones fijas de memoria.
+
+```cpp
+int lecturas[3] = {100, 200, 300}; // Arreglo de enteros con 3 elementos
+int primerValor = lecturas[0];      // Equivale a 100
+```
+
+
+---
 
 
 ejmplo 1 visto en clases (arduino)
@@ -221,6 +257,7 @@ void loop() {
 }
 ```
 
+
 Video de registro 
 
 ![videopoema](./imagenes/videopoema.gif)
@@ -296,6 +333,16 @@ void loop() {
   }
 }
 ```
+
+
+## Bibliografía
+
+<https://docs.arduino.cc/language-reference/en/variables/data-types/array/>
+
+<https://docs.arduino.cc/language-reference/en/variables/data-types/stringObject/>
+
+<https://docs.arduino.cc/language-reference/en/variables/data-types/string/>
+
 
 ## lectura
 
