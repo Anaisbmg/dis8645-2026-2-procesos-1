@@ -61,12 +61,12 @@ Vi los 3 videos completos. Logré instalar Visual Studio Code y seguí todos los
 
 **Avance:**
 
-![avance encargo02b](./imagenes/encargo02b-01.jpg)
-![avance encargo02b](./imagenes/encargo02b-02.jpg)
-![avance encargo02b](./imagenes/encargo02b-03.jpg)
-![avance encargo02b](./imagenes/encargo02b-04.jpg)
-![avance encargo02b](./imagenes/encargo02b-05.jpg)
-![avance encargo02b](./imagenes/encargo02b-06.jpg)
+![avance encargo02b](./imagenes/encargo02b-01.png)
+![avance encargo02b](./imagenes/encargo02b-02.png)
+![avance encargo02b](./imagenes/encargo02b-03.png)
+![avance encargo02b](./imagenes/encargo02b-04.png)
+![avance encargo02b](./imagenes/encargo02b-05.png)
+![avance encargo02b](./imagenes/encargo02b-06.png)
 
 ---
 
