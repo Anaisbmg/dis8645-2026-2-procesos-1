@@ -1,6 +1,6 @@
 # Proyecto-1 / grupo-07
 
-fecha...
+fecha: 6 de septiembre 2026
 
 ## Integrantes:
 
@@ -59,3 +59,79 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 ### Análisis:
 "Queja" → habla de perfeccionismo que impide amar, de consumirse en el propio fuego por exigir perfección. Es un poema de contención, control, tensión interna.
+
+
+---
+
+
+## Materiales
+
+|Componente|Cantidad|Precio|Link|
+|---|---|---|---|
+|Arduino UNO R4 Mínima|1|$32.990|<https://mcielectronics.cl/shop/product/arduino-uno-r4-minima/>|
+|Pantalla LCD Oled 0,91" I2C|1|$3.990|<https://afel.cl/products/pantalla-lcd-oled-0-91?_pos=1&_sid=f1b122119&_ss=r>|
+|Protoboard|1|$1.500|<https://afel.cl/products/mini-protoboard-400-puntos>|
+|Botón Táctil|1|$400|<https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor?_pos=3&_sid=a0018323a&_ss=r>|
+|cables|6|$1.000|<https://afel.cl/products/pack-20-cables-de-conexion-macho-macho>|
+|Potenciómetro B500k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
+
+
+---
+
+
+## Proceso código y registro
+
+Código 0 → 28/08/26
+
+visualiza el poema en el serial monitor en loop
+
+```cpp
+// poema "queja"
+// de allfonsina storni
+
+// Señor, mi queja es ésta,
+// Tú me comprenderás;
+// De amor me estoy muriendo,
+// Pero no puedo amar.
+// Persigo lo perfecto
+// En mí y en los demás,
+// Persigo lo perfecto
+// Para poder amar.
+// Me consumo en mi fuego,
+// ¡Señor, piedad, piedad!
+// De amor me estoy muriendo,
+// ¡Pero no puedo amar.
+
+char *misVersos[] = {
+  "Señor, mi queja es ésta,",
+  "Tú me comprenderás",
+  "De amor me estoy muriendo,",
+  "Pero no puedo amar.",
+  "Persigo lo perfecto",
+  "En mí y en los demás,",
+  "Persigo lo perfecto",
+  "Para poder amar.",
+  "Me consumo en mi fuego,",
+  "¡Señor, piedad, piedad!",
+  "De amor me estoy muriendo,",
+  "¡Pero no puedo amar!"
+};
+
+void setup() {
+  // put your setup code here, to run once:
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  // recorrer el arreglo
+  // for es para recorrer conjuntos
+  // adentro tiene 3 mini lineas
+  // inicio de los tiempos
+  // oye pero cuando paro
+  // que hago despues de cada iteracion
+  for (int i = 0; i < 5; i++) {
+    Serial.println(misVersos[i]);
+  }
+}
+```
