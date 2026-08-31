@@ -221,8 +221,10 @@ void loop() {
 }
 ```
 
-Video de como funciona
-grabe pantalla compu
+Video de registro 
+
+![videopoema](./imagenes/videopoema.gif)
+
 
 
 
