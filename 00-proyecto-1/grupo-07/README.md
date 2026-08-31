@@ -5,12 +5,16 @@ fecha...
 ## Integrantes:
 
 Emilia Contreras / <https://github.com/hazzaily>
+
 Monserrat Paredes / <https://github.com/Monserrat-Paredes>
+
 Katalina Riquelme / <https://github.com/riyakatalinaa>
+
 
 ---
 
-## Poeta escogida → **Alfonsina Storni **
+
+## Poeta escogida → **Alfonsina Storni**
 
 Esta poeta argentina nacida en 1892 en Suiza es uno de los íconos de la literatura posmodernista. Con una infancia difícil y con carencias y luego una vida con recurrentes enfermedades, su poesía está impregnada de lucha, audacia, amor y una reivindicación del género femenino. Algunos de sus poemas a resaltar son: ¡Adiós!, Alma desnuda, La caricia perdida, Razones y paisajes de amor, Queja, Tu dulzura, Dolor y Frente al mar.
 
