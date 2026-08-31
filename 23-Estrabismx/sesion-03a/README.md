@@ -715,6 +715,12 @@ Para realizar las conexiones necesarias, vamos a revisar el **pinout** correspon
 
 <br>
 
+### Resultado
+
+![ejemplo](./imagenes/gif.gif)
+
+<br>
+
 ## encargos
 
 No hubo encargo formal en esta clase, pero como grupo nos enfocamos para poder definir el poema a realizar para el _proyecto_01_
