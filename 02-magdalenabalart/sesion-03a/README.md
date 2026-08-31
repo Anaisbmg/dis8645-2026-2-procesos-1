@@ -2,56 +2,140 @@
 
 ## apuntes sesión
 
-pantalla lcd oled 0,91" interfaz **I2C** monocromática, **controlador SSD1306** conexión paralela en bread board, x ddistante en paralelo del medio, de esta forma cada pantita de la pnatlla va a vivir en la bread board 
+# Pantalla OLED SSD1306
 
-gnd = tierra 
-vcc = Voltaje del Colector Común
-sck = señal de clock
-sda = señal de datos
+## Pantalla
 
-voltaje de operación : 3.3v - 5v 
+- Pantalla OLED monocromática de **0,91"**
+- Interfaz de comunicación: **I2C**
+- Controlador: **SSD1306**
+- Voltaje de operación: **3.3V - 5V**
 
-Pantalla       Microcontrolador
-VCC     →      5V
-GND     →      GND
-SDA     →      SDA
-SCL     →      SCL
+### Pines
 
-Arduino        Pantalla
-A4 (SDA)   →   SDA
-A5 (SCL)   →   SCK
+- **GND** → tierra
+- **VCC** → alimentación
+- **SDA** → señal de datos
+- **SCL / SCK** → señal de clock o reloj
 
-testdraw codigo 
+En I2C se utilizan principalmente dos señales:
 
-Librería comprar libros
-biblbioteca pedir prestado 
+- **SDA** → envía los datos
+- **SCL** → marca el ritmo de la comunicación
+  
+## Conexión con Arduino
 
-biblioteca presta mini codigos que vamos a usar
-proyecto de distintos archivos de codigos que en conjunto creamos un solo proyecto 
+| Arduino | Pantalla |
+|---|---|
+| 5V | VCC |
+| GND | GND |
+| A4 (SDA) | SDA |
+| A5 (SCL) | SCK |
 
-**controlador SSD1306** 
-instalar en arduino biblioteca dde adafruit 2.5.17 es un a función, alguien se hace cargo de hcaer un biblioteca donde reduce la función 
+En Arduino Uno:
 
-https://github.com/adafruit/Adafruit_SSD1306/blob/master/Adafruit_SSD1306.cpp 
+- **A4 = SDA**
+- **A5 = SCL**
 
-#include (anda a ese archivo anda e inclúyelo aquí) 
+# Bibliotecas
 
-Aarón colecciona muchas bibliotecas, es como frieren 
+Una **biblioteca** contiene código creado previamente que podemos reutilizar.
 
-display es una pantalla o dispositivo visual 
+- Librería → comprar libros
+- Biblioteca → pedir libros prestados
 
-... (depende) 
+En programación, la biblioteca nos "presta" funciones que ya fueron programadas por otra persona, entonces en vez de programar desde cero cómo funciona la pantalla SSD1306, usamos la biblioteca de **Adafruit**.
+
+### Biblioteca utilizada
+
+`Adafruit SSD1306 2.5.17`
+
+El controlador de nuestra pantalla es:
+
+`SSD1306`
+
+## `#include` 
+
+líneas como: 
+```cpp #include <Wire.h> #include <Adafruit_GFX.h> #include <Adafruit_SSD1306.h> ``` 
+
+`#include` significa: > anda a buscar ese archivo o biblioteca e inclúyelo en este código.
 
 
-las patitas de arduino tienen varias vidas: 
+# `display` 
 
-arduino uno r4 sigue comparteindo los entandares de arduino uno r3
+`display` representa nuestra pantalla dentro del código. 
 
-azul = scl = chile lo mas grandde = conexión  a numero mas grande 
-amarillo = sda 
+Por ejemplo: 
+
+```cpp display.clearDisplay(); ``` 
+
+Se puede leer como: > pantalla → limpiar pantalla 
+
+Otro ejemplo: 
+
+```cpp display.setTextSize(2); ``` 
+
+> pantalla → cambiar tamaño del texto
+>
+> El punto `.` permite acceder a funciones que pertenecen a `display`.
+
+```cpp display.funcion(); ```
+
+ > dispositivo → acción que quiero realizar
 
 
 
+# Funciones `testdraw` 
+
+El código de ejemplo de Adafruit incluye distintas funciones para probar lo que puede hacer la pantalla: 
+
+```cpp
+testdrawline();
+testdrawrect();
+testdrawcircle();
+testdrawchar();
+testdrawstyles();
+testscrolltext();
+```
+Cada una prueba una función distinta. 
+
+Por ejemplo: 
+- `testdrawline()` → dibujar líneas
+- `testdrawrect()` → dibujar rectángulos
+- `testdrawcircle()` → dibujar círculos
+- `testdrawchar()` → mostrar caracteres
+- `testscrolltext()` → mover texto
+
+## `testscrolltext()` 
+
+Esta función prueba distintos movimientos del texto. 
+
+→ movimiento hacia la derecha 
+```cpp 
+display.startscrollright();
+```
+-------
+→ movimiento hacia la izquierda 
+```cpp 
+display.startscrollleft();
+```
+-------
+→ movimiento diagonal hacia la derecha 
+```cpp 
+display.startscrolldiagright();
+ ```
+-------
+→ movimiento diagonal hacia la izquierda 
+```cpp 
+display.startscrolldiagleft();
+```
+-------
+→ detener el movimiento
+```cpp 
+display.stopscroll();
+```
+-------
 
 ```cpp
 #include <SPI.h>
@@ -137,73 +221,91 @@ void testdrawbitmap(void) {
 }
 ```
 
+# Proyecto 01 — Primer acercamiento
 
-describir en texto
+## Objetivo
 
-imprimir en pantalla el siguiente poema de Gansos salvajes
+Comenzar a explorar cómo mostrar y mover texto en una pantalla OLED a partir del poema **Gansos salvajes**, de Mary Oliver.
 
-Mary Oliver
+En esta primera aproximación trabajamos modificando el código de ejemplo de **Adafruit SSD1306**, probando funciones y posiciones para entender cómo se comporta el texto en pantalla.
 
+---
 
-describir en coreografías 
+## Coordenadas de la pantalla
 
-//aparece en scroll subiendo:
--no tienes
--que ser buena 
+La pantalla utilizada tiene:
 
-//aparece en scroll diagonal izq:
--no tienes 
-//aparece en scroll diagonal y seguir scroll para que aparezca todo el texto:
--que recorrer el desierto de rodillas 
-//aparece en scroll subiendo:
--arrepintiéndote 
+`SCREEN_WIDTH = 128`  
+`SCREEN_HEIGHT = 32`
 
--háblame del dolor
--del tuyo
--yo 
--te hablaré
--del míio
+La posición del contenido se organiza mediante los ejes `X` e `Y`.
 
-//el primer párrafo entra 
+    (0,0) --------------------------> X
+      |
+      |
+      |
+      v
+      Y
 
+- `X` → posición horizontal
+- `Y` → posición vertical
+- `(0,0)` → esquina superior izquierda
 
+Para definir dónde aparece un texto usamos:
 
-SCREEN_WIDTH = 128
-SCREEN_HEIGHT = 32
+`display.setCursor(x, y);`
 
-(0,0) --------------------------> X
-  |
-  |
-  |
-  |
-  v
-  Y
+Por ejemplo:
 
-x = 0
-y = 0
+`display.setCursor(50, 20);`
 
-display.setCursor(50, 20);
+`x` e `y` funcionan como variables que representan posiciones.
 
-┌─────────────────────────────┐
-│                             │
-│                             │
-│           TEXTO             │
-│                             │
-└─────────────────────────────┘
-            ↑
-         x=50 y=20
+---
 
+## Pruebas de movimiento
 
-variables que representan posiciones
+Desde el código de ejemplo comenzamos a modificar funciones como:
+
+`display.startscrollright();`
+
+`display.startscrollleft();`
+
+`display.startscrolldiagright();`
+
+`display.startscrolldiagleft();`
+
+También hicimos pruebas modificando las coordenadas del texto para entender cómo generar movimiento.
+
+Uno de los intentos fue crear una función propia:
+
+`void textoSubiendo() { }`
+
+para probar cómo hacer que un texto apareciera desde abajo y se desplazara hacia arriba.
+
+---
+
+## Reflexión del primer acercamiento
+
+Esta primera prueba fue útil para experimentar y comenzar a entender el código, pero surgieron varios errores al intentar modificar directamente el ejemplo para conseguir los movimientos que necesitábamos.
+
+Fue un **buen primer acercamiento**, pero no la metodología correcta para desarrollar el proyecto completo.
+
+Para continuar necesitamos:
+
+- ordenar mejor el código 
+- investigar las funciones que necesitamos 
+- entender cada movimiento por separado 
+- realizar pruebas pequeñas 
+- avanzar paso a paso antes de juntar todo 
+
+La siguiente etapa será **entender primero las herramientas y luego construir la animación**, en vez de intentar modificar todo el código al mismo tiempo.
+
+---
+
+## Referencia
 
 https://www.youtube.com/watch?v=-i5yaTPMFDE&t=215s
-
-
-dibujar
-
-programar
-
-void textoSubiendo() {
 
 
 
