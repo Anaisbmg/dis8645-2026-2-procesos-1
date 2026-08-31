@@ -260,7 +260,7 @@ void loop() {
 
 Video de registro 
 
-
+![video](./imagenes/video.gif)
 
 
 
