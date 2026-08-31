@@ -70,9 +70,6 @@ Vi los 3 videos completos. Logré instalar Visual Studio Code y seguí todos los
 
 ---
 
-Ojo: solo tienes que asegurarte de que tus 5 fotos, cuando las subas a la carpeta `imagenes` en GitHub, se llamen exactamente `encargo02b-01.jpg`, `encargo02b-02.jpg`, `encargo02b-03.jpg`, `encargo02b-04.jpg` y `encargo02b-05.jpg` (o ajusta la extensión si son .png) para que los links funcionen.
----
-
 ## Lectura
 
 ### *Anarchy*, John Cage (pp. vi–viii)
