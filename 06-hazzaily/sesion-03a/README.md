@@ -652,7 +652,7 @@ En nuestro caso elegimos a [Alfonsina Storni](https://es.wikipedia.org/wiki/Alfo
 
  2. Elegir dos poemas que nos parecieran interesantes.
 
-Poema 1: **¿Qué diría?**
+Poema 1: **¿Qué diría?** (1919)
 
 ¿Qué diría la gente, recortada y vacía,
 Si en un día fortuito, por ultrafantasía,
@@ -671,7 +671,9 @@ Interpretación personal:
 
 Bajo mi percepción nos habla de una mujer que cuestiona los estándares de la sociedad, una sociedad en dónde las mujeres eran criticadas por hacer cosas que estaban fuera de lo normado, llamando estos comportamientos como: "vulgares", "grotescos" y volviendo a quienes los cometían como el blanco de miramientos y comentarios despectivos. 
 
-Poema 2: **Queja**
+Es por eso que me parece tan interesante, es un poema de 1919. Y su visión sobre todo lo que le gustaría hacer, o que podría sin el yugo constante de la sociedad que la rodeaba.
+
+Poema 2: **Queja** (1918)
 
 Señor, mi queja es ésta,
 Tú me comprenderás;
@@ -687,6 +689,33 @@ Me consumo en mi fuego,
 ¡Señor, piedad, piedad!
 De amor me estoy muriendo,
 ¡Pero no puedo amar!
+
+Interpretación personal:
+
+Me parece muy interesante pensar en cómo la escritora nos abre su corazón con este poema, y nos deja ver lo mucho que le duele y le afecta el hecho de estar en una relación, al parecer, poco y casi nada recíproca. En donde no le dan lo mismo devuelta y cómo eso le quema por dentro. Llegando al punto de pedir misericordia por su corazón.
+
+Y es una situación que a muchos nos habrá pasado en alguna ocasión, entonces más que nada puedo comprender ese sentimiento y entender el porqué de sus palabras.
+
+Poemas rescatados de [cultura.gob.ar](https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/)
+
+ 3. Describir qué queremos que pase:
+
+ - cambio de dirección 2: de derecha a izquierdaLo que queremos es que lo que se proyecte en la pantalla represente el poema, por ende, puede ser que solo se proyecten ciertas palabras y no todo el texto.
+
+ - Que la velocidad del texto cambie según la perilla del potenciómetro.
+ 
+ - A través de un botón, tener la posibilidad de detenerlo y/o cambiar la dirección del poema.
+  
+ - Que a ciertas palabras del poema se les pueda bajar o subir la opacidad con el potenciómetro.
+  
+ - perfeccionismo = control = pausar/reanudar (botón)
+
+cambio = velocidad de reproducción (potenciómetro)
+cambio = dirección del texto (botón)
+
+dirección inicial del texto: arriba hacia abajo
+cambio de dirección 1: de izquierda a derecha
+
 
 ## lectura
 
