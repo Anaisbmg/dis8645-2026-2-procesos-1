@@ -699,6 +699,22 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 
 </details>
 
+### Conexión
+
+Para realizar las conexiones necesarias, vamos a revisar el **pinout** correspondiente al modelo de nuestro Arduino y ubicar los pines correspondientes a IIC SDA e IIC SDL
+
+#### Arduino UNO R4 WIFI
+
+![IDE](./imagenes/sc-00.png)
+
+<br>
+
+#### Arduino 101
+
+![IDE](./imagenes/sc-02.png)
+
+<br>
+
 ## encargos
 
 No hubo encargo formal en esta clase, pero como grupo nos enfocamos para poder definir el poema a realizar para el _proyecto_01_
@@ -726,6 +742,8 @@ Se comienza a visualizar el poema como una sola línea de texto que avanza, tal 
 7. Si se sueltan ambos botones, desaparece la palabra
 8. Luego continúa avanzando el texto desde el mismo punto en el que quedó
 
+
 ```
+<br>
 
 ## lectura
