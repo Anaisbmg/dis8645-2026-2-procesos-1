@@ -45,7 +45,9 @@ Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostá
 //Orejas de potenciómetro a VCC y GND` (Los extremos del potenciómetro; 1 y 3)
 //Nariz de potenciómetro a entrada A0 (entendiéndose como la pata de la mitad; 2)
 
-//proyectar fragmento del poema "a los perros buenos no les pasan cosas malas", y "mamá tu no cumples años, tu cumples sueños" de elvira sastre, en pantalla LCD Oled 0,91" I2C
+
+//Funcionamiento:
+//proyectar fragmento del poema "-", y "-" de Santiago Cifuentes Vélez, en pantalla LCD Oled 0,91" I2C
 //el hardware tiene dos componentes interactivos esenciales: potenciometro y botón.
 //potenciómetro: el poema saltará de línea a medida que se cambia la resistencia de este.
 // La primera línea del texto será 0k y la última línea será del texto será 100k. Vamos a movernos dentro del rango de 0 y 100 para avanzar o retroceder en líneas y leer.
