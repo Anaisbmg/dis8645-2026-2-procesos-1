@@ -118,7 +118,7 @@ void loop() {
 - `Serial.println()` muestra el valor en el monitor serial.
 - `9600` velocidad de comunicación serial.
 
-###Sobre `int`
+### Sobre int
 - `int` trabaja con números enteros.
 - Por ejemplo:
   - `1/4 = 0,25`
