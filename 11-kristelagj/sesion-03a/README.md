@@ -37,6 +37,7 @@ No, en serio, este poema nada puede resolver.
 
 Es a partir de esta elección, que para el día viernes cada uno del equipo trajo como sentía y pensaba que era de manera correcta representar gráficamente este. 
 
+```cpp
 Este poema nada puede resolver.
 //podríamos escribirlo con números y que al final el resultado sea syntaxerror
 Adentro del poema, la muerte se consume.
@@ -54,6 +55,7 @@ Solo los elegidos contemplan su propia destrucción.
 //distorsionar las letras(?
 No, en serio, este poema nada puede resolver.
 // que la pantalla se vaya a error
+```
 
 Ideas
 https://vt.tiktok.com/ZSVpbG8bQ/
