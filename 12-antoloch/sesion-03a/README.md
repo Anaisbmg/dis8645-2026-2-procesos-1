@@ -44,10 +44,24 @@ scrollText("irse, y no volver.");
 fadeInOut();
 zoomWord("irse");
 randomBounce(); // estilo DVD
+```
+![lecturalectura](./imagenes/lecturalectura.png)
+
+1. Transformar lo real en algo extraño
+
+Una idea súper fuerte es tomar imágenes reales y transformarlas hasta que sigan siendo reconocibles, pero se sientan raras o irreales.
+
+-Una planta que parece otra cosa.
+ -Un rostro que mezcla dos rostros.
+- Un paisaje que parece conocido pero tiene elementos imposibles.
+* Objetos que se deforman progresivamente.
+
+Concepto: ¿En qué momento algo real deja de parecer real?
+
+2. Mezclar diferentes imágenes para crear una nueva
+
+Las imágenes generadas parecen surgir de una mezcla de muchas imágenes de referencia.
 
 
-![ejercicio](./imagenes/ejercicio.gif)
 
 
-## lectura
-![lecturalectura](./imagenes/lecturalectura)
