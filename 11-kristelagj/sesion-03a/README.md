@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-### clase
+### clase 250826
 
 0,91 pulgadas en diagonal (es la que utilizaremos) las pantallas se miden en diagonal, es lo que importa. 
 Equidistantes del medio en diagonal colocar la pantalla, cada una de los pins va en la proto.  
