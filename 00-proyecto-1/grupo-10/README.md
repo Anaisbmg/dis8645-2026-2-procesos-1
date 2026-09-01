@@ -339,4 +339,16 @@ void loop() {
 
 ![conversación con chatgpt](./chatgpt4.png)
 
+ahora toco ponerse creativos y con ayuda de gemini buscamos una forma para poder tirar imagenes a la pantallita 
+
+[poner imagen de la conversación]
+
+en la página de pixilart (https://www.pixilart.com/draw?ref=home-page) hicimos un dibujo rapidito para poder mandarlo a la pagina image2cpp v2 (https://javl.github.io/image2cpp/#step-2) 
+
+[insertar imagen del dibujo y ss de la pagina que te crea el codigo]
+
+el dibujo no cabia asi que solo pudimos mandar como la mitad de este para visualizarlo en la pantallita y se veía así
+
+![prueba de imagen](./prueba-dibujo.jpeg)
+
 
