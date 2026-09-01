@@ -92,5 +92,251 @@ Procedo a revisar la foto de la conexión nuevamente, y en efecto, lo que me dec
 
 Estaba viva, y la esperanza volvió a nuestros cuerpos.
 
+Autoria por Martina Fernández, Pumpkinguurl.
+
 Le compartí el primer código a chatgpt junto con los llamados para poder usar la pantallita para que me ayudara a ver donde tenía que ponerle los display pero me cambió todo lo que le puse para poder agregarle los display maldito no me deja ir a mi ritmo.
+
+![pantalla funcionando](./poema-en-pantalla.jpeg)
+
+foto de la pantallita corriendo el poema porque se me fue sacarle foto a la animación del código del profe
+
+```cpp
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 32
+
+
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+
+
+Adafruit_SSD1306 display(
+  SCREEN_WIDTH,
+  SCREEN_HEIGHT,
+  &Wire,
+  OLED_RESET
+);
+
+
+char *versos[] = {
+  "Hope is the thing with",
+  "feathers",
+  "That perches in the",
+  "soul",
+  "and sings the tune without the words",
+  "and never stops",
+  "at all..."
+};
+
+
+void setup() {
+
+
+  Serial.begin(9600);
+
+
+  // Iniciar OLED
+  display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+
+
+  display.clearDisplay();
+
+
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+}
+
+
+void loop() {
+
+
+  for (int i = 0; i < 7; i++) {
+
+
+    // Borrar lo anterior
+    display.clearDisplay();
+
+
+    // Posicion del texto
+    display.setCursor(0, 0);
+
+
+    // Escribir verso
+    display.println(versos[i]);
+
+
+    // Mostrarlo
+    display.display();
+
+
+    // Esperar 2 segundos
+    delay(2000);
+  }
+}
+```
+
+y funcionó la pantallita
+
+Lo que le mandamos a chat gpt:
+ 
+"mira tengo esto
+
+```cpp
+#include <SPI.h>
+
+#include <Wire.h>
+
+#include <Adafruit_GFX.h>
+
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+
+#define SCREEN_HEIGHT 32 // OLED display height, in pixels
+
+#define OLED_RESET     -1 // Reset pin # (or -1 if sharing Arduino reset pin)
+
+#define SCREEN_ADDRESS 0x3C ///< See datasheet for Address; 0x3D for 128x64, 0x3C for 128x32
+
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
+#define NUMFLAKES     10 // Number of snowflakes in the animation example
+
+#define LOGO_HEIGHT   16
+
+#define LOGO_WIDTH    16
+
+
+
+
+char *versos[] = {
+
+   "Hope is the thing with",
+
+   "feathers",
+
+   "That perches in the",
+
+   "soul",
+
+   "and sings the tune without the words",
+
+   "and never stops",
+
+   "at all..."
+
+};
+
+void setup() {
+
+  // put your setup code here, to run once:
+
+Serial.begin(9600);
+
+}
+
+void loop() {
+
+  // put your main code here, to run repeatedly:
+
+Serial.println(versos[0]);
+
+Serial.println(versos[1]);
+
+Serial.println(versos[2]);
+
+Serial.println(versos[3]);
+
+Serial.println(versos[4]);
+
+Serial.println(versos[5]);
+
+Serial.println(versos[6]);
+
+Serial.println(versos[7]);
+
+}
+```
+
+debo llamar a la pantalla en otro lado para poder tirarlo y que se vea?"
+
+y lo que nos respondió
+
+![conversación con chatgpt](./chatgpt1.png)
+
+![conversación con chatgpt](./chatgpt2.png)
+
+![conversación con chatgpt](./chatgpt3.png)
+
+```cpp
+#include <SPI.h>
+#include <Wire.h>
+#include <Adafruit_GFX.h>
+#include <Adafruit_SSD1306.h>
+
+#define SCREEN_WIDTH 128
+#define SCREEN_HEIGHT 32
+
+#define OLED_RESET -1
+#define SCREEN_ADDRESS 0x3C
+
+Adafruit_SSD1306 display(
+  SCREEN_WIDTH,
+  SCREEN_HEIGHT,
+  &Wire,
+  OLED_RESET
+);
+
+char *versos[] = {
+  "Hope is the thing with",
+  "feathers",
+  "That perches in the",
+  "soul",
+  "and sings the tune without the words",
+  "and never stops",
+  "at all..."
+};
+
+void setup() {
+
+  Serial.begin(9600);
+
+  // Iniciar OLED
+  display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS);
+
+  display.clearDisplay();
+
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+}
+
+void loop() {
+
+  for (int i = 0; i < 7; i++) {
+
+    // Borrar lo anterior
+    display.clearDisplay();
+
+    // Posicion del texto
+    display.setCursor(0, 0);
+
+    // Escribir verso
+    display.println(versos[i]);
+
+    // Mostrarlo
+    display.display();
+
+    // Esperar 2 segundos
+    delay(2000);
+  }
+}
+```
+
+![conversación con chatgpt](./chatgpt4.png)
+
 
