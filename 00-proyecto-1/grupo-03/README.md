@@ -21,7 +21,7 @@ Este poema, como lo menciona en su página legal: “ninguna parte de esta publi
   <img src="./imagenes/autorizacion-editorial.png" width="50%">
 </div>
 
-Lo primero que desarrollamos como grupo fue proponer el cómo representar visualmente el poema, además de buscar personas que ocuparan este tipo de pantallas, usos, etc. 
+Lo primero que desarrollamos como grupo fue proponer cómo representar visualmente el poema en base a referentes y cómo podríamos expresar las líneas con distintos énfasis mediante posibles tipografías, tamaños y contrastes que nos ayudarán a construir los style frames, que posteriormente pasarán a código y serán parte fundamental de la construcción de este, además de buscar personas que ocuparan este tipo de pantallas, usos, etc.
 
 Destacamos que revisamos los ejemplos del año pasado y preguntándonos como por ejemplo, el uso de los potenciómetros, lo cual nos ayudó en el futuro a poder avanzar el poema, en este caso utilizamos el ejemplo que se hizo en clases de un extracto de akriila
 
