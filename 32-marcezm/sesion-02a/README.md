@@ -145,4 +145,110 @@ void loop() {
 
 ## encargos
 
-## lectura
+### C++
+Es un lenguaje **multiparadigma** y de **tipado estático**. Esto significa que permite utilizar diferentes formas de programación y que las variables poseen un tipo de dato definido que es comprobado durante la compilación.
+
+**Características principales:**
+  - Permite organizar instrucciones mediante funciones y estructuras.
+  - Permite trabajar con diferentes tipos de datos.
+  - Soporta programación orientada a objetos.
+  - Permite utilizar programación genérica mediante plantillas.
+  - Posee una biblioteca estándar con diferentes herramientas.
+  - Es utilizado en sistemas embebidos, videojuegos y aplicaciones de escritorio.
+
+**Tipos de datos:**
+
+| Tipo | Descripción |
+|---|---|
+| `char` | Almacena caracteres y valores enteros pequeños |
+| `wchar_t` | Permite almacenar caracteres de mayor tamaño |
+| `short` | Número entero de menor tamaño |
+| `int` | Número entero |
+| `long` | Número entero de mayor rango |
+| `long long` | Número entero de rango aún mayor |
+| `float` | Número decimal |
+| `double` | Número decimal con mayor precisión |
+| `long double` | Número decimal con mayor precisión que `double` |
+| `bool` | Representa valores lógicos: `true` o `false` |
+| `void` | Representa ausencia de valor |
+
+**Tipado estático:** En C++, cada variable posee un tipo determinado. El compilador revisa que las operaciones realizadas sean compatibles con ese tipo antes de ejecutar el programa.
+
+### Arduino Framework
+El Arduino Framework es un conjunto de funciones, clases, estructuras, variables y constantes que facilita la programación de las placas Arduino.
+
+Permite simplificar la comunicación entre el código y los componentes físicos conectados al microcontrolador.
+
+**Funciones principales:**
+
+| Función | Uso |
+|---|---|
+| `pinMode()` | Configura un pin como entrada o salida |
+| `digitalRead()` | Lee el estado de una entrada digital |
+| `digitalWrite()` | Establece un estado en una salida digital |
+| `analogRead()` | Lee un valor analógico |
+| `analogWrite()` | Genera una salida mediante PWM |
+| `delay()` | Genera una pausa durante un tiempo determinado |
+
+La estructura básica de un programa Arduino es:
+
+```cpp
+void setup() {
+  // instrucciones iniciales
+}
+
+void loop() {
+  // instrucciones que se repiten
+}
+```
+`setup()` se ejecuta una sola vez al iniciar el programa.
+`loop()` se ejecuta continuamente mientras la placa está funcionando.
+
+### Microcontroladores
+Un microcontrolador es un circuito integrado capaz de ejecutar instrucciones y controlar diferentes componentes electrónicos.
+
+Está diseñado principalmente para realizar tareas específicas dentro de un sistema. En un mismo dispositivo puede integrar:
+- CPU o procesador
+- Memoria
+- Entradas y salidas
+- Temporizadores
+- Contadores
+- Convertidores analógico-digitales
+- Otros periféricos
+
+Los microcontroladores pueden encontrarse en:
+- Electrodomésticos
+- Automóviles
+- Sistemas de seguridad
+- Juguetes electrónicos
+- Sistemas de automatización
+
+**Familias de microcontroladores:**
+
+| Familia | Características |
+|---|---|
+| **AVR** | Utilizada ampliamente en placas Arduino tradicionales |
+| **PIC** | Familia desarrollada por Microchip, utilizada en sistemas embebidos |
+| **ARM** | Arquitectura presente en numerosos microcontroladores y dispositivos electrónicos |
+| **ESP** | Familia de Espressif que incluye modelos con Wi-Fi y Bluetooth |
+
+### ¿Cómo funciona un microcontrolador?
+
+El funcionamiento básico de un microcontrolador puede dividirse en tres etapas principales:
+
+**1. Programación:** Se desarrolla un programa y posteriormente se carga en la memoria del microcontrolador.
+**2. Ejecución:** La CPU procesa las instrucciones y realiza las acciones indicadas por el programa.
+**3. Interacción:** El microcontrolador recibe información mediante sus entradas y puede generar respuestas mediante sus salidas.
+
+Ejemplo
+
+```
+text
+Botón
+  ↓
+Entrada del microcontrolador
+  ↓
+Procesamiento del programa
+  ↓
+Respuesta
+```
