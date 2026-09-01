@@ -75,9 +75,9 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 ## Proceso código y registro
 
-Código 0 → 28/08/26
+[intentoUnoPoema](https://github.com/disenoUDP/dis8645-2026-2-procesos-1/tree/main/00-proyecto-1/grupo-07/codigos/intentoUnoPoema) → 28/08/26
 
-visualiza el poema en el serial monitor en loop
+versión 0 que solo visualiza el poema en el serial monitor en loop
 
 ```cpp
 // poema "queja"
