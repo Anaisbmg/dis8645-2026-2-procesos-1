@@ -107,9 +107,9 @@ void escribirLetraPorLetra(char *texto, int x, int y, int velocidad) {
     delay(velocidad);
   }
 } 
-  
-3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 ```
+
+3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
 ```cpp
 // codigo aqui
