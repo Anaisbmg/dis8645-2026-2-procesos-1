@@ -10,4 +10,4 @@ Anteriormente, nuestro proyecto 01 era la proyección de 2 fragmentos de poemas 
 
 Eso nos llevo a madurar la idea que teníamos en cuanto al proyecto, y optamos por: Escribir nuestros propios poemas, y crear lo que será nuestra factura oficial. 
 
-Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostálgico y familiar: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (nombre de la pantalla), control remoto (Push button
+Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostálgico y familiar: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (nombre de la pantalla), control remoto (Push button; para cambiar de "canal" (poema), y potenciómetro; para poder hacer scroll y leer el poema). Los poemas, la narrativa, y el ambiente giran en torno a la calidez de los recuerdos, las conexiones humanas, y la nostalgia de las experiencias ya vividas, y lo que vendrá).
