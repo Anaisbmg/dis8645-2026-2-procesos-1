@@ -17,7 +17,7 @@ Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostá
 - Código y comentarios 
 ```cpp
 //Lectura de 3 poemas con arduino uno r4 wifi
-//En una pantalla LCD Oled 0,91" I2C. 
+//En una pantalla OLED 1.3" I2C 128x64, controlador SH1106 
 
 //Por Francisca Palma, Nicolas Valdes, Santiago Cifuentes Vélez.
 //Proyecto 01 para dis8645-2026-2
@@ -31,7 +31,7 @@ Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostá
 //Potenciómetro B100k ó posiblemente //LDR
 //Push button
 //Protoboard
-//Pantalla LCD Oled 0,91" I2C
+//Pantalla OLED 1.3" I2C 128x64, controlador SH1106 
 //Resistencia de 10k
 //Cable usb/C
 //LEDs
