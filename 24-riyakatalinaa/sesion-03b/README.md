@@ -12,18 +12,29 @@ Emi/hazzaily me mando fotos de las cajitas que estaban entregando para guardar l
 
 - el poema que elegimos entre todas fue el poema 2 **"Queja" (perfeccionismo = control)** de la poeta **Alfonsina Storni**
 
-**Señor, mi queja es ésta,
-Tú me comprenderás;
-De amor me estoy muriendo,
-Pero no puedo amar.
-Persigo lo perfecto
-En mí y en los demás,
-Persigo lo perfecto
-Para poder amar.
-Me consumo en mi fuego,
-¡Señor, piedad, piedad!
-De amor me estoy muriendo,
-¡Pero no puedo amar.**
+**Señor, mi queja es ésta,**
+
+**Tú me comprenderás;**
+
+**De amor me estoy muriendo,**
+
+**Pero no puedo amar.**
+
+**Persigo lo perfecto**
+
+**En mí y en los demás,**
+
+**Persigo lo perfecto**
+
+**Para poder amar.**
+
+**Me consumo en mi fuego,**
+
+**¡Señor, piedad, piedad!**
+
+**De amor me estoy muriendo,**
+
+**¡Pero no puedo amar.**
 
 como no estuve gran parte en la clase (llegue 12:00 pm) mis compañeras me explicaron lo siguiente 
 
