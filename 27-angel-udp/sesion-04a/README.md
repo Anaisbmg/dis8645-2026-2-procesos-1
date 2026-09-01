@@ -1,6 +1,14 @@
 # sesion-04a
 
+01-09-2026
+
 ## apuntes sesión
+
+Avanzamos en el proyecto de manera autónoma como grupo.
+
+Descubrimos (el Tomás) que el tecno-mesianismo es la idea de que la tecnología, especialmente la inteligencia artificial, va a salvar a la humanidad y de todos sus problemas de manera mágica.
+
+
 
 ## encargos
 
