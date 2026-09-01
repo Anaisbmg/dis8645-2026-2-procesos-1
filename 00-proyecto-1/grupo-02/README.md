@@ -1,3 +1,5 @@
+Este es nuestro código funcional, sin comentarios donde se explicita como en la versión de: [El viernes en clase](https://github.com/santiagocifuvelez/dis8645-2026-2-procesos-1/tree/main/00-proyecto-1/grupo-02/codigos/2026-08-28)
+
 ```cpp
 //esta parte es OBLIGATORIA en todas las estructuras con Adafruit, 
 //ya que son las librerias.
@@ -108,9 +110,6 @@ void setup() {
   // while (!Serial) {}
   // Serial.println("Elvira Sastre"); // se muestra luego de la ilustración del cactus
   // delay(2000);   // Wait for display para prenderse
-
-  // igual se puede ignorar porque lo sustituí por la parte del final en donde se muestra el nombre
-  // de elvira en texto más grande luego de que se muestra el cactus
 
 //Esta parte igual, es obligatoria por el bien de la sociedad.
 //Esta parte es por si a la pantalla no le llega la suficiente energía y hay un error, 
@@ -228,4 +227,5 @@ void setup() {
   int resultado = valor / divisor;
   return resultado;
 }
+
 ```

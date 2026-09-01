@@ -25,7 +25,7 @@ Un átomo contiene:
 Los protones y neutrones se encuentran en el núcleo. Los electrones se encuentran alrededor del núcleo.
 
 
-![átomos](imagenes/.jpg)
+![átomos](imagenes/atomo.jpg)
 
 
 **<ins>Carga eléctrica</ins>**
@@ -48,7 +48,7 @@ Las cargas opuestas se atraen y las cargas iguales se repelen.
 
 Un átomo neutro tiene la misma cantidad de protones y electrones. Un ion posee un desequilibrio entre ambos.
 
-![iones](imagenes/.jpg)
+![iones](imagenes/iones.jpg)
 
 ### **<ins>Energía</ins>**
 
@@ -72,11 +72,9 @@ Conjunto de fenómenos producidos por la presencia y el movimiento de cargas el�
 
 En un cable metálico, lo que se desplaza principalmente son los electrones, no los átomos completos.
 
-Por eso, es más correcto decir:
-
 **La corriente eléctrica es un flujo de cargas eléctricas.**
  
-No es exactamente un flujo de átomos ni un flujo de energía. Las cargas se mueven y mediante ese movimiento, se transfiere energía.
+No es un flujo de átomos ni un flujo de energía. Las cargas se mueven y mediante ese movimiento, se transfiere energía.
 
 Comparación con el agua
 
@@ -121,7 +119,7 @@ El amplificador del EEG registra la señal
 ```
 
 
-![experimento eri](imagenes/.jpg)
+![experimento eri](imagenes/exp-eri.jpg)
 
 para comprender mejor, el eri me esta explicando cada concepto desde la lógica de su experimento
 
@@ -203,8 +201,8 @@ https://sites.google.com/cbtis119.edu.mx/energiasolartermica/unidad-1/introducci
 https://www.youtube.com/watch?v=YjbH_HnUMx4 
 
 
-
-
+![circuito eléctrico](imagenes/circuito-electrico.jpg)
+![circuito eléctrico](imagenes/realidaddcircuito.jpg)
 
 ### **<ins>Potenciómetro</ins>**
 
@@ -222,6 +220,9 @@ Extremo 1  → 5 V o 3,3 V
 Centro     → entrada analógica
 Extremo 2  → GND
 ```
+
+![trabajo en clases](imagenes/avanceclases.jpg)
+
 **Potenciómetro como divisor de voltaje**
 
 El cursor divide internamente la pista resistiva en dos resistencias:
@@ -243,14 +244,6 @@ Cambia la proporción entre ambas resistencias.
 Cambia el voltaje obtenido en la pata central.
 
 > Encoder: también puede girar, pero no funciona igual que un potenciómetro. Registra cambios de posición o pasos mediante señales digitales.
-
-**Potenciómetros A y B**
-
-Las letras A y B pueden utilizarse para indicar el tipo de curva de respuesta del potenciómetro, aunque la convención puede variar entre fabricantes:
-
-Lineal: el cambio físico produce un cambio proporcional de resistencia.
-Logarítmico: la resistencia cambia siguiendo una curva, algo habitual en controles de audio.
-
 
 ### **<ins>Raspberry Pi Pico 2 W y voltajes</ins>**
 
@@ -295,8 +288,9 @@ Para solucionar esto se utilizan resistencias pull-down o pull-up.
 ### **<ins>Breadboard</ins>**
 
 La Breadboard es una placa que permite construir y probar circuitos sin soldar.
-
 Sus orificios no son independientes: debajo de la superficie existen conexiones metálicas que unen determinados grupos.
+
+![bread board](imagenes/breadboard.jpg) 
 
 **Zona central**
 
@@ -304,7 +298,7 @@ En un Breadboard común, cada grupo de cinco orificios suele estar conectado int
 
 **a ─ b ─ c ─ d ─ e**
 
-El canal central separa ambos lados. Se utiliza, entre otras cosas, para colocar circuitos integrados con patas a cada lado.
+El canal central separa ambos lados. Se utiliza para colocar circuitos integrados con patas a cada lado.
 
 **Rieles de alimentación**
 
@@ -362,9 +356,7 @@ Un botón se conecta normalmente a un pin digital porque representa dos estados:
 **Analog In**
 
 Las entradas Analog In, identificadas como A0, A1, etc., permiten leer voltajes variables.
-
 Un potenciómetro se conecta a una entrada analógica porque puede entregar muchos niveles de voltaje entre el mínimo y el máximo.
-
 La entrada analógica permite que la computadora lea una parte del mundo físico que no se limita únicamente a encendido o apagado.
 
 ## Montaje del potenciómetro con Arduino
@@ -448,11 +440,6 @@ La función `setup()` se ejecuta una sola vez cuando comienza el programa.
 ```cpp
 Serial.begin(9600);
 ```
-
-Esta instrucción inicia la comunicación serial entre Arduino y el computador a una velocidad de `9600` bits por segundo.
-
-Esta velocidad se conoce como *baud rate* en este contexto = (o velocidad en baudios) es el número de cambios de señal o símbolos que se transmiten por segundo en un canal de comunicación.
-
 El monitor serial del computador debe configurarse con la misma velocidad. Si las velocidades no coinciden, la información puede aparecer ilegible.
 
 ## 6. `loop()` y lectura analógica
@@ -587,13 +574,13 @@ void loop() {
 
 ## 11. Resumen del funcionamiento
 
-1. Arduino entrega alimentación al potenciómetro.
-2. Al girarlo, cambia el voltaje de su pata central.
-3. La pata central transmite ese voltaje a `A0`.
-4. `analogRead()` convierte el voltaje en un número.
-5. El número se guarda en `valorLectura`.
-6. `Serial.println()` envía el resultado al computador.
-7. `loop()` repite continuamente todo el proceso.
+1. Arduino entrega alimentación al potenciómetro.  
+2. Al girarlo, cambia el voltaje de su pata central.  
+3. La pata central transmite ese voltaje a `A0`.  
+4. `analogRead()` convierte el voltaje en un número.  
+5. El número se guarda en `valorLectura`.  
+6. `Serial.println()` envía el resultado al computador.  
+7. `loop()` repite continuamente todo el proceso.  
 
 ```text
 Girar el potenciómetro
@@ -611,10 +598,10 @@ Trabajar “fungi”
 
 Los hongos forman redes de micelio que se extienden por diferentes lugares. De forma parecida, un proyecto administrado con Git puede existir en diferentes nodos:
 
-En el computador de una persona.
-En los computadores de otros integrantes.
-En un repositorio remoto, como GitHub.
-En diferentes ramas o versiones.
+En el computador de una persona.  
+En los computadores de otros integrantes.  
+En un repositorio remoto, como GitHub.  
+En diferentes ramas o versiones.  
 
 Si un computador falla, el código puede continuar existiendo en los otros puntos de la red.
 
@@ -650,15 +637,15 @@ Distribuir alimentación mediante la protoboard.
 
 Finalmente, transformamos una señal física en información:
 
-Girar potenciómetro
-        ↓
+Girar potenciómetro   
+        ↓ 
 Cambiar voltaje
-        ↓
-Arduino lee A0
-        ↓
-analogRead() lo convierte en un número
-        ↓
-Serial.println() lo muestra en el computador
+        ↓. 
+Arduino lee A0  
+        ↓ 
+analogRead() lo convierte en un número 
+        ↓ 
+Serial.println() lo muestra en el computador 
 
 
 honestamente siento que mientras más aprendo menos estoy segura si entiendo? pero tendré fé en el proceso y revisar todos los apuntes 
@@ -667,3 +654,85 @@ honestamente siento que mientras más aprendo menos estoy segura si entiendo? pe
 ## encargos
 
 ## lectura
+
+Hacker, hoaxer, whistleblower, spy; the many faces of anonymous por Gabriela Coleman. 
+
+### capítulo introducción:
+
+(01pg-17pg)
+
+“And Now You Have Got Our Attention” 
+
+Coleman relata cómo el 29 de julio de 2007, una identidad colectiva conocida como Anonymous comenzó a adquirir mayor visibilidad pública luego de ser presentada por Fox News como “the Internet hate machine”. Sin rechazar esta caracterización, Anonymous terminó apropiándose de ella y utilizándola como parte de su propia construcción identitaria.
+
+Desde la ironía, Anonymous comienza a representarse a sí mismo como una entidad oscura, amenazante y casi omnipotente, exagerando aquellos rasgos con los que los medios intentaban describirlo. De esta manera, parece confirmar la imagen planteada por Fox News, pero al mismo tiempo se burla de ella. Coleman entiende este juego como una forma de doble significado o double meaning.
+
+Este double meaning es fundamental para entender su construcción ya que, antes de 2008, “Anonymous” se relacionaba principalmente con trolls que hacían provocaciones, ataques coordinados y acciones destinadas a molestar, humillar o generar reacciones. Coleman quiere que entendamos esa cultura de origen porque muchas de las características que después hicieron posible que Anonymous se convirtiera en un movimiento político —anonimato, acción colectiva, rechazo al liderazgo, humor irreverente— surgieron precisamente ahí.
+
+### 1. Los trolls no son simplemente “gente que molesta”
+
+Coleman estudia el trolling como una subcultura de Internet. No lo reduce a “personas malas escribiendo comentarios desagradables”. Los trolls desarrollan:
+
+códigos propios;
+lenguaje propio;
+formas de reconocimiento;
+bromas internas;
+reglas implícitas;
+maneras particulares de relacionarse con otros usuarios y con Internet.
+
+Además, muestra que el trolling puede adoptar formas muy distintas: desde bromas relativamente inocentes hasta hostigamiento tremendamente cruel. Por ende constantemente aparece la ambigüedad moral de estas prácticas.
+
+> Allow me to say quite simply: you completely missed the point of who and what we are... we are everyone and we are no one"
+
+No necesitan:
+
+un líder
+una organización formal
+un nombre personal
+una jerarquía.
+
+### Un dato importante para ir analizando la historia es 4chan: 
+
+4chan es un foro de imágenes y mensajes anónimo, creado en 2003, donde la gente publica en distintos tableros temáticos sin necesitar una identidad pública persistente.
+
+"4chan es parecido con Reddit pero casi sin moderación y con temas prohibidos, hay muchos temas oscuros que no encontrarías en ningún lugar de internet, mucho menos tan abiertamente (y sí, eso incluye cosas ilegales MUY malas) pero también hay cosas muy interesantes como medios perdidos. Hay episodios, fragmentos, imágenes y hasta dibujos completos que se perdieron o fueron censurados en su época de lanzamiento que están ahí. Imágenes raras y música, aún más de artistas que ya murieron, además de varias propagandas que hicieron grandes empresas en la época de la Segunda Guerra Mundial. Mucho contenido que no aparecería de ninguna manera, porque mancha la imagen de algunas empresas o simplemente tiene derechos de autor, es casi imposible rastrear a algún usuario de ahí (a menos que seas experto)." - respuesta reddit https://www.reddit.com/r/PergunteReddit/comments/18qyu1h/o_que_%C3%A9_o_4chan_e_como_funciona/?tl=es-419
+
+### From trolling to the Misfits of Activism
+
+Coleman usa el caso de Habbo Hotel para mostrar de dónde viene Anonymous antes de convertirse en un actor político.
+
+En julio de 2006, numerosos usuarios asociados a 4chan entraron coordinadamente a Habbo Hotel utilizando avatares casi idénticos y ocuparon espacios del mundo virtual, especialmente la piscina impidiendo el paso de otros usuarios. La acción se volvió una de las primeras raids emblemáticas asociadas a Anonymous.
+
+"los miembros del grupo formaron bloqueos humanos para obstruir los puntos de entrada de lugares de reunión populares con sus avatares vestidos con afros y trajes de negocios. El primer "raid" se lanzó en julio de 2006 después de que comenzaran a difundirse rumores en 4chan de que algunos moderadores de Habbo tenían tendencia a prohibir a los usuarios en función del color de la piel de sus avatares." https://meme.fandom.com/es/wiki/Pool%27s_Closed
+
+De esta forma aprovechando un problema técnico que no permitía que los avatares se cruzaran entre sí al entrar y salir del local. Como resultado, el bloqueo humano se convirtió rápidamente en una fuente de frustración para loa recién llegados.
+
+![Reglas del álgebra booleana](imagenes/habbo-4chan.jpg) ![Reglas del álgebra booleana](imagenes/habbo-4chan-02.jpg)
+
+Es un caso interesante porque permite observar varias de las bases que caracterizan a Anonymous: no existe un líder central ni una organización formal, sino una identidad colectiva y descentralizada. Al mismo tiempo, el caso muestra cómo Anonymous se mueve constantemente en un límite difuso entre el shitposting, la provocación, el activismo y la discusión de problemáticas sociales, como en este caso el racismo. Esa ambigüedad hace difícil determinar cuándo una acción busca simplemente generar lulz y cuándo comienza a adquirir una dimensión crítica o política.
+
+### Lulz
+
+Se usa para describir la diversión obtenida al provocar, incomodar, confundir o generar una reacción en otros. Por eso la frase “for the lulz” significa algo como:
+
+“Lo hicimos por la risa, por el caos, porque era divertido ver la reacción.”
+
+La diferencia con “humor” normal es que los lulz dependen de que otra persona o institución reaccione. 
+
+### términos y palabras nuevas para guardar: 
+
+- mecánicas de colisión, lo que significaba que un jugador no podía ocupar la casilla de otro.
+- denizens
+- intones
+- embodiment
+- in a nutshell
+
+### Trickster
+
+trickster → rompe una regla → provoca una reacción → revela algo del sistema
+
+Por ejemplo, en Habbo Hotel, los usuarios no “hackean” técnicamente la plataforma: usan sus propias reglas y herramientas de una manera absurda o inesperada para bloquear espacios y generar caos. Ahí funcionan como tricksters, porque subvierten el uso normal del sistema.
+
+
+.
+
