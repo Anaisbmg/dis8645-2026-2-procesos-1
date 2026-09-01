@@ -2,6 +2,15 @@
 
 ## apuntes sesión
 
+no guardé los apuntes antes de irme ;(
+
+lo que tenía mas o menos:
+
+buscar otra opción para no ocupar la función delay, ya que pausa toda acción use arduino, siendo muy potente y muy brusco.
+
+wenaa opcion mencionada por el seba: MILLIS. lo buscamos durante el finde para ver q tal, ya que funciona como un cronómetro para tener intervalos de tiempo. 
+
+
 ## encargos
 
 encargo-03b:
