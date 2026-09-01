@@ -4,9 +4,11 @@
 
 Avanzar en clase el proyecto-01 
 
+Carpeta código proyecto-01
+
 A una de mis compañeras se le quedo la pantalla en la casa, por lo que estamos buscando maneras de hacer una mini animación y ver como funcionaria el código para visualizar el poema en la pantalla, pero que aun no haga nada, hare diferentes ejemplo con el poema, me estoy ayudando con claude y gemeni para entender las funciones y el como funcionaria el código.
 
-Codigo 0 → visualiza el poema en el serial monitor en loop → clase pasada 
+### Codigo 0 → visualiza el poema en el serial monitor en loop → clase pasada 
 
 ```cpp
 // poema "queja"
@@ -59,7 +61,7 @@ void loop() {
 }
 ```
 
-Código 1 → La parte que efectivamente "proyecta" el poema en la pantalla es la función mostrarVerso(), específicamente estas líneas:
+### Código 1 → La parte que efectivamente "proyecta" el poema en la pantalla es la función mostrarVerso(), específicamente estas líneas:
 
 ```cpp
 display.clearDisplay();      // Borra lo que estaba dibujado antes
@@ -80,7 +82,9 @@ for (int i = 0; i < totalVersos; i++) {
 }
 ```
 
-Como se veria el código completo
+### Como se veria el código completo
+
+Entra en un ciclo eterno donde muestra el poema "Queja" de Alfonsina Storni verso por verso, cambiando cada 2.5 segundos.
 
 ```cpp
 // ================================================================
