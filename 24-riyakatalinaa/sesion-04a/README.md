@@ -4,9 +4,29 @@ martes 2026-09-01
 
 ## apuntes sesión
 
+08:30 am aaron hablo sobre J-Dilla que la verdad como para no estar tan despierta en hora de la mañana me pareció interesante 
+
+- J-Dilla o también conocido como Jay Dee fue un gran influyente productor musical, rapero y DJ de Detroit, clave en la evolución del hip-hop underground, el neo soul y el chipmunk soul
+- su nombre real era James Dewitt Yancey
+- creo álbum instrumental Donuts, este es un obra importante en el mundo del hip-hop insytrumental
+- su estilo imperfecto y producción orgánico, es decir, él no dejaba que la computadora hiciera el trabajo perfecto, él usaba sus manos para romper la regla del tiempo perfecto (creaba un ritmo desfasado muy distinto) y gracias a eso tenia la habilidad de transformaba música vieja en algo completamente nuevo y contagioso para el oído
+
+**NOTA:** 
+- la verdad lo encontré bastante interesante porque cuando chica me gustaba mucho el hip-hop y ese estilo, no se porque con el tiempo deje de escuchar
+- y como dijo aaron si algo te gusta investigalo
+
+pd: estoy en hora de colación en mi trabajo y escuchando "Donuts"
+
+información sacada de: https://es.wikipedia.org/wiki/J_Dilla y apuntes de mi cuaderno
+
+
+09:00 am empezamos a hablar de lo que íbamos a realizar hoy, mas que nada trabajo en clases
+
 - avanzar en el proyecto-1
 - subir a carpeta **código** de proyecto-1 la primera versión del código
-- hoy se me quedo la pantallita en la casa :(, entonces con mi grupo avanzamos en la parte de lo queremos desarrollar y todo la parte teórica, perfeccionando funciones, códigos, buscando como realizar animaciones para poner en la pantalla 
+- hoy se me quedo la pantallita en la casa :(, entonces con mi grupo avanzamos en la parte de lo queremos desarrollar y todo la parte teórica, perfeccionando funciones, códigos, buscando como realizar animaciones para poner en la pantalla
+
+**subir captura de pantalla**
 
 ### código poema v.0 que solo visualiza el poema en el serial monitor en loop2
 
@@ -79,7 +99,7 @@ void loop() {
 
 ### código poema presentado en pantalla
 
-este es el primer intento de presentación visual del poema en pantalla
+este es el primer intento de presentación visual del poema en pantalla, es un código de ciclo eterno donde muestra el poema verso por verso, cambiando cada 2.5 segundos
 
 ```cpp
 // poema "Queja" de Alfonsina Storni
@@ -212,7 +232,7 @@ void mostrarVerso(char *verso) {
 
 ### código poema con botón presentado en pantalla
 
-mi compañera Monserrat quiso experimentar mas allá y creo este código de presentación del poema en la pantalla y le agrego un botón el cual hace que la dirección del poema cambie de lugar 
+mi compañera **Monserrat** quiso experimentar mas allá y creo este código de presentación del poema en la pantalla y le agrego un botón el cual hace que la dirección del poema cambie de lugar 
 
 ```cpp
 // poema "Queja" de Alfonsina Storni
@@ -344,6 +364,8 @@ void mostrarVerso(char *verso) {
 
 
 ## encargos
+
+
 
 ## lectura
 
