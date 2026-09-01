@@ -4,12 +4,11 @@ fecha: 6 de septiembre 2026
 
 ## Integrantes:
 
-Emilia Contreras / <https://github.com/hazzaily>
+Emilia Contreras / [hazzaily](https://github.com/hazzaily)
 
-Monserrat Paredes / <https://github.com/Monserrat-Paredes>
+Monserrat Paredes / [Monserrat-Paredes](https://github.com/Monserrat-Paredes)
 
-Katalina Riquelme / <https://github.com/riyakatalinaa>
-
+Katalina Riquelme / [riyakatalinaa](https://github.com/riyakatalinaa)
 
 ---
 
