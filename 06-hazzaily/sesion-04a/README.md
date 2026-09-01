@@ -8,7 +8,7 @@
 
 Acabo de comenzar el capítulo 2, honestamente no creí llegar tan lejos.
 
-Citas:
+**Citas:**
 
  1. "With linked lists, you never have to move your items." (pág. 26).
 
@@ -23,5 +23,11 @@ Esta cita ya está en la explicación de los "arrays", pero aún así me ayudó 
 Más que nada, por eso la escogí. 
 
 Actualmente voy en la página 27.
+
+**Opiniones generales:**
+
+En ciertas partes se me  complica un poco comprender así que igualmente me estoy apoyando con google, wikipedia y chatgpt para poder comprender terminos que no estoy absorbiendo de manera correcta. Y estoy considerando crear un glosario a partir de la próxima semana.
+
+No lo había hecho porque las 2 primeras semanas fueron más fáciles de comprender, pero a medida que avanza se pone más complejo.
 
 PD: Oh, sorpresa. Aún está en inglés.
