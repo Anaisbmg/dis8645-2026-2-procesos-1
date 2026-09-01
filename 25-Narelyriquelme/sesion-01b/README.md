@@ -5,7 +5,7 @@
 No pude asistir a esta clase. Reconstruí estos apuntes a partir de lo que me compartieron mis compañeros y gracias al video publicado de Aaron explicando como instalar arduino :).
 
 ### Instalación de Arduino IDE
-
+ 
 Este semestre trabajaremos con microcontroladores, inyectando código mediante Arduino IDE.
 
 1. ir a la página de Arduino (arduino.cc) y hacer click en `Products`.

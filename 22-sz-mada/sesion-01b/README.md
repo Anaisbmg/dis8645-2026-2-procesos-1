@@ -54,7 +54,7 @@ Un solo `=` es una asignación de valor, mientras que dos (`==`) es una comparac
 
 `if` establece una condicional
 
-Eg. 
+Eg.
 
 ```cpp
 if (mesActual == luNacimientoMes) {

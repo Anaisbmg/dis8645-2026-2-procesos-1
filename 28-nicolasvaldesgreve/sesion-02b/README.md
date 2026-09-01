@@ -67,4 +67,8 @@ aquí dejo un gif del código en VS Code!!
 
 ![gif del código corriendo omg mira esa velocidad](./imagenes/como-corre.gif)
 
-## lectura
+## lectura: Program Or Be Programmed: Ten Commands for a Digital Age - Douglas Rushkoff
+
+"It may be true that "guns don't kill people, people kill people"; but guns are a technology more biased to killing than, say, clock radios.", pág 26. creo que una de las cosas que más me gusta de este libro es que me hace más fácil la lectura al usar un lenguaje simple en donde en realidad se siente como si estuviese escuchando una conversación casual pero con opiniones y argumentos de algún amigo. en esta parte, por ejemplo, demuestra lo obvio de manera un poco chistosa siento (no sobre lo que habla ya que las armas son cosas que no dan risa en realidad). la verdad es que en este ejemplo que da sobre los biases (las cuales son inclinaciones que suelen tener las cosas siento que, claramente las armas son hechas para hacer daño, pero esto no significa que esta sea la única participante ya que la persona que la porta es la que realiza la matanza, más no así lo hace la pistola, quien solo responde a órdenes que se les da.
+
+"We live in a continuous "now", and time is always passing for us. Digital technologies do not exist in time, at all.", pág. 28. creo que fue en la bitácora pasada que mencioné que los humanos, al tener rutinas las cuales se guían en base a un horario no tienen tiempo para cuestionar las cosas que deberían ni de preocuparse por ellos mismos o el mismo futuro debido a que están muy preocupados viviendo el "ahora", pero claro, esto no les sucede a las cosas digitales ya que estas no se rigen por un horario predeterminado por lo que yo sepa(? miedo igual, lol.
