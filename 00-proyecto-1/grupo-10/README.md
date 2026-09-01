@@ -55,7 +55,7 @@ https://www.youtube.com/watch?v=35iDgsv60V0
 
 https://www.youtube.com/watch?v=yyYjdyGImFM alrededor del minuto 15 buena explicacion
 
-MUY WENA EXPLICACIÓN, me quedé dormido, es mi lugar seguro..
+MUY WENA EXPLICACIÓN, me quedé dormido, es mi lugar seguro.. (nachi)
 
 Investigación sobre millis
 
