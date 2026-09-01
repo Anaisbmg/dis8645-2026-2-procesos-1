@@ -3,9 +3,9 @@
 **OBJETIVO**: Mostrar en pantalla OLED, un poema de Emily Dickinson. 
 que se muestre un verso cada 2 segundos en pantalla, de derecha a izq. 
 
-**Poema elegido:
+**Poema elegido: 
 
-"Hope is the thing with feathers,
+"Hope is the thing with feathers
 
 That perches in the soul,
 
