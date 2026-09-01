@@ -8,7 +8,13 @@ Por: $\textcolor{red}{Elizabeth\ Barrett\ Browning\}$
 
 Data del año [RELLENAR CON INFO Y CONTEXTO XFA xd]
 
+<br>
+
+<br>
+
 ### Poema original  
+
+<br>
 
 When our two souls stand up erect and strong,
 
@@ -38,6 +44,86 @@ A place to stand and love in for a day,
 
 With darkness and the death-hour rounding it.
 
+<br>
+
 > **Aviso de Dominio Público:** El material _When Our Two Souls Up_ utilizado en este repositorio se encuentra en el dominio público. Ha sido identificado como libre de restricciones bajo los derechos de autor (PDM 1.0).
 
+<br>
+
+<br>
+
 ### Poema traducido
+
+<br>
+
+**Cuando nuestras dos almas se eleven**
+
+<br>
+
+Cuando nuestras dos almas se eleven, firmes y fuertes,
+
+frente a frente, en silencio, acercándose más y más, 
+
+hasta que las alas que se alargan estallan en fuego 
+
+en cada punta curva ¿qué mal amargo 
+
+puede hacernos la tierra, que no debiéramos 
+
+quedarnos aquí, contentos? Piénsalo. Al subir más alto, 
+
+los ángeles nos oprimirían y aspirarían 
+
+a dejar caer algún áureo orbe de canto perfecto
+
+en nuestro hondo, querido silencio. Quedémonos
+
+mejor en la tierra, Amado mío, donde los ánimos
+
+contrarios e injustos de los hombres retroceden
+
+y aíslan a los espíritus puros, y permiten
+
+un lugar donde estar y amar por un día,
+
+con la oscuridad y la hora de la muerte rodeándolo.
+
+<br> 
+
+> Traducción elaborada por Dayana Pañitrur, Camila Ramírez y Bianka Vilchez (2026).
+>
+> Distribuido bajo la licencia CC BY-SA 4.0. Para ver una copia de esta licencia, visita https://creativecommons.org/licenses/by-sa/4.0/
+
+<br>
+
+---
+
+<br>
+
+## Código
+
+### Coreografía
+
+1.Inicia el Arduino
+
+2.El texto avanzará de manera continua hasta que se presionen los botones o se manipule el potenciómetro 
+
+3.En caso de ser solo 1, el texto se congela y no sigue avanzando hasta que se deje de presionar
+
+4.Si son los 2 botones, se detiene el texto y desaparece
+
+5.Mientras esto ocurre, se consulta en qué sección del texto se encuentra
+
+6.En base a la sección del texto mostrado, se visualizará una palabra clave
+
+7.Al dejar de presionar un botón, vuelve a ocurrir el punto 3
+
+8.Si se sueltan ambos botones, desaparece la palabra
+
+9.Luego continúa avanzando el texto desde el mismo punto en el que quedó
+
+10.En caso de ser manipulado el potenciómetro, se modificará la velocidad del texto (mientras más lejos del centro, más rápido el cambio)
+
+11.Si se rota hacia la derecha avanza de manera normal solo variando la velocidad
+
+12.Si se rota hacia la izquierda retrocede el texto, según qué tan lejos del centro esté
