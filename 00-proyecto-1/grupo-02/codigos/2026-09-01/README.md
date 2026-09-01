@@ -11,3 +11,44 @@ Anteriormente, nuestro proyecto 01 era la proyección de 2 fragmentos de poemas 
 Eso nos llevo a madurar la idea que teníamos en cuanto al proyecto, y optamos por: Escribir nuestros propios poemas, y crear lo que será nuestra factura oficial. 
 
 Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostálgico y familiar: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (nombre de la pantalla), control remoto (Push button; para cambiar de "canal" (poema), y potenciómetro; para poder hacer scroll y leer el poema). Los poemas, la narrativa, y el ambiente giran en torno a la calidez de los recuerdos, las conexiones humanas, y la nostalgia de las experiencias ya vividas, y lo que vendrá).
+
+- Imagenes de conceptualización:
+
+- Código y comentarios 
+```cpp
+//Lectura de 3 poemas con arduino uno r4 wifi
+//En una pantalla LCD Oled 0,91" I2C. 
+
+//Por Francisca Palma, Nicolas Valdes, Santiago Cifuentes Vélez.
+//Proyecto 01 para dis8645-2026-2
+
+//Aclaración!!!
+//Los poemas presentados en este proyecto, son de autoría propia de lxs integrantes de este grupo.
+
+
+//Lista de materiales:
+//Aduino uno r4 wifi
+//Potenciómetro B100k ó posiblemente //LDR
+//Push button
+//Protoboard
+//Pantalla LCD Oled 0,91" I2C
+//Resistencia de 10k
+//Cable usb/C
+//LEDs
+
+//Materiales para la carcasa:
+//Cartón reciclado
+//
+
+//Conexiones:
+//Potenciómetro
+//Orejas de potenciómetro a `VCC` y `GND` *(Los extremos del potenciómetro; 1 y 3)*
+//Nariz de potenciómetro a entrada `A0` *(entendiéndose como la pata de la mitad; 2)*
+
+//proyectar fragmento del poema "a los perros buenos no les pasan cosas malas", y "mamá tu no cumples años, tu cumples sueños" de elvira sastre, en pantalla LCD Oled 0,91" I2C
+//el hardware tiene dos componentes interactivos esenciales: potenciometro y botón.
+//potenciómetro: el poema saltará de línea a medida que se cambia la resistencia de este.
+// La primera línea del texto será 0k y la última línea será del texto será 100k. Vamos a movernos dentro del rango de 0 y 100 para avanzar o retroceder en líneas y leer.
+//push boton: al oprimir el botón, se cambia de poema.
+//push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0.
+```
