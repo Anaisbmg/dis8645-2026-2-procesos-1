@@ -3,6 +3,8 @@
 clase cancelada por cierre de udp
 
 ## apuntes sesión
+
+1. Se realizó la instalación de Visual Estudio Code, Arduino, y los plugins de Rasperi Pi.
 `\n`, es el enter, salto de linea 
 
 ## encargos
