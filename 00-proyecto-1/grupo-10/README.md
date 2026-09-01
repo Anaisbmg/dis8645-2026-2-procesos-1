@@ -1,39 +1,40 @@
-Queremos ocupar en la pantalla junto con nuestro arduino, un poema que se aprecie en la pantalla, que se desplaze durante 2 segundos aprox por verso, de derecha a izquierda. 
+# Encargo 1 
 
 **OBJETIVO**: Mostrar en pantalla OLED, un poema de Emily Dickinson. 
 que se muestre un verso cada 2 segundos en pantalla, de derecha a izq. 
 
-**Poema elegido: "Hope is the thing with feathers
+**Poema elegido:
+
+"Hope is the thing with feathers,
+
 That perches in the soul,
+
 And sings the tune without the words
+
 And never stops at all"
 
-Traducción:
-"La esperanza es algo con plumas, que se posa en alma, y canta su canción sin palabras, y jamás se calla."**
+Traducción al español:
+"La esperanza es algo con plumas, que se posa en alma, y canta su canción sin palabras, y jamás se calla."
 
-- COREOGRAFÍA. Se muestra primer verso y se queda por 1 segundo la palabra PLUMAS en pantalla;
-  se muestra el segundo verso y "deletrea en pantalla de palabra ALMA;
-   se muestra el tercer verso con la palabra CANCIÓN en testdrawstyles con otra tipografía;
-  cuarto verso y se muestra la palabra JAMÁS en mayusculas
 
-1. colocar include y definir los parametros de la pantalla, cantidad de letras que caben.
 
-2. necesitamos iniciar de la pantalla 
 
-3. definir la aparición de cada verso con su tiempo en pantalla
+***Obligatorios encargo 1***
 
- -carcasa de cartón(ROBOT NACHANGO)
- -licencias explícitas del corpus usado (LISTO)
- -proceso constante en bitácoras personales (PERSONAL)
- -3x versiones distintas mínimo dentro de carpeta codigos/
- -revisar como referencia el proyecto-1 del 2025 (PERSONAL) https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01 (PERSONAL)
- -pagar cuota de materiales de agosto, o enviar correo a todo el equipo docente siguiendo reglas publicadas en canvas  (PERSONAL)
+ -Carcasa de cartón
+ 
+ -Licencias explícitas del corpus usado. 
+ 
+ -Proceso constante en bitácoras personales.
+ 
+ -3x versiones distintas mínimo dentro de carpeta codigos.
+ 
+ -Revisar como referencia el proyecto-1 del 2025 https://github.com/disenoUDP/dis8645-2025-2-procesos/tree/main/00-proyecto-01 
+ 
+ -Pagar cuota de materiales de agosto, o enviar correo a todo el equipo docente siguiendo reglas publicadas en canvas.  
 
- Bitacora de buzz lightyear
 
-Nos conectamos para poder avanzar con el proyecto 1 pero nos dimos cuenta que una tenía la pantalla, otra tenía las cables, otra tenía otra cosa y nadie podía correr una animación en la pantallita, así que no pudimos avanzar, pero algo se estudió.
-
-2- Licencia legal
+**1.  Licencia legal**
 
 Obra: Hope is the thing with feathers
 
@@ -45,19 +46,31 @@ Licencia / estado: Dominio público
 
 Evidencia: https://poets.org/poem/hope-thing-feathers-254 
 
-1. Licencias explícitas del corpus
+**2. Licencias explícitas del corpus**
    
  Se verificó el estado de derechos de autor de las obras utilizadas. En el caso del poema Hope is the thing with feathers, de Emily Dickinson, la fuente utilizada, Academy of American Poets (Poets.org), declara explícitamente que la obra se encuentra en el dominio público: “This poem is in the public domain.” Esta indicación aparece directamente en la página de la obra, después del texto del poema.
 
 Por lo tanto, el poema fue incorporado al corpus bajo la condición de dominio público, utilizando como evidencia la declaración explícita de la fuente.
 
-https://www.youtube.com/watch?v=35iDgsv60V0 
+Vimos varios videos para saber como funcionan los milis
 
-https://www.youtube.com/watch?v=yyYjdyGImFM alrededor del minuto 15 buena explicacion
+  **Inicio del codígo**
 
-MUY WENA EXPLICACIÓN, me quedé dormido, es mi lugar seguro..
+1. colocar include y definir los parametros de la pantalla, cantidad de letras que caben.
 
-Investigación sobre millis
+2. necesitamos iniciar de la pantalla 
+
+3. definir la aparición de cada verso con su tiempo en pantalla
+
+
+***Primeras ideas de proyecto***
+
+- COREOGRAFÍA. Se muestra primer verso y se queda por 1 segundo la palabra feathers en pantalla;
+  se muestra el segundo verso y "deletrea en pantalla de palabra SOUL;
+  se muestra el tercer verso con la palabra SINGS en testdrawstyles con otra tipografía;
+  cuarto verso y se muestra la palabra NEVER en mayusculas.
+
+
 
 ```cpp
 //unsing long pq es el que tiene mayor capacidad de almacenamiento(32bites) y cuenta hasta por aproximadamente hasta por 49 días. 
@@ -135,14 +148,14 @@ void loop() {
 }
 ```
 
-Bitacora de buzz lightyear 2
+- Apuntes Marti:
 
 Todo comenzó la noche del último día de agosto…
 con mi compañera Maite nos dispusimos a continuar nuestro proyecto 1 en lo que llegaban nuestras demás compañeras que se encontraban en sus respectivos trabajos.
 
 Yo había faltado a clases el día que enseñaron a conectar las pantallitas y las proto al arduino, y mis compañeras no entendieron mucho lo que debíamos hacer.
 
--en el discord subieron una imagen de cómo tienen que ir conectadas las cosas- dijo maite
+En el discord subieron una imagen de cómo tienen que ir conectadas las cosas- dijo maite
 
 -Altiro lo veo- le respondí mientras me dirigía al chat del taller a buscar las imágenes de las que hablaba. saque los cables correspondientes y empecé a conectarlos.
 
@@ -156,7 +169,7 @@ Le preguntamos a chatgpt qué habíamos hecho mal, nos dijo que teníamos mal co
 
 Decidimos dejar descansar un par de minutos la pantalla como nos recomendó nuestro compañero Nicolás. Arreglé la conexión de los cables y empezamos a probar el código que nos entregó el profesor Aaron para ver si la pantalla funcionaba correctamente o no, pero nada, el código se subía al arduino pero la pantalla no emite imagen alguna…
 
-le pedimos a chat gpt algún código para ver si es que la pantalla funcionaba o no, tampoco pasaba algo. Desesperada, subo una historia a mejores amigos de instagram mencionando mis ganas de abandonar este mundo por la frustración que sentía en ese momento, creíamos que lo habíamos perdido todo y tendríamos que ir a comprar una pantalla nueva para poder seguir con el proyecto. La imagen mostraba el arduino conectado a la proto y a la pantalla.
+le pedimos a chat gpt algún código para ver si es que la pantalla funcionaba o no, tampoco pasaba algo. Desesperada, subo una historia a mejores amigos de instagram mencionando mi frustración que sentía en ese momento, creíamos que lo habíamos perdido todo y tendríamos que ir a comprar una pantalla nueva para poder seguir con el proyecto. La imagen mostraba el arduino conectado a la proto y a la pantalla.
 
 -Marti, ¿por qué el azul está conectado primero?- preguntó Maite
 
@@ -174,7 +187,7 @@ Le compartí el primer código a chatgpt junto con los llamados para poder usar 
 
 ![pantalla funcionando](./poema-en-pantalla.jpeg)
 
-foto de la pantallita corriendo el poema porque se me fue sacarle foto a la animación del código del profe
+foto de la pantallita corriendo el poema.
 
 ```cpp
 #include <SPI.h>
@@ -415,13 +428,13 @@ void loop() {
 
 ![conversación con chatgpt](./chatgpt4.png)
 
-ahora toco ponerse creativos y con ayuda de gemini buscamos una forma para poder tirar imagenes a la pantallita 
+ahora toco ponerse creativos y con ayuda de gemini buscamos una forma para poder tirar imagenes a la pantallita y analizamos los trabajos de la generación pasada con sus proyectyos.
 
 ![gemini](./gemini1.png)
 
 ![gemini](./gemini2.png)
 
-en la página de pixilart (https://www.pixilart.com/draw?ref=home-page) hicimos un dibujo rapidito para poder mandarlo a la pagina image2cpp v2 (https://javl.github.io/image2cpp/#step-2) 
+en la página de pixilart (https://www.pixilart.com/draw?ref=home-page) hicimos un dibujo rapidito para poder mandarlo a la pagina image2cpp v2 que conocimos por los repositorios de las otras generaciones (https://javl.github.io/image2cpp/#step-2) 
 
 ![pixilart](./pixilart.png)
 
@@ -525,4 +538,8 @@ void loop() {
 
 ![prueba de imagen](./prueba-dibujo.jpeg)
 
+# Bibliografia 
+https://www.youtube.com/watch?v=35iDgsv60V0 
+
+https://www.youtube.com/watch?v=yyYjdyGImFM alrededor del minuto 15 buena explicacion
 
