@@ -26,7 +26,9 @@ información sacada de: https://es.wikipedia.org/wiki/J_Dilla y apuntes de mi cu
 - subir a carpeta **código** de proyecto-1 la primera versión del código
 - hoy se me quedo la pantallita en la casa :(, entonces con mi grupo avanzamos en la parte de lo queremos desarrollar y todo la parte teórica, perfeccionando funciones, códigos, buscando como realizar animaciones para poner en la pantalla
 
-**subir captura de pantalla**
+imagen de lo que queremos hacer a grandes rasgos
+
+![captura de pantalla apuntes poema](./imagenes/clase4a.png)
 
 ### código poema v.0 que solo visualiza el poema en el serial monitor en loop2
 
