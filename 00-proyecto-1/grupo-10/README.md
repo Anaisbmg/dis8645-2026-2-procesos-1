@@ -3,9 +3,14 @@ Queremos ocupar en la pantalla junto con nuestro arduino, un poema que se apreci
 **OBJETIVO**: Mostrar en pantalla OLED, un poema de Emily Dickinson. 
 que se muestre un verso cada 2 segundos en pantalla, de derecha a izq. 
 
-**Poema elegido: "Hope is the thing with feathers
+**Poema elegido: 
+
+"Hope is the thing with feathers
+
 That perches in the soul,
+
 And sings the tune without the words
+
 And never stops at all"
 
 Traducción:
