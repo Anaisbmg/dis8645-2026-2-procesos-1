@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+![ejercicio](./imagenes/ejercicio.gif)
+
 ## encargos
 
 ## lectura
