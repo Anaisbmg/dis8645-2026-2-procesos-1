@@ -752,4 +752,35 @@ Se comienza a visualizar el poema como una sola línea de texto que avanza, tal 
 ```
 <br>
 
-## lectura
+## lectura / The computers that made the world - Tim Danton
+
+### Zuse Z3
+
+1. sowing > siembra
+
+2. spare > repuesto
+
+3. Arguably > podría decirse que
+
+4. delight > deleitar  
+
+
+- "But in the end, engineering would win" > Mala elección amigo mio
+
+  > Igualmente y fuera de la broma, al leer este libro me ha hecho cuestionarme si lo que me apasiona es el diseño o la ingeniería. A pesar de ser áreas bastante diferentes, siento que estoy encontrando un balance para ambas, el empezar a aprender a programar, más aprender de electrónica me hace más feliz de lo que ya era con diseño 
+
+- "Doric and Ionic columns left me cold" > No juzgo a Konrad Zuse, bastante poco emocionante estudiar arquitectura
+
+  > Siguiendo con la cita anterior, definitivamente me pongo a pensar que las nociones que uno percibe de ciertas carreras se van difuminando con el tiempo, en su momento me llamaba bastante la atención la arquitectura y la veía bastante cercana al diseño. Hoy en día, siento que están bastante lejanas, pero no quita que eventualmente uno al profundizar más elimina las barreras propias de la disciplina. Con esto me refiero a que la gracia de estudiar y profundizar es deformar las convenciones que existen sobre las carreras
+
+- Problemas con las calculadoras [Tópico constante en estos primeros capítulos] 
+- Inicia a hacer croquis sobre posibles soluciones mecánicas (Poseía un diario en el que anotaba todas sus ideas respecto a este problema)
+- Se gradúa en 1935 😲
+- Construye Z1 en el living de la casa de sus padres (1938 [Mal año para vivir en Berlín])
+- Compleja por lo que paso a la Z2
+- No utilizo tubos de vacío (precursores de los transistores modernos), debido a los costes y que debería requerir cerca de 2000 >
+- Viajo a EEUU despues de acabar la 2GM (sus como dicen los lolos)
+- Utilizo relés para poder crear la Z3
+- La Z3 estaba capacitada para poder trabajar en el ámbito científico por su exactitud
+- 896 relés en total
+- procesamiento de 2.5GHz (una banda) 
