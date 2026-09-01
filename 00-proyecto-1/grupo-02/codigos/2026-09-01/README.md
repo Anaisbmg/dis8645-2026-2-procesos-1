@@ -42,8 +42,8 @@ Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostá
 
 //Conexiones:
 //Potenciómetro
-//Orejas de potenciómetro a `VCC` y `GND` *(Los extremos del potenciómetro; 1 y 3)*
-//Nariz de potenciómetro a entrada `A0` *(entendiéndose como la pata de la mitad; 2)*
+//Orejas de potenciómetro a VCC y GND` (Los extremos del potenciómetro; 1 y 3)
+//Nariz de potenciómetro a entrada A0 (entendiéndose como la pata de la mitad; 2)
 
 //proyectar fragmento del poema "a los perros buenos no les pasan cosas malas", y "mamá tu no cumples años, tu cumples sueños" de elvira sastre, en pantalla LCD Oled 0,91" I2C
 //el hardware tiene dos componentes interactivos esenciales: potenciometro y botón.
