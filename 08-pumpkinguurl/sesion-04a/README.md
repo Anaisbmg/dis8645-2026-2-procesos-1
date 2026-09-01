@@ -11,3 +11,4 @@ y la verdad entiendo en el momento pero no ya no me acuerdo de nada muy especifi
 
 muchos artistas y como han trabajado en torno al arte digital, poemas, sonidos, visuales locas y el problema de que el arte digital es un problema social
 
+![estracto libro](./digitalart.jpeg)
