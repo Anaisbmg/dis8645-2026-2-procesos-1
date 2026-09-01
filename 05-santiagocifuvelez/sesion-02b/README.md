@@ -18,4 +18,4 @@ Listoo
 
 ## lectura
 Hola Profe, Emi, y Sebas. En este repo estoy subiendo mis apuntes y ejercicios del libro que me estoy leyendo. 
-[](https://github.com/santiagocifuvelez/code-as-creative-medium-notes-exercices)
+[Code as Creative Medium](https://github.com/santiagocifuvelez/code-as-creative-medium-notes-exercices)
