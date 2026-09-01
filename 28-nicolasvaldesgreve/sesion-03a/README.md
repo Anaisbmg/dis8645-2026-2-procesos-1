@@ -8,7 +8,6 @@ para partir con nuestro primer proyecto del semestre, debemos elegir un poeta an
 
 nos entregaron materiales nuevos!! en estos iba incluida una pantalla oled monocromática 0.91 pulgadas I2C controlador ssd1306, la cual usaremos para poder mostrar el poema. para poder aprender a usarla, Aarón nos enseñó cómo hacer las conexiones:
 
-
 importante: las conexiones siempre hacerlas sin alimentación! solo dar alimentación cuando ya esté todo listo y revisado por alguien más.
 
 SDA = señal de datos
