@@ -19,7 +19,10 @@ copiar - pegar
 luego en el código oficial y certificado para poder llamar a lo que sacaste y que el código lo considere nuevamente hay que colocar
 
 #include "nombredeltab"
-[colocar imagenes]
+![mostrar include](./include.png)
+
+![muestra el newtab](./newtab.png)
+
 y ya está
 
 ## encargos
