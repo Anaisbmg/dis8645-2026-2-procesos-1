@@ -19,33 +19,54 @@ es una experiencia que nace de la observación del entorno; el amarillo cálido 
 Y dice así:
 
 **Introducción:**
-"No somos poetas con titulo, 
-pero las palabras plasmadas aquí, crecieron de nuestro ser
-como las flores en primeravera.
+```cpp
+//"No somos poetas con titulo, 
+//pero las palabras plasmadas aquí, crecieron de nuestro ser
+//como las flores en primeravera.
 
-La primavera de Santiago de Chile, ¡Que coincidencia!
-estamos en primavera.
+//La primavera de Santiago de Chile, ¡Que coincidencia!
+//estamos en primavera.
 
-Bienvenidx
+//Bienvenidx
 
-Con amor: Francisca, Nicolas y Santiago.
+//Con amor: Francisca, Nicolas y Santiago.
+```
 
-¿Qué pasa cuando la luz del sol aparece detrás de la cordillera?
+**Primera parte:**
+```cpp
+//¿Qué pasa cuando la luz del sol aparece detrás de la cordillera?
 
-En Chile, los Romeros florecen 
-- (FLores creciendo)
+//En Chile, los Romeros florecen 
+//- (FLores creciendo)
 
-En Chile, los Colibríes cantan
-- (Colibries revoloteando)
+//En Chile, los Colibríes cantan
+//- (Colibries revoloteando)
 
-En Chile, el cielo es rosado, y cuando te ofrecen un peda**CITO**, significa que es uno grande**CITO**
-- (Pedazo de queque)
+//En Chile, el cielo es rosado, y cuando te ofrecen un peda**CITO**, significa que es uno grande**CITO**
+//- (Pedazo de queque)
 
-En Chile, los Andes se visten de novia en las noches, y se desvisten revelándose de día.
-- (Cordillera en pixeles épicos)
+//En Chile, los Andes se visten de novia en las noches, y se desvisten revelándose de día.
+//- (Cordillera en pixeles épicos)
 
-Pero...
+//Pero...
 
+//En Chile, los chirihues dan conciertos, y las libélulas danzan.
+- Bandera de Chile
+```
+
+**Segunda parte:**
+```cpp
+//Mientras el sol siga saliendo detrás de la cordillera,
+//y se pose sobre tu cabeza,
+//es un día más para sentirlo.
+
+//En Chile, el Zorro culpeo no tiene la culpa.
+//En Chile, el Romero florece.
+//Pero ya en tu pecho florecerán
+//colores de amor.
+
+//Florecerán... 
+```
 
 
 Se divide en 5 pasos:
