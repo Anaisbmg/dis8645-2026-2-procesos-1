@@ -68,17 +68,7 @@ Y dice así:
 //Florecerán... 
 ```
 
-
-Se divide en 5 pasos:
-- 1 Encender la pantalla con un "push buttom"
-
-- Imagenes de conceptualización:
-
-
-
-- Código y comentarios
-
-
+## Factura 
 
 ```cpp
 //Lectura de 3 poemas con arduino uno r4 wifi
