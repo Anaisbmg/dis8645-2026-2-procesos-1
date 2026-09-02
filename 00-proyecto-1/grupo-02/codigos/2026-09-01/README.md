@@ -41,6 +41,19 @@ Ahora, nuestro proyecto consiste en la creación de un escenario cálido, nostá
 //
 
 //Conexiones:
+
+//Placa Arduino:
+//Alimentada por cable Cable usb/C, a computador: PC, MAC, LINUX, ETC.
+
+//Pantalla OLED 1.3" I2C 128x64, controlador SH1106 :
+//GND, a GND.
+//VCC, va alimentado con 3.3V del Arduino (buscar entrada de 3.3v en placa Arduino)
+//SCL, señal de clock va a "A5" de la linea Analog In.
+//SDA, señal de datos va a "A4" de la linea de Analog in.
+
+
+//Push Button
+
 //Potenciómetro
 //Orejas de potenciómetro a VCC y GND` (Los extremos del potenciómetro; 1 y 3)
 //Nariz de potenciómetro a entrada A0 (entendiéndose como la pata de la mitad; 2)
