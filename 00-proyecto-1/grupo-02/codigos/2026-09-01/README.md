@@ -76,7 +76,10 @@ Se divide en 5 pasos:
 
 
 
-- Código y comentarios 
+- Código y comentarios
+
+
+
 ```cpp
 //Lectura de 3 poemas con arduino uno r4 wifi
 //En una pantalla OLED 1.3" I2C 128x64, controlador SH1106 
@@ -86,8 +89,10 @@ Se divide en 5 pasos:
 
 //Aclaración!!!
 //Los poemas presentados en este proyecto, son de autoría propia de lxs integrantes de este grupo.
+```
 
 
+```cpp
 //Lista de materiales:
 //Aduino uno r4 wifi
 //Potenciómetro B100k ó posiblemente //LDR
@@ -98,12 +103,15 @@ Se divide en 5 pasos:
 //Cable usb/C
 //LEDs
 
+
+
 //Materiales para la carcasa:
 //Cartón reciclado
 //
+```
 
+```cpp
 //Conexiones:
-
 //Placa Arduino:
 //Alimentada por cable Cable usb/C, a computador: PC, MAC, LINUX, ETC.
 
@@ -119,13 +127,11 @@ Se divide en 5 pasos:
 //Potenciómetro
 //Orejas de potenciómetro a VCC y GND` (Los extremos del potenciómetro; 1 y 3)
 //Nariz de potenciómetro a entrada A0 (entendiéndose como la pata de la mitad; 2)
+```
 
-
+```cpp
 //Funcionamiento:
-//proyectar fragmento del poema "-", y "-" de Santiago Cifuentes Vélez, en pantalla LCD Oled 0,91" I2C
-//el hardware tiene dos componentes interactivos esenciales: potenciometro y botón.
-//potenciómetro: el poema saltará de línea a medida que se cambia la resistencia de este.
-// La primera línea del texto será 0k y la última línea será del texto será 100k. Vamos a movernos dentro del rango de 0 y 100 para avanzar o retroceder en líneas y leer.
-//push boton: al oprimir el botón, se cambia de poema.
-//push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0.
+
+
+//Push boton:  el poema se mantiene en la pantalla; estado 0. Al presionar, se cambia de poema; estado 1 y luego se mantiene en el poema cambiado; estado 0.
 ```
