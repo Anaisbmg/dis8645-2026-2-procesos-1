@@ -10,9 +10,50 @@ Anteriormente nuestro proyecto 01 era la proyección de 2 fragmentos de poemas (
 
 Eso nos llevo a madurar la idea que teníamos en cuanto al proyecto, y optamos por: Escribir nuestros propios poemas, y crear lo que será nuestra factura oficial. 
 
-Ahora, nuestro proyecto consiste en la creación de un escenario cálido y nostálgico: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (pantalla OLED 1.3" I2C 128x64), control remoto (Push button, potenciómetro 1, potenciómetro 2), una lampara central (LED), y LDR que nos ayudará a captar las señales de luz para leer el poema). Los poemas, la narrativa, y el ambiente giran en torno a la vida en Chile desde la perspectiva , los pequeños detalles las conexiones humanas, y la nostalgia de las experiencias ya vividas, y lo que vendrá).
+Ahora, nuestro proyecto consiste en la creación de un escenario cálido y nostálgico: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (pantalla OLED 1.3" I2C 128x64), control remoto (Push button, potenciómetro 1, potenciómetro 2), una lampara central (LED), y LDR que nos ayudará a captar las señales de luz para leer el poema). Los poemas, la narrativa, y el ambiente están dedicados a quien lo vea, a Santiago de Chile, al romero que florece, al cielo rosado de la capital, a las infancias, a la cordillera..., a la vida. La nostalgia de las experiencias ya vividas, y lo que vendrá.
+
+## oficial 
+No es un poema en bloque, no es tampoco una página con letras que rimen y ya..., 
+es una experiencia que nace de la observación del entorno; el amarillo cálido del sol, la grandeza de la cordillera de los Andes, la ternura de la jerga para hacer sentir cómodo al prójimo, el canto de los colibríes, la sensualidad de vestirse de blanco y desvestirse por el sol, etc...
+
+Y dice así:
+
+**Introducción:**
+"No somos poetas con titulo, 
+pero las palabras plasmadas aquí, crecieron de nuestro ser
+como las flores en primeravera.
+
+La primavera de Santiago de Chile, ¡Que coincidencia!
+estamos en primavera.
+
+Bienvenidx
+
+Con amor: Francisca, Nicolas y Santiago.
+
+¿Qué pasa cuando la luz del sol aparece detrás de la cordillera?
+
+En Chile, los Romeros florecen 
+- (FLores creciendo)
+
+En Chile, los Colibríes cantan
+- (Colibries revoloteando)
+
+En Chile, el cielo es rosado, y cuando te ofrecen un peda**CITO**, significa que es uno grande**CITO**
+- (Pedazo de queque)
+
+En Chile, los Andes se visten de novia en las noches, y se desvisten revelándose de día.
+- (Cordillera en pixeles épicos)
+
+Pero...
+
+
+
+Se divide en 5 pasos:
+- 1 Encender la pantalla con un "push buttom"
 
 - Imagenes de conceptualización:
+
+
 
 - Código y comentarios 
 ```cpp
