@@ -1,28 +1,36 @@
 # sesion-03b
 
 ## apuntes sesión
-
-hoy vimos la diferencia entre Strin -- string
-
-```
-String -- elementos fundamentales de la programación
-fin de String -- cuenta como un carácter más
-```
 - tener en cuenta que nuestro proyecto se pueda trabajar en c++ y raspberry
 - palabras -- moléculas
 - cuando algo está en mayúscula es porque es una clase
+  
+**String / string**
+```
+String -- elementos fundamentales de la programación
+fin de String -- cuenta como un carácter más
+strin -- declarar variables de una forma rápida y sencilla
+```
+
+**comillas**
+```  
 - comillas en c++
-- un carácter = comillas simples
-- String = comillas dobles más de un carácter
+- comillas simples, un carácter
+- comillas dobles más de un carácter, cadenas de texto
+```
+---
 
-- realizaremos un arreglo
-- arreglo de caracteres
-
+### Arreglo
+- en esta clase nos enfocamos en realizar un *arreglo/array*, el cual permite guardar varios elementos del mismo tipo bajo un solo nombre de variable.
+- ocupamos diferentes códigos de ejemplos, los cuales durante la clase los aplicamos a nuestro código del poema para poder visualizarlos en nuestra pantalla.
+---
 - char (caracteres)
 - [] implica arreglo -- varios caracteres, cuan grande es ese arreglo
 - char palabrita[] = "valor variable";
 - * arreglo de arreglos
 - i++ -- lo que sea que valga uno, súmale uno más
+
+### códigos ejemplos de la clase
 
 ```cpp
 // declaracion de arreglo de enteros
@@ -44,9 +52,6 @@ void loop() {
 // las variables parten del 0
 }
 ```
-
-
-
 ```cpp
 // bah que raro
 // con 5 no funciono
@@ -65,9 +70,6 @@ void loop() {
   Serial.println(nombre[4]);
 }
 ```
-
-
-
 ```cpp
 // un poemario
 // es un arreglo de paginas
@@ -93,7 +95,6 @@ void loop() {
   Serial.println(misVersos[0]);
 }
 ```
-
 ```cpp
 // un poemario
 // es un arreglo de paginas
@@ -129,7 +130,37 @@ void loop() {
   }
 }
 ```
-## algunos links 
+
+### códigos aplicados
+```cpp
+char *misVersos[] = {
+  "Huye luna, luna, luna.",
+  "Si vinieran los gitanos,",
+  "Harían con tu corazón",
+  "Collares y anillos blancos.",
+  "Niño, déjame que baile.",
+  "Cuando vengan los gitanos,", 
+  "Te encontrarán sobre el yunque", 
+  "Con los ojillos cerrados.", 
+  "Huye luna, luna, luna,", 
+  "Que ya siento sus caballos.", 
+  "Niño, déjame, no pises",
+  "Mi blancor almidonado.",
+};
+
+void setup() {
+  Serial.begin(9600);
+}
+
+void loop() {
+
+  for (int i = 0; i < 13; i++) {
+    Serial.println(misVersos[i]);
+  }
+```
+> en este código quisimos visualizar todo el poema en el monitor serial de Arduino IDE, se ve de una forma rápida, pero funciona
+
+## algunos links + bibliografía 
 
 https://docs.arduino.cc/language-reference/en/variables/data-types/stringObject/
 
@@ -143,11 +174,85 @@ encargo-03b:
 2. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
 3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
+### Federico García Lorca
+
+poner info de el aca
+
+### Poema escogido
+
+hablar sobre el poema aca
+
+```
+**“Romance de la luna, luna”**
+
+La luna vino a la fragua 
+con su polisón de nardos.
+El niño la mira, mira. 
+El niño la está mirando. 
+
+En el aire conmovido 
+mueve la luna sus brazos 
+y enseña, lúbrica y pura, 
+sus senos de duro estaño. 
+
+Huye luna, luna, luna. 
+Si vinieran los gitanos,
+harían con tu corazón 
+collares y anillos blancos.
+
+Niño, déjame que baile. 
+Cuando vengan los gitanos, 
+te encontrarán sobre el yunque 
+con los ojillos cerrados. 
+
+Huye luna, luna, luna, 
+que ya siento sus caballos. 
+Niño, déjame, no pises 
+mi blancor almidonado. 
+
+El jinete se acercaba 
+tocando el tambor del llano. 
+Dentro de la fragua el niño 
+tiene los ojos cerrados. 
+
+Por el olivar venían, 
+bronce y sueño, los gitanos. 
+Las cabezas levantadas 
+y los ojos entornados. 
+
+
+Cómo canta la zumaya, 
+¡ay, cómo canta en el árbol! 
+Por el cielo va la luna 
+con un niño de la mano. 
+
+Dentro de la fragua lloran, 
+dando gritos, los gitanos. 
+El aire la vela, vela.
+El aire la está velando.  
+```
+### Corpus a utilizar en nuestro proyecto
+```
+Huye luna, luna, luna. 
+Si vinieran los gitanos,
+harían con tu corazón 
+collares y anillos blancos.
+
+Niño, déjame que baile. 
+Cuando vengan los gitanos, 
+te encontrarán sobre el yunque 
+con los ojillos cerrados. 
+
+Huye luna, luna, luna, 
+que ya siento sus caballos. 
+Niño, déjame, no pises 
+mi blancor almidonado. 
+```
 
 ```cpp
 // codigo aqui
 // por ejemplo
 ```
 
-## lectura
+
 
