@@ -70,8 +70,9 @@ Y dice así:
 
 ## 4 Factura 
 
+**Presentación:**
 ```cpp
-//Lectura de 3 poemas con arduino uno r4 wifi
+//Lectura del poema "En Chile, el Romero florece" con arduino uno r4 wifi
 //En una pantalla OLED 1.3" I2C 128x64, controlador SH1106 
 
 //Por Francisca Palma, Nicolas Valdes, Santiago Cifuentes Vélez.
@@ -81,7 +82,7 @@ Y dice así:
 //Los poemas presentados en este proyecto, son de autoría propia de lxs integrantes de este grupo.
 ```
 
-
+**Materiales:**
 ```cpp
 //Lista de materiales:
 //Aduino uno r4 wifi
@@ -99,7 +100,7 @@ Y dice así:
 //Cartón reciclado
 //
 ```
-
+**Conexiones:**
 ```cpp
 //Conexiones:
 //Placa Arduino:
@@ -119,6 +120,7 @@ Y dice así:
 //Nariz de potenciómetro a entrada A0 (entendiéndose como la pata de la mitad; 2)
 ```
 
+**Funcionamiento:**
 ```cpp
 //Funcionamiento:
 
