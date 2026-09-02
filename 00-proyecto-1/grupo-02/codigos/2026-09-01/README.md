@@ -12,7 +12,7 @@ Eso nos llevo a madurar la idea que teníamos en cuanto al proyecto, y optamos p
 
 Ahora, nuestro proyecto consiste en la creación de un escenario cálido y nostálgico: Un living, una sala de casa, la cual está equipada con elementos principales, tales como: Televisor (pantalla OLED 1.3" I2C 128x64), control remoto (Push button, potenciómetro 1, potenciómetro 2), una lampara central (LED), y LDR que nos ayudará a captar las señales de luz para leer el poema). Los poemas, la narrativa, y el ambiente están dedicados a quien lo vea, a Santiago de Chile, al romero que florece, al cielo rosado de la capital, a las infancias, a la cordillera..., a la vida. La nostalgia de las experiencias ya vividas, y lo que vendrá.
 
-## oficial 
+## 3 Poema 
 No es un poema en bloque, no es tampoco una página con letras que rimen y ya..., 
 es una experiencia que nace de la observación del entorno; el amarillo cálido del sol, la grandeza de la cordillera de los Andes, la ternura de la jerga para hacer sentir cómodo al prójimo, el canto de los colibríes, la sensualidad de vestirse de blanco y desvestirse por el sol, etc...
 
@@ -68,7 +68,7 @@ Y dice así:
 //Florecerán... 
 ```
 
-## Factura 
+## 4 Factura 
 
 ```cpp
 //Lectura de 3 poemas con arduino uno r4 wifi
