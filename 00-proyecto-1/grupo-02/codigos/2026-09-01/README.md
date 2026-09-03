@@ -134,8 +134,8 @@ Introducción.
 Primera parte.
 ```cpp
 //Primera parte:
-//Con el potenciómetro, se controla la intensidad lumínica de la LED, y la luz emitida por la LED se convierten en señales que recibe el LDR para hacer un "FADE IN"
-//(aparecer), y cuando no haya luz "FADE OUT".
+//Con el potenciómetro, se controla la intensidad lumínica de la LED, y la luz emitida por la LED se convierten en señales de voltaje que recibe el LDR para hacer un "FADE OUT"
+//(no aparecer), y cuando no haya luz "FADE IN".
 //La funcionalidad de esto, es que al tener mucha luz, el verso o animación cambie, y cuando no haya luz, se mantenga y se pueda leer y/o ver el texto o la animación. 
 ```
 
