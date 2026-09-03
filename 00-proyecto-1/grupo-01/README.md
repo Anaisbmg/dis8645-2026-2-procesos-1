@@ -1,5 +1,13 @@
 # proyecto-01
 
+## Licencia 
+
+Esta obra y su documentación están bajo una [Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/).
+
+© 2026 [Dayana Pañitrur, Camila Ramírez, Bianka Vilchez]
+
+<br>
+
 ## Poema
 
 El poema elegido fue: $\textcolor{red}{When\ Our\ Two\ Souls\ Up\}$ 
@@ -127,3 +135,24 @@ con la oscuridad y la hora de la muerte rodeándolo.
 11.Si se rota hacia la derecha avanza de manera normal solo variando la velocidad
 
 12.Si se rota hacia la izquierda retrocede el texto, según qué tan lejos del centro esté
+
+<br>
+
+Además de esto realizamos el primer diagrama de flujo relacionado al funcionamiento del código
+
+![Diagrama](./imagenes/esquema.jpg)
+
+> Bastante básico en relación a la complejidad que posee el código
+
+<br>
+
+![Diagrama](./imagenes/esquema.png)
+
+> Ahora podemos entender de mejor manera el funcionamiento del código
+
+<br>
+
+![Grafico](./imagenes/grafico.png)
+
+> Grafico que muestra la relación del potenciómetro con la velocidad del poema 
+
