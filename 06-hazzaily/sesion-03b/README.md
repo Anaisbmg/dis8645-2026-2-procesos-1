@@ -144,7 +144,9 @@ El código se encuentra más abajo en el encargo, pero aquí pondré un vídeo d
 
 Vídeo del código corriendo en el serial monitor de arduino en mi computador.
 
-[Vídeo del código corriendo en el serial monitor de arduino en mi computador](./imagenes/intentounopoema-serial-monitor.gif)
+<img width="388" height="692" alt="intentounopoema-serial-monitor" src="https://github.com/user-attachments/assets/ec3f0517-7916-4e9f-bbca-3db05051877c" />
+
+El gif se encuentra en la carpeta de "imagenes".
 
 ## encargos
 
