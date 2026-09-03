@@ -23,7 +23,6 @@ La obra de Elizabeth que elegimos se llama Soneto 22 y es parte de la colección
 Según la *Academia de Poetas Americanos* el poema se encuentra en dominio público.
 
 Interpretamos el poema como la intención de rehusarse a la muerte por la causa del amor. Desprenderse de lo terrenal implicaría dejar de sentir y vivir el amor romántico como se vive día a día, para someter amor al cielo y a la eternidad, lugar en el que ya no sería permitido el estar con su ser amado.
-Conceptos como 
 
 <br>
 
@@ -112,6 +111,15 @@ con la oscuridad y la hora de la muerte rodeándolo.
 <br>
 
 ---
+
+## Bill of materials
+
+| Componente | Cantidad | Link de compra |
+| :--- | :---: | ---: |
+| Arduino UNO R4 Wifi | 1 | Dato 3 |
+| Pantalla LCD Azul 16x02 | 1 | Dato 3 |
+| Potenciómetro lineal (valor) | 1 | Dato 3 |
+| Botón (tipo) | 2 | Dato 3 |
 
 <br>
 
