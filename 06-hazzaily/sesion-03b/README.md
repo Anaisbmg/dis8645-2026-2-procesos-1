@@ -11,6 +11,7 @@ Son una clase (comienzan con mayúsculas).
 Existen distintas versiones. No hay solo una manera de hacer las cosas.
 
 "" string
+
 ' ' para palabras 
 
 ```c++
@@ -142,11 +143,9 @@ Luego realizamos un ejemplo con nuestro poema de lo que se hizo en clase con Akr
 
 El código se encuentra más abajo en el encargo, pero aquí pondré un vídeo de eso corriendo el serial monitor de Arduino.
 
-Vídeo del código corriendo en el serial monitor de arduino en mi computador.
+Gif del código corriendo en el serial monitor de arduino en mi computador.
 
-<img width="388" height="692" alt="intentounopoema-serial-monitor" src="https://github.com/user-attachments/assets/ec3f0517-7916-4e9f-bbca-3db05051877c" />
-
-El gif se encuentra en la carpeta de "imagenes".
+![Gif del código corriendo en el serial monitor de arduino en mi computador](./imagenes/intentounopoema-serial-monitor.gif)
 
 ## encargos
 
