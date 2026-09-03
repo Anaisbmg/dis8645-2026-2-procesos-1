@@ -154,5 +154,14 @@ Además de esto realizamos el primer diagrama de flujo relacionado al funcionami
 
 ![Grafico](./imagenes/grafico.png)
 
-> Grafico que muestra la relación del potenciómetro con la velocidad del poema 
+> Grafico que muestra la relación del potenciómetro con la velocidad del poema
 
+<br>
+
+## Arduino
+
+Conexión representada en Tinkercad
+
+![Tinkercad](./imagenes/sc-09.png)
+
+![Tinkercad](./imagenes/sc-10.png)
