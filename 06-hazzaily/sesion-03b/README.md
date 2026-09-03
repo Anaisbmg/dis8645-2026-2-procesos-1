@@ -141,7 +141,7 @@ Entre corchetes = [qué tan grande es el arreglo (array)]
 
 Luego realizamos un ejemplo con nuestro poema de lo que se hizo en clase con Akrilla.
 
-El código se encuentra más abajo en el encargo, pero aquí pondré un vídeo de eso corriendo el serial monitor de Arduino.
+El código se encuentra más abajo en el encargo, pero aquí pondré un gif de eso corriendo el serial monitor de Arduino.
 
 Gif del código corriendo en el serial monitor de arduino en mi computador.
 
