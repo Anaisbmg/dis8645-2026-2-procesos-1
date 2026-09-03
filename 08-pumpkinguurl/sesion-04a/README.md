@@ -2,6 +2,29 @@
 
 ## apuntes sesión
 
+el h anuncia y promete
+
+cpp ejecutivo que dice dale
+
+en Arduino, en tu código, apretar los … de la esquina sup der 
+
+apretar new tab
+
+ponerle nombre
+
+tomar la parte hexadecimal o cualquier cosa que sea super largo o para ordenar el código
+
+copiar - pegar
+
+luego en el código oficial y certificado para poder llamar a lo que sacaste y que el código lo considere nuevamente hay que colocar
+
+#include "nombredeltab"
+![mostrar include](./include.png)
+
+![muestra el newtab](./newtab.png)
+
+y ya está
+
 ## encargos
 
 ## lectura
