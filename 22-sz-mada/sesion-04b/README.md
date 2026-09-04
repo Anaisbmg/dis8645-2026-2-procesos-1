@@ -19,6 +19,8 @@ Para el proyecto se decidió usar de poeta a Alejandra Pizarnik, específicament
 > Sí. Se seguirá caminando. Hundirse, oscuridad, caminar...
 > Sí. Y una estrella dará su color al ancla de plata que llevaba en su pecho. Tirar el ancla. Sí. Muy junto a ese barco gigante de rayas rojas y blancas y verdes...irse, y no volver.
 
+Nos dividimos partes del trabajo, y yo quedé encargado de trabajar en las imágenes que vamos a colocar.
+
 ## encargos
 
 ## lectura
