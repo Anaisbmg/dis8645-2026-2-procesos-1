@@ -113,14 +113,14 @@ encargo-03b:
 3. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
 5. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
-# avance del proyecto: 
+### avance del proyecto: 
 
-## poemas 
+### poemas 
 
 - primer poema propuesto: "cine", de victoria ramírez mansilla — no se pudo usar por derechos de autor, pero ayudó a conceptualizar decisiones del proyecto.
 - poema final: soneto XXII, de elizabeth barrett browning (traducción al español).
 
-## poema descartado (por derechos)
+### poema descartado (por derechos)
 
 cine — victoria ramírez mansilla
 
@@ -149,7 +149,7 @@ no lo podemos ocupar por los derechos, pero nos ayudó a conceptualizar decision
   - estructura conceptual del poema: dos personas se encuentran → aparece la intimidad → comienzan a mezclarse sus percepciones → la experiencia se fragmenta → quedan pequeños rastros.
 
 
-## flujo de funcionamiento del proyecto
+### flujo de funcionamiento del proyecto
 
 1. inicia el arduino.
 2. el texto avanzará de manera continua hasta que se presionen los botones o se manipule el potenciómetro.
@@ -165,13 +165,13 @@ no lo podemos ocupar por los derechos, pero nos ayudó a conceptualizar decision
 12. si se rota hacia la izquierda, retrocede el texto, según qué tan lejos del centro esté.
 
 
-## poema final
+### poema final
 
 soneto XXII — elizabeth barrett browning (traducción)
 
 > cuando están nuestras almas frente a frente, mudas, erguidas, fuertes, ya muy próximas, y sus alas se encienden al tocarse, ¿qué podemos temer en este mundo, qué anhelos no podrán satisfacerse? piensa que si ascendemos a la altura acudirán los ángeles queriendo romper con su voz áurea y perfecta nuestro amado silencio. no, es mejor, amor mío, quedarnos en la tierra, donde el afán absurdo de los hombres a las almas más puras les concede un lugar donde amarse en esta vida, cercado por la muerte y las tinieblas.
 
-## código: arreglo de versos
+### código: arreglo de versos
 
 ```cpp
 char *versosPoema[] = {
