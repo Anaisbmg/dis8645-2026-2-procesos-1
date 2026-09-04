@@ -72,13 +72,31 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 ---
 
+## ¿Qué queremos que pase?
+- Cambio de dirección 2: de derecha a izquierda. Lo que queremos es que lo que se proyecte en la pantalla represente el poema, por ende, puede ser que solo se proyectan ciertas palabras y no todo el texto.
+- Que la velocidad del texto cambie según la perilla del potenciómetro.
+- A través de un botón, tener la posibilidad de detenerlo y/o cambiar la dirección del poema.
+- Que a ciertas palabras del poema se les pueda bajar o subir la opacidad con el potenciómetro.
+- perfeccionismo = control = pausar/reanudar (botón)
+- cambio = velocidad de reproducción (potenciómetro)
+- cambio = dirección del texto (botón)
+- dirección inicial del texto: arriba hacia abajo
+- cambio de dirección 1: de izquierda a derecha
+- poner al comienzo el nombre de la poetisa Alfonsina Storni
+
+
 ## Paso a paso de que queremos que suceda
 
-- iniciar Arduino
-- el poema "Queja" de Alfonsina comienza a avanzar y desplegarse en la pantalla
-- el potenciometro controla la velocidad del texto en el tiempo real (girar la perilla aumenta o disminuye la velocidad de la lectura del poema)
-- el boton alterna la direccion del texto (al presionarlo el poema pasa de avanzar a retroceder o viceversa)
-- mientras el poema avanza, el sistema detecta continuamente en que párrafo o sección del poema se encuentra
+- lo primero en proyectarse en la pantalla es el nombre de la poetisa "Alfonsina Storni"
+- el potenciómetro controla el salto de verso en verso 
+- el poema "Queja" comienza proyectarse y avanza mediante uno vaya girando el potenciometro
+- en algunos de los versos existen palabras intensas las cuales tienen el tamaño de la tipografía mas grande que simula un efecto de "grito"
+- al inicio tiene un animación con el titulo del poema y entre medio de cada estrofa tiene una animación
+
+
+
+
+
 
 
 ## Proceso código y registro
