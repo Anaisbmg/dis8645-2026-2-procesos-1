@@ -142,11 +142,15 @@ cine — victoria ramírez mansilla
 
 no lo podemos ocupar por los derechos, pero nos ayudó a conceptualizar decisiones del poema:
 
-- el poema habla del encuentro de dos personas, en un cine.
+el poema habla del encuentro de dos personas, en un cine.
+  
 - surgieron ideas que se van a mantener:
-  - hablar de la aceleración y relacionarla con el tiempo: con el potenciómetro vamos a medir qué tan rápido va avanzando el poema.
-  - dos personas se conectan para crear algo que funcione, como si una dependiera de la otra. mantenemos la idea de que al presionar un botón, se genera una acción incompleta; al presionar dos, se puede visualizar la acción completa.
-  - estructura conceptual del poema: dos personas se encuentran → aparece la intimidad → comienzan a mezclarse sus percepciones → la experiencia se fragmenta → quedan pequeños rastros.
+  
+hablar de la aceleración y relacionarla con el tiempo: con el potenciómetro vamos a medir qué tan rápido va avanzando el poema.
+
+dos personas se conectan para crear algo que funcione, como si una dependiera de la otra. mantenemos la idea de que al presionar un botón, se genera una acción incompleta; al presionar dos, se puede visualizar la acción completa.
+  
+estructura conceptual del poema: dos personas se encuentran → aparece la intimidad → comienzan a mezclarse sus percepciones → la experiencia se fragmenta → quedan pequeños rastros.
 
 
 ### flujo de funcionamiento del proyecto
