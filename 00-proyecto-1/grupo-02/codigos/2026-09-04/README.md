@@ -1,3 +1,4 @@
 Realizamos esquematico del prototipo.
 
-![](./imagemes/prototipo.jpg))
+![prototipo living](./imagemes/prototipo.jpg)
+![control](./imagenes/control.jpg)
