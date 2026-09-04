@@ -112,6 +112,6 @@ mi blancor almidonado.
 |Protoboard|1|$1.500|<https://afel.cl/products/mini-protoboard-400-puntos>|
 |Botón Táctil|1|$400|<https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor?_pos=3&_sid=a0018323a&_ss=r>|
 |Cables dupont pack 20|11|$1.000|<https://afel.cl/products/pack-20-cables-de-conexion-macho-macho>|
-|Potenciómetro B500k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
+|Potenciómetro B100k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
 |Resistencia 100k|1|$1.090|<https://www.victronics.cl/resistencias/resistencia-100k-1-4w-5-236mm-100u/>
 |Cable USB-C|1| $1.800|<https://altronics.cl/cable-usb-tipo-c-datos-alimentacion>
