@@ -792,3 +792,11 @@ void testanimate(const uint8_t *bitmap, uint8_t w, uint8_t h) {
 }
 ```
 Funciona pero falta automartizarlo.
+
+### Licencia
+El poema está bajo la licencia de copyright, donde todos los derechos están reservados, pero se puede utilizar bajo el concepto legal del uso legítimo, ya que es sin fines de lucro y con propósitos educativos.
+
+```
+"Proyecto académico / Fragmento de 'Wild Geese' por Mary Oliver / Uso educativo no comercial" 
+© Wild Geese, 1986 Mary Oliver
+```
