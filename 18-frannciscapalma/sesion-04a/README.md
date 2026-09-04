@@ -8,8 +8,8 @@ Al principio queríamos cambiar a la raspi y además cambiar la pantalla por una
 
 En ese momento no teníamos la pantalla y la íbamos a comprar hasta que el Santi consiguió que nos prestaran una, luego el Nico fue modificando el código que ya teníamos para hacer que funcionara en la nueva pantalla, adjunto videos:
 
-![video nueva pantalla](/.imagenes/nueva-pantalla.mp4)
-![video nueva pantalla](/.imagenes/amarilloazul.mp4)
+![video nueva pantalla](./imagenes/nueva-pantalla.mp4)
+![video nueva pantalla](./imagenes/amarilloazul.mp4)
 
 ## encargos
 
