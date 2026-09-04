@@ -21,6 +21,10 @@ Para el proyecto se decidió usar de poeta a Alejandra Pizarnik, específicament
 
 Nos dividimos partes del trabajo, y yo quedé encargado de trabajar en las imágenes que vamos a colocar.
 
+Ya que el fragmento que vamos a usar es "... irse, y no volver." y el poema en sí habla sobre el mar, decidimos que lo que mejor para las imágenes sería una secuencia de 4 fotogramas de un bote/barco.
+
+Dibujé un velero para representar said bote/barco
+
 ![Boceto velero](./imagenes/velero-sketch.jpg)
 
 Hice una animación? del velero yendo desde el lado izquierdo de la pantalla hasta el derecho
@@ -38,6 +42,8 @@ El cual luego traspasé a bitmap
 ![Velero bitmap frame 4](./imagenes/bmp-4.png)
 
 ![Gif velero bitmap](./imagenes/velero-bmp.gif)
+
+Utilicé [image2cpp](https://javl.github.io/image2cpp/) para convertir cada frame en código para Arduino, pero aún no sé si funcionará. Will update. Would paste the code here, but it's wayyyy too lenghty para apuntes me thinks.
 
 ## encargos
 
