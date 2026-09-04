@@ -101,6 +101,8 @@ mi blancor almidonado.
 
 ### Diagrama de flujo 
 
+![titulo](./imagenes/tinkercad.png)
+
 ### Tabla de materiales
 
 |Componente|Cantidad|Precio|Link|
