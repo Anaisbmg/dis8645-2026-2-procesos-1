@@ -29,6 +29,14 @@ Hice una animación? del velero yendo desde el lado izquierdo de la pantalla has
 
 El cual luego traspasé a bitmap
 
+![Velero bitmap frame 1](./imagenes/bmp-1.png)
+
+![Velero bitmap frame 2](./imagenes/bmp-2.png)
+
+![Velero bitmap frame 3](./imagenes/bmp-3.png)
+
+![Velero bitmap frame 4](./imagenes/bmp-4.png)
+
 ![Gif velero bitmap](./imagenes/velero-bmp.gif)
 
 ## encargos
