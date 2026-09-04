@@ -45,6 +45,8 @@ El cual luego traspasé a bitmap
 
 Utilicé [image2cpp](https://javl.github.io/image2cpp/) para convertir cada frame en código para Arduino, pero aún no sé si funcionará. Will update. Would paste the code here, but it's wayyyy too lenghty para apuntes me thinks.
 
+Update: funciona yipee. Solo que tuve que volver a pasar las imágenes por image2cpp porque necesitaba invertir los colores para el código.
+
 ## encargos
 
 ## lectura
