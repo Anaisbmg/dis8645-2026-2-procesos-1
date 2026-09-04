@@ -12,7 +12,7 @@ https://misaaaaaa.github.io/code-switching-poetry/
 
 frase: si no puedes con ellos, confundelos (misaa).
 
-seguir avanzando en proyecto-01 :)
+seguir avanzando en proyecto-01 :) → ver animaciones → en proyecto-01 solo poner links de los códigos.
 
 PROBLEMA del código 4.2: En los versos del poema en la linea 95 en pantalla se ve así:
 
@@ -32,6 +32,53 @@ SOLUCIÓN → dejar solo un "piedad" por espacio en pantalla
   "¡Señor, piedad, piedad!",
 ```
 
+Cambios:
+
+Agregar un verso extra al principio, ahora son 13 versos y en la parte  del verso  11 solo se tiene que agrandar la palabra “piedad!”, se tendria que ver asi:    
+
+"Alfonsina Storni",
+
+// agrandar la palabra “queja” 
+
+"Senor, mi queja es esta,",
+
+"Tu me comprenderas",
+
+// agrandar la palabra “muriendo” 
+
+ "De amor me estoy muriendo,",
+ 
+ "Pero no puedo amar.",
+
+
+// agrandar la palabra “persigo” 
+
+ "Persigo lo perfecto",
+ 
+ "En mi y en los demas,",
+ 
+// agrandar la palabra “perfecto” 
+
+ "Persigo lo perfecto",
+ 
+ "Para poder amar.",
+
+
+// agrandar la palabra “consumo” 
+
+ "Me consumo en mi fuego,",
+ 
+// agrandar la palabra “piedad!”
+
+ "Senor, piedad, piedad!",
+ 
+ "De amor me estoy muriendo,",
+ 
+// agrandar la palabra “amar!” 
+
+ "Pero no puedo amar!"
+
+ 
 Código 05/09
 
 
