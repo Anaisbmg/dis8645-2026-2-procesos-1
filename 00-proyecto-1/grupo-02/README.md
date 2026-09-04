@@ -229,3 +229,5 @@ void setup() {
 }
 
 ```
+
+![](./imagenes/prototipo.jpg)
