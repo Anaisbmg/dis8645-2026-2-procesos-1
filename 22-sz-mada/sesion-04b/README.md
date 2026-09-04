@@ -8,7 +8,7 @@
 
 Misaa volvió y nos contó sobre su residencia artística en Suiza.
 
-### Bloque 9:00-12:50
+### Bloque 9:00-??:??
 
 Ya que no asistí la clase pasada y nuestro otro compañero de grupo congeló? aparentemente, Hugo quedó solo, así que Aarón nos fusionó con el grupo 6.
 
