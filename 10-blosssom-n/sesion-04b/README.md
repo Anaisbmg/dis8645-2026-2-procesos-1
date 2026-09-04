@@ -39,6 +39,9 @@ Adentro del poema, la muerte se consume.
 **10. No, en serio, este poema nada puede resolver.**
 // se repite y es un bucle
 
+Bien ya storyboard hecho queremos usar la vibracion, hay que investigar, con la ayuda de santi descubrimos que el motor necesita un mosfet para regular su velocidad especicamente el que encontramos es el HW 517 V0.0.1, ahora lo probaremos.
+
+La combinacion de estas dos cosas necesita una fuente de poder externa ademas para el arduino, se compone de 6 conexiones. out + y out -, ahi iria el motor. en GN y trig/pwm van al arduino y vin+, vin- a la bateria externa.
 
 
 
