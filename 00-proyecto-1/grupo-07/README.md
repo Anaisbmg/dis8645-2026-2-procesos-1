@@ -72,6 +72,14 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 ---
 
+## Paso a paso de que queremos que suceda
+
+- iniciar Arduino
+- el poema "Queja" de Alfonsina comienza a avanzar y desplegarse en la pantalla
+- el potenciometro controla la velocidad del texto en el tiempo real (girar la perilla aumenta o disminuye la velocidad de la lectura del poema)
+- el boton alterna la direccion del texto (al presionarlo el poema pasa de avanzar a retroceder o viceversa)
+- mientras el poema avanza, el sistema detecta continuamente en que párrafo o sección del poema se encuentra
+
 
 ## Proceso código y registro
 
