@@ -23,6 +23,7 @@ Programar no es solo escribir el código también es importante describir o expl
 Proyecto: 
 
 Hemos estado decidiendo el poeta y escogimos Joana Raspall, entonces hemos estado buscando poemas para hacer el proyecto.
+Hemos probado códigos para saber que cosas podemos hacer con este proyecto y hasta el momento hemos podido mostrar palabras en la pantalla del arduino.
 
 
 
