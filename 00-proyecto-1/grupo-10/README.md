@@ -550,7 +550,9 @@ En clases estuvimos trabajando en como generar la animación y que era lo que qu
 
 Primero probamos con generar los frames de una pluma cayendo en pixilart, hicimos 4 frames y luego los pasamos por la página image2cpp para generar el código de cada uno
 
-{insertar imagenes}
+![frames](./image2cpp-frames.png)
+
+![frames](./codigo-frames.png)
 
 Luego armamos el código para mostrarlo en la pantallita
 
