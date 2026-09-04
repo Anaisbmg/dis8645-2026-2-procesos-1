@@ -1,2 +1,2 @@
 Realizamos esquematico del prototipo.
-[](./imagenes/p)
+[](./imagenes/prototipo.jpg)
