@@ -1026,7 +1026,7 @@ char *misVersos[] = {
 // Arreglo con los mismos versos SIN tildes ni signos especiales,
 // porque la fuente por defecto de Adafruit_GFX no los dibuja bien
 char *versosPantalla[] = {
-  "Alfonsina Storni,",
+  "Alfonsina Storni",
   "Senor, mi queja es esta,",
   "Tu me comprenderas",
   "De amor me estoy muriendo,",
