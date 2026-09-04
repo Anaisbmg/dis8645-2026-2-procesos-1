@@ -106,7 +106,7 @@ versión 0 que solo visualiza el poema en el serial monitor en loop
 
 ```cpp
 // poema "queja"
-// de allfonsina storni
+// de alfonsina storni
 
 // Señor, mi queja es ésta,
 // Tú me comprenderás;
