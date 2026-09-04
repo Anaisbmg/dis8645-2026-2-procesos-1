@@ -110,13 +110,86 @@ for (int i = 0; i < 5; i++) {
 encargo-03b:
 
 1. apuntes personales de String, string, array, con bibliografia y con pantallazos de resultados, y dudas textuales.
-2. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
-3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
+3. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
+5. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
+# avance del proyecto: 
+
+## poemas 
+
+- primer poema propuesto: "cine", de victoria ramírez mansilla — no se pudo usar por derechos de autor, pero ayudó a conceptualizar decisiones del proyecto.
+- poema final: soneto XXII, de elizabeth barrett browning (traducción al español).
+
+## poema descartado (por derechos)
+
+cine — victoria ramírez mansilla
+
+> luces bajas y escaleras de lava negra
+> me toman la mano y es una mano áspera
+> casi todas las manos de mujer son suaves
+> el deseo se me presenta como una cuenca
+> acomodo las palmas y ellas se adaptan
+> a las cosas que sospecho amar
+> me dejo llevar por el cordel
+> apenas logro concentrarme en la historia
+> mi pecho es un instrumento de viento
+> demasiado distante
+> quiero decir que admiro la manera
+> en que el cuello sostiene su cabeza
+> quiero decir que entiendo
+> la entrega de la fracción
+> de la fracción de la fracción.
+
+no lo podemos ocupar por los derechos, pero nos ayudó a conceptualizar decisiones del poema:
+
+- el poema habla del encuentro de dos personas, en un cine.
+- surgieron ideas que se van a mantener:
+  - hablar de la aceleración y relacionarla con el tiempo: con el potenciómetro vamos a medir qué tan rápido va avanzando el poema.
+  - dos personas se conectan para crear algo que funcione, como si una dependiera de la otra. mantenemos la idea de que al presionar un botón, se genera una acción incompleta; al presionar dos, se puede visualizar la acción completa.
+  - estructura conceptual del poema: dos personas se encuentran → aparece la intimidad → comienzan a mezclarse sus percepciones → la experiencia se fragmenta → quedan pequeños rastros.
+
+
+## flujo de funcionamiento del proyecto
+
+1. inicia el arduino.
+2. el texto avanzará de manera continua hasta que se presionen los botones o se manipule el potenciómetro.
+3. en caso de presionarse solo un botón, el texto se congela y no sigue avanzando hasta que se deje de presionar.
+4. si son los 2 botones, se detiene el texto y desaparece.
+5. mientras esto ocurre, se consulta en qué sección del texto se encuentra.
+6. en base a la sección del texto mostrado, se visualizará una palabra clave.
+7. al dejar de presionar un botón, vuelve a ocurrir el punto 3.
+8. si se sueltan ambos botones, desaparece la palabra.
+9. luego continúa avanzando el texto desde el mismo punto en el que quedó.
+10. en caso de ser manipulado el potenciómetro, se modificará la velocidad del texto (mientras más lejos del centro, más rápido el cambio).
+11. si se rota hacia la derecha, avanza de manera normal, solo variando la velocidad.
+12. si se rota hacia la izquierda, retrocede el texto, según qué tan lejos del centro esté.
+
+
+## poema final
+
+soneto XXII — elizabeth barrett browning (traducción)
+
+> cuando están nuestras almas frente a frente, mudas, erguidas, fuertes, ya muy próximas, y sus alas se encienden al tocarse, ¿qué podemos temer en este mundo, qué anhelos no podrán satisfacerse? piensa que si ascendemos a la altura acudirán los ángeles queriendo romper con su voz áurea y perfecta nuestro amado silencio. no, es mejor, amor mío, quedarnos en la tierra, donde el afán absurdo de los hombres a las almas más puras les concede un lugar donde amarse en esta vida, cercado por la muerte y las tinieblas.
+
+## código: arreglo de versos
 
 ```cpp
-// codigo aqui
-// por ejemplo
+char *versosPoema[] = {
+  "cuando nuestras dos almas se eleven, firmes y fuertes,",
+  "frente a frente, en silencio, acercándose más y más,",
+  "hasta que las alas que se alargan estallan en fuego",
+  "en cada punta curva ¿qué mal amargo",
+  "puede hacernos la tierra, que no debiéramos",
+  "quedarnos aquí, contentos? piénsalo. al subir más alto,",
+  "los ángeles nos oprimirían y aspirarían",
+  "a dejar caer algún áureo orbe de canto perfecto",
+  "en nuestro hondo, querido silencio. quedémonos",
+  "mejor en la tierra, amado mío, donde los ánimos",
+  "contrarios e injustos de los hombres retroceden",
+  "y aíslan a los espíritus puros, y permiten",
+  "un lugar donde estar y amar por un día,",
+  "con la oscuridad y la hora de la muerte rodeándolo."
+};
 ```
 
 ## lectura
