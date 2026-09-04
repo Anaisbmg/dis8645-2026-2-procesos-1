@@ -8,7 +8,7 @@
 
 Misaa volvió y nos contó sobre su residencia artística en Suiza.
 
-### Bloque 9:00-??:??
+### Bloque 9:00-12:50
 
 Ya que no asistí la clase pasada y nuestro otro compañero de grupo congeló? aparentemente, Hugo quedó solo, así que Aarón nos fusionó con el grupo 6.
 
@@ -21,7 +21,9 @@ Para el proyecto se decidió usar de poeta a Alejandra Pizarnik, específicament
 
 Nos dividimos partes del trabajo, y yo quedé encargado de trabajar en las imágenes que vamos a colocar.
 
-Hice una animación? de un velero yendo desde el lado izquierdo de la pantalla hasta el derecho
+![Boceto velero](./imagenes/velero-sketch.jpg)
+
+Hice una animación? del velero yendo desde el lado izquierdo de la pantalla hasta el derecho
 
 ![Gif velero](./imagenes/velero.gif)
 
