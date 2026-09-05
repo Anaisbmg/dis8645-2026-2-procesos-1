@@ -248,9 +248,23 @@ void mostrarVerso(char *verso) {
 ```
 
 
-
 FOTO Y VIDEO CODIGO FUNCIONANDO
 
+
+<table>
+  <tr>
+    <th>Conexión física</th>
+    <th>Registro pantalla</th>
+  </tr>
+  <tr>
+    <td align="center">
+<img width="970" height="700" alt="codigo.jpg" src="./imagenes/codigo2.jpg" />
+    </td>
+    <td align="center">
+<img width="970" height="700" alt="codigo2.gif" src="./imagenes/codigo2.gif" />
+    </td>
+  </tr>
+</table>
 
 
 
