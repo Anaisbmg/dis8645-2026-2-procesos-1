@@ -9,6 +9,8 @@
   <br>
    <br>
    
+# Diagrama de flujo 
+
 # Esquemático 
 
 El concepto de realizar un living de hogar, fue por la calidez que suele ocupar en la casa,
