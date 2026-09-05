@@ -12,16 +12,16 @@
 # Poema
 "**Chile mapu mew...***
 
-*No somos poetas con titulo,*  
+> *No somos poetas con titulo,*  
 *pero las palabras plasmadas aquí, crecieron de nuestro ser*  
 *como las flores en primeravera.*  
 
-*La primavera de Santiago de Chile, ¡Que coincidencia!*  
+>*La primavera de Santiago de Chile, ¡Que coincidencia!*  
 *estamos en primavera.*  
 
-*Bienvenidx*  
+>*Bienvenidx*  
 
-*Con amor: Francisca, Nicolas y Santiago.*  
+>*Con amor: Francisca, Nicolas y Santiago.*  
 
 *¿Qué pasa cuando la luz del sol aparece detrás de la cordillera?*  
 
