@@ -1333,7 +1333,7 @@ BLOQUE 2 — Inicio del curso Typography (pp. 19-29)
 
 **Tema central**
 
-Arranca el curso "Typography". Reinfurt plantea que la tipografía tiene una "doble personalidad": es a la vez la técnica de dar forma a las palabras y una forma de entender el mundo a través de esas formas escritas. Anuncia que recorrerá 500 años de tradición tipográfica en tres tecnologías: metal typesetting, phototypesetting y digital typesetting. El recorrido arranca con Albrecht Dürer (grabador, matemático, orfebre) y su obra Melancholia I, pasa por su tratado On the Just Formation of Letters (construcción geométrica de las letras romanas), sigue con Gutenberg y la imprenta de tipos móviles, con Joseph Moxon y sus manuales de impresión, con el caso clínico de Howard Engel (alexia sin agrafia, relatado por Oliver Sacks), con un diagrama de William James sobre el circuito neuronal de la escritura, con Charlotte's Web de E.B. White como metáfora de la tipografía "hecha a mano", y cierra con Benjamin Franklin como diseñador-impresor-networker.
+Empece el capítulo "Typography". Reinfurt plantea que la tipografía tiene una "doble personalidad": es a la vez la técnica de dar forma a las palabras y una forma de entender el mundo a través de esas formas escritas. Anuncia que recorrerá 500 años de tradición tipográfica en tres tecnologías: metal typesetting, phototypesetting y digital typesetting. El recorrido arranca con Albrecht Dürer (grabador, matemático, orfebre) y su obra Melancholia I, pasa por su tratado On the Just Formation of Letters (construcción geométrica de las letras romanas), sigue con Gutenberg y la imprenta de tipos móviles, con Joseph Moxon y sus manuales de impresión, con el caso clínico de Howard Engel (alexia sin agrafia, relatado por Oliver Sacks), con un diagrama de William James sobre el circuito neuronal de la escritura, con Charlotte's Web de E.B. White como metáfora de la tipografía "hecha a mano", y cierra con Benjamin Franklin como diseñador total.
 
 
 **Análisis**
@@ -1342,7 +1342,7 @@ Arranca el curso "Typography". Reinfurt plantea que la tipografía tiene una "do
 
 - Tres tecnologías, no tres estilos: Reinfurt ordena la historia por el hardware (metal, foto, digital), no por movimientos estéticos. Cambia la máquina, cambia la letra.
 
--Dürer: convierte la letra en geometría, no en caligrafía. La "A" con regla y compás es una fórmula replicable, no un gesto manual. Antecede directamente a la letra digital.
+- Dürer: convierte la letra en geometría, no en caligrafía. La "A" con regla y compás es una fórmula replicable, no un gesto manual. Antecede directamente a la letra digital.
 
 - Gutenberg: no es "el inventor", es quien resolvió un problema de materiales (aleación). Su frase clave: "printing was power". Controlar la impresión es controlar qué circula y quién es autor.
 
