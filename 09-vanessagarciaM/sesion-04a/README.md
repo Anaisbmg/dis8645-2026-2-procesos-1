@@ -10,8 +10,8 @@ Hubo un pequeño incidente que nos hizo entender de mejor manera la función de 
 
 ![alt](./imagenes/caballo.gif)
 ![alt](./imagenes/corazon.gif)
-![alt](./imagenes/ojo.gif)
 ![alt](./imagenes/luna.gif)
+![alt](./imagenes/ojo.gif)
 ## lectura
 
 ### reading writing interfaces: from the digital to the bookbound
