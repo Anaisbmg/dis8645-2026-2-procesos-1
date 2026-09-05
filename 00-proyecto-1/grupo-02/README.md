@@ -10,7 +10,7 @@ así como el país que le habitamos, nos atiende, y nos sorprende.
 ## Bocetos:
 El escenario consta de 2 partes: 
 
-*1. El living.*
+*1. El living.*  
 *2. El control remoto del tv y la lampara del techo.*  
 
 ![](./imagenes/prototipo.jpg)
