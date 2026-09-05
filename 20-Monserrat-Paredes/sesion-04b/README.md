@@ -2,7 +2,7 @@
 
 ## apuntes sesión
 
-Llego misaa nos hablo de sus viaje y las cosas locas que hizo de pura experimentación y nos trajo dulcees.
+Llego misaa nos hablo de su viaje y las cosas locas que hizo de pura experimentación y nos trajo dulcees.
 
 fotoo dulces 
 
