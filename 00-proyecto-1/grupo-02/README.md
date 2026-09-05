@@ -46,9 +46,10 @@
 *y se pose sobre tu cabeza,*  
 *es un día más para sentirlo.*  
 
+*En Chile, las Chinchineras saltan y las Turcas le acompañan.*
 *En Chile, el Zorro culpeo no tiene la culpa.*  
-*En Chile, el Romero florece.*  
-*Pero ya en tu pecho florecerán*  
+*En Chile, el Romero florece...*  
+*Pero también, ya en tu pecho florecerán,*
 *colores de amor.*  
 
 *Florecerán...*
