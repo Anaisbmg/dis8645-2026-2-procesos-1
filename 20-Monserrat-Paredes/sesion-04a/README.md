@@ -1279,6 +1279,13 @@ Cambios nuevos :)
 FOTOOO Y GIF CÓDIGO FUNCIONANDO
 
 
+![c4-2](./imagenes/c4-2.jpg)
+
+
+![codi4-2](./imagenes/codi4-2.jpg)
+
+
+![codigo4-2](./imagenes/codigo4-2.gif)
 
 
 
@@ -1299,7 +1306,7 @@ deberia aparecer:
 
 FOTOOOO PROBLEMAAAA :P
 
-
+![problema](./imagenes/problema.jpg)
 
 
 
@@ -1320,3 +1327,74 @@ II. G-E-S-T-A-L-T
 III. I-N-T-E-R-F-A-C-E
 
 El autor plantea las bases de lo que significa enseñar diseño gráfico hoy. Introduce la idea de que el diseño no se trata de "estilo" o decoración, sino de sistemas, reglas y tecnología aplicadas a la comunicación.
+
+
+BLOQUE 2 — Inicio del curso Typography (pp. 19-29)
+
+**Tema central**
+
+Arranca el curso "Typography". Reinfurt plantea que la tipografía tiene una "doble personalidad": es a la vez la técnica de dar forma a las palabras y una forma de entender el mundo a través de esas formas escritas. Anuncia que recorrerá 500 años de tradición tipográfica en tres tecnologías: metal typesetting, phototypesetting y digital typesetting. El recorrido arranca con Albrecht Dürer (grabador, matemático, orfebre) y su obra Melancholia I, pasa por su tratado On the Just Formation of Letters (construcción geométrica de las letras romanas), sigue con Gutenberg y la imprenta de tipos móviles, con Joseph Moxon y sus manuales de impresión, con el caso clínico de Howard Engel (alexia sin agrafia, relatado por Oliver Sacks), con un diagrama de William James sobre el circuito neuronal de la escritura, con Charlotte's Web de E.B. White como metáfora de la tipografía "hecha a mano", y cierra con Benjamin Franklin como diseñador-impresor-networker.
+
+
+**Análisis**
+
+- Tipografía de doble vía (Elliman): leer y escribir no son opuestos, son la misma acción vista desde dos lados.
+
+- Tres tecnologías, no tres estilos: Reinfurt ordena la historia por el hardware (metal, foto, digital), no por movimientos estéticos. Cambia la máquina, cambia la letra.
+
+-Dürer: convierte la letra en geometría, no en caligrafía. La "A" con regla y compás es una fórmula replicable, no un gesto manual. Antecede directamente a la letra digital.
+
+- Gutenberg: no es "el inventor", es quien resolvió un problema de materiales (aleación). Su frase clave: "printing was power". Controlar la impresión es controlar qué circula y quién es autor.
+
+- Moxon: usa la imprenta para enseñar a imprimir. Un manual que se autodocumenta, como el código abierto hoy.
+
+- Howard Engel: pierde la lectura pero no la escritura. Prueba clínica de que leer y escribir son procesos neurológicos distintos, aunque se los trate como uno solo.
+  
+- Charlotte (E.B. White): tejer letras a mano es la metáfora más literal de tipografiar: ejecutar forma, trazo por trazo, sin necesidad de procesar significado.
+  
+- Franklin: cierra el bloque como diseñador total. Tipografía, distribución y poder político van juntos.
+
+
+**Citas**
+
+Cita 1 (p. 19)
+
+INGLÉS: "Typography has something of a split personality—it's both the technical act of writing words into the world by giving them form, and it's also a way of understanding the world through the forms of its writing."
+
+ESPAÑOL: "La tipografía tiene algo de personalidad dividida —es tanto el acto técnico de escribir palabras en el mundo dándoles forma, como también una manera de entender el mundo a través de las formas de su escritura."
+
+Análisis: Define la tipografía como un sistema de doble función: produce forma y, al mismo tiempo, es una lente de lectura del mundo. No es solo herramienta, es también epistemología.
+
+
+Cita 2 (p. 23)
+
+INGLÉS: "Gutenberg's scheme leaked to Nuremberg... Printers decided what got printed, how it looked, where it went, and who was an author. Printing was power."
+
+ESPAÑOL: "El esquema de Gutenberg se filtró hasta Núremberg... Los impresores decidían qué se imprimía, cómo se veía, adónde iba, y quién era autor. Imprimir era poder."
+
+Análisis: Reinfurt corta con la narrativa romántica de la imprenta como "progreso neutral". La deja planteada como tecnología de control: definir qué circula es una forma de poder, no solo un logro técnico.
+
+
+Cita 3 (p. 25)
+
+INGLÉS: "Reading and writing are intimately connected. There's probably a biological reason why we learn both at the same time."
+
+ESPAÑOL: "Leer y escribir están íntimamente conectados. Probablemente haya una razón biológica por la que aprendemos ambas cosas al mismo tiempo."
+
+Análisis: Cierra el caso Howard Engel con una hipótesis biológica, no estética. Reinfurt usa neurociencia para reforzar su tesis inicial: tipografía es leer y escribir operando como un mismo sistema, aunque puedan desacoplarse.
+
+
+**Glosario**
+
+| Término (INGLÉS) | Traducción (ESPAÑOL) | Explicación |
+|---|---|---|
+| Metal typesetting | Composición en metal | Armado de texto con tipos móviles de metal. |
+| Phototypesetting | Fotocomposición | Composición tipográfica mediante proyección de luz sobre película. |
+| Digital typesetting | Composición digital | Composición tipográfica mediante software y fuentes digitales. |
+| Movable type | Tipos móviles | Piezas individuales de letras reutilizables para imprimir. |
+| Blackletter | Letra gótica | Alfabeto europeo de trazos angulares, previo a la letra romana. |
+| Monogram | Monograma | Firma o marca compuesta por iniciales combinadas. |
+| Alloy | Aleación | Mezcla de metales usada para fundir tipos de imprenta. |
+| Letterpress | Tipografía (impresión con tipos) | Técnica de impresión por presión directa de tipos entintados. |
+| Alexia | Alexia | Pérdida de la capacidad de leer, sin pérdida de escritura. |
+| Pseudonym | Seudónimo | Nombre falso usado para publicar sin revelar identidad real. |
