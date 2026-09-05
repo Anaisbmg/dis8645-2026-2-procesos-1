@@ -29,5 +29,7 @@ El escenario consta de 2 partes:
 ![](./imagenes/control.jpg)
 
 # Referentes
-1. "Mira niñita", de los Jaivas.
-2. "La danza de la libélulas", de Manuel García. 
+1. "Mira niñita", una canción de los Jaivas.
+2. "La danza de la libélulas", una canción de Manuel García.
+3. "La exiliada del sur", un poema de Violeta Parra.
+4. "Un día más", una canción de Jósean Log
