@@ -1,3 +1,14 @@
+**Realizado por:**  
+*Francisca Palma (periodo)*
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+*Nicolas Valdes (periodo)*&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+*Santiago Cifuentes Vélez (santiagocifuvelez)*
+
+<br>
+ <br>
+  <br>
+   <br>
+   
 # Esquemático 
 
 El concepto de realizar un living de hogar, fue por la calidez que suele ocupar en la casa,
