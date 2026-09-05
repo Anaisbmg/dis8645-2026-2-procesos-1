@@ -901,8 +901,6 @@ FOTO Y GIF CÓDIGO FUNCIONANDO
 
 ![codi4](./imagenes/codi4.jpg)
 
-![c4](./imagenes/c4.jpg)
-
 ![codigo4](./imagenes/codigo4.gif)
 
 
@@ -929,6 +927,9 @@ palabras chicas (8px de alto)
 
 
 FOTOOO PRUEBAAAAAA TOC :)
+
+
+![c4](./imagenes/c4.jpg)
 
 
 
@@ -1275,7 +1276,8 @@ Cambios nuevos :)
 
 
 
-FOTOOO Y VIDEOOOO FUNCIONANDOOOOOO 
+FOTOOO Y GIF CÓDIGO FUNCIONANDO
+
 
 
 
