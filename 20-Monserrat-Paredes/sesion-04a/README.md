@@ -615,7 +615,16 @@ void mostrarVerso(char *verso, char *palabraObjetivo) {
 }
 ```
 
-FOTO Y VIDEO CODIGO FUNCIONANDO
+FOTO Y GIF CÓDIGO FUNCIONANDO
+
+
+![c3](./imagenes/c3.jpg)
+
+
+![codigo3](./imagenes/codigo3.jpg)
+
+
+![codigo3](./imagenes/codigo3.gif)
 
 
 ---
