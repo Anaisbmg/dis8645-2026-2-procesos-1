@@ -61,6 +61,7 @@ Dice así:
 > *(Escrito por Santiago Cifuentes Vélez..., inspirado en la sutileza de mis amigues Nico y Fran, y la imponente cordillera de los Andes, lugar donde me he encontrado de cara con la vida misma)*
    
 # Diagrama de flujo 
+![](./imagenes/flowchart.jpg)
 
 # Esquemático 
 
