@@ -10,7 +10,7 @@
    <br>
 
 # Poema
-*"**Chile mew...***
+"**Chile mew...***
 
 *No somos poetas con titulo,*  
 *pero las palabras plasmadas aquí, crecieron de nuestro ser*  
@@ -51,7 +51,7 @@
 *Pero ya en tu pecho florecerán*  
 *colores de amor.*  
 
-*Florecerán..."*
+*Florecerán...*
 
    
 # Diagrama de flujo 
