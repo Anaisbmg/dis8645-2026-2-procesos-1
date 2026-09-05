@@ -10,7 +10,7 @@
    <br>
 
 # Poema
-"**Chile mew...***
+"**Chile mapu mew...***
 
 *No somos poetas con titulo,*  
 *pero las palabras plasmadas aquí, crecieron de nuestro ser*  
