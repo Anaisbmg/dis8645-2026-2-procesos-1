@@ -49,11 +49,13 @@ Me consumo en mi fuego,
 
 De amor me estoy muriendo,
 
-¡Pero no puedo amar.
+¡Pero no puedo amar!.
 
 Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
 
+
 ### Análisis:
+
 "Queja" → habla de perfeccionismo que impide amar, de consumirse en el propio fuego por exigir perfección. Es un poema de contención, control, tensión interna.
 
 ---
