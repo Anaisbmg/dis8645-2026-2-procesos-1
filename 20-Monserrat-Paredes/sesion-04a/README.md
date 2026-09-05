@@ -72,6 +72,12 @@ void loop() {
 }
 ```
 
+
+Registro en serial monitor
+
+![video](./imagenes/video.gif)
+
+
 ---
 
 
@@ -244,8 +250,6 @@ void mostrarVerso(char *verso) {
 
 
 FOTO Y VIDEO CODIGO FUNCIONANDO
-
-
 
 
 
