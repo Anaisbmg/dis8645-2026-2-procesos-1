@@ -71,7 +71,7 @@ Expresa un amor frustrado y posiblemente no correspondido, pero principalmente m
 |Protoboard|1|$1.500|<https://afel.cl/products/mini-protoboard-400-puntos>|
 |Botón Táctil|1|$400|<https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor?_pos=3&_sid=a0018323a&_ss=r>|
 |cables|6|$1.000|<https://afel.cl/products/pack-20-cables-de-conexion-macho-macho>|
-|Potenciómetro A10k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
+|Potenciómetro B10k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
 
 
 ---
