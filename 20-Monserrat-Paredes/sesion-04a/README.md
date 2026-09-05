@@ -248,24 +248,12 @@ void mostrarVerso(char *verso) {
 ```
 
 
-FOTO Y VIDEO CODIGO FUNCIONANDO
+FOTO Y GIF CÓDIGO FUNCIONANDO
 
 
-<table>
-  <tr>
-    <th>Conexión física</th>
-    <th>Registro pantalla</th>
-  </tr>
-  <tr>
-    <td align="center">
-<img width="970" height="700" alt="codigo.jpg" src="./imagenes/codigo2.jpg" />
-    </td>
-    <td align="center">
-<img width="970" height="700" alt="codigo2.gif" src="./imagenes/codigo2.gif" />
-    </td>
-  </tr>
-</table>
+![codigo2](./imagenes/codigo2.jpg)
 
+![codigo2](./imagenes/codigo2.gif)
 
 
 Para continuar nos preguntamos que queriamos que apareciera especificamente y se nos ocurrieron varias cosas.
