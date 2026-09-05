@@ -45,6 +45,9 @@ La combinación de estas dos cosas necesita además una fuente de poder externa 
 * `GND` y `TRIG/PWM`: van conectados al Arduino.
 * `VIN+` y `VIN-`: van a la batería/fuente externa.
 
+![HW-517 V0.0.1](imagenes/hw517-v001.png)
+
+
 Para el código de Arduino usaremos uno donde podamos controlar el motor mediante la consola: que permita dar una mini pulsación, un botón para detener, un botón a toda potencia y selección manual de potencia en un rango de 0 a 255.
 
 Adjunto el código y la conversación con Gemini con la que se generó: https://share.gemini.google/PuVXHlj1Jx1S
@@ -152,12 +155,13 @@ void loop() {
   }
 }
 ```
-estamos en la duda si usar botones o potenciometro, ya que sentimos que los botones podria ser una forma ordenada y ayudaria al tema de repetir el poema donde termina.
-Tal vez usar 4 motores, por lo que quedaria los materiales como:
-* 4 motores, junto a su modulo
-* bateria externa
-* Arduino o pico 2 W (depende si nos da la potencia)
-* 2 botones o 1 potenciometros.
+
+Estamos en la duda de si usar botones o potenciómetro, ya que sentimos que los botones podrían ser una forma ordenada y ayudarían al tema de repetir el poema donde termina. Tal vez usar 4 motores, por lo que quedarían los materiales como:
+4 motores, junto a su módulo
+Batería externa
+Arduino o pico 2 W (depende de si nos da la potencia).
+2 botones o 1 potenciómetro.
+
 
 ## encargos
 
