@@ -27,3 +27,7 @@ El escenario consta de 2 partes:
 ![](./imagenes/prototipo.jpg)
 ![](./imagenes/prototipo2.jpg)
 ![](./imagenes/control.jpg)
+
+# Referentes
+1. "Mira niñita", de los Jaivas.
+2. "La danza de la libélulas", de Manuel García. 
