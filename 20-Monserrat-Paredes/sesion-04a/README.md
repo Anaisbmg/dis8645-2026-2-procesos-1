@@ -73,7 +73,8 @@ void loop() {
 ```
 
 
-Registro en serial monitor
+REGISTRO EN SERIAL MONITOR
+
 
 ![video](./imagenes/video.gif)
 
@@ -894,7 +895,15 @@ PROBLEMA: los versos del poema siguen una velocidad determinada y mientras muevo
 
 
 
-FOTO Y VIDEO CODIGO FUNCIONANDO
+FOTO Y GIF CÓDIGO FUNCIONANDO
+
+![codigo4](./imagenes/codigo4.jpg)
+
+![codi4](./imagenes/codi4.jpg)
+
+![c4](./imagenes/c4.jpg)
+
+![codigo4](./imagenes/codigo4.gif)
 
 
 ---
