@@ -384,6 +384,11 @@ void mostrarVerso(char *verso, char *palabraObjetivo) {
 }
 ```
 
+Registro gif
+
+![codigo5](./imagenes/codigo5.gif)
+
+
 ## encargos
 
 ## lectura
