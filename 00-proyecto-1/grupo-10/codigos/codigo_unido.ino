@@ -2,6 +2,7 @@
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
+#include <Fonts/FreeSerifItalic9pt7b.h>
 
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 32
@@ -161,69 +162,99 @@ const unsigned char* epd_bitmap_allArray[4] = {
 	epd_bitmap_pluma_frame4
 };
 
-void setup() {
+const char *versos[] = {
+  "Hope is the thing with",
+  "feathers",
+  "That perches in",
+  "the soul",
+  "and sings the tune without the words",
+  "and never stops",
+  "at all...",
+  "-Emily Dickinson"
+};
 
+const int totalVersos = sizeof(versos) / sizeof(versos[0]);
+
+unsigned long tiempoAnterior = 0;
+const unsigned long intervalo = 3000;
+int versoActual = 0;
+
+void mostrarPluma(const unsigned char *frame) {
+  display.clearDisplay();
+  display.drawBitmap(0, 0, frame, 128, 32, SSD1306_WHITE);
+  display.display();
+}
+
+void reproducirAnimacionPluma() {
+  mostrarPluma(epd_bitmap_pluma_frame1);
+  delay(300);
+
+  mostrarPluma(epd_bitmap_pluma_frame2);
+  delay(300);
+
+  mostrarPluma(epd_bitmap_pluma_frame3);
+  delay(300);
+
+  mostrarPluma(epd_bitmap_pluma_frame4);
+  delay(300);
+
+  display.clearDisplay();
+  display.display();
+}
+
+bool plumaPendiente = false;
+
+void setup() {
   Serial.begin(9600);
 
-  // Inicializar pantalla OLED
   if (!display.begin(SSD1306_SWITCHCAPVCC, SCREEN_ADDRESS)) {
     Serial.println("SSD1306 allocation failed");
     for (;;);
   }
+
+  // Configuracion del texto del poema
+  display.setTextSize(1);
+  display.setTextColor(SSD1306_WHITE);
+  display.setFont(&FreeSerifItalic9pt7b);
+
+  // Empieza a contar desde aqui para mostrar el primer verso.
+  tiempoAnterior = millis();
 }
+
 void loop() {
-  // Dibujar TU bitmap
-  display.drawBitmap(
-    0,
-    0,
-    epd_bitmap_pluma_frame1,
-    128,
-    32,
-    SSD1306_WHITE
-  );
-	display.display();
-	delay(300);
+  unsigned long tiempoActual = millis();
 
-	  display.clearDisplay();
+  if (tiempoActual - tiempoAnterior >= intervalo) {
+    tiempoAnterior = tiempoActual;
 
- display.drawBitmap(
-    0,
-    0,
-    epd_bitmap_pluma_frame2,
-    128,
-    32,
-    SSD1306_WHITE
-  );
-	display.display();
-	delay(300);
+    // Si ya se mostro "feathers", en este turno aparece la pluma.
+    if (plumaPendiente) {
+      reproducirAnimacionPluma();
+      plumaPendiente = false;
 
-	  display.clearDisplay();
+      // Reiniciamos la referencia para que el siguiente verso
+      // espere 3 segundos despues de terminar la animacion.
+      tiempoAnterior = millis();
+      return;
+    }
 
-	 display.drawBitmap(
-    0,
-    0,
-    epd_bitmap_pluma_frame3,
-    128,
-    32,
-    SSD1306_WHITE
-  );
-	display.display();
-	delay(300);
+    if (versoActual < totalVersos) {
+      display.clearDisplay();
+      display.setCursor(5, 15);
+      display.println(versos[versoActual]);
+      display.display();
 
-  display.clearDisplay();
+      // "feathers" es el verso numero 2, indice 1.
+      // Dejamos marcada la animacion para el siguiente intervalo.
+      if (versoActual == 1) {
+        plumaPendiente = true;
+      }
 
-	 display.drawBitmap(
-    0,
-    0,
-    epd_bitmap_pluma_frame4,
-    128,
-    32,
-    SSD1306_WHITE
-  );
-	display.display();
-	delay(300);
-	
-  // Mandar el contenido a la OLED
- 
+      versoActual++;
+    }
+    else {
+      // Reinicia el poema al terminar.
+      versoActual = 0;
+    }
+  }
 }
-
