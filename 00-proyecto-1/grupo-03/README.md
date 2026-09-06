@@ -47,6 +47,12 @@ Escogimos ese extracto en específico porque interpretamos que en esta parte la 
 
 ## **5\. Carcasa**
 
+Para la carcasa concordamos que necesitábamos espacio para que los motores que agregamos a nuestro proyecto tuvieran el espacio suficiente para moverse y a su vez no complicarnos con la estructura, entonces buscamos una caja idónea a nuestras necesidades. 
+
+La pantalla TFT (principal) irá al lado izquierdo y la I2C al derecho la cual nos entregará las indicaciones. El botón con su luz de aviso se encontrarán al lado derecho y el potenciómetro en el izquierdo, estas decisiones fueron tomadas a partir de la comodidad del usuario y el espacio que tenemos para distribuir. 
+
+(COLOCAR FOTOGRAFIAS)
+
 ## **6\. Proceso del Código y elección de componentes**
 
 ## **7\. Diagrama de Flujo**
