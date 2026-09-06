@@ -16,7 +16,11 @@ En la clase anterior definimos utilizar el poema gansos salvajes de mary Oliver.
 
 Después de clases pudimos resolver la parte de organizar los componentes en la protoboard, comprobamos que el potenciómetro y el botón funcionaran por separado, luego con ayuda de Seba (muchas gracias por su amabilidad y disposición de ayudarnos en todo momento), pudimos dejar el potenciómetro y el botón en la misma protoboard. Comprobamos que funcionara con el código y todo quedó funcionando! 
 
+![IMG](./imagenes/avance02.png)
 
+![IMG](./imagenes/avance01.png)
+
+<https://youtube.com/shorts/dSXFwNZUSpA>
 
 ### Apuntes de C++
 
