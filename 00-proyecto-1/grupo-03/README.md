@@ -1,3 +1,13 @@
+# **Proyecto 1: ;p0ema** 
+
+*Tomás Catrileo (tomascarti)*                
+*Kristel Ladrón de Guevara (kristelagj)*                
+*Angel Savolgal (angel-udp)*
+
+<br>
+
+## **1\. Concepto y Extracto Escogido**
+
 Nuestro grupo eligió ;p0ema de Leonor Olmos. Es el extracto del poema 4, página 9\. 
 
 > Este poema nada puede resolver.  
@@ -15,7 +25,11 @@ Nuestro grupo eligió ;p0ema de Leonor Olmos. Es el extracto del poema 4, págin
 >
 > No, en serio, este poema nada puede resolver.
 
-Este poema, como lo menciona en su página legal: “ninguna parte de esta publicación puede ser reproducida o transmitida mediante cualquier soporte sin la expresa autorización de la editorial” entonces, para poder utilizar este extracto, nos contactamos con la editorial.
+## **2\. Corpus y Licencias (Legal)**
+
+La obra original establece en su página legal: *"Ninguna parte de esta publicación puede ser reproducida o transmitida mediante cualquier soporte sin la expresa autorización de la editorial"*.
+
+Para cumplir con las normativas de derechos de autor nos contactamos directamente con la editorial vía correo electrónico, la cual nos otorgó el permiso para su uso meramente académico. 
 
 <div align="center">
   <img src="./imagenes/autorizacion-editorial.png" width="50%">
