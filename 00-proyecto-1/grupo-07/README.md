@@ -63,12 +63,16 @@ Me consumo en mi fuego,
 
 De amor me estoy muriendo,
 
-¡Pero no puedo amar.
+¡Pero no puedo amar!.
 
 Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfonsina-storni-8463/
 
+
 ### Análisis:
-"Queja" → habla de perfeccionismo que impide amar, de consumirse en el propio fuego por exigir perfección. Es un poema de contención, control, tensión interna.
+
+El poema expresa un conflicto interno entre el deseo de amar y la incapacidad de hacerlo. Ella se siente “muriendo de amor”, pero al mismo tiempo no logra entregarse emocionalmente porque busca constantemente la perfección, tanto en ella misma como en los demás.
+
+Expresa un amor frustrado y posiblemente no correspondido, pero principalmente muestra un conflicto interno: el deseo de amar, pero su búsqueda de la perfección le impide entregarse al amor.
 
 ---
 
@@ -76,12 +80,12 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 |Componente|Cantidad|Precio|Link|
 |---|---|---|---|
-|Arduino UNO R4 Mínima|1|$32.990|<https://mcielectronics.cl/shop/product/arduino-uno-r4-minima/>|
+|Arduino UNO R4 WIFI|1|$32.990|<https://mcielectronics.cl/shop/product/arduino-uno-r4-minima/>|
 |Pantalla LCD Oled 0,91" I2C|1|$3.990|<https://afel.cl/products/pantalla-lcd-oled-0-91?_pos=1&_sid=f1b122119&_ss=r>|
 |Protoboard|1|$1.500|<https://afel.cl/products/mini-protoboard-400-puntos>|
 |Botón Táctil|1|$400|<https://afel.cl/products/boton-tactil-tapa-12x12x7-3-interruptor?_pos=3&_sid=a0018323a&_ss=r>|
 |cables|6|$1.000|<https://afel.cl/products/pack-20-cables-de-conexion-macho-macho>|
-|Potenciómetro B500k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
+|Potenciómetro B10k|1|$500|<https://afel.cl/products/potenciometro-10k-ohm>|
 
 
 ---
