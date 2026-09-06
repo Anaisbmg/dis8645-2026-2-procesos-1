@@ -14,6 +14,9 @@ En la clase anterior definimos utilizar el poema gansos salvajes de mary Oliver.
 + también mis compañeras empezaron a ver elementos para integrar al código, por ejemplo: la animación que utilizamos 
 + nuestra principal lluvia de ideas que nos permitió organizar el código fue: mostrar animación, mostrar título poema, apretar el botón para que aparezcan los versos, luego aparece el nombre de la autora y se mueve cada letra con el potenciómetro, finalmente apretar el botón dos veces y se reinicia.
 
+Después de clases pudimos resolver la parte de organizar los componentes en la protoboard, comprobamos que el potenciómetro y el botón funcionaran por separado, luego con ayuda de Seba (muchas gracias por su amabilidad y disposición de ayudarnos en todo momento), pudimos dejar el potenciómetro y el botón en la misma protoboard. Comprobamos que funcionara con el código y todo quedó funcionando! 
+
+
 
 ### Apuntes de C++
 
