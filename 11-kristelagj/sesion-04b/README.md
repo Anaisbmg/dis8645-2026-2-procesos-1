@@ -16,19 +16,19 @@ En simultáneo y no menos importante, era la llegada de Misaa a la clase, se que
 
 <table>
   <tr>
-    <td><img src="./imagenes/republicatipografica-1.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-2.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-3.jpeg" width="50%"></td>
+    <td><img src="./imagenes/republicatipografica-1.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-2.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-3.jpeg" width="250"></td>
   </tr>
   <tr>
-    <td><img src="./imagenes/republicatipografica-4.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-5.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-6.jpeg" width="50%"></td>
+    <td><img src="./imagenes/republicatipografica-4.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-5.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-6.jpeg" width="250"></td>
   </tr>
   <tr>
-    <td><img src="./imagenes/republicatipografica-7.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-8.jpeg" width="50%"></td>
-    <td><img src="./imagenes/republicatipografica-9.jpeg" width="50%"></td>
+    <td><img src="./imagenes/republicatipografica-7.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-8.jpeg" width="250"></td>
+    <td><img src="./imagenes/republicatipografica-9.jpeg" width="250"></td>
   </tr>
 </table>
 
