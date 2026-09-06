@@ -24,4 +24,11 @@ Y para la carcasa decidimos hacerlo con cartón corrugado, el más delgado y hac
 
 ## lectura
 
+página 40/50
 
+En esta lectura el autor menciona que el consumo ya no busque satisfacer necesidades reales, sino mantener el funcionamiento de la economía, haciendo que las personas consuman ilusiones que el espectáculo presenta como felicidad y bienestar, por lo que terminamos consumiendo más ilusiones que cosas realmente necesarias. Luego pasé al siguiente capítulo que este hablaba de estilos de vida ideales que parecen alcanzables mediante el consumo (que miedo que es lo que se vive hoy en día) y que la abundancia de posibilidades y opciones pero que en verdad todas son falsas porque las alternativas terminan reproduciendo la misma sociedad de consumo, creo que es decir que a pesar de que las marcas, celebridades, cantantes abordan diferentes públicos e identidades, todas llegan a un mismo resultado: el consumismo (aunque esto aun no me queda claro a que se refiere con todas "las opciones" que menciona) .
+
+Una crítica que menciona es que los trabajadores deberían recuperar el control sobre su trabajo y sobre su propia vida, en vez de dejar que la economía los dominen 
+
+- “El consumidor real se convierte en consumidor de ilusiones”
+- “La mercancía es esta ilusión efectivamente real, y el espectáculo su manifestación general”
