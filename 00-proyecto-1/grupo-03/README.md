@@ -45,7 +45,7 @@ Escogimos ese extracto en específico porque interpretamos que en esta parte la 
 
 (EN DESARROLLO)
 
-## **5\. Desarrollo de la Carcasa**
+## **5\. Carcasa**
 
 ## **6\. Proceso del Código y elección de componentes**
 
