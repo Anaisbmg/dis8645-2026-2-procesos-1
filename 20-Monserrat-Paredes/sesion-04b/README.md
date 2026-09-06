@@ -389,6 +389,32 @@ Registro gif
 ![codigo5](./imagenes/codigo5.gif)
 
 
+Ya se arreglo todo lo anterior y ahora queremos agregar animación mientras la persona interactua con el poema.
+
+la idea es que se vea así:
+
+// agrandar la palabra “perfecto” 
+
+ "Persigo lo perfecto",
+ 
+ "Para poder amar.",
+
+
+// animación fueguito
+
+
+// agrandar la palabra “consumo” 
+
+ "Me consumo en mi fuego,",
+
+
+Que la animación fluya y en ese momento uno no puedo controlar el texto, porque esta corriendo la animación, la idea es que pase solo una vez, que no ser en loop, luego de esto uno puede seguir controlando el poema con el potenciómetro.
+
+La Emilia se encargara de hacer la animación
+
+bitmaps para transformar imagenes a código: <https://tools.stonez56.com/u8g2/getBitmap.php>
+
+
 ## encargos
 
 ## lectura
