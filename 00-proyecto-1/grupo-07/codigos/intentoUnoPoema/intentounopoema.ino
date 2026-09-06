@@ -1,5 +1,5 @@
 // poema "queja"
-// de allfonsina storni
+// de alfonsina storni
 
 // Señor, mi queja es ésta,
 // Tú me comprenderás;

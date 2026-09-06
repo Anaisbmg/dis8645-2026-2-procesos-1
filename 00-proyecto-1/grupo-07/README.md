@@ -86,6 +86,31 @@ Poema sacado de → https://www.cultura.gob.ar/9-poemas-imprescindibles-de-alfon
 
 ---
 
+## ¿Qué queremos que pase? (texto)
+- Cambio de dirección 2: de derecha a izquierda. Lo que queremos es que lo que se proyecte en la pantalla represente el poema, por ende, puede ser que solo se proyectan ciertas palabras y no todo el texto, que son palabras claves representativas (palabras intensas).
+- Que la velocidad del texto cambie según la perilla del potenciómetro (verso por verso).
+- A través de un botón, tener la posibilidad de presionarlo y que se inviertan los colores mostrando las palabras claves representativas (palabras intensas).
+- Que a ciertas palabras del poema se les pueda bajar o subir la opacidad con el potenciómetro.
+- perfeccionismo = control = pausar/reanudar (botón)
+- cambio = velocidad de reproducción (potenciómetro)
+- cambio = dirección del texto (botón)
+- dirección inicial del texto: arriba hacia abajo
+- cambio de dirección 1: de izquierda a derecha
+- poner al comienzo el nombre de la poetisa Alfonsina Storni
+
+## Paso a paso de que queremos que suceda
+
+- lo primero en proyectarse en la pantalla es el nombre de la poetisa "Alfonsina Storni"
+- se despliega la animación inicial con el nombre del poema "Queja"
+- el poema comienza a proyectarse y avanza verso por verso de manera interactiva a medida que el usuario gira la perilla del potenciometro
+- al llegar a versos con palabras claves representativas (palabras intensas), el tamaño de la tipografía es mas grande que el resto del verso, para simular un efecto de "grito"
+- entre medio de las dos primeras estrofas, la pantalla reproduce una animación visual
+- al presionar el botón, se invierte los colores de la pantalla y se muestran únicamente las palabras clave representativas (palabras de tamaño de la tipografía es mas grande)
+
+
+
+
+
 
 ## Proceso código y registro
 
@@ -95,7 +120,7 @@ versión 0 que solo visualiza el poema en el serial monitor en loop
 
 ```cpp
 // poema "queja"
-// de allfonsina storni
+// de alfonsina storni
 
 // Señor, mi queja es ésta,
 // Tú me comprenderás;
