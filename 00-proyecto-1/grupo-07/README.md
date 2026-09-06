@@ -4,11 +4,13 @@ Fecha entrega: 2026-09-11
 
 ## Integrantes:
 
-Emilia Contreras / [hazzaily](https://github.com/hazzaily)
+Emilia Contreras / [hazzaily](https://github.com/hazzaily) 
 
-Monserrat Paredes / [Monserrat-Paredes](https://github.com/Monserrat-Paredes)
+Monserrat Paredes / [Monserrat-Paredes](https://github.com/Monserrat-Paredes) 
 
-Katalina Riquelme / [riyakatalinaa](https://github.com/riyakatalinaa)
+Katalina Riquelme / [riyakatalinaa](https://github.com/riyakatalinaa) 
+
+
 
 ---
 
@@ -114,8 +116,6 @@ Expresa un amor frustrado y posiblemente no correspondido, pero principalmente m
 
 
 
-
-
 ## Proceso código y registro
 
 [intentoUnoPoema](https://github.com/disenoUDP/dis8645-2026-2-procesos-1/tree/main/00-proyecto-1/grupo-07/codigos/intentoUnoPoema) → 28/08/26
@@ -183,3 +183,25 @@ void loop() {
   }
 }
 ```
+
+
+## Animaciones
+
+animación 1: después del nombre de la poetisa de Alfonsina Storni, titulo "Queja"
+
+**imagen de la animación**
+
+animación 2: después de la primera estrofa, corazón roto
+
+**imagen de la animación**
+
+
+animación 3: después de la segunda estrofa, fueguito
+
+**imagen de la animación**
+
+## Roles
+
+- **Emilia:** encargada de las animaciones y sus respectivos códigos
+- **Monserrat:** encargada de los códigos
+- **Katalina:** encargada de registro en github
