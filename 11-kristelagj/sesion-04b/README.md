@@ -20,4 +20,11 @@ Agradezco mucho a mi compañero Tomás por asistir a la clase de hoy. Como equip
 
 ## encargos
 
+### post-clase
+
+El día sábado nos juntamos para realizar ciertas cosas que nos faltaban y tomar las últimas decisiones. 
+
+Tomás nos contaba que utilizó unos motores que él tenía y que nos ayudaría a representar la parte del caos que en nuestro poema habla. 
+
+
 ## lectura
