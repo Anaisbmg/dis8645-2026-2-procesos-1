@@ -13,7 +13,7 @@ la evaluación de cada estudiantes tendrá 6 puntos, divididos en 3 grupales y 3
 
 ## condiciones mínimas
 
-1. carcasa de cartón
+1. carcasa de cartón + pantalla cualquiera + 1 potenciómetro y 1 botón mínimo
 2. licencias explícitas del corpus usado
 3. proceso constante en bitácoras personales
 4. 3x versiones distintas mínimo dentro de carpeta codigos/

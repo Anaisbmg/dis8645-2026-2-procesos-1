@@ -92,12 +92,112 @@ char *misVersos[] = {
 
 Acá podemos ver como poder guardar conjunto de caracteres, que forman palabras y que a su vez forman frases
 
+<br>
+
+#### Ejemplos propios
+
+##### String
+
+```cpp
+
+String pokemonFavoritoA = "Bulbasaur";
+String pokemonFavoritoB = "Growlithe";
+String pokemonFavoritoC = "Sylveon";
+String pokemonFavoritoD = "Delphox";
+String pokemonFavoritoE = "Sableye";
+
+
+void setup() {
+  Serial.begin(9600);
+
+  //baudios > simbolo
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.println(pokemonFavoritoA);
+  Serial.println(pokemonFavoritoB);
+  Serial.println(pokemonFavoritoC);
+  Serial.println(pokemonFavoritoD);
+  Serial.println(pokemonFavoritoE);
+ 
+ delay(200); // Pausa de 0,2 segundos para no saturar el monitor 
+
+ }
+
+```
+
+![prueba](./imagenes/prueba00.gif)
+
+##### string
+
+```cpp
+
+char pokemonFavoritoA[] = "Sableye";
+char pokemonFavoritoB[] = "Delphox";
+char pokemonFavoritoC[] = "Bulbasaur";     
+
+void setup() {
+  Serial.begin(9600);
+
+  //baudios > simbolo
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  Serial.println(pokemonFavoritoA);
+  Serial.println(pokemonFavoritoB);
+  Serial.println(pokemonFavoritoC);
+
+ delay(200); // Pausa de 2 segundos para no saturar el monitor 
+
+ }
+
+
+
+```
+
+![prueba](./imagenes/prueba01.gif)
+
+##### array
+
+```cpp
+
+char *pokemonFavoritos[] = {
+"Bulbasaur",
+"Growlithe",
+"Sylveon",
+"Delphox",
+"Sableye",
+};
+
+void setup() {
+  Serial.begin(9600);
+
+  //baudios > simbolo
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+ for (int i = 0; i < 5; i++) {
+  Serial.println(pokemonFavoritos[i]);
+ }
+}
+
+
+```
+![gif](./imagenes/prueba.gif)
+
+<br>
+
 ## encargos
 
 encargo-03b:
 
 1. apuntes personales de String, string, array, con bibliografia y con pantallazos de resultados, y dudas textuales.
+
 2. subir código a su bitácora ordenado con el formato de backticks a continuación, del proyecto hasta ahora.
+
 3. definir y escribir el corpus a usar: autora, poemas, licencias, poblarlo en la carpeta 00-proyecto-1
 
 
@@ -107,4 +207,5 @@ encargo-03b:
 ```
 
 ## lectura
+
 
