@@ -77,5 +77,3 @@ La pantalla TFT (principal) irá al lado izquierdo y la I2C al derecho la cual n
   * [https://www.instagram.com/reel/CwSyB\_Dq3gJ/](https://www.instagram.com/reel/CwSyB_Dq3gJ/)  
   * [https://www.instagram.com/p/C\_TPtmoxHe8/](https://www.google.com/search?q=https://www.instagram.com/p/C_TPtmoxHe8/)  
 * Registros visuales y pruebas de clase. (s.f.). *Uso de extracto de Akriila en clases*. Recuperado de YouTube: [https://www.youtube.com/shorts/XyG0R0R\_QLA](https://www.youtube.com/shorts/XyG0R0R_QLA) y [https://youtube.com/shorts/wRhWjAYHneg](https://www.google.com/search?q=https://youtube.com/shorts/wRhWjAYHneg)
-
-opias propuestas de poemas para darnos una idea de como seria.
