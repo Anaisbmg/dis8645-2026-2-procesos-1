@@ -35,6 +35,54 @@ Para cumplir con las normativas de derechos de autor nos contactamos directament
   <img src="./imagenes/autorizacion-editorial.png" width="50%">
 </div>
 
+## **3\. Referentes y Valores de Diseño**
+
+## **4\. Proceso de Desarrollo y Storyboard**
+
+Lo primero que hicimos fue escoger el poema que deseamos representar y uno de nuestros integrantes está leyendo el poemario “;p0ema” de Leonor Olmos. 
+
+Escogimos ese extracto en específico porque interpretamos que en esta parte la autora quería volver a la realidad, a su realidad. Que todo lo anterior dicho, 
+
+(EN DESARROLLO)
+
+## **5\. Desarrollo de la Carcasa**
+
+## **6\. Proceso del Código y elección de componentes**
+
+## **7\. Diagrama de Flujo**
+
+## **8\. Referencias y Bibliografía (Normas APA)**
+
+* AliExpress. (s.f.). *Módulo de pantalla / Componente electrónico*. Recuperado de [https://es.aliexpress.com/item/1005005912666580.html](https://www.google.com/search?q=https://es.aliexpress.com/item/1005005912666580.html)  
+* Búsqueda en Google. (s.f.). *If statement C++ with potentiometer*. Recuperado de [https://www.google.com/search?q=if+statement+c%2B%2B+with+potenciometer](https://www.google.com/search?q=if+statement+c%2B%2B+with+potenciometer)  
+* Chang, Y.-H. (s.f.). *THE EXPERIMENT IS DEMOCRACY, FASCISM IS THE CONTROL*. Young-Hae Chang Heavy Industries. Recuperado de [https://www.yhchang.com/THE\_EXPERIMENT\_IS\_DEMOCRACY\_FASCISM\_IS\_THE\_CONTROL.html](https://www.yhchang.com/THE_EXPERIMENT_IS_DEMOCRACY_FASCISM_IS_THE_CONTROL.html)  
+* HackMD. (s.f.). *Espacio de documentación*. Recuperado de [https://hackmd.io/](https://hackmd.io/)  
+* Holocubic. (s.f.). *Búsqueda de referentes visuales y carcasas*. Recuperado de Google Search.  
+* Instructables. (s.f.). *How to Find I2C Address of Any Device Using Arduino*. Recuperado de [https://www.instructables.com/How-to-Find-I2C-Address-of-Any-Device-Using-Arduin/](https://www.instructables.com/How-to-Find-I2C-Address-of-Any-Device-Using-Arduin/)  
+* Olmos, L. (s.f.). *;p0ema* (Extracto del poema 4, p. 9). \[Permiso de uso académico otorgado por la editorial\]. [http://letras.mysite.com/lolm161123.html](http://letras.mysite.com/lolm161123.html)  
+* Registros en Redes Sociales (TikTok e Instagram). (s.f.). *Recopilación de referentes visuales, tipografía cinética y displays electrónicos*. Recuperados de:  
+  * [https://vt.tiktok.com/ZSVpbG8bQ/](https://vt.tiktok.com/ZSVpbG8bQ/)  
+  * [https://vt.tiktok.com/ZSVpgYtxS/](https://vt.tiktok.com/ZSVpgYtxS/)  
+  * [https://www.instagram.com/p/DOOgrXoDQiO/](https://www.google.com/search?q=https://www.instagram.com/p/DOOgrXoDQiO/)  
+  * [https://www.instagram.com/p/DU7\_EDjjBA5/](https://www.google.com/search?q=https://www.instagram.com/p/DU7_EDjjBA5/)  
+  * [https://www.instagram.com/reel/DMZrnJaI7lF/](https://www.instagram.com/reel/DMZrnJaI7lF/)  
+  * [https://www.instagram.com/reel/DbQOnoAqbF9/](https://www.google.com/search?q=https://www.instagram.com/reel/DbQOnoAqbF9/)  
+  * [https://www.instagram.com/reel/Db3WYYjhMdQ/](https://www.instagram.com/reel/Db3WYYjhMdQ/)  
+  * [https://www.instagram.com/reel/CwSyB\_Dq3gJ/](https://www.instagram.com/reel/CwSyB_Dq3gJ/)  
+  * [https://www.instagram.com/p/C\_TPtmoxHe8/](https://www.google.com/search?q=https://www.instagram.com/p/C_TPtmoxHe8/)  
+* Registros visuales y pruebas de clase. (s.f.). *Uso de extracto de Akriila en clases*. Recuperado de YouTube: [https://www.youtube.com/shorts/XyG0R0R\_QLA](https://www.youtube.com/shorts/XyG0R0R_QLA) y [https://youtube.com/shorts/wRhWjAYHneg](https://www.google.com/search?q=https://youtube.com/shorts/wRhWjAYHneg)
+
+
+
+
+
+
+
+
+
+
+
+
 Lo primero que desarrollamos como grupo fue proponer cómo representar visualmente el poema en base a referentes y cómo podríamos expresar las líneas con distintos énfasis mediante posibles tipografías, tamaños y contrastes que nos ayudarán a construir los style frames, que posteriormente pasarán a código y serán parte fundamental de la construcción de este, además de buscar personas que ocuparan este tipo de pantallas, usos, etc.
 
 Destacamos que revisamos los ejemplos del año pasado y preguntándonos como por ejemplo, el uso de los potenciómetros, lo cual nos ayudó en el futuro a poder avanzar el poema, en este caso utilizamos el ejemplo que se hizo en clases de un extracto de akriila
