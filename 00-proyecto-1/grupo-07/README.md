@@ -184,19 +184,29 @@ void loop() {
 }
 ```
 
+## Palabras claves representativas 
+
+Como grupo decidimos destacar la parte emocional del poema, identificamos **palabras claves representativas** de mayor intensidad que actúan como puntos de mayor tensión.
+
+Si bien todo el poema transmite una emoción constante, las **palabras claves** las representamos en un tamaño tipográfico más grande al resto del verso. Esta variación de escala busca simular visualmente la sensación de un **grito**, evitando el uso de mayúsculas para mantener la estética y ritmo del poema.
+
+Como se puede apreciar en la imagen, las palabras subrayadas son las **palabras claves** que van en un tamaño mayor
+
+**subir imagen**
+
 
 ## Animaciones
 
-animación 1: después del nombre de la poetisa de Alfonsina Storni, titulo "Queja"
+Animación 1: después del nombre de la poetisa de Alfonsina Storni, titulo "Queja"
 
 **imagen de la animación**
 
-animación 2: después de la primera estrofa, corazón roto
+Animación 2: después de la primera estrofa, corazón roto
 
 **imagen de la animación**
 
 
-animación 3: después de la segunda estrofa, fueguito
+Animación 3: después de la segunda estrofa, fueguito
 
 **imagen de la animación**
 
