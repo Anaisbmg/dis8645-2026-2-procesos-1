@@ -193,7 +193,7 @@ Si bien todo el poema transmite una emoción constante, las **palabras claves** 
 Como se puede apreciar en la imagen, las palabras subrayadas son las **palabras claves** que van en un tamaño mayor
 
 **subir imagen**
-
+![Captura de pantalla poema con palabras representativas](./imagenes/palabrasrepresentativas.png)
 
 ## Animaciones
 
