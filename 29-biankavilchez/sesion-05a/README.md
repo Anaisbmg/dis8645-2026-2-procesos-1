@@ -54,6 +54,7 @@ $$y_{n+1} = -x_n + F(x_{n+1})$$
 
 Con esta fórmula simple, variando solo `b` y `r`, se genera todo el diagrama pasando de zona estable (blanca) a zona caótica (negra).
 
+![figura1](imagenes/figura-1.jpg)
 
 la parte negra de arriba y de la izquierda yo creo que eso es el caos. Ahí los puntos nunca se repiten, saltan para todos lados. Es desorden puro. Arriba del todo yo veo como unas rayas blancas que caen, como una cortina, yo creo que esas son pequeñas ventanas donde por un momento el caos se ordena.
 
