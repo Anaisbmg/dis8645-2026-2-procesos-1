@@ -61,10 +61,36 @@ Respirar()
 ----
 LAS FUNCIONES SON paramétricas. ejemplo, puedo usar dormir(calidad). 
 ----
-los atributos no afectan directamente a los métodos, 
+los atributos no afectan directamente a los métodos.
+---
+PARTE 2 CLASE a programar:
+
+mateo god, hace placas.
+
+pedidos a china, muy barato. 
+
+PARA SIMULAR: Wokwi, Starter Templates, Pi Pico SDK, 
+
+usar los constructos genéricos sin void ni setup en su estructura, eso es arduino y no lo estaremos usando. 
+
+archivos .c         NO .ino de arduino 
+
+
+
+Micropython PROHIBIDO. 
+
+
 
 ## encargos
 
 plan z hagamos un asado, sketch de comedia 1 min (2001).
+
+elegir cualquier objeto. 
+
+buscar categorías de Aristóteles, categorías del ser.
+
+analizar el objeto según estas categorías. 
+
+CITAR FUENTES.
 
 ## lectura
