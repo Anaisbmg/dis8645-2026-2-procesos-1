@@ -31,11 +31,14 @@ hoy veremos el ejemplo de **class Estudiantes** (si no esta en mayúscula no es 
 escribir 3 atributos y 3 métodos sobre nosotros
 
 - ATRIBUTOS: **usar lentes, tener piercing, maquillar**
-- MÉTODOS: **pornerse lentes, trabajar, estudiar, cansancio de vista**
+- MÉTODOS: **pornerse lentes, trabajar, estudiar**
 
 ## encargos
 
 - ver plan z: "hagamos un asado"
+- elegir un objeto (todo es un objeto)
+- investigar que son las categorías de Aristóteles
+- analizar el objeto bajo las categorías de Aristóteles
 
 ## lectura
 
