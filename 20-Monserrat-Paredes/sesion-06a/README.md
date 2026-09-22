@@ -92,4 +92,11 @@ El método siempre tendran flechas que van a los atributos (datos)
 
 ## encargos
 
+- elegir un objeto
+- buscar Categorías de  Aristóteles
+- categorías sobre la interpretación (8 o 10)
+- algoritmo de instagram, pedirlo para saber quien soy segun la empresa en atributos (para vendernos cosas)
+
+
+
 ## lectura
