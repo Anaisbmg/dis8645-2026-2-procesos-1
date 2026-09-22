@@ -76,4 +76,5 @@ Métodos
 - ponerseLentes();
 - tomarTapsin();
 
+Elegir un objeto y buscar las categorías de Aristóteles
 ## lectura
