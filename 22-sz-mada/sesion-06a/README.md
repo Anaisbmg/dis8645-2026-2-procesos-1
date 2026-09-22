@@ -41,6 +41,12 @@ dormir();
 
 ### 11:00 - 12:50
 
+PCBA = PCB Assembly
+
+![PCB de Mateo](./imagenes/pcb-mini-1.jpg)
+
+![PCB de Mateo](./imagenes/pcb-mini-2.jpg)
+
 ### samplers de Aarón
 
 ![volca sample](./imagenes/volca-sample.jpg)
@@ -60,5 +66,7 @@ TIL en VSCode, si escribo un color en hex code, me da un preview!
 ## encargos
 
 PLAN Z hagamos un asado (????????????)
+
+Elegir un objeto, buscar las categorías del ser de Aristóteles. 
 
 ## lectura
