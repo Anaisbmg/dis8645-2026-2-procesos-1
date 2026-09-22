@@ -2,6 +2,24 @@
 
 ## apuntes sesión
 
+U int es una variable de números enteros que solo toma números positivos, los números negativos no.
+Existen variables que son datos y luego funciones que es acciones que se van a hacer con esos datos.
+Es importante que las variables se diferencien en diferentes tipos para así ocupar menos espacio ya que si todas las variables fueran asignadas como un mismo tipo de información no sería eficiente, ya que hay tipos de datos que son si o no o por ejemplo de números enteros o de números con decimales.
+
+LAS CLASES VAN CON MAYÚSCULA AL PRINCIPIO.
+
+CLASES ATRIBUTOS Y MÉTODOS
+Los atributos són cosas que definen como es algo y método es una función que hace.
+Los atributos te dicen cómo está el objeto en un momento dado (su estado).
+Los métodos te dicen qué puede hacer ese objeto, y pueden cambiar los atributos.
+Por ejemplo el método de caminar, puede cambiar tu atributo de posición.
+Ejercicio atributos:
+
+3 atributos 
+bool marrón
+
+3 métodos
+caminar()
 ## encargos
 
 ## lectura
