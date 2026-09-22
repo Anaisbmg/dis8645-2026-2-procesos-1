@@ -1,6 +1,6 @@
 # sesion-05b
 
-retroalimentación proyecto-01
+No asistí a clase para evitar problemas en al viaje en el metro, porque vivo lejos de la universidad :(
 
 ## apuntes sesión
 
