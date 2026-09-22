@@ -36,12 +36,24 @@ dormir();
 
 . . . ( . . . ) &rarr; acciones, funciones (métodos)
 
+### samplers de Aarón
+
+![volca sample](./imagenes/volca-sample.jpg)
+
+&uarr; [KORG volca sample](https://www.korg.com/us/products/dj/volca_sample/)
+
+![supertone EP-40](./imagenes/riddim-ep40.jpg)
+
+&uarr; [RIDDIM supertone EP-40](https://www.korg.com/us/products/dj/volca_sample/)
+
 ---
 
 TIL en VSCode, si escribo un color en hex code, me da un preview!
 
-![VSCode preview color](./imagenes/vscode-color.png)
+![VSCode preview color](./imagenes/vscode-colour.png)
 
 ## encargos
+
+PLAN Z hagamos un asado (????????????)
 
 ## lectura
