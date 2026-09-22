@@ -4,7 +4,38 @@ martes 2026/09/22
 
 ## apuntes sesión
 
+### charla de los proyectos en general
+
+**botón**
+- bool estado 1 - 0 (encendido y apagado)
+- **u** int duración presionado (int es un tipo de variable que permite un solo tipo de elemento / son números mas grandes / números enteros)
+- u significa números infinitos ( 0, 1, 2, 3, 4....)
+- **int = escalera = números enteros**
+- **float = rampa = números infinitos**
+- **bool = presencia/ausencia**
+- **u = usigned = no se permiten números con signos (no existen negativos)**
+
+
+### class/clases
+
+hoy veremos el ejemplo de **class Estudiantes** (si no esta en mayúscula no es class)
+
+**¿Qué es class?**  las class/clases son una especie de plantilla, molde común (palabra clave exacta que escribes en el código para que la computadora te entienda)
+
+- variables y funciones dentro de una class, molde o planos
+- datos (asistencia) - variable - programación = **atributos** (infomación)
+- acciones - funciones = **métodos** (lo que hago con esa información, son métodos que impactan en los atributos)
+
+### ejercicio en clases
+
+escribir 3 atributos y 3 métodos sobre nosotros
+
+- ATRIBUTOS: **usar lentes, tener piercing, maquillar**
+- MÉTODOS: **pornerse lentes, trabajar, estudiar, cansancio de vista**
+
 ## encargos
+
+- ver plan z: "hagamos un asado"
 
 ## lectura
 
