@@ -8,13 +8,13 @@
 
 Aarón habló con Kristel sobre su práctica?, recomendó **NO** hacer titulación por práctica
 
-### 9:00 - ??:??
+### 9:00 - 10:30
 
 ¿Qué fue lo más difícil del proyecto anterior? En mi caso, antes del merge, fue decidir qué poema usar basado en cómo podríamos animar(?) los versos lol
 
 `bool` es 1 o 0, `uint` es SOLO números positivos + el cero. `int` is ]-32,0[ & ]0,32[. En el `boolean` "cabe algo, o nada" pero en `int` "caben muchas cosas". la u de uint means "unsigned"
 
-`class` [is a template to create objects having similar properties and behavior](https://www.geeksforgeeks.org/cpp/c-classes-and-objects/). variable always? starts with caps
+`class` [is a template to create objects having similar properties and behavior](https://www.geeksforgeeks.org/cpp/c-classes-and-objects/). type always starts with caps
 
 ![class explained](./imagenes/classes.jpg)
 
@@ -35,6 +35,11 @@ dormir();
 . . . &rarr; datos, variables (atributos)
 
 . . . ( . . . ) &rarr; acciones, funciones (métodos)
+
+
+3 atributos y 3 métodos míos: i'm awake (bool), i'm wearing black (int? could be hex code? as in `int clothes = #000000;`), i have a cat (uint? i have *a* cat, but i could have more, eg. `uint petCats = 1;`) / teñirme el pelo, vestirme, conducir
+
+### 11:00 - 12:50
 
 ### samplers de Aarón
 
