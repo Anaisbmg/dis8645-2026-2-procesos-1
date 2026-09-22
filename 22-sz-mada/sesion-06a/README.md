@@ -36,16 +36,7 @@ dormir();
 
 . . . ( . . . ) &rarr; acciones, funciones (métodos)
 
-
 3 atributos y 3 métodos míos: i'm awake (bool), i'm wearing black (int? could be hex code? as in `int clothes = #000000;`), i have a cat (uint? i have *a* cat, but i could have more, eg. `uint petCats = 1;`) / teñirme el pelo, vestirme, conducir
-
-### 11:00 - 12:50
-
-PCBA = PCB Assembly
-
-![PCB de Mateo](./imagenes/pcb-mini-1.jpg)
-
-![PCB de Mateo](./imagenes/pcb-mini-2.jpg)
 
 ### samplers de Aarón
 
@@ -63,10 +54,22 @@ TIL en VSCode, si escribo un color en hex code, me da un preview!
 
 ![VSCode preview color](./imagenes/vscode-colour.png)
 
+### 11:00 - 12:50
+
+PCBA = PCB Assembly
+
+![PCB de Mateo](./imagenes/pcb-mini-1.jpg)
+
+![PCB de Mateo](./imagenes/pcb-mini-2.jpg)
+
+[Wokwi](https://wokwi.com/)
+
+Micropython está **prohibido** lol
+
 ## encargos
 
 PLAN Z hagamos un asado (????????????)
 
-Elegir un objeto, buscar las categorías del ser de Aristóteles. 
+Elegir un objeto, buscar las categorías del ser de Aristóteles.
 
 ## lectura
