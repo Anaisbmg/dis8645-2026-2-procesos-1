@@ -41,6 +41,10 @@ Metodo
 - respirar
 - oprimir switch
 
+Elijan cualquier objeto (Todo es un objeto)
+
+Buscar las categorias de aristoteles y analizar a partir de las categorias de aristoteles
+
 ## encargos
 
 
