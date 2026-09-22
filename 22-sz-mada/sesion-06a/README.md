@@ -21,12 +21,26 @@ Aarón habló con Kristel sobre su práctica?, recomendó **NO** hacer titulaci�
 eg.
 
 ```cpp
-class Estudiante {
+class Perrite {
+
+bool hambre = true;
+bool durmiendo = true;
+int pelaje = #000000;
+
+comer();
+dormir();
+}
 ```
 
 . . . &rarr; datos, variables (atributos)
 
 . . . ( . . . ) &rarr; acciones, funciones (métodos)
+
+---
+
+TIL en VSCode, si escribo un color en hex code, me da un preview!
+
+![VSCode preview color](./imagenes/vscode-color.png)
 
 ## encargos
 
