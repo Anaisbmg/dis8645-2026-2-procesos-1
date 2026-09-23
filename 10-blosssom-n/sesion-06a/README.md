@@ -235,4 +235,27 @@ aparte, para el martes 07a
 Bajar cómo **Instagram nos describe**, pensando en el algoritmo.
 
 
+
 ## lectura
+
+PAG 44-60
+
+En estas páginas aparecen varios ejemplos de poemas hechos con programación. Básicamente, los programas tienen palabras, frases o estructuras guardadas y después las van combinando para generar diferentes resultados.
+
+Aparece harto la repetición y también la idea de cambiar algunas partes de una misma estructura. Por ejemplo, se puede mantener una frase y cambiar solamente algunas palabras. También aparece el cut-up, que sería tomar partes de un texto y volver a mezclarlas.
+
+Después habla de los slots, que son como espacios dentro de una estructura que el programa va rellenando con diferentes palabras. Esto aparece también en los ejemplos de haikus, donde se mantiene una estructura y van cambiando los elementos.
+
+En general, entendí que el resultado depende bastante de las reglas que tenga el programa y de las palabras que se le hayan dado. O sea, no es que el computador invente todo desde cero.
+
+Citas
+
+“the programming leads to extensive repetition” (p. 45).
+
+“the chance automation of text makes for awkward writing” (p. 54).
+
+Cosas que me quedaron
+
+Me quedó más claro que estos poemas se hacen a partir de cosas que ya están dentro del programa y que después se van mezclando.
+
+También me llamó la atención que algo que parece muy aleatorio igual tiene reglas detrás, porque alguien tuvo que decidir qué palabras podía usar el programa y cómo las iba a combinar.
