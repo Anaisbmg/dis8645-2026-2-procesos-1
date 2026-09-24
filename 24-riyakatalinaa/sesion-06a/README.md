@@ -40,6 +40,76 @@ escribir 3 atributos y 3 métodos sobre nosotros
 - investigar que son las categorías de Aristóteles
 - analizar el objeto bajo las categorías de Aristóteles
 
+
+## investigar que son las categorías de Aristóteles
+
+### ¿Quién es Aristóteles?
+
+- Aristóteles (384 a. C. – 322 a. C.)
+- fue un filósofo, polímata y científico de la Antigua Grecia
+- es considerado, junto a Platón (quien fue su maestro), una de las figuras intelectuales más influyentes de la historia de la humanidad, sentando las bases del pensamiento y el método científico occidental
+
+**NOTA** polímata es una persona que domina demasiados temas de conocimientos muy distintos entre sí, es decir de cualquier campo 
+
+polímata = sabelotodo
+
+### ¿Qué hizo?
+
+- estudió casi todo lo de su época
+- creó las reglas de la lógica que usamos hoy
+- investigó y clasificó animales y plantas mediante la observación
+- fundó su propia escuela, el **Liceo** en 335 a. C
+- escribió libros muy importantes sobre ciencia, política y filosofía
+- fue el maestro que educó al famoso conquistador **Alejandro Magno**
+
+**pd:** algo que me quedo muy marcado de Aristóteles es que llamaba **peripatéticos** a sus alumnos, yo pensaba que de patéticos/lamentables.. pero investigando me di cuanta que proviene de la palabra griega **peripatein** que es **"caminar alrededor/pasear"** y patético proviene de una palabra griega totalmente diferente que es **pathos** que significa **"sentimiento/dolor/emoción"** pero esta palabra con el tiempo se fue denigrando hasta hoy en día que es un significado totalmente diferente 
+
+### ¿Qué son Las categorías según Aristóteles?
+
+**contexto** Las categorías se encuentran en el primer libro de Aristóteles: **Organon**
+
+### Las categorías
+
+para Aristóteles **Las categorías** son los diez modos fundamentales de ser o las diez formas supremas en las que podemos clasificar todo lo que existe y todo lo que podemos decir sobre algo sin usar oraciones compuestas, es decir, que son las 10 piezas básicas con las que construimos cualquier idea antes de armar una oración completa
+
+- **sustancia** = ¿Qué es en sí?= lo que la cosa es en sí misma (es la categoría principal)
+- **cantidad** = ¿Cuánto mide o pesa? = la medida o dimensión 
+- **cualidad** = ¿Cómo es? = una propiedad o característica 
+- **relación** = ¿Con qué se compara? = la conexión con otra cosa
+- **lugar** = ¿Dónde está? = dónde está
+- **tiempo** = ¿Cuándo? = cuándo ocurre 
+- **posición** = ¿En qué postura? = en qué postura se encuentra 
+- **estado/posesión** = ¿Qué lleva encima/posee? = lo que tiene o lleva 
+- **acción** = ¿Qué está haciendo? = lo que la cosa hace 
+- **pasión** = ¿Qué le están haciendo a eso? = lo que la cosa recibe o padece
+
+gracias a estas categorias no puedes pensar ni nombrar nada en el mundo que no encaje en una de estas 10 casillas
+
+### elegir un objeto y analizarlo bajo Las categorías de Aristóteles
+
+objeto elegido = 
+
+- **sustancia** = 
+- **cantidad=** = 
+- **cualidad** = 
+- **relación** = 
+- **lugar** = 
+- **tiempo** =
+- **posición** =
+- **estado/posesión** =
+- **acción** = 
+- **pasión** = 
+
+### links
+
+link de donde recopile esta información
+- [National Geographic](https://historia.nationalgeographic.com.es/a/aprender-paseando-asi-era-revolucionario-metodo-ensenanza-aristoteles_24392)
+- [Wikipedia Aristóteles](https://es.wikipedia.org/wiki/Arist%C3%B3teles)
+- [Wikipedia Categorías (Aristóteles)](https://en.wikipedia.org/wiki/Categories_(Aristotle))
+- [Diccionario de la lengua Española](https://dle.rae.es/peripat%C3%A9tico)
+
+
+
 ## lectura
 
 nos dejaron elegir un libro para leer durante el semestre en el cual debemos dejar 2 citas por clase y leer mínimo 100 paginas durante el semestre
