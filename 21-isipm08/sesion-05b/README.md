@@ -2,14 +2,16 @@
 
 ## apuntes sesión
 
+## artistas mencionados en clase 
+
 Donna Haraway
 
 Yukio Ota
 
 Ada Lovelace
 
-computador 
-- datos -- medibles -- comprabales
+## computador 
+- datos -- medibles -- comparables
 - números
 - comparaciones
 - representación
@@ -18,14 +20,10 @@ computador
 - representar
 - estilo de vida
 
-icono
+## ícono
 - cómo una imagen construye un significado
 - método de comuniación
 
-tela de jacquard máquina
+- tela de jacquard máquina
 
-cultura rupestre -- gesto/símbolo
-
-## encargos
-
-
+- cultura rupestre -- gesto/símbolo
