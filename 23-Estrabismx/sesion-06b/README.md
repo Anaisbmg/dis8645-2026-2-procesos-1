@@ -2,9 +2,42 @@
 
 ## apuntes sesión
 
-[wokwi](https://wokwi.com/) 
+### [Wokwi](https://wokwi.com/)
 
+En esta clase trabajamos con Wokwi, un simulador con mucho parecido a Tinkercad. En este podemos escribir código y hacer pruebas para ejecutarlo de manera On-Line, evitando así causar daños a nuestras placas (además de realizar pruebas en caso de no poseer un microcontrolador)
 
+![wokwi](./imagenes/sc-13.png)
+
+Existe diversidad de microcontroladores para hacer pruebas, solo que nos enfocaremos en Raspberry Pi Pico
+
+<br>
+
+![Wokwi](./imagenes/sc-14.png)
+
+Además podremos elegir múltiples ejemplos de proyectos y plantillas para desarrollar ideas. Nosotros utilizaremos "_Pi Pico SDK (Adanced)_"
+
+<br>
+
+![Wokwi](./imagenes/sc-15.png)
+
+Ya tenemos una plantilla con la que iniciar nuestros proyectos.
+
+Vamos a desglosar el código que vemos:
+
+```cpp
+
+#include <stdio.h>
+#include "pico/stdlib.h"
+
+int main() {
+  stdio_init_all();
+  while (true) {
+    printf("Hello, Wokwi!\n");
+    sleep_ms(250);
+  }
+}
+
+```
 
 ```cpp
 // copia y pega ese archivo
