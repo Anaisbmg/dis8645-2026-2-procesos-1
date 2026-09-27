@@ -2,6 +2,8 @@
 
 ## apuntes sesión
 
+### gi
+
 ### [Wokwi](https://wokwi.com/)
 
 En esta clase trabajamos con Wokwi, un simulador con mucho parecido a Tinkercad. En este podemos escribir código y hacer pruebas para ejecutarlo de manera On-Line, evitando así causar daños a nuestras placas (además de realizar pruebas en caso de no poseer un microcontrolador)
@@ -38,6 +40,24 @@ int main() {
 }
 
 ```
+
+Iniciando observamos dos `#include`, el que utiliza `<stdio.h>` corresponde aun llamado directo a la biblioteca estandar del sistema. Y en cambio, `"pico/stdlib.h"` primero busca el archivo en la ruta del proyecto 
+
+Luego podemos ver la función:
+
+```cpp
+
+int main() {
+
+}
+
+```
+
+Esta función nos retorna un número entero, además de ser la principal, todo debe ocurrir dentro de ella 
+
+Continuamos tenemos `stdio_init_all();` que inicializa el Raspberry Pi Pico
+
+<br>
 
 ```cpp
 // copia y pega ese archivo
