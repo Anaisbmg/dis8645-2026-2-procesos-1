@@ -98,3 +98,9 @@ seleccionar un objeto y clasificarlo según las categorías del ser de aristóte
 
 
 ## lectura
+
+Como mencioné anteriormente escogí The art of music production de Richard James Burgess por el mero hecho de que me gustaría conocer más allá del ámbito de la producción musical porque me gustaría, de manera personal, producir canciones. Conocer más del ámbito y lanzarme. 
+
+Hace poco conocí el canal de “colectivo no lineal” donde nos presentan varios referentes chilenos hablándonos sobre cómo compusieron uno de sus temas tanto hablando de la letra como la base. Comence con el video de Fakura ( https://youtu.be/hd0bqSuszrA?si=Jdj_uh-6udXRAPKw ) pero tengo la tarea de verlos todos. 
+
+
