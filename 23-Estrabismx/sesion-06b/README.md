@@ -2,7 +2,22 @@
 
 ## apuntes sesión
 
-### gi
+### 10 Categorias de Aristoteles
+
+1. sustancia: mi encendedor
+2. cantidad: 1
+3. cualidad: posee una dimensiones aproximadas de 8cm x 3cm x 1.5 cm. Sus colores son negro y rojo, posee gas butano y un regulador
+4. relación: comparado con otros, este posee una llama más contenida
+5. lugar: actualmente se encuentra a unos centimetros de mi pc
+6. tiempo: ahora y durante un lapso de tiempo 
+7. posición: acostado de forma horizontal
+8. posesión: porta gas butano
+9. acción: encender una llama
+10. pasión: quemar o iniciar combustión
+
+### charla ---
+
+[]
 
 ### [Wokwi](https://wokwi.com/)
 
@@ -105,5 +120,7 @@ int main() {
 ```
 
 ## encargos
+
+RRSS
 
 ## lectura
