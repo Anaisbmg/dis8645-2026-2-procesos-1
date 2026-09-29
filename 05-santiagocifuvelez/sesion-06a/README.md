@@ -11,20 +11,31 @@ seleccionar un objeto y clasificarlo según las categorías del ser de aristóte
 ![](./imagenes/objeto.jpeg)
 
 #### Sustancia: 
-Papel térmico y tinta impresa.
+Papel térmico y tinta impresa: celulosa purificada (fibra de madera) y un complejo sistema químico de microcápsulas y resinas reactivas que permiten duplicar la escritura sin usar papel carbón.
 
 #### Cantidad: 
-Es una hoja alargada con único código QR. Registra 2 personas y un total de $0. Además, cada ticket puede usarse solo una vez.
+Hay 1 entrada (una factura), con 1 código QR. Sirve para 2 personas, y el total cancelado es $0.
 
 #### Cualidad: 
-La factura es blanca con tinta negra, flexible, muy alargada, con pliegues marcados y algo desgastada. Aún así, es legible y el QR se distingue .
+Se diferencia de otros papeles porque es único: lleva un QR propio, la fecha de compra y los datos del museo, y "puede ser utilizado solamente una vez". Sirve para ingresar al Museo Chileno de Arte Precolombino.
 
 #### Relación:
-#### Lugar:
-#### Tiempo
-#### Posición
-#### Estado
-#### Acción
-#### Pasión
+Es más frágil y desechable que una entrada de plástico o una tarjeta. Comparada con una entrada de pago, esta vale $0 pero habilita lo mismo. Además, está más arrugada y gastada que una entrada nueva.
 
-## lectura
+#### Tiempo: 
+Adquirida el 24-09-2026 a las 15:08:06, hace 5 días. Fue en la tarde.
+
+#### Lugar:
+Es una hoja angosta y alargada que cabe en una mano; en la foto, entre los dedos de quien la sostiene.
+
+#### Posición:
+Está en posición vertical, sostenida por una mano (el pulgar arriba a la izquierda), con un fondo rojo y oscuro detrás.
+
+#### Estado:
+Está arrugada, con pliegues marcados y doblada en varios puntos, pero legible y con el QR reconocible. Todavía sirve, aunque ya no está como nueva.
+
+#### Acción:
+Fue impresa al emitirse, se dobló y se guardó, y quien la sostiene la exhibió para la foto. Al ingresar al museo, se escanea el QR.
+
+#### Pasión:
+Sufrió arrugas, dobleces y desgaste por el uso y el recuerdo. 
