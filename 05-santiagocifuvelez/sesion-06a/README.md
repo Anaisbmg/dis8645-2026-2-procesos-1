@@ -22,7 +22,7 @@ Hoy vimos:
 
 ## 1. Objetivo de la clase
 
- La clase propone algo nuevo: **agrupar datos y acciones dentro de una misma cosa** (un objeto).
+En clase vimos algo nuevo: **agrupar datos y acciones dentro de una misma cosa** (un objeto).
 
 > **Cómo entenderlo:** Un perro real, no lo describes solo con datos ("tiene hambre", "tiene pelaje"), también con lo que puede hacer ("ladra", "come", "duerme"). Una clase junta ambas cosas en un solo paquete.
 
