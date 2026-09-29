@@ -10,4 +10,15 @@ seleccionar un objeto y clasificarlo según las categorías del ser de aristóte
 
 ![](./imagenes/objeto.jpeg)
 
+#### Sustancia: 
+#### Cantidad:
+#### Cualidad:
+#### Relación:
+#### Lugar:
+#### Tiempo
+#### Posición
+#### Estado
+#### Acción
+#### Pasión
+
 ## lectura
