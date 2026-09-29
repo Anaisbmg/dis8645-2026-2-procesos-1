@@ -37,7 +37,7 @@ Una **variable** guarda un dato. Es como un contenedor, y el **tipo** define qu�
 | `bool` | Solo `true` o `false` | `bool caminar = true;` | Un interruptor (prendido/apagado) |
 | `int` | Números enteros | `int cantidad = 3;` | Una **escalera**: 1 → 2 → 3, sin nada en medio |
 | `float` | Números con decimales | `float valor = 1.5;` | Una **rampa**: entre 1.0 y 2.0 hay infinitos valores |
-| `uint` | Enteros sin signo negativo (*unsigned integer*) | `0, 1, 2, 3...` | Una escalera que solo sube desde cero: no existe el `-1` |
+| `uint` | Enteros sin signo negativo | `0, 1, 2, 3...` | Una escalera que solo sube desde cero: no existe el `-1` |
 
 **Para qué sirve cada uno:** `bool` sirve para "se cumple / no se cumple" o "presente / ausente". `int` para contar cosas (3 manzanas). `float` para medir (1.5 metros). `uint` cuando un número negativo no tiene sentido (por ejemplo, una cantidad de personas).
 
@@ -76,7 +76,7 @@ class Perrito {
 };
 ```
 
-`hambre`, `durmiendo` y `pelaje` son atributos.
+**`hambre`, `durmiendo` y `pelaje` son atributos.**
 
 > **Ojo con la terminología:** una variable que vive dentro de una clase se llama **atributo**. Es lo mismo que una variable, pero con otro nombre porque pertenece a una clase.
 >
@@ -91,7 +91,7 @@ Los **métodos** son las **acciones** que puede hacer algo: `comer()`, `dormir()
 **Truco para distinguirlos de los atributos:**
 
 - **Sustantivos / características → atributos** (hambre, pelaje)
-- **Verbos / acciones → métodos** (comer, ladrar)
+- **Verbos / `acciones → métodos`** (comer, ladrar)
 
 ---
 
@@ -240,8 +240,6 @@ Por ejemplo: `ponerseCrema();`
 **Regla clave:** los métodos deben tener **relación con los atributos**. Un método puede **leer** o **modificar** un atributo.
 
 Aquí: `ponerseCrema()` → `tieneRulos`
-
-### Las flechas del diagrama
 
 Van **desde los métodos hacia los atributos**:
 
