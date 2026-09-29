@@ -1,4 +1,17 @@
 # sesion-06a
+Hola profe Aarón,Misa, Emi y Sebas. Espero que se encuentren bien cuando estén leyendo por aquí!
+
+Hoy vimos: 
+1. Tipos de Variables
+2. Clases
+3. Atributos
+4. Métodos
+5. Funciones y Métodos
+6. Clase e instancia
+7. Superclass
+8. Arrays
+9. For
+10. Ejercicio en clase: Estudiante
 
 ## apuntes sesión
 
