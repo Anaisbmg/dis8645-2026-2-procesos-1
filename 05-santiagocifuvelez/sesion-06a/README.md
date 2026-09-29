@@ -391,3 +391,8 @@ Fue impresa al emitirse, se dobló y se guardó, y quien la sostiene la exhibió
 
 #### Pasión:
 Sufrió arrugas, dobleces y desgaste por el uso y el recuerdo. 
+
+# Lectura 
+Guys i'm so srry. I have stop reading the book bc it's about exercices, and u have to research by ur own, and it's great..., but I haven't take time apart to do them and learn... 
+
+¿Can I change it for another book, and then after the octber 13, can I go back to the one I have now?
