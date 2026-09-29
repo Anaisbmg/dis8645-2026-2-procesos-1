@@ -10,8 +10,8 @@ seleccionar un objeto y clasificarlo según las categorías del ser de aristóte
 
 ![](./imagenes/objeto.jpeg)
 
-#### Sustancia: 
-#### Cantidad:
+#### Sustancia: Papel térmico y tinta impresa.
+#### Cantidad: Es una hoja alargada con único código QR. Registra 2 personas y un total de $0. Además, cada ticket puede usarse solo una vez.
 #### Cualidad:
 #### Relación:
 #### Lugar:
